@@ -1,12 +1,20 @@
 import { PF1S } from "./config";
 import { PF1ItemData } from "./item-data";
 
+/**
+ * Hooks into the rendering of the Item sheet, adding input fields for data
+ * related to the Spheres module.
+ *
+ * @async
+ * @param  app - The sheet instance
+ * @param  html - The rendered HTML element
+ * @param  data - The sheet's data object
+ */
 export const onItemSheetRender = async (
   app: BaseEntitySheet,
   html: JQuery<HTMLElement>,
   data: BaseEntitySheet.Data
 ): Promise<void> => {
-  // Handle stuff
   const item = app.object as Item;
   const itemData = item.data as PF1ItemData;
 
