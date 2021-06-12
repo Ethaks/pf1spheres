@@ -6,7 +6,7 @@ This module for the [Pathfinder 1e game system](https://gitlab.com/Furyspark/fou
 
 To install the module navigate to Foundry's _Add-on Modules_ tab in the Setup menu and paste the following link in the **Install Module** dialog:
 
-[https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/raw/latest/system.json](https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/raw/latest/system.json)
+[https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/raw/latest/src/module.json](https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/raw/latest/src/module.json)
 
 The module can also be installed manually by downloading a zip archive from the Releases Page and extracting it to Foundry's `Data/modules/pf1spheres` directory.
 
@@ -24,7 +24,7 @@ nvm install
 
 in the project's root directory.
 
-You also need to install the the project's dependencies. To do so, run
+You also need to install the project's dependencies. To do so, run
 
 ```
 npm install
@@ -77,6 +77,12 @@ You can run the tests with the following command:
 
 ```
 npm test
+```
+
+Since the regular esbuild job does not check for type errors, you can run the TypeScript compiler with
+
+```
+npm run test:compile
 ```
 
 ## Legal
