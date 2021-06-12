@@ -4,7 +4,7 @@ This module for the [Pathfinder 1e game system](https://gitlab.com/Furyspark/fou
 
 ## Installation
 
-To install the module navigate to Foundry's *Modules* tab in the Setup menu and paste the following link in the **Install Module** dialog:
+To install the module navigate to Foundry's _Add-on Modules_ tab in the Setup menu and paste the following link in the **Install Module** dialog:
 
 [https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/raw/latest/system.json](https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/raw/latest/system.json)
 

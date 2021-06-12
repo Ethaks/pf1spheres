@@ -20,7 +20,7 @@ const browserSync = require("browser-sync").create();
 /*  CONFIGURATION   */
 /********************/
 
-const name = path.basename(path.resolve("."));
+const name = "pf1spheres";
 const sourceDirectory = "./src";
 const distDirectory = "./dist";
 const stylesDirectory = `${sourceDirectory}/styles`;
@@ -268,13 +268,19 @@ function bumpVersion(cb) {
     manifest.file.download = getDownloadURL(targetVersion);
     fs.writeJSONSync(`${sourceDirectory}/${manifest.name}`, manifest.file, { spaces: 2 });
 
-    return gulp
-      .src(`${sourceDirectory}/module.json`)
-      .pipe(git.commit(`Release ${targetVersion}`))
-      .pipe(git.tag(`${targetVersion}`));
+    return gulp.src(`${sourceDirectory}/module.json`).pipe(git.commit(`Release ${targetVersion}`));
   } catch (err) {
     cb(err);
   }
+}
+
+/**
+ * Creates a tag with the current version
+ */
+function tagVersion() {
+  const packageJson = fs.readJSONSync("package.json");
+  const version = packageJson.version;
+  return git.tag(`${version}`);
 }
 
 /********************/
@@ -429,7 +435,7 @@ exports.build = gulp.series(clean, execBuild);
 exports.watch = buildWatch;
 exports.clean = clean;
 exports.link = linkUserData;
-exports.bumpVersion = bumpVersion;
+exports.bumpVersion = gulp.series(bumpVersion, tagVersion);
 
 exports.compilePacks = gulp.series(cleanPacks, compilePacks);
 exports.extractPacks = extractPacks;
