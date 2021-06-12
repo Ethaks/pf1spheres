@@ -4,6 +4,7 @@ import { localize } from "./util";
 
 /**
  * Registers all change targets not already part of {@link PF1CONFIG.buffTargets}
+ * and applies additional changes to the PF1 system config.
  */
 export const registerChanges = (): void => {
   for (const [key, value] of Object.entries(PF1S.magicSpheres)) {
@@ -12,6 +13,9 @@ export const registerChanges = (): void => {
       category: "sphereCasterLevel",
     });
   }
+
+  // Allow stacking of multple sphere caster level modifiers capped at HD
+  CONFIG.PF1.stackingBonusModifiers?.push("sphereCLCap");
 };
 
 /**
