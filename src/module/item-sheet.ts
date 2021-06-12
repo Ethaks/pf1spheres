@@ -1,5 +1,5 @@
 import { PF1S } from "./config";
-import { PF1ItemData } from "./item-data";
+import { ItemType, PF1ItemData } from "./item-data";
 
 /**
  * Hooks into the rendering of the Item sheet, adding input fields for data
@@ -23,7 +23,7 @@ export const onItemSheetRender = async (
   };
 
   // Only handle classes and talents
-  if (!["class", "feat"].includes(item.data.type)) return;
+  if (!["class", "feat"].includes(item.data.type as ItemType)) return;
 
   // Handle additions to feature sheet
   if (itemData.type === "feat") {

@@ -46,7 +46,10 @@ export type SphereCLChangeTarget = `spherecl${Capitalize<MagicSphere>}`;
 /*   PF1 CONFIG BELOW   */
 /************************/
 
-type ItemType =
+/*
+ * Item Types from the PF1 system
+ */
+export type ItemType =
   | "weapon"
   | "equipment"
   | "consumable"
@@ -59,6 +62,9 @@ type ItemType =
   | "race"
   | "container";
 
+/*
+ * Bonus Modifier types from the PF1 system, used for Changes
+ */
 export type BonusModifier =
   | "untyped"
   | "untypedPerm"

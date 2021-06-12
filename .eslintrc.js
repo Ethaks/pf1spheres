@@ -19,7 +19,13 @@ module.exports = {
   plugins: ["@typescript-eslint", "jest"],
 
   rules: {
-    // Specify any specific ESLint rules.
+    "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    "@typescript-eslint/ban-ts-comment": [
+      "error",
+      {
+        "ts-expect-error": "allow-with-description",
+      },
+    ],
   },
 
   overrides: [

@@ -76,10 +76,6 @@ Hooks.once("setup", async () => {
   registerChanges();
 });
 
-Hooks.on("renderActorSheetPF", async (app, html, data) => {
-  // Add talent tab
-});
-
 Hooks.on("renderItemSheetPF", onItemSheetRender);
 
 Hooks.on("pf1.prepareBaseActorData", onActorBasePreparation);
