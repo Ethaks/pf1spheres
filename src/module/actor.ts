@@ -3,6 +3,12 @@ import { TotalModData, ValueData } from "./common-data";
 import { PF1S } from "./config";
 import { PF1ItemData } from "./item-data";
 
+/**
+ * Hook into the preparation of derived data for Actors, calculating all
+ * data dependent on an actor's Items, like Caster Level and MSB/D.
+ *
+ * @param actor - The actor whose data gets prepared
+ */
 export const onActorPreparation = (actor: Actor): void => {
   const sphereData: PF1ActorSpheresData = actor.data.data.spheres;
   const useFractionalBAB =
@@ -39,6 +45,15 @@ export const onActorPreparation = (actor: Actor): void => {
   setProperty(sphereData, "msd.total", msb + 11 + (sphereData.msd.mod ?? 0));
 };
 
+/**
+ * Hooks into the preparation of base data for Actors, resetting values later
+ * on derived from items, like Caster Level and MSB/D.
+ *
+ * Every change target needs to get initialised with a value of the type number,
+ * as otherwise Changes cannot be calculated and summed up.
+ *
+ * @param {Actor} actor - The actor whose data gets prepared
+ */
 export const onActorBasePreparation = (actor: Actor): void => {
   const valueDataTemplate: ValueData<number> = {
     base: 0,
