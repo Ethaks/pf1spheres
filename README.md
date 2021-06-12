@@ -1,20 +1,22 @@
 # pf1spheres
 
-Add your description here.
+This module for the [Pathfinder 1e game system](https://gitlab.com/Furyspark/foundryvtt-pathfinder1) for [Foundry Virtual Tabletop](http://foundryvtt.com/) provides additional functionality and support for the rule sets [Spheres of Power](https://www.dropdeadstudios.com/spheres-of-power) and [Spheres of Might](https://www.dropdeadstudios.com/spheres-of-might) from [Drop Dead Studios](https://www.dropdeadstudios.com/).
 
 ## Installation
 
-Add your installation instructions here.
+To install the module navigate to Foundry's *Modules* tab in the Setup menu and paste the following link in the **Install Module** dialog:
+
+[https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/raw/latest/system.json](https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/raw/latest/system.json)
+
+The module can also be installed manually by downloading a zip archive from the Releases Page and extracting it to Foundry's `Data/modules/pf1spheres` directory.
 
 ## Development
 
 ### Prerequisites
 
-In order to build this module, recent versions of `node` and `npm` are
-required. Most likely using `yarn` also works but only `npm` is officially
-supported. We recommend using the latest lts version of `node`, which is
-`v14.15.5` at the time of writing. If you use `nvm` to manage your `node`
-versions, you can simply run
+In order to build this module, recent versions of `node` and `npm` are required.
+Most likely using `yarn` also works but only `npm` is officially supported.
+If you use `nvm` to manage your `node` versions, you can simply run
 
 ```
 nvm install
@@ -76,3 +78,9 @@ You can run the tests with the following command:
 ```
 npm test
 ```
+
+## Legal
+
+The software component of this system is distributed under the EUPL v. 1.2.
+The rules and game content is distributed under the terms of the Open Gaming License v1.0a.
+The terms of the [Foundry Virtual Tabletop End User License Agreement](https://foundryvtt.com/article/license/) apply.
