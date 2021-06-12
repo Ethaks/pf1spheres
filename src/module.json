@@ -1,0 +1,75 @@
+{
+  "name": "pf1spheres",
+  "title": "PF1 Spheres Module",
+  "description": "",
+  "version": "0.0.0",
+  "author": "Ethaks",
+  "authors": [
+    {
+      "name": "Ethaks",
+      "discord": "Ethaks#2903",
+      "ko-fi": "ethaks",
+      "url": "https://gitlab.com/Ethaks"
+    }
+  ],
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "0.8.6",
+  "scripts": [],
+  "esmodules": ["pf1spheres.js"],
+  "styles": ["styles/pf1spheres.css"],
+  "packs": [
+    {
+      "name": "combat-talents",
+      "label": "Combat Talents",
+      "system": "pf1",
+      "path": "./packs/combat-talents.db",
+      "entity": "Item"
+    },
+    {
+      "name": "som-feats",
+      "label": "Spheres of Might Feats",
+      "system": "pf1",
+      "path": "./packs/som-feats.db",
+      "entity": "Item"
+    },
+    {
+      "name": "som-items",
+      "label": "Spheres of Might Items",
+      "system": "pf1",
+      "path": "./packs/som-items.db",
+      "entity": "Item"
+    },
+    {
+      "name": "som-classes",
+      "label": "Spheres of Might Classes",
+      "system": "pf1",
+      "path": "./packs/som-classes.db",
+      "entity": "Item"
+    },
+    {
+      "name": "som-class-abilities",
+      "label": "Spheres of Might Class Features",
+      "system": "pf1",
+      "path": "./packs/som-class-abilities.db",
+      "entity": "Item"
+    }
+  ],
+  "dependencies": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": false,
+  "url": "https://gitlab.com/Ethaks/foundryvtt-pf1-spheres",
+  "manifest": "https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/raw/latest/system.json",
+  "download": "https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/jobs/artifacts/0.0.0/raw/pf1spheres.zip?job=build",
+  "license": "EUPL-1.2",
+  "readme": "",
+  "bugs": "https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/issues",
+  "changelog": "",
+  "system": ["pf1"],
+  "library": false
+}

@@ -1,0 +1,71 @@
+{
+  "private": true,
+  "name": "pf1spheres",
+  "version": "0.0.0",
+  "description": "",
+  "license": "EUPL-1.2",
+  "homepage": "https://gitlab.com/Ethaks/foundryvtt-pf1-spheres",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/issues"
+  },
+  "contributors": [
+    {
+      "name": "Ethaks"
+    }
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "build:watch": "gulp watch",
+    "link-project": "gulp link",
+    "clean": "gulp clean",
+    "clean:link": "gulp link --clean",
+    "bump-version": "gulp bumpVersion",
+    "lint": "eslint --ext .ts,.js .",
+    "lint:fix": "eslint --ext .ts,.js --fix .",
+    "format": "prettier --write \"./**/*.(ts|js|json|css)\"",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci --reporters=default --reporters=jest-junit",
+    "test:compile": "tsc",
+    "postinstall": "husky install",
+    "extractPacks": "gulp extractPacks",
+    "compilePacks": "gulp compilePacks"
+  },
+  "devDependencies": {
+    "@league-of-foundry-developers/foundry-vtt-types": "^0.7.9-6",
+    "@mr-hope/gulp-sass": "^2.0.0",
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "browser-sync": "^2.26.14",
+    "chalk": "^4.1.1",
+    "esbuild": "^0.12.8",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-prettier": "^3.4.0",
+    "fs-extra": "^10.0.0",
+    "gulp": "^4.0.2",
+    "gulp-git": "^2.10.1",
+    "husky": "^6.0.0",
+    "jest": "^27.0.4",
+    "jest-junit": "^12.2.0",
+    "lint-staged": "^11.0.0",
+    "merge-stream": "^2.0.0",
+    "nedb": "^1.8.0",
+    "prettier": "^2.3.1",
+    "semver": "^7.3.5",
+    "ts-jest": "^27.0.3",
+    "tslib": "^2.2.0",
+    "typescript": "^4.3.2",
+    "yargs": "^17.0.1"
+  },
+  "lint-staged": {
+    "*.(ts|js)": "eslint --fix",
+    "*.(json|css)": "prettier --write"
+  }
+}
