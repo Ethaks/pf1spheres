@@ -15,7 +15,7 @@ export const onItemSheetRender = async (
   html: JQuery<HTMLElement>,
   data: BaseEntitySheet.Data
 ): Promise<void> => {
-  const item = app.object as Item;
+  const item = app.object as PFItem;
   const itemData = item.data as PF1ItemData;
 
   const sphereData: PF1SItemSheetData = {
@@ -44,6 +44,19 @@ export const onItemSheetRender = async (
       { ...data, ...sphereData }
     );
     html.find("div.tab.details > div:nth-child(5)").after(progressionDropdown);
+  }
+
+  // Remove "Sphere Caster Level Capped at HD" bonus modifier choice from non-Sphere CL changes
+  if ("changes" in item) {
+    html.find("select.change-modifier").each((_index, element) => {
+      const changeID = $(element).parents(".item .change").data("change") as string;
+      const change = item.changes.get(changeID);
+      if (change == null) return;
+
+      if (!change.data.subTarget.startsWith("spherecl")) {
+        $(element).find('option[value="sphereCLCap"]').remove();
+      }
+    });
   }
 };
 

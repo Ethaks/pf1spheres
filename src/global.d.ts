@@ -1,4 +1,5 @@
 import { PF1S } from "./module/config";
+import { Change } from "./module/item-data";
 
 export {};
 
@@ -16,6 +17,10 @@ declare global {
     PF1: {
       buffTargets: Record<string, { label: string; category: string }>;
     };
+  }
+
+  interface PFItem extends Item {
+    changes: Collection<Change>;
   }
 
   /**
