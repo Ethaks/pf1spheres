@@ -4,6 +4,7 @@ import { localize } from "./util";
 
 /**
  * Registers all change targets not already part of {@link PF1CONFIG.buffTargets}
+ * and applies additional changes to the PF1 system config.
  */
 export const registerChanges = (): void => {
   for (const [key, value] of Object.entries(PF1S.magicSpheres)) {
@@ -12,6 +13,9 @@ export const registerChanges = (): void => {
       category: "sphereCasterLevel",
     });
   }
+
+  // Allow stacking of multple sphere caster level modifiers capped at HD
+  CONFIG.PF1.stackingBonusModifiers?.push("sphereCLCap");
 };
 
 /**
@@ -26,11 +30,19 @@ export const onGetChangeFlat = (
   modifier: BonusModifier,
   result: { keys: string[] }
 ): void => {
-  if (target === "spherecl") result.keys.push("data.spheres.cl.mod");
+  // General CL (possibly capped)
+  if (target === "spherecl") {
+    if (modifier !== "sphereCLCap") result.keys.push("data.spheres.cl.mod");
+    else result.keys.push("data.spheres.cl.modCap");
+  }
+  // General MSB
   else if (target === "msb") result.keys.push("data.spheres.msb.mod");
+  // General MSD
   else if (target === "msd") result.keys.push("data.spheres.msd.mod");
+  // Sphere specific CL (possibly capped)
   else if (target.startsWith("spherecl")) {
     const sphere = target.substr(8).toLowerCase();
-    result.keys.push(`data.spheres.cl.${sphere}.mod`);
+    if (modifier !== "sphereCLCap") result.keys.push(`data.spheres.cl.${sphere}.mod`);
+    else result.keys.push(`data.spheres.cl.${sphere}.modCap`);
   }
 };

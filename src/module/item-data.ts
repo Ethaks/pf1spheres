@@ -85,4 +85,14 @@ export type BonusModifier =
   | "competence"
   | "circumstance"
   | "alchemical"
-  | "penalty";
+  | "penalty"
+  | keyof typeof PF1CONFIG.bonusModifiers;
+
+export interface Change {
+  data: {
+    _id: string;
+    formula: string;
+    operator: "add" | "set" | "script";
+    subTarget: SphereChangeTarget;
+  };
+}

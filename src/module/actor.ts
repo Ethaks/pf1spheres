@@ -1,7 +1,7 @@
 import { PF1ActorSpheresData } from "./actor-data";
 import { TotalModData, ValueData } from "./common-data";
 import { PF1S } from "./config";
-import { PF1ItemData } from "./item-data";
+import { PF1ItemData, Sphere } from "./item-data";
 
 /**
  * Hook into the preparation of derived data for Actors, calculating all
@@ -25,13 +25,32 @@ export const onActorPreparation = (actor: Actor): void => {
     }
     return level;
   }, 0);
-  setProperty(sphereData, "cl.base", useFractionalBAB ? Math.floor(casterLevel) : casterLevel);
-  setProperty(sphereData, "cl.total", casterLevel + (sphereData.cl.mod ?? 0));
+  // Base Caster Level after fractional BAB check
+  const baseCasterLevel = useFractionalBAB ? Math.floor(casterLevel) : casterLevel;
+  setProperty(sphereData, "cl.base", baseCasterLevel);
+
+  // Determine actual value of CL changes capped at HD
+  const cappedSphereCLMod =
+    Math.min(actor.data.data.attributes.hd.total, sphereData.cl.modCap + baseCasterLevel) -
+    baseCasterLevel;
+  // Set resulting general CL
+  setProperty(sphereData, "cl.total", baseCasterLevel + cappedSphereCLMod + sphereData.cl.mod);
 
   // Set total CL for every sphere
   for (const sphere of Object.keys(PF1S.magicSpheres)) {
-    const modifier = getProperty(sphereData.cl, `${sphere}.mod`);
-    setProperty(sphereData.cl, `${sphere}.total`, sphereData.cl.total + modifier);
+    // Uncapped sphere-specific modifier
+    const modifier = getProperty(sphereData.cl, `${sphere}.mod`) as number;
+    // Modifier capped at HD
+    const cappedModifier = getProperty(sphereData.cl, `${sphere}.modCap`) as number;
+    // Actual capped modifier after evaluating it against the actor's HD
+    const applicableCappedModifier =
+      Math.min(actor.data.data.attributes.hd.total, sphereData.cl.total + cappedModifier) -
+      sphereData.cl.total;
+    setProperty(
+      sphereData.cl,
+      `${sphere}.total`,
+      sphereData.cl.total + modifier + applicableCappedModifier
+    );
   }
 
   // Calculate MSB from classes, set total from base + mod
@@ -58,11 +77,13 @@ export const onActorBasePreparation = (actor: Actor): void => {
   const valueDataTemplate: ValueData<number> = {
     base: 0,
     mod: 0,
+    modCap: 0,
     total: 0,
   };
 
   const totalModTemplate: TotalModData<number> = {
     mod: 0,
+    modCap: 0,
     total: 0,
   };
 
@@ -71,7 +92,7 @@ export const onActorBasePreparation = (actor: Actor): void => {
     msb: foundry.utils.deepClone(valueDataTemplate),
     msd: foundry.utils.deepClone(valueDataTemplate),
   };
-  for (const sphere of Object.keys(PF1S.magicSpheres)) {
+  for (const sphere of Object.keys(PF1S.magicSpheres) as Sphere[]) {
     setProperty(actor.data, `data.spheres.cl.${sphere}`, foundry.utils.deepClone(totalModTemplate));
   }
 };

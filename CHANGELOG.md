@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.2
+
+### Changelog
+
+- Added a modifier type for Changes, "Sphere CL (Capped at HD)", which grants a bonus to the general or a sphere specific CL up to the actor's number of Hit Dice
+
 ## 0.0.1
 
 ### Changelog

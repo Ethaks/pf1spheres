@@ -113,4 +113,7 @@ export const PF1CONFIG = {
       category: "sphereValues",
     },
   },
+  bonusModifiers: {
+    sphereCLCap: "PF1SPHERES.SphereCLCapped",
+  },
 } as const;
