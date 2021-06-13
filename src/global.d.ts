@@ -1,4 +1,5 @@
 import { PF1S } from "./module/config";
+import { BonusModifier, Change } from "./module/item-data";
 
 export {};
 
@@ -15,7 +16,12 @@ declare global {
   interface CONFIG {
     PF1: {
       buffTargets: Record<string, { label: string; category: string }>;
+      stackingBonusModifiers?: BonusModifier[];
     };
+  }
+
+  interface PFItem extends Item {
+    changes: Collection<Change>;
   }
 
   /**

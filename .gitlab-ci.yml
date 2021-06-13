@@ -19,6 +19,7 @@ lint:
     - npm i
     - npm run lint
     - npm run test
+    - npm run test:compile
     - npx prettier --check .
 
 build:
