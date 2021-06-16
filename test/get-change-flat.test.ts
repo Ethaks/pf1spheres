@@ -5,37 +5,37 @@ describe("Test change target handling", () => {
   test("General Sphere CL", () => {
     const result = { keys: [] };
     onGetChangeFlat("spherecl", "untyped", result);
-    expect(result.keys).toContain("data.spheres.cl.mod");
+    expect(result.keys).toEqual(["data.spheres.cl.mod"]);
   });
 
   test("General Sphere CL, capped at HD", () => {
     const result = { keys: [] };
     onGetChangeFlat("spherecl", "sphereCLCap", result);
-    expect(result.keys).toContain("data.spheres.cl.modCap");
+    expect(result.keys).toEqual(["data.spheres.cl.modCap"]);
   });
 
   test("MSB", () => {
     const result = { keys: [] };
     onGetChangeFlat("msb", "untyped", result);
-    expect(result.keys).toContain("data.spheres.msb.mod");
+    expect(result.keys).toEqual(["data.spheres.msb.mod"]);
   });
 
   test("MSD", () => {
     const result = { keys: [] };
     onGetChangeFlat("msd", "untyped", result);
-    expect(result.keys).toContain("data.spheres.msd.mod");
+    expect(result.keys).toEqual(["data.spheres.msd.mod"]);
   });
 
   test("Dark CL", () => {
     const result = { keys: [] };
     onGetChangeFlat("sphereclDark", "untyped", result);
-    expect(result.keys).toContain("data.spheres.cl.dark.mod");
+    expect(result.keys).toEqual(["data.spheres.cl.dark.mod"]);
   });
 
   test("Dark CL, capped at HD", () => {
     const result = { keys: [] };
     onGetChangeFlat("sphereclDark", "sphereCLCap", result);
-    expect(result.keys).toContain("data.spheres.cl.dark.modCap");
+    expect(result.keys).toEqual(["data.spheres.cl.dark.modCap"]);
   });
 
   test("Foreign CL", () => {
