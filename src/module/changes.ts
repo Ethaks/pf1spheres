@@ -1,5 +1,6 @@
+import { ItemChange } from "../global";
 import { PF1S } from "./config";
-import { BonusModifier, SphereChangeTarget } from "./item-data";
+import { BonusModifier, PF1ClassData, SphereChangeTarget } from "./item-data";
 import { localize } from "./util";
 
 /**
@@ -32,17 +33,73 @@ export const onGetChangeFlat = (
 ): void => {
   // General CL (possibly capped)
   if (target === "spherecl") {
-    if (modifier !== "sphereCLCap") result.keys.push("data.spheres.cl.mod");
-    else result.keys.push("data.spheres.cl.modCap");
+    if (modifier !== "sphereCLCap") {
+      // General CL increase affects total CL as well as all sphere totals
+      result.keys.push("data.spheres.cl.total");
+      for (const sphere of Object.keys(PF1S.magicSpheres)) {
+        result.keys.push(`data.spheres.cl.${sphere}.total`);
+      }
+    } else result.keys.push("data.spheres.cl.modCap");
   }
   // General MSB
-  else if (target === "msb") result.keys.push("data.spheres.msb.mod");
+  else if (target === "msb") {
+    if (modifier === "untypedPerm") result.keys.push("data.spheres.msb.base");
+    else result.keys.push("data.spheres.msb.total");
+  }
   // General MSD
-  else if (target === "msd") result.keys.push("data.spheres.msd.mod");
+  else if (target === "msd")
+    if (modifier === "untypedPerm") result.keys.push("data.spheres.msd.base");
+    else result.keys.push("data.spheres.msd.total");
   // Sphere specific CL (possibly capped)
   else if (target.startsWith("spherecl")) {
     const sphere = target.substr(8).toLowerCase();
-    if (modifier !== "sphereCLCap") result.keys.push(`data.spheres.cl.${sphere}.mod`);
+    if (modifier !== "sphereCLCap") result.keys.push(`data.spheres.cl.${sphere}.total`);
     else result.keys.push(`data.spheres.cl.${sphere}.modCap`);
   }
+};
+
+export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void => {
+  // Get ItemChange class from PF1 API
+  const ItemChange = game.pf1.documentComponents.ItemChange;
+
+  // Push ModCap to Total change (and every sphere's total!)
+  changes.push(
+    ItemChange.create({
+      formula: "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap)",
+      subTarget: "spherecl",
+      modifier: "untyped",
+    })
+  );
+
+  // For every sphere, add a change to determine actually applicable capped CL bonus and add that
+  for (const sphere of Object.keys(PF1S.magicSpheres) as Array<keyof typeof PF1S["magicSpheres"]>) {
+    changes.push(
+      ItemChange.create({
+        formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap) - @spheres.cl.base`,
+        subTarget: `spherecl${sphere.capitalize()}`,
+        modifier: "untyped",
+      })
+    );
+  }
+
+  // Apply MSB from classes TODO: Move this into base data prep?
+  actor.items
+    .filter((i) => i.data.type === "class" && i.data.flags.pf1spheres?.casterProgression !== "")
+    .forEach((i) => {
+      changes.push(
+        ItemChange.create({
+          formula: `${(i.data as PF1ClassData).data.level ?? 0}`,
+          subTarget: "msb",
+          modifier: "untypedPerm",
+        })
+      );
+    });
+  // Add MSB Base to Total
+  changes.push(
+    ItemChange.create({ formula: "@spheres.msb.base", subTarget: "msb", modifier: "base" })
+  );
+  // Calculate MSD from MSB
+  changes.push(
+    ItemChange.create({ formula: "@spheres.msb.base + 11", subTarget: "msd", modifier: "base" })
+  );
 };

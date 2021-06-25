@@ -21,14 +21,14 @@ interface PF1FeatData extends Item.Data {
   };
 }
 
-interface PF1ClassData extends Item.Data {
+export interface PF1ClassData extends Item.Data {
   type: "class";
   data: {
     level: number;
   };
   flags: {
     pf1spheres: {
-      casterProgression: keyof typeof PF1S.progression;
+      casterProgression: keyof typeof PF1S.progression | "";
     };
   };
 }
@@ -88,11 +88,24 @@ export type BonusModifier =
   | "penalty"
   | keyof typeof PF1CONFIG.bonusModifiers;
 
-export interface Change {
-  data: {
-    _id: string;
-    formula: string;
-    operator: "add" | "set" | "script";
-    subTarget: SphereChangeTarget;
-  };
+export interface ItemChange extends ItemChangeGetters {
+  data: ItemChangeData;
+  parent: ActorPF;
 }
+
+export type ItemChangeGetters = {
+  [Property in keyof ItemChangeData]: ItemChangeData[Property];
+};
+
+export interface ItemChangeData {
+  _id: string;
+  formula: string;
+  operator: "add" | "set" | "script";
+  subTarget: SphereChangeTarget;
+  modifier: BonusModifier;
+}
+
+// TODO: This type can be refined a bit even without typing the PF1 system
+export type RollData = {
+  [key: string]: string | RollData;
+};

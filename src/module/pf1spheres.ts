@@ -3,8 +3,8 @@ import { registerSettings } from "./settings";
 import { preloadTemplates } from "./preloadTemplates";
 import { PF1S, PF1CONFIG } from "./config";
 import { onItemSheetRender } from "./item-sheet";
-import { onActorBasePreparation, onActorPreparation } from "./actor";
-import { onGetChangeFlat, registerChanges } from "./changes";
+import { onActorBasePreparation } from "./actor";
+import { addDefaultChanges, onGetChangeFlat, registerChanges } from "./changes";
 import { localize } from "./util";
 
 // Initialize module
@@ -80,6 +80,6 @@ Hooks.on("renderItemSheetPF", onItemSheetRender);
 
 Hooks.on("pf1.prepareBaseActorData", onActorBasePreparation);
 
-Hooks.on("pf1.prepareDerivedActorData", onActorPreparation);
-
 Hooks.on("pf1.getChangeFlat", onGetChangeFlat);
+
+Hooks.on("pf1.addDefaultChanges", addDefaultChanges);

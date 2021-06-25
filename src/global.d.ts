@@ -1,5 +1,5 @@
 import { PF1S } from "./module/config";
-import { BonusModifier, Change } from "./module/item-data";
+import { BonusModifier, ItemChangeData, PF1ItemData, RollData } from "./module/item-data";
 
 export {};
 
@@ -20,8 +20,31 @@ declare global {
     };
   }
 
-  interface PFItem extends Item {
-    changes: Collection<Change>;
+  class ActorPF extends Actor {
+    items: Collection<ItemPF>;
+  }
+
+  class ItemPF extends Item {
+    data: PF1ItemData;
+    isActive: boolean;
+    changes: Collection<ItemChange>;
+  }
+
+  class RollPF extends Roll {
+    static safeRoll(formula: string, rollData: RollData): RollPF;
+    err?: Error;
+  }
+
+  interface Game {
+    pf1: {
+      documentComponents: {
+        ItemChange: typeof ItemChange;
+      };
+      utils: {
+        // TODO: Get types
+        getSourceInfo(): void;
+      };
+    };
   }
 
   /**
@@ -32,4 +55,10 @@ declare global {
       deepClone<T>(o: T): T;
     };
   };
+}
+
+export declare class ItemChange {
+  data: ItemChangeData;
+  parent: ActorPF;
+  static create(data: Partial<ItemChangeData>): ItemChange;
 }

@@ -1,11 +1,15 @@
 import { onGetChangeFlat } from "../src/module/changes";
+import { PF1S } from "../src/module/config";
 import { SphereChangeTarget } from "../src/module/item-data";
 
 describe("Test change target handling", () => {
   test("General Sphere CL", () => {
     const result = { keys: [] };
     onGetChangeFlat("spherecl", "untyped", result);
-    expect(result.keys).toEqual(["data.spheres.cl.mod"]);
+    expect(result.keys).toContain("data.spheres.cl.total");
+    for (const sphere of Object.keys(PF1S.magicSpheres)) {
+      expect(result.keys).toContain(`data.spheres.cl.${sphere}.total`);
+    }
   });
 
   test("General Sphere CL, capped at HD", () => {
@@ -17,19 +21,31 @@ describe("Test change target handling", () => {
   test("MSB", () => {
     const result = { keys: [] };
     onGetChangeFlat("msb", "untyped", result);
-    expect(result.keys).toEqual(["data.spheres.msb.mod"]);
+    expect(result.keys).toEqual(["data.spheres.msb.total"]);
+  });
+
+  test("MSB Base", () => {
+    const result = { keys: [] };
+    onGetChangeFlat("msb", "untypedPerm", result);
+    expect(result.keys).toEqual(["data.spheres.msb.base"]);
   });
 
   test("MSD", () => {
     const result = { keys: [] };
     onGetChangeFlat("msd", "untyped", result);
-    expect(result.keys).toEqual(["data.spheres.msd.mod"]);
+    expect(result.keys).toEqual(["data.spheres.msd.total"]);
+  });
+
+  test("MSD Base", () => {
+    const result = { keys: [] };
+    onGetChangeFlat("msd", "untypedPerm", result);
+    expect(result.keys).toEqual(["data.spheres.msd.base"]);
   });
 
   test("Dark CL", () => {
     const result = { keys: [] };
     onGetChangeFlat("sphereclDark", "untyped", result);
-    expect(result.keys).toEqual(["data.spheres.cl.dark.mod"]);
+    expect(result.keys).toEqual(["data.spheres.cl.dark.total"]);
   });
 
   test("Dark CL, capped at HD", () => {
