@@ -38,6 +38,8 @@ export type Sphere = CombatSphere | MagicSphere;
 export type CombatSphere = keyof typeof PF1S.combatSpheres;
 export type MagicSphere = keyof typeof PF1S.magicSpheres;
 
+export type ChangeTarget = SphereChangeTarget | PFBuffTarget;
+
 export type SphereChangeTarget = keyof typeof PF1CONFIG.buffTargets | SphereCLChangeTarget;
 
 export type SphereCLChangeTarget = `spherecl${Capitalize<MagicSphere>}`;
@@ -88,20 +90,13 @@ export type BonusModifier =
   | "penalty"
   | keyof typeof PF1CONFIG.bonusModifiers;
 
-export interface ItemChange extends ItemChangeGetters {
-  data: ItemChangeData;
-  parent: ActorPF;
-}
-
-export type ItemChangeGetters = {
-  [Property in keyof ItemChangeData]: ItemChangeData[Property];
-};
+export type PFBuffTarget = "cmd";
 
 export interface ItemChangeData {
   _id: string;
   formula: string;
   operator: "add" | "set" | "script";
-  subTarget: SphereChangeTarget;
+  subTarget: ChangeTarget;
   modifier: BonusModifier;
 }
 
@@ -109,3 +104,10 @@ export interface ItemChangeData {
 export type RollData = {
   [key: string]: string | RollData;
 };
+
+export type SourceDetails = Record<string, SourceEntry[]>;
+export type SourceInfo = Record<string, { positive: SourceEntry; negative: SourceEntry[] }>;
+export interface SourceEntry {
+  name: string;
+  value: number;
+}

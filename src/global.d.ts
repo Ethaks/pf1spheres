@@ -1,5 +1,14 @@
+import { PF1ActorData } from "./module/actor-data";
 import { PF1S } from "./module/config";
-import { BonusModifier, ItemChangeData, PF1ItemData, RollData } from "./module/item-data";
+import {
+  BonusModifier,
+  ItemChangeData,
+  PF1ItemData,
+  RollData,
+  SourceDetails,
+  SourceEntry,
+  SourceInfo,
+} from "./module/item-data";
 
 export {};
 
@@ -22,6 +31,9 @@ declare global {
 
   class ActorPF extends Actor {
     items: Collection<ItemPF>;
+    data: PF1ActorData;
+    sourceDetails: SourceDetails;
+    sourceInfo: SourceInfo;
   }
 
   class ItemPF extends Item {
@@ -41,8 +53,10 @@ declare global {
         ItemChange: typeof ItemChange;
       };
       utils: {
-        // TODO: Get types
-        getSourceInfo(): void;
+        getSourceInfo(
+          sourceInfo: SourceInfo,
+          key: keyof typeof sourceInfo
+        ): { positive: SourceEntry[]; negative: SourceEntry[] };
       };
     };
   }

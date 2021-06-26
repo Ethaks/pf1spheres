@@ -6,3 +6,16 @@ export interface PF1ActorSpheresData {
   msb: ValueData<number>;
   msd: ValueData<number>;
 }
+
+export interface PF1ActorData extends Actor.Data {
+  data: PF1ActorDataData;
+}
+
+export interface PF1ActorDataData {
+  attributes: {
+    conditions: Record<Condition, boolean>;
+  };
+}
+
+type Condition = SphereCondition;
+type SphereCondition = "battered";

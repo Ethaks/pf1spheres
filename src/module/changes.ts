@@ -61,6 +61,8 @@ export const onGetChangeFlat = (
 export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void => {
   // Get ItemChange class from PF1 API
   const ItemChange = game.pf1.documentComponents.ItemChange;
+  // Get getSourceInfo util function from PF1 for source tracking
+  const getSourceInfo = game.pf1.utils.getSourceInfo;
 
   // Push ModCap to Total change (and every sphere's total!)
   changes.push(
@@ -102,4 +104,18 @@ export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void =
   changes.push(
     ItemChange.create({ formula: "@spheres.msb.base + 11", subTarget: "msd", modifier: "base" })
   );
+
+  if (actor.data.data.attributes.conditions.battered) {
+    changes.push(
+      ItemChange.create({
+        formula: "-2",
+        subTarget: "cmd",
+        modifier: "untyped",
+      })
+    );
+    getSourceInfo(actor.sourceInfo, "data.attributes.cmd.total").negative.push({
+      value: -2,
+      name: game.i18n.localize("PF1SPHERES.Battered"),
+    });
+  }
 };

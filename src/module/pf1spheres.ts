@@ -8,13 +8,20 @@ import { addDefaultChanges, onGetChangeFlat, registerChanges } from "./changes";
 import { localize } from "./util";
 
 // Initialize module
-Hooks.once("init", async () => {
+Hooks.once("init", () => {
   console.log("pf1spheres | Initializing pf1spheres");
   // Register custom module settings
   registerSettings();
 
   // Preload Handlebars templates
-  await preloadTemplates();
+  preloadTemplates();
+
+  // Add Battered to Status Effects
+  CONFIG.statusEffects.push({
+    id: "battered",
+    label: "PF1SPHERES.Battered",
+    icon: "modules/pf1spheres/assets/icons/battered.png",
+  });
 });
 
 // Setup module
@@ -26,6 +33,8 @@ Hooks.once("setup", async () => {
     "featTypesPlurals",
     "buffTargetCategories",
     "buffTargets",
+    "conditionTypes",
+    "conditions",
   ] as const;
   const toSort = ["magicSpheres", "combatSpheres"] as const;
 
