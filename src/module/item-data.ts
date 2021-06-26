@@ -1,4 +1,11 @@
+import { ActorPF } from "./actor-data";
 import { PF1S, PF1CONFIG } from "./config";
+
+export declare class ItemPF extends Item {
+  data: PF1ItemData;
+  isActive: boolean;
+  changes: Collection<ItemChange>;
+}
 
 export type PF1ItemData = PF1FeatData | PF1ClassData;
 
@@ -91,6 +98,12 @@ export type BonusModifier =
   | keyof typeof PF1CONFIG.bonusModifiers;
 
 export type PFBuffTarget = "cmd";
+
+export declare class ItemChange {
+  data: ItemChangeData;
+  parent: ActorPF;
+  static create(data: Partial<ItemChangeData>): ItemChange;
+}
 
 export interface ItemChangeData {
   _id: string;

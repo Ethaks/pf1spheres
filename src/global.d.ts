@@ -1,14 +1,5 @@
-import { PF1ActorData } from "./module/actor-data";
 import { PF1S } from "./module/config";
-import {
-  BonusModifier,
-  ItemChangeData,
-  PF1ItemData,
-  RollData,
-  SourceDetails,
-  SourceEntry,
-  SourceInfo,
-} from "./module/item-data";
+import { BonusModifier, ItemChange, RollData, SourceEntry, SourceInfo } from "./module/item-data";
 
 export {};
 
@@ -27,19 +18,6 @@ declare global {
       buffTargets: Record<string, { label: string; category: string }>;
       stackingBonusModifiers?: BonusModifier[];
     };
-  }
-
-  class ActorPF extends Actor {
-    items: Collection<ItemPF>;
-    data: PF1ActorData;
-    sourceDetails: SourceDetails;
-    sourceInfo: SourceInfo;
-  }
-
-  class ItemPF extends Item {
-    data: PF1ItemData;
-    isActive: boolean;
-    changes: Collection<ItemChange>;
   }
 
   class RollPF extends Roll {
@@ -69,10 +47,4 @@ declare global {
       deepClone<T>(o: T): T;
     };
   };
-}
-
-export declare class ItemChange {
-  data: ItemChangeData;
-  parent: ActorPF;
-  static create(data: Partial<ItemChangeData>): ItemChange;
 }

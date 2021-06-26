@@ -1,6 +1,6 @@
-import { ItemChange } from "../global";
+import { ActorPF } from "./actor-data";
 import { PF1S } from "./config";
-import { BonusModifier, PF1ClassData, SphereChangeTarget } from "./item-data";
+import { BonusModifier, ItemChange, PF1ClassData, SphereChangeTarget } from "./item-data";
 import { localize } from "./util";
 
 /**

@@ -1,5 +1,12 @@
-import { Sphere } from "./item-data";
+import { ItemPF, SourceDetails, SourceInfo, Sphere } from "./item-data";
 import { TotalModData, ValueData } from "./common-data";
+
+export declare class ActorPF extends Actor {
+  items: Collection<ItemPF>;
+  data: PF1ActorData;
+  sourceDetails: SourceDetails;
+  sourceInfo: SourceInfo;
+}
 
 export interface PF1ActorSpheresData {
   cl: ValueData<number> & Record<Sphere, TotalModData<number>>;
