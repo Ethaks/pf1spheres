@@ -27,6 +27,7 @@ const stylesDirectory = `${sourceDirectory}/styles`;
 const stylesExtension = "scss";
 const sourceFileExtension = "ts";
 const staticFiles = ["assets", "fonts", "lang", "templates", "module.json"];
+const distFiles = ["CREDITS.md", "LICENSE", "OGL.txt"];
 const getDownloadURL = (version) =>
   `https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/jobs/artifacts/${version}/raw/pf1spheres.zip?job=build`;
 const PACK_SRC = "src/packs";
@@ -70,6 +71,11 @@ async function copyFiles() {
   for (const file of staticFiles) {
     if (fs.existsSync(`${sourceDirectory}/${file}`)) {
       await fs.copy(`${sourceDirectory}/${file}`, `${distDirectory}/${file}`);
+    }
+  }
+  for (const file of distFiles) {
+    if (fs.existsSync(file)) {
+      await fs.copy(file, `${distDirectory}/${file}`);
     }
   }
 }
