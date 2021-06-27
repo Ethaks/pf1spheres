@@ -116,4 +116,13 @@ export const PF1CONFIG = {
   bonusModifiers: {
     sphereCLCap: "PF1SPHERES.SphereCLCapped",
   },
+  conditionTypes: {
+    battered: "PF1SPHERES.Battered",
+  },
+  conditions: {
+    battered: "PF1SPHERES.Battered",
+  },
+  conditionTextures: {
+    battered: "modules/pf1spheres/assets/icons/battered.png",
+  },
 } as const;

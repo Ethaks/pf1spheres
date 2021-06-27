@@ -1,5 +1,5 @@
 import { PF1S } from "./module/config";
-import { BonusModifier, Change } from "./module/item-data";
+import { BonusModifier, ItemChange, RollData, SourceEntry, SourceInfo } from "./module/item-data";
 
 export {};
 
@@ -20,8 +20,23 @@ declare global {
     };
   }
 
-  interface PFItem extends Item {
-    changes: Collection<Change>;
+  class RollPF extends Roll {
+    static safeRoll(formula: string, rollData: RollData): RollPF;
+    err?: Error;
+  }
+
+  interface Game {
+    pf1: {
+      documentComponents: {
+        ItemChange: typeof ItemChange;
+      };
+      utils: {
+        getSourceInfo(
+          sourceInfo: SourceInfo,
+          key: keyof typeof sourceInfo
+        ): { positive: SourceEntry[]; negative: SourceEntry[] };
+      };
+    };
   }
 
   /**

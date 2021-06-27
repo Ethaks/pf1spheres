@@ -3,18 +3,25 @@ import { registerSettings } from "./settings";
 import { preloadTemplates } from "./preloadTemplates";
 import { PF1S, PF1CONFIG } from "./config";
 import { onItemSheetRender } from "./item-sheet";
-import { onActorBasePreparation, onActorPreparation } from "./actor";
-import { onGetChangeFlat, registerChanges } from "./changes";
+import { onActorBasePreparation } from "./actor";
+import { addDefaultChanges, onGetChangeFlat, registerChanges } from "./changes";
 import { localize } from "./util";
 
 // Initialize module
-Hooks.once("init", async () => {
+Hooks.once("init", () => {
   console.log("pf1spheres | Initializing pf1spheres");
   // Register custom module settings
   registerSettings();
 
   // Preload Handlebars templates
-  await preloadTemplates();
+  preloadTemplates();
+
+  // Add Battered to Status Effects
+  CONFIG.statusEffects.push({
+    id: "battered",
+    label: "PF1SPHERES.Battered",
+    icon: "modules/pf1spheres/assets/icons/battered.png",
+  });
 });
 
 // Setup module
@@ -26,6 +33,8 @@ Hooks.once("setup", async () => {
     "featTypesPlurals",
     "buffTargetCategories",
     "buffTargets",
+    "conditionTypes",
+    "conditions",
   ] as const;
   const toSort = ["magicSpheres", "combatSpheres"] as const;
 
@@ -80,6 +89,6 @@ Hooks.on("renderItemSheetPF", onItemSheetRender);
 
 Hooks.on("pf1.prepareBaseActorData", onActorBasePreparation);
 
-Hooks.on("pf1.prepareDerivedActorData", onActorPreparation);
-
 Hooks.on("pf1.getChangeFlat", onGetChangeFlat);
+
+Hooks.on("pf1.addDefaultChanges", addDefaultChanges);

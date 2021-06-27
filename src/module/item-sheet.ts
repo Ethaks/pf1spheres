@@ -1,5 +1,5 @@
 import { PF1S } from "./config";
-import { PF1ItemData } from "./item-data";
+import { ItemPF, PF1ItemData } from "./item-data";
 
 /**
  * Hooks into the rendering of the Item sheet, adding input fields for data
@@ -15,7 +15,7 @@ export const onItemSheetRender = async (
   html: JQuery<HTMLElement>,
   data: BaseEntitySheet.Data
 ): Promise<void> => {
-  const item = app.object as PFItem;
+  const item = app.object as ItemPF;
   const itemData = item.data as PF1ItemData;
 
   const sphereData: PF1SItemSheetData = {
@@ -44,7 +44,7 @@ export const onItemSheetRender = async (
       "modules/pf1spheres/templates/class-progression.hbs",
       { ...data, ...sphereData }
     );
-    html.find("div.tab.details > div:nth-child(5)").after(progressionDropdown);
+    html.find("div.tab.details > h4").first().before(progressionDropdown);
   }
 
   // Remove "Sphere Caster Level Capped at HD" bonus modifier choice from non-Sphere CL changes
