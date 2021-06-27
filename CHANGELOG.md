@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.3
+
+### Changelog
+
+- Changed the way sphere CLs were calculated internally, making them now available in other Change formulas
+- Added the Battered condition
+
 ## 0.0.2
 
 ### Changelog
