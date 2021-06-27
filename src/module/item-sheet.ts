@@ -44,7 +44,7 @@ export const onItemSheetRender = async (
       "modules/pf1spheres/templates/class-progression.hbs",
       { ...data, ...sphereData }
     );
-    html.find("div.tab.details > h4").before(progressionDropdown);
+    html.find("div.tab.details > h4").first().before(progressionDropdown);
   }
 
   // Remove "Sphere Caster Level Capped at HD" bonus modifier choice from non-Sphere CL changes
