@@ -102,20 +102,23 @@ export type PFBuffTarget = "cmd";
 export declare class ItemChange {
   data: ItemChangeData;
   parent: ActorPF;
-  static create(data: Partial<ItemChangeData>): ItemChange;
+  static create(data: ItemChangeCreateData): ItemChange;
 }
 
 export interface ItemChangeData {
   _id: string;
   formula: string;
+  /** This is "add" by default */
   operator: "add" | "set" | "script";
   subTarget: ChangeTarget;
   modifier: BonusModifier;
 }
+type ItemChangeCreateData = Omit<ItemChangeData, "_id" | "operator"> &
+  Partial<Pick<ItemChangeData, "operator">>;
 
 // TODO: This type can be refined a bit even without typing the PF1 system
 export type RollData = {
-  [key: string]: string | RollData;
+  [key: string]: string | number | RollData;
 };
 
 export type SourceDetails = Record<string, SourceEntry[]>;

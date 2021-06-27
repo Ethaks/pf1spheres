@@ -14,6 +14,7 @@ import { pushPositiveSourceInfo } from "./util";
  * @param {Actor} actor - The actor whose data gets prepared
  */
 export const onActorBasePreparation = (actor: ActorPF): void => {
+  // Get curried function to add to sourceInfo
   const pushPSourceInfo = pushPositiveSourceInfo(actor);
   // Data layouts for spheres data
   const valueDataTemplate: ValueData<number> = {

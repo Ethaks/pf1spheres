@@ -58,9 +58,18 @@ export const onGetChangeFlat = (
   }
 };
 
+/**
+ * Adds general/default changes to an actor's Changes array.
+ * These Changes are either applicable for all actors (like handling MSB/MSD),
+ * or they are triggered by an actor's general data (like conditions).
+ *
+ * @param {ActorPF} actor - The actor to whose Changes data is added
+ * @param {ItemChange[]} changes - The array of Changes that will be applied to this actor
+ */
 export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void => {
   // Get ItemChange class from PF1 API
   const ItemChange = game.pf1.documentComponents.ItemChange;
+  // Get curried function to add to sourceInfo
   const pushPSourceInfo = pushPositiveSourceInfo(actor);
 
   // Push ModCap to Total change (and every sphere's total!)
@@ -92,6 +101,7 @@ export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void =
     ItemChange.create({ formula: "@spheres.msd.base", subTarget: "msd", modifier: "base" })
   );
 
+  // Handle the Battered condition
   if (actor.data.data.attributes.conditions.battered) {
     changes.push(
       ItemChange.create({
