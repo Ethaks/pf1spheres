@@ -119,7 +119,7 @@ export type RollData = {
 };
 
 export type SourceDetails = Record<string, SourceEntry[]>;
-export type SourceInfo = Record<string, { positive: SourceEntry; negative: SourceEntry[] }>;
+export type SourceInfo = Record<string, { positive: SourceEntry[]; negative: SourceEntry[] }>;
 export interface SourceEntry {
   name: string;
   value: number;

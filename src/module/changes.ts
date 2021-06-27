@@ -1,7 +1,7 @@
 import { ActorPF } from "./actor-data";
 import { PF1S } from "./config";
-import { BonusModifier, ItemChange, PF1ClassData, SphereChangeTarget } from "./item-data";
-import { localize } from "./util";
+import { BonusModifier, ItemChange, SphereChangeTarget } from "./item-data";
+import { localize, pushPositiveSourceInfo } from "./util";
 
 /**
  * Registers all change targets not already part of {@link PF1CONFIG.buffTargets}
@@ -61,8 +61,7 @@ export const onGetChangeFlat = (
 export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void => {
   // Get ItemChange class from PF1 API
   const ItemChange = game.pf1.documentComponents.ItemChange;
-  // Get getSourceInfo util function from PF1 for source tracking
-  const getSourceInfo = game.pf1.utils.getSourceInfo;
+  const pushPSourceInfo = pushPositiveSourceInfo(actor);
 
   // Push ModCap to Total change (and every sphere's total!)
   changes.push(
@@ -84,25 +83,13 @@ export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void =
     );
   }
 
-  // Apply MSB from classes TODO: Move this into base data prep?
-  actor.items
-    .filter((i) => i.data.type === "class" && i.data.flags.pf1spheres?.casterProgression !== "")
-    .forEach((i) => {
-      changes.push(
-        ItemChange.create({
-          formula: `${(i.data as PF1ClassData).data.level ?? 0}`,
-          subTarget: "msb",
-          modifier: "untypedPerm",
-        })
-      );
-    });
   // Add MSB Base to Total
   changes.push(
     ItemChange.create({ formula: "@spheres.msb.base", subTarget: "msb", modifier: "base" })
   );
-  // Calculate MSD from MSB
+  // Add MSD Base to Total
   changes.push(
-    ItemChange.create({ formula: "@spheres.msb.base + 11", subTarget: "msd", modifier: "base" })
+    ItemChange.create({ formula: "@spheres.msd.base", subTarget: "msd", modifier: "base" })
   );
 
   if (actor.data.data.attributes.conditions.battered) {
@@ -113,9 +100,9 @@ export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void =
         modifier: "untyped",
       })
     );
-    getSourceInfo(actor.sourceInfo, "data.attributes.cmd.total").negative.push({
+    pushPSourceInfo("data.attributes.cmd.total", {
       value: -2,
-      name: game.i18n.localize("PF1SPHERES.Battered"),
+      name: localize("Battered"),
     });
   }
 };
