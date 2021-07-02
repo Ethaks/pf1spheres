@@ -1,18 +1,33 @@
-import { ActorPF } from "./actor-data";
+import { ActorDataPath, ActorPF } from "./actor-data";
 import { PF1S } from "./config";
-import { BonusModifier, ItemChange, SphereChangeTarget } from "./item-data";
-import { localize, pushPositiveSourceInfo } from "./util";
+import {
+  BonusModifier,
+  CombatSphere,
+  ItemChange,
+  MagicSphere,
+  SphereChangeTarget,
+} from "./item-data";
+import { getActorHelpers, localize } from "./util";
 
 /**
  * Registers all change targets not already part of {@link PF1CONFIG.buffTargets}
  * and applies additional changes to the PF1 system config.
  */
 export const registerChanges = (): void => {
+  // Register sphere specific CL change targets
   for (const [key, value] of Object.entries(PF1S.magicSpheres)) {
     setProperty(CONFIG.PF1.buffTargets, `spherecl${key.capitalize()}`, {
       label: `${value} ${localize("CasterLevel")}`,
       category: "sphereCasterLevel",
     });
+
+    // Register sphere specific BAB change targets
+    for (const [key, value] of Object.entries(PF1S.combatSpheres)) {
+      setProperty(CONFIG.PF1.buffTargets, `spherebab${key.capitalize()}`, {
+        label: `${value} ${localize("PF1.BAB")}`,
+        category: "sphereBAB",
+      });
+    }
   }
 
   // Allow stacking of multple sphere caster level modifiers capped at HD
@@ -29,32 +44,46 @@ export const registerChanges = (): void => {
 export const onGetChangeFlat = (
   target: SphereChangeTarget,
   modifier: BonusModifier,
-  result: { keys: string[] }
+  result: { keys: ActorDataPath[] }
 ): void => {
+  const push = (key: ActorDataPath) => {
+    result.keys.push(key);
+  };
   // General CL (possibly capped)
   if (target === "spherecl") {
     if (modifier !== "sphereCLCap") {
       // General CL increase affects total CL as well as all sphere totals
-      result.keys.push("data.spheres.cl.total");
-      for (const sphere of Object.keys(PF1S.magicSpheres)) {
-        result.keys.push(`data.spheres.cl.${sphere}.total`);
+      push("data.spheres.cl.total");
+      for (const sphere of Object.keys(PF1S.magicSpheres) as MagicSphere[]) {
+        push(`data.spheres.cl.${sphere}.total`);
       }
-    } else result.keys.push("data.spheres.cl.modCap");
+    } else push("data.spheres.cl.modCap");
   }
   // General MSB
   else if (target === "msb") {
-    if (modifier === "untypedPerm") result.keys.push("data.spheres.msb.base");
-    else result.keys.push("data.spheres.msb.total");
+    if (modifier === "untypedPerm") push("data.spheres.msb.base");
+    else push("data.spheres.msb.total");
   }
   // General MSD
   else if (target === "msd")
-    if (modifier === "untypedPerm") result.keys.push("data.spheres.msd.base");
-    else result.keys.push("data.spheres.msd.total");
+    if (modifier === "untypedPerm") push("data.spheres.msd.base");
+    else push("data.spheres.msd.total");
   // Sphere specific CL (possibly capped)
   else if (target.startsWith("spherecl")) {
-    const sphere = target.substr(8).toLowerCase();
+    const sphere = target.substr(8).toLowerCase() as MagicSphere;
     if (modifier !== "sphereCLCap") result.keys.push(`data.spheres.cl.${sphere}.total`);
-    else result.keys.push(`data.spheres.cl.${sphere}.modCap`);
+    else push(`data.spheres.cl.${sphere}.modCap`);
+  }
+  // One change to move BAB to sphere BAB
+  else if (target === "~spherebabBase") {
+    for (const sphere of Object.keys(PF1S.combatSpheres) as CombatSphere[]) {
+      push(`data.spheres.bab.${sphere}.total`);
+    }
+  }
+  // Sphere specific BAB
+  else if (target.startsWith("spherebab")) {
+    const sphere = target.substr(9).toLocaleLowerCase() as CombatSphere;
+    push(`data.spheres.bab.${sphere}.total`);
   }
 };
 
@@ -69,8 +98,8 @@ export const onGetChangeFlat = (
 export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void => {
   // Get ItemChange class from PF1 API
   const ItemChange = game.pf1.documentComponents.ItemChange;
-  // Get curried function to add to sourceInfo
-  const pushPSourceInfo = pushPositiveSourceInfo(actor);
+  // Get actor helpers
+  const { pushPSourceInfo } = getActorHelpers(actor);
 
   // Push ModCap to Total change (and every sphere's total!)
   changes.push(
@@ -81,8 +110,8 @@ export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void =
     })
   );
 
-  // For every sphere, add a change to determine actually applicable capped CL bonus and add that
-  for (const sphere of Object.keys(PF1S.magicSpheres) as Array<keyof typeof PF1S["magicSpheres"]>) {
+  // For every magic sphere, add a change to determine actually applicable capped CL bonus and add that
+  for (const sphere of Object.keys(PF1S.magicSpheres) as MagicSphere[]) {
     changes.push(
       ItemChange.create({
         formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap) - @spheres.cl.base`,
@@ -91,6 +120,15 @@ export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void =
       })
     );
   }
+
+  // Add a change to add total BAB to sphere BABs
+  changes.push(
+    ItemChange.create({
+      formula: "@attributes.bab.total",
+      subTarget: "~spherebabBase",
+      modifier: "base",
+    })
+  );
 
   // Add MSB Base to Total
   changes.push(

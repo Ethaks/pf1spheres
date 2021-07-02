@@ -98,6 +98,9 @@ export const PF1CONFIG = {
     sphereCasterLevel: {
       label: "PF1SPHERES.SphereCasterLevelPlural",
     },
+    sphereBAB: {
+      label: "PF1SPHERES.BAB",
+    },
   },
   buffTargets: {
     spherecl: {
@@ -110,6 +113,10 @@ export const PF1CONFIG = {
     },
     msd: {
       label: "PF1SPHERES.MSD",
+      category: "sphereValues",
+    },
+    "~spherebabBase": {
+      label: "PF1.BAB",
       category: "sphereValues",
     },
   },

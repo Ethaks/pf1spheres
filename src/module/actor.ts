@@ -1,8 +1,8 @@
-import { ActorPF, PF1ActorSpheresData } from "./actor-data";
+import { ActorPF } from "./actor-data";
 import { TotalModData, ValueData } from "./common-data";
 import { PF1S } from "./config";
-import { PF1ItemData } from "./item-data";
-import { pushPositiveSourceInfo } from "./util";
+import { CombatSphere, MagicSphere, PF1ItemData } from "./item-data";
+import { getActorHelpers } from "./util";
 
 /**
  * Hooks into the preparation of base data for Actors, setting base values
@@ -15,30 +15,38 @@ import { pushPositiveSourceInfo } from "./util";
  */
 export const onActorBasePreparation = (actor: ActorPF): void => {
   // Get curried function to add to sourceInfo
-  const pushPSourceInfo = pushPositiveSourceInfo(actor);
+  const { pushPSourceInfo } = getActorHelpers(actor);
   // Data layouts for spheres data
-  const valueDataTemplate: ValueData<number> = {
-    base: 0,
-    modCap: 0,
-    total: 0,
-  };
-  const totalModTemplate: TotalModData<number> = {
-    modCap: 0,
-    total: 0,
-  }; // >
+  const valueDataTemplate = (): ValueData<number> =>
+    foundry.utils.deepClone({
+      base: 0,
+      modCap: 0,
+      total: 0,
+    });
+  const totalModTemplate = (): TotalModData<number> =>
+    foundry.utils.deepClone({
+      modCap: 0,
+      total: 0,
+    });
 
-  // Populate spheres data
+  /** Helper to fill a Record containing spheres, each with a data set */
+  const fillSpheres = <S extends string, D>(keys: S[], data: D) =>
+    Object.fromEntries(keys.map((k) => [k, data])) as Record<S, D>;
+
+  // Populate/reset spheres data
   actor.data.data.spheres = {
-    cl: foundry.utils.deepClone(valueDataTemplate),
-    msb: foundry.utils.deepClone(valueDataTemplate),
-    msd: foundry.utils.deepClone(valueDataTemplate),
-  } as PF1ActorSpheresData; // Spheres get added in next lines
-  for (const sphere of Object.keys(PF1S.magicSpheres) as Array<keyof typeof PF1S["magicSpheres"]>) {
-    setProperty(actor.data, `data.spheres.cl.${sphere}`, foundry.utils.deepClone(totalModTemplate));
-  }
+    cl: {
+      ...fillSpheres(Object.keys(PF1S.magicSpheres) as MagicSphere[], totalModTemplate()),
+      ...valueDataTemplate(),
+    },
+    msb: valueDataTemplate(),
+    msd: valueDataTemplate(),
+    bab: fillSpheres(Object.keys(PF1S.combatSpheres) as CombatSphere[], totalModTemplate()),
+  };
+  // From now on sphereData is guaranteed to be populated
+  const sphereData = actor.data.data.spheres;
 
   // Start actual calculations
-  const sphereData: PF1ActorSpheresData = actor.data.data.spheres;
   const useFractionalBAB =
     (game.settings.get("pf1", "useFractionalBaseBonuses") as boolean) ?? false;
 
@@ -75,9 +83,9 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
     { casterLevel: 0, baseMSB: 0 }
   );
   // Set base MSB and MSD
-  setProperty(sphereData, "msb.base", baseMSB);
-  setProperty(sphereData, "msd.base", baseMSB + 11);
+  sphereData.msb.base = baseMSB;
+  sphereData.msd.base = baseMSB + 11;
   // Base Caster Level after fractional BAB check
   const baseCasterLevel = useFractionalBAB ? Math.floor(casterLevel) : casterLevel;
-  setProperty(sphereData, "cl.base", baseCasterLevel);
+  sphereData.cl.base = baseCasterLevel;
 };

@@ -1,4 +1,4 @@
-import { ActorPF } from "./actor-data";
+import { ActorDataPath, ActorPF } from "./actor-data";
 import { PF1S, PF1CONFIG } from "./config";
 
 export declare class ItemPF extends Item {
@@ -47,9 +47,14 @@ export type MagicSphere = keyof typeof PF1S.magicSpheres;
 
 export type ChangeTarget = SphereChangeTarget | PFBuffTarget;
 
-export type SphereChangeTarget = keyof typeof PF1CONFIG.buffTargets | SphereCLChangeTarget;
+export type SphereChangeTarget =
+  | keyof typeof PF1CONFIG.buffTargets
+  | SphereCLChangeTarget
+  | SphereBABChangeTarget;
 
-export type SphereCLChangeTarget = `spherecl${Capitalize<MagicSphere>}`;
+export type SphereCLChangeTarget = `spherecl${Capitalize<MagicSphere>}`; //`
+
+export type SphereBABChangeTarget = `spherebab${Capitalize<CombatSphere>}`;
 
 /************************/
 /*   PF1 CONFIG BELOW   */
@@ -122,7 +127,10 @@ export type RollData = {
 };
 
 export type SourceDetails = Record<string, SourceEntry[]>;
-export type SourceInfo = Record<string, { positive: SourceEntry[]; negative: SourceEntry[] }>;
+export type SourceInfo = Record<
+  ActorDataPath & string,
+  { positive: SourceEntry[]; negative: SourceEntry[] }
+>;
 export interface SourceEntry {
   name: string;
   value: number;
