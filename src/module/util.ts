@@ -112,3 +112,9 @@ export type PropType<T, Path extends string> = string extends Path
     ? PropType<T[K], R>
     : unknown
   : unknown;
+
+/** Recursively sets every property NonNullable */
+export type DeepNonNullable<T> = {
+  /* eslint-disable-next-line @typescript-eslint/ban-types */
+  [P in keyof T]: T[P] extends object ? DeepNonNullable<T[P]> : NonNullable<T[P]>;
+};
