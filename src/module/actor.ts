@@ -30,18 +30,19 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
     });
 
   /** Helper to fill a Record containing spheres, each with a data set */
-  const fillSpheres = <S extends string, D>(keys: S[], data: D) =>
-    Object.fromEntries(keys.map((k) => [k, data])) as Record<S, D>;
+  /* eslint-disable-next-line @typescript-eslint/ban-types */
+  const fillSpheres = <S extends string, D extends () => object>(keys: S[], data: D) =>
+    Object.fromEntries(keys.map((k) => [k, data()])) as Record<S, ReturnType<D>>;
 
   // Populate/reset spheres data
   actor.data.data.spheres = {
     cl: {
-      ...fillSpheres(Object.keys(PF1S.magicSpheres) as MagicSphere[], totalModTemplate()),
+      ...fillSpheres(Object.keys(PF1S.magicSpheres) as MagicSphere[], totalModTemplate),
       ...valueDataTemplate(),
     },
     msb: valueDataTemplate(),
     msd: valueDataTemplate(),
-    bab: fillSpheres(Object.keys(PF1S.combatSpheres) as CombatSphere[], totalModTemplate()),
+    bab: fillSpheres(Object.keys(PF1S.combatSpheres) as CombatSphere[], totalModTemplate),
   };
   // From now on sphereData is guaranteed to be populated
   const sphereData = actor.data.data.spheres;
