@@ -1,6 +1,7 @@
-import { CombatSphere, ItemPF, SourceDetails, SourceInfo, MagicSphere } from "./item-data";
+import { ItemPF, SourceDetails, SourceInfo } from "./item-data";
 import { TotalModData, ValueData } from "./common-data";
 import { DeepNonNullable, PropPath } from "./util";
+import { PF1S } from "./config";
 
 export declare class ActorPF extends Actor {
   items: Collection<ItemPF>;
@@ -16,11 +17,19 @@ export declare class ActorPF extends Actor {
 }
 
 export interface PF1ActorSpheresData {
-  cl: ValueData<number> & Record<MagicSphere, TotalModData<number>>;
+  cl: ValueData<number> & MagicSpheresRecord;
   msb: ValueData<number>;
   msd: ValueData<number>;
-  bab: Record<CombatSphere, TotalModData<number>>;
+  bab: CombatSpheresRecord;
 }
+
+type MagicSpheresRecord = {
+  -readonly [Sphere in keyof typeof PF1S.magicSpheres]-?: TotalModData<number>;
+};
+
+type CombatSpheresRecord = {
+  -readonly [Sphere in keyof typeof PF1S.combatSpheres]-?: TotalModData<number>;
+};
 
 export interface PF1ActorData extends Actor.Data {
   data: PF1ActorDataData;

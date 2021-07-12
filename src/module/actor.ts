@@ -17,22 +17,20 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
   // Get curried function to add to sourceInfo
   const { pushPSourceInfo } = getActorHelpers(actor);
   // Data layouts for spheres data
-  const valueDataTemplate = (): ValueData<number> =>
-    foundry.utils.deepClone({
-      base: 0,
-      modCap: 0,
-      total: 0,
-    });
-  const totalModTemplate = (): TotalModData<number> =>
-    foundry.utils.deepClone({
-      modCap: 0,
-      total: 0,
-    });
+  const valueDataTemplate = (): ValueData<number> => ({
+    base: 0,
+    modCap: 0,
+    total: 0,
+  });
+  const totalModTemplate = (): TotalModData<number> => ({
+    modCap: 0,
+    total: 0,
+  });
 
   /** Helper to fill a Record containing spheres, each with a data set */
   /* eslint-disable-next-line @typescript-eslint/ban-types */
   const fillSpheres = <S extends string, D extends () => object>(keys: S[], data: D) =>
-    Object.fromEntries(keys.map((k) => [k, data()])) as Record<S, ReturnType<D>>;
+    Object.fromEntries(keys.map((k) => [k, data()])) as { [Key in S]: ReturnType<D> };
 
   // Populate/reset spheres data
   actor.data.data.spheres = {

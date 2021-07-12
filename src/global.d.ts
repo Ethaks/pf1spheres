@@ -51,4 +51,19 @@ declare global {
       setProperty<T>(o: T, key: PropPath<T>, value: any): boolean;
     };
   };
+
+  // This changes the return type of Object.keys – handle with care
+  interface ObjectConstructor {
+    keys<T>(o: T): ObjectKeys<T>;
+  }
 }
+
+/* eslint-disable-next-line @typescript-eslint/ban-types */
+type ObjectKeys<T> = T extends object
+  ? (keyof T)[]
+  : T extends number
+  ? []
+  : /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+  T extends Array<any> | string
+  ? string[]
+  : never;
