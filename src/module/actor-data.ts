@@ -29,24 +29,43 @@ type CombatSpheresRecord = {
   -readonly [Sphere in keyof typeof PF1S.combatSpheres]-?: TotalModData<number>;
 };
 
-export type PF1ActorDataProperties = PF1ActorDataSource;
+/* PF1 Source Data */
 
 export type PF1ActorDataSource = {
   type: "character" | "npc";
-  data: PF1ActorDataData;
+  data: PF1ActorDataSourceData;
 };
 
-export interface PF1ActorDataData {
-  attributes: {
-    conditions: Record<Condition, boolean>;
-    cmd: { total: number };
-  };
+export interface PF1ActorDataSourceData {
+  attributes: AttributesSourceData;
+}
+
+interface AttributesSourceData {
+  conditions: Record<Condition, boolean>;
+}
+
+/* PF1 Prepared Data */
+
+export type PF1ActorDataProperties = {
+  type: "character" | "npc";
+  data: PF1ActorDataPropertiesData;
+};
+
+export interface PF1ActorDataPropertiesData extends PF1ActorDataSourceData {
+  attributes: AttributesPropertiesData;
+
   /** Guaranteed to be complete after base data preparation */
   spheres: PF1ActorSpheresData | undefined;
+}
+
+interface AttributesPropertiesData extends AttributesSourceData {
+  cmd: {
+    total: number;
+  };
 }
 
 type Condition = SphereCondition;
 type SphereCondition = "battered";
 
 /** A path pointing towards a property of an actor's data */
-export type ActorDataPath = PropPath<DeepNonNullable<PF1ActorDataSource>>;
+export type ActorDataPath = PropPath<DeepNonNullable<PF1ActorDataProperties>>;
