@@ -1,4 +1,4 @@
-import type { ActorDataPath, ActorPF, PF1ActorData } from "./actor-data";
+import type { ActorDataPath, ActorPF, PF1ActorDataProperties } from "./actor-data";
 import { SourceEntry } from "./item-data";
 
 /**
@@ -15,8 +15,16 @@ const regex = /^ACTOR\.|ITEM\.|PF1\.|PF1SPHERES\./;
  * @returns The localised string
  */
 export const localize = (key: string): string => {
-  if (regex.test(key)) return game.i18n.localize(key);
-  else return game.i18n.localize(`PF1SPHERES.${key}`);
+  if (regex.test(key)) return getGame().i18n.localize(key);
+  else return getGame().i18n.localize(`PF1SPHERES.${key}`);
+};
+
+/**
+ * Returns the game global after checking that it is actually initialised
+ */
+export const getGame = (): Game => {
+  if (!(game instanceof Game)) throw new Error("Game not initialised");
+  return game;
 };
 
 /**
@@ -25,8 +33,8 @@ export const localize = (key: string): string => {
  * @param actor - The actor to whose sourceInfo data is added
  */
 export const pushPositiveSourceInfo = (actor: ActorPF): PushPSourceInfo => {
-  const getSourceInfo = game.pf1.utils.getSourceInfo;
-  return function (key: ActorDataPath, value: SourceEntry): void {
+  const getSourceInfo = getGame().pf1.utils.getSourceInfo;
+  return (key: ActorDataPath, value: SourceEntry): void => {
     const baseSource = key.endsWith(".base");
     getSourceInfo(actor.sourceInfo, key).positive.push(value);
     if (baseSource)
@@ -51,14 +59,14 @@ declare interface PushPSourceInfo {
  *
  * @param actor - The actor whose data the function will set
  */
-const setActorData = (actor: ActorPF) => {
-  return function <K extends ActorDataPath>(
+const setActorData =
+  (actor: ActorPF) =>
+  <K extends ActorDataPath>(
     key: ActorDataPath,
-    value: PropType<PF1ActorData, K>
-  ): boolean {
-    return setProperty(actor.data, key, value);
-  };
-};
+    value: PropType<PF1ActorDataProperties, K>
+  ): boolean =>
+    setProperty(actor.data, key, value);
+
 interface SetActorData {
   /**
    * Sets a property of an Actor instance.
@@ -68,7 +76,7 @@ interface SetActorData {
    * @param value - The value to be set
    * @returns Whether the value was set
    */
-  <K extends ActorDataPath>(key: K, value: PropType<PF1ActorData, K>): boolean;
+  <K extends ActorDataPath>(key: K, value: PropType<PF1ActorDataProperties, K>): boolean;
 }
 
 /**

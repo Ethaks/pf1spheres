@@ -7,7 +7,7 @@ import {
   MagicSphere,
   SphereChangeTarget,
 } from "./item-data";
-import { getActorHelpers, localize } from "./util";
+import { getActorHelpers, getGame, localize } from "./util";
 
 /**
  * Registers all change targets not already part of {@link PF1CONFIG.buffTargets}
@@ -54,7 +54,7 @@ export const onGetChangeFlat = (
     if (modifier !== "sphereCLCap") {
       // General CL increase affects total CL as well as all sphere totals
       push("data.spheres.cl.total");
-      for (const sphere of Object.keys(PF1S.magicSpheres) as MagicSphere[]) {
+      for (const sphere of Object.keys(PF1S.magicSpheres)) {
         push(`data.spheres.cl.${sphere}.total`);
       }
     } else push("data.spheres.cl.modCap");
@@ -76,7 +76,7 @@ export const onGetChangeFlat = (
   }
   // One change to move BAB to sphere BAB
   else if (target === "~spherebabBase") {
-    for (const sphere of Object.keys(PF1S.combatSpheres) as CombatSphere[]) {
+    for (const sphere of Object.keys(PF1S.combatSpheres)) {
       push(`data.spheres.bab.${sphere}.total`);
     }
   }
@@ -97,7 +97,7 @@ export const onGetChangeFlat = (
  */
 export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void => {
   // Get ItemChange class from PF1 API
-  const ItemChange = game.pf1.documentComponents.ItemChange;
+  const ItemChange = getGame().pf1.documentComponents.ItemChange;
   // Get actor helpers
   const { pushPSourceInfo } = getActorHelpers(actor);
 
@@ -111,7 +111,7 @@ export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void =
   );
 
   // For every magic sphere, add a change to determine actually applicable capped CL bonus and add that
-  for (const sphere of Object.keys(PF1S.magicSpheres) as MagicSphere[]) {
+  for (const sphere of Object.keys(PF1S.magicSpheres)) {
     changes.push(
       ItemChange.create({
         formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap) - @spheres.cl.base`,

@@ -1,8 +1,8 @@
 import { ActorPF } from "./actor-data";
 import { TotalModData, ValueData } from "./common-data";
 import { PF1S } from "./config";
-import { CombatSphere, MagicSphere, PF1ItemData } from "./item-data";
-import { getActorHelpers } from "./util";
+import { CombatSphere, MagicSphere } from "./item-data";
+import { getActorHelpers, getGame } from "./util";
 
 /**
  * Hooks into the preparation of base data for Actors, setting base values
@@ -46,23 +46,22 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
   const sphereData = actor.data.data.spheres;
 
   // Start actual calculations
-  const useFractionalBAB =
-    (game.settings.get("pf1", "useFractionalBaseBonuses") as boolean) ?? false;
+  const useFractionalBAB = getGame().settings.get("pf1", "useFractionalBaseBonuses") ?? false;
 
   // Determine MSB and Caster Level from classes
   const { casterLevel, baseMSB } = actor.items.reduce(
     (levels, item) => {
-      const itemData = item.data as PF1ItemData;
+      const itemData = item.data;
       if (itemData.type === "class" && !!itemData.flags.pf1spheres?.casterProgression) {
         // Increase MSB regardless of caster level
         levels.baseMSB += itemData.data.level ?? 0;
         pushPSourceInfo("data.spheres.msb.base", {
           value: itemData.data.level ?? 0,
-          name: item.name,
+          name: item.name ?? "",
         });
         pushPSourceInfo("data.spheres.msd.base", {
           value: itemData.data.level ?? 0,
-          name: item.name,
+          name: item.name ?? "",
         });
 
         // Determine progression for actual CL contribution
@@ -74,7 +73,7 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
         levels.casterLevel += addLevel;
         pushPSourceInfo("data.spheres.cl.base", {
           value: addLevel,
-          name: item.name,
+          name: item.name ?? "",
         });
       }
       return levels;

@@ -5,7 +5,8 @@ import { PF1S, PF1CONFIG } from "./config";
 import { onItemSheetRender } from "./item-sheet";
 import { onActorBasePreparation } from "./actor";
 import { addDefaultChanges, onGetChangeFlat, registerChanges } from "./changes";
-import { localize } from "./util";
+import { getGame, localize } from "./util";
+import { PF1SpheresApi } from "./common-data";
 
 // Initialize module
 Hooks.once("init", () => {
@@ -72,10 +73,12 @@ Hooks.once("setup", async () => {
   }
 
   // Enable API
-  const module = game.modules?.get("pf1spheres") as PF1SModule;
-  module.api = {
-    config: PF1S,
-  };
+  const moduleData = getGame().modules?.get("pf1spheres");
+  if (moduleData) {
+    moduleData.api = {
+      config: PF1S,
+    } as PF1SpheresApi;
+  }
   CONFIG.PF1SPHERES = PF1S;
 
   // Add to PF1 config

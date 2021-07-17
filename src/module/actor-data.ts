@@ -1,11 +1,9 @@
-import { ItemPF, SourceDetails, SourceInfo } from "./item-data";
+import { SourceDetails, SourceInfo } from "./item-data";
 import { TotalModData, ValueData } from "./common-data";
 import { DeepNonNullable, PropPath } from "./util";
 import { PF1S } from "./config";
 
 export declare class ActorPF extends Actor {
-  items: Collection<ItemPF>;
-  data: PF1ActorData;
   /**
    * Final source details used for tooltips etc.
    */
@@ -31,9 +29,12 @@ type CombatSpheresRecord = {
   -readonly [Sphere in keyof typeof PF1S.combatSpheres]-?: TotalModData<number>;
 };
 
-export interface PF1ActorData extends Actor.Data {
+export type PF1ActorDataProperties = PF1ActorDataSource;
+
+export type PF1ActorDataSource = {
+  type: "character" | "npc";
   data: PF1ActorDataData;
-}
+};
 
 export interface PF1ActorDataData {
   attributes: {
@@ -48,4 +49,4 @@ type Condition = SphereCondition;
 type SphereCondition = "battered";
 
 /** A path pointing towards a property of an actor's data */
-export type ActorDataPath = PropPath<DeepNonNullable<PF1ActorData>>;
+export type ActorDataPath = PropPath<DeepNonNullable<PF1ActorDataSource>>;
