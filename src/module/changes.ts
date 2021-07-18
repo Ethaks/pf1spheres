@@ -92,14 +92,14 @@ export const onGetChangeFlat = (
  * These Changes are either applicable for all actors (like handling MSB/MSD),
  * or they are triggered by an actor's general data (like conditions).
  *
- * @param {ActorPF} actor - The actor to whose Changes data is added
- * @param {ItemChange[]} changes - The array of Changes that will be applied to this actor
+ * @param actor - The actor to whose Changes data is added
+ * @param changes - The array of Changes that will be applied to this actor
  */
 export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void => {
   // Get ItemChange class from PF1 API
   const ItemChange = getGame().pf1.documentComponents.ItemChange;
   // Get actor helpers
-  const { pushPSourceInfo } = getActorHelpers(actor);
+  const { pushNSourceInfo } = getActorHelpers(actor);
 
   // Push ModCap to Total change (and every sphere's total!)
   changes.push(
@@ -148,7 +148,7 @@ export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void =
         modifier: "untyped",
       })
     );
-    pushPSourceInfo("data.attributes.cmd.total", {
+    pushNSourceInfo("data.attributes.cmd.total", {
       value: -2,
       name: localize("Battered"),
     });

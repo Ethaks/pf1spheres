@@ -33,19 +33,21 @@ export const getGame = (): Game => {
  *
  * @param actor - The actor to whose sourceInfo data is added
  */
-export const pushPositiveSourceInfo = (actor: ActorPF): PushPSourceInfo => {
+export const pushSourceInfo = (
+  actor: ActorPF,
+  modifierType: "positive" | "negative"
+): PushSourceInfo => {
   const getSourceInfo = getGame().pf1.utils.getSourceInfo;
   return (key: ActorDataPath, value: SourceEntry): void => {
     const baseSource = key.endsWith(".base");
-    getSourceInfo(actor.sourceInfo, key).positive.push(value);
+    getSourceInfo(actor.sourceInfo, key)[modifierType].push(value);
     if (baseSource)
-      getSourceInfo(
-        actor.sourceInfo,
-        key.replace(".base", ".total") as ActorDataPath
-      ).positive.push(value);
+      getSourceInfo(actor.sourceInfo, key.replace(".base", ".total") as ActorDataPath)[
+        modifierType
+      ].push(value);
   };
 };
-declare interface PushPSourceInfo {
+declare interface PushSourceInfo {
   /**
    * Adds a SourceEntry to this actor's sourceInfo. If the key ends in ".base",
    * a similar SourceEntry will also be pushed to the key's ".total".
@@ -85,7 +87,8 @@ interface SetActorData {
  * A collection of helper functions working with an actor
  */
 interface ActorHelpers {
-  pushPSourceInfo: PushPSourceInfo;
+  pushPSourceInfo: PushSourceInfo;
+  pushNSourceInfo: PushSourceInfo;
   setActorData: SetActorData;
 }
 /**
@@ -95,7 +98,8 @@ interface ActorHelpers {
  */
 export const getActorHelpers = (actor: ActorPF): ActorHelpers => {
   return {
-    pushPSourceInfo: pushPositiveSourceInfo(actor),
+    pushPSourceInfo: pushSourceInfo(actor, "positive"),
+    pushNSourceInfo: pushSourceInfo(actor, "negative"),
     setActorData: setActorData(actor),
   };
 };
