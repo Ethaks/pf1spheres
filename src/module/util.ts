@@ -12,11 +12,12 @@ const regex = /^ACTOR\.|ITEM\.|PF1\.|PF1SPHERES\./;
  * "PF1SPHERES" will be used for the key.
  *
  * @param key - The localisation key
+ * @param data - Data used for variables in the localisation string
  * @returns The localised string
  */
-export const localize = (key: string): string => {
-  if (regex.test(key)) return getGame().i18n.localize(key);
-  else return getGame().i18n.localize(`PF1SPHERES.${key}`);
+export const localize = (key: string, data?: Record<string, unknown>): string => {
+  if (regex.test(key)) return getGame().i18n.format(key, data);
+  else return getGame().i18n.format(`PF1SPHERES.${key}`);
 };
 
 /**
@@ -46,7 +47,8 @@ export const pushPositiveSourceInfo = (actor: ActorPF): PushPSourceInfo => {
 };
 declare interface PushPSourceInfo {
   /**
-   * Adds a SourceEntry to this actor's sourceInfo
+   * Adds a SourceEntry to this actor's sourceInfo. If the key ends in ".base",
+   * a similar SourceEntry will also be pushed to the key's ".total".
    *
    * @param key - The data path for which the SourceEntry to be added applies
    * @param value - The SourceEntry to be added
