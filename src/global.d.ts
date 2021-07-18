@@ -60,9 +60,9 @@ declare global {
 
   interface FlagConfig {
     Item: {
-      pf1spheres: {
-        sphere: Sphere;
-        casterProgression: CasterProgression;
+      pf1spheres?: {
+        sphere?: Sphere;
+        casterProgression?: CasterProgression;
       };
     };
   }

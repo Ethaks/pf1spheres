@@ -12,25 +12,51 @@ export type PF1ItemDataProperties = PF1ItemDataSource;
 /** The source data, i.e. what's guaranteed to be present by the template */
 export type PF1ItemDataSource = PF1FeatDataSource | PF1ClassDataSource;
 
+interface PF1ItemDataSourceDescription {
+  description: {
+    value: string;
+    chat: string;
+    unidentified: string;
+  };
+}
+
+interface PF1ItemDataSourceTags {
+  tags: string[];
+}
+
+interface PF1ItemDataSourceChanges {
+  changes: ItemChangeData[];
+}
+
 interface PF1FeatDataSource {
   type: "feat";
-  data: {
-    featType:
-      | "feat"
-      | "classFeat"
-      | "trait"
-      | "racial"
-      | "misc"
-      | "template"
-      | keyof typeof PF1CONFIG.featTypes;
-  };
+  data: PF1FeatDataSourceData;
+}
+
+interface PF1FeatDataSourceData
+  extends PF1ItemDataSourceDescription,
+    PF1ItemDataSourceTags,
+    PF1ItemDataSourceChanges {
+  featType:
+    | "feat"
+    | "classFeat"
+    | "trait"
+    | "racial"
+    | "misc"
+    | "template"
+    | keyof typeof PF1CONFIG.featTypes;
 }
 
 export interface PF1ClassDataSource {
   type: "class";
-  data: {
-    level: number;
-  };
+  data: PF1ClassDataSourceData;
+}
+
+interface PF1ClassDataSourceData
+  extends PF1ItemDataSourceDescription,
+    PF1ItemDataSourceTags,
+    PF1ItemDataSourceChanges {
+  level: number;
 }
 
 export type CasterProgression = keyof typeof PF1S.progression | "";
@@ -112,9 +138,11 @@ export interface ItemChangeData {
   operator: "add" | "set" | "script";
   subTarget: ChangeTarget;
   modifier: BonusModifier;
+  priority: number;
+  value: number;
 }
-type ItemChangeCreateData = Omit<ItemChangeData, "_id" | "operator"> &
-  Partial<Pick<ItemChangeData, "operator">>;
+export type ItemChangeCreateData = Omit<ItemChangeData, "_id" | "operator" | "value" | "priority"> &
+  Partial<Pick<ItemChangeData, "operator" | "priority">>;
 
 // TODO: This type can be refined a bit even without typing the PF1 system
 export type RollData = {
