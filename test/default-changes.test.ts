@@ -1,4 +1,4 @@
-import { addDefaultChanges } from "../src/module/changes";
+import { onAddDefaultChanges } from "../src/module/changes";
 import { PF1S } from "../src/module/config";
 import { ItemChange } from "../src/module/item-data";
 import { localize } from "../src/module/util";
@@ -10,7 +10,7 @@ describe("Test default changes handling", () => {
   const changes: ItemChange[] = [];
 
   // Get default changes
-  addDefaultChanges(actor, changes);
+  onAddDefaultChanges(actor, changes);
 
   test("Battered change and source info", () => {
     // Condition
@@ -20,7 +20,7 @@ describe("Test default changes handling", () => {
       data: { formula: "-2", subTarget: "cmd", modifier: "untyped" },
     });
     // Source info
-    expect(actor.sourceInfo["data.attributes.cmd.total"].negative).toContainEqual({
+    expect(actor.sourceInfo["data.attributes.cmd.total"]?.negative).toContainEqual({
       name: localize("Battered"),
       value: -2,
     });

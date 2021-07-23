@@ -86,7 +86,7 @@ interface SetActorData {
 /**
  * A collection of helper functions working with an actor
  */
-interface ActorHelpers {
+export interface ActorHelpers {
   pushPSourceInfo: PushSourceInfo;
   pushNSourceInfo: PushSourceInfo;
   setActorData: SetActorData;
@@ -132,3 +132,12 @@ export type DeepNonNullable<T> = {
   /* eslint-disable-next-line @typescript-eslint/ban-types */
   [P in keyof T]: T[P] extends object ? DeepNonNullable<T[P]> : NonNullable<T[P]>;
 };
+
+/* eslint-disable @typescript-eslint/no-explicit-any */
+export type DeepWriteable<T> = { -readonly [P in keyof T]: DeepWriteable<T[P]> };
+export type Cast<X, Y> = X extends Y ? X : Y;
+export type FromEntries<T> = T extends [infer Key, any][]
+  ? { [K in Cast<Key, string>]: Extract<T[number], [K, any]>[1] }
+  : { [key in string]: any };
+
+export type FromEntriesWithReadOnly<T> = FromEntries<DeepWriteable<T>>;

@@ -4,7 +4,12 @@ import { preloadTemplates } from "./preloadTemplates";
 import { PF1S, PF1CONFIG } from "./config";
 import { onItemSheetRender } from "./item-sheet";
 import { onActorBasePreparation } from "./actor";
-import { addDefaultChanges, onGetChangeFlat, registerChanges } from "./changes";
+import {
+  onAddDefaultChanges,
+  changeFlatTargets,
+  onGetChangeFlat,
+  registerChanges,
+} from "./changes";
 import { getGame, localize } from "./util";
 import { PF1SpheresApi } from "./common-data";
 
@@ -75,9 +80,10 @@ Hooks.once("setup", async () => {
   // Enable API
   const moduleData = getGame().modules?.get("pf1spheres");
   if (moduleData) {
-    moduleData.api = {
+    (moduleData.api as PF1SpheresApi) = {
       config: PF1S,
-    } as PF1SpheresApi;
+      changeFlatTargets: changeFlatTargets,
+    };
   }
   CONFIG.PF1SPHERES = PF1S;
 
@@ -94,4 +100,4 @@ Hooks.on("pf1.prepareBaseActorData", onActorBasePreparation);
 
 Hooks.on("pf1.getChangeFlat", onGetChangeFlat);
 
-Hooks.on("pf1.addDefaultChanges", addDefaultChanges);
+Hooks.on("pf1.addDefaultChanges", onAddDefaultChanges);

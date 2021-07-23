@@ -150,10 +150,13 @@ export type RollData = {
 };
 
 export type SourceDetails = Record<string, SourceEntry[]>;
-export type SourceInfo = Record<
-  ActorDataPath & string,
-  { positive: SourceEntry[]; negative: SourceEntry[] }
->;
+export type SourceInfo = {
+  [Key in ActorDataPath]?: SourceInfoEntry;
+}; // Record<ActorDataPath & string, SourceInfoEntry>;
+export interface SourceInfoEntry {
+  positive: SourceEntry[];
+  negative: SourceEntry[];
+}
 export interface SourceEntry {
   name: string;
   value: number;

@@ -1,7 +1,8 @@
 import translations from "../src/lang/en.json";
 import { testActor } from "./test-actor";
-import { ActorPF } from "../src/module/actor-data";
+import { ActorDataPath, ActorPF } from "../src/module/actor-data";
 import { FakeItemChange } from "./fakes";
+import { SourceInfo, SourceInfoEntry } from "../src/module/item-data";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */ // any will be used a lot in lieu of proper types
 
@@ -27,11 +28,11 @@ export interface FakeSettings extends Record<string, Record<string, any>> {
       ItemChange: FakeItemChange,
     },
     utils: {
-      getSourceInfo: (obj: any, key: string) => {
+      getSourceInfo: (obj: SourceInfo, key: ActorDataPath): SourceInfoEntry => {
         if (!obj[key]) {
           obj[key] = { negative: [], positive: [] };
         }
-        return obj[key];
+        return obj[key] as SourceInfoEntry;
       },
     },
   };
@@ -71,6 +72,13 @@ function getProperty(object: Record<string, any>, key: string): any | undefined 
   return target;
 }
 
+/**
+ * Returns a duplicated version of a fake actor built from test-actor.json data.
+ * Although the return type is ActorPF, this is not a full actor!
+ * Required fake data is determined on an as-needed basis.
+ *
+ * @returns A fake actor with a subset of available data
+ */
 export const getActor: () => ActorPF = () =>
   JSON.parse(
     JSON.stringify({

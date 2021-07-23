@@ -12,6 +12,7 @@ import {
   SourceInfo,
   Sphere,
 } from "./module/item-data";
+import { FromEntriesWithReadOnly } from "./module/util";
 
 export {};
 
@@ -69,6 +70,7 @@ declare global {
 
   namespace ClientSettings {
     interface Values {
+      // PF1 system settings
       "pf1.useFractionalBaseBonuses": boolean;
     }
   }
@@ -84,6 +86,7 @@ declare global {
   // This changes the return type of Object.keys – handle with care
   interface ObjectConstructor {
     keys<T>(o: T): ObjectKeys<T>;
+    fromEntries<T>(obj: T): FromEntriesWithReadOnly<T>;
   }
 }
 

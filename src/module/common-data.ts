@@ -1,3 +1,4 @@
+import { changeFlatTargets } from "./changes";
 import { PF1S } from "./config";
 
 export interface BaseData<T> {
@@ -22,4 +23,5 @@ export interface ValueData<T> extends BaseData<T>, TotalData<T>, CappedModifiabl
 
 export interface PF1SpheresApi {
   config: typeof PF1S;
+  changeFlatTargets: typeof changeFlatTargets;
 }

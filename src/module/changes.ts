@@ -2,12 +2,14 @@ import { ActorDataPath, ActorPF } from "./actor-data";
 import { PF1S } from "./config";
 import {
   BonusModifier,
-  CombatSphere,
   ItemChange,
-  MagicSphere,
+  ItemChangeCreateData,
+  SourceEntry,
+  SphereBABChangeTarget,
   SphereChangeTarget,
+  SphereCLChangeTarget,
 } from "./item-data";
-import { getActorHelpers, getGame, localize } from "./util";
+import { ActorHelpers, getActorHelpers, getGame, localize } from "./util";
 
 /**
  * Registers all change targets not already part of {@link PF1CONFIG.buffTargets}
@@ -45,46 +47,56 @@ export const onGetChangeFlat = (
   target: SphereChangeTarget,
   modifier: BonusModifier,
   result: { keys: ActorDataPath[] }
-): void => {
-  const push = (key: ActorDataPath) => {
-    result.keys.push(key);
-  };
-  // General CL (possibly capped)
-  if (target === "spherecl") {
-    if (modifier !== "sphereCLCap") {
-      // General CL increase affects total CL as well as all sphere totals
-      push("data.spheres.cl.total");
-      for (const sphere of Object.keys(PF1S.magicSpheres)) {
-        push(`data.spheres.cl.${sphere}.total`);
-      }
-    } else push("data.spheres.cl.modCap");
-  }
-  // General MSB
-  else if (target === "msb") {
-    if (modifier === "untypedPerm") push("data.spheres.msb.base");
-    else push("data.spheres.msb.total");
-  }
-  // General MSD
-  else if (target === "msd")
-    if (modifier === "untypedPerm") push("data.spheres.msd.base");
-    else push("data.spheres.msd.total");
-  // Sphere specific CL (possibly capped)
-  else if (target.startsWith("spherecl")) {
-    const sphere = target.substr(8).toLowerCase() as MagicSphere;
-    if (modifier !== "sphereCLCap") result.keys.push(`data.spheres.cl.${sphere}.total`);
-    else push(`data.spheres.cl.${sphere}.modCap`);
-  }
-  // One change to move BAB to sphere BAB
-  else if (target === "~spherebabBase") {
-    for (const sphere of Object.keys(PF1S.combatSpheres)) {
-      push(`data.spheres.bab.${sphere}.total`);
-    }
-  }
+): number =>
+  result.keys.push(
+    ...(changeFlatTargets[target]?.[modifier] ?? changeFlatTargets[target]?.default ?? [])
+  );
+
+/** A dictionary containing all SphereChangeTargets and their respective data targets */
+export const changeFlatTargets: Record<SphereChangeTarget, ChangeFlatTargetData> = {
+  // General Sphere CL
+  spherecl: {
+    default: [
+      "data.spheres.cl.total",
+      ...Object.keys(PF1S.magicSpheres).map(
+        (sphere): ActorDataPath => `data.spheres.cl.${sphere}.total`
+      ),
+    ],
+    sphereCLCap: ["data.spheres.cl.modCap"],
+  },
+  // MSB
+  msb: {
+    default: ["data.spheres.msb.total"],
+    untypedPerm: ["data.spheres.msb.base"],
+  },
+  // MSD
+  msd: {
+    default: ["data.spheres.msd.total"],
+    untypedPerm: ["data.spheres.msd.base"],
+  },
+  // Sphere specific CL
+  ...Object.fromEntries(
+    Object.keys(PF1S.magicSpheres).map((sphere): [SphereCLChangeTarget, ChangeFlatTargetData] => [
+      `spherecl${sphere.capitalize()}`,
+      {
+        default: [`data.spheres.cl.${sphere}.total`],
+        sphereCLCap: [`data.spheres.cl.${sphere}.modCap`],
+      },
+    ])
+  ),
+  // BAB to sphere BABs
+  "~spherebabBase": {
+    default: Object.keys(PF1S.combatSpheres).map(
+      (sphere): ActorDataPath => `data.spheres.bab.${sphere}.total`
+    ),
+  },
   // Sphere specific BAB
-  else if (target.startsWith("spherebab")) {
-    const sphere = target.substr(9).toLocaleLowerCase() as CombatSphere;
-    push(`data.spheres.bab.${sphere}.total`);
-  }
+  ...Object.fromEntries(
+    Object.keys(PF1S.combatSpheres).map((sphere): [SphereBABChangeTarget, ChangeFlatTargetData] => [
+      `spherebab${sphere.capitalize()}`,
+      { default: [`data.spheres.bab.${sphere}.total`] },
+    ])
+  ),
 };
 
 /**
@@ -95,62 +107,100 @@ export const onGetChangeFlat = (
  * @param actor - The actor to whose Changes data is added
  * @param changes - The array of Changes that will be applied to this actor
  */
-export const addDefaultChanges = (actor: ActorPF, changes: ItemChange[]): void => {
-  // Get ItemChange class from PF1 API
-  const ItemChange = getGame().pf1.documentComponents.ItemChange;
-  // Get actor helpers
-  const { pushNSourceInfo } = getActorHelpers(actor);
+export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): DefaultChangeData[] => {
+  const { ItemChange, pushNSourceInfo, pushPSourceInfo } = getChangeHelpers(actor);
 
-  // Push ModCap to Total change (and every sphere's total!)
+  // Generate array with all change data and source info
+  const changeData = [
+    getDefaultChanges(),
+    getBatteredChange(actor.data.data.attributes.conditions.battered ?? false),
+  ];
+
+  // Actually add Changes to the system's process
   changes.push(
-    ItemChange.create({
-      formula: "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap)",
-      subTarget: "spherecl",
-      modifier: "untyped",
-    })
+    ...changeData.flatMap((data) => data.changes.map((changeData) => ItemChange.create(changeData)))
   );
+  // Push source info into actor
+  changeData.forEach((cd) => {
+    cd.pSourceInfo.forEach((si) => pushPSourceInfo(si[0], si[1]));
+    cd.nSourceInfo.forEach((si) => pushNSourceInfo(si[0], si[1]));
+  });
 
-  // For every magic sphere, add a change to determine actually applicable capped CL bonus and add that
-  for (const sphere of Object.keys(PF1S.magicSpheres)) {
-    changes.push(
-      ItemChange.create({
-        formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap) - @spheres.cl.base`,
-        subTarget: `spherecl${sphere.capitalize()}`,
+  // Return changeData to enable easier testing
+  return changeData;
+};
+
+/** Returns DefaultChangeData applicable to every single actor, regardless of actor data */
+const getDefaultChanges = (): DefaultChangeData =>
+  createDefaultChangeData({
+    changes: [
+      // Push ModCap to Total change (and every sphere's total!)
+      {
+        formula: "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap)",
+        subTarget: "spherecl",
         modifier: "untyped",
+      },
+      // For every magic sphere, add a change to determine actually applicable capped CL bonus and add that
+      ...Object.keys(PF1S.magicSpheres).map(
+        (sphere): ItemChangeCreateData => ({
+          formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap) - @spheres.cl.base`,
+          subTarget: `spherecl${sphere.capitalize()}`,
+          modifier: "untyped",
+        })
+      ),
+      // Add a change to add total BAB to sphere BABs
+      {
+        formula: "@attributes.bab.total",
+        subTarget: "~spherebabBase",
+        modifier: "base",
+      },
+      // Add MSB Base to Total
+      { formula: "@spheres.msb.base", subTarget: "msb", modifier: "base" },
+      // Add MSD Base to Total
+      { formula: "@spheres.msd.base", subTarget: "msd", modifier: "base" },
+    ],
+  });
+
+/** Returns DefaultChangeData dependent on whether the battered condition is true */
+const getBatteredChange = (battered: boolean): DefaultChangeData =>
+  battered
+    ? createDefaultChangeData({
+        changes: [
+          {
+            formula: "-2",
+            subTarget: "cmd",
+            modifier: "untyped",
+          },
+        ],
+        nSourceInfo: [["data.attributes.cmd.total", { value: -2, name: localize("Battered") }]],
       })
-    );
-  }
+    : createDefaultChangeData();
 
-  // Add a change to add total BAB to sphere BABs
-  changes.push(
-    ItemChange.create({
-      formula: "@attributes.bab.total",
-      subTarget: "~spherebabBase",
-      modifier: "base",
-    })
-  );
+/** Returns a collection of helper functions and classes for actor and ItemChange handling */
+const getChangeHelpers = (actor: ActorPF): ChangeHelpers => ({
+  ...getActorHelpers(actor),
+  ItemChange: getGame().pf1.documentComponents.ItemChange,
+});
 
-  // Add MSB Base to Total
-  changes.push(
-    ItemChange.create({ formula: "@spheres.msb.base", subTarget: "msb", modifier: "base" })
-  );
-  // Add MSD Base to Total
-  changes.push(
-    ItemChange.create({ formula: "@spheres.msd.base", subTarget: "msd", modifier: "base" })
-  );
+/**
+ * Constructs DefaultChangeData from a Partial, guaranteeing that all properties will be present
+ */
+const createDefaultChangeData = (data: Partial<DefaultChangeData> = {}): DefaultChangeData => ({
+  changes: data.changes ?? [],
+  nSourceInfo: data.nSourceInfo ?? [],
+  pSourceInfo: data.pSourceInfo ?? [],
+});
 
-  // Handle the Battered condition
-  if (actor.data.data.attributes.conditions.battered) {
-    changes.push(
-      ItemChange.create({
-        formula: "-2",
-        subTarget: "cmd",
-        modifier: "untyped",
-      })
-    );
-    pushNSourceInfo("data.attributes.cmd.total", {
-      value: -2,
-      name: localize("Battered"),
-    });
-  }
+interface ChangeHelpers extends ActorHelpers {
+  ItemChange: typeof ItemChange;
+}
+
+interface DefaultChangeData {
+  changes: ItemChangeCreateData[];
+  nSourceInfo: [ActorDataPath, SourceEntry][];
+  pSourceInfo: [ActorDataPath, SourceEntry][];
+}
+
+type ChangeFlatTargetData = { default: ActorDataPath[] } & {
+  [Key in BonusModifier]?: ActorDataPath[];
 };
