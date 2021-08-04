@@ -52,6 +52,7 @@ export const onGetChangeFlat = (
     ...(changeFlatTargets[target]?.[modifier] ?? changeFlatTargets[target]?.default ?? [])
   );
 
+// TODO: Determine whether this should be a config object, or purely derived
 /** A dictionary containing all SphereChangeTargets and their respective data targets */
 export const changeFlatTargets: Record<SphereChangeTarget, ChangeFlatTargetData> = {
   // General Sphere CL
