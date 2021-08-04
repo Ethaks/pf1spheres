@@ -9,7 +9,7 @@ import { ActorPF } from "../src/module/actor-data";
 import { CasterProgression, PF1ClassDataSource } from "../src/module/item-data";
 import { FakeSettings, getActor } from "./setup";
 
-describe("Test actor snapshot data", () => {
+describe("Actor snapshot data", () => {
   // Initialise actor
   const actor = getActor();
 
@@ -38,7 +38,7 @@ describe("Test actor snapshot data", () => {
   });
 });
 
-describe("Test actor base data preparation with fractional base bonuses", () => {
+describe("Actor base data preparation with fractional base bonuses", () => {
   // Initialise actor
   const actor = getActor();
 
@@ -56,9 +56,14 @@ describe("Test actor base data preparation with fractional base bonuses", () => 
   test("Base MSD", () => {
     expect(actor.data.data.spheres?.msd.base).toEqual(17);
   });
+
+  it("matches the snapshot", () => {
+    const actorState = actor;
+    expect(actorState).toMatchSnapshot();
+  });
 });
 
-describe("Test actor base data preparation without fractional base bonuses", () => {
+describe("Actor base data preparation without fractional base bonuses", () => {
   // Initialise actor
   const actor = getActor();
 
@@ -72,9 +77,13 @@ describe("Test actor base data preparation without fractional base bonuses", () 
   test("Base CL", () => {
     expect(actor.data.data.spheres?.cl.base).toEqual(3);
   });
+
+  it("matches the snapshot", () => {
+    expect(actor).toMatchSnapshot();
+  });
 });
 
-describe("Test item level data calculation", () => {
+describe("Item level data calculation", () => {
   const classData = (
     progression: CasterProgression,
     level: number
@@ -116,7 +125,7 @@ describe("Test item level data calculation", () => {
   });
 });
 
-describe("Test source tracking for Sphere CL, MSB/D", () => {
+describe("Source tracking for Sphere CL, MSB/D", () => {
   const getFakeActor = (): ActorPF => ({ sourceInfo: {} } as ActorPF);
   const itemSphereData = (level: number, cl: number): ItemSphereClData => ({
     baseLevel: level,
