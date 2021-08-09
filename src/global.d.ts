@@ -1,23 +1,28 @@
+import { ActorDataPath, PF1ActorDataProperties, PF1ActorDataSource } from "./module/actor-data";
 import { PF1S } from "./module/config";
-import { BonusModifier, ItemChange, RollData, SourceEntry, SourceInfo } from "./module/item-data";
+import {
+  BonusModifier,
+  CasterProgression,
+  ItemChange,
+  ItemPF,
+  PF1ItemDataProperties,
+  PF1ItemDataSource,
+  RollData,
+  SourceEntry,
+  SourceInfo,
+  Sphere,
+} from "./module/item-data";
+import { FromEntriesWithReadOnly } from "./module/util";
 
 export {};
 
 declare global {
-  /**
-   * PF1 Spheres module type definition
-   */
-  interface PF1SModule extends Game.Module {
-    api: {
-      config: typeof PF1S;
-    };
-  }
-
   interface CONFIG {
     PF1: {
       buffTargets: Record<string, { label: string; category: string }>;
       stackingBonusModifiers?: BonusModifier[];
     };
+    PF1SPHERES: typeof PF1S;
   }
 
   class RollPF extends Roll {
@@ -33,18 +38,64 @@ declare global {
       utils: {
         getSourceInfo(
           sourceInfo: SourceInfo,
-          key: keyof typeof sourceInfo
+          key: ActorDataPath
         ): { positive: SourceEntry[]; negative: SourceEntry[] };
       };
     };
   }
 
-  /**
-   * TODO: Remove this with 0.8 types!
-   */
-  let foundry: {
-    utils: {
-      deepClone<T>(o: T): T;
+  interface DocumentClassConfig {
+    Item: typeof ItemPF;
+  }
+
+  /** Source Data configuration for the PF1 system */
+  interface SourceConfig {
+    Actor: PF1ActorDataSource;
+    Item: PF1ItemDataSource;
+  }
+
+  interface DataConfig {
+    Actor: PF1ActorDataProperties;
+    Item: PF1ItemDataProperties;
+  }
+
+  interface FlagConfig {
+    Item: {
+      pf1spheres?: {
+        sphere?: Sphere;
+        casterProgression?: CasterProgression;
+      };
     };
-  };
+  }
+
+  namespace ClientSettings {
+    interface Values {
+      // PF1 system settings
+      "pf1.useFractionalBaseBonuses": boolean;
+    }
+  }
+
+  namespace Game {
+    /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
+    interface ModuleData<T> {
+      /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+      api?: Record<string, any>;
+    }
+  }
+
+  // This changes the return type of Object.keys – handle with care
+  interface ObjectConstructor {
+    keys<T>(o: T): ObjectKeys<T>;
+    fromEntries<T>(obj: T): FromEntriesWithReadOnly<T>;
+  }
 }
+
+/* eslint-disable-next-line @typescript-eslint/ban-types */
+type ObjectKeys<T> = T extends object
+  ? (keyof T)[]
+  : T extends number
+  ? []
+  : /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+  T extends Array<any> | string
+  ? string[]
+  : never;

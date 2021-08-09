@@ -29,14 +29,14 @@
     "format": "prettier --write \"./**/*.(ts|js|json|css)\"",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:ci": "jest --ci --reporters=default --reporters=jest-junit",
+    "test:ci": "jest --ci --reporters=default --reporters=jest-junit --coverage",
     "test:compile": "tsc",
     "postinstall": "husky install",
     "extractPacks": "gulp extractPacks",
     "compilePacks": "gulp compilePacks"
   },
   "devDependencies": {
-    "@league-of-foundry-developers/foundry-vtt-types": "^0.7.9-6",
+    "@league-of-foundry-developers/foundry-vtt-types": "^0.8.8-7",
     "@mr-hope/gulp-sass": "^2.0.0",
     "@types/jest": "^26.0.23",
     "@typescript-eslint/eslint-plugin": "^4.26.1",

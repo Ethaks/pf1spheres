@@ -3,7 +3,9 @@ module.exports = {
   testEnvironment: "node",
   globals: {
     "ts-jest": {
-      tsconfig: "<rootDir>/test/tsconfig.test.json",
+      tsconfig: "<rootDir>/test/tsconfig.json",
     },
   },
+  setupFiles: ["<rootDir>/test/setup.ts"],
+  coverageReporters: ["json", "lcov", "text", "clover", "cobertura"],
 };
