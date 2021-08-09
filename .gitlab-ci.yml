@@ -18,9 +18,14 @@ lint:
   script:
     - npm i
     - npm run lint
-    - npm run test
+    - npm run test:ci
     - npm run test:compile
     - npx prettier --check .
+  artifacts:
+    when: always
+    reports:
+      cobertura: coverage/cobertura-coverage.xml
+      junit: junit.xml
 
 build:
   stage: build

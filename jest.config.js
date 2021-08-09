@@ -7,4 +7,5 @@ module.exports = {
     },
   },
   setupFiles: ["<rootDir>/test/setup.ts"],
+  coverageReporters: ["json", "lcov", "text", "clover", "cobertura"],
 };

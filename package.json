@@ -29,7 +29,7 @@
     "format": "prettier --write \"./**/*.(ts|js|json|css)\"",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:ci": "jest --ci --reporters=default --reporters=jest-junit",
+    "test:ci": "jest --ci --reporters=default --reporters=jest-junit --coverage",
     "test:compile": "tsc",
     "postinstall": "husky install",
     "extractPacks": "gulp extractPacks",
