@@ -61,6 +61,13 @@ String.prototype.capitalize = function () {
   return this.charAt(0).toUpperCase() + this.slice(1);
 };
 
+(global as any).CONFIG = {
+  PF1: {
+    buffTargets: {},
+    stackingBonusModifiers: [],
+  },
+};
+
 function getProperty(object: Record<string, any>, key: string): any | undefined {
   if (!key) return undefined;
   let target = object;
@@ -72,6 +79,28 @@ function getProperty(object: Record<string, any>, key: string): any | undefined 
   return target;
 }
 
+function setProperty(object: Record<string, any>, key: string, value: unknown): boolean {
+  let target = object;
+  let changed = false;
+  // Convert the key to an object reference if it contains dot notation
+  if (key.indexOf(".") !== -1) {
+    const parts = key.split(".");
+    key = parts.pop() ?? "";
+    target = parts.reduce((o, i) => {
+      if (!(i in o)) o[i] = {};
+      return o[i];
+    }, object);
+  }
+  // Update the target
+  if (target[key] !== value) {
+    changed = true;
+    target[key] = value;
+  }
+  // Return changed status
+  return changed;
+}
+(global as any).setProperty = setProperty;
+
 /**
  * Returns a duplicated version of a fake actor built from test-actor.json data.
  * Although the return type is ActorPF, this is not a full actor!
@@ -79,11 +108,20 @@ function getProperty(object: Record<string, any>, key: string): any | undefined 
  *
  * @returns A fake actor with a subset of available data
  */
-export const getActor: () => ActorPF = () =>
-  JSON.parse(
+export const getActor: (options?: FakeActorOptions) => ActorPF = (options = {}) => {
+  const actor = JSON.parse(
     JSON.stringify({
       data: testActor,
       items: testActor.items.map((i) => ({ data: i })),
       sourceInfo: {},
     })
   ) as unknown as ActorPF; // treat minimal fake actor as the real thing
+
+  if (options.battered != null) actor.data.data.attributes.conditions.battered = options.battered;
+
+  return actor;
+};
+
+interface FakeActorOptions {
+  battered?: boolean;
+}

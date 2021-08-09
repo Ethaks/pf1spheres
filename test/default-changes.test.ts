@@ -26,6 +26,24 @@ describe("Test default changes handling", () => {
     });
   });
 
+  // This test uses its own actor instance to test an actor without the Battered condition
+  test("No Battered condition", () => {
+    const newActor = getActor({ battered: false });
+    const newChanges: ItemChange[] = [];
+    onAddDefaultChanges(newActor, newChanges);
+    expect(
+      newChanges.find(
+        (c) =>
+          c.data.formula === "-2" && c.data.subTarget === "cmd" && c.data.modifier === "untyped"
+      )
+    ).toBeUndefined();
+    expect(
+      newActor.sourceInfo["data.attributes.cmd.total"]?.negative?.find(
+        (c) => c.name === localize("Battered")
+      )
+    ).toBeUndefined();
+  });
+
   test("Basic BAB to Sphere BAB base", () => {
     expect(changes).toContainEqual({
       data: {
