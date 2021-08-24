@@ -1,3 +1,191 @@
 /* ------------------------------------ */
 /*                 CSS                  */
 /* ------------------------------------ */
+
+.spheres {
+  .block-header {
+    text-align: center;
+    align-items: center;
+  }
+  .block-header::before,
+  .block-header::after {
+    content: "";
+    flex: 1;
+    //margin-right: 0.5rem;
+    height: 0px;
+    background-color: transparent;
+    border-top: 2px solid #75514b;
+  }
+  .block-header::before {
+    margin-right: 0.5rem;
+  }
+  .block-header::after {
+    margin-left: 0.5rem;
+  }
+  // Spheres tab in actor sheets
+  .attribute-grid {
+    font-family: "Nodesto", "Signika", "Palatino Linotype", serif;
+    font-size: 20px;
+    grid-template-rows: 1rem auto;
+    max-height: 7rem;
+
+    .sop-header {
+      grid-column: 1 / -3;
+    }
+    .som-header {
+      grid-column: 5 / span2;
+    }
+    .attribute {
+      //max-height: 3.8rem;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 0.5rem;
+      border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    }
+    .attribute-value {
+      font-size: 2rem;
+      line-height: 2.8rem;
+    }
+  }
+
+  .grid.sop-levels,
+  .grid.som-levels {
+    grid-auto-rows: min-content;
+    grid-row-gap: 0.4rem;
+    text-align: center;
+    display: none;
+
+    .sphere {
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+    }
+  }
+
+  ol.spheres-list,
+  ol.item-list {
+    padding: 0;
+  }
+
+  li.sphere {
+    grid-template-areas:
+      "image    label   level-label"
+      "image    info    level"
+      "image    expand  level"
+      "talents  talents talents";
+    grid-template-columns: 4rem 1fr 4rem;
+    grid-template-rows: 2rem 1rem 1.3rem 1fr;
+    gap: 0.2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    .block-header {
+      font-family: "Nodesto", "Signika", "Palatino Linotype", serif;
+      font-size: 2rem;
+      text-align: left;
+    }
+    .block-header.sphere-label::before {
+      display: none;
+    }
+
+    img.sphere-icon {
+      grid-area: image;
+      border: none;
+    }
+    .sphere-info {
+      grid-area: info;
+      font-size: 0.9rem;
+    }
+    .expand-sphere {
+      grid-area: expand;
+      font-size: 1.2rem;
+
+      i {
+        flex: 0;
+        margin-left: 5px;
+        opacity: 0.7;
+        transition: all 200ms ease-out;
+
+        &.rotate-arrow {
+          transform: rotate(-180deg);
+        }
+      }
+    }
+    .sphere-level-label {
+      font-family: "Nodesto", "Signika", "Palatino Linotype", serif;
+      grid-area: level-label;
+      align-self: self-end;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+    .sphere-level-value {
+      font-family: "Nodesto", "Signika", "Palatino Linotype", serif;
+      grid-area: level;
+      text-align: center;
+      font-size: 2rem;
+    }
+    .sphere-talents {
+      grid-area: talents;
+    }
+
+    .talent.grid {
+      margin: 0rem;
+      grid-template-areas: "image name action use controls";
+      grid-template-columns: 1.5rem 1fr 1rem 1rem 100px;
+      background-color: rgba(255, 255, 255, 0.1);
+
+      &:nth-child(2n + 1) {
+        background-color: rgba(255, 255, 255, 0);
+      }
+
+      .talent-icon {
+        border: 0;
+      }
+      .talent-tag {
+        margin-left: 0.3rem;
+        font-size: 0.7rem;
+        line-height: 0.8rem;
+        border: 1px solid #999;
+        border-radius: 3px;
+        background: rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+
+  // Grid.
+  .grid,
+  .grid-2col {
+    display: grid;
+    grid-column: span 2 / span 2;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .grid-3col {
+    grid-column: span 3 / span 3;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .grid-4col {
+    grid-column: span 4 / span 4;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .grid-5col {
+    grid-column: span 5 / span 5;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .grid-6col {
+    grid-column: span 6 / span 6;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .grid-7col {
+    grid-column: span 7 / span 7;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+}

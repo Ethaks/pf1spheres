@@ -1,4 +1,7 @@
+import { ActorDataProperties } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
+import { ChatSpeakerDataProperties } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/chatSpeakerData";
 import { ActorDataPath, PF1ActorDataProperties, PF1ActorDataSource } from "./module/actor-data";
+import { ActorSheetPF } from "./module/actor-sheet";
 import { PF1S } from "./module/config";
 import {
   BonusModifier,
@@ -32,6 +35,10 @@ declare global {
 
   interface Game {
     pf1: {
+      DicePF: typeof DicePF;
+      applications: {
+        ActorSheetPF: typeof ActorSheetPF;
+      };
       documentComponents: {
         ItemChange: typeof ItemChange;
       };
@@ -99,3 +106,18 @@ type ObjectKeys<T> = T extends object
   T extends Array<any> | string
   ? string[]
   : never;
+
+declare class DicePF {
+  static d20Roll(options: DicePFD20RollOptions): ChatMessage | Roll;
+}
+
+interface DicePFD20RollOptions {
+  event?: JQuery.ClickEvent | Event;
+  fastForward?: boolean;
+  parts?: string | string[];
+  dice?: string;
+  data?: RollData | ActorDataProperties["data"];
+  title?: string;
+  speaker?: ChatSpeakerDataProperties;
+  chatTemplate?: string;
+}

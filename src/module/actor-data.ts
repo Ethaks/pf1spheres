@@ -62,6 +62,9 @@ interface AttributesPropertiesData extends AttributesSourceData {
   cmd: {
     total: number;
   };
+  bab: {
+    total: number;
+  };
 }
 
 type Condition = SphereCondition;

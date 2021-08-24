@@ -12,6 +12,7 @@ import {
 } from "./changes";
 import { getGame, localize } from "./util";
 import { PF1SpheresApi } from "./common-data";
+import { onActorSheetRender } from "./actor-sheet";
 
 // Initialize module
 Hooks.once("init", () => {
@@ -95,6 +96,8 @@ Hooks.once("setup", async () => {
 });
 
 Hooks.on("renderItemSheetPF", onItemSheetRender);
+
+Hooks.on("renderActorSheetPF", onActorSheetRender);
 
 Hooks.on("pf1.prepareBaseActorData", onActorBasePreparation);
 

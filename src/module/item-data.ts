@@ -28,6 +28,21 @@ interface PF1ItemDataSourceChanges {
   changes: ItemChangeData[];
 }
 
+interface PF1ItemDataSourceUses {
+  uses: {
+    value: number;
+    per: string;
+    autoDeductCharges: boolean;
+    autoDeductChargesCost: string;
+    maxFormula: string;
+  };
+}
+
+interface PF1ItemDataSourceTagged {
+  tag: string;
+  useCustomTag: boolean;
+}
+
 interface PF1FeatDataSource {
   type: "feat";
   data: PF1FeatDataSourceData;
@@ -36,7 +51,9 @@ interface PF1FeatDataSource {
 interface PF1FeatDataSourceData
   extends PF1ItemDataSourceDescription,
     PF1ItemDataSourceTags,
-    PF1ItemDataSourceChanges {
+    PF1ItemDataSourceChanges,
+    PF1ItemDataSourceUses,
+    PF1ItemDataSourceTagged {
   featType:
     | "feat"
     | "classFeat"
@@ -55,7 +72,8 @@ export interface PF1ClassDataSource {
 interface PF1ClassDataSourceData
   extends PF1ItemDataSourceDescription,
     PF1ItemDataSourceTags,
-    PF1ItemDataSourceChanges {
+    PF1ItemDataSourceChanges,
+    PF1ItemDataSourceTagged {
   level: number;
 }
 
@@ -149,7 +167,9 @@ export type RollData = {
   [key: string]: string | number | RollData;
 };
 
-export type SourceDetails = Record<string, SourceEntry[]>;
+export type SourceDetails = {
+  [Key in ActorDataPath]: SourceEntry[];
+};
 export type SourceInfo = {
   [Key in ActorDataPath]?: SourceInfoEntry;
 }; // Record<ActorDataPath & string, SourceInfoEntry>;

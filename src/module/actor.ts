@@ -3,7 +3,7 @@ import { ActorPF, PF1ActorSpheresData } from "./actor-data";
 import { TotalModData, ValueData } from "./common-data";
 import { PF1S } from "./config";
 import { CombatSphere, MagicSphere, PF1ClassDataSource } from "./item-data";
-import { getActorHelpers, getGame } from "./util";
+import { getActorHelpers, getGame, localize, pushSourceInfo } from "./util";
 
 /**
  * Hooks into the preparation of base data for Actors, setting base values
@@ -22,6 +22,11 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
 
   // Start actual calculations
   const useFractionalBAB = getGame().settings.get("pf1", "useFractionalBaseBonuses") ?? false;
+
+  pushSourceInfo(actor, "positive")("data.spheres.msd.base", {
+    name: localize("PF1.Base"),
+    value: 11,
+  });
 
   // Determine MSB and Caster Level from classes
   const { casterLevel, baseMSB } = actor.items
@@ -45,9 +50,9 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
   sphereData.cl.base = baseCasterLevel;
 };
 
-/** Filters itemData by its type, narrowing available data to class data */
-const filterClasses = (item: ItemData): item is ItemData & PF1ClassDataSource =>
-  item.type === "class";
+/** Filters itemData by its type, narrowing available data to class data with a caster progression */
+export const filterClasses = (item: ItemData): item is ItemData & PF1ClassDataSource =>
+  item.type === "class" && Boolean(item.flags.pf1spheres?.casterProgression);
 
 /**
  * Returns a function that determines an itemData's effective contribution to

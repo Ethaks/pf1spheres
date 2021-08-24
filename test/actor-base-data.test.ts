@@ -1,13 +1,23 @@
 import { ItemData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/module.mjs";
 import {
+  filterClasses,
   getItemLevelData,
   ItemSphereClData,
   onActorBasePreparation,
   pushLevelSources,
 } from "../src/module/actor";
 import { ActorPF } from "../src/module/actor-data";
+import { PF1S } from "../src/module/config";
 import { CasterProgression, PF1ClassDataSource } from "../src/module/item-data";
 import { FakeSettings, getActor } from "./setup";
+
+const classData = (progression: CasterProgression, level: number): ItemData & PF1ClassDataSource =>
+  ({
+    name: `${progression.capitalize()} Caster Class`,
+    type: "class",
+    flags: { pf1spheres: { casterProgression: progression } },
+    data: { level: level },
+  } as ItemData & PF1ClassDataSource);
 
 describe("Actor snapshot data", () => {
   // Initialise actor
@@ -83,18 +93,17 @@ describe("Actor base data preparation without fractional base bonuses", () => {
   });
 });
 
-describe("Item level data calculation", () => {
-  const classData = (
-    progression: CasterProgression,
-    level: number
-  ): ItemData & PF1ClassDataSource =>
-    ({
-      name: `${progression.capitalize()} Caster Class`,
-      type: "class",
-      flags: { pf1spheres: { casterProgression: progression } },
-      data: { level: level },
-    } as ItemData & PF1ClassDataSource);
+describe("Filter valid sphere caster classes", () => {
+  it("should not be valid", () => {
+    expect(filterClasses(classData("", 10))).toBeFalsy();
+  });
 
+  it("should be valid", () => {
+    expect(filterClasses(classData("low", 10))).toBeTruthy();
+  });
+});
+
+describe("Item level data calculation", () => {
   const getFractionalLevel = getItemLevelData(true);
   const getNormalLevel = getItemLevelData(false);
 
@@ -109,6 +118,18 @@ describe("Item level data calculation", () => {
   });
   test("High without fractional BAB", () => {
     expect(getNormalLevel(classData("high", 5))).toMatchObject({ baseLevel: 5, clPart: 5 });
+  });
+  // TODO: Finish tests
+  test("Formulaic without fractional BAB", () => {
+    for (const progression of Object.keys(PF1S.progression)) {
+      const multiplier = PF1S.progressionFormula[progression];
+      for (let i = 1; i < 21; i++) {
+        expect(getNormalLevel(classData(progression, i))).toMatchObject({
+          baseLevel: i,
+          clPart: Math.floor(i * multiplier),
+        });
+      }
+    }
   });
 
   test("None with fractional BAB", () => {
