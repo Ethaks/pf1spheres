@@ -12,7 +12,7 @@ export const PF1S = {
   },
 
   /**
-   * Formulae for {@link progression}
+   * Formulae for {@link PF1S.progression}
    */
   progressionFormula: {
     low: 0.5,

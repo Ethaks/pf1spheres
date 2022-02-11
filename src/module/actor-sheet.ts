@@ -1,4 +1,3 @@
-import { ToObjectFalseType } from "@league-of-foundry-developers/foundry-vtt-types/src/types/helperTypes";
 import { ActorPF } from "./actor-data";
 import { getActorMethods } from "./actor-methods";
 import { PF1S } from "./config";
@@ -121,7 +120,7 @@ const getSpheresData = (
       sphere
     ) {
       talents[sphere] ??= [];
-      talents[sphere]?.push(item.data.toObject(false));
+      talents[sphere]?.push(getTalentTemplateData(item));
     }
     return talents;
   }, {});
@@ -159,7 +158,7 @@ const getSpheresData = (
     attributeGrid,
     sphereCLs,
     sphereBabs,
-    allSpheres: [...sphereCLs, ...sphereBabs],
+    allSpheres: [...sphereCLs, ...sphereBabs].sort((a, b) => a.sphere.localeCompare(b.sphere)),
   };
 };
 
@@ -178,6 +177,24 @@ const activateListeners = (app: ActorSheetPF, html: JQuery<HTMLElement>, actor: 
     // @ts-expect-error Weird contextmenu types?
     .on("contextmenu", getGame().pf1.applications.ActorSheetPF.prototype._onItemEdit.bind(app));
 };
+
+const getTalentTemplateData = (item: ItemPF): TalentTemplateData => ({
+  id: item.id ?? "",
+  img: item.img ?? foundry.data.ItemData.DEFAULT_ICON,
+  name: item.name ?? "",
+  tags: item.data.data.tags.flat(),
+  hasAction: item.hasAction,
+  activationType: item.labels.activation,
+});
+
+interface TalentTemplateData {
+  id: string;
+  img: string;
+  name: string;
+  tags: string[];
+  hasAction: boolean;
+  activationType: string;
+}
 
 const _onMsbRoll = (actor: ActorPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
   ev.preventDefault();
@@ -285,17 +302,17 @@ interface SphereData {
   total: number;
   path: string;
   icon: string;
-  talents: ItemProperties[];
+  talents: TalentTemplateData[];
   hasTalents: boolean;
   sources: SourceEntry[];
   expandTalents: boolean;
 }
 
 type TalentMap = {
-  [Key in Sphere]?: ItemProperties[];
+  [Key in Sphere]?: TalentTemplateData[];
 };
 
-type ItemProperties = ToObjectFalseType<ItemPF["data"]>;
+//type ItemProperties = ToObjectFalseType<ItemPF["data"]>;
 
 interface AttributeData {
   attribute?: "cl" | "msb" | "msd" | "bab" | "martialFocus" | "spellPool";

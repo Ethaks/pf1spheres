@@ -102,15 +102,23 @@
       </div>
       <ol class="item-list sphere-talents" {{#if (ne sphere.expandTalents true)}} style="display: none" {{/if}}>
         {{#each sphere.talents as |talent|}}
-        <li class="talent grid item" data-item-id="{{talent._id}}">
+        <li class="talent grid item" data-item-id="{{talent.id}}">
           <img class="talent-icon" src="{{talent.img}}"></img>
           <div class="talent-name">
             <b>{{talent.name}}</b>
-            {{#each talent.data.tags as |tag|}}
+            {{#each talent.tags as |tag|}}
             <span class="talent-tag">
               {{tag}}
             </span>
             {{/each}}
+          </div>
+          <div class="talent-activation">
+            {{talent.activationType}}
+          </div>
+          <div class="talent-use">
+            TODO
+          </div>
+          <div class="talent-controls">
           </div>
         </li>
         {{/each}}

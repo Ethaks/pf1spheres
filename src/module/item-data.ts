@@ -4,6 +4,10 @@ import { PF1S, PF1CONFIG } from "./config";
 export declare class ItemPF extends Item {
   isActive: boolean;
   changes: Collection<ItemChange>;
+  hasAction: boolean;
+  labels: {
+    activation: string;
+  };
 }
 
 /** The data after preparation, i.e. what's usually available at runtime */

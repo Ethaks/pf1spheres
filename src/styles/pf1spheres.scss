@@ -131,8 +131,8 @@
 
     .talent.grid {
       margin: 0rem;
-      grid-template-areas: "image name action use controls";
-      grid-template-columns: 1.5rem 1fr 1rem 1rem 100px;
+      grid-template-areas: "image name activation use controls";
+      grid-template-columns: 1.5rem 1fr minmax(3rem, 4rem) 1rem 100px;
       background-color: rgba(255, 255, 255, 0.1);
 
       &:nth-child(2n + 1) {
