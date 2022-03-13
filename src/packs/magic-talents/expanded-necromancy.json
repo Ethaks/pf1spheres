@@ -1,0 +1,135 @@
+{
+  "name": "Expanded Necromancy",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
+  "data": {
+    "description": {
+      "value": "<p>When you reanimate a creature you may reanimate it as a variant skeleton or zombie, such as a bloody skeleton, burning skeleton, fast zombie, or plague zombie. When reanimating a creature in this way, they count as twice their normal Hit Dice when casting the reanimate sphere effect, but once controlled, count normally against your Hit Dice limit.</p>\n<p><strong>Example:</strong> For a Death sphere caster level of 10 who gained this talent, the caster can reanimate and control a combined total of 20 Hit Dice of creatures. The largest creature the caster can reanimate is either a 20 Hit Dice skeleton or zombie or a 10 Hit Dice variant skeleton or zombie. A variant skeleton or zombie does not count as 20 Hit Dice for your Hit Dice limit, only for the initial casting of the reanimate sphere effect. Hit Dice multipliers are additive; an undead with two variants, such as a bloody burning skeleton, counts for three times its normal Hit Dice (x2 increasing to x3) for the purposes of reanimating.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "_id": "8ZYSNuxnJsEvE84E"
+}

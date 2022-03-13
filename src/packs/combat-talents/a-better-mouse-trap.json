@@ -1,0 +1,135 @@
+{
+  "name": "A Better Mouse Trap",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Craft (traps) 5 ranks, Trap sphere.</p>\n<p>When triggered, this trap releases a rat swarm (Pathfinder RPG Bestiary pg. 232) in the square it was triggered. The swarm is hostile and attacks the creature which triggered the trap or any other nearby creature if unable to attack the target. A swarm summoned by this effect remains for 1 minute per rank of Craft (traps) you possess before mysteriously disappearing. For every 10 ranks in Craft (traps) you possess, an additional swarm is released in the nearest adjacent square to the creature who triggered the trap.</p>\n<p>If you possess the Bee Keeper Beastmastery talent, you may expend martial focus when placing this trap to choose an animal or vermin swarm with a CR equal to or less than 1/2 your ranks in Craft (traps) to be released when the trap triggers. Choosing a swarm is subject to GM discretion.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Snare"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "_id": "nkRJRnaxcwFMYXlm"
+}

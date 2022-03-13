@@ -1,0 +1,135 @@
+{
+  "name": "Spores",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may activate the following abilities as fey-blessings:</p>\n<p><strong>Anxiety Spores:</strong> As a swift action or move action, you may coat a weapon, piece of ammunition, or natural weapon you possess with anxiety spores. You may coat those of a willing ally as a move action. The next time that the coated weapon (or piece of ammunition) is used to deal damage to a creature, that creature must succeed on a Fortitude save or be infested with the spores.</p>\n<p><strong>Anxiety Spores:</strong> Disease&#8212;injury; <strong>save</strong> Fort DC (sphere DC); <strong>onset</strong> 1 round; <strong>frequency</strong> 1/minute; <strong>effect</strong> cumulative &#8211;1 penalty on saving throws against emotion and fear effects (maximum &#8211;5); <strong>cure</strong> 2 consecutive saves</p>\n<p>As a standard action, you can spend a spell point to cause mushrooms to erupt from any creature within close range already infected with its anxiety spores. The targeted creature takes 1d2 points of Charisma damage (Fortitude negates) as the growing spores siphon away its emotions. This damage increases by one die size for every 4 caster levels (1d3, 1d4, 1d6, 1d8, etc.). If the affected creature is currently shaken, frightened, or panicked, any creature within 10 feet gains the same condition for 1d4 rounds (Will negates). This is a mind-affecting fear effect.</p>\n<p><strong>Fungal Snare:</strong> You may create and hurl a fungal mass up to 30 feet as a standard action, which explodes in a mass of sticky filaments with a radius of 5 feet + 5 feet per 7 caster levels. Once you do so, you may not use this ability again for 1d4 rounds. All creatures within this area must succeed on a Reflex save or be entangled and unable to move. Breaking free of the entangled condition is a move action, requiring either a Strength check or an Escape Artist check against the effect&#8217;s save DC. Additionally, the area counts as difficult terrain for 1 minute per caster level. The filaments may be destroyed by dealing 3 damage per caster level; doing so if sufficient to clear a single 5-foot square. The filaments have vulnerability to fire.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Fey-Blessing"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallen fey"
+    }
+  },
+  "_id": "7HsiuI06ikdby4e4"
+}

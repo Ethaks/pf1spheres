@@ -1,5 +1,6 @@
 import { FakeActorDataSource } from "./fakes";
 
+// @ts-expect-error Export is what it is
 export const testActor: FakeActorDataSource = {
   name: "Sphere Tester",
   type: "character",
@@ -1048,7 +1049,6 @@ export const testActor: FakeActorDataSource = {
       cp: 0,
     },
   },
-  // @ts-expect-error lightColor is not required
   token: {
     name: "Sphere Tester",
     img: "icons/svg/mystery-man.svg",
@@ -2218,4 +2218,4 @@ export const testActor: FakeActorDataSource = {
       systemVersion: "0.78.15",
     },
   },
-};
+} as FakeActorDataSource;

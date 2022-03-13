@@ -1,5 +1,6 @@
 import { changeFlatTargets } from "./changes";
 import { PF1S } from "./config";
+import type * as packUtils from "./pack-util";
 
 export interface BaseData<T> {
   base: T;
@@ -24,4 +25,7 @@ export interface ValueData<T> extends BaseData<T>, TotalData<T>, CappedModifiabl
 export interface PF1SpheresApi {
   config: typeof PF1S;
   changeFlatTargets: typeof changeFlatTargets;
+  _internal: {
+    packUtils: typeof packUtils;
+  };
 }

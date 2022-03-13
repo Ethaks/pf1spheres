@@ -1,0 +1,135 @@
+{
+  "name": "Cold",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
+  "data": {
+    "description": {
+      "value": "<p>Cold environments can deal either lethal or nonlethal cold damage to a creature. A creature dealt damage in this manner becomes fatigued (frostbitten), and cannot recover from fatigue or damage until warmed up. If a character takes an amount of nonlethal cold damage equal to her total hit points, any further damage from a cold environment is lethal cold damage.</p>\n<p>Characters wearing a cold weather suit treat the Cold as if it were 1 level lower in severity, and may use the Survival skill to gain bonuses to saving throws against Cold. A large fire can be used to create an area of warmth in a cold environment. Cold deals damage according to Table: Cold.</p>\n<strong>Table: Cold</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Severity Level</th>\n<th>Effects</th>\n</tr>\n<tr>\n<td>3 (below 40&#176; F)</td>\n<td>Fortitude save each hour (DC 15, +1 per previous check) or take 1d6 points of nonlethal cold damage.</td>\n</tr>\n<tr>\n<td>4 (below 0&#176; F)</td>\n<td>Same as level 3, but a check every 10 minutes.</td>\n</tr>\n<tr>\n<td>5 (below &#8211;20&#176; F)</td>\n<td>1d6 lethal cold damage every minute (no save) and a Fortitude save (DC 15, +1 per previous check) or take 1d4 nonlethal cold damage.</td>\n</tr>\n<tr>\n<td>6 (below -60&#176; F)</td>\n<td>Same as severity level 5, but damage and Fortitude saves happen each round.</td>\n</tr>\n<tr>\n<td>7 (below -120&#176; F)</td>\n<td>3d6 lethal cold damage each round (no save). Being encased in ice increases this to 10d6.</td>\n</tr>\n</table>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "_id": "CiWyks4C0jXy5iEV"
+}

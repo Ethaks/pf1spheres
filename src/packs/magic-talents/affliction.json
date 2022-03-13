@@ -1,0 +1,135 @@
+{
+  "name": "Affliction",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
+  "data": {
+    "description": {
+      "value": "<p>When using cure you may invert the effect from positive energy to negative energy. This has no effect on undead and damages the living (Will half). This requires a melee or ranged touch attack against the target, and if used at range is considered a ray. This cannot be combined with Fount Of Life.</p>\n<p>When using restore, you may choose to inflict conditions rather than remove them.</p>\n<p>This also requires a melee or ranged touch attack. The creature must succeed at a Fortitude save or be exhausted for 2d6 rounds. If they succeed at their saving throw, they are instead fatigued for 2d6 rounds. Unlike regular fatigue and exhaustion, this condition ends as soon as the duration expires</p>\n<p>If you possess certain other talents, you can change the effect from exhaustion or fatigue to something else, and possibly change the saving throw, as outlined below:</p>\n<ul>\n<li>If you possess Restore Capacity, you may cause the target&#8217;s limbs to not function correctly, making them entangled and reducing all movement speeds by half for 1d6 rounds (Reflex negates).</li>\n<li>If you possess Restore Health, you may make the target nauseated for 1d6 rounds (or sickened for 1d6 rounds on a successful save).</li>\n<li>If you possess Restore Senses, you may make the target confused for 1d6 rounds (Will negates).</li>\n<li>If you possess Restore Spirit, you may make the target incapable of receiving any magical healing, fast healing, or regeneration for 2d6 rounds (Will negates).</li>\n</ul>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "life"
+    }
+  },
+  "_id": "eh6YWNOQaxSXLueM"
+}

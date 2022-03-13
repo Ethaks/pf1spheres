@@ -1,0 +1,135 @@
+{
+  "name": "Spell Selectivity",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Protection sphere (Spell Ward (aegis, ward)), caster level 10th.</p>\n<p>Whenever you create a Spell Ward as an aegis or ward, you may spend an additional spell point to choose one sphere of magic plus an additional one for every 5 caster levels you possess. Those spheres of magic are the only spheres affected by your spell ward, with casters not having to make magical skill checks or roll to bypass spell resistance if they use abilities of any other sphere.</p>\n<p>Alternatively, you may choose to have your Spell Ward apply to all spheres except the chosen spheres or to have your Spell Ward apply only against spells from a specific source such as divine or arcane (see the High Magic Handbook pg. 17 for rules on distinct magic types). If you choose either of these options, this talent cannot be used with the Antimagic Aura talent. If two instances of Spell Selectivity would attempt to negate each other, the casters roll opposed magical skill checks, with the lower roller having their instance of the ability suppressed.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "_id": "n52XlmodWT7wZTsQ"
+}

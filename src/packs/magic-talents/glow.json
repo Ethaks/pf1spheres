@@ -1,0 +1,135 @@
+{
+  "name": "Glow",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
+  "data": {
+    "description": {
+      "value": "<p>As a standard action, you may cause an object or creature in medium range to glow for 1 minute per caster level, outlining it with light as a candle, which may be of any color you wish. This requires a touch attack or ranged touch attack, and is subject to spell resistance. The object or creature becomes outlined with light, giving it a -20 penalty on Stealth checks and negating all bonuses usually bestowed by invisibility, blink effects, darkness, or similar effects.</p>\n<p>As a free action, you may cause any creature or object you have caused to glow that is within medium range to shed light as a torch, shedding normal light to 20 feet and increasing the light level by one step to a maximum of normal for 20 feet beyond this. Reducing this light is also a free action.</p>\n<p>Whenever a glow effect interacts with a magical darkness effect (such as from the Dark sphere) the caster of the glow effect must succeed at a magic skill check against the MSD of the darkness effect&#8217;s caster. If he succeeds, the Light effect functions normally. If he fails, the Dark effect functions normally (outlines are swallowed, light sources are hampered, etc.). An area filled with normal or bright light from a glow effect is no longer considered an area of darkness for Dark sphere abilities.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "_id": "xdH8JRWiTEx8hUoY"
+}

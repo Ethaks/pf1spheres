@@ -1,0 +1,135 @@
+{
+  "name": "Hemokinesis",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
+  "data": {
+    "description": {
+      "value": "<p>You gain the following abilities:</p>\n<p><strong>Blood Arc:</strong> As a standard action, you may spend a spell point to cause an arc of blood to launch from any creature under the effects of your blood control that is taking bleed damage. You may target a creature within that range, who then must succeed on a Reflex save or be blinded until it spends a standard action or two move actions wiping the blood off. Immersion in water, heavy rain, or similar effects may also end this effect. If you possess Mass Blood Magic, you may target multiple creatures with this ability, though a single bleeding creature cannot supply more than two blood arcs.</p>\n<p>If you possess Manipulate Alchemy, you may attempt to transfer a formulae (see the Alchemy sphere from Spheres of Might), potion, or poison expelled since the start of your previous turn via the blood arc. Creatures that are willing or that fail their Reflex save are immediately affected by a formulae, potion, or poison and may attempt a save against it if normally allowed.</p>\n<p>If you possess Manipulate Health, you may attempt to transfer a disease expelled since the start of your previous turn via the blood arc. Creatures that fail their Reflex save must immediately attempt a save against the disease.</p>\n<p><strong>Move Blood:</strong> You may move blood. As a standard action, you may cause a volume of blood within blood control range equal in size to a Small object to move up to 20 feet + 5 feet per 5 caster levels. The blood may be moved through the air and does not fall to the ground until the end of a turn in which you choose not to move it. If you possess the Telekinesis sphere, you may use your telekinesis speed if it is greater.</p>\n<p>The volume increases by 1 Small object per caster level and the distance it may be moved increases by 5 feet per 2 caster levels. If moving a volume of blood of at least Small size, you may attempt a bull rush or overrun maneuver against any one creature in the path of this movement, using your caster level -5 plus your casting ability modifier as your CMB. You gain a +1 bonus on this check for each size larger than Small the volume of blood is, treating 2 Small volumes as Medium, 2 Medium volumes as Large, etc. If you possess Mass Blood Magic, you may target multiple volumes, but the total volume cannot exceed your maximum volume.</p>\n<p>The mostly intact corpse of a creature that was susceptible to bleed damage that has been dead for less than 1 hour per caster level can supply a volume of 1 size category smaller than itself. You may use this ability to reposition the blood trail left by spending a spell point on the Slick talent, treating 1 square as a Small object.</p>\n<p>You may spend a spell point to grant a blood construct under your control a fly speed (perfect) equal to your move blood speed for the duration of its existence.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "_id": "e3Y1bB1wTXbBywE1"
+}

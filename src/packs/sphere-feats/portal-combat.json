@@ -1,0 +1,131 @@
+{
+  "name": "Portal Combat",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": "<p>Magical gateways are tools you can weaponize.</p>\n<p><strong>Prerequisites:</strong> Warp sphere (Mass Teleport [mass], Portal (advanced), Wormhole (space)), caster level 5th.</p>\n<p><strong>Benefit:</strong> You can use portals you create in a variety of offensive and defensive ways depending on what other abilities you have.</p>\n<ul>\n<li><strong>Adhesive Portal:</strong> (requires Creation sphere) As part of creating a portal, you may cause it to stick to a flat surface that you can alter and that is large enough to keep the entire portal on a flat plane. The portal moves with whatever surface it is stuck to. Targets that collide with the surface pass through the portal unless they succeed at a Reflex save against your Warp sphere DC.</li>\n<li><strong>Slicing Portal:</strong> Whenever a creature is passing through a portal you have created, you may spend an immediate action to forcibly close the portal while they are in transit. The creature passing through takes 1d6 damage per two Warp sphere caster levels you possess, taking half damage and remaining on whatever side of the portal they choose if they succeed at a Reflex save against your Warp sphere DC. On a failed save, you choose what side of the portal the creature ends up on.</li>\n<li><strong>Throw Portal:</strong> (requires Ranged Warp and Unwilling Teleport) You may move a portal you have created up to 5 feet per 2 caster levels as a standard action (this action counts as concentrating on the portal). Any creature which would have the portal move into their space must make a Reflex save against your warp sphere DC to avoid passing through the portal. The portal must remain within the range of your Ranged Warp talent at all times.</li>\n</ul>\n<p><strong>Note: Moving Portals:</strong> For any circumstance in which a portal would be moving (in a manner similar to that outline with Throw Portal), creatures in the way are allowed a Reflex save against your Warp sphere DC to avoid passing through the portal.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Combat"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "feat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "FSynwAt0Dd9yvbEQ"
+}

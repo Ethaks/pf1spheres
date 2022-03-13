@@ -1,0 +1,135 @@
+{
+  "name": "Plant Friend",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may activate the following abilities as fey-blessings:</p>\n<p><strong>Arboreal Pacifism:</strong> Creatures of the plant type will not attack you or allies within 30 feet of you unless compelled to do so by magical means. This effect is broken for a given creature if you or an ally attacks it.</p>\n<p><strong>Plant Empathy:</strong> You gain wild empathy as the druid class feature (and treating your caster levels as druid levels for this purpose), but only affecting creatures of the plant type and bypassing the immunity to mind-affecting effects granted by the plant type. This ability treats swarms of the plant type as if they were one creature possessing a single mind.</p>\n<p><strong>Wood Defense:</strong> You gain damage reduction equal to caster level against wood. This applies to weapons composed entirely of plant matter (staves, clubs, etc.), the natural attacks or creatures of the plant type, and magical effects manipulating or creating plants (the Pummel option of the (plant) package of the Nature sphere, the wall of thorns spell, etc.).</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Fey-Blessing"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallen fey"
+    }
+  },
+  "_id": "JT7wj1pGFAnp0BWU"
+}

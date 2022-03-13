@@ -1,0 +1,135 @@
+{
+  "name": "Radiation Blast",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Destruction sphere (any two (blast type) talents in the fire blast type group), caster level 5th.</p>\n<p>You may spend two additional spell points to have your destructive blast do half fire and half untyped damage. Any creature damaged by the attack must succeed at a Fortitude save with your destructive blast&#8217;s DC or suffer the effects of low radiation.</p>\n<p>A creature suffering from radiation instead must succeed at a Fortitude save with your destructive blast&#8217;s DC or have the level of radiation increased by one step, inflicting the new levels primary effect. This effect stacks with the effects of lower radiation levels. Saves against the secondary effects of the radiation are made at their normal save DCs. The target&#8217;s square (or the destructive blast&#8217;s affected area) becomes irradiated for 1 minute per caster level. Any creature passing through an irradiated square must succeed at a Fortitude save DC 14 or be affected by low radiation.</p>\n<p><strong>Radiation</strong><br>\nRadiation is a poison effect, whose initial effect causes Constitution drain and secondary effect causes Strength damage. Radiation dangers are organized into four categories: low, medium, high, and severe.</p>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Radiation Level</th>\n<th>Fort Save</th>\n<th>Primary Effect</th>\n<th>Secondary Effect</th>\n</tr>\n<tr>\n<td>Low</td>\n<td>13</td>\n<td>1 Con drain</td>\n<td>1 Str damage/day</td>\n</tr>\n<tr>\n<td>Medium</td>\n<td>17</td>\n<td>1d4 Con drain</td>\n<td>1d4 Str damage/day</td>\n</tr>\n<tr>\n<td>High</td>\n<td>22</td>\n<td>2d4 Con drain</td>\n<td>1d6 Str damage/day</td>\n</tr>\n<tr>\n<td>Severe</td>\n<td>30</td>\n<td>4d6 Con drain</td>\n<td>2d6 Str damage/day</td>\n</tr>\n</table>\n<p><sup>Pathfinder Campaign Setting: Technology Guide &#169; 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor.</sup></p>\n<p><strong>Initial Effect:</strong> Radiation initially deals Constitution drain unless the exposed character succeeds at a Fortitude saving throw. A new saving throw must be attempted to resist radiation&#8217;s initial damage each round a victim remains exposed to it.</p>\n<p><strong>Secondary Effect:</strong> Secondary effects from radiation deal Strength damage at a much slower rate than most poisons. This secondary effect ends only after a character succeeds at two consecutive Fortitude saving throws to resist secondary radiation damage. If a character has Strength damage equal to his current Strength score, further damage dealt a secondary effect is instead Constitution damage.</p>\n<p><strong>Removing Radiation Effects:</strong> All radiation damage is a poison effect, and as such it can be removed with any effect that neutralizes poison. Ability damage and drain caused by radiation damage can be healed normally.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Blast Type"], ["Fire"], ["Light"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "_id": "gKs8c1CdF1lCv58P"
+}

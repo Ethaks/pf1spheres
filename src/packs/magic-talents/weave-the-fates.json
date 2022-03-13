@@ -1,0 +1,135 @@
+{
+  "name": "Weave The Fates",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Fate sphere (any one (motif), any one (arcana)), caster level 10th.</p>\n<p>Your ability to glimpse and actualize your target&#8217;s fate heightens. (Arcana) talents attached to a motif grant bonuses as though they were granted as a motif. A target cannot benefit from an (arcana)&#8217;s bonuses more than once, and they do not stack (wands attached to two different motifs do not grant separate bonuses to initiative).</p>\n<p>In addition, when you cast a motif and attach an (arcana), you may spend an additional spell point to attach up to three (arcana) to that motif, instead of just one. When a motif with multiple attached (arcana) is discharged, each (arcana) talent&#8217;s discharge effects occur simultaneously.</p>\n<p>If the same (arcana) is attached to one motif multiple times, that (arcana)&#8217;s bonuses do not stack and the discharge&#8217;s duration and effects resolve cumulatively.</p>\n<p><strong>Example:</strong> A sphere caster with a Fate sphere caster level of 10 grants the target a motif with 3 attached wands. The target would gain +3 initiative as normal for the Wands talent when granted as a motif and no additional benefit for the two additional wands. A target who discharges an attached motif with three attached swords would ignore concealment for three minutes and receive three separate critical confirmation bonuses after the motif is discharged.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "_id": "knEUryQXrLjred4x"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Bonerattle",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may make a ghost strike that painfully contorts the target&#8217;s skeleton, exoskeleton, or body. The target suffers 1d6 + 1d6 per 3 caster levels damage and moves 5 feet + 5 feet per 10 caster levels into an unoccupied space of your choice (Fortitude partial; half damage and no forced movement). Forced movement from this effect does not provoke attacks of opportunity, and the target can only move into a space it could reach with its natural movement. The target receives a +4 bonus to their saving throw if you would move them into a location that is directly harmful to them (such as onto a bed of spikes, out of a window, etc.).</p>\n<p>If you spend an additional spell point when using this ghost strike, the target is repeatedly wracked with pain for a short time. On a failed Fortitude saving throw against this ghost strike's initial effects, the target is afflicted for a number of rounds equal to 1/2 your caster level (minimum 1). For the duration of this effect, the target suffers the effects of this ghost strike at the start of its turn, taking damage and being forced to move. The target is granted a new saving throw against this ghost strike to reduce its effects, but a successful saving throw does not end this ghost strike's duration.</p>\n<p><strong>Special:</strong> This ghost strike affects any creature with a skeleton, exoskeleton, or other similar body structure, bypassing any racial immunity to Fortitude saves or death effects the target may possess. Creatures without discernible anatomy are immune (such as elementals, oozes, or other appropriate creatures, usually those immune to critical hits or with the amorphous universal monster rule). At the GM&#8217;s discretion, creatures with reasonably discernable anatomy or body structures, such as a robot or construct whose inner gears and pieces may instead shake and rattle violently, can be affected by this ghost strike.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Ghost Strike"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "_id": "ekAGVytruEf8o9rJ"
+}

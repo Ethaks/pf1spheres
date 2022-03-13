@@ -435,7 +435,12 @@ async function cleanPacks() {
 
 // TASKS
 
-const execBuild = gulp.parallel(buildCode, buildStyles, copyFiles);
+const execBuild = gulp.parallel(
+  buildCode,
+  buildStyles,
+  copyFiles,
+  gulp.series(cleanPacks, compilePacks, copyPacks)
+);
 
 exports.build = gulp.series(clean, execBuild);
 exports.watch = buildWatch;

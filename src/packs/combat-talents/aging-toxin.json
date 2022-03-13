@@ -1,0 +1,135 @@
+{
+  "name": "Aging Toxin",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Craft (alchemy) 10 ranks, Alchemy sphere.</p>\n<p>You may choose for your poison to begin to aggressively age the creature, increasing their age category by 1 instead of making them fatigued. For each time the creature fails a consecutive saving throw against this poison, it increases their age by 1 additional category. This poison does not add or remove bonuses to mental ability scores. This poison cannot cause the target to die of old age. The effects of different age categories are cumulative. The effects of this toxin are permanent, but can be removed with the Break Enchantment Life talent, or a similar effect.</p>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Age Category</th>\n<th>Physical Penalties</th>\n</tr>\n<tr>\n<td>Young Adult</td>\n<td>none</td>\n</tr>\n<tr>\n<td>Middle Age</td>\n<td>-1 to all physical ability scores</td>\n</tr>\n<tr>\n<td>Old Age</td>\n<td>-2 to all physical ability scores</td>\n</tr>\n<tr>\n<td>Venerable</td>\n<td>-3 to all physical ability scores</td>\n</tr>\n</table>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Toxin"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "_id": "VMwECvKdg3cmMIoa"
+}

@@ -1,0 +1,131 @@
+{
+  "name": "Chemical Insight",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": "<p>The technician unlocks special options for his inventions, as detailed under that section. Whenever he creates an independent invention, he may give it the alchemical subtype by adding the following properties (a construct or independent invention cannot possess more than one subtype):</p>\n<ul>\n<li><strong>Alchemy:</strong> All natural attacks made by the alchemical construct deal an additional 1d6 acid damage.</li>\n<li><strong>Broken Containers:</strong> Any strike on an alchemical construct with a melee weapon deals 1 point of acid damage to the attacker. This amount increases to 1d6 points of damage if the attack is a critical hit. Alchemical constructs are not immune to bleed damage, and if subject to a critical hit, they suffer 1d6 bleed damage in addition to other effects. It is possible to provide first aid to stop bleeding as if the construct were a living creature.</li>\n<li><strong>Vulnerable to Fire:</strong> Alchemical constructs take 150% as much damage as normal from fire attacks, unless they are immune to fire via other special defenses.</li>\n<li><strong>Difficult to Create:</strong> Increase the time and gp cost required to create an alchemical construct by 50% over normal for a construct.</li>\n</ul>\n<p>In addition, whenever he creates an detonator, he may choose to grant it one of the following benefits.</p>\n<ul>\n<li><strong>Powerful:</strong> The detonator&#8217;s explosion radius increases to 10 ft around the square it is in, rather than 5 ft.</li>\n<li><strong>Foam:</strong> The detonator fills an area with a radius of 10 ft, +5 ft per five class levels with foam. Any invisible creatures in the area at the time of the explosion are revealed for 1 minute per class level, or until the creature spends a full-round action wiping it off. Any invisible creature who enters this area leaves footprints behind, revealing their location so long as they remain in the foam-covered area. The foam dissipates on its own after 1 minute per level. The technician may choose to have this detonator not deal damage. Instead, the foam makes all affected creatures entangled, and all creatures who are within the blast radius or who enter the area while the foam remains must pass a Reflex save or be stuck in place until the foam is removed. This foam may also be burned or cut with a slashing weapon, and each 5 ft. square possesses 5 hp per technician level.</li>\n<li><strong>Flare:</strong> The detonator sheds bright light for 30 ft +5 ft per two class levels, and increasing the light level by one step to a maximum of normal for 30 ft +5 ft per two class levels beyond this for 1 minute per class level. The technician may choose to have this detonator not deal damage. Instead, all creatures within the area of bright light must pass a Fortitude save each round they are within this area or be blinded for 1 round.</li>\n<li><strong>Incendiary:</strong> The detonator deals all fire damage instead of half fire/half piercing, and any flammable materials within its area of effect catch fire. Creatures who fail their Reflex save are also set on fire.</li>\n<li><strong>Smoke:</strong> The detonator fills a 5 ft. radius + 5 ft per five levels with harmless smoke. The smoke obscures all sight, including darkvision, beyond 5 feet. A creature within 5 feet has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker can&#8217;t use sight to locate the target). The smoke remains for 1 minute per level. A moderate wind (11+ mph) disperses the smoke in 4 rounds; a strong wind (21+ mph) disperses the smoke in 1 round. The technician may choose to have this detonator not deal damage. Instead, all creatures within the blast area or who enter the area must pass a Fortitude save or be sickened for 1d4+1 rounds. If a creature stays in this area for multiple rounds they must make an additional save each round or be sickened. If a target is already sickened and enters the area or stays in the area for an additional round, they must pass a Fortitude save or be nauseated for 1 round.</li>\n</ul>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "classFeat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "cxjYuP888GqViEwa"
+}

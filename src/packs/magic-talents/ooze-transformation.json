@@ -1,0 +1,135 @@
+{
+  "name": "Ooze Transformation",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may spend a spell point to grant the form of an ooze or slime creature with your shapeshift.<br>\n<strong>Limbs:</strong> none<br>\n<strong>Speech:</strong> No; <strong>Hands:</strong> No<br>\n<strong>Speed:</strong> 20 ft. land speed<br>\n<strong>Natural weapons:</strong> slam (primary, 1d6 Medium, 1d4 Small, +1d4 acid)<br>\n<strong>AC:</strong> +4 natural armor bonus, +1 per 5 caster levels<br>\n<strong>Special:</strong> Additional limbs or natural attacks cannot be added to this form through traits. The target gains a 25% ability to ignore critical hits and precision damage, which increases by 25% per 5 caster levels to a maximum of 100%. The target is blind but gains blindsight out to 60 ft. (thus negating the blind condition&#8217;s normal penalties) and is immune to gaze attacks, visual effects, visual illusions, and other attack forms that rely on sight unless gaining eyes from another source. Additionally, the target can move through an area as small as one-quarter its space without squeezing or one-eighth its space when squeezing.</p>\n<p>The target also gains one of the following packages depending on which ooze or slime is being mimicked:</p>\n<ul>\n<li><strong>Amoeba:</strong> The target gains a 20 feet swim speed, a 10 ft. climb speed, and the ability to breathe underwater.</li>\n<li><strong>Gelatinous Cube:</strong> The target is transparent, granting a +5 circumstance bonus to Stealth checks that does not stack with invisibility. The target also gains resistance to electricity equal to the effect&#8217;s caster level.</li>\n<li><strong>Jelly:</strong> The acid damage from the target&#8217;s slam only affects organic material and not stone or metal. Unless a creature succeeds at a Reflex save (DC 10 + 1/2 Hit Dice + Constitution modifier), the acid damage affects any clothing and non-metal armor a creature is wearing on a successful attack, and also damages any wooden weapon that successfully attacks the jelly. This damage bypasses the material&#8217;s hardness. The target also gains a resistance to electricity equal to the effect&#8217;s caster level.</li>\n<li><strong>Pudding:</strong> The target&#8217;s acid damage only affects organic material and not stone or metal, and deals damage to clothing, armor, and wooden weapons as described under jellies above. Additionally, the target gains a climb speed of 20 feet, and the ability to suction. Activating or deactivating suction is a swift action, and as long as it is using suction, it moves at half speed, but may climb any surface with ease, even inverted ones. Suction also grants a +10 circumstance bonus to CMD vs. bull rush, awesome blows, and other attacks and effects that would physically move the target.</li>\n</ul>\n<p>Ooze Transformation offers the following traits, which you may apply to any form:</p>\n<ul>\n<li><strong>Acidic Body:</strong> The target&#8217;s body is dangerous to the touch. The target&#8217;s unarmed strikes or one slam attack (if it possesses one) deals +1d4 acid damage, as detailed above under the Ooze Transformation. If the target already possesses this acid damage, such as through the Ooze Transformation, the damage instead increases by one size category (two die sizes).</li>\n<li><strong>Acidic Nature:</strong> The target must possess a slime&#8217;s acid damage, either through the Ooze Transformation or the acidic body trait, to gain this trait. The target&#8217;s acid only affects organic material and not stone or metal, and damages clothing and wood, as detailed under jellies above. If the target already possess this ability, such as through the jelly or pudding packages above, its acid now affects metal and can dissolve metal armor and metal weapons in addition to wood and cloth.</li>\n<li><strong>Engulf:</strong> The target must possess the form from Ooze Transformation, or else the fluid body trait, to gain this trait. As a standard action, the target may move up to its speed and attempt to engulf anything in its path. It cannot make other attacks during a round in which it engulfs. The creature merely has to move over its opponents, affecting as many as it can cover. Targeted creatures can make attacks of opportunity against the creature, but if they do so, they are not entitled to a saving throw against the engulf attack. Those who do not attempt attacks of opportunity can attempt a Reflex save (DC 10 + 1/2 Hit Dice + Strength modifier) to avoid being engulfed - on a success, they are pushed back or aside (target&#8217;s choice) as the creature moves forward. Engulfed opponents gain the pinned condition, are in danger of suffocating, are trapped within the creature&#8217;s body until they are no longer pinned, and take acid damage from the target each round if it possesses either the Ooze Transformation or the acidic body trait. An engulfed creature may attempt to escape as if escaping a pin.</li>\n<li><strong>Fluid Body:</strong> The target can move through an area as small as one-quarter its space without squeezing or one-eighth its space when squeezing.</li>\n</ul>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Transformation"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "_id": "hdOV33aPR4EmSE6N"
+}

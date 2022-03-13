@@ -1,0 +1,135 @@
+{
+  "name": "Time Clone",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/time.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Time sphere, caster level 10th.</p>\n<p>You draw a version of the target from an alternate timeline to assist you on the battlefield by spending a number of spell points equal to 1/2 the target&#8217;s total Hit Dice (minimum 1). Activating this ability informs the caster of how many spell points it will cost for their intended target; if they do not have enough spell points, the action is wasted but no spell points are spent.</p>\n<p>This copy lasts for a number of rounds equal to 1/2 your caster level and appears in a square adjacent to the target and acts immediately on your turn, moving and acting as you direct it (a free action). The copy shares all of the target&#8217;s statistics (including current spell points after the talent is used and other limited-use abilities), movement speeds, and abilities, including equipped items (but not consumable or limited use items such as potions, wands, and scrolls), but its tether to this timeline is tenuous and the copy instantly vanishes if it takes any damage or fails a saving throw against any spell or effect. Any items the time clone may have possessed instantly disappear when the target is destroyed or when the duration of this effect ends. You must succeed on a melee touch attack (or a ranged touch attack if you possess the Ranged Time talent) to use this ability on an unwilling target, and they are allowed a Will saving throw against this effect; on a successful saving throw this ability fails and any spell points spent on it are wasted.</p>\n<p>Time clones created with this talent cannot create additional time clones or similar copies of themselves.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Time"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "time"
+    }
+  },
+  "_id": "3N4Kl4MeJrvCuqCZ"
+}

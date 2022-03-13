@@ -1,0 +1,135 @@
+{
+  "name": "Permanent Ward",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Protection sphere (Enduring Protection), caster level 10th.</p>\n<p>When creating a ward, you may spend 2 spell points to increase its duration to permanent. A complex glyph can be made permanent as a normal glyph can, except for those complex glyphs that trigger non-magical traps.</p>\n<p>When a permanent glyph is triggered, it uses its ward or sphere ability. For abilities with a duration, the glyph activates the ability and then maintains it as if it were concentrating on it for as long as the trigger is satisfied. For an attack ability, the glyph attacks a randomly selected creature in range of both the ability and the glyph itself once per round until there are no longer any targets to attack.</p>\n<p>The glyph always has an initiative equal to its caster level and does not roll a d20 or add any modifiers to its initiative. To be turned into a permanent glyph, a ward or other sphere ability must be usable as a full-round action or shorter without costing any spell points to use. If the caster has abilities that allows them to reduce spell point cost by increasing casting time, they may apply them, provided the casting time stays at a fullround action or less.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "_id": "9NrMBQfrOVxCIc5R"
+}

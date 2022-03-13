@@ -1,0 +1,135 @@
+{
+  "name": "Cystic Growth",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
+  "data": {
+    "description": {
+      "value": "<p>You can cause the bodies you control to respond in gruesome and disgusting manners.</p>\n<p>As a (still), you can cause a creature under your blood control to develop cysts and engorged pustules across their body. When another creature confirms a critical threat against your target, one of these cysts bursts. When a cyst bursts, the target immediately suffers damage equal to your blood loss, and any adjacent enemies are exposed to a single disease the target is suffering from (of your choice), and must immediately succeed at a save against that disease or become afflicted by it.</p>\n<p><strong>Note:</strong> If using the optional ruleset for Called Shots, any creature can attempt to burst a cyst by making an easy called shot.</p>\n<p>As a (blood art), you can cause a single creature within range to suffer blood loss and suddenly manifest a large cyst, which immediately bursts. Creatures adjacent to your target must attempt a saving throw against any diseases your target was suffering from. If your target was suffering from a disease, they must succeed at a Fortitude save or else be overwhelmed and disoriented by pain. On a failed saving throw, the target is sickened for 1 round and suffers 1d10 damage, plus an additional 1d10 damage per 5 caster levels you possess.</p>\n<p><strong>Special:</strong> When you expel a disease with the Manipulate Health talent, you can deal blood loss to the creature to cause any creature within 5 feet of them to attempt a save against the disease.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Blood Art"], ["Still"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "_id": "Za3sQ2P3MTmz6E0S"
+}

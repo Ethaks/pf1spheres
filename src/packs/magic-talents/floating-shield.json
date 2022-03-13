@@ -1,0 +1,135 @@
+{
+  "name": "Floating Shield",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
+  "data": {
+    "description": {
+      "value": "<p>When using your telekinesis to lift a shield, you may apply its shield bonus to the armor class of anything in its square, though this does not stack with any shield bonus they already possess. A shield sustained with Sustained Force still grants its shield bonus, and may be directed to follow a given individual or target. If you possess the Orbit talent, you may choose a single shield in orbit of you and add its shield bonus to your armor class. If you possess the Dancing Weapon talent, you may apply shield related feats and combat talents (such as Shield Focus) to any shield you are lifting.</p>\n<p><strong>Author's Note:</strong> The floating shield talent does not count as wielding a shield for any purpose, positive or negative (including ACP, maximum Dexterity, etc, but also magical qualities). This means it can grant a shield bonus to someone benefiting from the monk's AC bonus class feature without penalizing them, but also cannot be used as a shield to perform shield bashes, utilize most abilities from the Shield sphere, etc.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "_id": "BFyDfi4vY7BgIAMG"
+}

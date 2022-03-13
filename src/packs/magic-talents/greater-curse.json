@@ -1,0 +1,135 @@
+{
+  "name": "Greater Curse",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Death sphere (Curse (ghost strike)), caster level 15th.</p>\n<p>When you successfully apply a curse through your Curse ghost strike, the DC to remove it is increased by +5. Additionally, you may apply much more powerful curses to the target, examples of which are outlined below:</p>\n<p><strong>Curse of Ages:</strong> The target ages 1 year every day.</p>\n<p><strong>Daybane:</strong> The target suffers 1d6 points of nonlethal damage for every minute of exposure to bright light, including daylight. This does not become lethal damage if the target falls unconscious.</p>\n<p><strong>Dayblind:</strong> The target is blind except in dim light or darkness.</p>\n<p><strong>Famine:</strong> Any food that the target attempts to consume instantly rots into a putrescent mass. The target can attempt a Fortitude save to choke down the spoiled food. If the target fails at the check, she takes 1d2 points of Constitution damage. In either case, attempting to consume food leaves the target sickened and unable to eat for 1d4 hours. Food created by magic can resist spoilage with a successful magic skill check against the DC of the curse.</p>\n<p><strong>Font of Truth:</strong> The target is unable to intentionally lie. In addition, anytime the target is asked a question, she must succeed at a Will save or answer in exacting, truthful detail. The target receives an additional save once per minute to cease elaborating upon her answer.</p>\n<p><strong>Insanity:</strong> The target gains either amnesia, mania/phobia, multiple personality disorder, paranoia, psychosis, or schizophrenia, as detailed in the Pathfinder RPG GameMastery Guide.</p>\n<p><strong>Lycanthropy:</strong> The target becomes afflicted with lycanthropy.</p>\n<p><strong>Ravenous:</strong> The target must attempt a Fortitude save every hour. If it fails, it must eat a full day&#8217;s worth of food. If sufficient food is not available, starvation advances at the rate of 1 day per failed Fortitude save.</p>\n<p><strong>Unluck:</strong> Once per hour, the target must reroll one roll (decided by the GM) and take the worse result.</p>\n<p><strong>Venerable:</strong> The target gains the penalties (but not the benefits) of advancing to the venerable age range. This does not actually increase their age.</p>\n<p><strong>Vulnerability:</strong> The target gains vulnerability to a single energy type. This has no effect on targets immune to the chosen energy type.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "_id": "SrZNuADU1s1UaITv"
+}

@@ -12,8 +12,8 @@
       "url": "https://gitlab.com/Ethaks"
     }
   ],
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "0.8.8",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
   "scripts": [],
   "esmodules": ["pf1spheres.js"],
   "styles": ["styles/pf1spheres.css"],
@@ -23,35 +23,35 @@
       "label": "Combat Talents",
       "system": "pf1",
       "path": "./packs/combat-talents.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
-      "name": "som-feats",
-      "label": "Spheres of Might Feats",
+      "name": "magic-talents",
+      "label": "Magic Talents",
       "system": "pf1",
-      "path": "./packs/som-feats.db",
-      "entity": "Item"
+      "path": "./packs/magic-talents.db",
+      "type": "Item"
     },
     {
-      "name": "som-items",
-      "label": "Spheres of Might Items",
+      "name": "sphere-feats",
+      "label": "Sphere Feats",
       "system": "pf1",
-      "path": "./packs/som-items.db",
-      "entity": "Item"
+      "path": "./packs/sphere-feats.db",
+      "type": "Item"
     },
     {
-      "name": "som-classes",
-      "label": "Spheres of Might Classes",
+      "name": "classes",
+      "label": "Sphere Classes",
       "system": "pf1",
-      "path": "./packs/som-classes.db",
-      "entity": "Item"
+      "path": "./packs/sphere-classes.db",
+      "type": "Item"
     },
     {
-      "name": "som-class-abilities",
-      "label": "Spheres of Might Class Features",
+      "name": "class-features",
+      "label": "Sphere Class Features",
       "system": "pf1",
-      "path": "./packs/som-class-abilities.db",
-      "entity": "Item"
+      "path": "./packs/sphere-class-features.db",
+      "type": "Item"
     }
   ],
   "dependencies": [],

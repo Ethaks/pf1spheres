@@ -1,0 +1,135 @@
+{
+  "name": "Water Creature",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
+  "data": {
+    "description": {
+      "value": "<p>This fey-blessing grants you the ability to communicate and control water. When granted, you gain the following abilities:</p>\n<p><strong>Hydrokinesis:</strong> When touching a body of water, you may attempt the bullrush, drag, grapple, reposition, or trip combat maneuver against another creature touching that body of water within medium range as a standard action. Use your caster level in place of your base attack bonus and your casting attribute modifier in place of your Strength modifier for determining your combat maneuver bonus for this check. Failure on a trip attempt does not allow the target to trip you in return. You have no bonuses or penalties from size on this maneuver and are not limited by the size of your target.</p>\n<p><strong>Waterspout:</strong> When touching a body of water, you may attempt to damage a creature touching that body of water within close range as a standard action. The targeted creature must succeed on a Reflex save or take 1d6 bludgeoning damage. This damage increases by 1d6 at 3rd caster level and every 2 caster levels thereafter.</p>\n<p><strong>Waveglide:</strong> As a standard action, you can create waves and currents to double or halve the speed of creatures or objects traveling on the surface of the water, affecting up to 10 contiguous 5-foot squares per caster level within long range. This requires line of effect to some part of the area, and lasts as long as you concentrate. An unwilling target can ignore the effect for 1 round by succeeding on a Will saving throw.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Fey-Blessing"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallen fey"
+    }
+  },
+  "_id": "y7PLIudQiw9KVsma"
+}

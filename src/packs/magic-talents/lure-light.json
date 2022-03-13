@@ -1,0 +1,135 @@
+{
+  "name": "Lure Light",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may create an area of bright light that lures creatures towards it. All creatures in the area of your light must succeed at a Will save or be compelled to move towards the source of the glow on their turns. An affected creature capable of movement must make at least one move action towards the source of the glow each turn, and cannot intentionally move away from it unless they must backtrack to get closer to it. A creature may attempt a new Will save each turn they are in the light of the glow, and after successfully saving once they are immune to your use of this talent for 24 hours. If a creature is in the area of multiple lure lights, they move towards the closest, or towards the glow of their choice if they are equidistant. A creature will not intentionally harm themselves when moving towards a lure. They will not throw themselves off cliffs or into lava to pursue a glow, though they will move as close as possible without risking themselves.</p>\n<p>The effect of this (light) talent is considered a mind-affecting effect.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Light"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "_id": "LyuJCigADcad3xWj"
+}

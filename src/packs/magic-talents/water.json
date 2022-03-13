@@ -1,0 +1,135 @@
+{
+  "name": "Water",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
+  "data": {
+    "description": {
+      "value": "<p><span style=\"text-decoration: underline;\">Blood Sphere Note:</span> If you possess both the Nature sphere (water) package and the Blood sphere, you may treat a volume of blood as an equal volume of water for your (water) geomancing abilities. You may treat a creature susceptible to bleed damage that is taking bleed damage or below half its maximum hit points as being wet for any ability that requires it. You may treat a creature susceptible to bleed damage of at least Large size (count two Medium creatures as a Large creature, two Small creatures as a Medium creature, etc.) that is suffering bleed damage or below half its maximum hit points as a sufficient volume to use the Fog ability.</p>\n<p><strong>Fog:</strong> Concentration, requires rain, mist, or at least 5 cubic feet of water. You call up a rolling fog, cutting off people&#8217;s vision within a 10-foot radius + 5 feet per 5 caster levels area centered within range. The fog obscures all sight, including darkvision, beyond 5 feet. A creature within 5 feet has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance and the attacker cannot use sight to locate the target). The ability does not function underwater. If using a body of water, the fog must be at least partially over the water itself.</p>\n<p>If you spend a spell point to maintain this effect without concentration, a moderate wind (11+ mph) will disperse it within 4 rounds. In the presence of a strong wind (21+ mph), you cannot use this ability.</p>\n<p><strong>Freeze:</strong> Instantaneous, requires water. You may spend a spell point to flash freeze water, turning it into ice. You may freeze a 1 inch thick, 5-foot-by-5-foot square of water per caster level. Alternatively, you may cover a wet Medium-sized creature with 1 inch of ice per caster level. You may increase the size of the frozen area or size/number of the frozen creatures, but divide the ice&#8217;s thickness by the equivalent number of Medium-sized creatures.</p>\n<p>Creatures smaller than Medium count as Medium-sized creatures for this effect, with the exception of multiple creatures occupying the same space. Add the sizes of multiple creatures occupying the same space together when determining their size for this purpose. For swarms, count each 5-foot square as being 2 Medium-sized creatures occupying the same space. You may affect both squares and creatures, but all affected targets and spaces must be contiguous and must have the same thickness of ice.</p>\n<p>Creatures are allowed a Reflex save to avoid being frozen. On a failure, they are encased and cannot move, and suffer 1 point of cold damage per round per inch of ice. To escape, they must succeed at a Strength check or Escape Artist check as a full-round action to escape the ice (DC 15 +1 per inch of thickness) or another creature must break the ice around the trapped creature (3 hit points per inch). While encased, a target can only take mental or verbal actions, or attempt to escape. Being encased in ice blocks line of effect, but not line of sight (the creature may still be targeted, but effects that deal damage to the target must break through the ice first before dealing damage to the target). On a successful save, the target is still entangled for 1 round. Ice melts 1 inch of thickness per minute on the average day.</p>\n<p>When freezing ice or wet ground, you may also create slick ice. A creature traversing slick ice must spend two squares of movement to first enter a space with ice, and cannot move more than half speed without a successful DC 15 Acrobatic check at the start of the movement, falling prone on a failure.</p>\n<p>Running or charging requires a DC 20 Acrobatics check, falling prone on a failure, but increasing the runner&#8217;s move across the ice by 10 feet if successful by 5 or more, though the runner is considered flat-footed until the start of its next turn.).</p>\n<strong>Table: Creature Size</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Creature Size</th>\n<th>Equivalent number of Medium-sized creatures</th>\n</tr>\n<tr>\n<td>Fine</td>\n<td>1/16</td>\n</tr>\n<tr>\n<td>Diminutive</td>\n<td>1/8</td>\n</tr>\n<tr>\n<td>Tiny</td>\n<td>1/4</td>\n</tr>\n<tr>\n<td>Small</td>\n<td>1/2</td>\n</tr>\n<tr>\n<td>Medium</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Large</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Huge</td>\n<td>4</td>\n</tr>\n<tr>\n<td>Gargantuan</td>\n<td>8</td>\n</tr>\n<tr>\n<td>Colossal</td>\n<td>16</td>\n</tr>\n</table>\n<p><strong>Vortex:</strong> Concentration, requires a large body of liquid. You may create a spinning vortex in a body of liquid that sucks creatures and objects to its center. This vortex is 5 feet wide at its base, is 10 feet high + 5 feet per 5 caster levels, and is half as wide at the top as it is high. Any creature entering this area must succeed at a Reflex save or suffer bludgeoning damage equal to 1d8 + 1/2 your caster level (minimum 0). If the creature is smaller than the vortex, they must succeed at a second Reflex save or be pulled into the middle of the vortex. Creatures in the middle of the vortex suffer bludgeoning damage once per round with no save, and must succeed at a Reflex save each round or be unable to move, and on a success may only move at half their swim speed. A vortex cannot contain more creatures than would exceed its volume.</p>\n<p>You may move the vortex up to 30 feet per round as part of the action required to concentrate on it. If maintaining the effect through a method other than concentration, you may designate a simple pattern for it to move, which you may alter as a move action. Creatures in the middle of the vortex are carried along with it as it moves.</p>\n<h2 id=\"toc7\"><span>Nature Talent Types</span></h2>\n<p>Some talents are marked (air), (earth), (fire), (metal), (plant), or (water). You must possess the (air), (earth), (fire), (metal), (plant), or (water) package respectively to gain these talents. Talents marked (geomancing) give you new geomancing abilities.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "_id": "04GKT85hypR59uKi"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Caravan",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
+  "data": {
+    "description": {
+      "value": "<p>Your followers can follow you as you travel, providing cartage. This caravan has an overland movement speed of 3 miles per hour and can travel 32 miles a day. The caravan has wagons and draft animals necessary to carry 100 pounds of objects per rank in Diplomacy in addition to sufficient provisions to sustain themselves in normal conditions. A caravan is assumed to be capable of making Survival checks with a DC of 10 + your ranks in Diplomacy to feed itself and 1 additional Medium creature per 5 followers (Medium creatures count as two Small creatures, Large creatures count as two Medium ones) while moving without affecting speed. In harsher environments, the caravan has supplies for 1 week plus 1 day per rank in Diplomacy that you possess. If their Survival check is not more than 5 below the environment DC, they count as only spending half a day&#8217;s supplies.</p>\n<p>The caravan can make camp, setting up tents, cooking, and performing other camp tasks. Doing so increases the progress a PC can make when crafting while adventuring by 2 hours per day (normally going from 2 hours to 4 hours a day).</p>\n<p>When you enter a settlement, you can disperse your caravan there, allowing you to gain the benefits of your followers while in that settlement. Gathering a caravan after it has been dispersed requires 1 hour.</p>\n<p><strong>Note:</strong> Your caravan doesn&#8217;t have to rest at the same time as you do. If the caravan rests while you adventure, they can travel while you rest, carrying a number of Medium creatures equal to your practitioner modifier plus your ranks in Diplomacy. Two Small creatures counts as one Medium creature, two Medium creatures count as one Large creature, etc.</p>\n<p>A caravan that is attacked in your absence will disperse. A dispersed caravan will reform, regaining 25% of its members every hour after threats are removed. If statistics are required for the caravan, treat it as a 1 Hit Die troop per the Squad talent, but it takes no action except to attempt to flee to safety. The number of troops increases by +1 for every 5 ranks in Diplomacy you possess, with your total number of followers divided equally between them. If such a troop is destroyed, treat half the followers in it as lost.</p>\n<h3 id=\"toc9\"><span>Dividing Followers</span></h3>\n<p>You may divide your followers into multiple groups (minimum size of 5), treating your ranks in Diplomacy as equal to the number of available followers/4 (round down as usual). You may have multiple caravans, but any caravan not accompanied by a PC or cohort is at risk from the various hazards of travel and may not reach its destination, based on the conditions in the region it travels. The GM should roll random encounters, treating combat encounters as dispersing the caravan. Combat encounters with a CR of less than half your ranks in Diplomacy disperse the caravan but cause no permanent losses. Encounters with a CR of at least half your ranks in Diplomacy but not greater than your ranks disperses the caravan and causes 25% losses. A combat encounter with a CR of greater than your ranks in Diplomacy disperses the caravan and causes 50% losses. A caravan reduced below 4 followers is lost entirely.</p>\n<p>Talents marked (follower) grant additional options for your followers.</p>\n<h3 id=\"toc10\"><span>Roleplaying Followers</span></h3>\n<p>While naming and developing personalities and tracking the abilities and developments of each individual in a large group of followers would be unnecessarily onerous, players and groups are encouraged to develop at least a few key followers to act as the focal points for interactions with followers. While on the move, a caravan will usually have a boss, directing others to execute the PC's directions. Likewise, talents that grant additional skills to your followers each lend themselves to having one higher ranking follower direct activities (scouting, trade, crafting) of the group of followers. As with cohorts, the GM will normally voice these NPCs, but in some groups allowing other players to speak and develop personalities for some of them could make the interactions more interesting.</p>\n<h3 id=\"toc11\"><span>Followers And Statistics</span></h3>\n<p>Followers are normally intended to be governed by the abilities listed in the followers package and relevant talents. Using the statistics for commoners, experts, and troops are intended for use primarily when interactions cannot be easily handled narratively. Followers are not intended to be expendable operatives, skilled infiltrators, or massed alchemical bombers. If a PC's actions cause the unnecessary death of followers, follower recruitment may be slowed. Losses in the normal course of events should not have an effect; ambushes and unforeseen events occur, but repeated and extended abuse will discourage others from joining you.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "_id": "wqzbaprUDExI60BB"
+}

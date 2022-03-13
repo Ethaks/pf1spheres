@@ -1,0 +1,135 @@
+{
+  "name": "Scrying",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Divination sphere (Greater Divine [range], Viewing (divine)), caster level 10th.</p>\n<p>You may spend 2 spell points and 1 hour to observe a creature or object as if using the Viewing talent, but over any distance. If targeting a creature, the target is allowed a Will save to resist being viewed, which is subject to the following modifiers depending on your knowledge and connection to the desired creature. Creatures or objects on a different plane receive an extra +5 bonus to their Will save. If viewing an object, the object may attempt a save (if intelligent), or any creature holding the object, or that could be considered to &#8216;possess&#8217; the object is allowed to attempt this save on its behalf. If no such creature is available, assume a default Will save of 15.</p>\n<strong>Table: Familiarity (Scrying)</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Knowledge</th>\n<th>Will Save Modifier</th>\n</tr>\n<tr>\n<td>None^</td>\n<td>+10</td>\n</tr>\n<tr>\n<td>Secondhand (you have heard of the subject)</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>Firsthand (you have met the subject)</td>\n<td>+0</td>\n</tr>\n<tr>\n<td>Familiar (you know the subject well)</td>\n<td>-5</td>\n</tr>\n</table>\n<p>^You must have some sort of connection (see below) to a creature of which you have no knowledge</p>\n<strong>Table: Connection (Scrying)</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Connection</th>\n<th>Will Save Modifier</th>\n</tr>\n<tr>\n<td>Likeness or picture</td>\n<td>-2</td>\n</tr>\n<tr>\n<td>You have one of the creature&#8217;s possessions, or have a person present who once owned the object</td>\n<td>-4</td>\n</tr>\n<tr>\n<td>You possess a piece of the subject (body part, lock of hair, broken fragment, etc.)</td>\n<td>-10</td>\n</tr>\n</table>\n<p>If the save fails, you can see and hear the subject and its surroundings (approximately 10 feet in all directions of the subject) as if you were present. If the saving throw succeeds, you cannot scry on the target again for 24 hours. If the subject moves, the sensor follows at a speed of up to 150 feet.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "divination"
+    }
+  },
+  "_id": "ictW0Yar9rJgdzjI"
+}

@@ -1,4 +1,4 @@
-import { SourceDetails, SourceInfo } from "./item-data";
+import { RollData, SourceDetails, SourceInfo } from "./item-data";
 import { TotalModData, ValueData } from "./common-data";
 import { DeepNonNullable, PropPath } from "./util";
 import { PF1S } from "./config";
@@ -12,6 +12,8 @@ export declare class ActorPF extends Actor {
    * Working object for sourceDetails
    */
   sourceInfo: SourceInfo;
+  /** @override */
+  getRollData: () => RollData;
 }
 
 export interface PF1ActorSpheresData {

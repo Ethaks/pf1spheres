@@ -25,7 +25,7 @@ interface PF1ItemDataSourceDescription {
 }
 
 interface PF1ItemDataSourceTags {
-  tags: string[];
+  tags: string[][];
 }
 
 interface PF1ItemDataSourceChanges {
@@ -47,7 +47,7 @@ interface PF1ItemDataSourceTagged {
   useCustomTag: boolean;
 }
 
-interface PF1FeatDataSource {
+export interface PF1FeatDataSource {
   type: "feat";
   data: PF1FeatDataSourceData;
 }
@@ -66,6 +66,7 @@ interface PF1FeatDataSourceData
     | "misc"
     | "template"
     | keyof typeof PF1CONFIG.featTypes;
+  abilityType: "classFeat";
 }
 
 export interface PF1ClassDataSource {
@@ -79,6 +80,14 @@ interface PF1ClassDataSourceData
     PF1ItemDataSourceChanges,
     PF1ItemDataSourceTagged {
   level: number;
+  bab: BABProgression;
+  hd: number;
+  classType: "base";
+  savingThrows: Record<SaveType, { value: "high" | "low" }>;
+  classSkills: Record<string, boolean>;
+  skillsPerLevel: number;
+  armorProf: { value: Array<keyof typeof CONFIG.PF1.armorProficiencies>; custom: string };
+  weaponProf: { value: Array<keyof typeof CONFIG.PF1.weaponProficiencies>; custom: string };
 }
 
 export type CasterProgression = keyof typeof PF1S.progression | "";
@@ -146,6 +155,11 @@ export type BonusModifier =
   | keyof typeof PF1CONFIG.bonusModifiers;
 
 export type PFBuffTarget = "cmd";
+
+type BABProgression = "high" | "med" | "low";
+
+export type SaveType = "fort" | "ref" | "will";
+export type SaveProgression = "high" | "low";
 
 export declare class ItemChange {
   data: ItemChangeData;

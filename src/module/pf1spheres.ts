@@ -12,7 +12,9 @@ import {
 } from "./changes";
 import { getGame, localize } from "./util";
 import { PF1SpheresApi } from "./common-data";
-import { onActorSheetRender } from "./actor-sheet";
+// TODO: To be activated for WIP tab
+// import { onActorSheetRender } from "./actor-sheet";
+import * as packUtils from "./pack-util";
 
 // Initialize module
 Hooks.once("init", () => {
@@ -84,6 +86,9 @@ Hooks.once("setup", async () => {
     (moduleData.api as PF1SpheresApi) = {
       config: PF1S,
       changeFlatTargets: changeFlatTargets,
+      _internal: {
+        packUtils: packUtils,
+      },
     };
   }
   CONFIG.PF1SPHERES = PF1S;
@@ -97,7 +102,8 @@ Hooks.once("setup", async () => {
 
 Hooks.on("renderItemSheetPF", onItemSheetRender);
 
-Hooks.on("renderActorSheetPF", onActorSheetRender);
+// TODO: To be activated for WIP tab
+// Hooks.on("renderActorSheetPF", onActorSheetRender);
 
 Hooks.on("pf1.prepareBaseActorData", onActorBasePreparation);
 

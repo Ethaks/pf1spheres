@@ -1,0 +1,135 @@
+{
+  "name": "Project Spirit",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Death sphere, caster level 10th.</p>\n<p>You may spend a spell point to project your spirit out of your body for up to 1 round per caster level. During this time, your body falls into a state of suspended animation; it requires neither food nor water and does not age, although it may be slain through normal means.</p>\n<p>Your spirit manifests as an ethereal version of you with your hit points and abilities, and carries a copy of all of your equipment. It is invisible, insubstantial, and capable of moving in any direction, even up or down, albeit at half normal speed.</p>\n<p>It can move through solid objects, including living creatures, and may see and hear its surroundings, although as it is on the Ethereal Plane, it can only see and hear the Material Plane to a distance of 60 feet. When the time limit expires, your spirit immediately returns to your body. Using magic items (such as scrolls, wands, potions, and other items with a limited number of charges or uses per day) while ethereal counts against the item&#8217;s total remaining uses when you return to your body.</p>\n<p>Your spirit cannot attack or otherwise affect creatures and objects on the Material Plane nor generally be affected by them, although some effects (such as force damage) specifically target ethereal creatures when used by material creatures. Certain material creatures or objects also have attacks or effects that can specifically affect creatures on the Ethereal Plane. These effects do not work in reverse to allow your spirit to affect material creatures.</p>\n<p>Your spirit treats other ethereal creatures and ethereal objects as if they were material. Your spirit may use any magic you possess, but such magic can only affect other ethereal things.</p>\n<p>If your spirit self is slain, your spirit instantly returns to your body, reviving it from its state of suspended animation. This is a traumatic affair, however, and you gain two permanent negative levels.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "_id": "m1u6lTPTQ4EbYHEn"
+}

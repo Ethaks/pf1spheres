@@ -1,0 +1,131 @@
+{
+  "name": "Wild Charge",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": "<p>Whenever the striker uses the charge action, for each tension a striker spends on this tension technique, she deals additional damage equal to her Constitution modifier (minimum 1) on the first successful attack she makes with an unarmed strike as long as it is made before the end of her turn.</p>\n<h2 id=\"toc34\"><span><span style=\"color: #993300\">Tension Boost (Ex)</span></span></h2>\n<p>At 2nd level, a striker gains 1 tension at the start of her first turn in combat (including surprise rounds). At 7th level and every six levels thereafter, she gains an additional tension at the start of her first turn in combat.</p>\n<h2 id=\"toc35\"><span><span style=\"color: #993300\">Drill Knuckle (Ex)</span></span></h2>\n<p>At 3rd level, a striker gains the ability to break through even the hardiest of foes. A striker ignores up to 2 points of damage reduction or hardness whenever she makes an attack with an unarmed strike. At 6th level and every 3 levels thereafter, she can ignore an additional 1 point of damage reduction or hardness.</p>\n<h2 id=\"toc36\"><span><span style=\"color: #993300\">Uncanny Dodge (Ex)</span></span></h2>\n<p>At 3rd level, a striker gains the ability to react to danger before her senses would normally allow her to do so. She cannot be caught flat-footed, nor does she lose her Dexterity bonus to AC if the attacker is invisible. She still loses her Dexterity bonus to armor class if immobilized. A striker with this ability can still lose her Dexterity bonus to armor class if a creature successfully uses the feint action against her. If a striker already has uncanny dodge from a different class, she automatically gains improved uncanny dodge (see below) instead.</p>\n<h2 id=\"toc37\"><span><span style=\"color: #993300\">Desperate Tension (Ex)</span></span></h2>\n<p>At 4th level, if the striker starts her turn with 0 tension, she gains 1 tension (this is gained before the tension gained from tension boost, rising tension, or ultimate tension).</p>\n<h2 id=\"toc38\"><span><span style=\"color: #993300\">Tension Training (Ex)</span></span></h2>\n<p>At 5th level and every six levels thereafter, a striker learns new ways to gain tension; she can select one of the following new methods through which to gain tension (a striker cannot gain tension from any of these more than once per round); a striker cannot regain tension if any of these tension training abilities are used against a helpless or unaware creature, or on a creature that has fewer Hit Dice than half the striker&#8217;s character level:</p>\n<ul>\n<li><strong>Critical Offense:</strong> Whenever the striker confirms a critical hit with an unarmed strike while in the heat of combat, she gains 1 tension.</li>\n<li><strong>Deadly Offense:</strong> Whenever the striker reduces a creature&#8217;s hit points to 0 or less with an unarmed strike, she gains 1 tension.</li>\n<li><strong>Deceptive Taunt:</strong> Whenever a striker makes a successful Bluff check to feint in combat against a creature, she gains 1 tension.</li>\n<li><strong>Threatening Taunt:</strong> Whenever the striker makes a successful Intimidate check to demoralize a creature, she gains 1 tension.</li>\n<li><strong>Victorious Defense:</strong> Whenever the striker makes a successful saving throw against a non-harmless effect, she gains 1 tension.</li>\n</ul>\n<h2 id=\"toc39\"><span><span style=\"color: #993300\">Pummeling Punisher (Ex)</span></span></h2>\n<p>At 7th level, whenever a striker uses her rapid pummel tension technique, she can spend an additional 2 tension to make two attacks instead of one; both of these attacks suffer a -4 penalty.</p>\n<h2 id=\"toc40\"><span><span style=\"color: #993300\">Rising Tension (Ex)</span></span></h2>\n<p>At 10th level, a striker gains 1 tension at the start of her turn. At 16th level, she instead gains 2 tension at the start of her turn.</p>\n<h2 id=\"toc41\"><span><span style=\"color: #993300\">Improved Uncanny Dodge (Ex)</span></span></h2>\n<p>At 12th level and higher, a striker can no longer be flanked. This defense denies a rogue the ability to sneak attack the striker by flanking her, unless the attacker has at least four more rogue levels than the target has striker levels.</p>\n<p>If a character already has uncanny dodge (see above) from another class, the levels from the classes that grant uncanny dodge stack to determine the minimum rogue level required to flank the character.</p>\n<h2 id=\"toc42\"><span><span style=\"color: #993300\">Ultimate Tension (Ex)</span></span></h2>\n<p>At 20th level, a striker gains 7 tension at the start of her first turn in combat (including surprise rounds). She also has no limit to how much tension she can possess, and if she possesses the high tension striker art, she can immediately swap it for another striker art. The striker also reduces the cost of all abilities which require tension by 1, to a minimum of 1.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "classFeat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "KUNBaqvSFAvJRCZL"
+}

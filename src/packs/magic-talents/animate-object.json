@@ -1,0 +1,135 @@
+{
+  "name": "Animate Object",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may spend a spell point to enhance an object, bestowing movement and a semblance of life. The object obeys your command and understands your language, but as it is not intelligent, it can only obey simple commands such as &#8216;move&#8217;, &#8216;fight&#8217;, &#8216;guard&#8217;, &#8216;stop&#8217;, etc.</p>\n<p>If you animate an enemy&#8217;s weapon, the weapon cannot move and attack while it is being held, but the wielder must succeed at a Reflex save (DC 10 + 1/2 caster level + casting ability modifier) each round they hold the item or lose their action fighting their weapon for control. If you animate an enemy&#8217;s armor or clothing, the enemy becomes entangled and must succeed at a Reflex save each round or be staggered for that round. Animated objects are constructs, and gain Hit Dice according to their size. The maximum sized object you may animate depends on your caster level, according to Table: Animate Object.</p>\n<p>You can only have a number of animated object Hit Dice at once equal to twice your caster level.</p>\n<strong>Table: Animate Object</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Caster Level</th>\n<th>Size</th>\n<th>Sample Object</th>\n<th>Hit Dice</th>\n<th>Maximum Construction Points</th>\n</tr>\n<tr>\n<td>1</td>\n<td>Tiny</td>\n<td>Candelabra</td>\n<td>1d10</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Small</td>\n<td>Chair</td>\n<td>2d10+10</td>\n<td>1</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Medium</td>\n<td>Cage</td>\n<td>3d10+20</td>\n<td>2</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Large</td>\n<td>Statue</td>\n<td>4d10+30</td>\n<td>3</td>\n</tr>\n<tr>\n<td>11</td>\n<td>Huge</td>\n<td>Wagon</td>\n<td>7d10+40</td>\n<td>4</td>\n</tr>\n<tr>\n<td>15</td>\n<td>Gargantuan</td>\n<td>Catapult</td>\n<td>10d10+60</td>\n<td>5</td>\n</tr>\n<tr>\n<td>20</td>\n<td>Colossal</td>\n<td>Ship</td>\n<td>13d10+80</td>\n<td>6</td>\n</tr>\n<tr>\n<td>30</td>\n<td>Colossal+</td>\n<td>House</td>\n<td>16d10+100</td>\n<td>7</td>\n</tr>\n<tr>\n<td>36</td>\n<td>Colossal++</td>\n<td>Warehouse</td>\n<td>19d10+120</td>\n<td>8</td>\n</tr>\n<tr>\n<td>42</td>\n<td>Colossal+++</td>\n<td>Cathedral</td>\n<td>22d10+150</td>\n<td>9</td>\n</tr>\n</table>\n<p><strong>Animated Object Special Qualities</strong><br>\nAll animated objects possess construction qualities and construction flaws. However, these are not options the player has the power to choose; an animated object&#8217;s construction qualities and flaws are instead chosen by the GM to reflect the item in question. For example, animating an object made from cloth grants it the &#8216;cloth&#8217; construction flaw, while animating a slingshot would create an animated object with the ranged attack construction quality.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Enhance"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "_id": "KLyKv3QMJwOfgzuY"
+}

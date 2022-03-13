@@ -1,0 +1,135 @@
+{
+  "name": "Cardiovascular Ascension",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Blood sphere (Cardiovascular Mastery (quicken, still)), caster level 10th.</p>\n<p>The drum that keeps all living creatures functional is an instrument you know how to outplay.</p>\n<p>As a (still) ability, you may temporarily strip a creature of the need for blood to allow them to keep living. As an immediate action made when a willing creature under your blood control would be slain or knocked unconscious by hit point damage, you can cause that creature to ignore the need for blood by spending 3 spell points. For one round, that creature cannot be slain by hit point damage, cannot suffer ability damage or drain to their Constitution, Dexterity or Strength scores and does not fall unconscious for having negative hit points. However, in this state, the creature treats their Constitution score as if it were 1, suffers a -4 penalty to their armor class, and all temporary hit points they would gain are reduced to 0. After this ability expires, at the start of the target&#8217;s next turn, they must succeed at a Fortitude save against a DC of 15 + the amount of negative hit points below their death threshold (the number of negative hit points they may have before dying of hit point damage) or immediately die. If they succeed, the creature falls unconscious with a number of negative hit points equal to their death threshold plus one. As this ability is extremely taxing on a creature&#8217;s body to use, attempting to use this ability on a creature more than once every 24 hours automatically fails.</p>\n<p>As a (still) ability, you may spend two spell points to stop a creature&#8217;s heart entirely. At the beginning of that creature&#8217;s turns, they must succeed at a Fortitude save (the creature suffers a -4 penalty to this saving throw if they are below half their maximum hit points) or be reduced to 1 hit point and become sickened and staggered for the duration of your blood control. If the creature was already at 1 point or lower, they are reduced to -1 hit points and fall unconscious. If the creature was already unconscious, or at -1 hit points or lower, they instead die. While under the effects of this (still) ability, a creature cannot benefit from healing from sources other than fast healing and regeneration. If a creature succeeds a saving throw against this ability, the creature no longer needs to attempt new Fortitude saves at the beginning of their turn.</p>\n<p>As a (quicken) ability, as a standard action, you can rapidly accelerate a creature&#8217;s heartbeat to the point it can explode by spending one spell point. If the target possesses any temporary hit points, they must succeed at a Fortitude save or otherwise have all of their temporary hit points removed, and afterwards suffer bludgeoning damage equal to the amount of temporary hit points that were removed. If a creature has a combined total of temporary and current hit points that is greater than their maximum hit points, they suffer a -4 penalty on this save.</p>\n<p><strong>Note:</strong> This advanced talent replaces the Arrest Flow talent.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Quicken"], ["Still"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "_id": "Z1DdOfUbxaJuG3PI"
+}

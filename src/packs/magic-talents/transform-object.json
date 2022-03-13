@@ -1,0 +1,135 @@
+{
+  "name": "Transform Object",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Alteration sphere (Object Transformation (transformation)), caster level 1st.</p>\n<p>You may spend a spell point to target objects with your shapeshift. (Note: Undead and constructs do not qualify as objects for the purpose of this talent.) You may not apply Blank Transformation to an object. Use the base statistics of an animated object of the object&#8217;s size to determine the resulting creature&#8217;s statistics. The object obeys your command and understands your language, but as it is not intelligent, it can only obey simple commands such as &#8216;move&#8217;, &#8216;fight&#8217;, &#8216;guard&#8217;, &#8216;stop&#8217;, etc. Transformed objects do not gain any construct points. They take full damage from attacks and energy effects, and lose any hardness they possess while transformed. The size of object you can transform is given in the table below:</p>\n<table class=\"wiki-content-table\">\n<tr>\n<th>CL</th>\n<th>Size</th>\n<th>Sample Object</th>\n<th>Hit Dice</th>\n</tr>\n<tr>\n<td>1</td>\n<td>Tiny</td>\n<td>Candelabra</td>\n<td>1d10</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Small</td>\n<td>Chair</td>\n<td>2d10+10</td>\n</tr>\n<tr>\n<td>10</td>\n<td>Medium</td>\n<td>Cage</td>\n<td>3d10+20</td>\n</tr>\n<tr>\n<td>15</td>\n<td>Large</td>\n<td>Statue</td>\n<td>4d10+30</td>\n</tr>\n<tr>\n<td>20</td>\n<td>Huge</td>\n<td>Wagon</td>\n<td>7d10+40</td>\n</tr>\n<tr>\n<td>25</td>\n<td>Gargantuan</td>\n<td>Catapult</td>\n<td>10d10+60</td>\n</tr>\n</table>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "_id": "FvdBCzNxw3LpoGQI"
+}

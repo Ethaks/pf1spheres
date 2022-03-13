@@ -1,0 +1,131 @@
+{
+  "name": "Craft Apparatus",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Caster level 1st.</p>\n<p><strong>Benefits:</strong> This feat allows for the creation of talent-based magic items that require no activation except to hold, wear, or carry them.</p>\n<p>Creating an apparatus costs 2,000 gp x caster level x complexity. An item must have an effect measured in hours to be made into an apparatus. Thus, as an example, if making an apparatus of the War sphere totem talent-based item creation effect, which is measured in rounds, the effect would need to have its duration increased by 3 steps (+6 complexity) before it could be made into an apparatus.</p>\n<p><strong>Continual Life Sphere Effects:</strong> Creating an apparatus that grants what is normally an instantaneous effect, such as Life sphere effects, has a base complexity of 6. If crafting an apparatus that grants a continual cure, the effect becomes instead fast healing 1 (+1 per additional +1 in complexity). If an apparatus grants a continual restore, it instead grants immunity to one effect (+1 per additional +1 in complexity; a creature cannot gain immunity to effects that require a magic skill check to remove or are unaffected by the Life sphere). Temporary hit points cannot be made into a continual effect.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["replaces Craft Rod"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "feat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "3020MU37DTnSbGIv"
+}

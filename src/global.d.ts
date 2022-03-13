@@ -24,6 +24,9 @@ declare global {
     PF1: {
       buffTargets: Record<string, { label: string; category: string }>;
       stackingBonusModifiers?: BonusModifier[];
+      armorProficiencies: Record<"lgt" | "med" | "hvy" | "shl" | "twr", string>;
+      weaponProficiencies: Record<"sim" | "mar", string>;
+      skills: Record<string, string>;
     };
     PF1SPHERES: typeof PF1S;
   }

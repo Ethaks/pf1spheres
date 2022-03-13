@@ -1,0 +1,135 @@
+{
+  "name": "Totemic Aura",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/war.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may create totems attached to yourself or to other creatures. A totem attached to a creature is called a totemic aura. This functions as a regular totem, except that it has a radius of 30 feet, it moves with the creature it is attached to, becomes inactive if that creature is knocked unconscious and is dispelled if they are killed. They continue to function if they go beyond long range of their creator, but the creator can only rally those within that totem (including the creature it is attached to) if they are within long range.</p>\n<p>The recipient must be within range (adjacent to you, or in close range if you possess the Ranged Totem talent). An unwilling creature can have a totem attached to them as a touch attack; no saving throw is allowed, but the Break Enchantment talent from the Life sphere or a similar effect effect can dispel the totem before its natural duration expires. An enemy with a totem attached to them still receives any saving throws the totem allows to avoid being affected. A successful save means they are unaffected by the totem, but it remains attached to them and it still affects those within range of it.</p>\n<p>Spell resistance can prevent a totemic aura from being attached to a creature. A failed spell penetration check dispels the totem.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "war"
+    }
+  },
+  "_id": "TgiAfLo5NAgFKWpf"
+}

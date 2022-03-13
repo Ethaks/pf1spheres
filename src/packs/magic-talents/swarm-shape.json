@@ -1,0 +1,135 @@
+{
+  "name": "Swarm Shape",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may add the following traits to your forms:</p>\n<p><strong>Divided Self:</strong> The target gains a +4 bonus on saves against effects that target individual creatures. (Requires the Swarm trait)</p>\n<p><strong>Gaseous Body:</strong> You grant the target the ability to shift into or out of a gas-like form (e.g. fine mist, a cloud of insects, etc.) as a move action. While in this gas-like form, the target gains a fly speed of 10 feet with maneuverability (perfect), +5 feet per 5 caster levels, replacing all other movement the target may possess. Anything the target was wearing or holding transforms with the target, and the target loses its armor and natural armor bonuses. The target cannot manipulate or interact with objects, make attacks, speak, or cast spells with verbal, somatic, or focus components (unless the target possesses an ability to do so, such as the Silent Spell metamagic feat). Any traits or supernatural abilities the target possesses which alter or require its physical body are suppressed, including Alteration sphere traits. The target can pass through small holes, narrow openings, and even cracks. The target is still subject to the effects of wind and cannot enter water or other liquid. Granting this trait costs an additional spell point. [Gravecaller's HB]</p>\n<p><strong>Swarm:</strong> You may spend a spell point to turn the target into a swarm of creatures. The swarm can be composed only of Tiny creatures, with appearance and movement per the shapeshift. This size cannot be altered by the Size Change trait, enlarge person, or other effects. This does not affect the target&#8217;s movement modes. The target can move through small holes and openings that are large enough for the individual creatures. The swarm fills a 10-foot square (or cube if flying) and has a reach of 0. The target gains a 25% ability to ignore critical hits and precision damage, which increases by 25% per 5 caster levels to a maximum of 100%.</p>\n<p>The swarm has the distraction ability, forcing any creature that takes swarm damage to succeed at a Fortitude save with a DC of 10 + 1/2 Hit Dice + Constitution modifier or be nauseated for 1 round. Spellcasting or concentrating on spells within the area of a swarm requires a magical skill check (DC 20 + 1/2 caster level). Using skills that involve patience and concentration while in the swarm requires a DC 20 Will save. The target may choose to ignore any creatures in its space, choosing to not deal the swarm damage, force magical skill checks to cast spells, or force Will saves to skills.</p>\n<p>The swarm form is incapable of performing combat maneuvers and they cannot be bull rushed, dragged, grappled, repositioned, or tripped. Creatures in swarm form take 50% more damage from effects that affect an area. Creatures in swarm form do not threaten creatures, and do not make attacks of opportunity with their swarm attack. The swarm automatically deals 1d6 + Constitution modifier damage to any creature whose space it occupies at the end of its turn. This damage increases by 1d6 per 5 caster levels and may be modified by traits that require a natural attack (such as the Poison trait from the Vermin Transformation talent) but not those that modify natural attacks (such as the Powerful Claws trait from the Powerful Limbs talent). A creature that retains a natural attack (such as a shifter via a bestial trait) or is granted a natural attack by another trait cannot use it, but uses d8 for its swarm damage. Swarm attacks are not subject to a miss chance for concealment or cover.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "_id": "nfP6CSHXeLxXvbmi"
+}

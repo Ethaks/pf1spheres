@@ -1,0 +1,135 @@
+{
+  "name": "Purify Nature",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may purify the nature around you, making brackish water drinkable, poisonous plants edible, and hazardous air breathable.</p>\n<p><strong>Air: Improved Purify Air:</strong> You may spend a spell point to cast Purify Air as an instantaneous effect, causing the affected area to be purified of any toxins indefinitely (not accounting for the natural spreading of such gases). Additionally, whenever you concentrate on Purify Air, you may choose to center the sphere effect&#8217;s radius on yourself. If the air you are attempting to purify is magical in nature (including fog and clouds), you must attempt a magic skill check against the magic skill defense of the caster. On a success, all negative effects such as concealment or damage are removed from the purified air.</p>\n<p><strong>Earth: Cultivate Soil:</strong> If you possess the (earth) package, as an instantaneous effect, you may spend a spell point to cause the soil within a 20-foot radius, plus 10 feet per 4 caster levels you possess to churn and enrich itself, allowing the soil to be used to grow plantlife. If the earth you are attempting to purify is cursed or poisoned, you must attempt a magic skill check against the magic skill defense of the effect, or the DC of the poison (if any). On a success, the curse or poison is dispelled and removed from the affected area.</p>\n<p><strong>Fire: Purifying Heat:</strong> If you possess the (fire) package, as an instantaneous effect, you may spend a spell point to attempt to purify any toxins within a creature&#8217;s bloodstream using extreme heat. You may attempt a magic skill check against the DC of each poison the target is suffering from. On a success, the poison is neutralized.</p>\n<p><strong>Metal: Pure Metals:</strong> If you possess the (metal) package, whenever you would use Recover Ore to gain materials to earn a wage using an appropriate Craft or Profession skill, you earn double your check result in gold pieces worth of raw materials, instead of half your check result. Additionally, you may use Reforge to completely remove all rust and damage on a non-magical metal object, removing the broken condition from the object and causing it to regain 1d4 hit points, +1 additional hit point per 4 caster levels you possess. If you possess Reforge Mastery, this increases to 1d6 + 1/2 your caster level hit points.</p>\n<p><strong>Plant: Purify Food:</strong> If you possess the (plant) package, as an instantaneous effect, you may spend a spell point to purify all food within a 10-foot radius, plus 5 feet per 4 caster levels you possess, making spoiled, rotten, or otherwise contaminated food edible. If the food you are attempting to purify is poisoned or diseased, you must attempt a magic skill check against the DC of the poison or disease. On a success, the poison or disease is removed from the food.</p>\n<p><strong>Water: Purify Water:</strong> If you possess the (water) package, as an instantaneous effect, you may spend a spell point to purify all water within a 10-foot radius, plus 5 feet per 4 caster levels you possess of brackish, stagnant, or otherwise contaminated water. If the water you are attempting to purify is poisoned or diseased, you must attempt a magic skill check against the DC of the poison or disease. On a success, the poison or disease is removed from the water.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Geomancing"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "_id": "A1v81iD16tz2Sjqf"
+}

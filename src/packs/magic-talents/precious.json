@@ -1,0 +1,135 @@
+{
+  "name": "Precious",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may spend a spell point to create bright light on an object 2 or more sizes smaller than yourself, that compels those who see it to try and acquire it. Those who see the targeted object spend their turn frantically trying to acquire the precious object.</p>\n<p>They will not automatically become violent, and affected creatures will not attempt to acquire the precious object if attempting to do so would be obviously fatal, would inflict serious injury upon them, or be against their alignment or nature. They will not ignore enemies either, but their priority will be to acquire the precious object.</p>\n<p>They will try to acquire the object by direct and immediate means (not by bribery) and they will not stop just because they lose sight of the object. A creature might attack someone to acquire the object, but only if it is someone they might consider attacking anyways, and most likely they will try to grab the object and run rather than fight in a prolonged conflict.</p>\n<p>If the creature manages to acquire the precious object, they hold it in their hands and admire it as a standard action on their turn, doing whatever is required to keep it other than letting it go.</p>\n<p>Each creature gets a Will save to negate the effect when they first see the precious object, and a new save whenever they spend a standard action admiring the object. You are immune to this effect, but your allies are not.</p>\n<p>This is a mind-affecting compulsion effect.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Light"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "_id": "hdV5ArudTrZzJ3i4"
+}

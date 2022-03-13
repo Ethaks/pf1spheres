@@ -1,0 +1,135 @@
+{
+  "name": "Feline Omens",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may activate the following as fey-blessings:</p>\n<p><strong>Bayun&#8217;s Meow:</strong> You can produce a dreadful, baying meow. As a move action, all other creatures within close range must succeed at a Will save or be deafened and shaken for 1 round per 5 caster levels (minimum 1). This is a fear and sonic effect. Whenever you use this ability, you may choose to target a single creature rather than affect all creatures in the area.</p>\n<p><strong>Cait Sidhe Taigham:</strong> You demand tithe and tribute from others. As a standard action, you may compel one adjacent creature to deliver an object you designate (held in their hands or on their person) to you during their next turn. An affected target uses their standard action to deliver the requested object during their next turn. You may receive the object with an unoccupied hand, otherwise the object is set down in front of you. A successful Will save negates this effect; a creature may only be the target of this fey-blessing once every 24 hours.</p>\n<p><strong>Grimalkin&#8217;s Shade:</strong> When you activate this fey-blessing, you summon a small grimalkin shade (or &#8220;shade&#8221;) which takes the form of a cat&#8217;s shadow in an unoccupied, adjacent square. This shade acts as an independent creature, listens to your commands, and will attempt to fulfill them to the best of its ability.</p>\n<p>The grimalkin cannot speak normally, but understands any language you speak and may communicate normally with you or anyone who can speak to a cat. While not in combat or not being ordered to complete a task, the shade behaves much like a cat, and may be affectionate or cold to those around it at its discretion.</p>\n<p>The shade acts on your initiative and must remain within medium range of you or have its tether to your magic become greatly weakened. If the shade would take damage while outside of this range and weakened, it is immediately dismissed and this fey-blessing ends. You may only have a single shade summoned at one time; if the shade would die, you may summon a new shade as a full-round action. When this fey-blessing ends, the shade is automatically dismissed.</p>\n<h5 id=\"toc21\"><span>Grimalkin Shade</span></h5>\n<p>The grimalkin shade is a creature which has simplified statistics using the caster&#8217;s statistics or caster level, determined when the fey-blessing is cast.</p>\n<p><strong>Core Statistics</strong><br>\n<strong>hp</strong> 5 + 3 per caster level; Hit Dice 1/2 your caster level; <strong>Size</strong> Small; <strong>Type</strong> fey; <strong>Senses</strong> darkvision 120 ft., see in darkness; <strong>Perception</strong> 10 + your caster level<br>\n<strong>Str</strong> 10, <strong>Dex</strong> 10, <strong>Con</strong> 10, <strong>Int</strong> 10, <strong>Wis</strong> 10, <strong>Cha</strong> 10<br>\n<strong>AC</strong> 11 + your caster level (10 + size + caster level); <strong>Saving Throws</strong> 2 + 1/2 your caster level<br>\n<strong>Speed</strong> 40 ft.<br>\n<strong>Skills</strong> Acrobatics, Perception, Stealth equal to 10 + your caster level</p>\n<p><strong>Attacks</strong></p>\n<ul>\n<li><strong>Shade&#8217;s Chill (Su):</strong> The grimalkin&#8217;s chill can be felt, permeating through cloth and chilling bone. The grimalkin makes a melee touch attack (5 + your caster level). If successful, the target takes 1d4 untyped energy damage per 2 caster levels (minimum 1d4) and must attempt a Will saving throw or be shaken for 1 round (using your Fallen Fey sphere DC). If the target is already shaken and fails their saving throw, the target is instead frightened for 1 round. This touch attack may be made while corporeal or incorporeal, and may be used as a standard action attack or attack of opportunity.</li>\n<li><strong>Vanish (Su):</strong> The grimalkin may spend a swift action to become incorporeal. The grimalkin may remain incorporeal indefinitely and may become corporeal as a standard action. While incorporeal, the grimalkin may attempt a Stealth check to hide in any dim light or darkness, even while observed.</li>\n</ul>\n<p><strong>Other Information and Statistics</strong><br>\nThe grimalkin does not possess feats and does not possess skill ranks, but does possess skill bonuses as indicated in its core statistics.</p>\n<p>Despite being a size Small creature, other creatures may freely move through a square the grimalkin occupies without penalty, and the grimalkin may share its space with other creatures. The grimalkin threatens and may make attacks of opportunity as normal.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Fey-Blessing"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallen fey"
+    }
+  },
+  "_id": "VrgP0FXWTfZ6P7Dw"
+}

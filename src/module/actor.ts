@@ -16,9 +16,7 @@ import { getActorHelpers, getGame, localize, pushSourceInfo } from "./util";
  */
 export const onActorBasePreparation = (actor: ActorPF): void => {
   // Populate/reset spheres data
-  actor.data.data.spheres = getBlankSphereData();
-  // From now on sphereData is guaranteed to be populated
-  const sphereData = actor.data.data.spheres;
+  const sphereData = (actor.data.data.spheres = getBlankSphereData());
 
   // Start actual calculations
   const useFractionalBAB = getGame().settings.get("pf1", "useFractionalBaseBonuses") ?? false;
@@ -42,9 +40,11 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
       },
       { casterLevel: 0, baseMSB: 0 }
     );
+
   // Set base MSB and MSD
   sphereData.msb.base = baseMSB;
   sphereData.msd.base = baseMSB + 11;
+
   // Base Caster Level after fractional BAB check
   const baseCasterLevel = useFractionalBAB ? Math.floor(casterLevel) : casterLevel;
   sphereData.cl.base = baseCasterLevel;

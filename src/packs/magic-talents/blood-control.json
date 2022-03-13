@@ -1,0 +1,135 @@
+{
+  "name": "Blood Control",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
+  "data": {
+    "description": {
+      "value": "<p>As a standard action, you may establish a link to the blood of a target within close range. Unwilling targets are permitted a Fortitude save, and the effect is subject to spell resistance. Targets with less than half their maximum hit points take a -4 penalty on this save. This link lasts for as long as you concentrate, though you may spend a spell point for it to last 1 round per caster level without concentration.</p>\n<p>Targets that gain immunity to bleed damage from their creature type, subtype, or a template are immune to blood control. Creatures that gain immunity to bleed damage from other sources are susceptible to blood control, but still benefit from their immunity against bleed damage.</p>\n<p>If a second creature attempts to establish blood control on a creature that is already controlled, it must succeed at a magic skill check. A creature may always attempt to end the blood control on itself by attempting a new Fortitude save as a mental-only standard action that may be taken even when normally unable to take standard actions, such as when dazed or nauseated.</p>\n<p>You may apply one (quicken) or (still) ability as part of casting blood control. Once blood control has been established, you may spend a standard action (unless otherwise noted) to apply additional (quicken) or (still) abilities. Spending at least a standard action to do so counts as concentrating on the ongoing blood control for that instance of blood control (if able to concentrate on an effect as a move action, applying additional (quicken) or (still) abilities as a move action, such as via the Quicken metamagic feat, would also count as concentrating for that round).</p>\n<p>A creature may not be affected by both a (quicken) and a (still) ability at the same time. If a caster attempts to use a (quicken) talent on a creature currently under the effects of a (still) talent or vise versa, the previous effect ends. Some creatures that are normally immune to bleed damage but that frequently feed on blood may be susceptible the blood control. Any creature that has used the blood drain universal monster ability in the previous hour or any creature composed largely of blood (such as a blood golem) may be affected by blood control. Other appropriate creatures may also be affected, at the GM&#8217;s discretion.</p>\n<p>When you gain the Blood sphere, you learn the following abilities:</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "_id": "RbtJskh6P0dU2Vne"
+}

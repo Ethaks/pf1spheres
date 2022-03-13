@@ -1,0 +1,135 @@
+{
+  "name": "Fog Mastery",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
+  "data": {
+    "description": {
+      "value": "<p>When you create Fog, you may add one of the following additional effects depending on what other packages you possess.</p>\n<p><strong>Air: Wind Blades:</strong> Your fog attacks those inside it with blades of wind. Any creature or object moving through this fog must succeed at a Reflex save or suffer 1d6 + 1 per 2 caster levels points of slashing damage for every 5 feet of movement spent entering or moving through this fog.</p>\n<p><strong>Earth: Sandstorm:</strong> Requires loose dirt or sand instead of water. You create a sandstorm. In addition to the fog, this also functions as a Vortex, except it travels over land and extends into the air, and can even leave the ground and travel in the air. The obscuring effect only applies to the actual area of the vortex, and creatures that possess earthsight or tremorsense do not have their vision obscured by this effect.</p>\n<p><strong>Fire: Smokescreen:</strong> Requires fire instead of water. You may create a fog out of smoke instead of mist. Creatures that begin their turn within or enter the cloud must succeed at a Fortitude save or become blinded for 1 minute. In addition, creatures suffer &#8211;2 penalty on attack rolls and Perception checks for as long as they remain inside and for 1 round after exiting the smoke. Creatures that possess firesight do not have their vision obscured by clouds modified with this effect.</p>\n<p><strong>Metal: Acid Rain:</strong> You may spend an additional spell point to create acid rain. An acid fog deals 1d6 acid damage per 2 caster levels (minimum 1d6, no save) to creatures inside it. This fog deals damage when you first create it and each subsequent round at the beginning of your turn. Any creature who enters the cloud immediately suffers damage, but only once even if they leave and re-enter the cloud as part of their movement. Creatures that possess metalsight do not have their vision obscured by this effect.</p>\n<p><strong>Plant: Spore Cloud:</strong> Requires grass, weeds, or trees instead of water. You may create a cloud of spores. Creatures that begin their turn within or enter the cloud must succeed at a Fortitude save or become sickened for as long as they remain within the fog + 1d6 rounds after leaving. If a creature fails its Fortitude save against this effect while already sickened, it also becomes nauseated for 1 round. Creatures and objects that exit the cloud are covered in visible sticky spores that remain until removed as a full-round action; outlining their form and revealing their position, and making invisibility impossible without first cleaning off the spores. Creatures that possess greensight or plantsight do not have their vision obscured by this effect.</p>\n<p><strong>Water: Solid Fog:</strong> You may make your fog so thick that it becomes effectively solid. Creatures move at half their speed through the fog, cannot make 5-foot steps, and suffer a -1 penalty to all weapon attacks and damage rolls made within or that pass through this area -1 per 10 caster levels. Objects that fall within this area are slowed so that each 10 feet of fog reduces the falling damage by 1d6, +1d6 per 10 caster levels.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Water"], ["Geomancing"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "_id": "OJGMpXdC8KcGhFqx"
+}

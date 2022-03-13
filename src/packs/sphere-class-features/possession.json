@@ -1,0 +1,131 @@
+{
+  "name": "Possession",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": "<p>At 2nd level, the wraith may attempt to possess a creature within his natural reach as a standard action. This is a mind-affecting possession effect. The challenge rating of the creature determines the duration of the possession, per the Table: Possession Duration (creatures such as animal companions, Conjuration sphere companions, and familiars are treated as having a CR of their Hit Dice - 2 for this purpose).</p>\n<p>This effect can be resisted with a Will save with a DC of 10 + half his wraith level + his casting ability modifier. A successful save to resist or end a possession increases the spell point cost for that individual wraith to possess that creature by 1 for 24 hours. This cost increase is cumulative, but is reset by a successful possession. Unless otherwise noted, creatures are aware of a failed possession attempt, having a feeling of a hostile force, but gain no other information. If the wraith is successful, his body is absorbed by and his life force occupies the host body.</p>\n<p>The duration of an ongoing possession may be reset with the same action and spell point cost that was required to initiate it.</p>\n<strong>Table: Possession Duration</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>CR</th>\n<th>Active Possession Duration</th>\n<th>Unwilling Passive Possession Duration</th>\n<th>Willing Passive Possession Duration</th>\n</tr>\n<tr>\n<td>&gt; level +5</td>\n<td>1 round/level (free action save to end possession each round)</td>\n<td>1 minute/ level</td>\n<td>1 hour/level</td>\n</tr>\n<tr>\n<td>Level +2 to level +5</td>\n<td>1 round/level</td>\n<td>1 minute/ level</td>\n<td>1 hour/level</td>\n</tr>\n<tr>\n<td>Level +1 to level -4</td>\n<td>1 minute/level</td>\n<td>1 hour/level</td>\n<td>8 hours/level</td>\n</tr>\n<tr>\n<td>&lt; level -4</td>\n<td>10 minutes/level</td>\n<td>1 day/level</td>\n<td>1 day/level</td>\n</tr>\n</table>\n<p>There are two types of possession: passive and active. The wraith chooses which to initiate as part of attempting possession.</p>\n<strong>Table: Active Possession</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Use the host&#8217;s</th>\n<th>Use the wraith&#8217;s</th>\n</tr>\n<tr>\n<td>Strength, Dexterity, and Constitution scores (this modifies the total modifiers for ability checks, armor class, attack rolls, CMB, CMD, skill checks, save DCs based on physical abilities)</td>\n<td>Intelligence, Wisdom, and Charisma scores</td>\n</tr>\n<tr>\n<td>Bonuses to Strength, Dexterity, and Constitution-based skills (except those from feats the wraith cannot access)</td>\n<td>Intelligence, Wisdom, and Charisma based skill modifiers</td>\n</tr>\n<tr>\n<td>Defensive abilities (such as damage reduction, immunity, resistance, spell resistance)</td>\n<td>Base attack bonus</td>\n</tr>\n<tr>\n<td>Physical weaknesses (light blindness, vulnerability to damage types)</td>\n<td>Strength, Dexterity, and Constitution-based skill ranks</td>\n</tr>\n<tr>\n<td>Reflex and Fortitude saving throws</td>\n<td>Will saving throw</td>\n</tr>\n<tr>\n<td>Space and reach</td>\n<td>Class abilities (abilities that require specific anatomy may not be accessible while possessing a host lacking that anatomy)</td>\n</tr>\n<tr>\n<td>Racial movement speeds</td>\n<td>Feats from Hit Dice, class, and bonus feats</td>\n</tr>\n<tr>\n<td>Natural attacks</td>\n<td>Combat talents</td>\n</tr>\n<tr>\n<td>Racial senses (such as blindsense, blindsight, darkvision, low-light vision, scent)</td>\n<td>Magic talents</td>\n</tr>\n<tr>\n<td>Hit points</td>\n<td>Caster level</td>\n</tr>\n<tr>\n<td>Fast healing (only affects host body)</td>\n<td>Spell points</td>\n</tr>\n<tr>\n<td>Regeneration (only affects host body)</td>\n<td>Languages</td>\n</tr>\n<tr>\n<td>Armor class</td>\n<td>Mythic abilities</td>\n</tr>\n<tr>\n<td>Racial skill modifiers</td>\n<td>Traits</td>\n</tr>\n<tr>\n<td>Passive special abilities (do not recalculate save DCs)</td>\n<td>Alignment (other than alignment subtypes)</td>\n</tr>\n<tr>\n<td>Continuous magic items that affect physical ability scores, skills, and other bonuses to physical form and prowess.</td>\n<td>Continuous magic items that affect mental ability scores, skills, and other bonuses to mental form and prowess.</td>\n</tr>\n<tr>\n<td>Extraordinary special abilities and special attacks that require active use, such as freeze, grab, pounce, rend, and swallow whole (do not recalculate save DCs) (requires 6th level)</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Supernatural special abilities that require activation, such a breath weapons (do not recalculate save DCs) (requires 12th level)</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Spell-like abilities (do not recalculate save DCs) (requires 16th level)</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Combat spheres, feats from Hit Dice, class levels, and bonus feats, magic spheres, spellcrafted spells (in addition to the wraith&#8217;s, requires 18th level)</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Auras (do not recalculate save DCs)</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Ongoing effects that target the body</td>\n<td>Ongoing mind-affecting effects</td>\n</tr>\n<tr>\n<td colspan=\"2\">Use the alignment subtypes of both wraith and host</td>\n</tr>\n<tr>\n<td colspan=\"2\">Use both wraith and host racial bonus feats</td>\n</tr>\n<tr>\n<td colspan=\"2\">Use both wraith and host weapon and armor proficiencies</td>\n</tr>\n</table>\n<h4 id=\"toc8\"><span>Passive Possession</span></h4>\n<p>Passive possession grants no control over the possessed creature, though shares the creature&#8217;s senses and may communicate telepathically with it. Attempting to passively possess an unwilling target costs a spell point.</p>\n<p>The wraith maintains his Intelligence, Wisdom, Charisma, level, class, base attack bonus, alignment, mental abilities, extraordinary abilities not derived from physical form, combat talents, supernatural abilities, and magical abilities such as spells, sphere abilities, and spell-like abilities. Should the host become dazed, stunned, or unconscious, the wraith may control their body as normal as if actively possessing the host for the duration of the dazed, stunned, or unconscious condition. Targeted mind-affecting effects apply only to the mind in control of the body; if the wraith is not controlling the host, then the wraith is not the target. When successfully attempting a passive possession, if the wraith is unobserved by the target, he may attempt a Stealth check opposed by the target creature&#8217;s Perception check. If successful, the creature is not aware that it has failed a Will save or that it has become passively possessed.</p>\n<h4 id=\"toc9\"><span>Active Possession</span></h4>\n<p>Active possession involves taking control of the possessed creature. Attempting active possession requires a spell point. The wraith maintains his abilities as in passive possession. The body retains its Strength, Dexterity, Constitution, hit points, natural abilities, and automatic abilities. A body with extra limbs does not allow the wraith to make more attacks (or more advantageous two-weapon or two-handed attacks) than normal.</p>\n<p>The wraith gains no automatic knowledge of and cannot choose to activate the body&#8217;s extraordinary abilities until 6th level or supernatural abilities until 12th level. The creature&#8217;s combat talents, feats that require active use, magic talents, spells, sphere abilities, and spell-like abilities cannot be accessed until the levels shown on Table: Active Possession.</p>\n<p>An actively possessed creature (the host) is capable of taking mental only actions while possessed and may attempt a new save to end the possession early any time the wraith would force it to do something against its nature (see the Mind sphere for guidelines), though additional saves cannot be made more than once per round.</p>\n<p>The wraith cannot cause the host to unwillingly harm itself (attacking itself, allowing others to attack it without defending itself, moving into obviously harmful positions, etc.).</p>\n<p>The wraith may attempt to change an active possession to a passive possession or vise versa as a move action. Unwilling creatures are allowed a save to prevent the wraith from going from passive to active possession. Each time unit expended from a passive possession (usually minutes or hours) reduces the time available for an active possession by 1 time unit (usually minutes or rounds) and vice versa.</p>\n<p>If the wraith possesses a creature that is unconscious due to being in negative hit points, the wraith remains conscious and can cause the body to act, but it remains staggered (though the wraith can still take additional mental-only actions, only the body is staggered) and may suffer hit point loss as normal.</p>\n<p>The host body may still attempt stabilization checks using its normal modifiers. When possessing an unconscious creature, effects that would wake the creature do not end the possession, though the possessed creature is allowed to attempt a save to end the possession once it would be awakened.</p>\n<p>The wraith may always end the possession early as a free or immediate action, appearing in an adjacent square of the wraith&#8217;s choice (or the nearest available square, if all adjacent squares are occupied). When possessing a willing host, the wraith may increase the duration by its normal time as a free action, paying any spell point cost as usual. When ending a possession, the wraith may choose to reappear with his wraith form ability active by spending a round of that ability as part of ending the possession. If the host body is slain, the possession ends and the wraith is dazed for 1 round with no saving throw and cannot activate wraith form as a free action as part of the possession ending.</p>\n<p>Mind-affecting effects that target the actively possessed body or a passively possessed body while the wraith is in control (such as when the host is dazed or stunned) continue to affect the wraith after the possession ends and do not affect the former host. The wraith does not benefit from any immunity to mind-affecting effects that the host possesses. If the wraith is concentrating on a spell or other effect and the host body is subject to an effect that would force a concentration check, the wraith attempts the concentration check. Magical effects granting the wraith armor, deflection, resistance, and shield bonuses, polymorph effects, disease, poison, and other effects that alter or benefit the physical body of the wraith are suppressed for the duration of the possession but do not expend time from their durations. Effects targeting the possessed body (such as hit point damage, disease, healing, or poison) affect the possessed body and do not transfer to the wraith unless able to affect possessing creatures. Effects capable of targeting possessing creatures may target and affect the wraith while he is possessing another creature, including dealing damage to the wraith.</p>\n<p>If another creature attempts to possess a creature the wraith is possessing, it must attempt a magical skill check against the wraith&#8217;s MSD. Success forces the wraith out; failure causes the attempt to fail. Effects that would allow a creature to command an actively possessed host are ineffective for the duration of the possession unless they would also affect the wraith.</p>\n<p>Effects that grant protection from mind control such as the Hallow word of the Fate sphere or the protection from evil spells function against his ability.</p>\n<p>The host&#8217;s abilities and statistics derived from mental attributes are not altered by the possession. For example, a wraith with high Charisma does not increase the hit points of a zombie by possessing it, nor would it improve the zombie&#8217;s Fortitude save. A possessed nymph would not change its deflection bonus to AC.</p>\n<p>At 6th level, the wraith gains knowledge of a possessed creature&#8217;s extraordinary abilities and may activate them as normal for that creature.</p>\n<p>At 12th level, the wraith gains knowledge of a possessed creature&#8217;s supernatural abilities and may activate them as normal for that creature.</p>\n<p>At 16th level, the wraith gains knowledge of a possessed creature&#8217;s spell-like abilities and may activate them as normal for that creature.</p>\n<p>At 18th level, the wraith gains access to additional abilities possessed by the creature for the duration of the possession, as detailed on the table above, but must supply his own spell points for effects requiring them. The wraith gains access to spells as well, casting them from the possessed creature&#8217;s spell slots, though must pay spell points based on the level of the slot to do so: level 1-2: 1 spell point, 3-5: 2 spell points, 6-8: 3 spell points, 9: 4 spell points. Cantrips and orisons may be used without spell point cost.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "classFeat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "su",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "CR5EYXw5WE2IbCbb"
+}

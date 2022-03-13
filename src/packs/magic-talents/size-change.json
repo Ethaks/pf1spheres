@@ -1,0 +1,135 @@
+{
+  "name": "Size Change",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+  "data": {
+    "description": {
+      "value": "<p>As a trait, you may change a creature&#8217;s size. You may enlarge or reduce a creature&#8217;s size by one category, +1 additional size category per 5 caster levels, enlarging or reducing the size of their equipment as well. You cannot enlarge beyond Large size nor reduce beyond Tiny size until caster level 10, and can never enlarge beyond Huge nor reduce beyond Diminutive.</p>\n<p>Creatures gain a +1 bonus to attack rolls and to AC, as well as a +2 bonus to Fly checks and a +4 bonus to Stealth checks for every size category they are reduced, and suffer a -1 penalty to attack rolls and AC, as well as a -2 penalty to Fly checks and a -4 to Stealth checks for every size category they are enlarged. (These numbers are doubled when moving to or from Diminutive size.) Ability scores are also adjusted according to the target&#8217;s new size; the target gains a +2 bonus to Strength and suffers a -2 penalty to Dexterity for every size increase, and a -2 penalty to Strength and a +2 bonus to Dexterity for every size category decrease. This cannot decrease an ability score beneath 1.</p>\n<strong>Table: Size and Reach</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Size Category</th>\n<th>Space</th>\n<th>Reach</th>\n</tr>\n<tr>\n<td>Diminutive</td>\n<td>1 ft.</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Tiny</td>\n<td>2&#160;1/2 ft.</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Small</td>\n<td>5 ft.</td>\n<td>5 ft.</td>\n</tr>\n<tr>\n<td>Medium</td>\n<td>5 ft.</td>\n<td>5 ft.</td>\n</tr>\n<tr>\n<td>Large</td>\n<td>10 ft.</td>\n<td>10 ft.</td>\n</tr>\n<tr>\n<td>Huge</td>\n<td>15 ft.</td>\n<td>15 ft.</td>\n</tr>\n</table>\n<p><strong>Note:</strong> Unless stated otherwise, size changes affect CMB and CMD.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "_id": "dPzSMASdRUlPUcMl"
+}

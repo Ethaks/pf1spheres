@@ -1,0 +1,135 @@
+{
+  "name": "Ambrosia",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Alchemy sphere (Panacea (formulae)), Craft (alchemy) 10 ranks.</p>\n<p>You manage to brew the perfect balance of arcane reagents and divine ingredients to create a single extract of a purely divine liquid, capable of curing almost anything. This extract can be used as a potion, and is used to cure a number of maladies and debilitations, determined by the Craft DC used for its creation:</p>\n<p><strong>DC 25:</strong> The creature is cured of a single curse effect affecting them.</p>\n<p><strong>DC 35:</strong> The creature removes all temporary negative levels or one permanent negative level they possess.</p>\n<p><strong>DC 40:</strong> The creature is healed of all broken bones, severed body parts, and ruined organs. This includes restoring senses that are impaired or lost, such as sight or hearing. This process of healing takes 10 minutes.</p>\n<p><strong>DC 50:</strong> The creature removes all temporary and permanent negative levels, and the creature is treated as benefiting from a miracle or wish spell for abilities and spells that specify they can only be removed by the use of these spells (but does not mimic any other applications of the spells).</p>\n<p>This ambrosia is often too much to handle for most creatures, with a particular creature only being able to benefit from an ambrosia once per day. Any additional attempts to drink an ambrosia during this period have no effect.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Formulae"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "_id": "MHTAsPn73wMZGYwt"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "The Wheel",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may grant a motif that empowers the target almost at random. Roll 1d4 when you grant the motif. The target gains a +1 insight bonus to rolls indicated on the table below. This bonus increases by +1 for every 10 caster levels. In addition, for every 10 caster levels, roll an additional 1d4, applying the bonus to that category as well. Bonuses from rolling the same result more than once stack.</p>\n<p>The target may discharge this effect to gain an insight bonus to a single attack roll, saving throw, skill check, ability check, initiative roll, or concentration check equal to twice the sum of the d4 rolls. They must choose to do so before rolling.</p>\n<strong>Table: The Wheel</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>d4</th>\n<th>Bonus</th>\n</tr>\n<tr>\n<td>1</td>\n<td>Attack and damage rolls</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Saving throws</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Initiative and skill checks</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Concentration checks, combat maneuver checks, and CMD</td>\n</tr>\n</table>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Motif"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "_id": "j7jt4HwxnQhr84k9"
+}

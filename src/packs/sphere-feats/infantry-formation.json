@@ -1,0 +1,131 @@
+{
+  "name": "Infantry Formation",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Squadron Commander or Troop Commander.</p>\n<p><strong>Benefit:</strong> As a move action, you may expend your martial focus or spend 1 spell point to give all other squad members within close range (25 feet + 5 feet per 2 ranks in Diplomacy) a free move action that can only be spent to move toward you to create one of three formations.</p>\n<ul>\n<li><strong>Cone:</strong> Additional allies who choose to use this free movement must end their turn standing adjacent to either yourself or other allies, forming a single cone.</li>\n<li><strong>Line:</strong> Additional allies who choose to use this free movement must end their turn standing adjacent to either yourself or other allies, forming a single line.</li>\n<li><strong>Square:</strong> Additional allies who choose to use this free movement must form up into a tight square formation.</li>\n</ul>\n<p>The first ally to move must move adjacent to at least one other squad member, the second ally to move must be adjacent to at least two other squad members, and any additional allies must either move adjacent to at least three other squad members, or move to be adjacent to an ally already adjacent to at least three other squad members.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Squadron"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "feat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "Ghy491khLTmLKRma"
+}

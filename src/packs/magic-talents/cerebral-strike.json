@@ -1,0 +1,135 @@
+{
+  "name": "Cerebral Strike",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
+  "data": {
+    "description": {
+      "value": "<p>You unleash a storm of psychic energy that invades the mind of your subject.</p>\n<p><strong>Lesser Charm:</strong> The force of your mind directly attacks the psyche of your enemy. The target takes 1d8 points of nonlethal damage per 2 caster levels (minimum 1d8, Will negates).</p>\n<p><strong>Greater Charm:</strong> The mental damage you deal is lasting and no longer superficial. In addition to dealing 1d8 points of nonlethal damage per 2 caster levels (minimum 1d8), you also deal 1d4 points of ability damage to the target&#8217;s Intelligence, Wisdom, or Charisma (your choice) + an additional 1 point of ability damage per 6 caster levels. Against a successful Will save, you instead deal half of the nonlethal damage you would have dealt and no ability damage. (For example, a 10th level caster would deal 5d8 points of nonlethal damage + 1d4+1 points of ability score damage to either Intelligence, Wisdom, or Charisma, but against a successful save would only deal half of 5d8 nonlethal damage.) Ability damage dealt this way cannot decrease an ability score below 1.</p>\n<p><strong>Powerful Charm:</strong> The force of your mental assault causes a physiological backlash in the target, along with self-inflicted wounds. You deal 1d8 points of nonlethal damage per 2 caster levels (no save) and 1d8 + 1 per 6 caster levels of ability damage to your choice of the target&#8217;s Intelligence, Wisdom, or Charisma (Will halves).</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Charm"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "_id": "ppwAEx6R6O5BHGvv"
+}

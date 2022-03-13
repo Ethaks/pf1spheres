@@ -1,0 +1,135 @@
+{
+  "name": "Zoetic Geomancy",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Nature sphere (Deep Nature), caster level 10th.</p>\n<p>As an instantaneous effect you may spend 10 minutes and 3 spell points to target a portion of material within close range from one of your packages to create a correlating elemental. For these purposes, the Weather sphere counts as a Nature package. The (plant) package, rather than producing an elemental, instead creates a treant.</p>\n<p>The creature created is friendly toward you, and while you have no special empathy or connection with it, the creature serves you in specific tasks or endeavors if you communicate your desires to it. However, as it is a living, intelligent being, it will expect good treatment in return. If you use Zoetic Geomancy again, any previously created creatures remain friendly to you, but they no longer undertake tasks for you unless it is in their best interests.</p>\n<strong>Table: Zoetic Geomancy</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Geomancing Package Required</th>\n<th>Target</th>\n<th>Creature</th>\n</tr>\n<tr>\n<td>Air</td>\n<td>15-ft. cube of air</td>\n<td>Huge geomancy born air elemental</td>\n</tr>\n<tr>\n<td>Earth</td>\n<td>15-ft. cube of dirt, sand, or stone</td>\n<td>Huge geomancy born earth elemental</td>\n</tr>\n<tr>\n<td>Fire</td>\n<td>15-ft. cube of fire or lava</td>\n<td>Huge geomancy born fire elemental</td>\n</tr>\n<tr>\n<td>Metal</td>\n<td>Huge object of metal</td>\n<td>Huge geomancy born cold iron elemental</td>\n</tr>\n<tr>\n<td>Plant</td>\n<td>Huge vegetation</td>\n<td>Wyrgrove treant</td>\n</tr>\n<tr>\n<td>Water</td>\n<td>15-ft. cube of water</td>\n<td>Huge geomancy born water elemental</td>\n</tr>\n<tr>\n<td>Weather</td>\n<td>15-ft. cube of air</td>\n<td>Huge geomancy born air elemental</td>\n</tr>\n</table>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "_id": "cY2tTZZjaFp82H0l"
+}

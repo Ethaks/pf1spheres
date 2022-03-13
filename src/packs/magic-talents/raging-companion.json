@@ -1,0 +1,135 @@
+{
+  "name": "Raging Companion",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
+  "data": {
+    "description": {
+      "value": "<p>Your companion gains the ability to rage, as the barbarian class feature, for a number of rounds per day equal to the higher of its Constitution modifier and its Hit Dice. While in rage, the companion gains a +4 morale bonus to its Strength and Constitution, as well as a +2 morale bonus on Will saves. In addition, it takes a &#8211;2 penalty to Armor Class. The increase to Constitution grants the companion 2 hit points per Hit Dice, but these disappear when the rage ends and are not lost first like temporary hit points. While in rage, a companion cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.</p>\n<p>The companion can end its rage as a free action and is fatigued after rage for a number of rounds equal to 2 times the number of rounds spent in the rage. The companion cannot enter a new rage while fatigued or exhausted but can otherwise enter rage multiple times during a single encounter or combat.</p>\n<p>The duration of the fatigue or exhaustion expires even when the companion is not summoned. If the companion falls unconscious, its rage immediately ends, placing it in peril of dismissal from hit point loss.</p>\n<p>The companion may take rage powers in place of feats, if it qualifies for them, using its Hit Dice in place of barbarian levels.</p>\n<p><strong>Special:</strong> If your GM permits, you may instead use the rage ability per the unchained barbarian, modifying the above ability accordingly.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Form"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "_id": "ceBmOOYSExR2x9K4"
+}
