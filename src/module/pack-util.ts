@@ -179,7 +179,7 @@ function getClassData(c: RawClassData): ItemDataConstructorData {
 }
 
 interface RawAbilityData extends RawData {
-  type: string;
+  type: PF1FeatDataSource["data"]["abilityType"];
   class: string;
   sub_abilities: string[];
 }
@@ -189,7 +189,7 @@ function getAbilityData(abil: RawAbilityData): ItemDataConstructorData {
     type: "feat",
     data: {
       description: { value: abil.text },
-      abilityType: abil.type as PF1FeatDataSource["data"]["abilityType"],
+      abilityType: abil.type,
       featType: "classFeat",
     },
     flags: {
@@ -222,8 +222,7 @@ export async function linkAbilitiesToAbilities(packName: string): Promise<ItemPF
       (abil.data.flags.world.pf1s.subAbilities as string[])
         .map((sub: string) => ({ name: sub, id: pack.getName(sub)?.id ?? undefined }))
         .map(
-          (s) =>
-            `<li>${s.id ? `@Compendium[${pack.collection}.${s.id}]{${s.name}}` : s.name}</li><br>`
+          (s) => `<li>${s.id ? `@Compendium[${pack.collection}.${s.id}]{${s.name}}` : s.name}</li>`
         )
         .join("") +
       endText,
@@ -261,8 +260,6 @@ export async function linkAbilitiesToClass(
   }));
   return Item.updateDocuments(updates, { pack: classPack.collection });
 }
-
-// TODO: Class abilities: Fist pass, create all abilities; second pass: create list of hyperlinks to pack entries
 
 interface PackConfig {
   packName: string;
