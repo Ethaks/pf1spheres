@@ -1,15 +1,16 @@
-import { ItemData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/module.mjs";
+import type { ItemData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/module.mjs";
+import type { ItemSphereClData } from "../src/module/actor";
 import {
   filterClasses,
   getItemLevelData,
-  ItemSphereClData,
   onActorBasePreparation,
   pushLevelSources,
 } from "../src/module/actor";
-import { ActorPF } from "../src/module/actor-data";
+import type { ActorPF } from "../src/module/actor-data";
 import { PF1S } from "../src/module/config";
-import { CasterProgression, PF1ClassDataSource } from "../src/module/item-data";
-import { FakeSettings, getActor } from "./setup";
+import type { CasterProgression, PF1ClassDataSource } from "../src/module/item-data";
+import type { FakeSettings } from "./setup";
+import { getActor } from "./setup";
 
 const classData = (progression: CasterProgression, level: number): ItemData & PF1ClassDataSource =>
   ({

@@ -1,7 +1,7 @@
-import { RollData, SourceDetails, SourceInfo } from "./item-data";
-import { TotalModData, ValueData } from "./common-data";
-import { DeepNonNullable, PropPath } from "./util";
-import { PF1S } from "./config";
+import type { RollData, SourceDetails, SourceInfo } from "./item-data";
+import type { TotalModData, ValueData } from "./common-data";
+import type { DeepNonNullable, PropPath } from "./util";
+import type { PF1S } from "./config";
 
 export declare class ActorPF extends Actor {
   /**

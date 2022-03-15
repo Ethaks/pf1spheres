@@ -1,4 +1,4 @@
-import { FakeActorDataSource } from "./fakes";
+import type { FakeActorDataSource } from "./fakes";
 
 // @ts-expect-error Export is what it is
 export const testActor: FakeActorDataSource = {

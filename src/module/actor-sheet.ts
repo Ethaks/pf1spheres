@@ -1,7 +1,7 @@
-import { ActorPF } from "./actor-data";
+import type { ActorPF } from "./actor-data";
 import { getActorMethods } from "./actor-methods";
 import { PF1S } from "./config";
-import { CombatSphere, ItemPF, MagicSphere, SourceEntry, Sphere } from "./item-data";
+import type { CombatSphere, ItemPF, MagicSphere, SourceEntry, Sphere } from "./item-data";
 import { getGame, localize } from "./util";
 
 export const onActorSheetRender: (

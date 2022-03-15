@@ -1,6 +1,6 @@
-import { ActorDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
-import { ItemDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
-import { ItemChangeCreateData } from "../src/module/item-data";
+import type { ActorDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
+import type { ItemDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
+import type { ItemChangeCreateData } from "../src/module/item-data";
 
 export type FakeActorDataSource = Omit<ActorDataSource, "_id" | "folder" | "permission"> & {
   items: FakeItemDataSource[];

@@ -1,5 +1,5 @@
-import { ActorDataPath, ActorPF } from "./actor-data";
-import { PF1S, PF1CONFIG } from "./config";
+import type { ActorDataPath, ActorPF } from "./actor-data";
+import type { PF1S, PF1CONFIG } from "./config";
 
 export declare class ItemPF extends Item {
   isActive: boolean;

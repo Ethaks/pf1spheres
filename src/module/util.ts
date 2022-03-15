@@ -1,5 +1,5 @@
 import type { ActorDataPath, ActorPF, PF1ActorDataProperties } from "./actor-data";
-import { SourceEntry } from "./item-data";
+import type { SourceEntry } from "./item-data";
 
 /**
  * Regular Expression which localisation keys are checked against.

@@ -1,5 +1,5 @@
-import { changeFlatTargets } from "./changes";
-import { PF1S } from "./config";
+import type { changeFlatTargets } from "./changes";
+import type { PF1S } from "./config";
 import type * as packUtils from "./pack-util";
 
 export interface BaseData<T> {

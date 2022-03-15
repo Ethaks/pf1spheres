@@ -1,8 +1,8 @@
-import { ItemData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
-import { ActorPF, PF1ActorSpheresData } from "./actor-data";
-import { TotalModData, ValueData } from "./common-data";
+import type { ItemData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
+import type { ActorPF, PF1ActorSpheresData } from "./actor-data";
+import type { TotalModData, ValueData } from "./common-data";
 import { PF1S } from "./config";
-import { CombatSphere, MagicSphere, PF1ClassDataSource } from "./item-data";
+import type { CombatSphere, MagicSphere, PF1ClassDataSource } from "./item-data";
 import { getActorHelpers, getGame, localize, pushSourceInfo } from "./util";
 
 /**

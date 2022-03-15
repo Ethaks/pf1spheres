@@ -11,7 +11,7 @@ import {
   registerChanges,
 } from "./changes";
 import { getGame, localize } from "./util";
-import { PF1SpheresApi } from "./common-data";
+import type { PF1SpheresApi } from "./common-data";
 // TODO: To be activated for WIP tab
 // import { onActorSheetRender } from "./actor-sheet";
 import * as packUtils from "./pack-util";

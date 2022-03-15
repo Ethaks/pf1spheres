@@ -1,9 +1,13 @@
-import { ActorDataProperties } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
-import { ChatSpeakerDataProperties } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/chatSpeakerData";
-import { ActorDataPath, PF1ActorDataProperties, PF1ActorDataSource } from "./module/actor-data";
-import { ActorSheetPF } from "./module/actor-sheet";
-import { PF1S } from "./module/config";
-import {
+import type { ActorDataProperties } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
+import type { ChatSpeakerDataProperties } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/chatSpeakerData";
+import type {
+  ActorDataPath,
+  PF1ActorDataProperties,
+  PF1ActorDataSource,
+} from "./module/actor-data";
+import type { ActorSheetPF } from "./module/actor-sheet";
+import type { PF1S } from "./module/config";
+import type {
   BonusModifier,
   CasterProgression,
   ItemChange,
@@ -15,7 +19,7 @@ import {
   SourceInfo,
   Sphere,
 } from "./module/item-data";
-import { FromEntriesWithReadOnly } from "./module/util";
+import type { FromEntriesWithReadOnly } from "./module/util";
 
 export {};
 

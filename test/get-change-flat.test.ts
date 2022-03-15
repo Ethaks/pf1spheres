@@ -1,6 +1,6 @@
 import { onGetChangeFlat } from "../src/module/changes";
 import { PF1S } from "../src/module/config";
-import { CombatSphere, SphereChangeTarget } from "../src/module/item-data";
+import type { CombatSphere, SphereChangeTarget } from "../src/module/item-data";
 
 describe("Test change target handling", () => {
   test("General Sphere CL", () => {

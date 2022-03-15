@@ -1,4 +1,4 @@
-import { ActorPF } from "./actor-data";
+import type { ActorPF } from "./actor-data";
 import { getGame, localize } from "./util";
 
 // TODO: Clean up interfaces

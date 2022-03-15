@@ -1,8 +1,8 @@
 import translations from "../src/lang/en.json";
 import { testActor } from "./test-actor";
-import { ActorDataPath, ActorPF } from "../src/module/actor-data";
+import type { ActorDataPath, ActorPF } from "../src/module/actor-data";
 import { FakeItemChange } from "./fakes";
-import { SourceInfo, SourceInfoEntry } from "../src/module/item-data";
+import type { SourceInfo, SourceInfoEntry } from "../src/module/item-data";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */ // any will be used a lot in lieu of proper types
 

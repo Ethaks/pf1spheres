@@ -1,6 +1,6 @@
 import { onAddDefaultChanges } from "../src/module/changes";
 import { PF1S } from "../src/module/config";
-import { ItemChange } from "../src/module/item-data";
+import type { ItemChange } from "../src/module/item-data";
 import { localize } from "../src/module/util";
 import { getActor } from "./setup";
 

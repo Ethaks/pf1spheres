@@ -1,6 +1,6 @@
-import { ActorDataPath, ActorPF } from "./actor-data";
+import type { ActorDataPath, ActorPF } from "./actor-data";
 import { PF1S } from "./config";
-import {
+import type {
   BonusModifier,
   ItemChange,
   ItemChangeCreateData,
@@ -9,7 +9,8 @@ import {
   SphereChangeTarget,
   SphereCLChangeTarget,
 } from "./item-data";
-import { ActorHelpers, getActorHelpers, getGame, localize } from "./util";
+import type { ActorHelpers } from "./util";
+import { getActorHelpers, getGame, localize } from "./util";
 
 /**
  * Registers all change targets not already part of {@link PF1CONFIG.buffTargets}

@@ -1,5 +1,5 @@
-import { ItemDataConstructorData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
-import {
+import type { ItemDataConstructorData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
+import type {
   ItemPF,
   PF1ClassDataSource,
   PF1FeatDataSource,
