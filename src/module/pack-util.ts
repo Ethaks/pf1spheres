@@ -20,7 +20,7 @@ const configs: Record<string, PackConfig> = {
     packName: "Combat Talents",
     fileName: "combat-talents.json",
     talentType: "combatTalent",
-    transformFunction: getTalentData("magicTalent"),
+    transformFunction: getTalentData("combatTalent"),
   },
   feats: {
     packName: "Sphere Feats",
