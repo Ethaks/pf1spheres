@@ -122,7 +122,7 @@ interface DicePFD20RollOptions {
   event?: JQuery.ClickEvent | Event;
   fastForward?: boolean;
   parts?: string | string[];
-  dice?: string;
+  dice?: string | undefined;
   data?: RollData | ActorDataProperties["data"];
   title?: string;
   speaker?: ChatSpeakerDataProperties;

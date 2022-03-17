@@ -15,7 +15,7 @@ const rollSpheresAttribute =
       .join("+");
 
     return getGame().pf1.DicePF.d20Roll({
-      event: options.event,
+      event: options.event ?? new MouseEvent(""),
       fastForward: options.skipDialog === true,
       parts,
       dice: options.dice,
