@@ -18,8 +18,7 @@ import {
 } from "./changes";
 import { getGame, localize } from "./util";
 import type { PF1SpheresApi } from "./common-data";
-// TODO: To be activated for WIP tab
-// import { onActorSheetRender } from "./actor-sheet";
+import { onActorSheetRender } from "./actor-sheet";
 import * as packUtils from "./pack-util";
 
 // Initialize module
@@ -108,8 +107,7 @@ Hooks.once("setup", async () => {
 
 Hooks.on("renderItemSheetPF", onItemSheetRender);
 
-// TODO: To be activated for WIP tab
-// Hooks.on("renderActorSheetPF", onActorSheetRender);
+Hooks.on("renderActorSheetPF", onActorSheetRender);
 
 Hooks.on("pf1.prepareBaseActorData", onActorBasePreparation);
 

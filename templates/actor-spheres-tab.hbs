@@ -5,7 +5,7 @@ SPDX-License-Identifier: EUPL-1.2
 --}}
 
 <div class="tab spheres" data-group="{{dataGroup}}" data-tab="spheres">
-  <div class="attribute-grid grid grid-6col">
+  <div class="attribute-grid grid grid-4col">
     <span class="block-header sop-header flexrow">
       {{localize "PF1SPHERES.SpheresOfPower"}}
     </span>
@@ -109,7 +109,10 @@ SPDX-License-Identifier: EUPL-1.2
       <ol class="item-list sphere-talents" {{#if (ne sphere.expandTalents true)}} style="display: none" {{/if}}>
         {{#each sphere.talents as |talent|}}
         <li class="talent grid item" data-item-id="{{talent.id}}">
-          <img class="talent-icon" src="{{talent.img}}"></img>
+            <div class="talent-icon">
+              <img src="{{talent.img}}"></img>
+              <img src="../../icons/svg/d20-black.svg"></img>
+            </div>
           <div class="talent-name">
             <b>{{talent.name}}</b>
             {{#each talent.tags as |tag|}}
@@ -122,7 +125,9 @@ SPDX-License-Identifier: EUPL-1.2
             {{talent.activationType}}
           </div>
           <div class="talent-use">
-            TODO
+              {{#if talent.hasAction}}
+                <img src="../../systems/pf1/icons/actions/gladius.svg"></img>
+              {{/if}}
           </div>
           <div class="talent-controls">
           </div>

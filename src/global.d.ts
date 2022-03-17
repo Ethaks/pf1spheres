@@ -61,6 +61,7 @@ declare global {
           key: ActorDataPath
         ): { positive: SourceEntry[]; negative: SourceEntry[] };
       };
+      skipConfirmPrompt: boolean;
     };
   }
 

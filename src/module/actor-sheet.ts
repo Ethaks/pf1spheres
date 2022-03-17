@@ -30,13 +30,15 @@ export const onActorSheetRender: (
 
   // Re-focus spheres tab TODO: Can be expanded for multiple tabs
   if (app.spheresTab.activateTab === "spheres") {
-    app._tabsAlt.activate("spheres");
+    // @ts-expect-error Accessing tabs is necessary
+    app._tabs[0].activate("spheres");
     app.setPosition();
   }
 
   return true;
 };
 
+// FIXME: Alt sheet integration is not working
 const isAltSheet = (app: ActorSheetPF) => app.constructor.name.startsWith("Alt");
 
 const addTab = (app: ActorSheetPF, html: JQuery<HTMLElement>) => {
@@ -67,20 +69,20 @@ const getSpheresData = (
       rollable: ["msb"].includes(attribute) ? "rollable" : "",
     })
   );
-  const spellPool = actor.items.getName("Spell Pool");
-  attributeGrid.push({
-    attribute: "spellPool",
-    total: spellPool && "uses" in spellPool.data.data ? spellPool?.data.data.uses?.value ?? 0 : 0,
-    label: "Spell Pool", // TODO: localise, or use item tag?
-    path: spellPool
-      ? spellPool.data.data.useCustomTag
-        ? `@resources.${spellPool.data.data.tag}`
-        : "@resources.spellPool.value"
-      : "",
-    sources: [],
-    cappedSources: [],
-    rollable: "",
-  });
+  // const spellPool = actor.items.getName("Spell Pool");
+  // attributeGrid.push({
+  //   attribute: "spellPool",
+  //   total: spellPool && "uses" in spellPool.data.data ? spellPool?.data.data.uses?.value ?? 0 : 0,
+  //   label: "Spell Pool", // TODO: localise, or use item tag?
+  //   path: spellPool
+  //     ? spellPool.data.data.useCustomTag
+  //       ? `@resources.${spellPool.data.data.tag}`
+  //       : "@resources.spellPool.value"
+  //     : "",
+  //   sources: [],
+  //   cappedSources: [],
+  //   rollable: "",
+  // });
 
   attributeGrid.push({
     attribute: "bab",
@@ -91,23 +93,23 @@ const getSpheresData = (
     cappedSources: [],
     rollable: "",
   });
-  const martialFocus = actor.items.getName("Martial Focus");
-  attributeGrid.push({
-    attribute: "martialFocus",
-    total:
-      martialFocus && "uses" in martialFocus.data.data
-        ? martialFocus?.data.data.uses?.value ?? 0
-        : 0,
-    label: "Martial Focus", // TODO: localise, or use item tag?
-    path: martialFocus
-      ? martialFocus?.data.data.useCustomTag
-        ? `@resources.${martialFocus?.data.data.tag}.value`
-        : "@resources.martialFocus.value"
-      : "",
-    sources: [],
-    cappedSources: [],
-    rollable: "",
-  });
+  // const martialFocus = actor.items.getName("Martial Focus");
+  // attributeGrid.push({
+  //   attribute: "martialFocus",
+  //   total:
+  //     martialFocus && "uses" in martialFocus.data.data
+  //       ? martialFocus?.data.data.uses?.value ?? 0
+  //       : 0,
+  //   label: "Martial Focus", // TODO: localise, or use item tag?
+  //   path: martialFocus
+  //     ? martialFocus?.data.data.useCustomTag
+  //       ? `@resources.${martialFocus?.data.data.tag}.value`
+  //       : "@resources.martialFocus.value"
+  //     : "",
+  //   sources: [],
+  //   cappedSources: [],
+  //   rollable: "",
+  // });
 
   const levelLabels = {
     magic: localize("CLAbbr"),
@@ -206,7 +208,6 @@ const _onMsbRoll = (actor: ActorPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
   ev.preventDefault();
   const options = {
     event: ev,
-    skipDialog: false,
     label: localize("Checks.MSB"),
   };
   return getActorMethods(actor).rollSpheresAttribute("msb", options);

@@ -28,6 +28,10 @@
   .block-header::after {
     margin-left: 0.5rem;
   }
+  .block-header:hover {
+    text-shadow: 0 0 10px red;
+    cursor: pointer;
+  }
   // Spheres tab in actor sheets
   .attribute-grid {
     font-family: "Nodesto", "Signika", "Palatino Linotype", serif;
@@ -36,10 +40,10 @@
     max-height: 7rem;
 
     .sop-header {
-      grid-column: 1 / -3;
+      grid-column: 1 / span 3;
     }
     .som-header {
-      grid-column: 5 / span2;
+      grid-column: 4 / span 1;
     }
     .attribute {
       //max-height: 3.8rem;
@@ -71,6 +75,7 @@
   ol.spheres-list,
   ol.item-list {
     padding: 0;
+    grid-row-gap: 0.3rem;
   }
 
   li.sphere {
@@ -111,7 +116,7 @@
         flex: 0;
         margin-left: 5px;
         opacity: 0.7;
-        transition: all 200ms ease-out;
+        transition: transform 200ms ease-out;
 
         &.rotate-arrow {
           transform: rotate(-180deg);
@@ -146,8 +151,21 @@
       }
 
       .talent-icon {
-        border: 0;
+        height: 24px;
+        > img {
+          border: none;
+        }
+        > img:last-child {
+          display: none;
+        }
+        &:hover img:last-child {
+          display: grid;
+        }
+        &:hover img:first-child {
+          display: none;
+        }
       }
+
       .talent-tag {
         margin-left: 0.3rem;
         font-size: 0.7rem;
@@ -155,6 +173,12 @@
         border: 1px solid #999;
         border-radius: 3px;
         background: rgba(0, 0, 0, 0.05);
+      }
+
+      >.talent-name:hover b,
+      >.talent-use:hover {
+        filter: drop-shadow(0px 0px 5px red);
+        cursor: pointer;
       }
     }
   }

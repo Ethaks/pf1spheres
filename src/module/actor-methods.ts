@@ -22,7 +22,7 @@ const rollSpheresAttribute =
 
     return getGame().pf1.DicePF.d20Roll({
       event: options.event ?? new MouseEvent(""),
-      fastForward: options.skipDialog === true,
+      fastForward: getGame().pf1.skipConfirmPrompt,
       parts,
       dice: options.dice,
       data: actor.getRollData(),
@@ -34,7 +34,6 @@ const rollSpheresAttribute =
 
 type RollAttribute = "cl" | "msb";
 interface RollOptions {
-  skipDialog?: boolean;
   event?: JQuery.ClickEvent;
   dice?: string;
   label?: string;
