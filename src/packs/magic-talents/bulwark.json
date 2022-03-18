@@ -1,14 +1,14 @@
 {
   "name": "Bulwark",
   "type": "feat",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
   "data": {
     "description": {
-      "value": "<p>You may manipulate your magic around a creature, spending a spell point to form a bulwark of magic around the target that absorbs damage. The target of this talent gains a temporary spell point, and they gain DR 4/-, but this damage reduction only persists for as long as they retain temporary spell points from this talent. If the target would suffer damage more than twice the amount of damage the bulwark absorbs from a single attack, the bulwark is damaged and the target loses a temporary spell point granted by this talent. For every 12 points of damage absorbed by the bulwark in one round, the target loses a temporary spell point granted by this talent. If the creature has no more spell points granted by this talent, the shell shatters at the end of the creature&#8217;s next turn, ending the effect. You may spend an additional spell point as part of casting this ability for every 4 caster levels you possess, granting the target an additional temporary spell point for every extra spell point spent and allowing the shell to suffer more damage before shattering.</p>\n<p>At 5th caster level, this damage reduction increases to 8/-, and the amount of damage a bulwark can reduce each round before losing a spell point increases by 12. These bonuses increase by 4 and 12 respectively every 5 caster levels thereafter.</p>\n",
+      "value": "<p>As an immediate action, you may dismiss an aegis on an ally to give them DR/- equal to your caster level until the beginning of your next turn.</p>\n",
       "chat": "",
       "unidentified": ""
     },
-    "tags": [["Manipulation"]],
+    "tags": [["Succor"]],
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,8 +128,8 @@
   },
   "flags": {
     "pf1spheres": {
-      "sphere": "mana"
+      "sphere": "protection"
     }
   },
-  "_id": "ptoHZ4j7a0E12ral"
+  "_id": "srAIRPC1mF3I72tw"
 }

@@ -9,7 +9,7 @@ import type {
 } from "./item-data";
 import { getGame } from "./util";
 
-const configs: Record<string, PackConfig> = {
+export const configs: Record<string, PackConfig> = {
   magicTalents: {
     packName: "Magic Talents",
     fileName: "magic-talents.json",
@@ -53,8 +53,29 @@ export async function createPack(conf: keyof typeof configs): Promise<{
     type: "Item",
   });
   const file = await fetch(`/modules/pf1spheres/raw-packs/${config.fileName}`);
-  const dataJson = await file.json();
-  const transformedData = dataJson.map(config.transformFunction);
+  const dataJson: RawData[] = await file.json();
+
+  // Finding duplicates
+  const dataObject = dataJson.reduce((acc, item) => {
+    (acc[item.name] || (acc[item.name] = [])).push(item);
+    return acc;
+  }, {} as Record<string, RawData[]>);
+  const dups = [];
+  const newData = Object.values(dataObject).flatMap((dataArray) => {
+    if (
+      dataArray.length > 1 &&
+      dataArray.every((item): item is RawAbilityData => "class" in item)
+    ) {
+      const map = new Map(dataArray.map((item) => [item.class, item]));
+      if ([...map.values()].length !== dataArray.length) dups.push(dataArray);
+      return [...map.values()].map((item) => {
+        item.name = `${item.name} (${item.class})`;
+        return item;
+      });
+    } else return dataArray;
+  });
+
+  const transformedData = newData.map(config.transformFunction);
 
   const items = await Item.createDocuments(transformedData, {
     pack: `world.${pack.metadata.name}`,
@@ -245,7 +266,7 @@ export async function linkAbilitiesToClass(
     "data.links.classAssociations": cl.data.flags.world?.pf1s?.classFeatures.map((feat, index) => {
       const item = abilities.find(
         // @ts-expect-error Only available for imports
-        (a) => a.name === feat.name && a.data.flags.world?.pf1s?.class === cl.name
+        (a) => a.name?.startsWith(feat.name) && a.data.flags.world?.pf1s?.class === cl.name
       );
       return {
         id: item?.uuid.split("Compendium.")[1],
