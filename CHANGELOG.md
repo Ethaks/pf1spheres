@@ -2,20 +2,20 @@
 
 ## 0.0.3
 
-### Changelog
+### Features
 
 - Changed the way sphere CLs were calculated internally, making them now available in other Change formulas
 - Added the Battered condition
 
 ## 0.0.2
 
-### Changelog
+### Features
 
 - Added a modifier type for Changes, "Sphere CL (Capped at HD)", which grants a bonus to the general or a sphere specific CL up to the actor's number of Hit Dice
 
 ## 0.0.1
 
-### Changelog
+### Features
 
 - Implements a general caster level, a caster level bonus from changes, and a resulting total general caster level
   - This data is available as `@spheres.cl.base`, `@spheres.cl.mod`, and `@spheres.cl.total` respectively
