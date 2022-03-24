@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 import type { ActorDataPath, ActorPF } from "./actor-data";
 import type { PF1S, PF1CONFIG } from "./config";
 

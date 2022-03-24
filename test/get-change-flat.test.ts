@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 import { onGetChangeFlat } from "../src/module/changes";
 import { PF1S } from "../src/module/config";
 import type { CombatSphere, SphereChangeTarget } from "../src/module/item-data";

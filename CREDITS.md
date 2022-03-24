@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+
+SPDX-License-Identifier: EUPL-1.2
+-->
+
 # Credits and Thanks
 
 None of the people listed here necessarily endorse the project's author or the project itself.

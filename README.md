@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+
+SPDX-License-Identifier: EUPL-1.2
+-->
+
 # pf1spheres
 
 <p align="center">
@@ -98,6 +104,7 @@ npm run typecheck
 
 ## Legal
 
-The software component of this system is distributed under the EUPL v. 1.2.
+The software component of this system is licensed primarily under the EUPL v. 1.2.
+REUSE is used to specify licenses for individual files in the form of headers or `.license` files, or in .reuse/dep5.
 The rules and game content is distributed under the terms of the Open Gaming License v1.0a.
 The terms of the [Foundry Virtual Tabletop End User License Agreement](https://foundryvtt.com/article/license/) apply.

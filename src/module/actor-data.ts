@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 import type { RollData, SourceDetails, SourceInfo } from "./item-data";
 import type { TotalModData, ValueData } from "./common-data";
 import type { DeepNonNullable, PropPath } from "./util";

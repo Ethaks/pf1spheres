@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2021 Johannes Loher
+// SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+//
+// SPDX-License-Identifier: MIT
+
 const esbuild = require("esbuild");
 const argv = require("yargs").argv;
 const chalk = require("chalk");

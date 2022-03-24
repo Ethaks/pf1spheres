@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 import translations from "../src/lang/en.json";
 import { testActor } from "./test-actor";
 import type { ActorDataPath, ActorPF } from "../src/module/actor-data";
