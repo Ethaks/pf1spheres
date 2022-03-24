@@ -38,7 +38,7 @@ typecheck:
     - npm ci --cache .npm --prefer-offline
   script:
     - npm run typecheck
-  check:
+  cache:
     <<: *global_cache
 
 test:
