@@ -9,9 +9,8 @@ const chalk = require("chalk");
 const fs = require("fs-extra");
 const gulp = require("gulp");
 const path = require("path");
-const semver = require("semver");
 const sass = require("@mr-hope/gulp-sass").sass;
-const git = require("gulp-git");
+const sourcemaps = require("gulp-sourcemaps");
 
 // Compendium tasks
 const Datastore = require("nedb");
@@ -27,14 +26,13 @@ const browserSync = require("browser-sync").create();
 
 const name = "pf1spheres";
 const sourceDirectory = "./src";
+const entryFile = `${sourceDirectory}/module/${name}.ts`;
 const distDirectory = "./dist";
 const stylesDirectory = `${sourceDirectory}/styles`;
 const stylesExtension = "scss";
 const sourceFileExtension = "ts";
 const staticFiles = ["assets", "fonts", "lang", "templates", "module.json"];
-const distFiles = ["CREDITS.md", "LICENSE", "OGL.txt"];
-const getDownloadURL = (version) =>
-  `https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/jobs/artifacts/${version}/raw/pf1spheres.zip?job=build`;
+const distFiles = ["CREDITS.md", "LICENSE"];
 const PACK_SRC = "src/packs";
 const PACK_DEST = "packs";
 
@@ -42,20 +40,38 @@ const PACK_DEST = "packs";
 /*      BUILD       */
 /********************/
 
+/** @type {esbuild.BuildResult|undefined} */
+let buildResult;
+
 /**
  * Build the distributable JavaScript code
  */
-async function buildCode() {
-  return esbuild.build({
-    entryPoints: ["./src/module/pf1spheres.ts"],
-    bundle: true,
-    outfile: `${distDirectory}/pf1spheres.js`,
-    sourcemap: true,
-    sourceRoot: "pf1spheres",
-    minify: false,
-    format: "esm",
-    platform: "browser",
-  });
+async function buildCode(isProductionBuild = false) {
+  return buildResult === undefined
+    ? (buildResult = await esbuild.build({
+        entryPoints: [entryFile],
+        bundle: true,
+        outfile: `${distDirectory}/${name}.js`,
+        sourcemap: true,
+        sourceRoot: name,
+        minifySyntax: isProductionBuild,
+        minifyWhitespace: isProductionBuild,
+        keepNames: true,
+        format: "esm",
+        platform: "browser",
+        incremental: !isProductionBuild,
+      }))
+    : buildResult.rebuild();
+}
+
+/** Build JS for development */
+function buildDevelopment() {
+  return buildCode(false);
+}
+
+/** Build JS for production */
+function buildProduction() {
+  return buildCode(true);
 }
 
 /**
@@ -64,7 +80,9 @@ async function buildCode() {
 function buildStyles() {
   return gulp
     .src(`${stylesDirectory}/${name}.${stylesExtension}`)
+    .pipe(sourcemaps.init())
     .pipe(sass().on("error", sass.logError))
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest(`${distDirectory}/styles`))
     .pipe(browserSync.stream());
 }
@@ -125,7 +143,7 @@ function buildWatch() {
   gulp.watch(
     `${sourceDirectory}/**/*.${sourceFileExtension}`,
     { ignoreInitial: false },
-    gulp.series(buildCode, reload)
+    gulp.series(buildDevelopment, reload)
   );
   gulp.watch(`${stylesDirectory}/**/*.${stylesExtension}`, { ignoreInitial: false }, buildStyles);
   gulp.watch(
@@ -201,97 +219,6 @@ async function linkUserData() {
     await fs.ensureDir(path.resolve(linkDirectory, ".."));
     await fs.symlink(path.resolve(distDirectory), linkDirectory);
   }
-}
-
-/********************/
-/*    VERSIONING    */
-/********************/
-
-/**
- * Get the contents of the manifest file as object.
- */
-function getManifest() {
-  const manifestPath = `${sourceDirectory}/module.json`;
-
-  if (fs.existsSync(manifestPath)) {
-    return {
-      file: fs.readJSONSync(manifestPath),
-      name: "module.json",
-    };
-  }
-}
-
-/**
- * Get the target version based on on the current version and the argument passed as release.
- */
-function getTargetVersion(currentVersion, release) {
-  if (
-    ["major", "premajor", "minor", "preminor", "patch", "prepatch", "prerelease"].includes(release)
-  ) {
-    return semver.inc(currentVersion, release);
-  } else {
-    return semver.valid(release);
-  }
-}
-
-/**
- * Update version and download URL.
- */
-function bumpVersion(cb) {
-  const packageJson = fs.readJSONSync("package.json");
-  const packageLockJson = fs.existsSync("package-lock.json")
-    ? fs.readJSONSync("package-lock.json")
-    : undefined;
-  const manifest = getManifest();
-
-  if (!manifest) cb(Error(chalk.red("Manifest JSON not found")));
-
-  try {
-    const release = argv.release || argv.r;
-
-    const currentVersion = packageJson.version;
-
-    if (!release) {
-      return cb(Error("Missing release type"));
-    }
-
-    const targetVersion = getTargetVersion(currentVersion, release);
-
-    if (!targetVersion) {
-      return cb(new Error(chalk.red("Error: Incorrect version arguments")));
-    }
-
-    if (targetVersion === currentVersion) {
-      return cb(new Error(chalk.red("Error: Target version is identical to current version")));
-    }
-
-    console.log(`Updating version number to '${targetVersion}'`);
-
-    packageJson.version = targetVersion;
-    fs.writeJSONSync("package.json", packageJson, { spaces: 2 });
-
-    if (packageLockJson) {
-      packageLockJson.version = targetVersion;
-      fs.writeJSONSync("package-lock.json", packageLockJson, { spaces: 2 });
-    }
-
-    manifest.file.version = targetVersion;
-    manifest.file.download = getDownloadURL(targetVersion);
-    fs.writeJSONSync(`${sourceDirectory}/${manifest.name}`, manifest.file, { spaces: 2 });
-
-    return gulp.src(`${sourceDirectory}/module.json`).pipe(git.commit(`Release ${targetVersion}`));
-  } catch (err) {
-    cb(err);
-  }
-}
-
-/**
- * Creates a tag with the current version
- */
-function tagVersion() {
-  const packageJson = fs.readJSONSync("package.json");
-  const version = packageJson.version;
-  return git.tag(`${version}`);
 }
 
 /********************/
@@ -441,7 +368,7 @@ async function cleanPacks() {
 // TASKS
 
 const execBuild = gulp.parallel(
-  buildCode,
+  buildProduction,
   buildStyles,
   copyFiles,
   gulp.series(cleanPacks, compilePacks, copyPacks)
@@ -451,7 +378,6 @@ exports.build = gulp.series(clean, execBuild);
 exports.watch = buildWatch;
 exports.clean = clean;
 exports.link = linkUserData;
-exports.bumpVersion = gulp.series(bumpVersion, tagVersion);
 
 exports.compilePacks = gulp.series(cleanPacks, compilePacks);
 exports.extractPacks = extractPacks;
