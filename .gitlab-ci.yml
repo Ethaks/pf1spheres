@@ -55,6 +55,14 @@ test:
       cobertura: coverage/cobertura-coverage.xml
       junit: junit.xml
 
+licensecheck:
+  stage: check
+  image:
+    name: fsfe/reuse:latest
+    entrypoint: [""]
+  script:
+    - reuse lint
+
 build:
   stage: build
   before_script:
