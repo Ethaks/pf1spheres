@@ -154,7 +154,8 @@ function buildWatch() {
   );
   gulp.watch(`${stylesDirectory}/**/*.${stylesExtension}`, { ignoreInitial: false }, buildStyles);
   gulp.watch(staticFiles, { ignoreInitial: false }, copyFiles);
-  gulp.watch("packs", { ignoreInitial: false }, copyPacks);
+  buildPacks();
+  gulp.watch(PACK_SRC, compilePacks);
 }
 
 /********************/
@@ -370,12 +371,9 @@ async function cleanPacks() {
 
 // TASKS
 
-const execBuild = gulp.parallel(
-  buildProduction,
-  buildStyles,
-  copyFiles,
-  gulp.series(cleanPacks, compilePacks, copyPacks)
-);
+const buildPacks = gulp.series(cleanPacks, compilePacks, copyPacks);
+
+const execBuild = gulp.parallel(buildProduction, buildStyles, copyFiles, buildPacks);
 
 exports.build = gulp.series(clean, execBuild);
 exports.watch = buildWatch;
