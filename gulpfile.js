@@ -31,9 +31,18 @@ const distDirectory = "./dist";
 const stylesDirectory = `${sourceDirectory}/styles`;
 const stylesExtension = "scss";
 const sourceFileExtension = "ts";
-const staticFiles = ["assets", "fonts", "lang", "templates", "module.json"];
-const distFiles = ["CREDITS.md", "LICENSE"];
-const PACK_SRC = "src/packs";
+const staticFiles = [
+  "assets",
+  "fonts",
+  "lang",
+  "templates",
+  "CREDITS.md",
+  "LICENSE",
+  "LICENSES",
+  ".reuse",
+];
+const manifest = `${sourceDirectory}/module.json`;
+const PACK_SRC = `${sourceDirectory}/packs`;
 const PACK_DEST = "packs";
 
 /********************/
@@ -92,15 +101,13 @@ function buildStyles() {
  */
 async function copyFiles() {
   for (const file of staticFiles) {
-    if (fs.existsSync(`${sourceDirectory}/${file}`)) {
-      await fs.copy(`${sourceDirectory}/${file}`, `${distDirectory}/${file}`);
-    }
-  }
-  for (const file of distFiles) {
     if (fs.existsSync(file)) {
       await fs.copy(file, `${distDirectory}/${file}`);
     }
   }
+
+  // Copy manifest seperately to avoid placement in dist/src
+  await fs.copyFile(manifest, `${distDirectory}/module.json`);
 }
 
 /**
@@ -146,11 +153,7 @@ function buildWatch() {
     gulp.series(buildDevelopment, reload)
   );
   gulp.watch(`${stylesDirectory}/**/*.${stylesExtension}`, { ignoreInitial: false }, buildStyles);
-  gulp.watch(
-    staticFiles.map((file) => `${sourceDirectory}/${file}`),
-    { ignoreInitial: false },
-    copyFiles
-  );
+  gulp.watch(staticFiles, { ignoreInitial: false }, copyFiles);
   gulp.watch("packs", { ignoreInitial: false }, copyPacks);
 }
 
@@ -273,8 +276,8 @@ function extractPacks() {
     transform(file, _, callback) {
       // Create directory.
       let filename = path.parse(file.path).name;
-      if (!fs.existsSync(`./${PACK_SRC}/${filename}`)) {
-        fs.mkdirSync(`./${PACK_SRC}/${filename}`);
+      if (!fs.existsSync(`${PACK_SRC}/${filename}`)) {
+        fs.mkdirSync(`${PACK_SRC}/${filename}`);
       }
 
       // Load the database.
