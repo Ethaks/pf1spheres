@@ -4,18 +4,19 @@ SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
 SPDX-License-Identifier: EUPL-1.2
 -->
 
-# pf1spheres
-
-<p align="center">
+<div align="center">
+  <h1>pf1spheres</h1>
   <img alt="Gitlab pipeline status" src="https://img.shields.io/gitlab/pipeline-status/Ethaks/foundryvtt-pf1-spheres?branch=master&label=Checks&logo=gitlab">
+  <a href="https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/commits/spheres-tab"><img alt="coverage report" src="https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/badges/spheres-tab/coverage.svg" /></a>
+  <img alt="Supported Foundry Versions" src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/releases/permalink/latest/downloads/module.json">
+  <br>
   <a href="https://forge-vtt.com/bazaar#package=pf1spheres">
     <img src="https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fpf1spheres&colorB=4aa94a" alt="Forge Install %" />
   </a>
   <a href="https://www.foundryvtt-hub.com/package/pf1spheres/">
     <img src="https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fpf1spheres%2Fshield%2Fendorsements" alt="Foundry Hub Endorsements" />
   </a>
-  <img alt="Supported Foundry Versions" src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/releases/permalink/latest/downloads/module.json">
-</p>
+</div>
 
 This module for the [Pathfinder 1e game system](https://gitlab.com/Furyspark/foundryvtt-pathfinder1) for [Foundry Virtual Tabletop](http://foundryvtt.com/) provides additional functionality and support for the rule sets [Spheres of Power](https://www.dropdeadstudios.com/spheres-of-power) and [Spheres of Might](https://www.dropdeadstudios.com/spheres-of-might) from [Drop Dead Studios](https://www.dropdeadstudios.com/).
 
