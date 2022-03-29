@@ -1,0 +1,135 @@
+{
+  "name": "Grease",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Craft DC:</strong> 20</p>\n<p>You create a flask of alchemical grease that can be applied to yourself or a willing creature within your reach as a move action, or thrown as a splash weapon. When applied to a willing creature, they gain a +5 circumstance bonus on Escape Artist checks, and to CMB checks to escape a grapple. When thrown as a splash weapon, creatures directly hit by the attack take a -2 penalty to Acrobatics checks, CMD against disarm and trip attempts, and to Reflex saving throws against effects that deal fire damage or which cause a creature to catch fire on a failed saving throw; creatures within the splash radius of the weapon take the same penalties but reduce them by 50% (rounded down). In addition, any creature affected by this alchemical grease who falls prone must succeed on an Acrobatics check with a DC equal to the practitioner&#8217;s combat talent save DC when standing up or immediately fall prone again. A creature may end this effect by spending a standard action removing the grease.</p>\n<p>This grease remains for 2 rounds. You can increase the Craft DC of this alchemical by 5 to increase the duration of the grease&#8217;s effects for 2 additional rounds, or to increase the bonuses and penalties granted by the alchemical grease by 1. You can apply both modifications to the same vial of grease but must apply the DC increases separately for each effect (so increasing the grease&#8217;s duration by 2 rounds and increasing the bonuses and penalties by 1 requires a total modification to the crafting DC of +10).</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Formulae"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "_id": "awT2xjeEawkGM2yb"
+}

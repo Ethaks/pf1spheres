@@ -1,0 +1,135 @@
+{
+  "name": "Nature’s Carapace",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may spend a spell point as a move action to wrap an element around yourself for 1 minute per caster level. This allows you to grant yourself one of the benefits outlined below, dependent on the packages you possess:</p>\n<p><strong>Air: Buffeting Winds:</strong> You gain a 10% miss chance vs. ranged attacks, +10% per 5 caster levels. This does not affect ranged weapons that are unusually massive, such as boulders or siege weapons.</p>\n<p><strong>Earth: Stoneskin:</strong> You gain DR/adamantine equal to 1/2 your caster level. Once this has absorbed damage equal to 10 per caster level, it immediately ends even if its duration has not expired.</p>\n<p><strong>Fire: Flame Mantle:</strong> You place fire around yourself as a mantle. This does not deal fire damage to yourself, but all adjacent creatures take fire damage equal to the largest fire you can create at the end of each of your turns, and must succeed at a Reflex save or catch fire.</p>\n<p><strong>Metal: Iron Body:</strong> You wrap yourself in thick iron. You count as a creature comprised mostly of metal and gain a +6 armor bonus and a -3 armor check penalty, both of which increase by 1 per 4 caster levels, and you are considered to be wearing heavy armor, such as when calculating movement speed. You are considered armed when making unarmed attacks, and gain a +2 bonus to Strength and a -2 penalty to Dexterity, both of which increase by 2 for every 8 caster levels you possess.</p>\n<p><strong>Plant: Barkskin:</strong> You gain a +1 enhancement bonus to natural armor, +1 per 5 caster levels. In addition, in natural environments you gain a circumstance bonus to Stealth equal to 1/2 your caster level (minimum 1). You lose this circumstance bonus to Stealth in any round that you move more than 5 feet.</p>\n<p><strong>Water: Seamantle:</strong> You wrap water around yourself, gaining a circumstance bonus to Escape Artist checks and combat maneuver checks made to escape a grapple, as well as to your CMD to avoid being grappled, equal to your caster level. Additionally, the distortion from the water grants you a 10% chance to negate critical hits and precision damage, +10% per 5 caster levels.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Spirit"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "_id": "BI3e0gOgjb4vBKUH"
+}

@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 /**
  * Runtime config object for the PF1 Spheres module
  */
@@ -12,7 +18,7 @@ export const PF1S = {
   },
 
   /**
-   * Formulae for {@link progression}
+   * Formulae for {@link PF1S.progression}
    */
   progressionFormula: {
     low: 0.5,
@@ -24,6 +30,7 @@ export const PF1S = {
     sphereValues: "PF1SPHERES.SphereValues",
   },
 
+  /** A dictionary of all magic Spheres from Spheres of Power */
   magicSpheres: {
     alteration: "PF1SPHERES.Spheres.Alteration",
     blood: "PF1SPHERES.Spheres.Blood",
@@ -50,6 +57,7 @@ export const PF1S = {
     weather: "PF1SPHERES.Spheres.Weather",
   },
 
+  /** A dictionary of all martial Spheres from Spheres of Might */
   combatSpheres: {
     alchemy: "PF1SPHERES.Spheres.Alchemy",
     athletics: "PF1SPHERES.Spheres.Athletics",
@@ -77,6 +85,58 @@ export const PF1S = {
     warleader: "PF1SPHERES.Spheres.Warleader",
     wrestling: "PF1SPHERES.Spheres.Wrestling",
   },
+
+  /** A dictionary of spheres and their respective icon */
+  sphereIcons: {
+    alteration: "/modules/pf1spheres/assets/icons/spheres/alteration.webp",
+    blood: "/modules/pf1spheres/assets/icons/spheres/blood.webp",
+    conjuration: "/modules/pf1spheres/assets/icons/spheres/conjuration.webp",
+    creation: "/modules/pf1spheres/assets/icons/spheres/creation.webp",
+    dark: "/modules/pf1spheres/assets/icons/spheres/dark.webp",
+    death: "/modules/pf1spheres/assets/icons/spheres/death.webp",
+    destruction: "/modules/pf1spheres/assets/icons/spheres/destruction.webp",
+    divination: "/modules/pf1spheres/assets/icons/spheres/divination.webp",
+    enhancement: "/modules/pf1spheres/assets/icons/spheres/enhancement.webp",
+    fallenFey: "/modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
+    fate: "/modules/pf1spheres/assets/icons/spheres/fate.webp",
+    illusion: "/modules/pf1spheres/assets/icons/spheres/illusion.webp",
+    life: "/modules/pf1spheres/assets/icons/spheres/life.webp",
+    light: "/modules/pf1spheres/assets/icons/spheres/light.webp",
+    mana: "/modules/pf1spheres/assets/icons/spheres/mana.webp",
+    mind: "/modules/pf1spheres/assets/icons/spheres/mind.webp",
+    nature: "/modules/pf1spheres/assets/icons/spheres/nature.webp",
+    protection: "/modules/pf1spheres/assets/icons/spheres/protection.webp",
+    telekinesis: "/modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
+    time: "/modules/pf1spheres/assets/icons/spheres/time.webp",
+    war: "/modules/pf1spheres/assets/icons/spheres/war.webp",
+    warp: "/modules/pf1spheres/assets/icons/spheres/warp.webp",
+    weather: "/modules/pf1spheres/assets/icons/spheres/weather.webp",
+    alchemy: "/modules/pf1spheres/assets/icons/spheres/alchemy.webp",
+    athletics: "/modules/pf1spheres/assets/icons/spheres/athletics.webp",
+    barrage: "/modules/pf1spheres/assets/icons/spheres/barrage.webp",
+    barroom: "/modules/pf1spheres/assets/icons/spheres/barroom.webp",
+    beastmastery: "/modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
+    berserker: "/modules/pf1spheres/assets/icons/spheres/berserker.webp",
+    boxing: "/modules/pf1spheres/assets/icons/spheres/boxing.webp",
+    brute: "/modules/pf1spheres/assets/icons/spheres/brute.webp",
+    dualWielding: "/modules/pf1spheres/assets/icons/spheres/dual_wielding.webp",
+    duelist: "/modules/pf1spheres/assets/icons/spheres/duelist.webp",
+    equipment: "/modules/pf1spheres/assets/icons/spheres/equipment.webp",
+    fencing: "/modules/pf1spheres/assets/icons/spheres/fencing.webp",
+    gladiator: "/modules/pf1spheres/assets/icons/spheres/gladiator.webp",
+    guardian: "/modules/pf1spheres/assets/icons/spheres/guardian.webp",
+    lancer: "/modules/pf1spheres/assets/icons/spheres/lancer.webp",
+    leadership: "/modules/pf1spheres/assets/icons/spheres/leadership.webp",
+    openHand: "/modules/pf1spheres/assets/icons/spheres/openHand.webp",
+    scoundrel: "/modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
+    scout: "/modules/pf1spheres/assets/icons/spheres/scout.webp",
+    shield: "/modules/pf1spheres/assets/icons/spheres/shield.webp",
+    sniper: "/modules/pf1spheres/assets/icons/spheres/sniper.webp",
+    tech: "/modules/pf1spheres/assets/icons/spheres/tech.webp",
+    trap: "/modules/pf1spheres/assets/icons/spheres/trap.webp",
+    warleader: "/modules/pf1spheres/assets/icons/spheres/warleader.webp",
+    wrestling: "/modules/pf1spheres/assets/icons/spheres/wrestling.webp",
+  },
 } as const;
 
 /**
@@ -98,6 +158,9 @@ export const PF1CONFIG = {
     sphereCasterLevel: {
       label: "PF1SPHERES.SphereCasterLevelPlural",
     },
+    sphereBAB: {
+      label: "PF1SPHERES.BAB",
+    },
   },
   buffTargets: {
     spherecl: {
@@ -110,6 +173,10 @@ export const PF1CONFIG = {
     },
     msd: {
       label: "PF1SPHERES.MSD",
+      category: "sphereValues",
+    },
+    "~spherebabBase": {
+      label: "PF1.BAB",
       category: "sphereValues",
     },
   },

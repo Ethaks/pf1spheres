@@ -1,0 +1,135 @@
+{
+  "name": "Tactile Shot",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/sniper.webp",
+  "data": {
+    "description": {
+      "value": "<p>When performing a deadly shot with this talent, you may choose to deal no damage. Your attacks allow you to manipulate objects in precise ways. An unattended object has an AC equal to 3 + the object&#8217;s size modifier (minimum +0) + its hardness. If the object is attended, the deadly shot resolves against the possessing creature&#8217;s AC as normal. You may use the following options with this deadly shot:</p>\n<ul>\n<li><strong>Detach Object:</strong> You can make a deadly shot to cause an object to drop off your target, such as causing a quiver on someone&#8217;s back or a keyring on someone&#8217;s waist to fall to the ground. On a successful deadly shot, you may make a free ranged steal attempt against the target, using your original attack roll for the deadly shot as your combat maneuver check. An object or item you steal this way falls harmlessly into an unattended square adjacent to the target. You do not provoke an attack of opportunity for this combat maneuver, except as usual when making ranged attacks.</li>\n<li><strong>Open/Close Object:</strong> You can make a deadly shot to open or close an object, such as an unattended door, window, or container, within the first range increment of your weapon. On a successful deadly shot, the object opens if it was closed or closes if it was open. Otherwise, your deadly shot functions as the open/close spell.</li>\n<li><strong>Use Object:</strong> You can make a deadly shot to use a simple object, such as a lever or switch. On a successful deadly shot, you pull, push, or otherwise manipulate the object in such a way that it activates, such as pulling a lever for a drawbridge or pressing a button.</li>\n<li><strong>Light/Extinguish:</strong> You can make a deadly shot to light or extinguish a Diminutive-size or smaller mundane light source, such as match, torch, lantern, or fuse. On a successful deadly shot, you light or extinguish the object.</li>\n</ul>\n<p><strong>Special:</strong> When using the Trap Technician talent, you may choose to not deal damage to an object you attempt a Disable Device check against, and no longer take a -5 penalty to disable traps with that talent.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Snipe"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "sniper"
+    }
+  },
+  "_id": "vAvhIIttNQ3vVuJc"
+}

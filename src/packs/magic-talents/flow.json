@@ -1,0 +1,135 @@
+{
+  "name": "Flow",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": "<p>As a manabond, you can create a magical stream between yourself and the recipient. Each round, as part of maintaining your manabond, you may choose to either funnel or sap the recipient of this manabond.</p>\n<p>When you funnel, you spend a spell point in order to grant the recipient a single spell point. If the creature is unwilling to be granted a spell point, you must succeed at a magic skill check. If you fail, no spell points are spent and the target does not gain spell points.</p>\n<p>When you sap, you must attempt a magic skill check against the recipient. On a success, they lose 1 spell point, as if you had used the Spellburn expunge, and you gain 1 temporary spell point. This does not grant you a spellpoint if the target did not lose a spellpoint.</p>\n<p>As long as a creature is a recipient of this manabond, you may choose to pay any spell point costs that a recipient may incur from using their class features or casting sphere effects with your own spell points, either partially or in whole. Any spell points granted from this talent stack with themselves.</p>\n<p>If you possess the Magical Conduit talent, you can grant any spell points gained from sapping to any other creature that is a recipient of your manabonds.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Manabond"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "_id": "zNVRvYiXBm0AEa2D"
+}

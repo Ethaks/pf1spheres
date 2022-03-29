@@ -1,0 +1,135 @@
+{
+  "name": "Cure",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
+  "data": {
+    "description": {
+      "value": "<p>As a standard action, you may spend a spell point to touch a target and heal it an amount of damage equal to 1d8 + your caster level. To living creatures, this is a harmless positive energy effect, but it is harmful to undead and other creatures normally damaged by positive energy (Will half).</p>\n<h2 id=\"toc1\"><span>Invigorate</span></h2>\n<p>As a standard action, you may invigorate a touched creature, granting them temporary hit points equal to your caster level (minimum 1). Unlike normal temporary hit points, this ability can only be used on an injured target and cannot raise a target&#8217;s current hit points plus their temporary hit points to be higher than their total hit points. This benefit lasts for 1 hour (Will negates (harmless)).</p>\n<h2 id=\"toc2\"><span>Restore</span></h2>\n<p>As a standard action, you may touch a target and spend a spell point to restore their health (Will negates (harmless)). When using restore, you must choose to restore mind, body, or soul. If affecting multiple targets, this choice becomes the same for all targets.</p>\n<p>If restoring mind, this accomplishes all of the following:</p>\n<ul>\n<li>Removes the dazzled condition.</li>\n<li>Removes the shaken condition or lessens frightened to shaken, or panicked to frightened.</li>\n<li>Removes the staggered condition.</li>\n</ul>\n<p>If restoring body, this accomplishes all of the following:</p>\n<ul>\n<li>Removes the battered condition. (See Spheres of Might.)</li>\n<li>Removes the fatigued condition or lessens exhaustion to fatigued.</li>\n<li>Removes the sickened condition or lessens nauseated to sickened.</li>\n</ul>\n<p>If restoring soul, this:</p>\n<ul>\n<li>Heals 1d4 points of ability damage to one ability score of your choice.</li>\n</ul>\n<p>If the condition targeted is part of an on-going effect, restore instead suppresses the condition for a number of rounds equal to your caster level. This cannot be used to remove curses or instantaneous effects.</p>\n<h3 id=\"toc3\"><span>Life Talent Types</span></h3>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "life"
+    }
+  },
+  "_id": "rCGFRqtrJQJmeLR7"
+}

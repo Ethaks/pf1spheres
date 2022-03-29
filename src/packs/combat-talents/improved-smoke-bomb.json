@@ -1,0 +1,135 @@
+{
+  "name": "Improved Smoke Bomb",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Craft DC:</strong> 15</p>\n<p>You can create a powerful smoke bomb composed of very dense particulates. The formulae can be thrown as a ranged touch attack with a range increment of 10 feet that explodes into a 20-foot radius area of smoke on impact. The smoke obscures all sight, including darkvision, beyond 5 feet. A creature within 5 feet has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target). A moderate wind (11+ mph) disperses the smoke in 4 rounds; a strong wind (21+ mph) disperses the smoke in 1 round. Otherwise the smoke dissipates after 1 minute.</p>\n<p>When you throw the smoke bomb, you may expend your martial focus to apply an existing inhalation or touch poison as part of the attack. If the poison is an inhalation poison, the effect is applied to any creature within the smoke that inhales the smoke. If the poison is a touch poison, creatures must only make saves against the poison the first time they come in contact with the smoke cloud.</p>\n<p>You can increase the Craft DC for this item in increments of 10; each time you do so, the area of effect improves by 10 feet, and the time it takes for the smoke to dissipate or disperse doubles.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Formulae"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "_id": "sgmtqnMyK4lDLv2X"
+}

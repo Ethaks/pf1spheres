@@ -1,4 +1,22 @@
-# pf1spheres
+<!--
+SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+
+SPDX-License-Identifier: EUPL-1.2
+-->
+
+<div align="center">
+  <h1>pf1spheres</h1>
+  <img alt="Gitlab pipeline status" src="https://img.shields.io/gitlab/pipeline-status/Ethaks/foundryvtt-pf1-spheres?branch=master&label=Checks&logo=gitlab">
+  <a href="https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/commits/spheres-tab"><img alt="coverage report" src="https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/badges/spheres-tab/coverage.svg" /></a>
+  <img alt="Supported Foundry Versions" src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/releases/permalink/latest/downloads/module.json">
+  <br>
+  <a href="https://forge-vtt.com/bazaar#package=pf1spheres">
+    <img src="https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fpf1spheres&colorB=4aa94a" alt="Forge Install %" />
+  </a>
+  <a href="https://www.foundryvtt-hub.com/package/pf1spheres/">
+    <img src="https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fpf1spheres%2Fshield%2Fendorsements" alt="Foundry Hub Endorsements" />
+  </a>
+</div>
 
 This module for the [Pathfinder 1e game system](https://gitlab.com/Furyspark/foundryvtt-pathfinder1) for [Foundry Virtual Tabletop](http://foundryvtt.com/) provides additional functionality and support for the rule sets [Spheres of Power](https://www.dropdeadstudios.com/spheres-of-power) and [Spheres of Might](https://www.dropdeadstudios.com/spheres-of-might) from [Drop Dead Studios](https://www.dropdeadstudios.com/).
 
@@ -27,7 +45,7 @@ in the project's root directory.
 You also need to install the project's dependencies. To do so, run
 
 ```
-npm install
+npm ci
 ```
 
 ### Building
@@ -82,11 +100,12 @@ npm test
 Since the regular esbuild job does not check for type errors, you can run the TypeScript compiler with
 
 ```
-npm run test:compile
+npm run typecheck
 ```
 
 ## Legal
 
-The software component of this system is distributed under the EUPL v. 1.2.
+The software component of this system is licensed primarily under the EUPL v. 1.2.
+REUSE is used to specify licenses for individual files in the form of headers or `.license` files, or in .reuse/dep5.
 The rules and game content is distributed under the terms of the Open Gaming License v1.0a.
 The terms of the [Foundry Virtual Tabletop End User License Agreement](https://foundryvtt.com/article/license/) apply.

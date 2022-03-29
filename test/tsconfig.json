@@ -1,0 +1,8 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "types": ["@league-of-foundry-developers/foundry-vtt-types", "jest"]
+  },
+  "include": ["../src", "./"]
+}

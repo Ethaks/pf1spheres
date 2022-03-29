@@ -1,0 +1,135 @@
+{
+  "name": "Fire",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Affect Fire:</strong> Concentration, requires fire. You may affect a normal, non-magical fire, increasing or decreasing its size by one category, plus one per 5 caster levels. This is only a temporary change; once the effect ends, the fire returns to its normal size. Reducing a fire smaller than Fine extinguishes it, in which case it does not return to normal size after the effect ends. The fire consumes fuel and deals damage as appropriate for its new size, according to Table: Maximum Fire Size. Creatures caught in the fire's area are allowed a Reflex save for half damage. The minimum caster level required to affect a fire is also given in the chart. If two casters are affecting the same fire in the same direction (increasing or decreasing) only the strongest change occurs. If two casters attempt to Affect Fire in opposite directions (one making it bigger, one making it smaller), the second caster must succeed at a magic skill check. On a success, their ability functions normally, overlapping the first caster&#8217;s effect. The fire counts as its altered size for determining if the second caster can affect it.</p>\n<p><span style=\"text-decoration: underline;\">Note:</span> If multiple fires overlap, or if a Large or larger creature is affected by multiple smaller fires within its area at once, these fires combine to determine the effective size of the fire when determining damage (2 Small fires make 1 Medium fire, 2 Medium fires make 1 Large fire, etc.).</p>\n<p>If a creature has caught on fire, treat that fire as being Tiny-sized for the purpose of this effect. When you affect a fire on a creature, you also raise or lower the Reflex save DC to put the fire out by 1/2 your caster level (minimum 0).</p>\n<strong>Table: Maximum Fire Size</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Minimum Caster Level</th>\n<th>Fire Size</th>\n<th>Example</th>\n<th>Damage per Round</th>\n<th>Space</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>Fine</td>\n<td>Tindertwig</td>\n<td>1</td>\n<td>1/2-ft. square</td>\n</tr>\n<tr>\n<td>1st</td>\n<td>Diminutive</td>\n<td>Torch</td>\n<td>1d3</td>\n<td>1-ft. square</td>\n</tr>\n<tr>\n<td>1st</td>\n<td>Tiny</td>\n<td>Small campfire</td>\n<td>1d6</td>\n<td>2.5-ft. square</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>Small</td>\n<td>Large campfire</td>\n<td>2d6</td>\n<td>5-ft. square</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>Medium</td>\n<td>Forge</td>\n<td>3d6</td>\n<td>5-ft. square</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>Large</td>\n<td>Bonfire</td>\n<td>4d6</td>\n<td>10-ft. square</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>Huge</td>\n<td>Burning shack</td>\n<td>5d6</td>\n<td>15-ft. square</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>Gargantuan</td>\n<td>Burning tavern</td>\n<td>6d6</td>\n<td>20-ft. square</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>Colossal</td>\n<td>Burning inn</td>\n<td>7d6</td>\n<td>30-ft. square</td>\n</tr>\n<tr>\n<td>25th</td>\n<td>Colossal+</td>\n<td>-</td>\n<td>8d6</td>\n<td>50-ft. square</td>\n</tr>\n<tr>\n<td>30th</td>\n<td>Colossal++</td>\n<td>-</td>\n<td>9d6</td>\n<td>70-ft. square</td>\n</tr>\n<tr>\n<td>35th</td>\n<td>Colossal+++</td>\n<td>-</td>\n<td>10d6</td>\n<td>100-ft. square</td>\n</tr>\n</table>\n<p><strong>Create Fire:</strong> Concentration, no requirements. You may produce a Diminutive-sized magical fire that burns without fuel. This fire may be 1 size category larger per 5 caster levels, and may be used to ignite flammable materials to create self-sustaining, non-magical fire. If a target is within the area of the created fire, they suffer damage as normal for that fire&#8217;s size and catch fire. A successful Reflex save halves the damage and negates catching fire.</p>\n<p><strong>Manipulate Lava:</strong> Instantaneous or concentration, requires lava. You may manipulate lava. This is exactly the same as the Freeze and Vortex powers from the (water) package, except you must spend an additional spell point for each ability, and you must target lava. Frozen lava becomes obsidian, with a hardness of 5 and 3 hit points per caster level and does not deal damage per round to trapped creatures.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "_id": "5RvbLRBWFJaXomkv"
+}

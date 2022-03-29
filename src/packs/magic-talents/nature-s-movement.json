@@ -1,0 +1,135 @@
+{
+  "name": "Nature’s Movement",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may spend a standard action to gain one of the following benefits for 1 round. You may spend a spell point to gain one of the following benefits for 1 minute per caster level. You may move up to your speed with the granted move type as part of activating this sphere effect, so long as the action used was at least a move action. The movements you can choose are determined by the packages you possess.</p>\n<p><strong>Air: Air Ball:</strong> You gain a rideable sphere of compressed air, which can support 200 + 20 lbs. per caster level. This ball can float up to 5 feet + 5 feet per 5 caster levels above the ground, and has a movement speed equal to your base land speed. This ball is only usable by you, but others may ride along if the ball can support the weight of all riders. The ball is treated as a mount, but requires no Ride or Fly checks to use and cannot be affected by uses of those skills such as cover or spur mount, nor can be targeted by opponents.</p>\n<p><strong>Earth: Burrow:</strong> You can tunnel through sand, loose soil, or gravel, at a burrow speed equal to half your land speed (minimum 10 feet) or at a burrow speed equal to a quarter of your land speed through stone (minimum 5 feet). While burrowing with this talent you cannot charge or run. This ability does not grant you the ability to breathe underground, so when passing through loose material, you must hold your breath and take only short trips or else you may suffocate.</p>\n<p><strong>Fire: Ride the Flames:</strong> You may use heat waves to push yourself, gaining a fly speed equal to your base land speed, with a maneuverability of clumsy. This fly speed only functions on your turn. If you are not on a surface that can support you on the end of your turn, you glide safely to the ground, at a speed of 60 feet per round, taking no falling damage. You cannot use this fly speed to hover.</p>\n<p><strong>Metal: Ironshod:</strong> You become difficult to impede with traps, hazards, and difficult terrain. You reduce any damage you take from traps, hazards, and difficult terrain (including caltrops and spike stones) by your caster level, and you can still 5-foot step through difficult terrain. When moving through difficult terrain, you may completely ignore 5 feet of difficult terrain + 5 feet per 5 caster levels when calculating your movement for a round.</p>\n<p><strong>Plant: Brachiate:</strong> You gain a climb speed equal to half your land speed (minimum 10 feet), granting you all the usual benefits of a Climb speed, including a racial +8 bonus to Climb checks. In addition, you can move through the upper canopies of jungles and forests with the same ease you move along the ground. You can use your base land speed to move through any heavily forested area without touching the ground by leaping and swinging from tree to tree. You can also use this among the rafters of a building, or even stalactites on a cavern ceiling.</p>\n<p><strong>Water: Water Walk:</strong> You gain the ability to walk on water. Water and all other liquid becomes solid to you, allowing you to move over it as if it were normal ground. Especially turbulent water (such as during a storm) may count as difficult terrain. You may always choose to sink into the water and swim if you so desire, in which case you are considered to have a Swim speed equal to your land speed, granting you all the usual benefits of a Swim speed, including a racial +8 bonus to Swim checks. This does not, however, grant you the ability to breathe underwater.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Spirit"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "_id": "L38woFG8TCFJCUeS"
+}

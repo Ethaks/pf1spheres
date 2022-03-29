@@ -1,0 +1,135 @@
+{
+  "name": "Heat",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
+  "data": {
+    "description": {
+      "value": "<p>Heat works very similarly to Cold. Hot environments can deal lethal or nonlethal fire damage to a creature. A creature dealt damage in this manner becomes fatigued (heatstroke), and cannot recover from fatigue or damage until cooled off (reaches shade, survives until nightfall, gets doused in water, and so forth). If a character takes an amount of nonlethal fire damage equal to her total hit points, any further damage from a hot environment is lethal fire damage.</p>\n<p>Characters in heavy clothing or armor take a -4 penalty on their saves against Heat. Creatures may use the Survival skill to gain bonuses to saving throws against Heat. Heat deals damage according to Table: Heat.</p>\n<strong>Table: Heat</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Severity Level</th>\n<th>Effects</th>\n</tr>\n<tr>\n<td>3 (above 90&#176; F)</td>\n<td>Fortitude save each hour (DC 15, +1 per previous check) or take 1d4 points of nonlethal fire damage.</td>\n</tr>\n<tr>\n<td>4 (above 110&#176; F)</td>\n<td>Same as level 3, but a check every 10 minutes.</td>\n</tr>\n<tr>\n<td>5 (above 140&#176; F)</td>\n<td>1d6 lethal fire damage every minute (no save), and a Fortitude save every 5 minutes (DC 15, +1 per previous check) or take 1d4 nonlethal fire damage.</td>\n</tr>\n<tr>\n<td>6 (above 180&#176; F)</td>\n<td>Same as severity level 5, but damage and Fortitude saves happen each round.</td>\n</tr>\n<tr>\n<td>7 (above 212&#176; F)</td>\n<td>3d6 lethal fire damage each round, no save. Immersion in boiling liquids increases this to 10d6.</td>\n</tr>\n</table>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "_id": "c8KEY54Uxd9RtZox"
+}

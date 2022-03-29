@@ -1,0 +1,135 @@
+{
+  "name": "Plant Transformation",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may grant the form of a plant creature with your shapeshift.<br>\n<strong>Limbs:</strong> 2 arms (which may be tree limbs or vines)<br>\n<strong>Speech:</strong> No; <strong>Hands:</strong> No<br>\n<strong>Speed:</strong> 20 ft. land speed<br>\n<strong>Natural weapons:</strong> 2 slams (primary, 1d6 Medium, 1d4 Small)<br>\n<strong>AC:</strong> +4 natural armor bonus, +1 per 5 caster levels<br>\n<strong>Special:</strong> Darkvision 60 ft. The target is considered to have the plant creature type (in addition to their other creature types) for the purposes of effects targeting creatures by type (such as a ranger's favored enemy and bane weapons).</p>\n<p>Plant Transformation offers the following traits, which you may apply to any form:</p>\n<ul>\n<li><strong>Barkskin:</strong> You may grant the target a +2 natural armor bonus, which stacks with other sources of natural armor.</li>\n<li><strong>Pollen:</strong> As a swift action, the target can release a cloud of pollen with a radius up to 5 feet + 5 feet per 10 caster levels centered on the target which persists until the start of the target&#8217;s next turn. Creatures other than the target who begin their turn or enter the cloud of pollen are staggered for one round (Fortitude negates; DC equal to the caster&#8217;s Alteration sphere DC). A creature that succeeds at its saving throw is immune to this effect for 24 hours. The pollen trait&#8217;s effects are a poison effect; bonuses or immunities against inhaled effects function against this trait&#8217;s effects. [SA:EAO]</li>\n<li><strong>Rigid Body:</strong> You may grant the target a +2 natural armor bonus, +1 per 5 caster levels, which does not stack with other sources of natural armor.</li>\n<li><strong>Sporepod:</strong> Once per minute as a standard action, the target can launch a sporepod. Treat this as a splash weapon with a range increment of 20 feet. While a direct hit deals no damage, any creature within 10 + 5 feet per 5 caster levels from the sporepod&#8217;s point of contact is confused for 1+1d6 rounds (Will partial; DC equal to the caster&#8217;s Alteration sphere DC). A creature that succeeds at its save is sickened for 1 round instead. The sporepod is a mind-affecting poison effect. This trait costs an additional spell point. [SA:EAO]</li>\n<li><strong>Strong Roots:</strong> The target gains a bonus to CMD equal to 2 + 1 per 10 caster levels against bull rush, drag, reposition, and trip combat maneuvers or other effects which would attempt to knock the target prone or forcibly move them. This bonus doubles if the target starts and ends his turn in the same space.</li>\n<li><strong>Thorn Spray:</strong> As a standard action, the target can spray a volley of thorns dealing 1d4 piercing per 2 caster levels damage to all creatures in a 30-foot cone or 15-foot radius burst centered on the target (Reflex half; DC equal to the caster&#8217;s Alteration sphere DC). The target must wait at least 1d4 rounds between uses of this ability. Creatures who fail their save against this ability have thorns embedded in their body, taking a -2 penalty on Reflex saves and Dexterity-based skill checks. These penalties increase by 1 per 5 caster levels. Creatures may spend a move action that provokes an attack of opportunity to remove these thorns. [SA:EAO]</li>\n</ul>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Transformation"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "_id": "aVmdosI1PJ2LlxqT"
+}

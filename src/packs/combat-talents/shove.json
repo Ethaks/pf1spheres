@@ -1,0 +1,135 @@
+{
+  "name": "Shove",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/brute.webp",
+  "data": {
+    "description": {
+      "value": "<p>As a move action, you may move up to half your speed and make a melee touch attack against a creature. If successful, the target takes bludgeoning damage equal to your Strength modifier (or whichever attribute was used to make the check) and gains the battered condition until the end of your next turn. You may perform a shove in place of the attack granted by a charge, although this does not grant the extra movement.</p>\n<p><strong>Manhandle:</strong> When you successfully perform a bull rush, drag, reposition, or overrun combat maneuver (assuming the target decided to block you and did not simply move out of the way), you may apply the effect of one (manhandle) talent you know to that creature. (Manhandle) talents cannot be applied to maneuvers performed as a free action.</p>\n<p><em>Author's Note:</em> Shove is a unique \"armed attack\" that when augmented with a talent that allows you to \"use a weapon\" (e.g. Brace Weapon, Slapper) will only inherit specific properties from that weapon. The Brace Weapon and Slapper talents add bonuses to hit and/or damage and certain damaging effects (such as a flaming or holy special weapon ability) but do not treat a shove attack as an attack with that weapon for other effects (such as a spell-storing weapon, the grab or trip universal monster rules, the Bashing Finish feat, or other \"when you make a successful attack\"-type effects).</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "brute"
+    }
+  },
+  "_id": "2lMEuvVYa2zMPmqe"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Age",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/time.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may spend a spell point to increase or decrease a target&#8217;s age by 1 category (unwilling creatures attempt a Fortitude save to negate). This adds or removes penalties to physical ability scores but does not add or remove bonuses to mental ability scores. You may move the target 1 age category older or younger, plus an additional category for every 5 caster levels possessed.</p>\n<p>This cannot cause the target to die of old age, nor become so young they were never born. This effect lasts as long as you concentrate, but you may always spend a spell point as a free action to allow this effect to continue for 1 minute per caster level without concentration. The effects of different age categories are cumulative (thus, a target moved from young adult to venerable would suffer a -6 penalty to all physical ability scores).</p>\n<strong>Table: Age Categories</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Age Category</th>\n<th>Physical Penalties (Age penalties accumulate)</th>\n</tr>\n<tr>\n<td>Child</td>\n<td>-1 size category, -2 to all physical ability scores</td>\n</tr>\n<tr>\n<td>Youth</td>\n<td>-1 to all physical ability scores</td>\n</tr>\n<tr>\n<td>Young Adult</td>\n<td>none</td>\n</tr>\n<tr>\n<td>Middle Age</td>\n<td>-1 to all physical ability scores</td>\n</tr>\n<tr>\n<td>Old Age</td>\n<td>-2 to all physical ability scores</td>\n</tr>\n<tr>\n<td>Venerable</td>\n<td>-3 to all physical ability scores</td>\n</tr>\n</table>\n<p>You may also target an object instead of a creature.</p>\n<p>Attended objects are permitted a Will save by their holder to negate this ability. Unless noted, the chosen effect persists for as long as you concentrate, or for 1 minute per caster level if you spend an additional spell point. Choose from the following effects:</p>\n<p><strong>Restore:</strong> As an instantaneous effect, you may spend a spell point when targeting an object with the broken condition to restored it to the form it previously had, removing the broken condition. This does not restore any charges to limited use items nor restore expended single-use items. This option can also be used to counter or dispel the other applications of this talent with requiring a magic skill check.</p>\n<p><strong>Spoilage:</strong> As an instantaneous effect, you may cause an amount of food sufficient to feed 1 Medium creature per caster level to spoil or cause an equal amount of spoiled food to return to a palatable state. This does not remove other changes made to the food, such as adding poison or magical effects unless you spend a spell point and succeed on a magic skill check against the poison or effect&#8217;s DC. Restoring the food does not prevent future spoilage.</p>\n<p><strong>Weather:</strong> The object is shifted to its future state, reducing its hardness by your caster level.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Time"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "time"
+    }
+  },
+  "_id": "iduZ8W5pm3BWj5xH"
+}

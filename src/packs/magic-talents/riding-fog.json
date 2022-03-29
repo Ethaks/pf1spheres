@@ -1,0 +1,135 @@
+{
+  "name": "Riding Fog",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may create clouds of fog attached to yourself or to other creatures. A fog cloud attached to a creature is called a riding fog. This functions as a regular fog and can be dispersed by wind, except that it moves with the creature it is attached to, becomes inactive if that creature is knocked unconscious and is dispelled if they are killed. The fog continues to function if it goes beyond the range of its creator.</p>\n<p>The recipient must be within range of your geomancing. An unwilling creature can have a riding fog attached to them as a touch attack; A creature is allowed a Will save to prevent having the fog attached to them and may attempt another saving throw each round to end the fog. The Break Enchantment talent from the Life sphere or a similar effect can dispel the riding fog before its natural duration expires. An enemy with a riding fog attached to them still receives any saving throws the fog allows to avoid being affected. A successful save causes the fog to immediately dissipate.</p>\n<p>Spell resistance can prevent a riding fog from being attached to a creature. Failing to bypass the intended target&#8217;s spell resistance in attempting to attach the fog dispels the fog.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Water"], ["Geomancing"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "_id": "p5a3sEP48E74DcTH"
+}

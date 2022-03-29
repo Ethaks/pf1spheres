@@ -1,0 +1,135 @@
+{
+  "name": "Rock Toss",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
+  "data": {
+    "description": {
+      "value": "<p>As long as you have martial focus, you can catch thrown or falling rocks (or projectiles of similar shape) that are no larger than your current size. Once per round, when you would normally be hit by a rock, you can make a Reflex save to catch it as a free action. The DC is 25 for a rock of your current size, -5 for each size category it is smaller than you. If the projectile has a magical bonus on attack rolls, the DC increases by that amount. You must be aware of the attack in order to make a rock catching attempt.</p>\n<p>Additionally, you are considered proficient with thrown rocks. You can hurl rocks of up to two size categories smaller than you. A &#8220;rock&#8221; is any large, bulky, and relatively regularly shaped object made of any material with a hardness of at least 5.</p>\n<p>You can hurl the rock as a thrown weapon with a range increment of 10 ft. +10 per size category it is smaller than you. Tiny rocks deal 1d6 bludgeoning damage, Small 1d8, Medium 2d6, and Large 3d6. As long as you have martial focus and a suitable rock is within your reach, you may pick them up as part of your attack. At +7 and +14 base attack bonus, increase the maximum size rock you may throw by one size category, to a maximum equal to your current size.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Discipline"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "_id": "r0hZGx0A1F8DXdA0"
+}

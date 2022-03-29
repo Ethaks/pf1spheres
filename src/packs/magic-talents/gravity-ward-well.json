@@ -1,0 +1,135 @@
+{
+  "name": "Gravity Ward/Well",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
+  "data": {
+    "description": {
+      "value": "<p>As a standard action, you can create an area of gravity that either pulls objects in or keeps them out. Select either yourself or a spot within range of your telekinesis, and choose either to attract or repel.</p>\n<p>If you choose attract, all creatures and unattended objects of up to your telekinesis limit within 10 feet + 5 feet per 5 caster levels of the chosen spot are drawn in a straight line to the unoccupied space nearest to the center of the effect. Unwilling creatures are subjected to a drag combat maneuver using your caster level plus your casting ability modifier as your CMB. A creature in the area of this effect cannot move away from the center of the effect except by attempting the drag combat maneuver as a move action against a CMD equal to 10 plus your caster level plus your casting ability modifier, moving the indicated distance away from the center of the gravity well.</p>\n<p>If you choose repel, this functions the same way except creatures and unattended objects within the area are pushed in a straight line away from the center of the effect, and creatures are subjected to and perform bull rush combat maneuvers instead of drag combat maneuvers.</p>\n<p>This effect lasts as long as you concentrate (pulling or pushing creatures each round on your turn) and can be maintained with Sustained Force.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "_id": "4LNXcApyDhqGjJDv"
+}

@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+#
+# SPDX-License-Identifier: EUPL-1.2
+
 # IDE
 .idea/
 .vs/
@@ -6,6 +10,9 @@ Session.vim
 # Node Modules
 node_modules/
 npm-debug.log
+
+# NPM cache
+.npm
 
 # Local configuration
 foundryconfig.json
@@ -22,3 +29,6 @@ packs/
 
 # Junit results
 junit.xml
+
+# Coverage for tests
+coverage/

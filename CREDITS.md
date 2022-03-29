@@ -1,7 +1,17 @@
+<!--
+SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+
+SPDX-License-Identifier: EUPL-1.2
+-->
+
 # Credits and Thanks
 
 None of the people listed here necessarily endorse the project's author or the project itself.
 Entries are listed in no particular order.
+
+## Drop Dead Studios
+
+- Sphere icons distributed in this module with express permission
 
 ## Delapouite's icons ([CC BY 3.0](http://creativecommons.org/licenses/by/3.0/))
 

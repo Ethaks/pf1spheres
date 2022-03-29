@@ -1,0 +1,135 @@
+{
+  "name": "Ooze Originator",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Creation sphere (Acidic Creation (material)), caster level 5th.</p>\n<p>You may create and animate an ooze creature. You must spend an additional spell point for every 4 Hit Dice of the desired ooze; you cannot create an ooze with more Hit Dice than your caster level or that is larger than you can create. The magic behind the ooze&#8217;s creation allows it to recognize you as its creator and obey basic commands such as &#8220;attack&#8221;, &#8220;defend&#8221;, or &#8220;move&#8221; and to follow them to the best of its ability, but it otherwise is a normal, mindless member of its kind and will act appropriately.</p>\n<p>This ooze may be any un-templated creature of the ooze type or a unique creation subject to GM discretion. You may not control more Hit Dice of ooze than your caster level; if you create more than this, the earliest-created oozes no longer recognize you as their creator until you are under this limit again. Oozes can be made permanent through the Create Materials advanced talent.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Create"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "_id": "fZkSjupRHZXpIvtP"
+}

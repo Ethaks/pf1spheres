@@ -1,0 +1,197 @@
+{
+  "_id": "UjwGmw8qD8wyP8Hf",
+  "name": "Scholar",
+  "type": "class",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": "“Knowledge is power.”\n<p>Scholars are not front-line combatants. They&#8217;re not weapons experts, nor are they charismatic leaders. What they are, are adventurers who use their brains instead of their brawn, identifying enemy&#8217;s weaknesses, laying dangerous traps, and leveraging their diverse knowledge to turn the tide of battle. Scholars lack a wizard&#8217;s magical mastery to supplement their mind&#8217;s strength, relying instead on keen observation and mechanical mastery to win their battles.</p>\n<p><strong>Starting Wealth:</strong> 5d6 x 10 gp (average 175 gp) plus 1 healer&#8217;s kit. In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Starting Age:</strong> Trained</p>\n<p><strong>Role:</strong> Scholars support their allies in combat by targeting enemy weaknesses and using powerful alchemical concoctions to help control the flow of battle. Out of combat, scholars are masters of any trade or skill they choose to undertake.</p>\n<p><strong>Alignment:</strong> Any.</p>\n<p><strong>Hit Die:</strong> d6</p>\n<p><strong>Class Skills:</strong> The scholar&#8217;s class skills are Appraise (Int), Bluff (Cha), Craft (Int), Diplomacy (Cha), Disable Device (Dex), Disguise (Cha), Escape Artist (Dex), Handle Animal (Cha), Heal (Wis), Intimidate (Cha), Knowledge (all) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Spellcraft (Int), Stealth (Dex), Survival (Wis), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 8 + Int modifier.</p>\n<p><strong>Proficiencies:</strong> Scholars are proficient with simple weapons, as well as light armor and bucklers. In addition, if this is this character&#8217;s first level in any class, they may select a martial tradition of their choice.</p>\n\n<h2>Combat Training</h2>\n<p>A scholar may combine combat spheres and talents to create powerful martial techniques. Scholars are considered Proficient combatants and use Intelligence as their practitioner modifier.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "links": {
+      "children": [],
+      "classAssociations": [
+        {
+          "id": "pf1spheres.class-features.8q3TZgIi6NBHPBaN",
+          "dataType": "compendium",
+          "name": "Careful Packer",
+          "img": "icons/svg/item-bag.svg",
+          "level": 1,
+          "_index": 0,
+          "hiddenLinks": {}
+        },
+        {
+          "id": "pf1spheres.class-features.E4MMYwqUwT2GRPcT",
+          "dataType": "compendium",
+          "name": "Medical Training",
+          "img": "icons/svg/item-bag.svg",
+          "level": 1,
+          "_index": 1,
+          "hiddenLinks": {}
+        },
+        {
+          "id": "pf1spheres.class-features.CgHY1UONeyOSDapj",
+          "dataType": "compendium",
+          "name": "Problem Solver",
+          "img": "icons/svg/item-bag.svg",
+          "level": 1,
+          "_index": 2,
+          "hiddenLinks": {}
+        },
+        {
+          "id": "pf1spheres.class-features.nowUHvB1g6tW2MyT",
+          "dataType": "compendium",
+          "name": "Flashbangs",
+          "img": "icons/svg/item-bag.svg",
+          "level": 2,
+          "_index": 3,
+          "hiddenLinks": {}
+        },
+        {
+          "id": "pf1spheres.class-features.pCUvcABj8gvNijLn",
+          "dataType": "compendium",
+          "name": "Scholar’s Knack",
+          "img": "icons/svg/item-bag.svg",
+          "level": 2,
+          "_index": 4,
+          "hiddenLinks": {}
+        },
+        {
+          "id": "pf1spheres.class-features.CNXP5d9UIEGnTtAF",
+          "dataType": "compendium",
+          "name": "Material Imposition",
+          "img": "icons/svg/item-bag.svg",
+          "level": 3,
+          "_index": 5,
+          "hiddenLinks": {}
+        },
+        {
+          "id": "pf1spheres.class-features.EZyjJVM2hMYxgNO7",
+          "dataType": "compendium",
+          "name": "Advanced Medical Training",
+          "img": "icons/svg/item-bag.svg",
+          "level": 5,
+          "_index": 6,
+          "hiddenLinks": {}
+        },
+        {
+          "id": "pf1spheres.class-features.Sk0XM5ikIxxvHVPP",
+          "dataType": "compendium",
+          "name": "Expert Medical Training",
+          "img": "icons/svg/item-bag.svg",
+          "level": 9,
+          "_index": 7,
+          "hiddenLinks": {}
+        },
+        {
+          "id": "pf1spheres.class-features.ajTY8FVXX98Po1DR",
+          "dataType": "compendium",
+          "name": "Mastered Imposition",
+          "img": "icons/svg/item-bag.svg",
+          "level": 20,
+          "_index": 8,
+          "hiddenLinks": {}
+        }
+      ]
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": ["lgt"],
+      "custom": "Buckler"
+    },
+    "weaponProf": {
+      "value": ["sim"],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "classType": "base",
+    "level": 1,
+    "hd": 6,
+    "hp": 8,
+    "bab": "low",
+    "skillsPerLevel": 8,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "high"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "classSkills": {
+      "acr": false,
+      "apr": true,
+      "art": true,
+      "blf": true,
+      "clm": false,
+      "crf": true,
+      "dip": true,
+      "dev": true,
+      "dis": true,
+      "esc": true,
+      "fly": false,
+      "han": true,
+      "hea": true,
+      "int": true,
+      "kar": true,
+      "kdu": true,
+      "ken": true,
+      "kge": true,
+      "khi": true,
+      "klo": true,
+      "kna": true,
+      "kno": true,
+      "kpl": true,
+      "kre": true,
+      "lin": true,
+      "lor": false,
+      "per": true,
+      "prf": true,
+      "pro": true,
+      "rid": false,
+      "sen": true,
+      "slt": true,
+      "spl": true,
+      "ste": true,
+      "sur": true,
+      "swm": false,
+      "umd": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Perfect",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may spend a spell point to place a word on a creature that enhances its existing strengths. Choose an ability score. The target gains a +1 bonus to ability checks and skill checks based on that ability score. In addition, the target gains a benefit for the chosen ability score as detailed on the table below.</p>\n<p>This effect lasts as long as you concentrate, but you may always spend a spell point to allow the effect to endure for 1 minute per caster level without concentration.</p>\n<strong>Table: Perfect (word)</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Ability Score</th>\n<th>Bonus</th>\n</tr>\n<tr>\n<td>Strength</td>\n<td>The target does not provoke attacks of opportunity when performing a bull rush, overrun, or trip maneuver. If the target can already perform one of these combat maneuvers without provoking an attack of opportunity, they instead gain a +2 bonus to combat maneuver checks to perform that maneuver. This bonus increases by +1 for every 4 caster levels.</td>\n</tr>\n<tr>\n<td>Dexterity</td>\n<td>The target gains a +10 feet bonus to all movement speeds and whenever they move the first square is not considered threatened by any enemy. This bonus increases by +5 feet for every 5 caster levels.</td>\n</tr>\n<tr>\n<td>Constitution</td>\n<td>The target gains 1 temporary hit point, plus 1 temporary hit point for every 5 caster levels. These temporary hit points refresh each round, but do not stack.</td>\n</tr>\n<tr>\n<td>Intelligence</td>\n<td>The target treats all untrained skills as though they had one skill rank in them, and gains a +2 bonus to all trained skills. This bonus increases by +1 for every 5 caster levels.</td>\n</tr>\n<tr>\n<td>Wisdom</td>\n<td>The target can attempt either a Perception or Sense Motive check as a free action once per round and gains a +1 bonus to initiative checks. This bonus increases by +1 for every 5 caster levels</td>\n</tr>\n<tr>\n<td>Charisma</td>\n<td>The target may use Intimidate to demoralize as a swift action (or a free action once per round if they can already do so as a swift action) and attempt to influence a creature&#8217;s attitude using Diplomacy in 1 round by taking a -10 penalty.</td>\n</tr>\n</table>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Word"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "_id": "rVh7dvxxzMapnMlv"
+}

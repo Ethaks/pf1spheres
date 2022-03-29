@@ -1,0 +1,135 @@
+{
+  "name": "Detect Scrying",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may spend a spell point to detect the scryings of others. Any attempt to scry or divine on a location or creature within close range of you (unless you purposefully lower this defense) becomes impossible unless the caster succeeds in a magic skill check against you. In addition, you sense if any creature within range is using the divine ability or a divination spell, as well as the location of any sensors in the area (such as with the Viewing talent or the clairaudience/clairvoyance spell). You become aware of any attempt to scry on you, such as with a divination (scrying) school spell or the Scrying advanced Divination talent. If these spells and effects originate within your sense&#8217;s area, you immediately know their location. Otherwise, if you match or exceed the other caster in an opposed magic skill check, you gain a visual image of the diviner and know their direction and distance from you. You may suppress or resume this sense as a free action.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Sense"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "divination"
+    }
+  },
+  "_id": "gJNvFSjZ6fRMREf8"
+}

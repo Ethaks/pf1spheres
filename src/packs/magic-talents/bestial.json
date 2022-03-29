@@ -1,0 +1,135 @@
+{
+  "name": "Bestial",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
+  "data": {
+    "description": {
+      "value": "<p>Your companion gains a new set of natural attacks chosen from the list below. A companion must possess the prerequisite limbs and cannot already have a natural attack attached to that limb. A companion may gain this talent multiple times. Each time they gain this talent, they gain a new set of natural attacks.</p>\n<ul>\n<li>One bite attack (primary, 1d6 Medium, 1d4 Small, requires head).</li>\n<li>Two claw attacks (primary, 1d4 Medium, 1d3 Small, requires arms or the front pair of at least 4 legs).</li>\n<li>One gore attack (primary, 1d6 Medium, 1d4 Small, requires head).</li>\n<li>Two hoof attacks (secondary, 1d4 Medium, 1d3 Small, requires 2 legs, but creature must possess at least 4).</li>\n<li>Two pincers (secondary, 1d6 Medium, 1d4 Small, requires arms).</li>\n<li>Two slam attacks (primary, 1d4 Medium, 1d3 Small, requires arms).</li>\n<li>One sting (primary, 1d4 Medium, 1d3 Small, requires tail).</li>\n<li>One tail slap (secondary, 1d6 Medium, 1d4 Small, requires tail).</li>\n<li>Two talons (primary, 1d4 Medium, 1d3 Small, requires 2 legs and creature must be airborne to use).</li>\n<li>One tentacle attack (secondary, 1d4 Medium, 1d3 Small, no requirement).</li>\n<li>Two wing buffets (secondary, 1d4 Medium, 1d3 Small, requires wings).</li>\n</ul>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Form"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "_id": "QGgltPXzf0ObyWr2"
+}

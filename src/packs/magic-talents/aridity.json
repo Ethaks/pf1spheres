@@ -1,0 +1,135 @@
+{
+  "name": "Aridity",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
+  "data": {
+    "description": {
+      "value": "<p>As Heat is the opposite of Cold, Aridity is the opposite of Precipitation. If the Precipitation is lowered below step 1 of Precipitation, it becomes step 2 of Aridity. If the Aridity is lowered below step 1 of Aridity, it becomes step 2 of Precipitation. Water left in open air loses about an inch of height per day for every level of combined severity between Heat and Aridity</p>\n<p>This becomes 2 inches per combined level at Aridity severity level 6, and 4 inches per combined level for Aridity severity level 7.</p>\n<p>In normal conditions, a character can go without water for 1 day plus a number of hours equal to his Constitution score. After this time, the character must succeed at a Constitution check each hour (DC 10, +1 for each previous check) or take 1d6 points of nonlethal damage. Characters that take an amount of nonlethal damage equal to their total hit points begin to take lethal damage instead.</p>\n<p>Beginning at severity level 2, all creatures suffer a penalty equal to the Aridity severity level to all saving throws against effects that would cause fatigue or exhaustion, as well as to saving throws made against thirst. At Aridity severity level 3 creatures must drink twice as much water per day to stay healthy.</p>\n<p>At severity level 4, the amount of time a character can go without water before they must begin attempting checks, as well as the time between checks, is cut in half (12 + 1/2 Constitution modifier hours, checks every 30 minutes). This time is cut in half again for each severity level above 4.</p>\n<p>Even if they are drinking enough water, targets in areas of extreme magically-enhanced aridity still suffer terrible effects as the water in their bodies is constantly sucked up by the environment around them. Targets in areas of high aridity suffer the same chance of suffering nonlethal damage (from desiccation) and suffering fatigue (but not fire damage) as if they were in Heat of the same severity level. This does not stack with the penalties provided by Heat or Cold. However, if combined with Wind or Heat of severity level 4 or higher, the combined effects drain the energy from all living creatures, rendering them sickened for as long as they are within this environment.</p>\n<p>Characters who have taken nonlethal damage due to desiccation or from a lack of food or water are fatigued. Nonlethal damage from thirst or starvation cannot be recovered until the character gets food or water, as needed, or until they receive magical healing.</p>\n<h3 id=\"toc6\"><span>Other Weather Effects</span></h3>\n<p>There are weather categories that are not able to be manipulated by basic wielders of control weather, but can become available through taking certain talents. These weather categories are as follows:</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "_id": "LPR7ie5sjum3eXXO"
+}

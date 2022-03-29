@@ -1,0 +1,135 @@
+{
+  "name": "Air Stunt",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Athletics sphere, Wall Stunt, Acrobatics 5 ranks.</p>\n<p>If you possess the (leap) package, you no longer require a solid surface to make your swift action jump with the Wall Stunt talent. While you have martial focus, the DC for Acrobatics checks to determine jump height have their DC reduced to 1 per 1 ft. of height. Additionally, you may reduce the effective height of any fall by an additional 10 ft. on a successful Acrobatics check.</p>\n<p>If you possess the (run) package, you may run over the air as if it were ground. You do not fall when moving, though if you are not supported at the end of your turn you fall as normal.</p>\n<p>You may ascend or descend up to 45 degrees as part of this movement, though ascending costs 2 squares of movement per 5 ft. of additional elevation. Additionally, you may balance on any solid surface, even those unable to support your weight, such as a taught string, a narrow tree branch, etc.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Leap"], ["Run"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "_id": "1SMndzQtQmKuEQFW"
+}

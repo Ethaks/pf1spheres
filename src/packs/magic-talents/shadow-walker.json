@@ -1,0 +1,135 @@
+{
+  "name": "Shadow Walker",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Dark sphere (Step Through Darkness (meld)), caster level 10th.</p>\n<p>A target must be within an area of dim light or darkness for you to apply this meld to them. When this talent is applied, the target temporarily steps out of the Material Plane and into the place where it borders the Plane of Shadow. While within this region of shadow, the target may move at a rate of 50 miles per hour, seeing their relative place in the Material Plane, although it appears blurry and lacking in details. At any time, the target may step back into the Material Plane, at which point the effects of this (meld) talent immediately end.</p>\n<p>Because of the blurring of reality between the Plane of Shadow and the Material Plane, the target cannot make out details of the terrain or areas you pass over during transit, nor can you predict perfectly where your travel will end. It is impossible to judge distances accurately, making this ability ill-suited for scouting or spying. Furthermore, when stepping back into the Material Plane, the target is shunted 1d10 x 100 feet in a random horizontal direction from the desired endpoint. If this would place the target within a solid object, they are shunted 1d10 x 1,000 feet in the same direction. If this would still place them within a solid object, they are shunted to the nearest empty space available, but the strain of this activity renders the creature fatigued (no save).</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Meld"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "_id": "sXs66hXJYvAOxAOJ"
+}

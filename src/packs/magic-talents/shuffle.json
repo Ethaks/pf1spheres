@@ -1,0 +1,135 @@
+{
+  "name": "Shuffle",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": "<p>You may manipulate an area within range, altering the rules of magic within a radius of up to 10 feet + 5 feet per 10 caster levels. You may select a single modification to make to the manipulated area at the time of casting, listed below. This area remains for as long as you concentrate, to a maximum of 1 round per caster level, but you may always spend a spell point to allow the effect to remain without concentration for its maximum duration. All spells cast in or into the affected area, or that pass through the area (such as a ray) are subject to this ability&#8217;s effects.</p>\n<p>Only one shuffle can be in effect in an area at a time, with any attempt to overlap areas requiring a magic skill check against the MSD of the initial shuffle effect. If you succeed, the initial shuffle effect is dispelled, but on a failure you fail to cast the shuffle effect.</p>\n<p>You may modify the rules of magic in the following ways:</p>\n<p><strong>Elemental Rewiring:</strong> Select a single energy type from the following list: acid, cold, electricity, or fire. You convert all energy damage from magical and supernatural effects that are affected by your shuffle into the selected type, but only if they are energy types that are on the prior list of energy types. At 7th caster level, you add sonic to this list. At 12th caster level, you add force to this list. At 17th caster level, you add negative and positive energy to this list.</p>\n<p><strong>Protective Rewiring:</strong> Select a single saving throw between Fortitude, Reflex and Will. Whenever a creature within the area of your shuffle must attempt a saving throw against a magical or supernatural effect, they must instead use the modifier of the saving throw you chose.</p>\n<p>The saving throw is still treated as the original type required by the magical or supernatural effect (i.e., evasion still works when switching from Reflex to Fortitude), and any conditional modifiers that apply to the original type still apply, but not from the new type. The caster of a sphere effect changed by this ability may attempt a magic skill check against your Mana sphere DC to stop creatures from utilizing this effect against that specific sphere effect.</p>\n<h2 id=\"toc4\"><span>Manabond</span></h2>\n<p>As a swift action made as part of successfully using an expunge or (manipulation) that targets a creature other than yourself, or as a move action made by spending a spell point to touch a creature other than yourself, you can create a manabond between yourself and the targeted creature for as long as you concentrate, to a maximum of 1 minute per caster level. Concentration on a manabond only requires a swift action, with the action required being unable to be lowered by any means other than the Magical Conduit talent. When creating a manabond, you may add a single (manabond) talent that you possess to the effect.</p>\n<p>A manabond is a direct, invisible and intangible line of energy that connects you and your target, and remains active up to close range, beyond which the manabond breaks, and the effect ends. As long as you have a manabond with a creature, you may always pinpoint their exact location (although this does not negate any concealment they may have).</p>\n<p>When creating a manabond, you are considered the host of the manabond, with the targeted creature considered the recipient. A creature can only be the host of a single manabond, and cannot be the recipient of multiple manabonds at the same time. If a second manabond would be cast on a creature, the caster must attempt a magic skill check against the MSD of the currently active manabond on the target. If the caster succeeds, the other manabond is suppressed, causing it to remain active and ongoing as long as it is maintained, but having no effect on the recipient until the suppressing manabond has ended.</p>\n<p>If the caster fails, their manabond becomes suppressed, with the original manabond remaining active. Even when suppressed, a host may still pinpoint the location of the recipient.</p>\n<p>When you gain the Mana sphere, you gain the following (manabond) talent:</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "_id": "ACv5kSaGRfRCerDu"
+}

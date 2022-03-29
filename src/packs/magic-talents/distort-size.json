@@ -1,0 +1,135 @@
+{
+  "name": "Distort Size",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
+  "data": {
+    "description": {
+      "value": "<p>You distort the target&#8217;s spatial footprint, causing them to occupy a smaller or larger area. You may add or subtract 5 feet to the space they occupy (so an enlarged Medium creature would occupy a 10-foot cube instead of a 5-foot cube, and a shrunken Gargantuan creature would occupy a 15-foot cube instead of a 20-foot cube). You can alter the target&#8217;s space by an additional 5 feet for every 4 caster levels you possess. This does not change the target&#8217;s size category for any purpose such as reach, damage, or modifiers, though their reach does extend from the new space they occupy. If you would shrink the target&#8217;s space below a 5-foot cube, you instead halve their space for each 5 feet you would normally subtract, rounding down to the nearest half foot (a Medium creature shrunk by one step would occupy a 2-1/2-foot cube, or a 1-foot cube if shrunk by two steps) (minimum 1-foot cube).</p>\n<p>You may alter the target&#8217;s space anywhere from their normal size as a swift action each turn (or as part of a concentration action). When you use this ability on a target, you can also grant them control, allowing them to spend a swift action to change their space each turn following the same rules.</p>\n<p>This effect lasts for as long as you concentrate, but you may spend a spell point to maintain it for 1 minute per caster level without concentration.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Space"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "_id": "DUpbbBYu0IH8pJah"
+}

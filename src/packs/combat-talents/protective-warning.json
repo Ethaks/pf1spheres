@@ -1,0 +1,135 @@
+{
+  "name": "Protective Warning",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/warleader.webp",
+  "data": {
+    "description": {
+      "value": "<p>You can warn your allies to protect themselves better against an enemy&#8217;s specific attack. When you use this shout, choose one specific ability you know an enemy possesses (such as a dragon&#8217;s breath weapon, a practitioner ogre&#8217;s brutal strike (exertion), or a specific spell or magical sphere effect an enemy uses, but not all spellcasting). All allies in the radius of this shout gain a +2 competence bonus to saving throws against that specific ability, increasing by +1 for every 5 ranks in Diplomacy you possess. You may expend martial focus to use this shout as an immediate action, but the bonuses from this shout end after one round.</p>\n<p>You must know about the ability to warn against it, such as having succeeded a Knowledge check and learned about that ability, witnessing the ability from the enemy, or learning about the ability from another source (such as an ally informing you).</p>\n<p>For spherecasting effects, which can be highly mutable, the bonus from this shout applies to the base ability used rather than an exact combination of talents. For example, this shout can be used in reaction to a destructive blast, and would apply to an unmodified Destruction sphere&#8217;s destructive blast or a destructive blast modified by the Energy Strike or Chain Blast talents.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Shout"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warleader"
+    }
+  },
+  "_id": "ZW1qr16YyPjAj6jA"
+}

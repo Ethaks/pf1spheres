@@ -1,0 +1,135 @@
+{
+  "name": "Blink",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
+  "data": {
+    "description": {
+      "value": "<p>A creature affected by this ability interacts with physical objects erratically. You may choose to apply this effect as a benefit or penalty. As a benefit this grants the target an effect similar to concealment (20% miss chance + 5% per 3 caster levels, maximum 50%) against attacks against them. As a penalty, the target always attacks as if into concealment (suffering a 20% miss chance + 5% per 3 caster levels on all attacks, maximum 50%), but may attempt a Will save to negate the effect. Miss chance from either version is not applied to force effects or effects that pass between coterminous planes (such as attacks from weapons with the ghost touch special ability). Miss chance from this effect does not stack with miss chance from other blink effects, being incorporeal, or similar effects; only the highest applies. This effect lasts as long as you concentrate, though you may spend a spell point to sustain it for one minute per caster level without the need for concentration.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Space"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "_id": "i5QMSVxRgGFb2IdK"
+}

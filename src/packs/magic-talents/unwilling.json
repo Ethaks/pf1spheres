@@ -1,0 +1,135 @@
+{
+  "name": "Unwilling",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
+  "data": {
+    "description": {
+      "value": "<p>Your Conjuration sphere companion serves you unwillingly. Whenever you summon the companion, the first time you or it rolls for initiative during a combat encounter, or whenever you are engaged in an activity that requires a skill check and more then 1 round to accomplish (such as crafting items, recuperating, or researching rituals), it must attempt a Will saving throw against your Conjuration sphere DC. If the companion fails the Will save, you establish control over the companion.</p>\n<p>As long as you have control over your companion it obeys your commands and treats you as friendly for the purposes of the Handle Animal skill (if it possesses the bestial archetype). However if the companion succeeds on its Will save (you are not informed if it succeeds) the companion breaks free from your control and seeks revenge against you. A creature free from your control cannot be dismissed as a free action, and remains summoned for the remainder of its normal duration plus an additional minute per caster level.</p>\n<p>You may expend a spell point as a standard action to force the companion to attempt another Will save. If it fails the Will save, it is dismissed. The companion gains an additional Hit Die at 4th caster level and every 4 caster levels thereafter.</p>\n<p>A Conjuration sphere companion cannot possess both this archetype and the Puppet archetype.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "_id": "WaIqNqrLYsJChNGC"
+}

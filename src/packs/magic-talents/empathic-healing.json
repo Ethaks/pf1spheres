@@ -1,0 +1,135 @@
+{
+  "name": "Empathic Healing",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may restore others by taking on their injuries yourself. Doing so reduces the cost of the Life sphere effect by 1 spell point to a minimum of 0 spell points.</p>\n<p>When you restore a creature empathically, you gain any conditions you removed from the creature as if you had been the one originally affected. Likewise, you gain any attribute drain or damage, or any negative levels they had. You may not transfer conditions that would kill you or render you unconscious, or conditions that are the result of ongoing effects (such as being shaken within a totem of doom). You may select which conditions to transfer and which to leave untreated.</p>\n<p>If the effect causing the condition allowed a save, you do not get a new save, though any effects on you that would protect you from the condition still function for the duration you have them. If you already have that condition, any duration it may have adds to the duration of the condition you have, but otherwise you are unchanged.</p>\n<p>If you use this talent to restore multiple creatures, the durations of conditions removed stack if possible, but do not otherwise worsen.</p>\n<p>If you possess the Affliction talent, you may attempt to inflict others, rather than yourself, with a condition removed with the restore ability. You may use this ability in conjunction with restoring body or mind, but not soul. The target must be within range of your restore ability and you must succeed at a melee or ranged touch attack against them. Using Empathic Healing in this way increases the cost of restore by 1 spell point rather than reduces it. If successful, the creature targeted must succeed at a Fortitude save or they receive all the conditions you just restored, except for those they are immune to.</p>\n<p>If you miss the target of your touch attack or they succeed at their saving throw, the restored creature is still restored. If this is used in conjunction with Mass Healing, multiple enemies can be targeted, but each enemy can only receive conditions transferred from one ally and each ally must have all their conditions transferred to a single target.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "life"
+    }
+  },
+  "_id": "26Qr8I6cUcXI0KEO"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Mind Spy",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
+  "data": {
+    "description": {
+      "value": "<p>You can send a piece of your mind into your target to see the world through their eyes (save negates). The target gets a new Will save every time you use this ability, although consecutive rounds do not give additional saves. While this link to your target remains, you can choose to use this ability at any time before the link expires, or have its activation linked to a specific event that your target may experience. If a target fails their saving throw against this ability, they do not realize it is being used on them.</p>\n<p><strong>Lesser Charm:</strong> While the link remains active, you can use the target&#8217;s senses for 1 round per caster level and see and hear what they can. The rounds need not be consecutive. The link remains active for up to 1 hour per caster level from the time the target is first affected. Abilities that block or suppress possession or remove enchantments (such as the protection from evil spell or the Break Enchantment talent) will similarly block, suppress, or remove the effect of this charm on your target.</p>\n<p><strong>Greater Charm:</strong> As the lesser charm, but you can use their senses for 1 minute per caster level, and the link lasts for 1 day per caster level.</p>\n<p><strong>Powerful Charm:</strong> As the greater charm, but you can use their senses for 1 hour per caster level, and the link lasts for 1 week per caster level.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Charm"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "_id": "NLL5jZtxH9PfqXcR"
+}

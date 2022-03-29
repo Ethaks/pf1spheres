@@ -1,6 +1,12 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 import { onGetChangeFlat } from "../src/module/changes";
 import { PF1S } from "../src/module/config";
-import { SphereChangeTarget } from "../src/module/item-data";
+import type { CombatSphere, SphereChangeTarget } from "../src/module/item-data";
 
 describe("Test change target handling", () => {
   test("General Sphere CL", () => {
@@ -58,5 +64,19 @@ describe("Test change target handling", () => {
     const result = { keys: [] };
     onGetChangeFlat("cl" as SphereChangeTarget, "untyped", result);
     expect(result.keys.length).toBe(0);
+  });
+
+  test("Common BAB to Sphere BABs", () => {
+    const result = { keys: [] };
+    onGetChangeFlat("~spherebabBase", "untyped", result);
+    for (const sphere of Object.keys(PF1S.combatSpheres) as CombatSphere[]) {
+      expect(result.keys).toContain(`data.spheres.bab.${sphere}.total`);
+    }
+  });
+
+  test("Duelist BAB", () => {
+    const result = { keys: [] };
+    onGetChangeFlat("spherebabDuelist", "untyped", result);
+    expect(result.keys).toEqual(["data.spheres.bab.duelist.total"]);
   });
 });

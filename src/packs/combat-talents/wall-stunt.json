@@ -1,0 +1,135 @@
+{
+  "name": "Wall Stunt",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
+  "data": {
+    "description": {
+      "value": "<p>If you possess the (leap) package, when jumping or falling, you may make an Acrobatics check to jump as a swift action, provided there is a solid surface other than a ceiling (wall, floor, etc.) adjacent to you at that point. You may treat spaces occupied by creatures of your size or larger as containing such an object but your movement provokes attacks of opportunity as normal. Any fall damage that would be incurred is calculated after removing the height of the swift action jump.</p>\n<p>If you possess the (run) package, as long as there is a wall adjacent to you, you may run along the wall for all or part of your movement, including vertically. A square of vertical movement costs two squares of movement. You may treat spaces occupied by creatures of your size or larger as containing a wall, but your movement provokes attacks of opportunity as normal. Doing so bypasses any obstacle on the ground. You must end your movement on the ground as normal; if there is no ground present, you fall.</p>\n<p>If you also possess the (climb) package, you may attempt to cling to the wall at the end of your movement. If you possess the (leap) package, you may make Acrobatics checks to jump as part of this movement as normal. If you possess the Mobile Striker talent, you can kick off of a wall for the rest of your movement, gaining a +1 circumstance bonus to your damage roll if you make an attack while airborne. For every 5 ranks in Acrobatics you possess, this bonus increases by +1.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Leap Or Run"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "_id": "qIlj8bO9XCXGTJfY"
+}

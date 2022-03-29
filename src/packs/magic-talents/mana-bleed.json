@@ -1,0 +1,135 @@
+{
+  "name": "Mana Bleed",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
+  "data": {
+    "description": {
+      "value": "<p>As a swift action, you may force a creature under the effects of your blood control and taking bleed damage to lose 1 spell point. This loss increases by one die size (1d2, 1d3, 1d4, 1d6, etc.) for every five caster levels. Creatures that possess spell slots instead lose spell slots, based on the level of the slot. Each slot is equivalent to a number of spell points: level 1-2: 1 spell point, 3-5: 2 spell points, 6-8: 3 spell points, 9: 4 spell points. The target creature chooses which spell slots are lost. If affecting a creature with psionic manifesting (see Psionics Unleashed by Dreamscarred Press), the creature loses a number of power points equal to the number of spell points that would have been lost multiplied by 1 + its Hit Dice/4.</p>\n<p>If you possess Absorb Blood, you may choose to grant an equal number of temporary spell points to a creature receiving healing from Absorb Blood, though they cannot receive more spell points than your target loses. These temporary spell points do not stack with spell points from other targets, other instances of this ability, or any other source and expire after one round per caster level. This ability does not grant a way to use spell points to those that lack one.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "_id": "ZgWEoqpjAYt7BiDT"
+}

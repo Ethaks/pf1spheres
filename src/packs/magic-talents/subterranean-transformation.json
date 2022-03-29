@@ -1,0 +1,135 @@
+{
+  "name": "Subterranean Transformation",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may grant the form of a subterranean animal or magical beast with your shapeshift.<br>\n<strong>Limbs:</strong> 1 head, 4 legs<br>\n<strong>Speech:</strong> No; <strong>Hands:</strong> No<br>\n<strong>Speed:</strong> 30 ft. land speed, 15 ft. burrow speed + 15 ft. per 5 caster levels<br>\n<strong>Natural weapons:</strong> bite (primary, 1d6 Medium, 1d4 Small)<br>\n<strong>AC:</strong> +2 natural armor bonus, +1 per 5 caster level<br>\n<strong>Special:</strong> Darkvision 60 ft., tremorsense 20 ft.</p>\n<p>Subterranean Transformation offers the following traits, which you may apply to any form:</p>\n<ul>\n<li>A burrow speed as granted by the Subterranean form.</li>\n<li>Tremorsense 20 feet.</li>\n<li><strong>Armor Shredder:</strong> Choose one natural attack the target possesses when granting this trait. Whenever the target hits an opponent with the chosen natural attack, the target may attempt a free sunder combat maneuver attempt against one object worn or held by the opponent (e.g. armor, shield, belt) using the original attack roll as their combat maneuver check (Reflex negates; DC equal to the caster&#8217;s Alteration sphere DC). The target does not provoke an attack of opportunity for a sunder combat maneuver attempted this way. If you spend an additional spell point when granting this trait, the target&#8217;s chosen natural attack ignores an amount of hardness equal to your caster level when dealing damage to objects. (Requires a natural attack) [SA:EAO]</li>\n<li><strong>Burrowing Charge:</strong> The target can perform a special charge attack by burrowing. When the target charges, they may burrow as part of the charge, resurfacing at the end of their charge in any space which the target can attack the opponent. This allows the target to charge where they might otherwise be obstructed by terrain, and allows the target to end their charge in a further square than the closest square they would otherwise be required to move to. The target must still have a clear path and line of sight to the opponent to charge. When the target resurfaces as part of this special charge attack, they may choose to violently unsettle the ground as they surface before attacking. Creatures adjacent to the target fall prone (Reflex negates; DC equal to the caster&#8217;s Alteration sphere DC). (Requires a burrow speed) [SA:EAO]</li>\n<li><strong>Tunneling:</strong> When traveling using its burrow speed, the target can choose to leave a tunnel that is equal to the target&#8217;s size (for example, a Large creature will leave a 10-foot tall by 10-foot wide tunnel). The tunnel lasts for one minute before collapsing. (Requires a burrow speed) [SA:EAO]</li>\n</ul>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Transformation"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "_id": "hCwtfHf9XGu9wFpZ"
+}

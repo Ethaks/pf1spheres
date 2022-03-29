@@ -1,0 +1,135 @@
+{
+  "name": "Feast And Famine",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may activate the following abilities as fey-blessings:</p>\n<p><strong>Putrid Vomit:</strong> You can spew vomit up to 30 feet as a standard action. Treat this as a ranged touch attack with no range increment. A creature struck by this attack must succeed on a Fortitude save or be for sickened for 1d4 rounds. If you spend a spell point as part of making the attack, the creature is instead nauseated for 1d4 rounds on a failed save and sickened for 1 round on a successful save.</p>\n<p><strong>Spoilage:</strong> This fey-blessing has no duration and is considered an instantaneous effect. You may cause an amount of food sufficient to feed 1 Medium creature per caster level to spoil. This does not remove other changes made to the food, such as adding poison or magical effects unless you spend a spell point and succeed on a magic skill check against the poison or effect&#8217;s DC.</p>\n<p><strong>Unspoil:</strong> This fey-blessing has no duration and is considered an instantaneous effect. You may cause an amount of spoiled food sufficient to feed 1 Medium creature per caster level to return to a palatable state. This does not remove other changes made to the food, such as adding poison or magical effects unless you spend a spell point and succeed on a magic skill check against the poison or effect&#8217;s DC. Restoring the food does not prevent future spoilage.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Fey-Blessing"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallen fey"
+    }
+  },
+  "_id": "x00R8mlneXABPDeX"
+}

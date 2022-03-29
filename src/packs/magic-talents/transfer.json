@@ -1,0 +1,135 @@
+{
+  "name": "Transfer",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": "<p>Rather than manipulating magic, you can instead bestow your magical fuel to a creature other than yourself. You grant your target 2 temporary spell points. At 5th caster level, and every five caster levels thereafter, the amount of temporary spell points granted increases by 1. After the casting of any sphere effect that costs at least 1 spell point, all temporary spell points granted by this ability are removed, even if the sphere effect did not utilize all of them. Using this talent requires 1 spell point, and unwilling creatures may make a Will save to resist being granted spell points.</p>\n<p>Alternatively, you may grant your target a normal spell point, rather than a temporary one, but the amount you transfer never increases.</p>\n<p>You may grant spell points to creatures that otherwise do not have a method of holding spell points by temporarily granting them access to a spell pool for as long any spell points granted to them last (if they are not temporary, they expire after 24 hours).</p>\n<p><strong>Note:</strong> Occasionally, a setting might have different sources of magic that are mutually incompatible, or a GM might wish to seperate how magic can be transferred across characters. In games like this, the GM may be encouraged to add restrictions to how the Transfer and Flow talents can be used. For example, they might rule that an arcane caster cannot grant spell points to a divine caster, or that spherecasters of a specific tradition cannot grant spell points to any other tradition. GMs are encouraged to examine how magic works in their games and arbitrate what, if any, limits on transferring magic might exist.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Manipulation"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "_id": "5nyXeEM6pA27K43w"
+}

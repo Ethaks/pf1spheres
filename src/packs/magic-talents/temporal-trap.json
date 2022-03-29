@@ -1,0 +1,135 @@
+{
+  "name": "Temporal Trap",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/time.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may spend a spell point to place an alter time effect onto an adjacent, unoccupied 5-foot square in addition to the normal costs of that effect. Any creature who steps onto the square activates the alter time effect; if it is normally a targeted ability, the creature is immediately affected by that ability, though they are allowed a saving throw as normal, if appropriate.</p>\n<p>If the alter time effect normally creates an area effect, the square itself is used as the center of that effect (even if it would normally be centered on the caster) and all creatures within the area are immediately affected by the ability, attempting saves as normal if appropriate. Any alter time effect with a duration longer than instantaneous lasts for 1 round per caster level, regardless of its normal duration, though you may dismiss it on your turn as a free action.</p>\n<p>You may only have 1 active temporal trap at a time; placing a second trap deactivates the first. Temporal traps may be made permanent with the permanency spell or ritual; permanent temporal traps do not count against your total number of active traps and automatically reset after their duration expires.</p>\n<p>When used with an ability that includes a variable cost, such as the Time Clone advanced talent, the cost must be paid up front; if the cost is insufficient to affect the creature that triggers this effect, the trap is not activated. If the variable cost is greater than required to affect the triggering creature, the excess spell points are wasted but the trap and effect otherwise occur as normal.</p>\n<p>You may select this talent multiple times, increasing the number of temporal traps you may have active at once by 1 each time you do so.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "time"
+    }
+  },
+  "_id": "wZhsyobk3WthzOhd"
+}

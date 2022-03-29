@@ -1,0 +1,135 @@
+{
+  "name": "Delay Pain",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/time.webp",
+  "data": {
+    "description": {
+      "value": "<p>As an immediate action, when an ally or object with your natural reach (or within Time sphere range, if you possess the Ranged Time talent) would take damage or be subject to any effect, you may spend a spell point to delay the onset of that damage and/or effect until the end of the creature&#8217;s next turn (for creatures and attended objects) or the caster&#8217;s next turn (for unattended objects). The delayed damage and/or effect is incurred at this time, though it is subject to any changes to immunity, resistances, etc. A given effect or instance of damage cannot be delayed more than once. Unwilling creatures and objects attended by unwilling creatures require a successful touch attack and are allowed a Will save to negate this delay.</p>\n<p>If you spend an additional spell point as part of using this ability, you may partially delay ability damage, ability drain, and hit point damage further, causing the creature to receive half (round up) of the damage or drain at the end of its next turn and the remainder at the end of the following turn.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Time"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "time"
+    }
+  },
+  "_id": "cQhGJFbUR5GJTDPC"
+}

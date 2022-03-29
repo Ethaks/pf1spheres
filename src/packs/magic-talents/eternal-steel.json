@@ -1,0 +1,135 @@
+{
+  "name": "Eternal Steel",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Nature sphere ((metal) package, (plant) package, Living Steel (advanced)), caster level 8th.</p>\n<p>As a standard action, you may spend 3 spell points to permanently grant one metal creature or metal object regeneration 1 (acid). The amount of regeneration increases by +1 per 10 caster levels. Damage caused by magical rust or oxidation count as acid damage for the purpose of suppressing this regeneration. Targets that lack a Constitution score (such as most metal constructs) still gain the regeneration from Eternal Steel, but instead of falling unconscious when their hit points are reduced to 0, they become helpless (or broken in the case of objects) until they recover enough hit points to put their hit point total back up above 0; If such targets have their regeneration suppressed while at 0 or less total hit points, they are destroyed.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Metal And Plant"], ["Geomancing"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "_id": "Kmm3a1YwGPIZ0wfA"
+}

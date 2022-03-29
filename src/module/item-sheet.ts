@@ -1,5 +1,10 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 import { PF1S } from "./config";
-import { ItemPF, PF1ItemData } from "./item-data";
 
 /**
  * Hooks into the rendering of the Item sheet, adding input fields for data
@@ -11,12 +16,12 @@ import { ItemPF, PF1ItemData } from "./item-data";
  * @param  data - The sheet's data object
  */
 export const onItemSheetRender = async (
-  app: BaseEntitySheet,
+  app: ItemSheet,
   html: JQuery<HTMLElement>,
-  data: BaseEntitySheet.Data
+  data: ItemSheet.Data
 ): Promise<void> => {
-  const item = app.object as ItemPF;
-  const itemData = item.data as PF1ItemData;
+  const item = app.item;
+  const itemData = item.data;
 
   const sphereData: PF1SItemSheetData = {
     pf1sconfig: PF1S,

@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 /**
  * Preloads the module's templates, making them available as partial and speeding
  * up future renderings.

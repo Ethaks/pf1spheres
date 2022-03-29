@@ -1,0 +1,131 @@
+{
+  "name": "The Crimson Reaper",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "data": {
+    "description": {
+      "value": "<p><strong>Initiation:</strong> The crimson reaper increases the damage her burst ability deals by 1d8, plus an additional 1d8 at 6th level and every 3 levels thereafter.</p>\n<p><strong>Understanding:</strong> When the crimson reaper kills a creature with her burst ability, she may immediately spend an immediate action and 2 points of vitae to cause the blood to rush towards another creature within her line of sight. That creature must succeed at a Fortitude save against her burst ability, or suffer the same amount of damage the first creature was dealt, as well as inflicting an amount of bloodletting bleed equal to the amount of bleed damage the original creature was suffering from before their death. This ability counts as if using the burst ability on a creature.</p>\n<p><strong>Revelation:</strong> When the crimson reaper successfully uses the burst ability on a creature, she may also mark them for one minute as an immediate action. Marked creatures are treated as if they were suffering from the maximum amount of bloodletting bleed the crimson reaper can apply when determining the effects of any crimson dancer class feature, and are exsanguinated. This ability allows the crimson reaper to use another burst on marked creatures even if they are not actually bleeding. The crimson reaper may only have one creature marked at any given time, and may not mark another creature if they already have an active mark. Marks can only be removed by causing a marked creature to fall unconscious or by slaying them.</p>\n<p><strong>Secret of Blood:</strong> Absorbed by their focus, the crimson reaper stops at nothing to kill their prey. When the crimson reaper has a creature marked, she gains DR 5/- against all attacks made by creatures that are not marked. If she takes a move action to move in a way that would place her adjacent to a marked creature, she does not need to attempt Acrobatics checks to move through the squares of other creatures, and may spend 2 points of vitae when moving through another creature&#8217;s square to perform an overrun maneuver on them as a free action.</p>\n<p><strong>Secret of Heart:</strong> The crimson reaper absorbs those she marks for death. When a marked creature with Hit Dice equal to half the crimson reaper&#8217;s level or more dies to her burst or decimation features, she may steal a part of their body as a free action. For each ability score the creature had that was higher than the crimson reaper's, she gains a +2 alchemical bonus to that ability score. For each movement speed that creature possessed that was higher than the crimson reapers, she gains a +10-foot bonus to that movement speed if she also possesses it.</p>\n<p>These bonuses cannot increase the crimson reaper&#8217;s speeds or ability scores higher than the base creature&#8217;s, and can stack up to 3 times. At 19th level, these bonuses can stack up to 4 times, to a maximum of +8 to each ability score, or +40 feet to each movement speed. These bonuses remain for 24 hours.</p>\n<p><strong>Secret of Soul:</strong> The crimson reaper&#8217;s soul is unleashed as she pulverizes her foes. When the crimson reaper attempts a decimation attack against a marked creature, she does not need to expend her martial focus. If a marked creature survives a decimation attack, the crimson reaper can expend all of her vitae to attempt a crimson decapitation as an immediate action. The creature must succeed at a saving throw against the crimson reaper&#8217;s burst ability or otherwise suffer damage as normal. For every 6 points of vitae spent as part of the crimson decapitation, the creature suffers additional damage as if she failed a save against the burst ability. Damage dealt with a crimson decapitation is additional damage dealt by the decimation attack.</p>\n<p><strong>Realization:</strong> The crimson reaper&#8217;s fury sparks aflame when she kills her quarry. Once per day, when a marked target dies due to the crimson reaper&#8217;s decimation attack, she may spend an immediate action and 4 points of vitae to immediately cause any number of creatures within line of sight to suffer from her burst, and become marked. For one minute after using this ability, she has no limit on the number of creatures she may have marked at the same time. After this time, all creatures she has currently marked lose their marks.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "classFeat",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "0gIvr1HPwlKgTWBy"
+}

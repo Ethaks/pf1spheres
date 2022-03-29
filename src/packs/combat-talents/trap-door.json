@@ -1,0 +1,135 @@
+{
+  "name": "Trap Door",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
+  "data": {
+    "description": {
+      "value": "<p>You can create a hidden trap door instead of a (dart) or (snare) trap. This door can be placed horizontally or vertically with a maximum area of 10 by 10 feet. This increases to 15 by 15 feet at 5 ranks in Craft (traps) and by an additional 5 feet for every 5 ranks thereafter.</p>\n<p>This door depends on its surroundings and cannot be created freestanding. It is between 1 and 3 inches thick (chosen at the time of creation), with the AC and hardness of a normal trap you can create but possesses double the hit points. The door can be plainly visible or disguised within its environment requiring a Perception check to spot (with the DC of a normal trap). The door can be forced open with a Strength check opposed by your Craft (traps) DC +5.</p>\n<p>The door is strong enough to support a large object or creature and increases the maximum size category it can support by 1 for every 3 ranks in Craft (trap) you possess. Objects made of stone or heavier substances count as one size category heavier, while soft objects such as cloth count as one size category lighter.</p>\n<p>In addition when you create the door you can give it any of the traits from the list below. Unless otherwise stated a trait can be deactivated or reactivated as a standard action by you, or it can be disabled as if a Trap sphere trap by others.</p>\n<ul>\n<li><strong>Lock:</strong> The door can be locked or unlocked by you as an immediate action. It can also be set to lock automatically after being closed.</li>\n<li><strong>One Way:</strong> The door only allows one way movement. Going through it the other way requires forcing it open and cannot be deactivated or disabled.</li>\n<li><strong>Reset:</strong> The door closes automatically after being moved through.</li>\n<li><strong>Trigger:</strong> You can set the door to trigger an adjacent Trap sphere trap you created if opened (or closed).</li>\n<li><strong>Triggered:</strong> The door can be set to open automatically depending on the size of the creature leaning or stepping on it (this can be finetuned to any range of specific size categories). Alternatively it can be set to open if a Trap sphere trap you created within close range is triggered.</li>\n</ul>\n<p>A trap door requires 1 minute to craft and lasts for 1 hour. If you possess the Persistent Trap talent its crafting period can be increased to 10 minutes to last for 24 hours (and does not count towards the limit of the amount of traps you can have with the Persistent Trap talent).</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "_id": "tgZxJR4TYiShDf38"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Hostile Glamers",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/illusion.webp",
+  "data": {
+    "description": {
+      "value": "<p>You can create glamers that affect the wearer. Targets of a Hostile Glamer may attempt a saving throw to disbelieve in addition to the saving throw granted to resist the glamer being applied to them, and are considered to be &#8216;interacting&#8217; with the glamer every round as if it were a figment. For example, if you created an Illusionary Disguise of someone turning into an animal, that person might believe in their own transformation unless they, like others, made their Will save to disbelieve.</p>\n<p><strong>Hostile Blur:</strong> If you possess the Blur talent, the miss chance only affects attacks the target would make.</p>\n<p><strong>Hostile Glamer:</strong> You may apply a glamer to a target that impedes it.</p>\n<p>If you may create visual or audible illusions, you may create a glamer that blinds and/or deafens the target respectively (for example, by putting their head in a box).</p>\n<p>If you possess Illusionary Touch, you may make a glamer that entangles the target (for example, by creating illusionary ropes to tie them up).</p>\n<p>If you possess Illusionary Touch x2, you may create an illusion that hurts them (for example, an illusion of them on fire).</p>\n<p>Each of these options count as their own unique hostile glamer.</p>\n<p><strong>Hostile Decoy:</strong> If you possess the Decoy talent, you may create hostile decoys as a trick or glamer; these function the same as a defensive decoy, except instead of granting a miss chance to attacks against the creature, they grant a miss chance to the creature itself. Any attack it makes has a 50% to strike one of the hostile decoys instead of the intended target. The wearer may intentionally strike a hostile decoy, but anyone other than the wearer attempting to target an hostile decoy has a 50% chance to instead hit the wearer.</p>\n<p><strong>Hostile Masque:</strong> If you possess the Masques talent, you may create a Masque glamer that grant a penalty instead of a bonus to the selected skills.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Glamer"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "illusion"
+    }
+  },
+  "_id": "t6oBNkvgW0ZGTong"
+}

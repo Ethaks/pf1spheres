@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+//
+// SPDX-License-Identifier: EUPL-1.2
+
 module.exports = {
   parser: "@typescript-eslint/parser",
 
@@ -20,6 +24,7 @@ module.exports = {
 
   rules: {
     "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    "@typescript-eslint/consistent-type-imports": ["error", { prefer: "type-imports" }],
     "@typescript-eslint/ban-ts-comment": [
       "error",
       {

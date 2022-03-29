@@ -1,0 +1,135 @@
+{
+  "name": "Improved Alchemist Fire",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Craft DC:</strong> 20</p>\n<p>You create a flask of alchemist&#8217;s fire that functions as a splash weapon you can use as a ranged touch attack with a range increment of 10 ft., dealing 1d6 fire damage +1d6 per two Craft (alchemy) ranks you possess to the target of a direct hit, half that damage to targets 5 ft. away from the point of contact, and 1 point of fire splash damage per die of damage this weapon deals on a direct hit to targets 10 ft. away from the point of contact (to a maximum of half the damage dealt to the primary target). All targets closer than the furthest splash damage ring catch fire and suffer an additional 1d6 points of fire damage again on each subsequent round. Affected targets can use a full-round action to attempt to extinguish the flames before taking this additional damage with a successful Reflex save; rolling on the ground provides the target a +2 bonus on the save. Leaping into a large body of water or magically extinguishing the flames automatically smothers the fire.</p>\n<p>You can increase the Craft DC for this weapon in increments of 10; each time you do so, the range for each damage increment increases by 5 ft. (for example, if you increase the Craft DC to 30, you would deal full damage to all targets within 5 ft. of the point of contact, half damage to all targets 10 ft. away from the point of contact, and 1 point of damage to all creatures within 15 ft.).</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Formulae"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "_id": "aHVEOkva4gDKiSnz"
+}

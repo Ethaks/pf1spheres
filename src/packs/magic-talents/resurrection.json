@@ -1,0 +1,135 @@
+{
+  "name": "Resurrection",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Life sphere (Resuscitate), caster level 10th.</p>\n<p>You may spend 3 spell points and 1 minute to bring a dead target back to life. A target cannot have been dead for more than 1 day per caster level, the creature&#8217;s body must be reasonably intact (i.e., it cannot be missing a vital component such as its head or heart), and the target&#8217;s soul must be willing to return (an unwilling target cannot be forcibly resurrected). The target is restored to full health and any ability scores drained or damaged to 0 are raised to 1, but otherwise, any conditions the target was under when it died return when it is raised (disease, poison, curses, etc.). A restore can be applied simultaneously with the resurrection to counteract these conditions.</p>\n<p>Missing body parts are not restored, although the wounds are sealed and do not bleed. The target also gains two permanent negative levels when it is raised or suffers 2 points of Constitution drain for every negative level it would be reduced below 1st level. If this would reduce the target&#8217;s Constitution to 0 or less, it cannot be raised. You cannot raise a target that has died of old age.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "life"
+    }
+  },
+  "_id": "2tHAZ2JO3e4GW3wp"
+}

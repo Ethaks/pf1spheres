@@ -1,0 +1,135 @@
+{
+  "name": "Fusion",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Alteration sphere (Mass Alteration), caster level 5th.</p>\n<p>You may spend a spell point to target two creatures adjacent to each other with your shapeshift and merge them together into one amalgamated body. When doing so, choose one of the creatures to be the primary creature and one to be the secondary creature. Fusion counts as a shapeshift on the secondary creature which occupies the same space as the primary creature, but a different shapeshift can be applied to the primary creature as normal. You may choose to apply a different shapeshift to the primary creature with the same action as applying the fusion, which share concentration and duration. An amalgamated body can only have one creature merged into it at a time. The new amalgamated body possesses current and maximum hit points equal to those of both creatures combined.</p>\n<p>The amalgamated body possesses the extraordinary and supernatural abilities, physical statistics, Fortitude and Reflex saves, initiative, and base attack bonus of the primary creature. The physical ability modifiers of the secondary creature are gained as bonuses to the primary creature&#8217;s physical ability scores (minimum 0, increases to Constitution do not increase hit points as those have already been merged together).</p>\n<p>At the caster&#8217;s discretion, the shapeshift applied to the primary creature may be a Blank Transformation, granting it the limbs beyond what the primary creature already possesses as well as the natural attacks and special abilities of the secondary creature in place of other traits.</p>\n<p>Unless also applying a (transformation) talent to the primary creature to merges its equipment, the amalgamated body gains the equipment of both creatures, but may only wear and benefit from one item per magic item slot as usual, and if both creatures were using an item that requires a slot (for example, both wearing armor), only one of those pieces of equipment can be used, with redundant equipment being merged into the amalgamated body.</p>\n<p>Both of the base creature&#8217;s minds remain independent, retaining mental ability scores and Will saves and are capable of taking purely mental actions, but they act on the same initiative.</p>\n<p>While weapon and armor proficiencies are shared between the two minds, only one mind can control the amalgamated body at a time, and only the feats, skills, and talents of that mind can be accessed. At the start of their turn, if the base creatures do not agree which is to be in control, they may make opposed Will saves to take control of the body that round, but the body is staggered and takes a -4 penalty to Reflex saves and AC from the confusion. Mindless creatures are unable to contest the control of an intelligent creature but two mindless creatures will always contest each other&#8217;s control when fused. Effects that allow a Will save target the mind currently controlling the body. Ongoing magical effects on the base creatures overlap.</p>\n<p>Should this ability fail to affect either target (whether by successful save, spell resistance, or other cause), the effect fails. If the amalgamated creature is killed, the effect ends and both creatures die. The appearance of the merged body is mostly determined by the dominant body, but at the caster&#8217;s discretion its cosmetic appearance may include aspects of the merged creature.</p>\n<p>If either target creature is suffering the effects of a disease, poison, or ongoing spell effect, the amalgamated body immediately receives a new save at a +4 bonus unless both creatures are under the same effect. If the dominant body possesses immunity to such an effect, the effect is suspended until the fusion ends, though its duration is expended as normal. Ability damage, drain, or penalty to the physical statistics of the dominant body are retained, but those to mental ability scores continue to affect each creature individually.</p>\n<p>When this effect ends, any hit point damage, ability damage, ability drain, or other such penalty incurred is split evenly between the two creatures (round up). If this damage would be sufficient to reduce either creature to death, that creature is instead reduced to 1 hit point above its death threshold and is stable, with the excess damage transferred to the other creature.</p>\n<p>If the transferred damage would kill that creature, then both creatures are reduced to 1 hit point above their death threshold and are stable. If it would reduce any ability score below 0, or 1 in the case of Constitution, or if the creature does not have that ability score (such as undead and constructs lacking a Constitution score), any excess is transferred to the other creature, to a minimum of 0, or 1 in the case of Constitution.</p>\n<p>Any spell effects, poisons, diseases, or other effects that affected the amalgamated creature continue to affect both creatures, but durations are halved and any subsequent saves are made at a +4 bonus. If the space available at the end of this effect cannot accommodate both creatures, they may make opposed Will saves. The loser is shunted to the nearest empty space, taking 1d6 damage per 10 feet of solid material it passes through.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "_id": "MWUIMldIMHmZ3Ouj"
+}

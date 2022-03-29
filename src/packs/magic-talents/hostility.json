@@ -1,0 +1,135 @@
+{
+  "name": "Hostility",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
+  "data": {
+    "description": {
+      "value": "<p>You cause the target to enter a blinding rage.</p>\n<p><strong>Lesser Charm:</strong> You compel the target to attack the nearest creature on it next turn (Will negates). The target moves until this creature is within range and makes at least one attack with a weapon, natural attack, or unarmed strike. If no such creature can be reached, the target instead deals damage to itself equal to 1d8 + its Strength modifier with whatever it has in hand.</p>\n<p><strong>Greater Charm:</strong> The target enters a rage for 1 round per caster level (Will negates if unwilling). The target gains a +2 morale bonus to Strength and Constitution, a +1 bonus to Will saves, and a -2 penalty to AC. In addition, the target cannot use any spells, nor any skills or class features based off of Intelligence, Wisdom, or Charisma. This counts as a barbarian&#8217;s rage, except the target is not fatigued at the end.</p>\n<p><strong>Powerful Charm:</strong> Same as the greater charm, but you may grant one of the following packages to the target as well:</p>\n<ul>\n<li><strong>Heroic Rage:</strong> The target&#8217;s bonus to Strength and Constitution increases to +4, and their bonus to Will saves increases to +2. The target may still use spells, as well as class features and skills based off of Intelligence, Wisdom, or Charisma.</li>\n<li><strong>Brutal Rage:</strong> The target is compelled to hostility and each round attacks the nearest target to itself, be it friend or foe. If the creature cannot attack something during its turn, it deals 1d8 + its Strength modifier damage to itself with whatever it has in hand.</li>\n</ul>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Charm"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "_id": "AkTBWVyFAd4TseIe"
+}

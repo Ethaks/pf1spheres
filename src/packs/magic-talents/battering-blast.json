@@ -1,0 +1,135 @@
+{
+  "name": "Battering Blast",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
+  "data": {
+    "description": {
+      "value": "<p>Your destructive blast becomes a hail of smooth stones, dealing bludgeoning damage and using d4 instead of d6 as its damage die. You may make a bull rush as a free action at range against the target or targets struck by the attack or that failed their Reflex saving throw if one was required. Your CMB for this check is equal to your caster level + your casting ability modifier, and all targets are pushed from the point of origin of the effect. (This is usually yourself, but if using a talent such as Explosive Orb, it would be the center of the blast. If using Energy Wall, each square of wall is considered the center of effect for those who enter that section. If using Guided Strike, you may choose from which direction you want to push the target, even pushing them up or down if you should desire. Pushing a target into the ground knocks them prone if the bull rush is successful.)</p>\n<p>If the target is knocked into a solid object, they suffer 1d6 bludgeoning damage, + 1d6 for every 5 feet they would have continued past the barrier. You do not move with the targets of your bull rush.</p>\n<p>This blast ignores spell resistance, spell turning, and can penetrate a globe of invulnerability, antimagic field, or other forms of antimagic, and is not treated as a spell or magical for the purpose of bypassing damage reduction, damaging incorporeal creatures, or for creatures or classes that gain a bonus to saving throws against magic.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Blast Type"], ["Stone"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "_id": "qYeWzOQ1ms2yKpNN"
+}

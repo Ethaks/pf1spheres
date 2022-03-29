@@ -1,0 +1,135 @@
+{
+  "name": "Martyr’s Tithings",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
+  "data": {
+    "description": {
+      "value": "<p>Whenever you cause another creature to suffer blood loss, you gain an amount of temporary hit points equal to the blood loss for a number of rounds equal to your casting ability modifier. Whenever you would take blood loss damage, these temporary hit points are lost first.</p>\n<p>In addition, you may infuse another creature with a portion of your vitality. As a standard action, you suffer blood loss and grant another creature within range temporary hit points equal to twice the blood loss plus your casting ability modifier. These temporary hit points last for 1 minute per caster level. If you spend an additional spell point when casting this effect, the target is also healed for an amount of damage equal to the number of temporary hit points they receive.</p>\n<p><strong>Special:</strong> If you possess a Life sphere (vitality) talent, granting temporary hit points to another creature with this talent is treated as though it were a Life sphere effect for the purposes of granting the benefits of a (vitality) talent.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Blood Art"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "_id": "i68fAZMT9XezswYM"
+}

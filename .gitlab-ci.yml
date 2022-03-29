@@ -1,72 +1,124 @@
+# SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+# SPDX-FileCopyrightText: 2021 Johannes Loher
+# SPDX-FileCopyrightText: 2021 Oliver Rümpelein
+
+#
+# SPDX-License-Identifier: MIT
+
 image: node
 
-stages:
-  - lint
-  - build
-  - release
+variables:
+  PACKAGE_NAME: pf1spheres
+  PACKAGE_TYPE: module
+  PACKAGE_REGISTRY_URL: $CI_API_V4_URL/projects/$CI_PROJECT_ID/packages/generic/$PACKAGE_NAME
 
-cache:
+stages:
+  - check
+  - build
+  - prepare-release
+  - release
+  - publish
+
+cache: &global_cache
   paths:
-    - node_modules/
+    - .npm
 
 lint:
-  stage: lint
-  rules:
-    - if: "$CI_COMMIT_BRANCH"
-    - if: "$CI_COMMIT_TAG"
-      when: never
+  stage: check
+  before_script:
+    - npm ci --cache .npm --prefer-offline
   script:
-    - npm i
     - npm run lint
-    - npm run test
-    - npm run test:compile
-    - npx prettier --check .
+  cache:
+    <<: *global_cache
+
+typecheck:
+  stage: check
+  before_script:
+    - npm ci --cache .npm --prefer-offline
+  script:
+    - npm run typecheck
+  cache:
+    <<: *global_cache
+
+test:
+  stage: check
+  before_script:
+    - npm ci --cache .npm --prefer-offline
+  script:
+    - npm run test:ci
+  cache:
+    <<: *global_cache
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
+  artifacts:
+    when: always
+    reports:
+      cobertura: coverage/cobertura-coverage.xml
+      junit: junit.xml
+
+licensecheck:
+  stage: check
+  image:
+    name: fsfe/reuse:latest
+    entrypoint: [""]
+  script:
+    - reuse lint
 
 build:
   stage: build
   before_script:
-    - "command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )"
-    - eval $(ssh-agent -s)
-    - echo "$PF1_DEPLOY_KEY" | tr -d '\r' | ssh-add -
-    - mkdir -p ~/.ssh
-    - chmod 700 ~/.ssh
-    - gitlab_hostname=$(echo "${CI_REPOSITORY_URL}" | sed -e 's|https\?://gitlab-ci-token:.*@||g' | sed -e 's|/.*||g')
-    - ssh-keyscan "${gitlab_hostname}" >> ~/.ssh/known_hosts
-    - chmod 644 ~/.ssh/known_hosts
-  script:
-    - apt-get update
-    - apt-get install zip
-    - npm i
-    - npm run build
-    - mv dist pf1spheres
-    - zip -q pf1spheres.zip -r pf1spheres
-    - cp pf1spheres/module.json .
-    - node getChangelog.js
-    - |
-      curl --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file pf1spheres.zip ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/pf1srelease/${CI_COMMIT_TAG}/pf1spheres.zip
-    - |
-      curl --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file module.json ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/pf1srelease/${CI_COMMIT_TAG}/module.json
-    - url_host=$(echo "${CI_REPOSITORY_URL}" | sed -e 's|https\?://gitlab-ci-token:.*@|ssh://git@|g')
-    - echo $url_host
-    - git remote set-url origin "${url_host}"
-    - git config user.name $GITLAB_USER_LOGIN
-    - git config user.email $GITLAB_USER_EMAIL
-    - git tag -f latest
-    - git push origin latest -f
+    - npm ci --cache .npm --prefer-offline
+    - apt --yes update
+    - apt --yes install jq
+  script: |
+    jq '.version = $version | .url = $url | .manifest = $manifest | .download = $download' \
+    --arg version "${CI_COMMIT_TAG:1}" \
+    --arg url "$CI_PROJECT_URL" \
+    --arg manifest "$CI_PROJECT_URL/-/releases/permalink/latest/downloads/$PACKAGE_TYPE.json" \
+    --arg download "$CI_PROJECT_URL/-/releases/$CI_COMMIT_TAG/downloads/$PACKAGE_NAME.zip" \
+    src/$PACKAGE_TYPE.json > src/tmp.$$.json
+    mv src/tmp.$$.json src/$PACKAGE_TYPE.json
+    npm run build
+  cache:
+    <<: *global_cache
   artifacts:
     paths:
-      - pf1spheres.zip
-      - module.json
-      - recent-changes.md
+      - dist
+    expire_in: 1 week
+
+publish_artifacts:
+  stage: prepare-release
+  image: alpine:latest
+  before_script:
+    - apk update
+    - apk add zip curl
+  script: |
+    cd dist
+    zip -r ../$PACKAGE_NAME.zip .
+    cd ..
+    curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file $PACKAGE_NAME.zip "$PACKAGE_REGISTRY_URL/$CI_COMMIT_TAG/$PACKAGE_NAME.zip"
+    curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file dist/$PACKAGE_TYPE.json "$PACKAGE_REGISTRY_URL/$CI_COMMIT_TAG/$PACKAGE_TYPE.json"
   rules:
-    - if: '$CI_COMMIT_TAG && $CI_COMMIT_TAG !~ "latest"'
+    - if: '$CI_COMMIT_TAG =~ /^v[0-9]+\.[0-9]+\.[0-9]+$/'
 
 release:
   stage: release
   image: registry.gitlab.com/gitlab-org/release-cli:latest
-  rules:
-    - if: '$CI_COMMIT_TAG && $CI_COMMIT_TAG !~ "latest"'
   script:
-    - |
-      release-cli create --name "Release $CI_COMMIT_TAG" --description "$(cat recent-changes.md)" --tag-name $CI_COMMIT_TAG \
-                                                                                   --assets-link "{\"name\":\"pf1spheres.zip\",\"url\":\"${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/pf1release/${CI_COMMIT_TAG}/pf1spheres.zip\"}" \
+    - echo 'release job'
+  rules:
+    - if: '$CI_COMMIT_TAG =~ /^v[0-9]+\.[0-9]+\.[0-9]+$/'
+  release:
+    name: ${CI_COMMIT_TAG:1}
+    tag_name: $CI_COMMIT_TAG
+    description: "**Manifest URL:** $CI_PROJECT_URL/-/releases/$CI_COMMIT_TAG/downloads/$PACKAGE_TYPE.json"
+    assets:
+      links:
+        - name: "$PACKAGE_NAME.zip"
+          url: "$PACKAGE_REGISTRY_URL/$CI_COMMIT_TAG/$PACKAGE_NAME.zip"
+          filepath: /$PACKAGE_NAME.zip
+          link_type: package
+        - name: "$PACKAGE_TYPE.json"
+          url: "$PACKAGE_REGISTRY_URL/$CI_COMMIT_TAG/$PACKAGE_TYPE.json"
+          filepath: /$PACKAGE_TYPE.json
+          link_type: other

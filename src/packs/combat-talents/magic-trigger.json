@@ -1,0 +1,135 @@
+{
+  "name": "Magic Trigger",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may rig a magic item that requires activation to be triggered by your snare. If the item requires a longer activation time than the time that would be required to place the trap, then the time required to place the trap increases to match the item activation time. If activating the item requires a Use Magic Device check, this check must be made as part of setting the trap. This trap is not destroyed when triggered. Each time it is triggered, it consumes one charge from the item (if it is a charged item; single use items are counted as possessing 1 charge for this purpose), destroying the trap when the remaining charges reach 0.</p>\n<p>The duration of the trap also decreases by 5 rounds each time it is triggered. Once the trap is destroyed, any item used may be recovered, less any charges used. If the magic effect targets a creature, the triggering creature is targeted. If it targets an area, the effect originates from one corner of the square from which it was triggered (your choice). Shapes such as cones or lines must have their orientation determined when the trap is placed.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Snare"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "_id": "6E6yIwoVwYKYWCm9"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Union Of Blood",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Blood sphere, caster level 10th.</p>\n<p>By spending 10 minutes and 3 spell points, you may complete a complex ritual with two willing targets who could be placed under your blood control, entwining their life forces. The targets of this effect combine and share their hit point total, with current and maximum hit points equal to the combined total of both targets. Any effect that changes the hit point total of either target (such as damage, healing, or changes to Constitution) changes this combined total. Temporary hit points are not shared by this effect, and effects which would delay or prevent incoming damage function normally (e.g. the Guardian sphere delayed damage pool would delay damage to the target as normal. When the delayed damage is emptied from the delayed damage pool it would then subtracted from the combined hit point total).</p>\n<p>This is a permanent effect which automatically ends if any of the targets die, the effect is dispelled, or the hit point total is reduced to 0 or less. If the hit point total is reduced to 0 or less, the targets are left with current hit points equal to the combined hit point total when the effect ended (e.g. if the hit point total is reduced to -5 by an attack, the effect ends and each creature would be left with -5 hit points). If this effect would otherwise end prematurely, such as a target dying to a death effect or the effect being dispelled, each creature is left with a number of hit points equal to the hit point total divided by the number of targets. If you possess the Mass Blood Magic talent, you may include an additional target per 2 caster levels.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "_id": "UKxAj3g3D8IgmxKp"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "The Devil",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may grant a motif that allows the target to recognize the greatest threat to their goals. As a free action once per round they may assess an opponent they can see. The target learns the enemy&#8217;s approximate CR (see Table: Enemy CR). For every five caster levels, the target may use this an additional time per round.</p>\n<p>The target may discharge this effect to gain a +2 insight bonus to AC and attack rolls against any enemy they have assessed using this motif &#8217;s benefit for one round per caster level. This bonus increases by +1 for every 4 caster levels.</p>\n<strong>Table: Enemy CR</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Enemy&#8217;s CR</th>\n<th>Result</th>\n</tr>\n<tr>\n<td>4+ lower than the target&#8217;s level</td>\n<td>Trivial</td>\n</tr>\n<tr>\n<td>1&#8211;3 lower than the target&#8217;s level</td>\n<td>Easy</td>\n</tr>\n<tr>\n<td>Equal to the target&#8217;s level</td>\n<td>Fair fight</td>\n</tr>\n<tr>\n<td>1&#8211;3 higher than the target&#8217;s level</td>\n<td>Difficult</td>\n</tr>\n<tr>\n<td>4+ higher than the target&#8217;s level</td>\n<td>Overwhelming</td>\n</tr>\n</table>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Motif"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "_id": "pQ7rAcQ1GND8077V"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Spell Ward",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may spend a spell point to create a ward that represses all magic within its area of effect. Attempt one magic skill check against each magical effect, magic item, or summoned creature within the area. Magic items have a MSD of 10 + their caster level. If your check exceeds the MSD of the magical effect, item, or caster who summoned the creature, the effect is suppressed, the magic item ceases to function, or the summoned creature temporarily disappears. Time spent suppressed counts toward a magical effect&#8217;s total duration. Any caster attempting to use a magical ability in or targeted within this area, or any summoned creature attempting to enter this area, must attempt a magic skill check against your MSD. On a success, the magical effect is unimpeded, and the summoned creature is not banished by that Spell Ward. This counts as an antimagic field for effects that interact with them.</p>\n<p>You may also spend 2 spell points instead of 1 to create an aegis that grants the target spell resistance equal to 10 + your caster level.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Aegis"], ["Ward"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "_id": "hgkefpd7uEL69Na0"
+}

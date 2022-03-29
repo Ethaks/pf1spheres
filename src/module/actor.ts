@@ -1,8 +1,15 @@
-import { ActorPF, PF1ActorSpheresData } from "./actor-data";
-import { TotalModData, ValueData } from "./common-data";
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
+import type { ItemData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
+import type { ActorPF, PF1ActorSpheresData } from "./actor-data";
+import type { TotalModData, ValueData } from "./common-data";
 import { PF1S } from "./config";
-import { PF1ItemData } from "./item-data";
-import { pushPositiveSourceInfo } from "./util";
+import type { CombatSphere, MagicSphere, PF1ClassDataSource } from "./item-data";
+import { getActorHelpers, getGame, localize, pushSourceInfo } from "./util";
 
 /**
  * Hooks into the preparation of base data for Actors, setting base values
@@ -14,70 +21,131 @@ import { pushPositiveSourceInfo } from "./util";
  * @param {Actor} actor - The actor whose data gets prepared
  */
 export const onActorBasePreparation = (actor: ActorPF): void => {
+  // Populate/reset spheres data
+  const sphereData = (actor.data.data.spheres = getBlankSphereData());
+
+  // Start actual calculations
+  const useFractionalBAB = getGame().settings.get("pf1", "useFractionalBaseBonuses") ?? false;
+
+  pushSourceInfo(actor, "positive")("data.spheres.msd.base", {
+    name: localize("PF1.Base"),
+    value: 11,
+  });
+
+  // Determine MSB and Caster Level from classes
+  const { casterLevel, baseMSB } = actor.items
+    .map((i) => i.data)
+    .filter(filterClasses)
+    .map(getItemLevelData(useFractionalBAB))
+    .map(pushLevelSources(actor))
+    .reduce(
+      (levels, data) => {
+        levels.casterLevel += data.clPart;
+        levels.baseMSB += data.baseLevel;
+        return levels;
+      },
+      { casterLevel: 0, baseMSB: 0 }
+    );
+
+  // Set base MSB and MSD
+  sphereData.msb.base = baseMSB;
+  sphereData.msd.base = baseMSB + 11;
+
+  // Base Caster Level after fractional BAB check
+  const baseCasterLevel = useFractionalBAB ? Math.floor(casterLevel) : casterLevel;
+  sphereData.cl.base = baseCasterLevel;
+};
+
+/** Filters itemData by its type, narrowing available data to class data with a caster progression */
+export const filterClasses = (item: ItemData): item is ItemData & PF1ClassDataSource =>
+  item.type === "class" && Boolean(item.flags.pf1spheres?.casterProgression);
+
+/**
+ * Returns a function that determines an itemData's effective contribution to
+ * a character's overall sphere caster level dependent on fractional BAB rules usage.
+ */
+export const getItemLevelData =
+  (useFractionalBAB: boolean) =>
+  (item: ItemData & PF1ClassDataSource): ItemSphereClData => {
+    const baseLevel = item.data.level ?? 0;
+
+    // Determine progression for actual CL contribution
+    const progression = item.flags.pf1spheres?.casterProgression;
+    const rawLevel =
+      progression && progression in PF1S.progressionFormula
+        ? PF1S.progressionFormula[progression] * baseLevel
+        : 0;
+
+    // The actual number of levels contributed by this class
+    const clPart = useFractionalBAB ? rawLevel : Math.floor(rawLevel);
+
+    return { baseLevel, clPart, name: item.name };
+  };
+
+/**
+ * Returns a function that adds an itemData's data to an actor's source info
+ * and returns the itemData unchanged.
+ */
+export const pushLevelSources = (
+  actor: ActorPF
+): ((data: ItemSphereClData) => ItemSphereClData) => {
   // Get curried function to add to sourceInfo
-  const pushPSourceInfo = pushPositiveSourceInfo(actor);
+  const { pushPSourceInfo } = getActorHelpers(actor);
+
+  return (data: ItemSphereClData): ItemSphereClData => {
+    if (data.baseLevel > 0) {
+      pushPSourceInfo("data.spheres.msb.base", {
+        value: data.baseLevel ?? 0,
+        name: data.name,
+      });
+      pushPSourceInfo("data.spheres.msd.base", {
+        value: data.baseLevel ?? 0,
+        name: data.name,
+      });
+    }
+    if (data.clPart > 0) {
+      pushPSourceInfo("data.spheres.cl.base", {
+        value: data.clPart,
+        name: data.name,
+      });
+    }
+    return data;
+  };
+};
+
+/**
+ * Returns an object containing all spheres data with reset values as it is expected by the system.
+ */
+const getBlankSphereData = (): PF1ActorSpheresData => {
   // Data layouts for spheres data
-  const valueDataTemplate: ValueData<number> = {
+  const valueDataTemplate = (): ValueData<number> => ({
     base: 0,
     modCap: 0,
     total: 0,
-  };
-  const totalModTemplate: TotalModData<number> = {
+  });
+  const totalModTemplate = (): TotalModData<number> => ({
     modCap: 0,
     total: 0,
-  }; // >
+  });
 
-  // Populate spheres data
-  actor.data.data.spheres = {
-    cl: foundry.utils.deepClone(valueDataTemplate),
-    msb: foundry.utils.deepClone(valueDataTemplate),
-    msd: foundry.utils.deepClone(valueDataTemplate),
-  } as PF1ActorSpheresData; // Spheres get added in next lines
-  for (const sphere of Object.keys(PF1S.magicSpheres) as Array<keyof typeof PF1S["magicSpheres"]>) {
-    setProperty(actor.data, `data.spheres.cl.${sphere}`, foundry.utils.deepClone(totalModTemplate));
-  }
+  /** Helper to fill a Record containing spheres, each with a data set */
+  /* eslint-disable-next-line @typescript-eslint/ban-types */
+  const fillSpheres = <S extends string, D extends () => object>(keys: S[], data: D) =>
+    Object.fromEntries(keys.map((k) => [k, data()])) as { [Key in S]: ReturnType<D> };
 
-  // Start actual calculations
-  const sphereData: PF1ActorSpheresData = actor.data.data.spheres;
-  const useFractionalBAB =
-    (game.settings.get("pf1", "useFractionalBaseBonuses") as boolean) ?? false;
-
-  // Determine MSB and Caster Level from classes
-  const { casterLevel, baseMSB } = actor.items.reduce(
-    (levels, item) => {
-      const itemData = item.data as PF1ItemData;
-      if (itemData.type === "class" && !!itemData.flags.pf1spheres?.casterProgression) {
-        // Increase MSB regardless of caster level
-        levels.baseMSB += itemData.data.level ?? 0;
-        pushPSourceInfo("data.spheres.msb.base", {
-          value: itemData.data.level ?? 0,
-          name: item.name,
-        });
-        pushPSourceInfo("data.spheres.msd.base", {
-          value: itemData.data.level ?? 0,
-          name: item.name,
-        });
-
-        // Determine progression for actual CL contribution
-        const progression = itemData.flags.pf1spheres.casterProgression;
-        const rawLevel = (PF1S.progressionFormula[progression] ?? 0) * itemData.data.level;
-        // The actual number of levels contributed by this class
-        const addLevel = useFractionalBAB ? rawLevel : Math.floor(rawLevel);
-        // Add level to sum and sourceInfo
-        levels.casterLevel += addLevel;
-        pushPSourceInfo("data.spheres.cl.base", {
-          value: addLevel,
-          name: item.name,
-        });
-      }
-      return levels;
+  return {
+    cl: {
+      ...fillSpheres(Object.keys(PF1S.magicSpheres) as MagicSphere[], totalModTemplate),
+      ...valueDataTemplate(),
     },
-    { casterLevel: 0, baseMSB: 0 }
-  );
-  // Set base MSB and MSD
-  setProperty(sphereData, "msb.base", baseMSB);
-  setProperty(sphereData, "msd.base", baseMSB + 11);
-  // Base Caster Level after fractional BAB check
-  const baseCasterLevel = useFractionalBAB ? Math.floor(casterLevel) : casterLevel;
-  setProperty(sphereData, "cl.base", baseCasterLevel);
+    msb: valueDataTemplate(),
+    msd: valueDataTemplate(),
+    bab: fillSpheres(Object.keys(PF1S.combatSpheres) as CombatSphere[], totalModTemplate),
+  };
 };
+
+export interface ItemSphereClData {
+  clPart: number;
+  baseLevel: number;
+  name: string;
+}

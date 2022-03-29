@@ -5,12 +5,12 @@
     "types": ["@league-of-foundry-developers/foundry-vtt-types"],
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "exactOptionalPropertyTypes": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "sourceMap": true,
-    "emitDeclarationOnly": true,
-    "declaration": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "noEmit": true
   },
   "include": ["src"]
 }

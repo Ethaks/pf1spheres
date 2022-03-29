@@ -1,0 +1,135 @@
+{
+  "name": "Gemini Dancer",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/dual_wielding.webp",
+  "data": {
+    "description": {
+      "value": "<p>At the start of your turn, you can spend a swift action to use this talent. When you do, until the beginning of your next turn whenever you use the dual attack ability, if your attacks with your main hand or off hand weapon miss due to not hitting the creature&#8217;s armor class, as long as your attack was within 5 points of the creature&#8217;s armor class (if the creature&#8217;s AC was 25, this talent would trigger if your attack roll was 24 to 20), you still deal damage as though you had rolled the minimum result for the attack (if you miss with your off-hand attack which would normally deal 1d6+2 damage, you would still deal 3 damage); this talent is treated as dealing damage for abilities which rely on doing so, such as sneak attack. At +10 base attack bonus, you instead roll damage normally for this talent, dealing half of the damage it would have dealt. If you expend your martial focus while activating this talent, it instead lasts a number of rounds equal to your practitioner modifier.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Stance"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dual wielding"
+    }
+  },
+  "_id": "BeavOudb4oqC03I1"
+}

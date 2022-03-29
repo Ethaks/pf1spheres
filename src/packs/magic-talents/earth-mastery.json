@@ -1,0 +1,135 @@
+{
+  "name": "Earth Mastery",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
+  "data": {
+    "description": {
+      "value": "<p>Increase the maximum radius of your Bury and Tremor by an additional 5 feet per 5 caster levels. Additionally, you gain the following geomancing abilities:</p>\n<p><strong>Unearth:</strong> Concentration, requires dirt or stone. You may manipulate the earth surrounding a burrowing or buried creature or object, forcing them to be pushed or pulled 5 feet + 5 feet per 5 caster levels each round towards the surface (Fortitude negates). While affected, the target is unable to burrow or earth glide on its own, but is otherwise unimpeded. You may only target a creature or object whose location you have pinpointed (such as with a successful Perception check or with tremorsense). Unless the target has earth glide, the creature cannot be forcefully moved through stone (or lava if the target possesses fire resistance 20+ or fire immunity), but rather only sand or dirt. Each round, the target is allowed a new Fortitude save to end the effect.</p>\n<p><strong>Sandstone:</strong> Instantaneous. You may spend a spell point to transform dirt or sand into stone in an area within range. The size of the created rock or stone depends both on your caster level and the radius of dirt or sand you target. Alternatively, you may encase a dirt or sand covered target in 1 inch thick stone. Refer to Table: Sandstone to determine the maximum target size to be encased. For every size smaller the encased target is than the required radius of dirt or sand, either double the thickness of the stone or increase the number of encased targets. Creatures and objects are allowed a Reflex save to avoid being trapped in stone. On a failure, creatures or objects caught in the area are encased; to escape, they must succeed at an Escape Artist or Strength check (equal to your Bury geomancing DC) as a full-round action; alternatively, a creature may break free by dealing sufficient damage to the rock or stone.</p>\n<p>Stone has a hardness of 15 and 2 hit points per inch. On a successful save, affected targets are still entangled and immobilized until they escape or 1 minute per caster level, whichever comes first.</p>\n<strong>Table: Sandstone</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Minimum Caster Level</th>\n<th>Required Radius of Dirt/Sand</th>\n<th>Created Rock or Stone Size</th>\n<th>Maximum Target Size</th>\n<th>Encased Rock or Stone Weight (maximum)</th>\n</tr>\n<tr>\n<td>1</td>\n<td>1-ft. radius</td>\n<td>Diminutive</td>\n<td>Small</td>\n<td>1&#160;lb.</td>\n</tr>\n<tr>\n<td>1</td>\n<td>5-ft. radius</td>\n<td>Tiny</td>\n<td>Medium</td>\n<td>8 lbs.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>10-ft. radius</td>\n<td>Small</td>\n<td>Large</td>\n<td>60 lbs.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>15-ft. radius</td>\n<td>Medium</td>\n<td>Huge</td>\n<td>500 lbs.</td>\n</tr>\n<tr>\n<td>8</td>\n<td>20-ft. radius</td>\n<td>Large</td>\n<td>Gargantuan</td>\n<td>2 tons</td>\n</tr>\n<tr>\n<td>16</td>\n<td>25-ft. radius</td>\n<td>Huge</td>\n<td>Colossal</td>\n<td>16 tons</td>\n</tr>\n<tr>\n<td>32</td>\n<td>30-ft. radius</td>\n<td>Gargantuan</td>\n<td>Colossal+</td>\n<td>125 tons</td>\n</tr>\n</table>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Earth"], ["Geomancing"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "_id": "VSiISNhQV1ERIx39"
+}

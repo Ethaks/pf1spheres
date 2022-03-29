@@ -1,0 +1,135 @@
+{
+  "name": "Reforge Mastery",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
+  "data": {
+    "description": {
+      "value": "<p>As a concentration effect, you may use a limited form of Reforge that can even affect attended objects. When targeting an attended object, you may apply one of the following effects.</p>\n<p><strong>Reforged Edge:</strong> You may target a weapon and affect its critical hit threat range, increasing or decreasing it by 1, +1 per 10 caster levels. This bonus or detriment is applied after abilities and feats such as Improved Critical or the keen weapon special ability, and cannot be doubled. If this would decrease a weapon&#8217;s critical hit threat range below 1, the weapon instead has its critical hit multiplier decreased by 1 for every point it is reduced below 1 (minimum x1 crit multiplier).</p>\n<p><em>Author's Note:</em> This sphere effect can increase the critical threat range of a weapon to be higher than normally possible (such as 12&#8211;20 with a sufficiently high caster level). By GM discretion, a GM can adjust this talent to not increase the critical threat range of an altered weapon higher than 15&#8211;20.</p>\n<p><strong>Reforged Reach:</strong> You may target a weapon and increase the weapon&#8217;s reach by up to 5 feet + 5 feet per 10 caster levels.</p>\n<p><strong>Chill Metal:</strong> If you possess the (water) package, you may target a piece of metal or mostly-metal equipment and decrease its temperature. Any creature who begins their round touching the chilled metal takes 1d6 cold damage per 2 caster levels. If the chilled metal is something they are holding such as a sword or coin, they may attempt a Reflex save to drop the item to take only minimum damage, otherwise, the creature may attempt a Fortitude save for half damage. Worn equipment such as armor cannot be dropped in this fashion. If the object is used as a weapon, it deals an additional 1d6 cold damage. If this ability is used on a metal object with moving parts (such as a door&#8217;s hinges), those pieces become non-functional as they freeze together, requiring a Strength check to beat your MSD to break loose and restore functionality.</p>\n<p><strong>Heat Metal:</strong> If you possess the (fire) package, you may heat metal. This functions the same as chill metal, except dealing fire damage instead of cold damage, and moving parts cease functionality due to being slightly welded rather than frozen.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Metal"], ["Geomancing"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "_id": "5jLPY1NwShgI40p5"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Magic Cohort",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Leadership sphere, (cohort) package.</p>\n<p>You may recruit cohorts with the following professions:</p>\n<p><strong>Acolyte</strong><br>\n<strong>Hit Dice</strong> d6; <strong>Saves</strong> Fort (good), Ref (bad), Will (good); <strong>Ability Scores</strong> Str 11, Dex 12, Con 13, Int 10, Wis 16, Cha 8; <strong>Casting Ability Modifier</strong> Wis; <strong>Skill Points per Hit Die</strong> 4; <strong>Class Skills</strong> Diplomacy, Heal, Knowledge (nobility), Knowledge (religion), Knowledge (planes), Sense Motive</p>\n<p><strong>Mage</strong><br>\n<strong>Hit Dice</strong> d6; <strong>Saves</strong> Fort (bad), Ref (good), Will (good); <strong>Ability Scores</strong> Str 11, Dex 12, Con 13, Int 16, Wis 8, Cha 10; <strong>Casting Ability Modifier</strong> Int; <strong>Skill Points per Hit Die</strong> 2; <strong>Class Skills</strong> Appraise, Knowledge (all), Spellcraft</p>\n<p><strong>Pact-bound</strong><br>\n<strong>Hit Dice</strong> d6; <strong>Saves</strong> Fort (good), Ref (bad), Will (good); <strong>Ability Scores</strong> Str 11, Dex 12, Con 13, Int 10, Wis 8, Cha 16; <strong>Casting Ability Modifier</strong> Cha; <strong>Skill Points per Hit Die</strong> 4; <strong>Class Skills</strong> Bluff, Intimidate, Knowledge (arcana), Knowledge (dungeoneering), Knowledge (planes), Use Magic Device</p>\n<p>All professions gain the following starting equipment: Any focus or spell components pouch required by casting tradition, a simple melee or ranged weapon with 20 pieces ammunition (Combined value less than 100 gp total)</p>\n<p>These professions gain a casting tradition in place of their martial tradition and have the casting class feature, gaining the 2 bonus talents and caster levels equal to 1/2 of their Hit Dice. They gain a spell pool equal to their Hit Dice plus their casting ability modifier, with additional from their tradition if applicable. They gain magic talents in place of combat talents from their Hit Dice. Their base attack bonus is reduced to be equal to half their Hit Dice.</p>\n<p>If you possess the Squad talent, you may form a troop, using 1d4 troop damage and the following abilities based on feats and spheres possessed:</p>\n<p><strong>Channel (requires Spell Attack feat<sup>CotS</sup>):</strong> May add the effect of one sphere effect the cohort possesses that is compatible with Spell Attack to one creature that takes swarm damage. This does not provoke an attack of opportunity.</p>\n<p><strong>Healing (requires cure):</strong> May spend a spell point as a swift action to grant itself fast healing equal to its Hit Dice for 1 minute. This reflects a few members of the troop healing others without otherwise interrupting combat activities.</p>\n<p><strong>Spell Bombardment (requires destructive blast):</strong> May deal troop damage using 1d6 damage dice to a 10 foot radius + 5 feet per 5 ranks in Diplomacy within destructive blast range, modifying the damage die and applying the additional effects of one (blast type) talent the troop possesses.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "_id": "rJpzXYfTzLmlNRzv"
+}

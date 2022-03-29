@@ -1,0 +1,135 @@
+{
+  "name": "Elixir",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
+  "data": {
+    "description": {
+      "value": "<p><strong>Craft DC:</strong> 20</p>\n<p>You create a vial of potent liquid that can be used as a potion, removing 1d4 points of ability damage to one ability score of your choice (chosen when used). You can only affect a particular creature with this ability a number of times per day equal to 1/2 the number of ranks you possess in Craft (alchemy) (minimum 1) plus your practitioner modifier.</p>\n<p>You can increase the Craft DC for this item in increments of 5, each time you do so, you may apply one of the following benefits:</p>\n<ul>\n<li>You may affect an additional ability score of your choice to benefit from this formulae.</li>\n<li>You remove 2 points of ability drain to the affected ability score(s).</li>\n<li>The amount healed increases by one die size (1d6, 1d8, 1d10, 1d12).</li>\n</ul>\n<p>If a chosen benefit is chosen more than once, its effects stack.</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Formulae"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "_id": "sydMu4XURde7ov1f"
+}

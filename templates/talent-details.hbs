@@ -1,0 +1,16 @@
+{{!--
+SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+
+SPDX-License-Identifier: EUPL-1.2
+--}}
+
+<div class="form-group">
+  <label>{{localize "PF1SPHERES.Sphere"}}</label>
+  <select name="flags.pf1spheres.sphere">
+    {{#select item.data.flags.pf1spheres.sphere}}
+      {{#each spheres as |sphere key|}}
+        <option value="{{key}}">{{sphere}}</option>
+      {{/each}}
+    {{/select}}
+  </select>
+</div>

@@ -1,0 +1,135 @@
+{
+  "name": "Tame",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
+  "data": {
+    "description": {
+      "value": "<p>You may attempt to train an animal to readily obey your commands in and out of combat. This requires 8 hours and a creature of the animal type that has an attitude toward you of indifferent or better. This time may be divided as per the magic item crafting rules. You may only train one creature at a time with this ability. At the end of this period, make a Handle Animal check with a DC of 10 + the creature&#8217;s Hit Dice. If successful, the creature is now considered tame.</p>\n<p>You may not tame a creature with more Hit Dice than you have ranks in Handle Animal. You may have multiple tame creatures under your control, but their total Hit Dice cannot exceed your ranks in Handle Animal. If you attempt to tame a creature that would exceed your Hit Dice cap, you must choose which other creatures to release. Animal companions and familiars, such as from class features, the Animal Companion talent, or the Pet talent, never count against this Hit Dice cap.</p>\n<p>You may not use this ability on a creature with the swarm subtype. A creature with a template adds the challenge rating adjustment of the template to its HD (minimum increase +0) for determining if you may tame it and for how many creatures you can have tame. Variant creatures with increased challenge ratings (such as a pyrohydra compared to a normal hydra, if using the Broad Skills talent), treats the challenge rating increase of the variant as if it were a template for this purpose. A creature whose permanent Intelligence score is raised above 2 is no longer a valid target for this ability and is automatically released. This effect ends if you go two full days without spending at least 1 hour training your tame creatures.</p>\n<p>This is treated as an extraordinary mind-affecting compulsion effect for the purposes of opposed control checks, such as another compulsion effect affecting your tame creature. Use your ranks in Handle Animal in place of your caster level for the opposed check.</p>\n<h3 id=\"toc3\"><span><span style=\"color: #993300\">Ride</span></span></h3>\n<p>You gain 5 ranks in the Ride skill, plus 5 ranks per talent spent in the Beastmastery sphere (maximum equal to your total Hit Dice). If you already have ranks in Ride you may immediately retrain them. You do not get to retrain skill ranks when only gaining Beastmastery sphere talents as temporary talents, such as through the armiger&#8217;s customized weapons class feature or the brawler&#8217;s martial flexibility ability. When using the handle or push functions of the Handle Animal skill on a creature you are mounted on, you may substitute your Ride skill modifier for your Handle Animal skill modifier.</p>\n<p>Talents with the (ride) tag grant new ways to interact with your mount. Talents with the (ride) tag substitute your ranks in Ride for your base attack bonus when determining the saving throw DC of those talents (10 + 1/2 your ranks in Ride + your practitioner modifier) unless otherwise stated.</p>\n<p>Additionally, you gain the following ability:</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "beastmastery"
+    }
+  },
+  "_id": "7kgyHuozoFvuM3k5"
+}

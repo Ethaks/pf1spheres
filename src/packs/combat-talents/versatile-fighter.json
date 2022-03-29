@@ -1,0 +1,135 @@
+{
+  "name": "Versatile Fighter",
+  "type": "feat",
+  "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
+  "data": {
+    "description": {
+      "value": "<p>This talent gives you access to three stances, listed below. Feats that list the associated feats as prerequisites only work while the stances that grant the associated feats are active.</p>\n<ul>\n<li><strong>Offensive Style:</strong> While in this stance, you gain the benefit of the Deadly Aim and Power Attack feats. Additionally, when you successfully damage a creature with an attack action modified by Deadly Aim or Power Attack, that creature becomes battered for 1 round. <strong>Associated Feats:</strong> Deadly Aim, Power Attack.</li>\n<li><strong>Defensive Style:</strong> While in this stance, you gain the benefit of the Combat Expertise feat. Additionally, when you successfully damage a creature with an attack action modified by Combat Expertise, increase the dodge bonus to armor class granted by Combat Expertise by 1, +1 per 10 base attack bonus you possess, until the end of your next turn. This increase does not stack with itself. <strong>Associated Feat:</strong> Combat Expertise.</li>\n<li><strong>Recovery Style:</strong> While in this stance, you gain the benefit of the Heroic Resolve feat. Additionally, when you successfully damage a creature with an attack action while in this stance, your next activation of Heroic Resolve until the end of your next turn does not require expenditure of your martial focus. <strong>Associated Feat:</strong> Heroic Resolve.</li>\n</ul>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "tags": [["Stance"]],
+    "activation": {
+      "cost": 1,
+      "type": ""
+    },
+    "unchainedAction": {
+      "activation": {
+        "cost": 1,
+        "type": ""
+      }
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "maxIncrements": 1,
+      "minValue": null,
+      "minUnits": ""
+    },
+    "uses": {
+      "value": 0,
+      "per": null,
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1",
+      "maxFormula": ""
+    },
+    "measureTemplate": {
+      "type": "",
+      "size": "",
+      "overrideColor": false,
+      "customColor": "",
+      "overrideTexture": false,
+      "customTexture": ""
+    },
+    "attackName": "",
+    "actionType": null,
+    "attackBonus": "",
+    "critConfirmBonus": "",
+    "damage": {
+      "parts": [],
+      "critParts": [],
+      "nonCritParts": []
+    },
+    "attackParts": [],
+    "formulaicAttacks": {
+      "count": {
+        "formula": ""
+      },
+      "bonus": {
+        "formula": ""
+      },
+      "label": null
+    },
+    "formula": "",
+    "ability": {
+      "attack": null,
+      "damage": null,
+      "damageMult": 1,
+      "critRange": 20,
+      "critMult": 2
+    },
+    "save": {
+      "dc": 0,
+      "type": "",
+      "description": ""
+    },
+    "effectNotes": [],
+    "attackNotes": [],
+    "soundEffect": "",
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": [],
+      "dictionary": []
+    },
+    "scriptCalls": [],
+    "featType": "combatTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0
+  },
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "_id": "G53VGLmNFZJZNLud"
+}
