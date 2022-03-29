@@ -28,7 +28,7 @@
     "format": "prettier --write \"./**/*.(ts|js|json|css)\"",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:ci": "jest --ci --reporters=default --reporters=jest-junit --coverage",
+    "test:ci": "jest --ci --reporters=default --reporters=jest-junit --coverage --collectCoverageFrom=src/**/*.ts",
     "typecheck": "tsc",
     "release": "standard-version -a",
     "postinstall": "husky install",

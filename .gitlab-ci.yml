@@ -49,6 +49,7 @@ test:
     - npm run test:ci
   cache:
     <<: *global_cache
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
   artifacts:
     when: always
     reports:
