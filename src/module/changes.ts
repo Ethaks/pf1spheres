@@ -64,13 +64,16 @@ export const onGetChangeFlat = (
 export const changeFlatTargets: Record<SphereChangeTarget, ChangeFlatTargetData> = {
   // General Sphere CL
   spherecl: {
+    default: ["data.spheres.cl.total"],
+    sphereCLCap: ["data.spheres.cl.modCap"],
+  },
+  // General Sphere CL to each sphere
+  "~spherecl": {
     default: [
-      "data.spheres.cl.total",
       ...Object.keys(PF1S.magicSpheres).map(
         (sphere): ActorDataPath => `data.spheres.cl.${sphere}.total`
       ),
     ],
-    sphereCLCap: ["data.spheres.cl.modCap"],
   },
   // MSB
   msb: {
@@ -142,6 +145,12 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
 const getDefaultChanges = (): DefaultChangeData =>
   createDefaultChangeData({
     changes: [
+      // Add general CL to each sphere's CL
+      {
+        formula: "@spheres.cl.total",
+        subTarget: "~spherecl",
+        modifier: "base",
+      },
       // Push ModCap to Total change (and every sphere's total!)
       {
         formula: "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap)",

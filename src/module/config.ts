@@ -166,6 +166,12 @@ export const PF1CONFIG = {
     spherecl: {
       label: "PF1SPHERES.CasterLevel",
       category: "sphereValues",
+      sort: 300000,
+    },
+    "~spherecl": {
+      label: "PF1SPHERES.CasterLevel",
+      category: "sphereValues",
+      sort: 300100,
     },
     msb: {
       label: "PF1SPHERES.MSB",
