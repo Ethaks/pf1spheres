@@ -7,7 +7,7 @@
 // Import TypeScript modules
 import { registerSettings } from "./settings";
 import { preloadTemplates } from "./preloadTemplates";
-import { PF1S, PF1CONFIG } from "./config";
+import { PF1S, PF1CONFIG_EXTRA } from "./config";
 import { onItemSheetRender } from "./item-sheet";
 import { onActorBasePreparation } from "./actor";
 import {
@@ -82,7 +82,7 @@ Hooks.once("setup", async () => {
 
   for (const o of toLocalizePF) {
     // @ts-expect-error Ignore as const definition of config, strings get replaced in-place
-    PF1CONFIG[o] = localizeObject(PF1CONFIG[o]);
+    PF1CONFIG_EXTRA[o] = localizeObject(PF1CONFIG_EXTRA[o]);
   }
 
   // Enable API
@@ -99,7 +99,7 @@ Hooks.once("setup", async () => {
   CONFIG.PF1SPHERES = PF1S;
 
   // Add to PF1 config
-  mergeObject(CONFIG.PF1, PF1CONFIG);
+  mergeObject(CONFIG.PF1, PF1CONFIG_EXTRA);
 
   // Register changes
   registerChanges();

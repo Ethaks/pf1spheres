@@ -5,7 +5,7 @@
  */
 
 import type { ActorDataPath, ActorPF } from "./actor-data";
-import type { PF1S, PF1CONFIG } from "./config";
+import type { PF1S, PF1CONFIG_EXTRA } from "./config";
 
 export declare class ItemPF extends Item {
   isActive: boolean;
@@ -71,7 +71,7 @@ interface PF1FeatDataSourceData
     | "racial"
     | "misc"
     | "template"
-    | keyof typeof PF1CONFIG.featTypes;
+    | keyof typeof PF1CONFIG_EXTRA.featTypes;
   abilityType: "classFeat";
 }
 
@@ -106,13 +106,15 @@ export type MagicSphere = keyof typeof PF1S.magicSpheres;
 export type ChangeTarget = SphereChangeTarget | PFBuffTarget;
 
 export type SphereChangeTarget =
-  | keyof typeof PF1CONFIG.buffTargets
+  | keyof typeof PF1CONFIG_EXTRA.buffTargets
   | SphereCLChangeTarget
   | SphereBABChangeTarget;
 
+/** Specific Sphere CL */
 export type SphereCLChangeTarget = `spherecl${Capitalize<MagicSphere>}`; //`
 
-export type SphereBABChangeTarget = `spherebab${Capitalize<CombatSphere>}`;
+/** Specific Sphere BAB */
+export type SphereBABChangeTarget = `spherebab${Capitalize<CombatSphere>}`; // `
 
 /************************/
 /*   PF1 CONFIG BELOW   */
@@ -158,7 +160,7 @@ export type BonusModifier =
   | "circumstance"
   | "alchemical"
   | "penalty"
-  | keyof typeof PF1CONFIG.bonusModifiers;
+  | keyof typeof PF1CONFIG_EXTRA.bonusModifiers;
 
 export type PFBuffTarget = "cmd";
 

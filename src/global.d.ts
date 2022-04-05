@@ -12,9 +12,8 @@ import type {
   PF1ActorDataSource,
 } from "./module/actor-data";
 import type { ActorSheetPF } from "./module/actor-sheet";
-import type { PF1S } from "./module/config";
+import type { PF1CONFIG_EXTRA, PF1CONFIG, PF1S } from "./module/config";
 import type {
-  BonusModifier,
   CasterProgression,
   ItemChange,
   ItemPF,
@@ -31,13 +30,7 @@ export {};
 
 declare global {
   interface CONFIG {
-    PF1: {
-      buffTargets: Record<string, { label: string; category: string }>;
-      stackingBonusModifiers?: BonusModifier[];
-      armorProficiencies: Record<"lgt" | "med" | "hvy" | "shl" | "twr", string>;
-      weaponProficiencies: Record<"sim" | "mar", string>;
-      skills: Record<string, string>;
-    };
+    PF1: PF1CONFIG & typeof PF1CONFIG_EXTRA;
     PF1SPHERES: typeof PF1S;
   }
 

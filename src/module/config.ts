@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
+import type { BonusModifier } from "./item-data";
+
 /**
  * Runtime config object for the PF1 Spheres module
  */
@@ -142,7 +144,7 @@ export const PF1S = {
 /**
  * Config values to be merged into the PF1 system config
  */
-export const PF1CONFIG = {
+export const PF1CONFIG_EXTRA = {
   featTypes: {
     combatTalent: "PF1SPHERES.CombatTalent",
     magicTalent: "PF1SPHERES.MagicTalent",
@@ -176,14 +178,17 @@ export const PF1CONFIG = {
     msb: {
       label: "PF1SPHERES.MSB",
       category: "sphereValues",
+      sort: 301000,
     },
     msd: {
       label: "PF1SPHERES.MSD",
       category: "sphereValues",
+      sort: 302000,
     },
     "~spherebabBase": {
       label: "PF1.BAB",
       category: "sphereValues",
+      sort: 303000,
     },
   },
   bonusModifiers: {
@@ -199,3 +204,29 @@ export const PF1CONFIG = {
     battered: "modules/pf1spheres/assets/icons/battered.png",
   },
 } as const;
+
+/** The widened shape of the PF1 system config */
+export interface PF1CONFIG {
+  featTypes: Record<string, string>;
+  featTypesPlurals: Record<string, string>;
+  buffTargetCategories: Record<string, { label: string }>;
+  buffTargets: Record<string, { label: string; category: string; sort: number }>;
+  bonusModifiers: Record<string, string>;
+  conditionTypes: Record<string, string>;
+  conditions: Record<string, string>;
+  conditionTextures: Record<string, string>;
+  stackingBonusModifiers?: BonusModifier[];
+  armorProficiencies: Record<"lgt" | "med" | "hvy" | "shl" | "twr", string>;
+  weaponProficiencies: Record<"sim" | "mar", string>;
+  skills: Record<string, string>;
+}
+
+// The following types are only used to assert that the config extensions adhere to the expected shape.
+// Should more in-depth type checks be required, "conditional-type-checks" or "tsd" might become necessary.
+/* eslint-disable @typescript-eslint/no-unused-vars */ // Presence alone is sufficient to allow type checking
+/** Asserts that one type can extend another */
+type _AssertExtends<T extends U, U> = never;
+type _TestPF1CONFIG_EXTRA = _AssertExtends<
+  typeof PF1CONFIG_EXTRA,
+  { [key in keyof PF1CONFIG]?: PF1CONFIG[key] }
+>;
