@@ -19,11 +19,11 @@ export const onActorSheetRender: (
     app.spheresTab = { activateTab: false, expandedSpheres: {} };
   }
   addTab(app, html);
-  const body = html.find("section.primary-body, section.primary-altsheet-body").first();
+  const body = html.find("section.primary-body").first();
 
   const actor = app.actor as ActorPF;
 
-  const renderData = getSpheresData(app, actor, isAltSheet(app));
+  const renderData = getSpheresData(app, actor);
   const renderedTemplate = await getRenderedSpheresTab(renderData);
   const spheresBody = body.append($(renderedTemplate));
   activateListeners(app, spheresBody, actor);
@@ -38,9 +38,6 @@ export const onActorSheetRender: (
   return true;
 };
 
-// FIXME: Alt sheet integration is not working
-const isAltSheet = (app: ActorSheetPF) => app.constructor.name.startsWith("Alt");
-
 const addTab = (app: ActorSheetPF, html: JQuery<HTMLElement>) => {
   // Handle tab in navigation TODO: Pure JS?
   const tabSelector = html.find("nav.sheet-navigation.tabs").first();
@@ -52,11 +49,7 @@ const addTab = (app: ActorSheetPF, html: JQuery<HTMLElement>) => {
   });
 };
 
-const getSpheresData = (
-  app: ActorSheetPF,
-  actor: ActorPF,
-  isAltSheet = false
-): SpheresTemplateData => {
+const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData => {
   if (!actor.data.data.spheres) throw new Error("Spheres data missing!");
   const attributeGrid = (["cl", "msb", "msd"] as const).map(
     (attribute): AttributeData => ({
@@ -162,7 +155,7 @@ const getSpheresData = (
   );
 
   return {
-    dataGroup: isAltSheet ? "primary-altsheet" : "primary",
+    dataGroup: "primary",
     attributeGrid,
     sphereCLs,
     sphereBabs,
@@ -286,9 +279,6 @@ interface ActorSheetPFData {
 }
 
 export declare class ActorSheetPF extends ActorSheet {
-  _tabsAlt: {
-    activate: (tab: string) => void;
-  };
   _onItemEdit: (ev: JQuery.ClickEvent<HTMLElement>) => void;
   spheresTab: {
     activateTab: string | false;
