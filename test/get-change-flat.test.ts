@@ -12,10 +12,7 @@ describe("Test change target handling", () => {
   test("General Sphere CL", () => {
     const result = { keys: [] };
     onGetChangeFlat("spherecl", "untyped", result);
-    expect(result.keys).toContain("data.spheres.cl.total");
-    for (const sphere of Object.keys(PF1S.magicSpheres)) {
-      expect(result.keys).toContain(`data.spheres.cl.${sphere}.total`);
-    }
+    expect(result.keys).toStrictEqual(["data.spheres.cl.total"]);
   });
 
   test("General Sphere CL, capped at HD", () => {
