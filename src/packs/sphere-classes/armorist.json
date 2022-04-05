@@ -23,16 +23,16 @@
         {
           "id": "pf1spheres.class-features.NHBBtFJwrc36QXJs",
           "dataType": "compendium",
-          "name": "Weapon and Armor Proficiency",
+          "name": "Weapon and Armor Proficiency (Armorist)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.S2Eujrvp2TZWJVVh",
           "dataType": "compendium",
-          "name": "Casting",
+          "name": "Casting (Armorist)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 1,
@@ -41,7 +41,7 @@
         {
           "id": "pf1spheres.class-features.FhfbOsFZ2C7Wzrix",
           "dataType": "compendium",
-          "name": "Spell Pool",
+          "name": "Spell Pool (Armorist)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 2,
@@ -50,9 +50,9 @@
         {
           "id": "pf1spheres.class-features.Feqec9GCjleIvWSX",
           "dataType": "compendium",
-          "name": "Magic Talents",
+          "name": "Magic Talents (Armorist)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 3,
           "hiddenLinks": {}
         },
@@ -86,7 +86,7 @@
         {
           "id": "pf1spheres.class-features.TWCBjPqR0geijA9K",
           "dataType": "compendium",
-          "name": "Armor Training",
+          "name": "Armor Training (Armorist)",
           "img": "icons/svg/item-bag.svg",
           "level": 3,
           "_index": 7,
@@ -203,7 +203,9 @@
       "sur": false,
       "swm": true,
       "umd": true
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Armorist"
   },
   "effects": [],
   "folder": null,
@@ -211,5 +213,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

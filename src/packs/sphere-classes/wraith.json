@@ -25,14 +25,14 @@
           "dataType": "compendium",
           "name": "Weapon and Armor Proficiencies",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.qjxhDJ6DHrQdMmxO",
           "dataType": "compendium",
-          "name": "Casting",
+          "name": "Casting (Wraith)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 1,
@@ -41,7 +41,7 @@
         {
           "id": "pf1spheres.class-features.CCO6fnN9lnTRPeus",
           "dataType": "compendium",
-          "name": "Spell Pool",
+          "name": "Spell Pool (Wraith)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 2,
@@ -50,9 +50,9 @@
         {
           "id": "pf1spheres.class-features.qobC1BfGt3IZxVGJ",
           "dataType": "compendium",
-          "name": "Magic Talents",
+          "name": "Magic Talents (Wraith)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 3,
           "hiddenLinks": {}
         },
@@ -68,7 +68,7 @@
         {
           "id": "pf1spheres.class-features.S5SxrTHPALZSASue",
           "dataType": "compendium",
-          "name": "Wraith Form",
+          "name": "Wraith Form Mastery",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 5,
@@ -88,7 +88,7 @@
           "dataType": "compendium",
           "name": "Wraith Haunts",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 7,
           "hiddenLinks": {}
         },
@@ -131,7 +131,7 @@
     "level": 1,
     "hd": 8,
     "hp": 8,
-    "bab": "mid",
+    "bab": "med",
     "skillsPerLevel": 4,
     "savingThrows": {
       "fort": {
@@ -194,7 +194,9 @@
       "sur": false,
       "swm": false,
       "umd": true
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Wraith"
   },
   "effects": [],
   "folder": null,
@@ -202,5 +204,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

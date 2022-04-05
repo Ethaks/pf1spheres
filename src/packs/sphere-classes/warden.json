@@ -23,16 +23,16 @@
         {
           "id": "pf1spheres.class-features.idNxS6zGphVqeCB4",
           "dataType": "compendium",
-          "name": "Weapon and Armor Proficiency",
+          "name": "Weapon and Armor Proficiency (Warden)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.ZGLzjqwRX9sLU0Qa",
           "dataType": "compendium",
-          "name": "Casting",
+          "name": "Casting (Warden)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 1,
@@ -41,7 +41,7 @@
         {
           "id": "pf1spheres.class-features.HL5WlVwnEOOPMGNo",
           "dataType": "compendium",
-          "name": "Blended Training",
+          "name": "Blended Training (Warden)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 2,
@@ -50,7 +50,7 @@
         {
           "id": "pf1spheres.class-features.lrNzKqQCmvjREpWs",
           "dataType": "compendium",
-          "name": "Spell Pool",
+          "name": "Spell Pool (Warden)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 3,
@@ -160,7 +160,7 @@
           "dataType": "compendium",
           "name": "Self Sufficiency",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 15,
           "hiddenLinks": {}
         },
@@ -205,7 +205,7 @@
           "dataType": "compendium",
           "name": "Acceptance",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 20,
           "hiddenLinks": {}
         },
@@ -214,7 +214,7 @@
           "dataType": "compendium",
           "name": "Altruism",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 21,
           "hiddenLinks": {}
         },
@@ -223,7 +223,7 @@
           "dataType": "compendium",
           "name": "Confidence",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 22,
           "hiddenLinks": {}
         },
@@ -232,25 +232,25 @@
           "dataType": "compendium",
           "name": "Courage",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 23,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.eiff8hiRQ1UEmXa5",
           "dataType": "compendium",
-          "name": "Intuition",
+          "name": "Intuition (Warden)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 24,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.AS298TdQk8FQUI5o",
           "dataType": "compendium",
-          "name": "Luck",
+          "name": "Luck (Warden)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 25,
           "hiddenLinks": {}
         },
@@ -259,7 +259,7 @@
           "dataType": "compendium",
           "name": "Obscurity",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 26,
           "hiddenLinks": {}
         },
@@ -268,7 +268,7 @@
           "dataType": "compendium",
           "name": "Purity",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 27,
           "hiddenLinks": {}
         },
@@ -277,7 +277,7 @@
           "dataType": "compendium",
           "name": "Selflessness",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 28,
           "hiddenLinks": {}
         },
@@ -286,7 +286,7 @@
           "dataType": "compendium",
           "name": "Sentimentality",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 29,
           "hiddenLinks": {}
         },
@@ -295,7 +295,7 @@
           "dataType": "compendium",
           "name": "Spirit",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 30,
           "hiddenLinks": {}
         },
@@ -304,7 +304,7 @@
           "dataType": "compendium",
           "name": "Urgency",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 31,
           "hiddenLinks": {}
         },
@@ -313,7 +313,7 @@
           "dataType": "compendium",
           "name": "Willpower",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 32,
           "hiddenLinks": {}
         }
@@ -338,7 +338,7 @@
     "level": 1,
     "hd": 10,
     "hp": 8,
-    "bab": "mid",
+    "bab": "med",
     "skillsPerLevel": 4,
     "savingThrows": {
       "fort": {
@@ -401,7 +401,9 @@
       "sur": false,
       "swm": true,
       "umd": false
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Warden"
   },
   "effects": [],
   "folder": null,
@@ -409,5 +411,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

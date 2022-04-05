@@ -23,16 +23,16 @@
         {
           "id": "pf1spheres.class-features.4UDy4dVD1fl02o9f",
           "dataType": "compendium",
-          "name": "Weapon and Armor Proficiency",
+          "name": "Weapon and Armor Proficiency (Shifter)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.5Gr6IEPm8rr3iWEM",
           "dataType": "compendium",
-          "name": "Casting",
+          "name": "Casting (Shifter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 1,
@@ -41,18 +41,18 @@
         {
           "id": "pf1spheres.class-features.ztU9qxAhNU1ra3pi",
           "dataType": "compendium",
-          "name": "Spell Pool",
+          "name": "Spell Pool (Shifter)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 2,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.7F5ZzN7bnQ4iSF7I",
           "dataType": "compendium",
-          "name": "Magic Talents",
+          "name": "Magic Talents (Shifter)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 3,
           "hiddenLinks": {}
         },
@@ -131,7 +131,7 @@
         {
           "id": "pf1spheres.class-features.DG9Q8bdb4EfiBAPu",
           "dataType": "compendium",
-          "name": "Enhanced Physicality",
+          "name": "Enhanced Physicality (Shifter)",
           "img": "icons/svg/item-bag.svg",
           "level": 7,
           "_index": 12,
@@ -221,7 +221,7 @@
     "level": 1,
     "hd": 8,
     "hp": 8,
-    "bab": "mid",
+    "bab": "med",
     "skillsPerLevel": 4,
     "savingThrows": {
       "fort": {
@@ -284,7 +284,9 @@
       "sur": true,
       "swm": true,
       "umd": false
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Shifter"
   },
   "effects": [],
   "folder": null,
@@ -292,5 +294,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

@@ -23,16 +23,16 @@
         {
           "id": "pf1spheres.class-features.x3i0WoDhC6aStFPq",
           "dataType": "compendium",
-          "name": "Weapon and Armor Proficiency",
+          "name": "Weapon and Armor Proficiency (Symbiat)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.eBbhqSzn6rTg17Gr",
           "dataType": "compendium",
-          "name": "Casting",
+          "name": "Casting (Symbiat)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 1,
@@ -41,7 +41,7 @@
         {
           "id": "pf1spheres.class-features.C2ylh3LIm0ouD5DS",
           "dataType": "compendium",
-          "name": "Spell Pool",
+          "name": "Spell Pool (Symbiat)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 2,
@@ -50,9 +50,9 @@
         {
           "id": "pf1spheres.class-features.RhHx5k0pMHWsqjgY",
           "dataType": "compendium",
-          "name": "Magic Talents",
+          "name": "Magic Talents (Symbiat)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 3,
           "hiddenLinks": {}
         },
@@ -95,7 +95,7 @@
         {
           "id": "pf1spheres.class-features.a5GKtFUAi1jbNw3U",
           "dataType": "compendium",
-          "name": "Evasion",
+          "name": "Evasion (Symbiat)",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
           "_index": 8,
@@ -113,7 +113,7 @@
         {
           "id": "pf1spheres.class-features.l9AUYNOypwdnosuL",
           "dataType": "compendium",
-          "name": "Danger Sense",
+          "name": "Danger Sense (Symbiat)",
           "img": "icons/svg/item-bag.svg",
           "level": 3,
           "_index": 10,
@@ -122,7 +122,7 @@
         {
           "id": "pf1spheres.class-features.0nGXiJobdAIPYjEs",
           "dataType": "compendium",
-          "name": "Uncanny Dodge",
+          "name": "Uncanny Dodge (Symbiat)",
           "img": "icons/svg/item-bag.svg",
           "level": 4,
           "_index": 11,
@@ -140,7 +140,7 @@
         {
           "id": "pf1spheres.class-features.GQ3ivE8ly9yAoHdF",
           "dataType": "compendium",
-          "name": "Improved Uncanny Dodge",
+          "name": "Improved Uncanny Dodge (Symbiat)",
           "img": "icons/svg/item-bag.svg",
           "level": 8,
           "_index": 13,
@@ -149,7 +149,7 @@
         {
           "id": "pf1spheres.class-features.gJLkaL0BNTnJC6xy",
           "dataType": "compendium",
-          "name": "Improved Evasion",
+          "name": "Improved Evasion (Symbiat)",
           "img": "icons/svg/item-bag.svg",
           "level": 9,
           "_index": 14,
@@ -185,7 +185,7 @@
     "level": 1,
     "hd": 8,
     "hp": 8,
-    "bab": "mid",
+    "bab": "med",
     "skillsPerLevel": 4,
     "savingThrows": {
       "fort": {
@@ -248,7 +248,9 @@
       "sur": false,
       "swm": false,
       "umd": false
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Symbiat"
   },
   "effects": [],
   "folder": null,
@@ -256,5 +258,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

@@ -23,16 +23,16 @@
         {
           "id": "pf1spheres.class-features.CfTApUfV1FkOMDke",
           "dataType": "compendium",
-          "name": "Proficiencies",
+          "name": "Proficiencies (Troubadour)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.vNjqZAZpZQYxB19r",
           "dataType": "compendium",
-          "name": "Casting",
+          "name": "Casting (Troubadour)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 1,
@@ -41,7 +41,7 @@
         {
           "id": "pf1spheres.class-features.7pn9XptC5xhWyHrK",
           "dataType": "compendium",
-          "name": "Spell Pool",
+          "name": "Spell Pool (Troubadour)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 2,
@@ -95,7 +95,7 @@
         {
           "id": "pf1spheres.class-features.3oY6dZjMhtZLMtEq",
           "dataType": "compendium",
-          "name": "Quick Change",
+          "name": "Quick Change (Troubadour)",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
           "_index": 8,
@@ -113,9 +113,9 @@
         {
           "id": "pf1spheres.class-features.BKGTxnZY8qHGXLkR",
           "dataType": "compendium",
-          "name": "Magic Talents",
+          "name": "Magic Talents (Troubadour)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 10,
           "hiddenLinks": {}
         },
@@ -167,7 +167,7 @@
     "level": 1,
     "hd": 0,
     "hp": 8,
-    "bab": "mid",
+    "bab": "med",
     "skillsPerLevel": 6,
     "savingThrows": {
       "fort": {
@@ -230,7 +230,9 @@
       "sur": false,
       "swm": true,
       "umd": true
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Troubadour"
   },
   "effects": [],
   "folder": null,
@@ -238,5 +240,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

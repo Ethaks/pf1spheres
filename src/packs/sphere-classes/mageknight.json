@@ -23,16 +23,16 @@
         {
           "id": "pf1spheres.class-features.Qj9pCRPAsDUfSI8S",
           "dataType": "compendium",
-          "name": "Weapon and Armor Proficiency",
+          "name": "Weapon and Armor Proficiency (Mageknight)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.LkYbWc2Ndz77BYDl",
           "dataType": "compendium",
-          "name": "Casting",
+          "name": "Casting (Mageknight)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 1,
@@ -41,7 +41,7 @@
         {
           "id": "pf1spheres.class-features.P0jaPmKH84zBS54A",
           "dataType": "compendium",
-          "name": "Spell Pool",
+          "name": "Spell Pool (Mageknight)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 2,
@@ -50,9 +50,9 @@
         {
           "id": "pf1spheres.class-features.Zo2mGytkoRZ4zR6x",
           "dataType": "compendium",
-          "name": "Magic Talents",
+          "name": "Magic Talents (Mageknight)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 3,
           "hiddenLinks": {}
         },
@@ -77,7 +77,7 @@
         {
           "id": "pf1spheres.class-features.fXHIKnUkoE3tYdRI",
           "dataType": "compendium",
-          "name": "Stalwart",
+          "name": "Stalwart (Mageknight)",
           "img": "icons/svg/item-bag.svg",
           "level": 3,
           "_index": 6,
@@ -212,7 +212,9 @@
       "sur": true,
       "swm": true,
       "umd": false
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Mageknight"
   },
   "effects": [],
   "folder": null,
@@ -220,5 +222,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

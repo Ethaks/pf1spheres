@@ -23,7 +23,7 @@
         {
           "id": "pf1spheres.class-features.P8fBZGvHXfA4zbDe",
           "dataType": "compendium",
-          "name": "Bonus Feat",
+          "name": "Bonus Feat (Conscript)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 0,
@@ -50,9 +50,9 @@
         {
           "id": "pf1spheres.class-features.jUqIq0LR01Wi8vEQ",
           "dataType": "compendium",
-          "name": "List of Sphere Specializations",
+          "name": "List of Sphere Specializations (Conscript)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 3,
           "hiddenLinks": {}
         }
@@ -140,7 +140,9 @@
       "sur": true,
       "swm": true,
       "umd": false
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Conscript"
   },
   "effects": [],
   "folder": null,
@@ -148,5 +150,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

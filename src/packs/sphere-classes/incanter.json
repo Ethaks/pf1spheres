@@ -23,16 +23,16 @@
         {
           "id": "pf1spheres.class-features.A9FAOo84kJtEZxyx",
           "dataType": "compendium",
-          "name": "Weapon and Armor Proficiency",
+          "name": "Weapon and Armor Proficiency (Incanter)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.flMB9hKbsb8bRrI1",
           "dataType": "compendium",
-          "name": "Casting",
+          "name": "Casting (Incanter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 1,
@@ -41,7 +41,7 @@
         {
           "id": "pf1spheres.class-features.0JHCoqow5V8nzcw6",
           "dataType": "compendium",
-          "name": "Spell Pool",
+          "name": "Spell Pool (Incanter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 2,
@@ -50,16 +50,16 @@
         {
           "id": "pf1spheres.class-features.nURFMMZjd7LyZfA0",
           "dataType": "compendium",
-          "name": "Magic Talents",
+          "name": "Magic Talents (Incanter)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 3,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.yMTwPUIZM4m3xvOT",
           "dataType": "compendium",
-          "name": "Bonus Feat",
+          "name": "Bonus Feat (Incanter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 4,
@@ -70,16 +70,16 @@
           "dataType": "compendium",
           "name": "Incanter Specializations",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 5,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.7W1eLxdXzGzq9jLP",
           "dataType": "compendium",
-          "name": "List of Sphere Specializations",
+          "name": "List of Sphere Specializations (Incanter)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 6,
           "hiddenLinks": {}
         }
@@ -167,7 +167,9 @@
       "sur": false,
       "swm": false,
       "umd": false
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Incanter"
   },
   "effects": [],
   "folder": null,
@@ -175,5 +177,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

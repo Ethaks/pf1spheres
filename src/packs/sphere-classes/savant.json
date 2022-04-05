@@ -23,9 +23,9 @@
         {
           "id": "pf1spheres.class-features.O0dO2Kl3At8mHVZf",
           "dataType": "compendium",
-          "name": "Weapon and Armor Training",
+          "name": "Weapon and Armor Training (Savant)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
@@ -70,7 +70,7 @@
           "dataType": "compendium",
           "name": "Combat Trained",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 5,
           "hiddenLinks": {}
         },
@@ -167,7 +167,9 @@
       "sur": false,
       "swm": true,
       "umd": false
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Savant"
   },
   "effects": [],
   "folder": null,
@@ -175,5 +177,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

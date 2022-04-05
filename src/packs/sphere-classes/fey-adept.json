@@ -23,16 +23,16 @@
         {
           "id": "pf1spheres.class-features.24pktWMbB6L8Q0gP",
           "dataType": "compendium",
-          "name": "Weapon and Armor Proficiency",
+          "name": "Weapon and Armor Proficiency (Fey Adept)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.Hnr6QYMJG6UeP5YC",
           "dataType": "compendium",
-          "name": "Casting",
+          "name": "Casting (Fey Adept)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 1,
@@ -41,7 +41,7 @@
         {
           "id": "pf1spheres.class-features.IhypKTZwYP1UWDNT",
           "dataType": "compendium",
-          "name": "Spell Pool",
+          "name": "Spell Pool (Fey Adept)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 2,
@@ -50,9 +50,9 @@
         {
           "id": "pf1spheres.class-features.zHPAHCiCfQcXuZcx",
           "dataType": "compendium",
-          "name": "Magic Talents",
+          "name": "Magic Talents (Fey Adept)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 3,
           "hiddenLinks": {}
         },
@@ -221,7 +221,9 @@
       "sur": false,
       "swm": false,
       "umd": true
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Fey Adept"
   },
   "effects": [],
   "folder": null,
@@ -229,5 +231,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

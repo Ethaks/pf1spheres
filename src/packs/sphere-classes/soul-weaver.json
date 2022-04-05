@@ -23,16 +23,16 @@
         {
           "id": "pf1spheres.class-features.SSmimc0fFfdBN5i1",
           "dataType": "compendium",
-          "name": "Weapon and Armor Proficiency",
+          "name": "Weapon and Armor Proficiency (Soul Weaver)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.koX5jJk7rlGVVs8u",
           "dataType": "compendium",
-          "name": "Casting",
+          "name": "Casting (Soul Weaver)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 1,
@@ -41,7 +41,7 @@
         {
           "id": "pf1spheres.class-features.jCHMsQkbB9scZrM1",
           "dataType": "compendium",
-          "name": "Spell Pool",
+          "name": "Spell Pool (Soul Weaver)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 2,
@@ -50,16 +50,16 @@
         {
           "id": "pf1spheres.class-features.goeaG2i6ohzRxxLt",
           "dataType": "compendium",
-          "name": "Magic Talents",
+          "name": "Magic Talents (Soul Weaver)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 3,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.tyPmigohMnQa7l17",
           "dataType": "compendium",
-          "name": "Channel Energy",
+          "name": "Channel Energy (Soul Weaver)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 4,
@@ -185,7 +185,9 @@
       "sur": false,
       "swm": false,
       "umd": false
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Soul Weaver"
   },
   "effects": [],
   "folder": null,
@@ -193,5 +195,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

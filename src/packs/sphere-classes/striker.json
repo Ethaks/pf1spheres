@@ -23,7 +23,7 @@
         {
           "id": "pf1spheres.class-features.A63Y7UxTwHhYPD9a",
           "dataType": "compendium",
-          "name": "AC Bonus",
+          "name": "AC Bonus (Striker)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 0,
@@ -41,7 +41,7 @@
         {
           "id": "pf1spheres.class-features.9mWnHZRo8DYIiiFK",
           "dataType": "compendium",
-          "name": "Tension",
+          "name": "Tension Techniques",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 2,
@@ -86,7 +86,7 @@
         {
           "id": "pf1spheres.class-features.L8dBBkXW6EaIQPAI",
           "dataType": "compendium",
-          "name": "Uncanny Dodge",
+          "name": "Uncanny Dodge (Striker)",
           "img": "icons/svg/item-bag.svg",
           "level": 3,
           "_index": 7,
@@ -131,7 +131,7 @@
         {
           "id": "pf1spheres.class-features.7JdM1w5HMUfctiwO",
           "dataType": "compendium",
-          "name": "Improved Uncanny Dodge",
+          "name": "Improved Uncanny Dodge (Striker)",
           "img": "icons/svg/item-bag.svg",
           "level": 12,
           "_index": 12,
@@ -230,7 +230,9 @@
       "sur": true,
       "swm": true,
       "umd": false
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Striker"
   },
   "effects": [],
   "folder": null,
@@ -238,5 +240,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

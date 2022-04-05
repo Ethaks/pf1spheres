@@ -23,16 +23,16 @@
         {
           "id": "pf1spheres.class-features.E1LT6NGlJxed2ZlF",
           "dataType": "compendium",
-          "name": "Weapon and Armor Proficiency",
+          "name": "Weapon and Armor Proficiency (Eliciter)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.UVpjCVGksXAYx5Ya",
           "dataType": "compendium",
-          "name": "Casting",
+          "name": "Casting (Eliciter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 1,
@@ -41,7 +41,7 @@
         {
           "id": "pf1spheres.class-features.XuO8s4vYTjeA9o7c",
           "dataType": "compendium",
-          "name": "Spell Pool",
+          "name": "Spell Pool (Eliciter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 2,
@@ -50,9 +50,9 @@
         {
           "id": "pf1spheres.class-features.DNIZECin0qsNWCJU",
           "dataType": "compendium",
-          "name": "Magic Talents",
+          "name": "Magic Talents (Eliciter)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 3,
           "hiddenLinks": {}
         },
@@ -88,7 +88,7 @@
           "dataType": "compendium",
           "name": "Emotions",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 7,
           "hiddenLinks": {}
         },
@@ -149,7 +149,7 @@
     "level": 1,
     "hd": 8,
     "hp": 8,
-    "bab": "mid",
+    "bab": "med",
     "skillsPerLevel": 4,
     "savingThrows": {
       "fort": {
@@ -212,7 +212,9 @@
       "sur": false,
       "swm": false,
       "umd": true
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Eliciter"
   },
   "effects": [],
   "folder": null,
@@ -220,5 +222,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }

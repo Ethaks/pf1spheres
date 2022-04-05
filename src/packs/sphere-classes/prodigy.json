@@ -23,16 +23,16 @@
         {
           "id": "pf1spheres.class-features.in7ZowePvey2zpMk",
           "dataType": "compendium",
-          "name": "Proficiencies",
+          "name": "Proficiencies (Prodigy)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 0,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.FZkmw7hEECEh4KOx",
           "dataType": "compendium",
-          "name": "Casting",
+          "name": "Casting (Prodigy)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 1,
@@ -41,16 +41,16 @@
         {
           "id": "pf1spheres.class-features.qsFtbOc0wpg2YvDp",
           "dataType": "compendium",
-          "name": "Spell Pool",
+          "name": "Spell Pool (Prodigy)",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 2,
           "hiddenLinks": {}
         },
         {
           "id": "pf1spheres.class-features.9eZIQLjyGgGW6tF0",
           "dataType": "compendium",
-          "name": "Blended Training",
+          "name": "Blended Training (Prodigy)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
           "_index": 3,
@@ -70,7 +70,7 @@
           "dataType": "compendium",
           "name": "Integrated Techniques",
           "img": "icons/svg/item-bag.svg",
-          "level": 0,
+          "level": 1,
           "_index": 5,
           "hiddenLinks": {}
         },
@@ -86,7 +86,7 @@
         {
           "id": "pf1spheres.class-features.OIlaLry8OBdiYZox",
           "dataType": "compendium",
-          "name": "Adaptation",
+          "name": "Adaptation (Prodigy)",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
           "_index": 7,
@@ -239,7 +239,7 @@
     "level": 1,
     "hd": 8,
     "hp": 8,
-    "bab": "mid",
+    "bab": "med",
     "skillsPerLevel": 4,
     "savingThrows": {
       "fort": {
@@ -302,7 +302,9 @@
       "sur": false,
       "swm": false,
       "umd": true
-    }
+    },
+    "customHD": "",
+    "identifiedName": "Prodigy"
   },
   "effects": [],
   "folder": null,
@@ -310,5 +312,9 @@
   "permission": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  }
 }
