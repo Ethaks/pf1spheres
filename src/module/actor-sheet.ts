@@ -252,10 +252,8 @@ const _toggleSphereTalentsDisplay = (app: ActorSheetPF) => (ev: JQuery.ClickEven
 const getSphereClSources =
   (actor: ActorPF) =>
   (sphere: MagicSphere): { sources: SourceEntry[]; cappedSources: SourceEntry[] } => {
-    const baseSources = actor.sourceDetails["data.spheres.cl.total"] ?? [];
+    const baseSources = actor.sourceDetails["data.spheres.cl.base"] ?? [];
     const cappedBaseSources = actor.sourceDetails["data.spheres.cl.modCap"] ?? [];
-    // FIXME: This currently leads to doubled sources, as Changes apply to spheres.cl.total *and* spheres.cl.sphere.total
-    // Fixed when the system adds change sorting
     const sphereSources = actor.sourceDetails[`data.spheres.cl.${sphere}.total` as const] ?? [];
     const cappedSources = actor.sourceDetails[`data.spheres.cl.${sphere}.modCap` as const] ?? [];
     return {

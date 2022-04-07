@@ -76,7 +76,7 @@ describe("Test default changes handling", () => {
     expect(changes).toContainEqual({
       data: {
         formula: "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap)",
-        subTarget: "spherecl",
+        subTarget: "~spherecl",
         modifier: "untyped",
       },
     });
@@ -86,7 +86,7 @@ describe("Test default changes handling", () => {
     for (const sphere of Object.keys(PF1S.magicSpheres)) {
       expect(changes).toContainEqual({
         data: {
-          formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap) - @spheres.cl.base`,
+          formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap)`,
           subTarget: `spherecl${sphere.capitalize()}`,
           modifier: "untyped",
         },
@@ -98,7 +98,7 @@ describe("Test default changes handling", () => {
     expect(changes).toContainEqual({
       data: {
         formula:
-          "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.dark.modCap) - @spheres.cl.base",
+          "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.dark.modCap)",
         subTarget: "sphereclDark",
         modifier: "untyped",
       },

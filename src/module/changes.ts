@@ -8,8 +8,10 @@ import type { ActorDataPath, ActorPF } from "./actor-data";
 import { PF1S } from "./config";
 import type {
   BonusModifier,
+  CombatSphere,
   ItemChange,
   ItemChangeCreateData,
+  MagicSphere,
   SourceEntry,
   SphereBABChangeTarget,
   SphereChangeTarget,
@@ -24,20 +26,22 @@ import { getActorHelpers, getGame, localize } from "./util";
  */
 export const registerChanges = (): void => {
   // Register sphere specific CL change targets
-  for (const [key, value] of Object.entries(PF1S.magicSpheres)) {
-    setProperty(CONFIG.PF1.buffTargets, `spherecl${key.capitalize()}`, {
+  Object.entries(PF1S.magicSpheres).forEach(([sphere, value], index) => {
+    CONFIG.PF1.buffTargets[`spherecl${(sphere as MagicSphere).capitalize()}`] = {
       label: `${value} ${localize("CasterLevel")}`,
       category: "sphereCasterLevel",
-    });
+      sort: 305000 + index * 10,
+    };
+  });
 
-    // Register sphere specific BAB change targets
-    for (const [key, value] of Object.entries(PF1S.combatSpheres)) {
-      setProperty(CONFIG.PF1.buffTargets, `spherebab${key.capitalize()}`, {
-        label: `${value} ${localize("PF1.BAB")}`,
-        category: "sphereBAB",
-      });
-    }
-  }
+  // Register sphere specific BAB change targets
+  Object.entries(PF1S.combatSpheres).forEach(([sphere, value], index) => {
+    CONFIG.PF1.buffTargets[`spherebab${(sphere as CombatSphere).capitalize()}`] = {
+      label: `${value} ${localize("PF1.BAB")}`,
+      category: "sphereBAB",
+      sort: 306000 + index * 10,
+    };
+  });
 
   // Allow stacking of multple sphere caster level modifiers capped at HD
   CONFIG.PF1.stackingBonusModifiers?.push("sphereCLCap");
@@ -62,18 +66,19 @@ export const onGetChangeFlat = (
 // TODO: Determine whether this should be a config object, or purely derived
 /** A dictionary containing all SphereChangeTargets and their respective data targets */
 export const changeFlatTargets: Record<SphereChangeTarget, ChangeFlatTargetData> = {
-  // General Sphere CL
+  // General Sphere CL (general buffs apply to everything, HD capped only to modCap)
   spherecl: {
-    default: ["data.spheres.cl.total"],
-    sphereCLCap: ["data.spheres.cl.modCap"],
-  },
-  // General Sphere CL to each sphere
-  "~spherecl": {
     default: [
+      "data.spheres.cl.total",
       ...Object.keys(PF1S.magicSpheres).map(
         (sphere): ActorDataPath => `data.spheres.cl.${sphere}.total`
       ),
     ],
+    sphereCLCap: ["data.spheres.cl.modCap"],
+  },
+  // Hidden target, only applied to general total (used for base + modCap calculation)
+  "~spherecl": {
+    default: ["data.spheres.cl.total"],
   },
   // MSB
   msb: {
@@ -145,22 +150,16 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
 const getDefaultChanges = (): DefaultChangeData =>
   createDefaultChangeData({
     changes: [
-      // Add general CL to each sphere's CL
-      {
-        formula: "@spheres.cl.total",
-        subTarget: "~spherecl",
-        modifier: "base",
-      },
-      // Push ModCap to Total change (and every sphere's total!)
+      // Push ModCap to Total change
       {
         formula: "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap)",
-        subTarget: "spherecl",
+        subTarget: "~spherecl",
         modifier: "untyped",
       },
-      // For every magic sphere, add a change to determine actually applicable capped CL bonus and add that
+      // For every magic sphere, determine CL from base + general HD capped + sphere specific HD capped
       ...Object.keys(PF1S.magicSpheres).map(
         (sphere): ItemChangeCreateData => ({
-          formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap) - @spheres.cl.base`,
+          formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap)`,
           subTarget: `spherecl${sphere.capitalize()}`,
           modifier: "untyped",
         })
@@ -175,7 +174,7 @@ const getDefaultChanges = (): DefaultChangeData =>
       { formula: "@spheres.msb.base", subTarget: "msb", modifier: "base" },
       // Add MSD Base to Total
       { formula: "@spheres.msd.base", subTarget: "msd", modifier: "base" },
-    ],
+    ], // TODO: Add all sphere specific CL sources to .total sourceInfo?
   });
 
 /** Returns DefaultChangeData dependent on whether the battered condition is true */

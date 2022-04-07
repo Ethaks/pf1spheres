@@ -210,7 +210,10 @@ export interface PF1CONFIG {
   featTypes: Record<string, string>;
   featTypesPlurals: Record<string, string>;
   buffTargetCategories: Record<string, { label: string }>;
-  buffTargets: Record<string, { label: string; category: string; sort: number }>;
+  buffTargets: Record<
+    string,
+    { label: string; category: keyof typeof CONFIG.PF1.buffTargetCategories; sort: number }
+  >;
   bonusModifiers: Record<string, string>;
   conditionTypes: Record<string, string>;
   conditions: Record<string, string>;
