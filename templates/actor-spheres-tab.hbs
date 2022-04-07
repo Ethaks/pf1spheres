@@ -107,6 +107,7 @@ SPDX-License-Identifier: EUPL-1.2
         <i class="fas fa-angle-double-down"></i>
       </div>
       <ol class="item-list sphere-talents" {{#if (ne sphere.expandTalents true)}} style="display: none" {{/if}}>
+          <!-- Individual talent-->
         {{#each sphere.talents as |talent|}}
         <li class="talent grid item" data-item-id="{{talent.id}}">
             <div class="talent-icon">
@@ -126,7 +127,7 @@ SPDX-License-Identifier: EUPL-1.2
           </div>
           <div class="talent-use">
               {{#if talent.hasAction}}
-                <img src="../../systems/pf1/icons/actions/gladius.svg"></img>
+                <img class="item-attack" src="../../systems/pf1/icons/actions/gladius.svg"></img>
               {{/if}}
           </div>
           <div class="talent-controls">

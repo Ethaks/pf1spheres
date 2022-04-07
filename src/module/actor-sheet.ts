@@ -177,6 +177,14 @@ const activateListeners = (app: ActorSheetPF, html: JQuery<HTMLElement>, actor: 
     .find(".talent-name")
     // @ts-expect-error Weird contextmenu types?
     .on("contextmenu", getGame().pf1.applications.ActorSheetPF.prototype._onItemEdit.bind(app));
+
+  // TODO: Decide upon own solution for rolling – depends on how talents should be activated
+  html
+    .find(".talent-use>img")
+    .on(
+      "click",
+      getGame().pf1.applications.ActorSheetPF.prototype._quickItemActionControl.bind(app)
+    );
 };
 
 const getTalentTemplateData = (item: ItemPF): TalentTemplateData => ({
@@ -278,6 +286,7 @@ interface ActorSheetPFData {
 
 export declare class ActorSheetPF extends ActorSheet {
   _onItemEdit: (ev: JQuery.ClickEvent<HTMLElement>) => void;
+  _quickItemActionControl: (ev: JQuery.ClickEvent<HTMLElement>) => void;
   spheresTab: {
     activateTab: string | false;
     expandedSpheres: Partial<Record<Sphere, boolean>>;
