@@ -1,7 +1,7 @@
 {
   "name": "Turbo Knockdown",
   "type": "feat",
-  "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
+  "img": "modules/pf1spheres/assets/icons/spheres/lancer.webp",
   "data": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Athletics sphere (Mobile Striker), Lancer sphere (Whirlwind Knockdown), base attack bonus +10.</p>\n<p>When you use Mobile Striker and Whirlwind Knockdown in the same round, you may instead target any creatures you threaten with the weapon used for the attack at some point during your movement. Resolve the attack action after completing the movement from Mobile Striker. At base attack bonus +15, halve the attack penalty from Whirlwind Knockdown, rounded up.</p>\n",
@@ -83,6 +83,11 @@
     "effectNotes": [],
     "attackNotes": [],
     "soundEffect": "",
+    "powerAttack": {
+      "multiplier": "",
+      "damageBonus": 2,
+      "critMultiplier": 1
+    },
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
@@ -128,8 +133,8 @@
   },
   "flags": {
     "pf1spheres": {
-      "sphere": "athletics"
+      "sphere": "lancer"
     }
   },
-  "_id": "tuLCHG3ekSKzPYKz"
+  "_id": "CTUDOAG8ZP3gFlhA"
 }

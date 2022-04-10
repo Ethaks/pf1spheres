@@ -4,7 +4,7 @@
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
   "data": {
     "description": {
-      "value": "<p>While in this stance, you may treat melee attacks with improvised weapons as unarmed strikes for the purpose of how much damage they deal and interactions with abilities which require an unarmed strike.</p>\n<p>Once per turn while in this stance, when you attack a target adjacent to you with an improvised weapon or a weapon with the fragile weapon special quality, you can give that weapon the broken condition and spend an attack of opportunity to make an attack with an unarmed strike against the same target as a free action.</p>\n",
+      "value": "<p>While in this stance, you may treat melee attacks with improvised weapons as unarmed strikes for the purpose of how much damage they deal and interactions with abilities which require an unarmed strike.</p>\n<p>Once per turn while in this stance, you may break a weapon when attacking adjacent to you and spend an attack of opportunity to make an attack with an unarmed strike against the same target as a free action.</p>\n",
       "chat": "",
       "unidentified": ""
     },
@@ -83,6 +83,11 @@
     "effectNotes": [],
     "attackNotes": [],
     "soundEffect": "",
+    "powerAttack": {
+      "multiplier": "",
+      "damageBonus": 2,
+      "critMultiplier": 1
+    },
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
@@ -131,5 +136,5 @@
       "sphere": "barroom"
     }
   },
-  "_id": "mPmxlO8VolxUygyP"
+  "_id": "01sL7wdUspTeR4Kl"
 }

@@ -4,11 +4,11 @@
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
   "data": {
     "description": {
-      "value": "<p>When you attack a target with an improvised weapon or a weapon with the fragile weapon special feature, you can give that weapon the broken condition to deal 1d4 points of additional damage on that attack. This damage is multiplied on a critical hit.</p>\n<p>If you threaten a critical hit while using this talent, you gain a +4 bonus on the roll to confirm the critical hit, and if it is confirmed, the weapon is destroyed. If you apply a second effect that would give your weapon the broken condition, you forgo this additional benefit. <strong>Associated Feat:</strong> Chairbreaker.</p>\n",
+      "value": "<p>You may break a weapon when attacking a creature to deal 1d4 points of additional damage on that attack. This damage is multiplied on a critical hit. This additional damage increases by an additional 1d4 for every 4 base attack bonus you possess.</p>\n<p>If you threaten a critical hit while using this talent, you gain a +4 bonus on the roll to confirm the critical hit, and if it is confirmed, the weapon is destroyed. If you apply a second effect that would give your weapon the broken condition, you forgo this additional benefit. <strong>Associated Feat:</strong> Chairbreaker.</p>\n",
       "chat": "",
       "unidentified": ""
     },
-    "tags": [],
+    "tags": [["Smash"]],
     "activation": {
       "cost": 1,
       "type": ""
@@ -83,6 +83,11 @@
     "effectNotes": [],
     "attackNotes": [],
     "soundEffect": "",
+    "powerAttack": {
+      "multiplier": "",
+      "damageBonus": 2,
+      "critMultiplier": 1
+    },
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
@@ -131,5 +136,5 @@
       "sphere": "barroom"
     }
   },
-  "_id": "jzCeMQnVyeYDYXN5"
+  "_id": "PEd2TZs05FcyxhoX"
 }

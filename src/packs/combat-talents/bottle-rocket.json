@@ -4,7 +4,7 @@
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
   "data": {
     "description": {
-      "value": "<p>The range increment of improvised weapons you wield is increased to 20 feet for two-handed weapons, 30 feet for one-handed weapons, and 50 feet for light weapons. Additionally, when using an improvised weapon with the fragile quality, you can give it the broken condition to make a ranged attack action as if it were a scatter weapon with a range of 15 feet.</p>\n",
+      "value": "<p>The range increment of improvised weapons you wield is increased to 20 feet for two-handed weapons, 30 feet for one-handed weapons, and 50 feet for light weapons. Additionally, you may break a weapon to make a ranged attack action as if it were a scatter weapon with a range of 15 feet.</p>\n",
       "chat": "",
       "unidentified": ""
     },
@@ -83,6 +83,11 @@
     "effectNotes": [],
     "attackNotes": [],
     "soundEffect": "",
+    "powerAttack": {
+      "multiplier": "",
+      "damageBonus": 2,
+      "critMultiplier": 1
+    },
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
@@ -131,5 +136,5 @@
       "sphere": "barroom"
     }
   },
-  "_id": "v8yzqxPO5fXpBazM"
+  "_id": "CClv0cv5QPqCBuHw"
 }

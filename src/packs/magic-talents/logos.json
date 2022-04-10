@@ -4,7 +4,7 @@
   "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
   "data": {
     "description": {
-      "value": "<p>You may spend a spell point to understand all spoken and written words, regardless of language. You may spend an additional spell point to also be understood by any creature with a language. You do not learn the creature&#8217;s language, but instead every creature hears you speak in whatever language is most comfortable for it.</p>\n",
+      "value": "<p>You may spend a spell point to understand all spoken and written words, regardless of language. You may spend an additional spell point to also be understood by any creature with a language. You do not learn the creature&#8217;s language, but instead every creature hears you speak in whatever language is most comfortable for it.</p>\n<p>While this sense is active, you may understand languages even if you lack the senses to normally interpret them. For example, a blind character can use this sense to &#8220;read&#8221; written language by touching it or a deaf character can use it to read the lips of any creature they can perceive.</p>\n",
       "chat": "",
       "unidentified": ""
     },
@@ -83,6 +83,11 @@
     "effectNotes": [],
     "attackNotes": [],
     "soundEffect": "",
+    "powerAttack": {
+      "multiplier": "",
+      "damageBonus": 2,
+      "critMultiplier": 1
+    },
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
@@ -131,5 +136,5 @@
       "sphere": "divination"
     }
   },
-  "_id": "KqCZNBHMRImluUur"
+  "_id": "Uw5oPJImXxKMqUxR"
 }

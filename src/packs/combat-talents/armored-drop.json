@@ -4,7 +4,7 @@
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
   "data": {
     "description": {
-      "value": "<p>While wearing medium or heavy armor, you may divert any damage taken from falling to your armor. Damage you redirect this way ignores your armor&#8217;s hardness, and you are still knocked prone if you would have taken fall damage without this talent. You suffer any damage in excess of your armor&#8217;s hit points.</p>\n<p><strong>Addendum:</strong> You may select this talent a second time. When you use this talent, creatures within 5 feet of where you land suffer bludgeoning damage equal to half the damage that would be dealt to your armor. [Apoc: Armor Talents 2]</p>\n",
+      "value": "<p>While wearing medium or heavy armor, you may divert any damage taken from falling to your armor. Damage you redirect this way ignores your armor&#8217;s hardness, and you are still knocked prone if you would have taken fall damage without this talent. You suffer any damage in excess of your armor&#8217;s hit points. <strong>Associated Feat:</strong> Cushioning Armor</p>\n<p><strong>Addendum:</strong> You may select this talent a second time. When you use this talent, creatures within 5 feet of where you land suffer bludgeoning damage equal to half the damage that would be dealt to your armor. [Apoc: Armor Talents 2]</p>\n",
       "chat": "",
       "unidentified": ""
     },
@@ -83,6 +83,11 @@
     "effectNotes": [],
     "attackNotes": [],
     "soundEffect": "",
+    "powerAttack": {
+      "multiplier": "",
+      "damageBonus": 2,
+      "critMultiplier": 1
+    },
     "changes": [],
     "changeFlags": {
       "loseDexToAC": false,
@@ -131,5 +136,5 @@
       "sphere": "athletics"
     }
   },
-  "_id": "EQqJBWeVtBmQ8qze"
+  "_id": "zpmrFn1GNty3MtDd"
 }
