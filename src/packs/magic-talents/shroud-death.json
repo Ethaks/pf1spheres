@@ -1,14 +1,14 @@
 {
-  "name": "Flash Trap",
+  "name": "Shroud (Death)",
   "type": "feat",
-  "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
+  "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
   "data": {
     "description": {
-      "value": "<p>When used as a dart, the target must make a Reflex save or suffer a 20% miss chance on all attack rolls for 1 round and be dazzled for a number of rounds equal to your ranks in Craft (traps). At 10 ranks in Craft (traps), it may inflict the blinded condition rather than a miss chance.</p>\n<p>When used as a snare, all creatures within 5 ft. of a corner of the triggering square of your choice must make a Reflex save or be blinded for 1 round and dazzled for a number of rounds equal to your ranks in Craft (traps). For every 5 ranks in Craft (traps) you possess, the area of this snare increases by 5 ft. If you possess 10 or more ranks in Craft (traps), the duration of the blinded condition also increases by 1 round.</p>\n",
+      "value": "<p>Whenever you succeed at an attack roll made as part of a ghost strike, you can choose to mark the affected creature with necrotic energy as a free action. If a marked creature dies within your dominion range within 1 round per caster level, you can spend 1 spell point as an immediate action to reanimate its body. You can only have a number of creatures marked at a time equal to your casting ability modifier (minimum 1).</p>\n<p>If you possess Sustained Necromancy, you may use this talent to reanimate the body without spending a spell point if you concentrate on it with that talent.</p>\n",
       "chat": "",
       "unidentified": ""
     },
-    "tags": [["Dart"], ["Snare"]],
+    "tags": [["Dominion"]],
     "activation": {
       "cost": 1,
       "type": ""
@@ -115,7 +115,7 @@
       "dictionary": []
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "featType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -133,8 +133,8 @@
   },
   "flags": {
     "pf1spheres": {
-      "sphere": "trap"
+      "sphere": "death"
     }
   },
-  "_id": "99xquwpcYjX7OOxE"
+  "_id": "JPWOn4T0tGtsXHhh"
 }

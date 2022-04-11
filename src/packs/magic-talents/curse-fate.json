@@ -1,14 +1,14 @@
 {
-  "name": "Turbo Knockdown",
+  "name": "Curse (Fate)",
   "type": "feat",
-  "img": "modules/pf1spheres/assets/icons/spheres/lancer.webp",
+  "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
   "data": {
     "description": {
-      "value": "<p><strong>Prerequisites:</strong> Athletics sphere (Mobile Striker), Lancer sphere (Whirlwind Knockdown), base attack bonus +10.</p>\n<p>When you use Mobile Striker and Whirlwind Knockdown in the same round, you may instead target any creatures you threaten with the weapon used for the attack at some point during your movement. Resolve the attack action after completing the movement from Mobile Striker. At base attack bonus +15, halve the attack penalty from Whirlwind Knockdown, rounded up.</p>\n",
+      "value": "<p>When an enemy within range is making an attack roll, skill check, ability score check, or saving throw, you may spend a spell point as an immediate action to force that target to make the roll twice and take the lower result. You must use this word before the roll in question is made.</p>\n",
       "chat": "",
       "unidentified": ""
     },
-    "tags": [],
+    "tags": [["Word"]],
     "activation": {
       "cost": 1,
       "type": ""
@@ -115,7 +115,7 @@
       "dictionary": []
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "featType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -133,8 +133,8 @@
   },
   "flags": {
     "pf1spheres": {
-      "sphere": "lancer"
+      "sphere": "fate"
     }
   },
-  "_id": "CTUDOAG8ZP3gFlhA"
+  "_id": "XgojeZuzVhjE8oAi"
 }
