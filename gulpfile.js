@@ -250,19 +250,19 @@ function sluggify(string) {
 /**
  * Santize pack entries.
  *
- * This resets the entries' permissions to defaul and removes all non-pf1(spheres) flags.
+ * This resets an entry's permissions to default and removes all non-pf1(spheres) flags.
  *
- * @param {object} pack Loaded compendium content.
+ * @param {object} entry Loaded compendium content.
  * @returns {object} The sanitized content.
  */
-function sanitizePack(pack) {
+function sanitizePack(entry) {
   // Reset permissions to default
-  pack.permission = { default: 0 };
+  entry.permission = { default: 0 };
   // Remove non-system/non-core flags
-  for (const key of Object.keys(pack.flags)) {
-    if (!["pf1", "pf1spheres"].includes(key)) delete pack.flags[key];
+  for (const key of Object.keys(entry.flags)) {
+    if (!["pf1", "pf1spheres"].includes(key)) delete entry.flags[key];
   }
-  return pack;
+  return entry;
 }
 
 /**
@@ -271,14 +271,27 @@ function sanitizePack(pack) {
  * @returns {NodeJS.ReadableStream} The merged ReadableStream
  */
 function extractPacks() {
+  /** Additional configuration options affecting the pack extraction process */
+  const packConfig = {
+    /** Removes entries not part of the extracted pack */
+    resetPacks: true,
+    /** Tries to keep the pack entry's id constant */
+    keepIds: true,
+  };
+
   const extract = new Transform({
     readableObjectMode: true,
     writableObjectMode: true,
     transform(file, _, callback) {
+      const writtenFiles = [],
+        currentFiles = [];
       // Create directory.
       let filename = path.parse(file.path).name;
-      if (!fs.existsSync(`${PACK_SRC}/${filename}`)) {
-        fs.mkdirSync(`${PACK_SRC}/${filename}`);
+      const directory = path.resolve(PACK_SRC, filename);
+      if (!fs.existsSync(directory)) {
+        fs.mkdirSync(directory);
+      } else if (packConfig.resetPacks) {
+        currentFiles.push(...fs.readdirSync(directory).map((f) => path.resolve(directory, f)));
       }
 
       // Load the database.
@@ -288,28 +301,42 @@ function extractPacks() {
       db.persistence.compactDatafile();
       db.on("compaction.done", () => {
         // Export the packs.
-        db.find({}, (_, packs) => {
+        db.find({}, (_, entries) => {
           // Iterate through each compendium entry.
-          packs.forEach((pack) => {
+          entries.forEach((entry) => {
             // Remove permissions and _id
-            pack = sanitizePack(pack);
-
-            let output = JSON.stringify(pack, null, 2);
+            entry = sanitizePack(entry);
 
             // Sluggify the filename.
-            let packName = sluggify(pack.name);
+            let packName = sluggify(entry.name);
+
+            if (packConfig.keepIds) {
+              try {
+                const prev = fs.readJsonSync(path.resolve(PACK_SRC, filename, `${packName}.json`));
+                if (prev?._id) entry._id = prev._id;
+              } catch (_) {}
+            }
+
+            // Formatting is irrelevant, since prettier has to be run either way
+            let output = JSON.stringify(entry, null);
 
             // Write to the file system.
-            fs.writeFileSync(
-              path.resolve(__dirname, PACK_SRC, filename, `${packName}.json`),
-              output
-            );
+            const filePath = path.resolve(__dirname, PACK_SRC, filename, `${packName}.json`);
+            fs.writeFileSync(filePath, output);
+            writtenFiles.push(filePath);
           });
+
+          // Optionally delete files belonging to entries not part of the pack
+          if (packConfig.resetPacks) {
+            const untouchedFiles = currentFiles.filter((f) => !writtenFiles.includes(f));
+            for (const deleteFile of untouchedFiles) {
+              fs.removeSync(deleteFile);
+            }
+          }
+          // Complete the callback.
+          callback(null, file);
         });
       });
-
-      // Complete the callback.
-      callback(null, file);
     },
   });
 
