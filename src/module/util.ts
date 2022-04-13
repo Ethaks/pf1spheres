@@ -110,7 +110,14 @@ export const getActorHelpers = (actor: ActorPF): ActorHelpers => {
   };
 };
 
-// For convenience
+// The following types are only used to assert that the config extensions adhere to the expected shape.
+// Should more in-depth type checks be required, "conditional-type-checks" or "tsd" might become necessary.
+/* eslint-disable @typescript-eslint/no-unused-vars */ // Presence alone is sufficient to allow type checking
+/** Asserts that one type can extend another */
+export type _AssertExtends<T extends U, U> = never;
+/* eslint-enable @typescript-eslint/no-unused-vars */
+
+// For convenience <
 type Primitive = string | number | bigint | boolean | undefined | symbol;
 
 /**

@@ -132,7 +132,9 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
       levelLabel: levelLabels.magic,
       total: actor.data.data.spheres?.cl[sphere].total ?? 0,
       path: `@spheres.cl.${sphere}.total`,
-      icon: PF1S.sphereIcons[sphere],
+      icon:
+        PF1S.sphereIcons[sphere as keyof typeof PF1S.sphereIcons] ??
+        foundry.data.ItemData.DEFAULT_ICON,
       talents: ownedTalents[sphere] ?? [],
       hasTalents: Boolean(ownedTalents[sphere]?.length),
       expandTalents: Boolean(app.spheresTab.expandedSpheres[sphere] ?? false),
