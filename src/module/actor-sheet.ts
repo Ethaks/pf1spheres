@@ -6,9 +6,25 @@
 
 import type { ActorPF } from "./actor-data";
 import { getActorMethods } from "./actor-methods";
+import { SpheresActorSettings } from "./apps/SpheresActorSettings";
 import { PF1S } from "./config";
 import type { CombatSphere, ItemPF, MagicSphere, SourceEntry, Sphere } from "./item-data";
 import { getGame, localize } from "./util";
+
+export const onActorSheetHeaderButtons = (
+  sheet: ActorSheetPF,
+  buttons: Application.HeaderButton[]
+) => {
+  if (sheet.isEditable) {
+    const actor = sheet.actor;
+    buttons.unshift({
+      class: "pf1spheres-actor-settings",
+      icon: "fas fa-spinner",
+      label: localize("SpherePlural"),
+      onclick: (_) => new SpheresActorSettings(actor).render(true),
+    });
+  }
+};
 
 export const onActorSheetRender: (
   app: ActorSheetPF,
@@ -18,7 +34,8 @@ export const onActorSheetRender: (
   if (app.spheresTab == null) {
     app.spheresTab = { activateTab: false, expandedSpheres: {} };
   }
-  addTab(app, html);
+  addNavTab(app, html);
+
   const body = html.find("section.primary-body").first();
 
   const actor = app.actor as ActorPF;
@@ -38,7 +55,7 @@ export const onActorSheetRender: (
   return true;
 };
 
-const addTab = (app: ActorSheetPF, html: JQuery<HTMLElement>) => {
+const addNavTab = (app: ActorSheetPF, html: JQuery<HTMLElement>) => {
   // Handle tab in navigation TODO: Pure JS?
   const tabSelector = html.find("nav.sheet-navigation.tabs").first();
   const spheresTabTitle = `<a class="item" data-tab="spheres">${localize("SpherePlural")}</a>`;

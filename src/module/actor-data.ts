@@ -6,8 +6,30 @@
 
 import type { RollData, SourceDetails, SourceInfo } from "./item-data";
 import type { TotalModData, ValueData } from "./common-data";
-import type { DeepNonNullable, PropPath } from "./util";
 import type { PF1S } from "./config";
+import type { DeepNonNullable, PropPath } from "./ts-util";
+
+declare global {
+  interface DocumentClassConfig {
+    Actor: typeof ActorPF;
+  }
+  interface SourceConfig {
+    Actor: PF1ActorDataSource;
+  }
+  interface DataConfig {
+    Actor: PF1ActorDataProperties;
+  }
+  interface FlagConfig {
+    Actor: {
+      pf1spheres?: SpheresActorFlags;
+    };
+  }
+}
+
+export interface SpheresActorFlags {
+  /** The ability used by this actor for magic skill checks */
+  msbAbility?: Ability | "";
+}
 
 export declare class ActorPF extends Actor {
   /**
@@ -46,10 +68,25 @@ export type PF1ActorDataSource = {
 
 export interface PF1ActorDataSourceData {
   attributes: AttributesSourceData;
+  abilities: AbilitiesSourceData;
 }
 
 interface AttributesSourceData {
   conditions: Record<Condition, boolean>;
+}
+
+/** A union of strings containing valid ability score abbreviations */
+export type Ability = "str" | "dex" | "con" | "int" | "wis" | "cha";
+
+/** Source data for an actor's `data.abilities` */
+type AbilitiesSourceData = Record<Ability, AbilitySourceData>;
+
+/** A single ability's source data */
+interface AbilitySourceData {
+  value: number;
+  damage: number;
+  drain: number;
+  userPenalty: number;
 }
 
 /* PF1 Prepared Data */
@@ -60,7 +97,10 @@ export type PF1ActorDataProperties = {
 };
 
 export interface PF1ActorDataPropertiesData extends PF1ActorDataSourceData {
+  /** An actor's attributes data (containing most of all data) after preparation */
   attributes: AttributesPropertiesData;
+  /** An actor's abilities data after preparation */
+  abilities: AbilitiesPropertiesData;
 
   /** Guaranteed to be complete after base data preparation */
   spheres: PF1ActorSpheresData | undefined;
@@ -73,6 +113,19 @@ interface AttributesPropertiesData extends AttributesSourceData {
   bab: {
     total: number;
   };
+}
+
+/** An actor's `data.abilities` object including derived values after preparation */
+type AbilitiesPropertiesData = Record<Ability, AbilityPropertiesData>;
+/** A single ability's data including derived values after preparation */
+interface AbilityPropertiesData extends AbilitySourceData {
+  /** This ability's modifier value */
+  mod: number;
+  base: number;
+  baseMod: number;
+  checkMod: number;
+  penalty: number;
+  total: number;
 }
 
 type Condition = SphereCondition;

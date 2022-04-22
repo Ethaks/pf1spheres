@@ -28,6 +28,9 @@ export interface TotalModData<T> extends TotalData<T>, CappedModifiableData<T> {
 
 export interface ValueData<T> extends BaseData<T>, TotalData<T>, CappedModifiableData<T> {}
 
+export interface PF1ModuleData extends Game.ModuleData<foundry.packages.ModuleData> {
+  api?: PF1SpheresApi;
+}
 export interface PF1SpheresApi {
   config: typeof PF1S;
   changeFlatTargets: typeof changeFlatTargets;

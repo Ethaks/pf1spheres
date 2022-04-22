@@ -4,8 +4,7 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
-import type { ActorDataPath, ActorPF } from "./actor-data";
-import { PF1S } from "./config";
+import type { Ability, ActorDataPath, ActorPF } from "./actor-data";
 import type {
   BonusModifier,
   CombatSphere,
@@ -17,12 +16,14 @@ import type {
   SphereChangeTarget,
   SphereCLChangeTarget,
 } from "./item-data";
-import type { ActorHelpers } from "./util";
-import { getActorHelpers, getGame, localize } from "./util";
+import { PF1S } from "./config";
+import { getGame, localize } from "./util";
+import { getActorHelpers } from "./actor-util";
+import { nonNullable } from "./ts-util";
 
 /**
- * Registers all change targets not already part of {@link PF1CONFIG.buffTargets}
- * and applies additional changes to the PF1 system config.
+ * Registers all change targets not already part of the static buffTarget additions
+ * from PF1CONFIG_EXTRA and applies additional changes to the PF1 system config.
  */
 export const registerChanges = (): void => {
   // Register sphere specific CL change targets
@@ -124,22 +125,36 @@ export const changeFlatTargets: Record<SphereChangeTarget, ChangeFlatTargetData>
  * @param changes - The array of Changes that will be applied to this actor
  */
 export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): DefaultChangeData[] => {
-  const { ItemChange, pushNSourceInfo, pushPSourceInfo } = getChangeHelpers(actor);
+  const { ItemChange, pushNSourceInfo, pushPSourceInfo, getAbilityMod } = getChangeHelpers(actor);
 
   // Generate array with all change data and source info
-  const changeData = [
-    getDefaultChanges(),
-    getBatteredChange(actor.data.data.attributes.conditions.battered ?? false),
-  ];
+  const defaultChangeData = getDefaultChanges();
+
+  // Add battered condition change if applicable
+  const battered = actor.data.data.attributes.conditions.battered ?? false;
+  const batteredChangeData = getBatteredChangeData(battered);
+
+  // Add MSB bonus from ability score
+  const msbAbility = actor.data.flags.pf1spheres?.msbAbility;
+  const msbAbilityMod = getAbilityMod(msbAbility);
+  const msbAbilityChangeData = getMsbAbilityChange(msbAbility, msbAbilityMod);
+
+  const changeData: DefaultChangeData[] = [
+    defaultChangeData,
+    batteredChangeData,
+    msbAbilityChangeData,
+  ].filter(nonNullable);
 
   // Actually add Changes to the system's process
   changes.push(
-    ...changeData.flatMap((data) => data.changes.map((changeData) => ItemChange.create(changeData)))
+    ...changeData.flatMap(
+      (data) => data.changes?.map((changeData) => ItemChange.create(changeData)) ?? []
+    )
   );
   // Push source info into actor
   changeData.forEach((cd) => {
-    cd.pSourceInfo.forEach((si) => pushPSourceInfo(si[0], si[1]));
-    cd.nSourceInfo.forEach((si) => pushNSourceInfo(si[0], si[1]));
+    cd.pSourceInfo?.forEach(([path, sourceEntry]) => pushPSourceInfo(path, sourceEntry));
+    cd.nSourceInfo?.forEach(([path, sourceEntry]) => pushNSourceInfo(path, sourceEntry));
   });
 
   // Return changeData to enable easier testing
@@ -147,40 +162,39 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
 };
 
 /** Returns DefaultChangeData applicable to every single actor, regardless of actor data */
-const getDefaultChanges = (): DefaultChangeData =>
-  createDefaultChangeData({
-    changes: [
-      // Push ModCap to Total change
-      {
-        formula: "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap)",
-        subTarget: "~spherecl",
+const getDefaultChanges = (): DefaultChangeData => ({
+  changes: [
+    // Push ModCap to Total change
+    {
+      formula: "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap)",
+      subTarget: "~spherecl",
+      modifier: "untyped",
+    },
+    // For every magic sphere, determine CL from base + general HD capped + sphere specific HD capped
+    ...Object.keys(PF1S.magicSpheres).map(
+      (sphere): ItemChangeCreateData => ({
+        formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap)`,
+        subTarget: `spherecl${sphere.capitalize()}`,
         modifier: "untyped",
-      },
-      // For every magic sphere, determine CL from base + general HD capped + sphere specific HD capped
-      ...Object.keys(PF1S.magicSpheres).map(
-        (sphere): ItemChangeCreateData => ({
-          formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap)`,
-          subTarget: `spherecl${sphere.capitalize()}`,
-          modifier: "untyped",
-        })
-      ),
-      // Add a change to add total BAB to sphere BABs
-      {
-        formula: "@attributes.bab.total",
-        subTarget: "~spherebabBase",
-        modifier: "base",
-      },
-      // Add MSB Base to Total
-      { formula: "@spheres.msb.base", subTarget: "msb", modifier: "base" },
-      // Add MSD Base to Total
-      { formula: "@spheres.msd.base", subTarget: "msd", modifier: "base" },
-    ], // TODO: Add all sphere specific CL sources to .total sourceInfo?
-  });
+      })
+    ),
+    // Add a change to add total BAB to sphere BABs
+    {
+      formula: "@attributes.bab.total",
+      subTarget: "~spherebabBase",
+      modifier: "base",
+    },
+    // Add MSB Base to Total
+    { formula: "@spheres.msb.base", subTarget: "msb", modifier: "base" },
+    // Add MSD Base to Total
+    { formula: "@spheres.msd.base", subTarget: "msd", modifier: "base" },
+  ],
+});
 
 /** Returns DefaultChangeData dependent on whether the battered condition is true */
-const getBatteredChange = (battered: boolean): DefaultChangeData =>
+const getBatteredChangeData = (battered: boolean): DefaultChangeData | undefined =>
   battered
-    ? createDefaultChangeData({
+    ? {
         changes: [
           {
             formula: "-2",
@@ -189,32 +203,33 @@ const getBatteredChange = (battered: boolean): DefaultChangeData =>
           },
         ],
         nSourceInfo: [["data.attributes.cmd.total", { value: -2, name: localize("Battered") }]],
-      })
-    : createDefaultChangeData();
+      }
+    : undefined;
+
+const getMsbAbilityChange = (
+  ability: Ability | "" | undefined,
+  modifier: number
+): DefaultChangeData | undefined =>
+  ability !== undefined && ability !== ""
+    ? {
+        changes: [{ formula: `${modifier}`, subTarget: "msb", modifier: "untyped" }],
+        pSourceInfo: [
+          ["data.spheres.msb.total", { value: modifier, name: CONFIG.PF1.abilities[ability] }],
+        ],
+      }
+    : undefined;
 
 /** Returns a collection of helper functions and classes for actor and ItemChange handling */
-const getChangeHelpers = (actor: ActorPF): ChangeHelpers => ({
+const getChangeHelpers = (actor: ActorPF) => ({
   ...getActorHelpers(actor),
   ItemChange: getGame().pf1.documentComponents.ItemChange,
 });
 
-/**
- * Constructs DefaultChangeData from a Partial, guaranteeing that all properties will be present
- */
-const createDefaultChangeData = (data: Partial<DefaultChangeData> = {}): DefaultChangeData => ({
-  changes: data.changes ?? [],
-  nSourceInfo: data.nSourceInfo ?? [],
-  pSourceInfo: data.pSourceInfo ?? [],
-});
-
-interface ChangeHelpers extends ActorHelpers {
-  ItemChange: typeof ItemChange;
-}
-
+/** A data set used to create Changes added bu default as well as corresponding source info */
 interface DefaultChangeData {
-  changes: ItemChangeCreateData[];
-  nSourceInfo: [ActorDataPath, SourceEntry][];
-  pSourceInfo: [ActorDataPath, SourceEntry][];
+  changes?: ItemChangeCreateData[];
+  nSourceInfo?: [ActorDataPath, SourceEntry][];
+  pSourceInfo?: [ActorDataPath, SourceEntry][];
 }
 
 type ChangeFlatTargetData = { default: ActorDataPath[] } & {

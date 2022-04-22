@@ -14,6 +14,7 @@ import type {
   SaveType,
   Sphere,
 } from "./item-data";
+import { nonNullable } from "./ts-util";
 import { getGame } from "./util";
 
 /** Preconfigured data import templates */
@@ -90,9 +91,7 @@ export async function importData(conf: string | PackConfig, options: DataImportO
     ? config.extraFunctions.reduce((acc, fn) => fn(acc), rawData)
     : rawData;
 
-  const transformedData = dataAfterExtraTreatment
-    .map(config.transformFunction)
-    .filter((data): data is ItemDataConstructorData => Boolean(data));
+  const transformedData = dataAfterExtraTreatment.map(config.transformFunction).filter(nonNullable);
 
   // Record in which each evential pack gets its own index
   const sortedData: Record<

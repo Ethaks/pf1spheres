@@ -4,8 +4,9 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
+import type { Ability } from "./actor-data";
 import type { BonusModifier } from "./item-data";
-import type { _AssertExtends } from "./util";
+import type { _AssertExtends } from "./ts-util";
 
 /**
  * Runtime config object for the PF1 Spheres module
@@ -223,6 +224,7 @@ export interface PF1CONFIG {
   armorProficiencies: Record<"lgt" | "med" | "hvy" | "shl" | "twr", string>;
   weaponProficiencies: Record<"sim" | "mar", string>;
   skills: Record<string, string>;
+  abilities: Record<Ability, string>;
 }
 
 /* eslint-disable @typescript-eslint/no-unused-vars */ // Presence alone is sufficient to allow type checking

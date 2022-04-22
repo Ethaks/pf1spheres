@@ -7,6 +7,30 @@
 import type { ActorDataPath, ActorPF } from "./actor-data";
 import type { PF1S, PF1CONFIG_EXTRA } from "./config";
 
+declare global {
+  interface DocumentClassConfig {
+    Item: typeof ItemPF;
+  }
+
+  /** Source Data configuration for the PF1 system */
+  interface SourceConfig {
+    Item: PF1ItemDataSource;
+  }
+
+  interface DataConfig {
+    Item: PF1ItemDataProperties;
+  }
+
+  interface FlagConfig {
+    Item: {
+      pf1spheres?: {
+        sphere?: Sphere;
+        casterProgression?: CasterProgression;
+      };
+    };
+  }
+}
+
 export declare class ItemPF extends Item {
   isActive: boolean;
   changes: Collection<ItemChange>;

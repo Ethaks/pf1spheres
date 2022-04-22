@@ -17,8 +17,8 @@ import {
   registerChanges,
 } from "./changes";
 import { getGame, localize } from "./util";
-import type { PF1SpheresApi } from "./common-data";
-import { onActorSheetRender } from "./actor-sheet";
+import type { PF1ModuleData } from "./common-data";
+import { onActorSheetHeaderButtons, onActorSheetRender } from "./actor-sheet";
 import * as packUtils from "./pack-util";
 
 // Initialize module
@@ -86,13 +86,13 @@ Hooks.once("setup", async () => {
   }
 
   // Enable API
-  const moduleData = getGame().modules?.get("pf1spheres");
+  const moduleData: PF1ModuleData | undefined = getGame().modules?.get("pf1spheres");
   if (moduleData) {
-    (moduleData.api as PF1SpheresApi) = {
+    moduleData.api = {
       config: PF1S,
       changeFlatTargets: changeFlatTargets,
       _internal: {
-        packUtils: packUtils,
+        packUtils: { ...packUtils },
       },
     };
   }
@@ -108,6 +108,8 @@ Hooks.once("setup", async () => {
 Hooks.on("renderItemSheetPF", onItemSheetRender);
 
 Hooks.on("renderActorSheetPF", onActorSheetRender);
+
+Hooks.on("getActorSheetPFHeaderButtons", onActorSheetHeaderButtons);
 
 Hooks.on("pf1.prepareBaseActorData", onActorBasePreparation);
 

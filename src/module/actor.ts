@@ -6,10 +6,11 @@
 
 import type { ItemData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
 import type { ActorPF, PF1ActorSpheresData } from "./actor-data";
+import { getActorHelpers } from "./actor-util";
 import type { TotalModData, ValueData } from "./common-data";
 import { PF1S } from "./config";
 import type { CombatSphere, MagicSphere, PF1ClassDataSource } from "./item-data";
-import { getActorHelpers, getGame, localize, pushSourceInfo } from "./util";
+import { getGame, localize } from "./util";
 
 /**
  * Hooks into the preparation of base data for Actors, setting base values
@@ -27,7 +28,8 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
   // Start actual calculations
   const useFractionalBAB = getGame().settings.get("pf1", "useFractionalBaseBonuses") ?? false;
 
-  pushSourceInfo(actor, "positive")("data.spheres.msd.base", {
+  const { pushPSourceInfo } = getActorHelpers(actor);
+  pushPSourceInfo("data.spheres.msd.base", {
     name: localize("PF1.Base"),
     value: 11,
   });

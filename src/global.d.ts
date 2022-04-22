@@ -6,25 +6,11 @@
 
 import type { ActorDataProperties } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
 import type { ChatSpeakerDataProperties } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/chatSpeakerData";
-import type {
-  ActorDataPath,
-  PF1ActorDataProperties,
-  PF1ActorDataSource,
-} from "./module/actor-data";
+import type { ActorDataPath } from "./module/actor-data";
 import type { ActorSheetPF } from "./module/actor-sheet";
 import type { PF1CONFIG_EXTRA, PF1CONFIG, PF1S } from "./module/config";
-import type {
-  CasterProgression,
-  ItemChange,
-  ItemPF,
-  PF1ItemDataProperties,
-  PF1ItemDataSource,
-  RollData,
-  SourceEntry,
-  SourceInfo,
-  Sphere,
-} from "./module/item-data";
-import type { FromEntriesWithReadOnly } from "./module/util";
+import type { ItemChange, RollData, SourceEntry, SourceInfo } from "./module/item-data";
+import type { FromEntriesWithReadOnly } from "./module/ts-util";
 
 export {};
 
@@ -58,42 +44,10 @@ declare global {
     };
   }
 
-  interface DocumentClassConfig {
-    Item: typeof ItemPF;
-  }
-
-  /** Source Data configuration for the PF1 system */
-  interface SourceConfig {
-    Actor: PF1ActorDataSource;
-    Item: PF1ItemDataSource;
-  }
-
-  interface DataConfig {
-    Actor: PF1ActorDataProperties;
-    Item: PF1ItemDataProperties;
-  }
-
-  interface FlagConfig {
-    Item: {
-      pf1spheres?: {
-        sphere?: Sphere;
-        casterProgression?: CasterProgression;
-      };
-    };
-  }
-
   namespace ClientSettings {
     interface Values {
       // PF1 system settings
       "pf1.useFractionalBaseBonuses": boolean;
-    }
-  }
-
-  namespace Game {
-    /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
-    interface ModuleData<T> {
-      /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-      api?: Record<string, any>;
     }
   }
 
