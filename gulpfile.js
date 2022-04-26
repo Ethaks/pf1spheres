@@ -318,7 +318,7 @@ function extractPacks() {
             }
 
             // Formatting is irrelevant, since prettier has to be run either way
-            let output = JSON.stringify(entry, null);
+            let output = JSON.stringify(entry, null, 2);
 
             // Write to the file system.
             const filePath = path.resolve(__dirname, PACK_SRC, filename, `${packName}.json`);
