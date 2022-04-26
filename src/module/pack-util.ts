@@ -5,6 +5,11 @@
  */
 
 import type { ItemDataConstructorData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
+import type { JournalEntryDataConstructorData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/journalEntryData";
+import type {
+  ConstructorDataType,
+  DocumentType,
+} from "@league-of-foundry-developers/foundry-vtt-types/src/types/helperTypes";
 import { PF1S } from "./config";
 import type {
   ItemPF,
@@ -17,19 +22,39 @@ import type {
 import { nonNullable } from "./ts-util";
 import { getGame } from "./util";
 
+interface PackConfig<T extends DocumentType> {
+  type: T;
+  packNames: string[];
+  fileNames: string[];
+  /**
+   * A function transforming source data into Foundry-conforming shape,
+   * or undefined if data is to be dropped or no viable data could be extracted
+   */
+  transformFunction: (
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    arg: any
+  ) => ConstructorDataType<CONFIG[T]["documentClass"]["prototype"]["data"]> | undefined;
+  extraFunctions?: ((arg: RawData[]) => RawData[])[];
+  /** A function that returns one of this config's {@link PackConfig.packNames} to which an individual document belongs */
+  orderByFunction?: (arg: ItemDataConstructorData) => string | undefined;
+}
+
 /** Preconfigured data import templates */
-const configs: Record<string, PackConfig> = {
+const configs: Record<string, PackConfig<"Item" | "JournalEntry">> = {
   magicTalents: {
+    type: "Item",
     packNames: ["Magic Talents"],
     fileNames: ["magic-talents.json"],
     transformFunction: getTalentData,
   },
   combatTalents: {
+    type: "Item",
     packNames: ["Combat Talents"],
     fileNames: ["combat-talents.json"],
     transformFunction: getTalentData,
   },
   mixedTalents: {
+    type: "Item",
     packNames: ["Magic Talents", "Combat Talents"],
     fileNames: ["talents.json"],
     transformFunction: getTalentData,
@@ -37,16 +62,19 @@ const configs: Record<string, PackConfig> = {
     extraFunctions: [filterWrongTalents, deduplicateData],
   },
   feats: {
+    type: "Item",
     packNames: ["Spheres Feats"],
     fileNames: ["feats.json"],
     transformFunction: getFeatData,
   },
   classes: {
+    type: "Item",
     packNames: ["Spheres Classes"],
     fileNames: ["classes.json"],
     transformFunction: getClassData,
   },
   classAbilities: {
+    type: "Item",
     packNames: ["Spheres Class Features"],
     fileNames: ["class-abilities.json"],
     transformFunction: getAbilityData,
@@ -59,7 +87,7 @@ interface RawDataBase {
   name: string;
   text: string;
 }
-type RawData = RawClassData | RawTalentData | RawFeatData | RawAbilityData;
+type RawData = RawClassData | RawTalentData | RawFeatData | RawAbilityData | RawTocData;
 
 /** Additional options affecting an import process */
 interface DataImportOptions {
@@ -79,7 +107,10 @@ interface DataImportOptions {
  * @param [options] - Additional options affecting the import process
  * @returns Objects containing a pack reference and the items created therein
  */
-export async function importData(conf: string | PackConfig, options: DataImportOptions = {}) {
+export async function importData(
+  conf: string | PackConfig<"Item" | "JournalEntry">,
+  options: DataImportOptions = {}
+) {
   const config = typeof conf === "string" ? configs[conf] : conf;
   if (config === undefined) throw new Error(`No config object found for parameter ${conf}`);
   const { create = true, update = true, reset = false } = options;
@@ -322,7 +353,9 @@ function isCombatTalent(data: ItemDataConstructorData | RawTalentData): boolean 
  */
 function guessSphere(sphere: string): Sphere | undefined {
   const sphereNames = [...Object.keys(PF1S.magicSpheres), ...Object.keys(PF1S.combatSpheres)];
-  const guess = sphereNames.find((n) => n.startsWith(sphere.split(" ")[0]));
+  const slugSphereName = sphere.slugify();
+  if (sphereNames.includes(slugSphereName as Sphere)) return slugSphereName as Sphere;
+  const guess = sphereNames.find((n) => n.startsWith(slugSphereName.split("-")[0]));
   if (guess) return guess;
   else return undefined;
 }
@@ -542,16 +575,75 @@ export async function linkAbilitiesToClass(
   return Item.updateDocuments(updates, { pack: classPack.collection });
 }
 
-interface PackConfig {
-  packNames: string[];
-  fileNames: string[];
-  /**
-   * A function transforming source data into Foundry-conforming shape,
-   * or undefined if data is to be dropped or no viable data could be extracted
-   */
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  transformFunction: (arg: any) => ItemDataConstructorData | undefined;
-  extraFunctions?: ((arg: RawData[]) => RawData[])[];
-  /** A function that returns one of this config's {@link PackConfig.packNames} to which an individual document belongs */
-  orderByFunction?: (arg: ItemDataConstructorData) => string | undefined;
+interface RawTocData extends RawDataBase {
+  toc: string;
 }
+/**
+ * Imports Sphere journals for magic and combat spheres, without clearing existing packs beforehand.
+ * TODO: Investigate whether this can be moved into the regular import process
+ */
+export const getSphereJournalData = async () => {
+  await ensurePacks(["Magic Spheres", "Combat Spheres"]);
+  const rawData = (await fetchData(["tocs.json"])) as RawTocData[];
+
+  const talents = [
+    ...((await getGame().packs.get("pf1spheres.combat-talents")?.getDocuments()) ?? []),
+    ...((await getGame().packs.get("pf1spheres.magic-talents")?.getDocuments()) ?? []),
+  ] as StoredDocument<Item>[];
+
+  const stripTocRegex = /\s(\[|\().*/gm;
+
+  const getTalent = (sphere: Sphere, talent: string) =>
+    talents.find((t) => t.data.flags.pf1spheres?.sphere === sphere && t.name?.startsWith(talent));
+
+  const isHeader = (text: string) =>
+    ["Talents", "Archetypes", "Feats"].some((s) => text.endsWith(s));
+
+  const journals: Record<"magic" | "combat", JournalEntryDataConstructorData[]> = rawData
+    .map(({ name, text, toc }) => {
+      const sphere = guessSphere(name);
+      if (sphere === undefined) return;
+
+      const sphereType = sphere in PF1S.magicSpheres ? ("magic" as const) : ("combat" as const);
+
+      const icon =
+        PF1S.sphereIcons[sphere as keyof typeof PF1S.sphereIcons] ??
+        foundry.data.ItemData.DEFAULT_ICON;
+
+      const cleanToc: string = toc.replace(stripTocRegex, "");
+
+      const tocList = cleanToc
+        .split("\n")
+        .filter((tal) => {
+          const bannedNameStarts = [
+            "Sphere-Specific Variant Rule",
+            "Table: Unarmed Combatants",
+            "Table: Practitioner Unarmed Damage",
+            "Unarmed Combatants",
+          ];
+          return !bannedNameStarts.some((name) => tal.startsWith(name));
+        })
+        .map((tal) => {
+          const item = getTalent(sphere, tal);
+          if (isHeader(tal)) return `</ul><br><b>${tal}</b><br><ul>`;
+          else if (item) return `<li>${item.link}</li>`;
+          else return `<li>${tal}</li>`;
+        })
+        .join("\n");
+
+      const journalText = text + "<br>\n" + tocList + "</ul>";
+      return { name, img: icon, content: journalText, sphereType };
+    })
+    .filter(nonNullable)
+    .reduce(
+      (acc, { sphereType, ...data }) => {
+        acc[sphereType].push(data);
+        return acc;
+      },
+      { magic: [], combat: [] } as Record<"magic" | "combat", JournalEntryDataConstructorData[]>
+    );
+
+  for (const [sphereType, data] of Object.entries(journals)) {
+    await JournalEntry.createDocuments(data, { pack: `pf1spheres.${sphereType}-spheres` });
+  }
+};
