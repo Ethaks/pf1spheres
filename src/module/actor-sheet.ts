@@ -9,7 +9,8 @@ import { getActorMethods } from "./actor-methods";
 import { SpheresActorSettings } from "./apps/SpheresActorSettings";
 import { PF1S } from "./config";
 import type { CombatSphere, ItemPF, MagicSphere, SourceEntry, Sphere } from "./item-data";
-import { getGame, localize } from "./util";
+import { getSphereType } from "./item-util";
+import { enforce, getGame, localize } from "./util";
 
 export const onActorSheetHeaderButtons = (
   sheet: ActorSheetPF,
@@ -188,8 +189,6 @@ const getRenderedSpheresTab = (data: SpheresTemplateData) =>
 const activateListeners = (app: ActorSheetPF, html: JQuery<HTMLElement>, actor: ActorPF) => {
   html.find(".msb>.attribute-name.rollable").on("click", _onMsbRoll(actor));
 
-  // html.find(".attribute-grid>.cl, .attribute-grid>.bab").on("click", _toggleSphereLevelDisplay);
-
   html.find(".expand-sphere").on("click", _toggleSphereTalentsDisplay(app));
 
   html
@@ -204,6 +203,8 @@ const activateListeners = (app: ActorSheetPF, html: JQuery<HTMLElement>, actor: 
       "click",
       getGame().pf1.applications.ActorSheetPF.prototype._quickItemActionControl.bind(app)
     );
+
+  html.find(".sphere-label").on("click", _openSphereJournal);
 };
 
 const getTalentTemplateData = (item: ItemPF): TalentTemplateData => ({
@@ -251,6 +252,26 @@ const _onMsbRoll = (actor: ActorPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
 //     },
 //   });
 // };
+
+/**
+ * Opens a journal entry sheet for the clicked on sphere
+ *
+ * @param event - The click event for a sphere label
+ */
+const _openSphereJournal = async (event: JQuery.ClickEvent<HTMLElement>) => {
+  event.preventDefault();
+
+  const sphere = $(event.currentTarget).parents(".sphere").data("sphere") as Sphere | undefined;
+  enforce(sphere);
+  const sphereType = getSphereType(sphere);
+  enforce(sphereType);
+
+  const pack = getGame().packs.get(`pf1spheres.${sphereType}-spheres`);
+  enforce(pack);
+  const documents = (await pack.getDocuments()) as StoredDocument<JournalEntry>[];
+  const targetDocument = documents.find((d) => d.data.flags.pf1spheres?.sphere === sphere);
+  targetDocument?.sheet?.render(true);
+};
 
 const _toggleSphereTalentsDisplay = (app: ActorSheetPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
   ev.preventDefault();

@@ -9,7 +9,7 @@ import type { ChatSpeakerDataProperties } from "@league-of-foundry-developers/fo
 import type { ActorDataPath } from "./module/actor-data";
 import type { ActorSheetPF } from "./module/actor-sheet";
 import type { PF1CONFIG_EXTRA, PF1CONFIG, PF1S } from "./module/config";
-import type { ItemChange, RollData, SourceEntry, SourceInfo } from "./module/item-data";
+import type { ItemChange, RollData, SourceEntry, SourceInfo, Sphere } from "./module/item-data";
 import type { FromEntriesWithReadOnly } from "./module/ts-util";
 
 export {};
@@ -49,6 +49,10 @@ declare global {
       // PF1 system settings
       "pf1.useFractionalBaseBonuses": boolean;
     }
+  }
+
+  interface FlagConfig {
+    JournalEntry: { pf1spheres?: { sphere?: Sphere } };
   }
 
   // This changes the return type of Object.keys – handle with care

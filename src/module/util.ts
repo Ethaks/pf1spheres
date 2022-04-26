@@ -30,3 +30,21 @@ export const getGame = (): Game => {
   if (!(game instanceof Game)) throw new Error("Game not initialised");
   return game;
 };
+
+/**
+ * Tests if the given `value` is truthy.
+ *
+ * If it is not truthy, an {@link Error} is thrown, which depends on the given `message` parameter:
+ * - If `message` is a string`, it is used to construct a new {@link Error} which then is thrown.
+ * - If `message` is an instance of {@link Error}, it is thrown.
+ * - If `message` is `undefined`, an {@link Error} with a default message is thrown.
+ */
+export function enforce(value: unknown, message?: string | Error): asserts value {
+  if (!value) {
+    if (!message) {
+      message =
+        "There was an unexpected error in the Spheres for Pathfinder 1e module. For more details, please take a look at the console (F12).";
+    }
+    throw message instanceof Error ? message : new Error(message);
+  }
+}
