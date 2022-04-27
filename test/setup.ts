@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
-import translations from "../lang/en.json";
+import translations from "../public/lang/en.json";
 import { testActor } from "./test-actor";
 import type { ActorDataPath, ActorPF } from "../src/module/actor-data";
 import { FakeItemChange } from "./fakes";

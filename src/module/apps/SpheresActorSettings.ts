@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+//
+// SPDX-License-Identifier: EUPL-1.2
+
 import type { ActorDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
 import type { SpheresActorFlags } from "../actor-data";
 import { PF1S } from "../config";

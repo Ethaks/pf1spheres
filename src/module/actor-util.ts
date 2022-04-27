@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+//
+// SPDX-License-Identifier: EUPL-1.2
+
 import type { Ability, ActorDataPath, ActorPF } from "./actor-data";
 import type { SourceEntry } from "./item-data";
 import { getGame } from "./util";

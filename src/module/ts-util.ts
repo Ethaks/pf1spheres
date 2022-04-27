@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+//
+// SPDX-License-Identifier: EUPL-1.2
+
 // The following types are only used to assert that the config extensions adhere to the expected shape.
 // Should more in-depth type checks be required, "conditional-type-checks" or "tsd" might become necessary.
 /* eslint-disable @typescript-eslint/no-unused-vars */ // Presence alone is sufficient to allow type checking

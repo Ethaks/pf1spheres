@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+//
+// SPDX-License-Identifier: EUPL-1.2
+
 import { PF1S } from "./config";
 import type { CombatSphere, MagicSphere, Sphere } from "./item-data";
 

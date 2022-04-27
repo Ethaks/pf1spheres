@@ -3,22 +3,16 @@
 //
 // SPDX-License-Identifier: MIT
 
-const esbuild = require("esbuild");
 const argv = require("yargs").argv;
 const chalk = require("chalk");
 const fs = require("fs-extra");
 const gulp = require("gulp");
 const path = require("path");
-const sass = require("@mr-hope/gulp-sass").sass;
-const sourcemaps = require("gulp-sourcemaps");
 
 // Compendium tasks
 const Datastore = require("nedb");
 const { Transform } = require("stream");
 const mergeStream = require("merge-stream");
-
-// BrowserSync for reloads
-const browserSync = require("browser-sync").create();
 
 /********************/
 /*  CONFIGURATION   */
@@ -26,158 +20,19 @@ const browserSync = require("browser-sync").create();
 
 const name = "pf1spheres";
 const sourceDirectory = "./src";
-const entryFile = `${sourceDirectory}/module/${name}.ts`;
 const distDirectory = "./dist";
-const stylesDirectory = `${sourceDirectory}/styles`;
-const stylesExtension = "scss";
-const sourceFileExtension = "ts";
-const staticFiles = [
-  "assets",
-  "fonts",
-  "lang",
-  "templates",
-  "CREDITS.md",
-  "LICENSE",
-  "LICENSES",
-  ".reuse",
-];
-const manifest = `${sourceDirectory}/module.json`;
 const PACK_SRC = `${sourceDirectory}/packs`;
-const PACK_DEST = "packs";
+const PACK_DEST = "public/packs";
 
 /********************/
 /*      BUILD       */
 /********************/
-
-/** @type {esbuild.BuildResult|undefined} */
-let buildResult;
-
-/**
- * Build the distributable JavaScript code
- */
-async function buildCode(isProductionBuild = false) {
-  return buildResult === undefined
-    ? (buildResult = await esbuild.build({
-        entryPoints: [entryFile],
-        bundle: true,
-        outfile: `${distDirectory}/${name}.js`,
-        sourcemap: true,
-        sourceRoot: name,
-        minifySyntax: isProductionBuild,
-        minifyWhitespace: isProductionBuild,
-        keepNames: true,
-        format: "esm",
-        platform: "browser",
-        incremental: !isProductionBuild,
-      }))
-    : buildResult.rebuild();
-}
-
-/** Build JS for development */
-function buildDevelopment() {
-  return buildCode(false);
-}
-
-/** Build JS for production */
-function buildProduction() {
-  return buildCode(true);
-}
-
-/**
- * Build style sheets
- */
-function buildStyles() {
-  return gulp
-    .src(`${stylesDirectory}/${name}.${stylesExtension}`)
-    .pipe(sourcemaps.init())
-    .pipe(sass().on("error", sass.logError))
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest(`${distDirectory}/styles`))
-    .pipe(browserSync.stream());
-}
-
-/**
- * Copy static files
- */
-async function copyFiles() {
-  for (const file of staticFiles) {
-    if (fs.existsSync(file)) {
-      await fs.copy(file, `${distDirectory}/${file}`);
-    }
-  }
-
-  // Copy manifest seperately to avoid placement in dist/src
-  await fs.copyFile(manifest, `${distDirectory}/module.json`);
-}
 
 /**
  * Copy pack files from root to desitnation
  */
 async function copyPacks() {
   await fs.copy(PACK_DEST, `${distDirectory}/packs`);
-}
-
-/**
- * Initialises browserSync
- */
-function serve() {
-  browserSync.init({
-    server: false,
-    open: false,
-    proxy: {
-      target: "localhost:30000",
-      ws: true,
-      proxyOptions: {
-        changeOrigin: false,
-      },
-    },
-  });
-}
-
-/**
- * Reloads browsers using browserSync's proxy
- */
-function reload(cb) {
-  browserSync.reload();
-  cb();
-}
-
-/**
- * Watch for changes for each build step
- */
-function buildWatch() {
-  serve();
-  gulp.watch(
-    `${sourceDirectory}/**/*.${sourceFileExtension}`,
-    { ignoreInitial: false },
-    gulp.series(buildDevelopment, reload)
-  );
-  gulp.watch(`${stylesDirectory}/**/*.${stylesExtension}`, { ignoreInitial: false }, buildStyles);
-  gulp.watch(staticFiles, { ignoreInitial: false }, copyFiles);
-  buildPacks();
-  gulp.watch(PACK_SRC, compilePacks);
-}
-
-/********************/
-/*      CLEAN       */
-/********************/
-
-/**
- * Remove built files from `dist` folder while ignoring source files
- */
-async function clean() {
-  const files = [...staticFiles, "module", "packs"];
-
-  if (fs.existsSync(`${stylesDirectory}/${name}.${stylesExtension}`)) {
-    files.push("styles");
-  }
-
-  console.log(" ", chalk.yellow("Files to clean:"));
-  console.log("   ", chalk.blueBright(files.join("\n    ")));
-
-  for (const filePath of files) {
-    await fs.remove(`${distDirectory}/${filePath}`);
-  }
 }
 
 /********************/

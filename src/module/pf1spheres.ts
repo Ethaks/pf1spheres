@@ -21,6 +21,10 @@ import type { PF1ModuleData } from "./common-data";
 import { onActorSheetHeaderButtons, onActorSheetRender } from "./actor-sheet";
 import * as packUtils from "./pack-util";
 
+import "../styles/pf1spheres.scss";
+
+export {};
+
 // Initialize module
 Hooks.once("init", () => {
   console.log("pf1spheres | Initializing pf1spheres");
@@ -39,7 +43,7 @@ Hooks.once("init", () => {
 });
 
 // Setup module
-Hooks.once("setup", async () => {
+Hooks.once("setup", () => {
   // Localise config
   const toLocalize = ["progression", "magicSpheres", "combatSpheres"] as const;
   const toLocalizePF = [
