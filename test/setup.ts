@@ -22,7 +22,7 @@ export interface FakeSettings extends Record<string, Record<string, any>> {
  * A minimal Game class providing only the functionality used by the module's
  * functions to be tested.
  */
-(global as any).Game = class Game {
+class Game {
   private translations = translations;
   public _settings: FakeSettings = {
     pf1: {
@@ -56,23 +56,33 @@ export interface FakeSettings extends Record<string, Record<string, any>> {
     get: <K extends string, S extends string>(key: K, setting: S): FakeSettings[K][S] =>
       this._settings[key][setting],
   };
-};
+}
 
-// @ts-expect-error This Game class is only a Partial of the actual class
-(global as any).game = new Game();
+export function setup() {
+  (global as any).Game = Game;
 
-// @ts-expect-error It's what's provided by Foundry
-String.prototype.capitalize = function () {
-  if (!this.length) return this;
-  return this.charAt(0).toUpperCase() + this.slice(1);
-};
+  (global as any).game = new Game();
 
-(global as any).CONFIG = {
-  PF1: {
-    buffTargets: {},
-    stackingBonusModifiers: [],
-  },
-};
+  // @ts-expect-error It's what's provided by Foundry
+  String.prototype.capitalize = function () {
+    if (!this.length) return this;
+    return this.charAt(0).toUpperCase() + this.slice(1);
+  };
+  // vi.spyOn(String.prototype, "capitalize").mockImplementation(function () {
+  //   if (!this.length) return this;
+  //   return this.charAt(0).toUpperCase() + this.slice(1);
+  // });
+
+  (global as any).CONFIG = {
+    PF1: {
+      buffTargets: {},
+      stackingBonusModifiers: [],
+    },
+  };
+
+  (global as any).setProperty = setProperty;
+}
+setup();
 
 function getProperty(object: Record<string, any>, key: string): any | undefined {
   if (!key) return undefined;
@@ -105,7 +115,6 @@ function setProperty(object: Record<string, any>, key: string, value: unknown): 
   // Return changed status
   return changed;
 }
-(global as any).setProperty = setProperty;
 
 /**
  * Returns a duplicated version of a fake actor built from test-actor.json data.

@@ -4,20 +4,22 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
+import type { ActorPF } from "../src/module/actor-data";
 import { onAddDefaultChanges } from "../src/module/changes";
 import { PF1S } from "../src/module/config";
 import type { ItemChange } from "../src/module/item-data";
 import { localize } from "../src/module/util";
 import { getActor } from "./setup";
 
-describe("Test default changes handling", () => {
-  // Setup actor and changes as data to be worked with
-  const actor = getActor();
-  const changes: ItemChange[] = [];
+let actor: ActorPF;
+const changes: ItemChange[] = [];
 
-  // Get default changes
+beforeAll(() => {
+  actor = getActor();
   onAddDefaultChanges(actor, changes);
+});
 
+describe("Test default changes handling", () => {
   test("Battered change and source info", () => {
     // Condition
     expect(actor.data.data.attributes.conditions.battered).toBe(true);
