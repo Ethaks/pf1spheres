@@ -25,17 +25,6 @@ const PACK_SRC = `${sourceDirectory}/packs`;
 const PACK_DEST = "public/packs";
 
 /********************/
-/*      BUILD       */
-/********************/
-
-/**
- * Copy pack files from root to desitnation
- */
-async function copyPacks() {
-  await fs.copy(PACK_DEST, `${distDirectory}/packs`);
-}
-
-/********************/
 /*       LINK       */
 /********************/
 
@@ -252,15 +241,6 @@ async function cleanPacks() {
 }
 
 // TASKS
-
-const buildPacks = gulp.series(cleanPacks, compilePacks, copyPacks);
-
-const execBuild = gulp.parallel(buildProduction, buildStyles, copyFiles, buildPacks);
-
-exports.build = gulp.series(clean, execBuild);
-exports.watch = buildWatch;
-exports.clean = clean;
 exports.link = linkUserData;
-
 exports.compilePacks = gulp.series(cleanPacks, compilePacks);
 exports.extractPacks = extractPacks;
