@@ -4,6 +4,9 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
+/** The module's name/id */
+export const MODULE_ID = "pf1spheres";
+
 /**
  * Regular Expression which localisation keys are checked against.
  */
