@@ -43,7 +43,7 @@ const config = defineConfig({
       name: "pf1spheres",
       entry: path.resolve(__dirname, "src/module/pf1spheres.ts"),
       formats: ["es"],
-      fileName: () => "index.js",
+      fileName: () => "pf1spheres.js",
     },
   },
   plugins: [
