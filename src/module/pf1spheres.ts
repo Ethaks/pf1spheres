@@ -22,6 +22,7 @@ import { onActorSheetHeaderButtons, onActorSheetRender } from "./actor-sheet";
 import * as packUtils from "./pack-util";
 
 import "../styles/pf1spheres.scss";
+import "./hmr";
 
 export {};
 

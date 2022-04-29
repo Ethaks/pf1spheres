@@ -184,7 +184,7 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
 };
 
 const getRenderedSpheresTab = (data: SpheresTemplateData) =>
-  renderTemplate("/modules/pf1spheres/templates/actor-spheres-tab.hbs", data);
+  renderTemplate("modules/pf1spheres/templates/actor-spheres-tab.hbs", data);
 
 const activateListeners = (app: ActorSheetPF, html: JQuery<HTMLElement>, actor: ActorPF) => {
   html.find(".msb>.attribute-name.rollable").on("click", _onMsbRoll(actor));

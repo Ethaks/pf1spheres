@@ -7,6 +7,7 @@ import { visualizer } from "rollup-plugin-visualizer";
 import checker from "vite-plugin-checker";
 import path from "path";
 import copy from "@guanghechen/rollup-plugin-copy";
+import handlebarsReload from "./scripts/handlebarsReload";
 
 function resolve(relativePath: string) {
   return path.resolve(__dirname, relativePath);
@@ -17,7 +18,7 @@ const COPY_FILES = ["CREDITS.md", "LICENSES", "LICENSE", ".reuse"].map(resolve);
 const config = defineConfig({
   root: "src/",
   base: "/modules/pf1spheres/",
-  publicDir: path.resolve(__dirname, "public"),
+  publicDir: resolve("public"),
   server: {
     port: 30001,
     open: true,
@@ -35,13 +36,14 @@ const config = defineConfig({
     keepNames: true,
   },
   build: {
-    outDir: path.resolve(__dirname, "dist"),
+    outDir: resolve("dist"),
     emptyOutDir: true,
     sourcemap: true,
     reportCompressedSize: true,
+    watch: { include: resolve("../public/**/*.hbs") },
     lib: {
       name: "pf1spheres",
-      entry: path.resolve(__dirname, "src/module/pf1spheres.ts"),
+      entry: resolve("src/module/pf1spheres.ts"),
       formats: ["es"],
       fileName: () => "pf1spheres.js",
     },
@@ -55,6 +57,7 @@ const config = defineConfig({
       template: "treemap",
     }),
     copy({ targets: [{ src: COPY_FILES, dest: resolve("dist") }], hook: "writeBundle" }),
+    handlebarsReload(),
   ],
 });
 
