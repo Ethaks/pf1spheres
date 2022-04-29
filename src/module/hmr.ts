@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 import { MODULE_ID } from "./util";
 
 // IMPORTANT: Types have to be added and maintained manually, as importing them will trigger typecheck errors

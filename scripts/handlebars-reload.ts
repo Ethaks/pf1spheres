@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 import type { Plugin, ResolvedConfig, ViteDevServer } from "vite";
 import * as chokidar from "chokidar";
 import path from "path";
