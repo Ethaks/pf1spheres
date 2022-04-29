@@ -5,6 +5,7 @@ SPDX-License-Identifier: EUPL-1.2
 --}}
 
 <div class="tab spheres" data-group="{{dataGroup}}" data-tab="spheres">
+  <!-- Header area containing Spheres attributes -->
   <div class="attribute-grid grid grid-4col">
     <span class="block-header sop-header flexrow">
       {{localize "PF1SPHERES.SpheresOfPower"}}
@@ -33,54 +34,13 @@ SPDX-License-Identifier: EUPL-1.2
     </div>
     {{/each}}
   </div>
-  <div class="sop-levels grid grid-6col" style="display: none">
-    {{#each sphereCLs as |sphere|}}
-    <div class="sphere tooltip" data-sphere="{{sphere.sphere}}">
-    {{sphere.label}}: {{sphere.total}}
-    <span class="tooltipcontent">
-      {{sphere.path}}: {{sphere.total}}
-      {{#if sphere.sources.length}}<br><br>{{/if}}
 
-      {{#each sphere.sources as |src|}}
-      {{src.name}}: {{src.value}} <br>
-      {{/each}}
-
-      {{#if sphere.cappedSources.length}}<br>
-      {{localize "PF1SPHERES.CappedByHD"}}: <br> {{/if}}
-      {{#each sphere.cappedSources as |src|}}
-      {{src.name}}: {{src.value}} <br>
-      {{/each}}
-    </span>
-    </div>
-    {{/each}}
-  </div>
-  <div class="som-levels grid grid-6col" style="display: none">
-    {{#each sphereBabs as |sphere|}}
-    <div class="sphere tooltip">
-    {{sphere.label}}: {{sphere.total}}
-    <span class="tooltipcontent">
-      {{sphere.path}}: {{sphere.total}}
-      {{#if sphere.sources.length}}<br><br>{{/if}}
-
-      {{#each sphere.sources as |src|}}
-      {{src.name}}: {{src.value}} <br>
-      {{/each}}
-
-      {{#if sphere.cappedSources.length}}<br>
-      {{localize "PF1SPHERES.CappedByHD"}}: <br> {{/if}}
-      {{#each sphere.cappedSources as |src|}}
-      {{src.name}}: {{src.value}} <br>
-      {{/each}}
-    </span>
-    </div>
-    {{/each}}
-  </div>
-  <!-- Talent collabpsibles -->
+  <!-- Spheres with their name, talent count, CL, and talent collabpsible -->
   <ol class="spheres-list">
     {{#each allSpheres as |sphere|}}
     {{#if sphere.hasTalents}}
     <li class="sphere grid" data-sphere="{{sphere.sphere}}">
-      <img class="sphere-icon" src="{{sphere.icon}}"></img>
+      <img class="sphere-icon" alt="{{sphere.label}}" src="{{sphere.icon}}"></img>
       <div class="block-header sphere-label flexrow">{{sphere.label}}</div>
       <span class="sphere-info">
         <b>{{localize "PF1SPHERES.TalentPlural"}}</b>: {{sphere.talents.length}}
