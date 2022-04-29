@@ -76,7 +76,7 @@ build:
     --arg url "$CI_PROJECT_URL" \
     --arg manifest "$CI_PROJECT_URL/-/releases/permalink/latest/downloads/$PACKAGE_TYPE.json" \
     --arg download "$CI_PROJECT_URL/-/releases/$CI_COMMIT_TAG/downloads/$PACKAGE_NAME.zip" \
-    src/$PACKAGE_TYPE.json > src/tmp.$$.json
+    public/$PACKAGE_TYPE.json > src/tmp.$$.json
     mv src/tmp.$$.json src/$PACKAGE_TYPE.json
     npm run build
   cache:
