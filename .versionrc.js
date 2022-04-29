@@ -5,7 +5,7 @@
 const prettier = require("prettier");
 
 const manifest = {
-  filename: "./src/module.json",
+  filename: "./public/module.json",
   updater: {
     readVersion: function (contents) {
       return JSON.parse(contents).version;
