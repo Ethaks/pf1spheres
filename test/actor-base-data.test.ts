@@ -213,7 +213,6 @@ describe("Source tracking for Sphere CL, MSB/D", () => {
     expect(actor.sourceInfo["data.spheres.msd.base"]).toBeUndefined();
   });
   // ESLint does not register the expects from expectSource
-  /* eslint-disable jest/expect-expect */
   test("Caster with level 1 and CL 0", () => {
     expectSource(1, 0);
   });
@@ -223,5 +222,4 @@ describe("Source tracking for Sphere CL, MSB/D", () => {
   test("Caster with level 0 and CL 1 (not possible under normal circumstances)", () => {
     expectSource(0, 1);
   });
-  /* eslint-enable jest/expect-expect */
 });
