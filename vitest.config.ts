@@ -16,6 +16,8 @@ const config = defineConfig({
     setupFiles: `${TEST_DIR}/setup.ts`,
     globals: true,
     globalSetup: "./test/setup.ts",
+    reporters: ["default", "junit"],
+    outputFile: { junit: "junit.xml" },
     coverage: {
       reporter: ["cobertura", "lcov", "text"],
       exclude: ["**/*-data.ts"],
