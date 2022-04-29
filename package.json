@@ -32,7 +32,7 @@
     "format": "prettier --write \"./**/*.(ts|js|json|css)\"",
     "test": "vitest run",
     "test:watch": "vitest watch",
-    "test:ci": "vitest run --coverage",
+    "test:ci": "vitest run -c vitest.ci.config.ts --coverage",
     "typecheck": "tsc",
     "release": "standard-version -a",
     "postinstall": "husky install",
