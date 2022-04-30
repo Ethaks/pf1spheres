@@ -7,7 +7,7 @@ SPDX-License-Identifier: EUPL-1.2
 <div align="center">
   <h1>pf1spheres</h1>
   <img alt="Gitlab pipeline status" src="https://img.shields.io/gitlab/pipeline-status/Ethaks/foundryvtt-pf1-spheres?branch=master&label=Checks&logo=gitlab">
-  <a href="https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/commits/spheres-tab"><img alt="coverage report" src="https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/badges/spheres-tab/coverage.svg" /></a>
+  <a href="https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/jobs"><img alt="coverage report" src="http://gitlab.com/Ethaks/foundryvtt-pf1-spheres/badges/master/coverage.svg" /></a>
   <img alt="Supported Foundry Versions" src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/releases/permalink/latest/downloads/module.json">
   <br>
   <a href="https://forge-vtt.com/bazaar#package=pf1spheres">
