@@ -17,7 +17,7 @@ interface HandlebarsReloadData {
 if (import.meta.hot) {
   // Handle
   // @ts-expect-error Vite specific HMR handler
-  import.meta.hot.on("pf1s:handlebars-update", ({ file, content }: HandlebarsReloadData) => {
+  import.meta.hot.on("hotHandle:update", ({ file, content }: HandlebarsReloadData) => {
     const compiled = Handlebars.compile(content);
     Handlebars.registerPartial(file, compiled);
     _templateCache[file] = compiled;

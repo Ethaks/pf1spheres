@@ -40,7 +40,6 @@ const config = defineConfig({
     emptyOutDir: true,
     sourcemap: true,
     reportCompressedSize: true,
-    watch: { include: resolve("../public/**/*.hbs") },
     lib: {
       name: "pf1spheres",
       entry: resolve("src/module/pf1spheres.ts"),
