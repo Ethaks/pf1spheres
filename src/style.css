@@ -1,0 +1,15 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
+/*
+* This otherwise empty file is required for the development server.
+*
+* In a production environment, Foundry loads the `style.css` file generated and bundled by rollup.
+*
+* In a development environment, Foundry still checks whether a `style.css` (this file) exists and loads it.
+* The actual rules will then be loaded by Vite's dev server however, as `pf1spheres.ts` directly imports
+* the actual stylesheet.
+*/
