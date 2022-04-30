@@ -78,7 +78,6 @@ build:
     --arg download "$CI_PROJECT_URL/-/releases/$CI_COMMIT_TAG/downloads/$PACKAGE_NAME.zip" \
     public/$PACKAGE_TYPE.json > src/tmp.$$.json
     mv src/tmp.$$.json src/$PACKAGE_TYPE.json
-    npm run compilePacks
     npm run build
   cache:
     <<: *global_cache

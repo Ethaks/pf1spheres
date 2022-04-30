@@ -22,8 +22,8 @@
     "src/pf1spheres.ts"
   ],
   "scripts": {
-    "build": "vite build",
-    "build:watch": "vite build --watch",
+    "build": "gulp compilePacks && vite build",
+    "build:watch": "gulp compilePacks && vite build --watch",
     "serve": "vite",
     "link-project": "gulp link",
     "clean:link": "gulp link --clean",
