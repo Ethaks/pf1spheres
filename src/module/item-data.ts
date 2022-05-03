@@ -188,7 +188,7 @@ export type BonusModifier =
 
 export type PFBuffTarget = "cmd";
 
-type BABProgression = "high" | "med" | "low";
+export type BABProgression = "high" | "med" | "low";
 
 export type SaveType = "fort" | "ref" | "will";
 export type SaveProgression = "high" | "low";

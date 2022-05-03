@@ -25,6 +25,9 @@ export const getSphereType = (sphere: Sphere): "magic" | "combat" | undefined =>
   else return undefined;
 };
 
+export const getAllSpheres = () =>
+  ({ ...PF1S.magicSpheres, ...PF1S.combatSpheres } as Record<Sphere, string>);
+
 /**
  * Returns a given Sphere's display name
  */

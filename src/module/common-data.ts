@@ -6,7 +6,7 @@
 
 import type { changeFlatTargets } from "./changes";
 import type { PF1S } from "./config";
-import type * as packUtils from "./pack-util";
+import type * as packUtils from "./pack-utils";
 
 export interface BaseData<T> {
   base: T;
