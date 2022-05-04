@@ -1,27 +1,31 @@
-{{!--
+{{!--<!--
 SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
-
 SPDX-License-Identifier: EUPL-1.2
---}}
-
+-->--}}
 <form autocomplete="off">
-  <div>
-    {{!-- MSB --}}
-    <div class="form-group">
-      <label for="msbAbility">{{localize "PF1SPHERES.Settings.MSBAbility"}}</label>
-      <div class="form-fields">
-        <select id="msbAbility" name="flags.pf1spheres.msbAbility" data-dtype="String">
-          {{#select pf1sFlags.msbAbility}}
-          <option value=""></option>
-          {{#each PF1CONFIG.abilities as |label value|}}
-          <option value="{{value}}">{{label}}</option>
-          {{/each}}
-          {{/select}}
-        </select>
-      </div>
-      <p class="notes">
-        {{localize "PF1SPHERES.Settings.MSBAbilityNote"}}
-      </p>
+    <div>
+        {{!-- MSB --}}
+        <div class="form-group">
+            <label for="msbAbility">{{ localize "PF1SPHERES.Settings.MSBAbility" }}</label>
+            <div class="form-fields">
+                <select id="msbAbility"
+                        name="flags.pf1spheres.msbAbility"
+                        data-dtype="String">
+                    {{#select pf1sFlags.msbAbility }}
+                    <option value="">
+                    </option>
+                    {{#each PF1CONFIG.abilities as |label value |}
+                        }
+                        <option value="{{ value }}">
+                            {{ label }}
+                        </option>
+                    {{/each }}
+                {{/select }}
+            </select>
+        </div>
+        <p class="notes">
+            {{ localize "PF1SPHERES.Settings.MSBAbilityNote" }}
+        </p>
     </div>
-  </div>
+</div>
 </form>

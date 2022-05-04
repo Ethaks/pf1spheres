@@ -1,17 +1,20 @@
-{{!--
+{{!--<!--
 SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
-
 SPDX-License-Identifier: EUPL-1.2
---}}
-
+-->--}}
 <div class="form-group">
-  <label>{{localize "PF1SPHERES.CasterProgression"}}</label>
-  <select name="flags.pf1spheres.casterProgression">
-    {{#select item.data.flags.pf1spheres.casterProgression}}
-      <option value="">{{localize "PF1.None"}}</option>
-      {{#each pf1sconfig.progression as |progression key|}}
-        <option value="{{key}}">{{progression}}</option>
-      {{/each}}
-    {{/select}}
-  </select>
+    <label>{{ localize "PF1SPHERES.CasterProgression" }}</label>
+    <select name="flags.pf1spheres.casterProgression">
+        {{#select item.data.flags.pf1spheres.casterProgression }}
+        <option value="">
+            {{ localize "PF1.None" }}
+        </option>
+        {{#each pf1sconfig.progression as |progression key |}
+            }
+            <option value="{{ key }}">
+                {{ progression }}
+            </option>
+        {{/each }}
+    {{/select }}
+</select>
 </div>
