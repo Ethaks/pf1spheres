@@ -9,8 +9,7 @@ SPDX-License-Identifier: EUPL-1.2
         <option value="">
             {{ localize "PF1.None" }}
         </option>
-        {{#each pf1sconfig.progression as |progression key |}
-            }
+        {{#each pf1sconfig.progression as |progression key|}}
             <option value="{{ key }}">
                 {{ progression }}
             </option>

@@ -7,8 +7,7 @@ SPDX-License-Identifier: EUPL-1.2
     <div class="attribute-grid grid grid-4col">
         <span class="block-header sop-header flexrow">{{ localize "PF1SPHERES.SpheresOfPower" }}</span>
         <span class="block-header som-header flexrow">{{ localize "PF1SPHERES.SpheresOfMight" }}</span>
-        {{#each attributeGrid as |element |}
-            }
+        {{#each attributeGrid as |element |}}
             <div class="{{ element.attribute }} attribute tooltip">
                 <span class="tooltipcontent">
                     {{ element.path }}: {{ element.total }}
@@ -16,8 +15,7 @@ SPDX-License-Identifier: EUPL-1.2
                         <br />
                         <br />
                     {{/if }}
-                    {{#each element.sources as |src |}
-                        }
+                    {{#each element.sources as |src|}}
                         {{ src.name }}: {{ src.value }}
                         <br />
                     {{/each }}
@@ -26,8 +24,7 @@ SPDX-License-Identifier: EUPL-1.2
                         {{ localize "PF1SPHERES.CappedByHD" }}:
                         <br />
                     {{/if }}
-                    {{#each element.cappedSources as |src |}
-                        }
+                    {{#each element.cappedSources as |src|}}
                         {{ src.name }}: {{ src.value }}
                         <br />
                     {{/each }}
@@ -39,8 +36,7 @@ SPDX-License-Identifier: EUPL-1.2
     </div>
     <!-- Spheres with their name, talent count, CL, and talent collabpsible -->
     <ol class="spheres-list">
-        {{#each allSpheres as |sphere |}
-            }
+        {{#each allSpheres as |sphere|}}
             {{#if sphere.hasTalents }}
                 <li class="sphere grid" data-sphere="{{ sphere.sphere }}">
                     <img class="sphere-icon" alt="{{ sphere.label }}" src="{{ sphere.icon }}" />
@@ -57,8 +53,7 @@ SPDX-License-Identifier: EUPL-1.2
                             <br />
                             <br />
                         {{/if }}
-                        {{#each sphere.sources as |src |}
-                            }
+                        {{#each sphere.sources as |src|}}
                             {{ src.name }}: {{ src.value }}
                             <br />
                         {{/each }}
@@ -67,8 +62,7 @@ SPDX-License-Identifier: EUPL-1.2
                             {{ localize "PF1SPHERES.CappedByHD" }}:
                             <br />
                         {{/if }}
-                        {{#each sphere.cappedSources as |src |}
-                            }
+                        {{#each sphere.cappedSources as |src|}}
                             {{ src.name }}: {{ src.value }}
                             <br />
                         {{/each }}
@@ -80,17 +74,15 @@ SPDX-License-Identifier: EUPL-1.2
                 </div>
                 <ol class="item-list sphere-talents" {{#if (ne sphere.expandTalents true) }} style="display: none" {{/if }}>
                     <!-- Individual talent-->
-                    {{#each sphere.talents as |talent |}
-                        }
+                    {{#each sphere.talents as |talent|}}
                         <li class="talent grid item" data-item-id="{{ talent.id }}">
                             <div class="talent-icon">
-                                <img src="{{ talent.img }}" alt="Sphere icon for {{talent.name}}"/>
+                                <img src="{{ talent.img }}" alt="Sphere icon for {{ talent.name }}"/>
                                 <img src="../../icons/svg/d20-black.svg" />
                             </div>
                             <div class="talent-name">
                                 <b>{{ talent.name }}</b>
-                                {{#each talent.tags as |tag |}
-                                    }
+                                {{#each talent.tags as |tag|}}
                                     <span class="talent-tag">{{ tag }}</span>
                                 {{/each }}
                             </div>

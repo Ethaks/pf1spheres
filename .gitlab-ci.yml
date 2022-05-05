@@ -63,23 +63,6 @@ licensecheck:
   script:
     - reuse lint
 
-handlebarslint:
-  stage: check
-  image: python:latest
-  cache:
-    paths:
-      - .cache/pip
-      - venv/
-  variables:
-    PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
-  before_script:
-    - pip install virtualenv
-    - virtualenv venv
-    - source venv/bin/activate
-    - pip install djlint
-  script:
-    - djlint --check -e hbs .
-
 build:
   stage: build
   before_script:
