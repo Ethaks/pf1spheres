@@ -119,3 +119,9 @@ The software component of this system is licensed primarily under the EUPL v. 1.
 REUSE is used to specify licenses for individual files in the form of headers or `.license` files, or in `.reuse/dep5`.
 The rules and game content is distributed under the terms of the Open Gaming License v1.0a.
 The terms of the [Foundry Virtual Tabletop End User License Agreement](https://foundryvtt.com/article/license/) apply.
+
+This system uses trademarks and/or copyrights owned by Paizo Inc., which are used under [Paizo's Community Use Policy](https://paizo.com/community/communityuse).
+We are expressly prohibited from charging you to use or access this content.
+This module is not published, endorsed, or specifically approved by Paizo Inc.
+For more information about Paizo's Community Use Policy, please visit [paizo.com/communityuse](paizo.com/communityuse).
+For more information about Paizo Inc. and Paizo products, please visit [paizo.com](paizo.com).
