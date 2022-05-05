@@ -127,9 +127,6 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
     combat: localize("PF1.BABAbbr"),
   };
 
-  // TODO: Remove if no longer needed
-  //const isMagicSphere = (sphere: Sphere): sphere is MagicSphere => sphere in PF1S.magicSpheres;
-
   // Get owned talents and collect info for every sphere regardless of talents
   const ownedTalents = actor.items.reduce((talents: TalentMap, item) => {
     const sphere = item.data.flags.pf1spheres?.sphere;
@@ -233,25 +230,6 @@ const _onMsbRoll = (actor: ActorPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
   };
   return getActorMethods(actor).rollSpheresAttribute("msb", options);
 };
-
-// TODO: Remove if no longer needed
-// const _toggleSphereLevelDisplay = (ev: JQuery.ClickEvent<HTMLElement>) => {
-//   ev.preventDefault();
-//   const targetLevels = ev.currentTarget.classList?.contains("cl") ? "sop" : "som";
-//   const sphereList = $(ev.currentTarget)
-//     .parents(".spheres")
-//     .find(`.${targetLevels}-levels`)
-//     .first();
-//   sphereList.slideToggle({
-//     duration: "fast",
-//     complete: function () {
-//       if ($(this).is(":visible")) $(this).css("display", "grid");
-//     },
-//     start: function () {
-//       $(this).css("display", "grid");
-//     },
-//   });
-// };
 
 /**
  * Opens a journal entry sheet for the clicked on sphere
