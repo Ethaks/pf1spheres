@@ -21,6 +21,7 @@ import type { PF1ModuleData } from "./common-data";
 import { onActorSheetHeaderButtons, onActorSheetRender } from "./actor-sheet";
 import * as packUtils from "./pack-utils";
 
+// Vite specific imports
 import "../styles/pf1spheres.scss";
 import "./hmr";
 

@@ -4,20 +4,24 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
-import type { ItemDataConstructorData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
-import type { JournalEntryDataConstructorData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/journalEntryData";
-import { PF1S } from "../config";
-import type { Sphere } from "../item-data";
+import type { ConfiguredDocumentClassForName } from "@league-of-foundry-developers/foundry-vtt-types/src/types/helperTypes";
+
 import type {
+  AllowedImportConstructorData,
+  AllowedImportDocumentNames,
   BasePackConfig,
   DataImportOptions,
   DeduplicationData,
+  ImportReturnValue,
   RawData,
-  RawDataJson,
-  RawTocData,
 } from "./pack-util-data";
 import { nonNullable } from "../ts-util";
 import { getGame } from "../util";
+
+import type * as t from "io-ts";
+import { failure } from "io-ts/PathReporter";
+import { pipe } from "fp-ts/function";
+import * as E from "fp-ts/Either";
 
 /**
  * Imports data according to a preconfigured config entry or a given config object.
@@ -27,34 +31,40 @@ import { getGame } from "../util";
  * @param [options] - Additional options affecting the import process
  * @returns Objects containing a pack reference and the items created therein
  */
-export async function importData<T extends RawData, D extends ItemDataConstructorData>(
-  config: BasePackConfig<T, D>,
+export async function importData<
+  T extends RawData,
+  DT extends AllowedImportDocumentNames,
+  D extends AllowedImportConstructorData
+>(
+  config: BasePackConfig<T, DT, D>,
   options: DataImportOptions = {}
-) {
+): Promise<ImportReturnValue<DT>[]> {
   const { create = true, update = true, reset = false } = options;
 
   const packs = await ensurePacks(config.packNames);
-  const rawData = await fetchData(config.fileNames);
+  const rawData = await fetchData(config.decoder)(config.fileNames);
 
   const dedupedData =
-    "deduplicationDataGetter" in config ? deduplicateData(config.deduplicationDataGetter) : rawData;
-
-  const dataAfterExtraTreatment =
-    "collectionFunctions" in config
-      ? // @ts-expect-error Array elements are guaranteed to be homogeneous, there is not mix and match
-        config.collectionFunctions?.reduce((acc, fn) => fn(acc), dedupedData)
+    "deduplicationDataGetter" in config
+      ? deduplicateData(config.deduplicationDataGetter)(rawData)
       : rawData;
 
-  const transformedData: D[] = dataAfterExtraTreatment
-    // @ts-expect-error TypeScript gives up and infers `t` as any despite knowing the array's type...
-    .map((t) => config.transformFunction(t))
+  // Type assertions necessary for TS to recognise that the end result will not be a function
+  const dataAfterExtraTreatment: T[] =
+    "collectionFunctions" in config
+      ? (config.collectionFunctions?.reduce((acc, fn) => fn(acc as T[]), dedupedData) as T[])
+      : rawData;
+
+  const transformedData: DeepPartial<D>[] = dataAfterExtraTreatment
+    .map((t: T) => config.transformFunction(t))
     .filter(nonNullable);
 
   // Record in which each evential pack gets its own index
-  const sortedData: Record<string, { pack: typeof packs[number]; data: D[] }> = {};
-  for (const pack of packs) {
-    sortedData[pack.metadata.name] = { pack, data: [] };
-  }
+  const sortedData = Object.values(packs).reduce((acc, pack) => {
+    acc[pack.metadata.name] = { pack, data: [] };
+    return acc;
+  }, {} as Record<string, { pack: typeof packs[number]; data: DeepPartial<D>[] }>);
+
   // There's only one pack to create, so no sorting to determine target pack necessary
   if (packs.length < 2) sortedData[packs[0].metadata.name].data = transformedData;
   else {
@@ -67,6 +77,7 @@ export async function importData<T extends RawData, D extends ItemDataConstructo
     }
   }
 
+  // Creation and update workflow dependent on destination pack
   const packPromises = Object.values(sortedData).map(async (packData) => {
     const { pack } = packData;
     const packName = pack.collection;
@@ -78,11 +89,11 @@ export async function importData<T extends RawData, D extends ItemDataConstructo
         docs.map((d) => d.id),
         { pack: packName }
       );
-      docs = await packData.pack.getDocuments();
+      docs = [];
     }
 
-    const createData: D[] = [];
-    const updateData: D[] = [];
+    const createData: DeepPartial<D>[] = [];
+    const updateData: DeepPartial<D>[] = [];
 
     // Determine whether document already exists and store accordingly
     for (const entry of packData.data) {
@@ -94,23 +105,27 @@ export async function importData<T extends RawData, D extends ItemDataConstructo
       }
     }
 
-    const result: Record<string, StoredDocument<Item | JournalEntry>[]> = {
+    const result: ImportReturnValue<DT> = {
       created: [],
       updated: [],
     };
 
     if (create) {
-      const createdItems = await getDocumentClass(config.docType).createDocuments(createData, {
+      // @ts-expect-error Typescript cannot determine data type
+      const createdDocuments = await getDocumentClass(config.docType).createDocuments(createData, {
         pack: packName,
       });
-      result.created = createdItems;
+      result.created = createdDocuments;
     }
 
     if (update) {
+      // @ts-expect-error Typescript cannot determine data type
       const updatedItems = await getDocumentClass(config.docType).updateDocuments(updateData, {
         pack: packName,
       });
-      result.updated = updatedItems as StoredDocument<Item | JournalEntry>[];
+      result.updated = updatedItems as StoredDocument<
+        ConfiguredDocumentClassForName<DT>["prototype"]
+      >[];
     }
 
     return result;
@@ -142,21 +157,50 @@ async function ensurePacks(
 }
 
 /**
- * Fetch one or multiple JSON files and read them into JS objects.
+ * Returns a function that fetches files from the server and decodes their contents with
+ * the decoder given to this function.
  *
- * @async
- * @param fileNames - File names of files to be fetched
- * @returns An array of raw data read from JSON files
+ * @param decoder - Decoder to be used
  */
-async function fetchData(fileNames: string[]): Promise<RawDataJson> {
-  const filePromises = fileNames.map(async (fileName) => {
-    const file = await fetch(`modules/pf1spheres/raw-packs/${fileName}`);
-    const fileJson = await file.json();
-    return fileJson;
-  });
-  const jsons = await Promise.all(filePromises);
-  return jsons.flat();
-}
+const fetchData =
+  <T extends RawData>(decoder: t.Decoder<unknown, T>) =>
+  /**
+   * Fetch one or multiple JSON files and read them into JS objects.
+   *
+   * @async
+   * @param fileNames - File names of files to be fetched
+   * @returns An array of raw data read from JSON files
+   */
+  async (fileNames: string[]): Promise<T[]> => {
+    const filePromises = fileNames.map(async (fileName) => {
+      const file = await fetch(`modules/pf1spheres/raw-packs/${fileName}`);
+      const fileJson = await file.json();
+      return fileJson;
+    });
+    const jsons = (await Promise.all(filePromises)).flat();
+    return jsons.map(decode(decoder)).filter(nonNullable);
+  };
+
+/**
+ * Returns a function that decodes data according to this function's {@link codec} parameter.
+ *
+ * @param codec - Codec used to decode/validata data
+ */
+const decode =
+  <I, A>(codec: t.Decoder<I, A>) =>
+  /**
+   * Decodes raw data of unknown format, either returning {@link undefined} or the validated data object.
+   *
+   * @param json - Unvalidated data object
+   */
+  (json: I): A | undefined =>
+    pipe(
+      codec.decode(json),
+      E.getOrElse<t.Errors, A | undefined>((errors) => {
+        console.error(failure(errors).join("\n"));
+        return undefined;
+      })
+    );
 
 /**
  * Returns a function that, given a function that returns an entry's {@link DeduplicationData}, deduplicates a whole data set
@@ -178,6 +222,7 @@ export const deduplicateData =
       if (dedupeData === undefined) {
         unhandledData.push(item);
       } else {
+        if (dedupeData.shortId.endsWith("Smash")) debugger;
         (acc[dedupeData.shortId] || (acc[dedupeData.shortId] = [])).push({ item, dedupeData });
       }
       return acc;
@@ -211,88 +256,3 @@ export const deduplicateData =
     console.warn("Duplicates: ", dupes);
     return [...unhandledData, ...newData] as T[];
   };
-
-/**
- * Attempt to determine which sphere is meant from a string not conforming to the module's config
- *
- * @param sphere - String containing a sphere in an unrecognised format
- * @returns The sphere as per the {@link Sphere} type, or undefined if no sphere could be guessed
- */
-export function guessSphere(sphere: string): Sphere | undefined {
-  const sphereNames = [...Object.keys(PF1S.magicSpheres), ...Object.keys(PF1S.combatSpheres)];
-  const slugSphereName = sphere.slugify();
-  if (sphereNames.includes(slugSphereName as Sphere)) return slugSphereName as Sphere;
-  const guess = sphereNames.find((n) => n.startsWith(slugSphereName.split("-")[0]));
-  if (guess) return guess;
-  else return undefined;
-}
-
-/**
- * Imports Sphere journals for magic and combat spheres, without clearing existing packs beforehand.
- * TODO: Investigate whether this can be moved into the regular import process
- */
-export const importSphereJournalData = async () => {
-  await ensurePacks(["Magic Spheres", "Combat Spheres"]);
-  const rawData = (await fetchData(["tocs.json"])) as RawTocData[];
-
-  const talents = [
-    ...((await getGame().packs.get("pf1spheres.combat-talents")?.getDocuments()) ?? []),
-    ...((await getGame().packs.get("pf1spheres.magic-talents")?.getDocuments()) ?? []),
-  ] as StoredDocument<Item>[];
-
-  const stripTocRegex = /\s(\[|\().*/gm;
-
-  const getTalent = (sphere: Sphere, talent: string) =>
-    talents.find((t) => t.data.flags.pf1spheres?.sphere === sphere && t.name?.startsWith(talent));
-
-  const isHeader = (text: string) =>
-    ["Talents", "Archetypes", "Feats"].some((s) => text.endsWith(s));
-
-  const journals: Record<"magic" | "combat", JournalEntryDataConstructorData[]> = rawData
-    .map(({ name, text, toc }) => {
-      const sphere = guessSphere(name);
-      if (sphere === undefined) return;
-
-      const sphereType = sphere in PF1S.magicSpheres ? ("magic" as const) : ("combat" as const);
-
-      const icon =
-        PF1S.sphereIcons[sphere as keyof typeof PF1S.sphereIcons] ??
-        foundry.data.ItemData.DEFAULT_ICON;
-
-      const cleanToc: string = toc.replace(stripTocRegex, "");
-
-      const tocList = cleanToc
-        .split("\n")
-        .filter((tal) => {
-          const bannedNameStarts = [
-            "Sphere-Specific Variant Rule",
-            "Table: Unarmed Combatants",
-            "Table: Practitioner Unarmed Damage",
-            "Unarmed Combatants",
-          ];
-          return !bannedNameStarts.some((name) => tal.startsWith(name));
-        })
-        .map((tal) => {
-          const item = getTalent(sphere, tal);
-          if (isHeader(tal)) return `</ul><br><b>${tal}</b><br><ul>`;
-          else if (item) return `<li>${item.link}</li>`;
-          else return `<li>${tal}</li>`;
-        })
-        .join("\n");
-
-      const journalText = text + "<br>\n" + tocList + "</ul>";
-      return { name, img: icon, content: journalText, sphereType };
-    })
-    .filter(nonNullable)
-    .reduce(
-      (acc, { sphereType, ...data }) => {
-        acc[sphereType].push(data);
-        return acc;
-      },
-      { magic: [], combat: [] } as Record<"magic" | "combat", JournalEntryDataConstructorData[]>
-    );
-
-  for (const [sphereType, data] of Object.entries(journals)) {
-    await JournalEntry.createDocuments(data, { pack: `pf1spheres.${sphereType}-spheres` });
-  }
-};

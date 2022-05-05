@@ -1,64 +1,64 @@
-import type { ItemDataConstructorData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
+import type { ItemDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
 import { PF1S } from "../config";
 import type { ItemPF, PF1ClassDataSource, SaveType } from "../item-data";
 import { getAllSpheres, getSphereType } from "../item-util";
 import { getGame } from "../util";
 import { importData } from "./pack-util";
-import type {
-  BasePackConfig,
-  DataImportOptions,
-  DeduplicationData,
-  RawAbilityData,
-  RawClassData,
-  RawFeatData,
-  RawTalentData,
-} from "./pack-util-data";
-
-// TODO: Move away from config object, to one function for each import scenario, giving its config to a central importItems function
+import type { BasePackConfig, DataImportOptions, DeduplicationData } from "./pack-util-data";
+import { RawAbilityData, RawTalentData, RawClassData, RawFeatData } from "./pack-util-data";
 
 export function importAllTalents(options: DataImportOptions) {
-  const config: BasePackConfig<RawTalentData, ItemDataConstructorData> = {
+  const config: BasePackConfig<RawTalentData, "Item", ItemDataSource> = {
     docType: "Item",
     packNames: ["Magic Talents", "Combat Talents"],
     fileNames: ["talents.json"],
     transformFunction: getTalentData,
-    orderByFunction: (talent: ItemDataConstructorData) => {
+    orderByFunction: (talent: DeepPartial<ItemDataSource>) => {
       const sphere = talent.flags?.pf1spheres?.sphere;
       if (!sphere) return undefined;
       const sphereType = getSphereType(sphere);
       return sphereType ? (`${sphereType}-talents` as const) : undefined;
     },
     deduplicationDataGetter: getTalentDedupeData,
+    decoder: RawTalentData,
   };
   return importData(config, options);
 }
 
 function getTalentDedupeData(data: RawTalentData) {
+  const sphereType = getSphereType(data.sphere);
   return {
-    shortId: `${data.sphere}.${data.name}`,
-    longId: `${data.sphere}.${data.sphere}.${data.name}`,
+    shortId: `${sphereType}.${data.name}`,
+    longId: `${sphereType}.${data.sphere}.${data.name}`,
     prop: data.sphere,
     suffix: getAllSpheres()[data.sphere],
   };
 }
 
-/** Remove specific talent data entries not actually representing a talent */
-function isBannedTalent(entry: RawTalentData): boolean {
+/** Determines whether a given talent('s name) is on the list of banned names */
+export function isBannedTalent(entry: RawTalentData | string): boolean {
+  const name = typeof entry === "string" ? entry : entry.name;
   const bannedNameStarts = [
     "Sphere-Specific Variant Rule",
     "Table: Unarmed Combatants",
     "Table: Practitioner Unarmed Damage",
     "Unarmed Combatants",
   ];
-  return bannedNameStarts.some((name) => entry.name.startsWith(name));
+  return bannedNameStarts.some((bannedName) => name.startsWith(bannedName));
 }
 
 function isEmptyTalent(entry: RawTalentData): boolean {
-  return Boolean(entry.text.length > 0);
+  return !Boolean(entry.text.length > 0);
 }
 
 /** Transforms a talent's raw data into a format suitable for Foundry Item creation */
-function getTalentData(entry: RawTalentData): ItemDataConstructorData | undefined {
+function getTalentData(entry: RawTalentData): DeepPartial<ItemDataSource> | undefined {
   if (isBannedTalent(entry)) {
     console.warn(`Discarded ${entry.name}; Reason: banned name`);
     return undefined;
@@ -85,21 +85,22 @@ function getTalentData(entry: RawTalentData): ItemDataConstructorData | undefine
       tags: entry.tags.map((tag) => [tag]),
     },
     flags: { pf1spheres: { sphere: entry.sphere } },
-  };
+  } as DeepPartial<ItemDataSource>;
 }
 
 export function importFeats(options: DataImportOptions) {
-  const config: BasePackConfig<RawFeatData, ItemDataConstructorData> = {
+  const config: BasePackConfig<RawFeatData, "Item", ItemDataSource> = {
     docType: "Item",
     packNames: ["Sphere Feats"],
     fileNames: ["feats.json"],
     transformFunction: getFeatData,
+    decoder: RawFeatData,
   };
   return importData(config, options);
 }
 
 /** Transforms a feat's raw data into a format suitable for Foundry Item creation */
-function getFeatData(t: RawFeatData): ItemDataConstructorData {
+function getFeatData(t: RawFeatData): DeepPartial<ItemDataSource> {
   return {
     name: t.name,
     type: "feat",
@@ -111,11 +112,12 @@ function getFeatData(t: RawFeatData): ItemDataConstructorData {
 }
 
 export function importClasses(options: DataImportOptions) {
-  const config: BasePackConfig<RawClassData, ItemDataConstructorData> = {
+  const config: BasePackConfig<RawClassData, "Item", ItemDataSource> = {
     docType: "Item",
-    packNames: ["Spheres Classes"],
+    packNames: ["Sphere Classes"],
     fileNames: ["classes.json"],
     transformFunction: getClassData,
+    decoder: RawClassData,
   };
   return importData(config, options);
 }
@@ -127,7 +129,7 @@ function isArmorProficiency(prof: string): prof is keyof typeof CONFIG.PF1.armor
   return prof in CONFIG.PF1.armorProficiencies;
 }
 /** Transforms a class's raw data into a format suitable for Foundry Item creation */
-function getClassData(c: RawClassData): ItemDataConstructorData {
+function getClassData(c: RawClassData): DeepPartial<ItemDataSource> {
   return {
     name: c.name,
     type: "class",
@@ -171,12 +173,13 @@ function getClassData(c: RawClassData): ItemDataConstructorData {
 }
 
 export function importAbilities(options: DataImportOptions) {
-  const config: BasePackConfig<RawAbilityData, ItemDataConstructorData> = {
+  const config: BasePackConfig<RawAbilityData, "Item", ItemDataSource> = {
     docType: "Item",
-    packNames: ["Spheres Class Features"],
+    packNames: ["Sphere Class Features"],
     fileNames: ["class-abilities.json"],
     transformFunction: getAbilityData,
     deduplicationDataGetter: getAbilityDeduplicationData,
+    decoder: RawAbilityData,
   };
   return importData(config, options);
 }
@@ -186,7 +189,7 @@ function getAbilityDeduplicationData(data: RawAbilityData): DeduplicationData {
 }
 
 /** Transforms a class ability's raw data into a format suitable for Foundry Item creation */
-function getAbilityData(abil: RawAbilityData): ItemDataConstructorData {
+function getAbilityData(abil: RawAbilityData): DeepPartial<ItemDataSource> {
   return {
     name: abil.name,
     type: "feat",
