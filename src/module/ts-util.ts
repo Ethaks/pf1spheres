@@ -6,7 +6,7 @@
 // Should more in-depth type checks be required, "conditional-type-checks" or "tsd" might become necessary.
 /* eslint-disable @typescript-eslint/no-unused-vars */ // Presence alone is sufficient to allow type checking
 /** Asserts that one type can extend another */
-export type _AssertExtends<T extends U, U> = never;
+export type _AssertExtends<T extends U, U> = T;
 /* eslint-enable @typescript-eslint/no-unused-vars */
 
 // For convenience

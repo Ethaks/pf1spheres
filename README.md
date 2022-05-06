@@ -84,7 +84,7 @@ with the following content:
 Then run
 
 ```bash
-npm run link-project
+npm run link-package
 ```
 
 On Windows, creating symlinks requires administrator privileges so unfortunately
