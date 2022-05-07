@@ -222,7 +222,6 @@ export const deduplicateData =
       if (dedupeData === undefined) {
         unhandledData.push(item);
       } else {
-        if (dedupeData.shortId.endsWith("Smash")) debugger;
         (acc[dedupeData.shortId] || (acc[dedupeData.shortId] = [])).push({ item, dedupeData });
       }
       return acc;
