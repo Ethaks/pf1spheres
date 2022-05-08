@@ -6,7 +6,7 @@ import { defineConfig } from "vite";
 import { visualizer } from "rollup-plugin-visualizer";
 import checker from "vite-plugin-checker";
 import path from "path";
-import copy from "@guanghechen/rollup-plugin-copy";
+import { copy } from "@guanghechen/rollup-plugin-copy";
 import handlebarsReload from "./scripts/handlebars-reload";
 
 function resolve(relativePath: string) {
