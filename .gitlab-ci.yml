@@ -99,7 +99,7 @@ publish_artifacts:
     cd ..
     curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file $PACKAGE_NAME.zip "$PACKAGE_REGISTRY_URL/$CI_COMMIT_TAG/$PACKAGE_NAME.zip"
     curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file dist/$PACKAGE_TYPE.json "$PACKAGE_REGISTRY_URL/$CI_COMMIT_TAG/$PACKAGE_TYPE.json"
-    echo "LATEST=$(rg -U --multiline-dotall '(?P<latest>^[#]{1,3}\\s\\[.*?)(?:\\n^[#]{1,3}\\s\\[.*)' -r '$latest' CHANGELOG.md)" >> variables.env
+    echo "LATEST=$(rg -U --multiline-dotall '(?P<latest>^[#]{1,3}\s\[.*?)(?:\n^[#]{1,3}\s\[.*)' -r '$latest' CHANGELOG.md)" >> variables.env
   rules:
     - if: '$CI_COMMIT_TAG =~ /^v[0-9]+\.[0-9]+\.[0-9]+$/'
   artifacts:
