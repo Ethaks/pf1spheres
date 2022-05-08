@@ -175,6 +175,7 @@ async function compilePack(name) {
  * Compiles all directories in {@link PACK_SRC} into db files in {@link PACK_CACHE}
  */
 async function compileAllPacks() {
+  await fs.ensureDir(resolveCache());
   await Promise.all(
     (await fs.readdir(resolveCache())).map(async (f) => fs.remove(resolveCache(f)))
   );
