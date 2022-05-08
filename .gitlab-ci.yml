@@ -90,19 +90,25 @@ publish_artifacts:
   image: alpine:latest
   before_script:
     - apk update
-    - apk add zip curl
+    - apk add zip curl ripgrep
   script: |
     cd dist
     zip -r ../$PACKAGE_NAME.zip .
     cd ..
     curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file $PACKAGE_NAME.zip "$PACKAGE_REGISTRY_URL/$CI_COMMIT_TAG/$PACKAGE_NAME.zip"
     curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file dist/$PACKAGE_TYPE.json "$PACKAGE_REGISTRY_URL/$CI_COMMIT_TAG/$PACKAGE_TYPE.json"
+    echo "LATEST=$(rg -U --multiline-dotall '(?P<latest>^[#]{1,3}\\s\\[.*?)(?:\\n^[#]{1,3}\\s\\[.*)' -r '$latest' CHANGELOG.md)" >> variables.env
   rules:
     - if: '$CI_COMMIT_TAG =~ /^v[0-9]+\.[0-9]+\.[0-9]+$/'
+  artifacts:
+    reports:
+      dotenv: variables.env
 
 release:
   stage: release
   image: registry.gitlab.com/gitlab-org/release-cli:latest
+  needs:
+    - publish_artifacts
   script:
     - echo 'release job'
   rules:
@@ -110,7 +116,7 @@ release:
   release:
     name: ${CI_COMMIT_TAG:1}
     tag_name: $CI_COMMIT_TAG
-    description: "**Manifest URL:** $CI_PROJECT_URL/-/releases/$CI_COMMIT_TAG/downloads/$PACKAGE_TYPE.json"
+    description: "**Manifest URL:** $CI_PROJECT_URL/-/releases/$CI_COMMIT_TAG/downloads/$PACKAGE_TYPE.json\r\n\r\n$LATEST"
     assets:
       links:
         - name: "$PACKAGE_NAME.zip"
