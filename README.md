@@ -6,9 +6,9 @@ SPDX-License-Identifier: EUPL-1.2
 
 <div align="center">
   <h1>Spheres for Pathfinder 1e</h1>
-  <img alt="Gitlab pipeline status" src="https://img.shields.io/gitlab/pipeline-status/Ethaks/foundryvtt-pf1-spheres?branch=master&label=Checks&logo=gitlab">
-  <a href="https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/jobs"><img alt="coverage report" src="http://gitlab.com/Ethaks/foundryvtt-pf1-spheres/badges/master/coverage.svg" /></a>
-  <img alt="Supported Foundry Versions" src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/releases/permalink/latest/downloads/module.json">
+  <img alt="Gitlab pipeline status" src="https://img.shields.io/gitlab/pipeline-status/ethaks-fvtt/foundryvtt-pf1-spheres?branch=master&label=Checks&logo=gitlab">
+  <a href="https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/-/jobs"><img alt="coverage report" src="http://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/badges/master/coverage.svg" /></a>
+  <img alt="Supported Foundry Versions" src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/-/releases/permalink/latest/downloads/module.json">
   <br />
   <a href="https://forge-vtt.com/bazaar#package=pf1spheres">
     <img src="https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fpf1spheres&colorB=4aa94a" alt="Forge Install %" />
@@ -26,7 +26,7 @@ As the module is still heavily in development, the best source for available fea
 
 To install the module navigate to Foundry's _Add-on Modules_ tab in the Setup menu and paste the following link in the **Install Module** dialog:
 
-[https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/releases/permalink/latest/downloads/module.json](https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/releases/permalink/latest/downloads/module.json)
+[https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/-/releases/permalink/latest/downloads/module.json](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/-/releases/permalink/latest/downloads/module.json)
 
 The module can also be installed manually by downloading a zip archive from the Releases Page and extracting it to Foundry's `Data/modules/pf1spheres` directory.
 
