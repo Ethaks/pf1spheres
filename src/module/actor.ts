@@ -5,11 +5,12 @@
  */
 
 import type { ItemData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
-import type { ActorPF, PF1ActorSpheresData } from "./actor-data";
-import { getActorHelpers } from "./actor-util";
 import type { TotalModData, ValueData } from "./common-data";
-import { PF1S } from "./config";
+import type { ActorPF, PF1ActorSpheresData } from "./actor-data";
 import type { CombatSphere, MagicSphere, PF1ClassDataSource } from "./item-data";
+import { getActorMethods } from "./actor-methods";
+import { getActorHelpers } from "./actor-util";
+import { PF1S } from "./config";
 import { getGame, localize } from "./util";
 
 /**
@@ -22,6 +23,8 @@ import { getGame, localize } from "./util";
  * @param {Actor} actor - The actor whose data gets prepared
  */
 export const onActorBasePreparation = (actor: ActorPF): void => {
+  // Add Spheres actor methods if not already present
+  if (!("spheres" in actor)) actor.spheres = getActorMethods(actor);
   // Populate/reset spheres data
   const sphereData = (actor.data.data.spheres = getBlankSphereData());
 

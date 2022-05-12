@@ -4,10 +4,11 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
-import type { RollData, SourceDetails, SourceInfo } from "./item-data";
+import type { ItemPF, RollData, SourceDetails, SourceInfo } from "./item-data";
 import type { TotalModData, ValueData } from "./common-data";
 import type { PF1S } from "./config";
 import type { DeepNonNullable, PropPath } from "./ts-util";
+import type { SpheresActorMethods } from "./actor-methods";
 
 declare global {
   interface DocumentClassConfig {
@@ -32,6 +33,8 @@ export interface SpheresActorFlags {
 }
 
 export declare class ActorPF extends Actor {
+  /** Various Spheres-related functions working like methods for this actor */
+  spheres: SpheresActorMethods;
   /**
    * Final source details used for tooltips etc.
    */
@@ -41,7 +44,19 @@ export declare class ActorPF extends Actor {
    */
   sourceInfo: SourceInfo;
   /** @override */
-  getRollData: () => RollData;
+  getRollData(): RollData;
+
+  /** All active Items with Context Notes */
+  get allNotes(): Array<{
+    item: ItemPF;
+    notes: Array<{ text: string; subTarget: keyof typeof CONFIG.PF1.contextNoteTargets }>;
+  }>;
+
+  formatContextNotes(
+    notes: Array<{ item: Item; notes: string[] }>,
+    rollData: RollData,
+    options?: { roll: boolean }
+  ): string[];
 }
 
 export interface PF1ActorSpheresData {

@@ -5,7 +5,6 @@
  */
 
 import type { ActorPF } from "./actor-data";
-import { getActorMethods } from "./actor-methods";
 import { SpheresActorSettings } from "./apps/SpheresActorSettings";
 import { PF1S } from "./config";
 import type { CombatSphere, ItemPF, MagicSphere, SourceEntry, Sphere } from "./item-data";
@@ -46,7 +45,8 @@ export const onActorSheetRender: (
   const spheresBody = body.append($(renderedTemplate));
   activateListeners(app, spheresBody, actor);
 
-  // Re-focus spheres tab TODO: Can be expanded for multiple tabs
+  // Re-focus spheres tab
+  // NOTE: Can be expanded for multiple tabs
   if (app.spheresTab.activateTab === "spheres") {
     // @ts-expect-error Accessing tabs is necessary
     app._tabs[0].activate("spheres");
@@ -228,7 +228,7 @@ const _onMsbRoll = (actor: ActorPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
     event: ev,
     label: localize("Checks.MSB"),
   };
-  return getActorMethods(actor).rollSpheresAttribute("msb", options);
+  return actor.spheres.rollMsb(options);
 };
 
 /**

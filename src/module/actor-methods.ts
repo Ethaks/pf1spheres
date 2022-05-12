@@ -5,20 +5,50 @@
  */
 
 import type { ActorPF } from "./actor-data";
+import type { DicePFD20RollOptions } from "./dice-data";
+import type { ItemPF } from "./item-data";
 import { getGame, localize } from "./util";
 
-// TODO: Clean up interfaces
+/** Various functions working like methods for a single actor */
+export interface SpheresActorMethods {
+  rollMsb: (
+    options?: DicePFD20RollOptions & RollMethodOptions
+  ) => Promise<ChatMessage | Roll> | void;
+  getMsbNotes: () => ContextNoteObject[];
+}
 
-export const getActorMethods = (actor: ActorPF): ActorMethods => ({
-  rollSpheresAttribute: rollSpheresAttribute(actor),
+/** Returns an object containing method-like functions scoped to work with an actor */
+export const getActorMethods = (actor: ActorPF): SpheresActorMethods => ({
+  rollMsb: rollMsb(actor),
+  getMsbNotes: getMsbNotes(actor),
 });
 
-const rollSpheresAttribute =
+/** Returns a function that rolls a Magic Skill Check for an actor */
+const rollMsb =
   (actor: ActorPF) =>
-  (attribute: RollAttribute, options: RollOptions = {}) => {
-    const parts = actor.sourceDetails[`data.spheres.${attribute}.total` as const]
+  /**
+   * Rolls a Magic Skill Check
+   *
+   * @param options - Additional options affecting the roll/chat message creation
+   */
+  (options: DicePFD20RollOptions & RollMethodOptions = {}): Promise<ChatMessage | Roll> | void => {
+    if (!actor.isOwner) {
+      const msg = localize("PF1.ErrorNoActorPermissionAlt", { "0": actor.name });
+      console.warn(msg);
+      return ui.notifications?.warn(msg);
+    }
+
+    const allowed = Hooks.call("actorRoll", actor, "msb", null, options);
+    if (allowed === false) return;
+
+    const parts = actor.sourceDetails["data.spheres.msb.total"]
       .map((info) => `${info.value}[${info.name}]`)
       .join("+");
+
+    const rollData = actor.getRollData();
+    const noteObjects = getMsbNotes(actor)();
+    const notes = actor.formatContextNotes(noteObjects, rollData);
+    const props = notes.length > 0 ? [{ header: localize("PF1.Notes"), value: notes }] : [];
 
     return getGame().pf1.DicePF.d20Roll({
       event: options.event ?? new MouseEvent(""),
@@ -26,19 +56,33 @@ const rollSpheresAttribute =
       parts,
       dice: options.dice,
       data: actor.getRollData(),
-      title: options.label ?? localize(`Checks.${attribute}`),
+      title: options.label ?? localize(`Checks.MSB`),
       speaker: ChatMessage.getSpeaker({ actor }),
       chatTemplate: "systems/pf1/templates/chat/roll-ext.hbs",
+      chatTemplateData: { hasProperties: props.length > 0, properties: props },
+      chatMessage: options.chatMessage ?? true,
+      noSound: options.noSound ?? false,
+      originalOptions: options,
     });
   };
 
-type RollAttribute = "cl" | "msb";
-interface RollOptions {
-  event?: JQuery.ClickEvent;
-  dice?: string;
-  label?: string;
+/** Returns a function that returns an actor's Magic Skill Check Context Notes */
+const getMsbNotes =
+  (actor: ActorPF) =>
+  /** Returns an array of objects containing an item and its Magic Skill Check Context Notes, if any */
+  (): ContextNoteObject[] =>
+    actor.allNotes.map((no) => ({
+      item: no.item,
+      notes: no.notes.filter((n) => n.subTarget === "msb").map((n) => n.text),
+    }));
+
+interface ContextNoteObject {
+  item: ItemPF;
+  notes: string[];
 }
 
-interface ActorMethods {
-  rollSpheresAttribute: (attribute: RollAttribute, options: RollOptions) => Roll | ChatMessage;
+interface RollMethodOptions {
+  chatMessage?: boolean;
+  noSound?: boolean;
+  dice?: string;
 }
