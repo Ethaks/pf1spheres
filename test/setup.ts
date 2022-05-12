@@ -5,10 +5,11 @@
  */
 
 import translations from "../public/lang/en.json";
-import { testActor } from "./test-actor";
-import type { ActorDataPath, ActorPF } from "../src/module/actor-data";
+import type { ActorDataPath } from "../src/module/actor-data";
 import { FakeItemChange } from "./fakes";
 import type { SourceInfo, SourceInfoEntry } from "../src/module/item-data";
+import { FakeActor } from "./fakes/fake-actor";
+import { FakeItem } from "./fakes/fake-item";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */ // any will be used a lot in lieu of proper types
 
@@ -41,6 +42,11 @@ class Game {
         return obj[key] as SourceInfoEntry;
       },
     },
+    DicePF: class {
+      static d20Roll() {
+        return {};
+      }
+    },
   };
   public i18n = {
     format: (key: string, data: Record<string, any> = {}) => {
@@ -63,15 +69,21 @@ export function setup() {
 
   (global as any).game = new Game();
 
+  (global as any).Actor = FakeActor;
+  (global as any).Item = FakeItem;
+
+  (global as any).Hooks = class {
+    // eslint-disable-next-line @typescript-eslint/no-empty-function
+    static call() {}
+  };
+
+  (global as any).ui = {};
+
   // @ts-expect-error It's what's provided by Foundry
   String.prototype.capitalize = function () {
     if (!this.length) return this;
     return this.charAt(0).toUpperCase() + this.slice(1);
   };
-  // vi.spyOn(String.prototype, "capitalize").mockImplementation(function () {
-  //   if (!this.length) return this;
-  //   return this.charAt(0).toUpperCase() + this.slice(1);
-  // });
 
   (global as any).CONFIG = {
     PF1: {
@@ -114,29 +126,4 @@ function setProperty(object: Record<string, any>, key: string, value: unknown): 
   }
   // Return changed status
   return changed;
-}
-
-/**
- * Returns a duplicated version of a fake actor built from test-actor.json data.
- * Although the return type is ActorPF, this is not a full actor!
- * Required fake data is determined on an as-needed basis.
- *
- * @returns A fake actor with a subset of available data
- */
-export const getActor: (options?: FakeActorOptions) => ActorPF = (options = {}) => {
-  const actor = JSON.parse(
-    JSON.stringify({
-      data: testActor,
-      items: testActor.items.map((i) => ({ data: i })),
-      sourceInfo: {},
-    })
-  ) as unknown as ActorPF; // treat minimal fake actor as the real thing
-
-  if (options.battered != null) actor.data.data.attributes.conditions.battered = options.battered;
-
-  return actor;
-};
-
-interface FakeActorOptions {
-  battered?: boolean;
 }

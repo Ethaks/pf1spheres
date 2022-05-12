@@ -15,8 +15,8 @@ import {
 import type { ActorPF } from "../src/module/actor-data";
 import { PF1S } from "../src/module/config";
 import type { CasterProgression, PF1ClassDataSource } from "../src/module/item-data";
+import { getFakeActor } from "./fakes/fake-actor";
 import type { FakeSettings } from "./setup";
-import { getActor } from "./setup";
 
 const classData = (progression: CasterProgression, level: number): ItemData & PF1ClassDataSource =>
   ({
@@ -28,7 +28,7 @@ const classData = (progression: CasterProgression, level: number): ItemData & PF
 
 describe("Actor snapshot data", () => {
   // Initialise actor
-  const actor = getActor();
+  const actor = getFakeActor();
 
   test("Actor has a class for each caster progression", () => {
     expect(actor.data.items).toContainEqual(
@@ -57,7 +57,7 @@ describe("Actor snapshot data", () => {
 
 describe("Actor base data preparation with fractional base bonuses", () => {
   // Initialise actor
-  const actor = getActor();
+  const actor = getFakeActor();
 
   // Run data preparation
   onActorBasePreparation(actor);
@@ -82,7 +82,7 @@ describe("Actor base data preparation with fractional base bonuses", () => {
 
 describe("Actor base data preparation without fractional base bonuses", () => {
   // Initialise actor
-  const actor = getActor();
+  const actor = getFakeActor();
 
   // Turn of fractional base bonuses
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */

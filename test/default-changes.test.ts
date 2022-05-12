@@ -9,13 +9,13 @@ import { onAddDefaultChanges } from "../src/module/changes";
 import { PF1S } from "../src/module/config";
 import type { ItemChange } from "../src/module/item-data";
 import { localize } from "../src/module/util";
-import { getActor } from "./setup";
+import { getFakeActor } from "./fakes/fake-actor";
 
 let actor: ActorPF;
 const changes: ItemChange[] = [];
 
 beforeAll(() => {
-  actor = getActor();
+  actor = getFakeActor();
   onAddDefaultChanges(actor, changes);
 });
 
@@ -36,7 +36,7 @@ describe("Test default changes handling", () => {
 
   // This test uses its own actor instance to test an actor without the Battered condition
   test("No Battered condition", () => {
-    const newActor = getActor({ battered: false });
+    const newActor = getFakeActor({ battered: false });
     const newChanges: ItemChange[] = [];
     onAddDefaultChanges(newActor, newChanges);
     expect(
