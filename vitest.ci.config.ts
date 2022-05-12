@@ -11,7 +11,7 @@ config.test.reporters = ["default", "junit"];
 config.test.outputFile = { junit: "junit.xml" };
 config.test.coverage = {
   reporter: ["cobertura", "lcov", "text"],
-  exclude: ["**/*-data.ts"],
+  exclude: ["**/*-data.ts", "src/module/pack-utils/**/*.ts"],
   include: ["src/module"],
   all: true,
 };
