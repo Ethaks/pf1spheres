@@ -53,6 +53,8 @@ Hooks.once("setup", () => {
     "featTypesPlurals",
     "buffTargetCategories",
     "buffTargets",
+    "contextNoteCategories",
+    "contextNoteTargets",
     "conditionTypes",
     "conditions",
   ] as const;

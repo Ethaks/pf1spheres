@@ -193,6 +193,12 @@ export const PF1CONFIG_EXTRA = {
       sort: 303000,
     },
   },
+  contextNoteCategories: {
+    spheresMisc: { label: "PF1SPHERES.SpherePlural" },
+  },
+  contextNoteTargets: {
+    msb: { label: "PF1SPHERES.Checks.MSB", category: "spheresMisc" },
+  },
   bonusModifiers: {
     sphereCLCap: "PF1SPHERES.SphereCLCapped",
   },
@@ -215,6 +221,11 @@ export interface PF1CONFIG {
   buffTargets: Record<
     string,
     { label: string; category: keyof typeof CONFIG.PF1.buffTargetCategories; sort: number }
+  >;
+  contextNoteCategories: Record<string, { label: string }>;
+  contextNoteTargets: Record<
+    string,
+    { label: string; category: keyof typeof CONFIG.PF1.contextNoteCategories }
   >;
   bonusModifiers: Record<string, string>;
   conditionTypes: Record<string, string>;
