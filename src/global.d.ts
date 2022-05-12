@@ -4,11 +4,10 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
-import type { ActorDataProperties } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
-import type { ChatSpeakerDataProperties } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/chatSpeakerData";
 import type { ActorDataPath } from "./module/actor-data";
 import type { ActorSheetPF } from "./module/actor-sheet";
 import type { PF1CONFIG_EXTRA, PF1CONFIG, PF1S } from "./module/config";
+import type { DicePF } from "./module/dice-data";
 import type { ItemChange, RollData, SourceEntry, SourceInfo, Sphere } from "./module/item-data";
 import type { FromEntriesWithReadOnly } from "./module/ts-util";
 
@@ -71,18 +70,3 @@ type ObjectKeys<T> = T extends object
   T extends Array<any> | string
   ? string[]
   : never;
-
-declare class DicePF {
-  static d20Roll(options: DicePFD20RollOptions): ChatMessage | Roll;
-}
-
-interface DicePFD20RollOptions {
-  event?: JQuery.ClickEvent | Event;
-  fastForward?: boolean;
-  parts?: string | string[];
-  dice?: string | undefined;
-  data?: RollData | ActorDataProperties["data"];
-  title?: string;
-  speaker?: ChatSpeakerDataProperties;
-  chatTemplate?: string;
-}
