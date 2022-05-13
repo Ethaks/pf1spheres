@@ -127,5 +127,3 @@ Hooks.on("pf1.prepareBaseActorData", onActorBasePreparation);
 Hooks.on("pf1.getChangeFlat", onGetChangeFlat);
 
 Hooks.on("pf1.addDefaultChanges", onAddDefaultChanges);
-
-//Hooks.on("little-helper.checks.hints", () => {});
