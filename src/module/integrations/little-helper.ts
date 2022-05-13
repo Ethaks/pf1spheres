@@ -70,7 +70,7 @@ export const onLilHelperCheckHints = (
     }
 
     tags.push(
-      new cls(localize("Checks.MSBDefensiveMxCL") + enrichedDefensiveRoll, {
+      new cls(localize("Checks.MSBDefensiveMaxCL") + enrichedDefensiveRoll, {
         hint: "DC 15+CL",
         check,
         failure: check <= 15,
@@ -88,8 +88,8 @@ export const onLilHelperCheckHints = (
         failure: check < 10,
         possible: check >= 10,
       }),
-      new cls(localize("Checks.MSBEntangleDC") + enrichedEntangledRoll, {
-        hint: "DC 15+SL",
+      new cls(localize("Checks.MSBEntangledDC") + enrichedEntangledRoll, {
+        hint: "DC 15+((CL-1)/2)",
         check,
         failure: check < 15,
         possible: check >= 15,
