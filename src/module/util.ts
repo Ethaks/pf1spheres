@@ -24,8 +24,12 @@ const regex = /^ACTOR\.|ITEM\.|PF1\.|PF1SPHERES\./;
  * @returns The localised string
  */
 export const localize = (key: string, data?: Record<string, unknown>): string => {
-  if (regex.test(key)) return getGame().i18n.format(key, data);
-  else return getGame().i18n.format(`PF1SPHERES.${key}`);
+  let result = key;
+  if (regex.test(key)) result = getGame().i18n.format(key, data);
+  else result = getGame().i18n.format(`PF1SPHERES.${key}`);
+
+  if (result.startsWith("PF1SPHERES")) console.warn(`No translation string found for ${key}`);
+  return result;
 };
 
 /**
