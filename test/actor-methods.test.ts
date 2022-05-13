@@ -49,6 +49,7 @@ describe("Actor#rollMsb", () => {
       data: actor.data,
       title: "Magic Skill Check",
       speaker: {},
+      subject: { pf1spheres: "msb" },
       chatTemplate: "systems/pf1/templates/chat/roll-ext.hbs",
       chatTemplateData: { hasProperties: false, properties: [] },
       chatMessage: true,
@@ -66,7 +67,7 @@ describe("Actor#rollMsb", () => {
 
     const result = await actor.spheres.rollMsb();
     expect(result).toBeUndefined();
-    expect(hookSpy).toHaveBeenCalledTimes(0);
-    expect(d20RollSpy).toHaveBeenCalledTimes(0);
+    expect(hookSpy).not.toHaveBeenCalled();
+    expect(d20RollSpy).not.toHaveBeenCalled();
   });
 });

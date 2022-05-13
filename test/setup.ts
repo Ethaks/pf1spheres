@@ -10,6 +10,8 @@ import { FakeItemChange } from "./fakes";
 import type { SourceInfo, SourceInfoEntry } from "../src/module/item-data";
 import { FakeActor } from "./fakes/fake-actor";
 import { FakeItem } from "./fakes/fake-item";
+import { FakeRoll } from "./fakes/fake-roll";
+import { FakeChatMessage } from "./fakes/fake-message";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */ // any will be used a lot in lieu of proper types
 
@@ -71,6 +73,8 @@ export function setup() {
 
   (global as any).Actor = FakeActor;
   (global as any).Item = FakeItem;
+  (global as any).RollPF = FakeRoll;
+  (global as any).ChatMessage = FakeChatMessage;
 
   (global as any).Hooks = class {
     // eslint-disable-next-line @typescript-eslint/no-empty-function
