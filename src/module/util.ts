@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
+import { nonNullable } from "./ts-util";
+
 /** The module's name/id */
 export const MODULE_ID = "pf1spheres";
 
@@ -50,4 +52,53 @@ export function enforce(value: unknown, message?: string | Error): asserts value
     }
     throw message instanceof Error ? message : new Error(message);
   }
+}
+
+/** Creates an HTMLElement for a {@link Roll}, adding some data */
+export function enrichRoll(roll: Roll, formula: string, label: string | number) {
+  const enrichedRoll = createNode("a", {
+    attr: {
+      class: "inline-roll inline-result",
+      "data-roll": escape(JSON.stringify(roll)), // Ignore deprecation, Foundry uses this
+      title: formula,
+    },
+    html: `<i class="fas fa-dice-d20"></i> ${label}`,
+  });
+  return enrichedRoll;
+}
+
+interface CreateNodeOptions {
+  /** Attributes set for the HTMLElement via {@link HTMLElement.setAttribute} */
+  attr?: Record<string, string>;
+  /**
+   * A string of HTML directly set as the element's {@link HTMLElement.innerHTML}
+   * before possible children are added
+   */
+  html?: string;
+  /* Additional children */
+  children?: string | HTMLElement | Array<string | HTMLElement>;
+  baseNode?: HTMLElement | undefined;
+}
+
+/**
+ * Creates an HTMLElement for a given `tag` and optionally sets attributes, innerHTML, children.
+ *
+ * @param tag - A valid HTML tag name, like "a" or "span"
+ * @param options - Additional options affecting the element's contents
+ * @returns The created HTML element
+ */
+export function createNode(tag: string, options: CreateNodeOptions) {
+  const element = document.createElement(tag);
+  if (options.attr !== undefined)
+    for (const a in options.attr) element.setAttribute(a, options.attr[a]);
+  if (options.html !== undefined) element.innerHTML = options.html;
+  const children = Array.isArray(options.children) ? options.children : [options.children];
+  children.filter(nonNullable).forEach((child) => {
+    element.appendChild(typeof child === "string" ? document.createTextNode(child) : child);
+  });
+
+  if (options.baseNode !== undefined) {
+    options.baseNode.appendChild(element);
+  }
+  return element;
 }

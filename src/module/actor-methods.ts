@@ -54,6 +54,7 @@ const rollMsb =
       event: options.event ?? new MouseEvent(""),
       fastForward: getGame().pf1.skipConfirmPrompt,
       parts,
+      subject: { pf1spheres: "msb" },
       dice: options.dice,
       data: actor.getRollData(),
       title: options.label ?? localize(`Checks.MSB`),

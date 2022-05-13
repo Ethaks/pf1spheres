@@ -20,6 +20,7 @@ import { getGame, localize } from "./util";
 import type { PF1ModuleData } from "./common-data";
 import { onActorSheetHeaderButtons, onActorSheetRender } from "./actor-sheet";
 import * as packUtils from "./pack-utils";
+import { initializeModuleIntegrations } from "./integrations";
 
 // Vite specific imports
 import "../styles/pf1spheres.scss";
@@ -42,6 +43,8 @@ Hooks.once("init", () => {
     label: "PF1SPHERES.Battered",
     icon: "modules/pf1spheres/assets/icons/battered.png",
   });
+
+  initializeModuleIntegrations();
 });
 
 // Setup module
@@ -124,3 +127,5 @@ Hooks.on("pf1.prepareBaseActorData", onActorBasePreparation);
 Hooks.on("pf1.getChangeFlat", onGetChangeFlat);
 
 Hooks.on("pf1.addDefaultChanges", onAddDefaultChanges);
+
+//Hooks.on("little-helper.checks.hints", () => {});

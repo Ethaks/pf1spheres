@@ -3,8 +3,12 @@
 // SPDX-License-Identifier: EUPL-1.2
 
 import type { Ability, ActorDataPath, ActorPF } from "./actor-data";
-import type { SourceEntry } from "./item-data";
-import { getGame } from "./util";
+import type { TotalModData } from "./common-data";
+import type { MagicSphere, SourceEntry } from "./item-data";
+
+import { isMagicSphere } from "./item-util";
+import { enforce, getGame, localize } from "./util";
+import { PF1S } from "./config";
 
 /**
  * Returns a function that adds a SourceEntry to a given actor's sourceInfo
@@ -58,3 +62,26 @@ export const getActorHelpers = (actor: ActorPF) => {
     getAbilityMod: getActorAbility(actor),
   };
 };
+
+/** Returns a function that returns relevant highest magic CL data for a specific actor */
+export const getHighestCl =
+  (actor: ActorPF) =>
+  /**
+   * Returns an object containing this actor's highest magic CL, whether it's the total level or in
+   * a specific sphere, and a possible lable should the CL be displayed. */
+  (): { sphere: MagicSphere | "total"; label: string; cl: number } => {
+    const clData = actor.data.data.spheres?.cl;
+    enforce(clData, `Could not determine highest CL for ${actor.name}: No CL data found!`);
+    const highest: [MagicSphere | "total", number] = Object.entries(clData)
+      .filter((entry): entry is [MagicSphere, TotalModData<number>] => isMagicSphere(entry[0]))
+      .map(([sphere, data]): [MagicSphere, number] => [sphere, data.total])
+      .reduce(
+        (acc: [MagicSphere | "total", number], [sphere, cl]) => (cl > acc[1] ? [sphere, cl] : acc),
+        ["total", clData.total]
+      );
+    return {
+      sphere: highest[0],
+      label: highest[0] === "total" ? localize("CL") : PF1S.magicSpheres[highest[0]],
+      cl: highest[1],
+    };
+  };

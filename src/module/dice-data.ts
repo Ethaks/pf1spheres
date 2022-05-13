@@ -26,4 +26,5 @@ export interface DicePFD20RollOptions {
   chatMessage?: boolean;
   noSound?: boolean;
   originalOptions?: DicePFD20RollOptions;
+  subject?: Record<string, string>;
 }

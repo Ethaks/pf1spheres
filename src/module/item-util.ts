@@ -8,12 +8,13 @@ import type { CombatSphere, MagicSphere, Sphere } from "./item-data";
 /**
  * Returns and asserts whether a string containing a Sphere is a Magic Sphere
  */
-export const isMagicSphere = (sphere: Sphere): sphere is MagicSphere => sphere in PF1S.magicSpheres;
+export const isMagicSphere = (sphere: Sphere | string): sphere is MagicSphere =>
+  sphere in PF1S.magicSpheres;
 
 /**
  * Returns and asserts whether a string containing a Sphere is a Combat Sphere
  */
-export const isCombatSphere = (sphere: Sphere): sphere is CombatSphere =>
+export const isCombatSphere = (sphere: Sphere | string): sphere is CombatSphere =>
   sphere in PF1S.combatSpheres;
 
 /**
