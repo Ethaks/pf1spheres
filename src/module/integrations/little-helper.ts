@@ -47,7 +47,7 @@ export const onLilHelperCheckHints = (
   if (typeof subject === "object" && "pf1spheres" in subject && subject.pf1spheres === "msb") {
     const check = result ?? 0;
     const formulaDefensiveCasting = "@check[Result] - 15[Base DC]";
-    const formulaEntangledCasting = "floor((@check[Result] - 15[Base DC] -1) / 2)";
+    const formulaEntangledCasting = "1 + (@check[Result] - 15[Base DC]) * 2";
     const defensiveRoll = RollPF.safeRoll(formulaDefensiveCasting, { check });
     const entangledRoll = RollPF.safeRoll(formulaEntangledCasting, { check });
     const enrichedDefensiveRoll = enrichRoll(
@@ -65,8 +65,8 @@ export const onLilHelperCheckHints = (
     const actor = ChatMessage.getSpeakerActor(cm.data.speaker);
     if (actor) {
       const { cl = 0 } = getHighestCl(actor)();
-      if (check >= 15 + cl) defensiveSuccess = true;
-      if (check >= 15 + Math.max(0, Math.floor((cl - 1) / 2))) entangleSuccess = true;
+      if (check - 15 >= cl) defensiveSuccess = true;
+      if (1 + (check - 15) * 2 >= Math.max(0, Math.floor((cl - 1) / 2))) entangleSuccess = true;
     }
 
     tags.push(
@@ -89,7 +89,7 @@ export const onLilHelperCheckHints = (
         possible: check >= 10,
       }),
       new cls(localize("Checks.MSBEntangledDC") + enrichedEntangledRoll, {
-        hint: "DC 15+((CL-1)/2)",
+        hint: "DC 15+½CL",
         check,
         failure: check < 15,
         possible: check >= 15,
