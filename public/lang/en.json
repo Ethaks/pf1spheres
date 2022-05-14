@@ -1,10 +1,12 @@
 {
   "PF1SPHERES": {
-    "CL": "Caster Level",
-    "CLAbbr": "CL",
+    "CL": "CL",
     "CasterLevel": "Caster Level",
     "MSB": "MSB",
+    "MagicSkillBonus": "Magic Skill Bonus",
+    "Concentration": "Concentration",
     "MSD": "MSD",
+    "MagicSkillDefense": "Magic Skill Defense",
     "SphereValues": "Sphere Values",
     "SphereCasterLevelPlural": "Sphere-specifc Caster Levels",
     "SphereCLCapped": "Sphere CL (Capped at HD)",
@@ -13,13 +15,14 @@
     "Spherecasting": "Spherecasting",
     "SpheresOfPower": "Spheres of Power",
     "SpheresOfMight": "Spheres of Might",
+    "Sphere": "Sphere",
+    "SpherePlural": "Spheres",
 
     "CasterProgression": "Caster Level Progression",
     "HighCaster": "High-Caster",
     "MidCaster": "Mid-Caster",
     "LowCaster": "Low-Caster",
-    "Sphere": "Sphere",
-    "SpherePlural": "Spheres",
+    "CastingAbility": "Casting Ability",
 
     "Talent": "Talent",
     "TalentPlural": "Talents",
@@ -86,17 +89,16 @@
 
     "Checks": {
       "MSB": "Magic Skill Check",
-      "MSBDefensiveMaxCL": "Defensive Max CL",
-      "MSBDamagedDC": "Damaged DC 10+CL+DMG",
-      "MSBGrappledDC": "Grappled DC 10+CL+CMB",
-      "MSBEntangledDC": "Entangled Max CL",
-      "MSBContinuousHalf": "Continuous damage counts only for half"
+      "ConcentrationDefensiveMaxCL": "Defensive Max CL",
+      "ConcentrationDamagedDC": "Damaged DC 10+CL+DMG",
+      "ConcentrationGrappledDC": "Grappled DC 10+CL+CMB",
+      "ConcentrationEntangledDC": "Entangled Max CL",
+      "ConcentrationContinuousHalf": "Continuous damage counts only for half"
     },
 
     "Settings": {
       "Title": "Spheres Settings",
-      "MSBAbility": "Magic Skill Bonus Ability",
-      "MSBAbilityNote": "Configure which ability score modifier will be added to Magic Skill Checks."
+      "CastingAbilityNote": "Configure the casting ability whose modifier will be added e.g. to concentration checks."
     }
   }
 }

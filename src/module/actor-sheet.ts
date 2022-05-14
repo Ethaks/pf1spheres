@@ -80,6 +80,17 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
       rollable: ["msb"].includes(attribute) ? "rollable" : "",
     })
   );
+  // Insert Concentration element between MSB and MSD
+  attributeGrid.splice(2, 0, {
+    attribute: "concentration",
+    total: actor.data.data.spheres.concentration.total ?? 0,
+    label: localize("PF1.Concentration"),
+    path: "@spheres.concentration.total",
+    sources: [...actor.sourceDetails["data.spheres.concentration.total"]],
+    cappedSources: [],
+    rollable: "rollable",
+  });
+
   // const spellPool = actor.items.getName("Spell Pool");
   // attributeGrid.push({
   //   attribute: "spellPool",
@@ -123,7 +134,7 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
   // });
 
   const levelLabels = {
-    magic: localize("CLAbbr"),
+    magic: localize("CL"),
     combat: localize("PF1.BABAbbr"),
   };
 
@@ -185,6 +196,7 @@ const getRenderedSpheresTab = (data: SpheresTemplateData) =>
 
 const activateListeners = (app: ActorSheetPF, html: JQuery<HTMLElement>, actor: ActorPF) => {
   html.find(".msb>.attribute-name.rollable").on("click", _onMsbRoll(actor));
+  html.find(".concentration>.attribute-name.rollable").on("click", _onConcentrationRoll(actor));
 
   html.find(".expand-sphere").on("click", _toggleSphereTalentsDisplay(app));
 
@@ -226,9 +238,16 @@ const _onMsbRoll = (actor: ActorPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
   ev.preventDefault();
   const options = {
     event: ev,
-    label: localize("Checks.MSB"),
   };
   return actor.spheres.rollMsb(options);
+};
+
+const _onConcentrationRoll = (actor: ActorPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
+  ev.preventDefault();
+  const options = {
+    event: ev,
+  };
+  return actor.spheres.rollConcentration(options);
 };
 
 /**
@@ -339,7 +358,7 @@ type TalentMap = {
 //type ItemProperties = ToObjectFalseType<ItemPF["data"]>;
 
 interface AttributeData {
-  attribute?: "cl" | "msb" | "msd" | "bab" | "martialFocus" | "spellPool";
+  attribute?: "cl" | "msb" | "concentration" | "msd" | "bab" | "martialFocus" | "spellPool";
   sphere?: Sphere;
   total: number;
   label: string;

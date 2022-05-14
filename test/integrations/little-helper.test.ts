@@ -59,9 +59,9 @@ describe("LittleHelperIntegration#onLilHelperCheckHints", () => {
     tags = [];
   });
 
-  test("should create a tag for Magic Skill Checks", () => {
+  test("should create a tag for Concentration checks", () => {
     onLilHelperCheckHints(tags, {
-      subject: { pf1spheres: "msb" },
+      subject: { pf1spheres: "concentration" },
       // @ts-expect-error Provide only data necessary for function
       cm: { data: { speaker: undefined } },
       result: 16,
@@ -73,7 +73,7 @@ describe("LittleHelperIntegration#onLilHelperCheckHints", () => {
   test("should create success tags when check > maxCl", () => {
     totalCl = 5;
     onLilHelperCheckHints(tags, {
-      subject: { pf1spheres: "msb" },
+      subject: { pf1spheres: "concentration" },
       // @ts-expect-error Provide only data necessary for function
       cm: { data: { speaker: undefined } },
       result: 15 + totalCl + 1,
@@ -93,7 +93,7 @@ describe("LittleHelperIntegration#onLilHelperCheckHints", () => {
   test("should create a possible tag when maxCl > check > 15", () => {
     totalCl = 5;
     onLilHelperCheckHints(tags, {
-      subject: { pf1spheres: "msb" },
+      subject: { pf1spheres: "concentration" },
       // @ts-expect-error Provide only data necessary for function
       cm: { data: { speaker: undefined } },
       result: 17,
@@ -113,7 +113,7 @@ describe("LittleHelperIntegration#onLilHelperCheckHints", () => {
   test("should create a failure tag when check <= 15", () => {
     totalCl = 0;
     onLilHelperCheckHints(tags, {
-      subject: { pf1spheres: "msb" },
+      subject: { pf1spheres: "concentration" },
       // @ts-expect-error Provide only data necessary for function
       cm: { data: { speaker: undefined } },
       result: 14,

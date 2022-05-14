@@ -229,5 +229,6 @@ export interface SourceInfoEntry {
 }
 export interface SourceEntry {
   name: string;
-  value: number;
+  value?: number;
+  formula?: string;
 }

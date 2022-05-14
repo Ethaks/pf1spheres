@@ -81,10 +81,17 @@ export const changeFlatTargets: Record<SphereChangeTarget, ChangeFlatTargetData>
   "~spherecl": {
     default: ["data.spheres.cl.total"],
   },
+  "~castingAbility": {
+    default: ["data.spheres.cam"],
+  },
   // MSB
   msb: {
     default: ["data.spheres.msb.total"],
     untypedPerm: ["data.spheres.msb.base"],
+  },
+  // Actor-wide concentration
+  sphereConcentration: {
+    default: ["data.spheres.concentration.total"],
   },
   // MSD
   msd: {
@@ -134,15 +141,15 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
   const battered = actor.data.data.attributes.conditions.battered ?? false;
   const batteredChangeData = getBatteredChangeData(battered);
 
-  // Add MSB bonus from ability score
-  const msbAbility = actor.data.flags.pf1spheres?.msbAbility;
-  const msbAbilityMod = getAbilityMod(msbAbility);
-  const msbAbilityChangeData = getMsbAbilityChange(msbAbility, msbAbilityMod);
+  // Add Concentration bonus from Casting Ability
+  const castingAbility = actor.data.flags.pf1spheres?.castingAbility;
+  const castingAbilityMod = getAbilityMod(castingAbility);
+  const castingAbilityChangeData = getCastingAbilityChange(castingAbility, castingAbilityMod);
 
   const changeData: DefaultChangeData[] = [
     defaultChangeData,
     batteredChangeData,
-    msbAbilityChangeData,
+    castingAbilityChangeData,
   ].filter(nonNullable);
 
   // Actually add Changes to the system's process
@@ -206,15 +213,33 @@ const getBatteredChangeData = (battered: boolean): DefaultChangeData | undefined
       }
     : undefined;
 
-const getMsbAbilityChange = (
+const getCastingAbilityChange = (
   ability: Ability | "" | undefined,
   modifier: number
 ): DefaultChangeData | undefined =>
   ability !== undefined && ability !== ""
     ? {
-        changes: [{ formula: `${modifier}`, subTarget: "msb", modifier: "untyped" }],
+        changes: [
+          {
+            formula: `${modifier}`,
+            subTarget: "sphereConcentration",
+            modifier: "untyped",
+          },
+          { formula: `@spheres.msb.total`, subTarget: "sphereConcentration", modifier: "untyped" },
+          { formula: `${modifier}`, subTarget: "~castingAbility", modifier: "untyped" },
+        ],
         pSourceInfo: [
-          ["data.spheres.msb.total", { value: modifier, name: CONFIG.PF1.abilities[ability] }],
+          [
+            "data.spheres.concentration.total",
+            {
+              value: modifier,
+              name: `${localize("CastingAbility")} (${CONFIG.PF1.abilities[ability]})`,
+            },
+          ],
+          [
+            "data.spheres.concentration.total",
+            { name: localize("MagicSkillBonus"), formula: "@spheres.msb.total" },
+          ],
         ],
       }
     : undefined;
