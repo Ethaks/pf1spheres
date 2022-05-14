@@ -141,15 +141,18 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
   const battered = actor.data.data.attributes.conditions.battered ?? false;
   const batteredChangeData = getBatteredChangeData(battered);
 
-  // Add Concentration bonus from Casting Ability
+  // Add Casting Ability Modifier to Concentration and `@spheres.cam` shortcut
   const castingAbility = actor.data.flags.pf1spheres?.castingAbility;
   const castingAbilityMod = getAbilityMod(castingAbility);
   const castingAbilityChangeData = getCastingAbilityChange(castingAbility, castingAbilityMod);
+
+  const msbToConcentrationChangeData = getMsbToConcentrationChange();
 
   const changeData: DefaultChangeData[] = [
     defaultChangeData,
     batteredChangeData,
     castingAbilityChangeData,
+    msbToConcentrationChangeData,
   ].filter(nonNullable);
 
   // Actually add Changes to the system's process
@@ -213,6 +216,12 @@ const getBatteredChangeData = (battered: boolean): DefaultChangeData | undefined
       }
     : undefined;
 
+const getMsbToConcentrationChange = (): DefaultChangeData => ({
+  changes: [
+    { formula: `@spheres.msb.total`, subTarget: "sphereConcentration", modifier: "untyped" },
+  ],
+});
+
 const getCastingAbilityChange = (
   ability: Ability | "" | undefined,
   modifier: number
@@ -225,8 +234,12 @@ const getCastingAbilityChange = (
             subTarget: "sphereConcentration",
             modifier: "untyped",
           },
-          { formula: `@spheres.msb.total`, subTarget: "sphereConcentration", modifier: "untyped" },
-          { formula: `${modifier}`, subTarget: "~castingAbility", modifier: "untyped" },
+          {
+            formula: `${modifier}`,
+            subTarget: "~castingAbility",
+            modifier: "untyped",
+            priority: -100,
+          },
         ],
         pSourceInfo: [
           [
