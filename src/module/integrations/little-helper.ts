@@ -67,7 +67,7 @@ export const onLilHelperCheckHints = (
       if (actor) {
         const { cl = 0 } = getHighestCl(actor)();
         if (check - 15 >= cl) defensiveSuccess = true;
-        if (1 + (check - 15) * 2 >= Math.max(0, Math.floor((cl - 1) / 2))) entangleSuccess = true;
+        if (check - 15 >= Math.floor(cl / 2)) entangleSuccess = true;
       }
 
       tags.push(
