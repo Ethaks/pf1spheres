@@ -132,7 +132,7 @@ export const changeFlatTargets: Record<SphereChangeTarget, ChangeFlatTargetData>
  * @param changes - The array of Changes that will be applied to this actor
  */
 export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): DefaultChangeData[] => {
-  const { ItemChange, pushNSourceInfo, pushPSourceInfo, getAbilityMod } = getChangeHelpers(actor);
+  const { ItemChange, pushNSourceInfo, pushPSourceInfo } = getChangeHelpers(actor);
 
   // Generate array with all change data and source info
   const defaultChangeData = getDefaultChanges();
@@ -143,8 +143,7 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
 
   // Add Casting Ability Modifier to Concentration and `@spheres.cam` shortcut
   const castingAbility = actor.data.flags.pf1spheres?.castingAbility;
-  const castingAbilityMod = getAbilityMod(castingAbility);
-  const castingAbilityChangeData = getCastingAbilityChange(castingAbility, castingAbilityMod);
+  const castingAbilityChangeData = getCastingAbilityChange(castingAbility);
 
   const msbToConcentrationChangeData = getMsbToConcentrationChange();
 
@@ -223,29 +222,27 @@ const getMsbToConcentrationChange = (): DefaultChangeData => ({
 });
 
 const getCastingAbilityChange = (
-  ability: Ability | "" | undefined,
-  modifier: number
+  ability: Ability | "" | undefined
 ): DefaultChangeData | undefined =>
   ability !== undefined && ability !== ""
     ? {
         changes: [
           {
-            formula: `${modifier}`,
+            formula: `@abilities.${ability}.mod`,
             subTarget: "sphereConcentration",
             modifier: "untyped",
           },
           {
-            formula: `${modifier}`,
+            formula: `@abilities.${ability}.mod`,
             subTarget: "~castingAbility",
             modifier: "untyped",
-            priority: -100,
           },
         ],
         pSourceInfo: [
           [
             "data.spheres.concentration.total",
             {
-              value: modifier,
+              formula: `@abilities.${ability}.mod`,
               name: `${localize("CastingAbility")} (${CONFIG.PF1.abilities[ability]})`,
             },
           ],
