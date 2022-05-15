@@ -39,6 +39,11 @@ const config = defineConfig({
     outDir: resolve("dist"),
     emptyOutDir: true,
     sourcemap: true,
+    rollupOptions: {
+      output: {
+        sourcemapPathTransform: (relative) => path.join("/modules/pf1spheres/src", relative),
+      },
+    },
     reportCompressedSize: true,
     lib: {
       name: "pf1spheres",
