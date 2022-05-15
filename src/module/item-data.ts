@@ -227,8 +227,16 @@ export interface SourceInfoEntry {
   positive: SourceEntry[];
   negative: SourceEntry[];
 }
-export interface SourceEntry {
+
+export type SourceEntry = SourceEntryBase & (SourceEntryValue | SourceEntryFormula);
+interface SourceEntryBase {
   name: string;
-  value?: number;
-  formula?: string;
+}
+interface SourceEntryFormula {
+  value?: never;
+  formula: string;
+}
+interface SourceEntryValue {
+  value: number;
+  formula?: never;
 }
