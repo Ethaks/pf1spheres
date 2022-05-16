@@ -14,10 +14,18 @@ config.test.coverage = {
   all: true,
   include: ["src/module"],
 
-  // Exclude data.ts files, since they should only contain declarations or immediately adjacent minimal code
-  // Exclude pack utils, since they are not part of the usual module's code and should only be run by devs
-  // Exclude hot reload code, as it only runs in dev environment
-  exclude: ["**/*-data.ts", "src/module/pack-utils/**/*.ts", "src/module/hmr.ts"],
+  exclude: [
+    // Exclude data.ts files, since they should only contain declarations or immediately adjacent minimal code
+    "**/*-data.ts",
+    // Exclude pack utils, since they are not part of the usual module's code and should only be run by devs
+    "src/module/pack-utils/**/*.ts",
+    // Exclude hot reload code, as it only runs in dev environment
+    "src/module/hmr.ts",
+    // Exclude dev utils, as they only run in dev environment
+    "src/module/dev-utils.ts",
+    // Exclude entry point file containing only imports and Hooks
+    "src/module/pf1spheres.ts",
+  ],
 };
 
 export default config;

@@ -25,6 +25,7 @@ import { initializeModuleIntegrations } from "./integrations";
 // Vite specific imports
 import "../styles/pf1spheres.scss";
 import "./hmr";
+import { getDevUtils } from "./dev-utils";
 
 export {};
 
@@ -113,6 +114,7 @@ Hooks.once("setup", () => {
       changeFlatTargets: changeFlatTargets,
       _internal: {
         packUtils: undefined,
+        devUtils: undefined,
       },
     };
     // Add packUtils, if available
@@ -124,6 +126,9 @@ Hooks.once("setup", () => {
         console.error("Could not load pack utils! ", error);
       }
     );
+    getDevUtils().then((result) => {
+      if (moduleData.api) moduleData.api._internal.devUtils = result;
+    });
   }
 });
 
