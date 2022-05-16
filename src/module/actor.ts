@@ -5,7 +5,7 @@
  */
 
 import type { ItemData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
-import type { TotalModData, ValueData } from "./common-data";
+import type { TotalData, TotalModData, ValueData } from "./common-data";
 import type { ActorPF, PF1ActorSpheresData } from "./actor-data";
 import type { CombatSphere, MagicSphere, PF1ClassDataSource } from "./item-data";
 import { getActorMethods } from "./actor-methods";
@@ -23,8 +23,12 @@ import { getGame, localize } from "./util";
  * @param {Actor} actor - The actor whose data gets prepared
  */
 export const onActorBasePreparation = (actor: ActorPF): void => {
+  // Do not interact with basic actors, whose data can/should be empty
+  if (actor.data.type === "basic") return;
+
   // Add Spheres actor methods if not already present
   if (!("spheres" in actor)) actor.spheres = getActorMethods(actor);
+
   // Populate/reset spheres data
   const sphereData = (actor.data.data.spheres = getBlankSphereData());
 
@@ -132,6 +136,7 @@ const getBlankSphereData = (): PF1ActorSpheresData => {
     modCap: 0,
     total: 0,
   });
+  const totalTemplate = (): TotalData<number> => ({ total: 0 });
 
   /** Helper to fill a Record containing spheres, each with a data set */
   /* eslint-disable-next-line @typescript-eslint/ban-types */
@@ -143,8 +148,10 @@ const getBlankSphereData = (): PF1ActorSpheresData => {
       ...fillSpheres(Object.keys(PF1S.magicSpheres) as MagicSphere[], totalModTemplate),
       ...valueDataTemplate(),
     },
+    cam: 0,
     msb: valueDataTemplate(),
     msd: valueDataTemplate(),
+    concentration: totalTemplate(),
     bab: fillSpheres(Object.keys(PF1S.combatSpheres) as CombatSphere[], totalModTemplate),
   };
 };

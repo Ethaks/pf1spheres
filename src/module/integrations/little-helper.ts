@@ -44,57 +44,59 @@ export const onLilHelperCheckHints = (
   tags: Tag[],
   { subject, cm, result, cls }: LilHelperCheckHintsOptions
 ): void => {
-  if (typeof subject === "object" && "pf1spheres" in subject && subject.pf1spheres === "msb") {
-    const check = result ?? 0;
-    const formulaDefensiveCasting = "@check[Result] - 15[Base DC]";
-    const formulaEntangledCasting = "1 + (@check[Result] - 15[Base DC]) * 2";
-    const defensiveRoll = RollPF.safeRoll(formulaDefensiveCasting, { check });
-    const entangledRoll = RollPF.safeRoll(formulaEntangledCasting, { check });
-    const enrichedDefensiveRoll = enrichRoll(
-      defensiveRoll,
-      formulaDefensiveCasting,
-      defensiveRoll.total ?? ""
-    ).outerHTML;
-    const enrichedEntangledRoll = enrichRoll(
-      entangledRoll,
-      formulaEntangledCasting,
-      entangledRoll.total ?? ""
-    ).outerHTML;
-    let defensiveSuccess = false,
-      entangleSuccess = false;
-    const actor = ChatMessage.getSpeakerActor(cm.data.speaker);
-    if (actor) {
-      const { cl = 0 } = getHighestCl(actor)();
-      if (check - 15 >= cl) defensiveSuccess = true;
-      if (1 + (check - 15) * 2 >= Math.max(0, Math.floor((cl - 1) / 2))) entangleSuccess = true;
-    }
+  if (typeof subject === "object" && "pf1spheres" in subject) {
+    if (subject.pf1spheres === "concentration") {
+      const check = result ?? 0;
+      const formulaDefensiveCasting = "@check[Result] - 15[Base DC]";
+      const formulaEntangledCasting = "1 + (@check[Result] - 15[Base DC]) * 2";
+      const defensiveRoll = RollPF.safeRoll(formulaDefensiveCasting, { check });
+      const entangledRoll = RollPF.safeRoll(formulaEntangledCasting, { check });
+      const enrichedDefensiveRoll = enrichRoll(
+        defensiveRoll,
+        formulaDefensiveCasting,
+        defensiveRoll.total ?? ""
+      ).outerHTML;
+      const enrichedEntangledRoll = enrichRoll(
+        entangledRoll,
+        formulaEntangledCasting,
+        entangledRoll.total ?? ""
+      ).outerHTML;
+      let defensiveSuccess = false,
+        entangleSuccess = false;
+      const actor = ChatMessage.getSpeakerActor(cm.data.speaker);
+      if (actor) {
+        const { cl = 0 } = getHighestCl(actor)();
+        if (check - 15 >= cl) defensiveSuccess = true;
+        if (check - 15 >= Math.floor(cl / 2)) entangleSuccess = true;
+      }
 
-    tags.push(
-      new cls(localize("Checks.MSBDefensiveMaxCL") + enrichedDefensiveRoll, {
-        hint: "DC 15+CL",
-        check,
-        failure: check <= 15,
-        possible: check > 15,
-        success: defensiveSuccess,
-      }),
-      new cls(localize("Checks.MSBDamagedDC"), {
-        hint: "Continuous damage counts for only half.",
-        check,
-        failure: check < 10,
-        possible: check >= 10,
-      }),
-      new cls(localize("Checks.MSBGrappledDC"), {
-        check,
-        failure: check < 10,
-        possible: check >= 10,
-      }),
-      new cls(localize("Checks.MSBEntangledDC") + enrichedEntangledRoll, {
-        hint: "DC 15+½CL",
-        check,
-        failure: check < 15,
-        possible: check >= 15,
-        success: entangleSuccess,
-      })
-    );
+      tags.push(
+        new cls(localize("Checks.ConcentrationDefensiveMaxCL") + enrichedDefensiveRoll, {
+          hint: "DC 15+CL",
+          check,
+          failure: check <= 15,
+          possible: check > 15,
+          success: defensiveSuccess,
+        }),
+        new cls(localize("Checks.ConcentrationDamagedDC"), {
+          hint: localize("Checks.ConcentrationContinuousHalf"),
+          check,
+          failure: check < 10,
+          possible: check >= 10,
+        }),
+        new cls(localize("Checks.ConcentrationGrappledDC"), {
+          check,
+          failure: check < 10,
+          possible: check >= 10,
+        }),
+        new cls(localize("Checks.ConcentrationEntangledDC") + enrichedEntangledRoll, {
+          hint: "DC 15+½CL",
+          check,
+          failure: check < 15,
+          possible: check >= 15,
+          success: entangleSuccess,
+        })
+      );
+    }
   }
 };

@@ -18,7 +18,7 @@ declare global {
 }
 
 interface PF1ChatMessageFlags {
-  subject: { core: "concentration"; spellbook: string } | { pf1spheres: "msb" };
+  subject: { core: "concentration"; spellbook: string } | { pf1spheres: "msb" | "concentration" };
 }
 
 declare class ChatMessagePF extends ChatMessage {}

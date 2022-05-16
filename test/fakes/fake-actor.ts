@@ -7,9 +7,9 @@
 import type { ActorDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
 import type { ActorPF } from "../../src/module/actor-data";
 import type { ItemPF } from "../../src/module/item-data";
-import { testActor } from "../test-actor";
 import { FakeCollection } from "./fake-collection";
 import { FakeItem } from "./fake-item";
+import testActor from "../test-actor.json";
 
 export class FakeActor {
   sourceInfo = {};
@@ -52,8 +52,7 @@ export class FakeActor {
     return this.items
       .map((i) => ({
         item: i,
-        // @ts-expect-error No proper definitiona for test-only property
-        notes: (i.data.data.contextNotes as { text: string; subTarget: string }[]) ?? [],
+        notes: i.data.data.contextNotes ?? [],
       }))
       .filter((no) => no.notes.length > 0);
   }
@@ -71,7 +70,7 @@ export class FakeActor {
  * @returns A fake actor with a subset of available data
  */
 export const getFakeActor = (options?: FakeActorOptions): ActorPF => {
-  const actor = new FakeActor(testActor as ActorDataSource);
+  const actor = new FakeActor(testActor as unknown as ActorDataSource);
   if (options?.battered !== undefined)
     actor._data.data.attributes.conditions.battered = options.battered;
 

@@ -60,6 +60,7 @@ interface PF1ItemDataSourceTags {
 
 interface PF1ItemDataSourceChanges {
   changes: ItemChangeData[];
+  contextNotes: ContextNoteData[];
 }
 
 interface PF1ItemDataSourceUses {
@@ -197,6 +198,7 @@ export declare class ItemChange {
   data: ItemChangeData;
   parent: ActorPF;
   static create(data: ItemChangeCreateData): ItemChange;
+  get source(): ItemChangeData;
 }
 
 export interface ItemChangeData {
@@ -209,8 +211,8 @@ export interface ItemChangeData {
   priority: number;
   value: number;
 }
-export type ItemChangeCreateData = Omit<ItemChangeData, "_id" | "operator" | "value" | "priority"> &
-  Partial<Pick<ItemChangeData, "operator" | "priority">>;
+export type ItemChangeCreateData = Omit<ItemChangeData, "_id" | "operator" | "priority" | "value"> &
+  Partial<Pick<ItemChangeData, "operator" | "priority" | "value">>;
 
 // TODO: This type can be refined a bit even without typing the PF1 system
 export type RollData = {
@@ -227,7 +229,23 @@ export interface SourceInfoEntry {
   positive: SourceEntry[];
   negative: SourceEntry[];
 }
-export interface SourceEntry {
+
+export type SourceEntry = SourceEntryBase & (SourceEntryValue | SourceEntryFormula);
+interface SourceEntryBase {
   name: string;
+}
+interface SourceEntryFormula {
+  value?: never;
+  formula: string;
+}
+interface SourceEntryValue {
   value: number;
+  formula?: never;
+}
+
+interface ContextNoteData {
+  text: string;
+  subTarget:
+    | keyof typeof CONFIG.PF1.contextNoteTargets
+    | keyof typeof PF1CONFIG_EXTRA.contextNoteTargets;
 }

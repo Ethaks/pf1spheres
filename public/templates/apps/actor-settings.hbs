@@ -6,12 +6,12 @@ SPDX-License-Identifier: EUPL-1.2
     <div>
         {{!-- MSB --}}
         <div class="form-group">
-            <label for="msbAbility">{{ localize "PF1SPHERES.Settings.MSBAbility" }}</label>
+            <label for="msbAbility">{{ localize "PF1SPHERES.CastingAbility" }}</label>
             <div class="form-fields">
-                <select id="msbAbility"
-                        name="flags.pf1spheres.msbAbility"
+                <select id="castingAbility"
+                        name="flags.pf1spheres.castingAbility"
                         data-dtype="String">
-                    {{#select pf1sFlags.msbAbility }}
+                    {{#select pf1sFlags.castingAbility }}
                     <option value="">
                     </option>
                     {{#each PF1CONFIG.abilities as |label value|}}
@@ -23,7 +23,7 @@ SPDX-License-Identifier: EUPL-1.2
             </select>
         </div>
         <p class="notes">
-            {{ localize "PF1SPHERES.Settings.MSBAbilityNote" }}
+            {{ localize "PF1SPHERES.Settings.CastingAbilityNote" }}
         </p>
     </div>
 </div>

@@ -6,7 +6,8 @@
 
 import type { changeFlatTargets } from "./changes";
 import type { PF1S } from "./config";
-import type * as packUtils from "./pack-utils";
+import type { DevUtils } from "./dev-utils";
+import type { PackUtils } from "./pack-utils";
 
 export interface BaseData<T> {
   base: T;
@@ -35,6 +36,7 @@ export interface PF1SpheresApi {
   config: typeof PF1S;
   changeFlatTargets: typeof changeFlatTargets;
   _internal: {
-    packUtils: typeof packUtils;
+    packUtils: PackUtils | undefined;
+    devUtils: DevUtils | undefined;
   };
 }

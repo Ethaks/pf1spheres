@@ -25,6 +25,7 @@
   "scripts": {
     "build": "npm run compilePacks && vite build",
     "build:watch": "npm run compilePacks && vite build --watch",
+    "build:dev": "npm run compilePacks && vite build --mode development",
     "serve": "vite",
     "link-package": "node ./tools/link-package.js",
     "clean:link": "node ./tools/link-package.js --clean",

@@ -177,10 +177,20 @@ export const PF1CONFIG_EXTRA = {
       category: "sphereValues",
       sort: 300100,
     },
+    "~castingAbility": {
+      label: "PF1SPHERES.CastingAbility",
+      category: "sphereValues",
+      sort: 300800,
+    },
     msb: {
       label: "PF1SPHERES.MSB",
       category: "sphereValues",
       sort: 301000,
+    },
+    sphereConcentration: {
+      label: "PF1.Concentration",
+      category: "sphereValues",
+      sort: 301500,
     },
     msd: {
       label: "PF1SPHERES.MSD",
@@ -198,6 +208,7 @@ export const PF1CONFIG_EXTRA = {
   },
   contextNoteTargets: {
     msb: { label: "PF1SPHERES.Checks.MSB", category: "spheresMisc" },
+    concentration: { label: "PF1.Concentration", category: "spheresMisc" },
   },
   bonusModifiers: {
     sphereCLCap: "PF1SPHERES.SphereCLCapped",

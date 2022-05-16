@@ -81,7 +81,7 @@ export const getHighestCl =
       );
     return {
       sphere: highest[0],
-      label: highest[0] === "total" ? localize("CL") : PF1S.magicSpheres[highest[0]],
+      label: highest[0] === "total" ? localize("CasterLevel") : PF1S.magicSpheres[highest[0]],
       cl: highest[1],
     };
   };

@@ -19,12 +19,13 @@ import {
 import { getGame, localize } from "./util";
 import type { PF1ModuleData } from "./common-data";
 import { onActorSheetHeaderButtons, onActorSheetRender } from "./actor-sheet";
-import * as packUtils from "./pack-utils";
+import { getPackUtils } from "./pack-utils";
 import { initializeModuleIntegrations } from "./integrations";
 
 // Vite specific imports
 import "../styles/pf1spheres.scss";
 import "./hmr";
+import { getDevUtils } from "./dev-utils";
 
 export {};
 
@@ -96,6 +97,15 @@ Hooks.once("setup", () => {
     PF1CONFIG_EXTRA[o] = localizeObject(PF1CONFIG_EXTRA[o]);
   }
 
+  // Add to PF1 config
+  mergeObject(CONFIG.PF1, PF1CONFIG_EXTRA);
+
+  // Make own config available via shortcut
+  CONFIG.PF1SPHERES = PF1S;
+
+  // Register changes
+  registerChanges();
+
   // Enable API
   const moduleData: PF1ModuleData | undefined = getGame().modules?.get("pf1spheres");
   if (moduleData) {
@@ -103,17 +113,23 @@ Hooks.once("setup", () => {
       config: PF1S,
       changeFlatTargets: changeFlatTargets,
       _internal: {
-        packUtils: { ...packUtils },
+        packUtils: undefined,
+        devUtils: undefined,
       },
     };
+    // Add packUtils, if available
+    getPackUtils().then(
+      (result) => {
+        if (moduleData.api) moduleData.api._internal.packUtils = result;
+      },
+      (error) => {
+        console.error("Could not load pack utils! ", error);
+      }
+    );
+    getDevUtils().then((result) => {
+      if (moduleData.api) moduleData.api._internal.devUtils = result;
+    });
   }
-  CONFIG.PF1SPHERES = PF1S;
-
-  // Add to PF1 config
-  mergeObject(CONFIG.PF1, PF1CONFIG_EXTRA);
-
-  // Register changes
-  registerChanges();
 });
 
 Hooks.on("renderItemSheetPF", onItemSheetRender);

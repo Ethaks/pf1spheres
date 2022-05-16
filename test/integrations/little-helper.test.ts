@@ -59,9 +59,9 @@ describe("LittleHelperIntegration#onLilHelperCheckHints", () => {
     tags = [];
   });
 
-  test("should create a tag for Magic Skill Checks", () => {
+  test("should create a tag for Concentration checks", () => {
     onLilHelperCheckHints(tags, {
-      subject: { pf1spheres: "msb" },
+      subject: { pf1spheres: "concentration" },
       // @ts-expect-error Provide only data necessary for function
       cm: { data: { speaker: undefined } },
       result: 16,
@@ -73,7 +73,7 @@ describe("LittleHelperIntegration#onLilHelperCheckHints", () => {
   test("should create success tags when check > maxCl", () => {
     totalCl = 5;
     onLilHelperCheckHints(tags, {
-      subject: { pf1spheres: "msb" },
+      subject: { pf1spheres: "concentration" },
       // @ts-expect-error Provide only data necessary for function
       cm: { data: { speaker: undefined } },
       result: 15 + totalCl + 1,
@@ -90,10 +90,10 @@ describe("LittleHelperIntegration#onLilHelperCheckHints", () => {
     expect(entangleTag.failure).toBeFalsy();
   });
 
-  test("should create a possible tag when maxCl > check > 15", () => {
+  test("should create correct tags when maxCl > check > 15", () => {
     totalCl = 5;
     onLilHelperCheckHints(tags, {
-      subject: { pf1spheres: "msb" },
+      subject: { pf1spheres: "concentration" },
       // @ts-expect-error Provide only data necessary for function
       cm: { data: { speaker: undefined } },
       result: 17,
@@ -101,19 +101,51 @@ describe("LittleHelperIntegration#onLilHelperCheckHints", () => {
     });
     expect(tags).toHaveLength(4);
     const [defenseTag, , , entangleTag] = tags;
+    // Result > 15 -> possible
     expect(defenseTag.possible).toBeTruthy();
+    // 15 < Result < 15 + 5[CL] -> No guaranteed success
     expect(defenseTag.success).toBeFalsy();
+    // Result > 15 -> no guaranteed failure
     expect(defenseTag.failure).toBeFalsy();
 
+    // Result > 15 -> possible
     expect(entangleTag.possible).toBeTruthy();
+    // Result >= 15 + (floor(CL / 2))[Max spell level -> CL] -> success guaranteed
     expect(entangleTag.success).toBeTruthy();
+    // Result > 14 -> no guaranteed failure
+    expect(entangleTag.failure).toBeFalsy();
+  });
+
+  test("should create correct tags when ½maxCl > check > 15", () => {
+    totalCl = 5;
+    onLilHelperCheckHints(tags, {
+      subject: { pf1spheres: "concentration" },
+      // @ts-expect-error Provide only data necessary for function
+      cm: { data: { speaker: undefined } },
+      result: 16,
+      cls: Tag,
+    });
+    expect(tags).toHaveLength(4);
+    const [defenseTag, , , entangleTag] = tags;
+    // Result > 15 -> possible
+    expect(defenseTag.possible).toBeTruthy();
+    // 15 < Result < 15 + 5[CL] -> No guaranteed success
+    expect(defenseTag.success).toBeFalsy();
+    // Result > 15 -> no guaranteed failure
+    expect(defenseTag.failure).toBeFalsy();
+
+    // Result > 15 -> possible
+    expect(entangleTag.possible).toBeTruthy();
+    // Result < 15 + (floor(CL / 2))[Max spell level -> CL] -> no guaranteed success
+    expect(entangleTag.success).toBeFalsy();
+    // Result > 14 -> no guaranteed failure
     expect(entangleTag.failure).toBeFalsy();
   });
 
   test("should create a failure tag when check <= 15", () => {
     totalCl = 0;
     onLilHelperCheckHints(tags, {
-      subject: { pf1spheres: "msb" },
+      subject: { pf1spheres: "concentration" },
       // @ts-expect-error Provide only data necessary for function
       cm: { data: { speaker: undefined } },
       result: 14,

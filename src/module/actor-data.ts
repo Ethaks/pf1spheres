@@ -5,20 +5,20 @@
  */
 
 import type { ItemPF, RollData, SourceDetails, SourceInfo } from "./item-data";
-import type { TotalModData, ValueData } from "./common-data";
+import type { TotalData, TotalModData, ValueData } from "./common-data";
 import type { PF1S } from "./config";
 import type { DeepNonNullable, PropPath } from "./ts-util";
-import type { SpheresActorMethods } from "./actor-methods";
+import type { getActorMethods } from "./actor-methods";
 
 declare global {
   interface DocumentClassConfig {
     Actor: typeof ActorPF;
   }
   interface SourceConfig {
-    Actor: PF1ActorDataSource;
+    Actor: PF1ActorDataSource | PF1BasicActorData;
   }
   interface DataConfig {
-    Actor: PF1ActorDataProperties;
+    Actor: PF1ActorDataProperties | PF1BasicActorData;
   }
   interface FlagConfig {
     Actor: {
@@ -29,12 +29,12 @@ declare global {
 
 export interface SpheresActorFlags {
   /** The ability used by this actor for magic skill checks */
-  msbAbility?: Ability | "";
+  castingAbility?: Ability | "";
 }
 
 export declare class ActorPF extends Actor {
   /** Various Spheres-related functions working like methods for this actor */
-  spheres: SpheresActorMethods;
+  spheres: ReturnType<typeof getActorMethods>;
   /**
    * Final source details used for tooltips etc.
    */
@@ -61,7 +61,9 @@ export declare class ActorPF extends Actor {
 
 export interface PF1ActorSpheresData {
   cl: ValueData<number> & MagicSpheresRecord;
+  cam: number;
   msb: ValueData<number>;
+  concentration: TotalData<number>;
   msd: ValueData<number>;
   bab: CombatSpheresRecord;
 }
@@ -75,6 +77,10 @@ type CombatSpheresRecord = {
 };
 
 /* PF1 Source Data */
+interface PF1BasicActorData {
+  type: "basic";
+  data: Record<string, never>;
+}
 
 export type PF1ActorDataSource = {
   type: "character" | "npc";
