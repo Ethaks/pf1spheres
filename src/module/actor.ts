@@ -23,8 +23,12 @@ import { getGame, localize } from "./util";
  * @param {Actor} actor - The actor whose data gets prepared
  */
 export const onActorBasePreparation = (actor: ActorPF): void => {
+  // Do not interact with basic actors, whose data can/should be empty
+  if (actor.data.type === "basic") return;
+
   // Add Spheres actor methods if not already present
   if (!("spheres" in actor)) actor.spheres = getActorMethods(actor);
+
   // Populate/reset spheres data
   const sphereData = (actor.data.data.spheres = getBlankSphereData());
 

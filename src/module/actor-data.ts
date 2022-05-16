@@ -15,10 +15,10 @@ declare global {
     Actor: typeof ActorPF;
   }
   interface SourceConfig {
-    Actor: PF1ActorDataSource;
+    Actor: PF1ActorDataSource | PF1BasicActorData;
   }
   interface DataConfig {
-    Actor: PF1ActorDataProperties;
+    Actor: PF1ActorDataProperties | PF1BasicActorData;
   }
   interface FlagConfig {
     Actor: {
@@ -77,6 +77,10 @@ type CombatSpheresRecord = {
 };
 
 /* PF1 Source Data */
+interface PF1BasicActorData {
+  type: "basic";
+  data: Record<string, never>;
+}
 
 export type PF1ActorDataSource = {
   type: "character" | "npc";
