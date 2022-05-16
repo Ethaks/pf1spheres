@@ -33,21 +33,21 @@ describe("Actor snapshot data", () => {
   test("Actor has a class for each caster progression", () => {
     expect(actor.data.items).toContainEqual(
       expect.objectContaining({
-        name: "Low-Caster",
+        name: "Mageknight",
         type: "class",
         flags: { pf1spheres: { casterProgression: "low" } },
       })
     );
     expect(actor.data.items).toContainEqual(
       expect.objectContaining({
-        name: "Mid-Caster",
+        name: "Wraith",
         type: "class",
         flags: { pf1spheres: { casterProgression: "mid" } },
       })
     );
     expect(actor.data.items).toContainEqual(
       expect.objectContaining({
-        name: "High-Caster",
+        name: "Incanter",
         type: "class",
         flags: { pf1spheres: { casterProgression: "high" } },
       })
