@@ -93,6 +93,7 @@ export function setup() {
     PF1: {
       buffTargets: {},
       stackingBonusModifiers: [],
+      abilities: { int: "Intelligence" },
     },
   };
 
