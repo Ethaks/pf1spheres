@@ -59,14 +59,20 @@ export const onGetChangeFlat = (
   target: SphereChangeTarget,
   modifier: BonusModifier,
   result: { keys: ActorDataPath[] }
-): number =>
-  result.keys.push(
+): number => {
+  // Cache change targets on first call
+  if (changeFlatTargets === undefined) changeFlatTargets = getChangeFlatTargets();
+
+  return result.keys.push(
     ...(changeFlatTargets[target]?.[modifier] ?? changeFlatTargets[target]?.default ?? [])
   );
+};
 
-// TODO: Determine whether this should be a config object, or purely derived
-/** A dictionary containing all SphereChangeTargets and their respective data targets */
-export const changeFlatTargets: Record<SphereChangeTarget, ChangeFlatTargetData> = {
+/** A cache containing all SphereChangeTargets and their respective data targets */
+let changeFlatTargets: Record<SphereChangeTarget, ChangeFlatTargetData> | undefined;
+
+/** A function generating a dictionary containing all SphereChangeTargets and their respective data targets */
+export const getChangeFlatTargets = (): Record<SphereChangeTarget, ChangeFlatTargetData> => ({
   // General Sphere CL (general buffs apply to everything, HD capped only to modCap)
   spherecl: {
     default: [
@@ -121,7 +127,7 @@ export const changeFlatTargets: Record<SphereChangeTarget, ChangeFlatTargetData>
       { default: [`data.spheres.bab.${sphere}.total`] },
     ])
   ),
-};
+});
 
 /**
  * Adds general/default changes to an actor's Changes array.

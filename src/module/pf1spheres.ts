@@ -10,12 +10,7 @@ import { preloadTemplates } from "./preloadTemplates";
 import { PF1S, PF1CONFIG_EXTRA } from "./config";
 import { onItemSheetRender } from "./item-sheet";
 import { onActorBasePreparation } from "./actor";
-import {
-  onAddDefaultChanges,
-  changeFlatTargets,
-  onGetChangeFlat,
-  registerChanges,
-} from "./changes";
+import { onAddDefaultChanges, onGetChangeFlat, registerChanges } from "./changes";
 import { getGame, localize } from "./util";
 import type { PF1ModuleData } from "./common-data";
 import { onActorSheetHeaderButtons, onActorSheetRender } from "./actor-sheet";
@@ -28,6 +23,23 @@ import "./hmr";
 import { getDevUtils } from "./dev-utils";
 
 export {};
+
+declare global {
+  // eslint-disable-next-line @typescript-eslint/no-namespace
+  namespace Hooks {
+    interface StaticCallbacks {
+      /**
+       * A hook event that fires at the beginning of `pf1spheres`'s {@link Hooks.StaticCallbacks.setup} hook.
+       * Modules wishing to add spheres should do so here, as the modules registers its Changes with the
+       * system afterwards.
+       *
+       * @param config - The {@link PF1S|config} object also available globally via `CONFIG.PF1SPHERES`
+       * @remarks This is called by {@link Hooks.callAll}
+       */
+      "pf1spheres.preSetup": (config: typeof PF1S) => void;
+    }
+  }
+}
 
 // Initialize module
 Hooks.once("init", () => {
@@ -46,10 +58,13 @@ Hooks.once("init", () => {
   });
 
   initializeModuleIntegrations();
+
+  // Make own config available via shortcut
+  CONFIG.PF1SPHERES = PF1S;
 });
 
 // Setup module
-Hooks.once("setup", () => {
+Hooks.once("i18nInit", () => {
   // Localise config
   const toLocalize = ["progression", "magicSpheres", "combatSpheres"] as const;
   const toLocalizePF = [
@@ -99,9 +114,11 @@ Hooks.once("setup", () => {
 
   // Add to PF1 config
   mergeObject(CONFIG.PF1, PF1CONFIG_EXTRA);
+});
 
-  // Make own config available via shortcut
-  CONFIG.PF1SPHERES = PF1S;
+Hooks.once("setup", () => {
+  // Call hook to allow modules to add spheres
+  Hooks.callAll("pf1spheres.preSetup", PF1S);
 
   // Register changes
   registerChanges();
@@ -111,7 +128,6 @@ Hooks.once("setup", () => {
   if (moduleData) {
     moduleData.api = {
       config: PF1S,
-      changeFlatTargets: changeFlatTargets,
       _internal: {
         packUtils: undefined,
         devUtils: undefined,

@@ -4,7 +4,6 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
-import type { changeFlatTargets } from "./changes";
 import type { PF1S } from "./config";
 import type { DevUtils } from "./dev-utils";
 import type { PackUtils } from "./pack-utils";
@@ -34,7 +33,6 @@ export interface PF1ModuleData extends Game.ModuleData<foundry.packages.ModuleDa
 }
 export interface PF1SpheresApi {
   config: typeof PF1S;
-  changeFlatTargets: typeof changeFlatTargets;
   _internal: {
     packUtils: PackUtils | undefined;
     devUtils: DevUtils | undefined;
