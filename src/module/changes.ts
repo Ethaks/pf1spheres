@@ -16,7 +16,7 @@ import type {
   SphereChangeTarget,
   SphereCLChangeTarget,
 } from "./item-data";
-import { PF1S } from "./config";
+import { PF1CONFIG_EXTRA, PF1S } from "./config";
 import { getGame, localize } from "./util";
 import { getActorHelpers } from "./actor-util";
 import { nonNullable } from "./ts-util";
@@ -26,12 +26,13 @@ import { nonNullable } from "./ts-util";
  * from PF1CONFIG_EXTRA and applies additional changes to the PF1 system config.
  */
 export const registerChanges = (): void => {
+  const baseSort = PF1CONFIG_EXTRA.buffTargets["~spherecl"].sort;
   // Register sphere specific CL change targets
   Object.entries(PF1S.magicSpheres).forEach(([sphere, value], index) => {
     CONFIG.PF1.buffTargets[`spherecl${(sphere as MagicSphere).capitalize()}`] = {
       label: `${value} ${localize("CasterLevel")}`,
       category: "sphereCasterLevel",
-      sort: 305000 + index * 10,
+      sort: baseSort + 100 + index * 5,
     };
   });
 
@@ -40,7 +41,7 @@ export const registerChanges = (): void => {
     CONFIG.PF1.buffTargets[`spherebab${(sphere as CombatSphere).capitalize()}`] = {
       label: `${value} ${localize("PF1.BAB")}`,
       category: "sphereBAB",
-      sort: 306000 + index * 10,
+      sort: baseSort + 300 + index * 5,
     };
   });
 
@@ -87,6 +88,7 @@ export const getChangeFlatTargets = (): Record<SphereChangeTarget, ChangeFlatTar
   "~spherecl": {
     default: ["data.spheres.cl.total"],
   },
+  // Hidden target, used to make CAM available via short
   "~castingAbility": {
     default: ["data.spheres.cam"],
   },

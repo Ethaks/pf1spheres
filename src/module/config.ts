@@ -170,37 +170,37 @@ export const PF1CONFIG_EXTRA = {
     spherecl: {
       label: "PF1SPHERES.CasterLevel",
       category: "sphereValues",
-      sort: 300000,
+      sort: 45100,
     },
     "~spherecl": {
       label: "PF1SPHERES.CasterLevel",
       category: "sphereValues",
-      sort: 300100,
+      sort: 45200,
     },
     "~castingAbility": {
       label: "PF1SPHERES.CastingAbility",
       category: "sphereValues",
-      sort: 300800,
+      sort: 35001,
     },
     msb: {
       label: "PF1SPHERES.MSB",
       category: "sphereValues",
-      sort: 301000,
+      sort: 45700,
     },
     sphereConcentration: {
       label: "PF1.Concentration",
       category: "sphereValues",
-      sort: 301500,
+      sort: 45750,
     },
     msd: {
       label: "PF1SPHERES.MSD",
       category: "sphereValues",
-      sort: 302000,
+      sort: 45751,
     },
     "~spherebabBase": {
       label: "PF1.BAB",
       category: "sphereValues",
-      sort: 303000,
+      sort: 45800,
     },
   },
   contextNoteCategories: {
