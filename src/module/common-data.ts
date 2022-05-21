@@ -5,8 +5,8 @@
  */
 
 import type { PF1S } from "./config";
-import type { DevUtils } from "./dev-utils";
-import type { PackUtils } from "./pack-utils";
+import type { DevUtils } from "./dev/utils";
+import type { PackUtils } from "./dev";
 
 export interface BaseData<T> {
   base: T;

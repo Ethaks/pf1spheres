@@ -15,8 +15,8 @@ import type {
   ImportReturnValue,
   RawData,
 } from "./pack-util-data";
-import { nonNullable } from "../ts-util";
-import { getGame } from "../util";
+import { nonNullable } from "../../ts-util";
+import { getGame } from "../../util";
 
 import type * as t from "io-ts";
 import { failure } from "io-ts/PathReporter";

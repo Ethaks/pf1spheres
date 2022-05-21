@@ -5,10 +5,10 @@
  */
 
 import type { ItemDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
-import { PF1S } from "../config";
-import type { ItemPF, PF1ClassDataSource, SaveType } from "../item-data";
-import { getAllSpheres, getSphereType } from "../item-util";
-import { getGame } from "../util";
+import { PF1S } from "../../config";
+import type { ItemPF, PF1ClassDataSource, SaveType } from "../../item-data";
+import { getAllSpheres, getSphereType } from "../../item-util";
+import { getGame } from "../../util";
 import { importData } from "./pack-util";
 import type { BasePackConfig, DataImportOptions, DeduplicationData } from "./pack-util-data";
 import { RawAbilityData, RawTalentData, RawClassData, RawFeatData } from "./pack-util-data";

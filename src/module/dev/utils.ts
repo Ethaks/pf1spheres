@@ -5,28 +5,16 @@
  */
 
 import type { ActorDataConstructorData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
-import type { ItemChangeCreateData } from "./item-data";
-import { enforce, getGame } from "./util";
+import type { ActorPF } from "../actor-data";
+import type { ItemChangeCreateData } from "../item-data";
+import { enforce, getGame } from "../util";
 
 export interface DevUtils {
-  createTestActor: () => Promise<undefined | void>;
+  createTestActor: () => Promise<undefined | void | ActorPF>;
+  fetchPackEntryData: typeof fetchPackEntryData;
 }
 
-/**
- * Returns a promise of either undefined (in production builds),
- * or {@link DevUtils} (in development builds).
- *
- * This somewhat clunky setup avoids requiring top-level-await, which would
- * require increasing the build target to "es2022"
- */
-export let getDevUtils: () => Promise<undefined | DevUtils> = async () => undefined;
-
-// Guard to enable tree-shaking in production
-if (import.meta.env.DEV) {
-  getDevUtils = async () => ({ createTestActor });
-}
-
-const createTestActor = async () => {
+export const createTestActor = async ({ exportToJSON = false } = {}) => {
   const actorData: ActorDataConstructorData = {
     name: "Spheres Tester",
     type: "character",
@@ -104,10 +92,10 @@ const createTestActor = async () => {
   }
 
   const actor = await Actor.create(actorData);
-  actor?.exportToJSON();
+  return exportToJSON ? actor?.exportToJSON() : actor;
 };
 
-const fetchPackEntryData = async (packName: string, itemName: string) => {
+export const fetchPackEntryData = async (packName: string, itemName: string) => {
   const pack = getGame().packs.get(packName);
   enforce(pack);
   const itemId = pack.index.find((d) => d.name === itemName)?._id;

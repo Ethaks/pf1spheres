@@ -14,9 +14,9 @@ import type {
 } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/journalEntryData";
 import type { ConfiguredDocumentClassForName } from "@league-of-foundry-developers/foundry-vtt-types/src/types/helperTypes";
 
-import type { SaveProgression } from "../item-data";
-import type { BABProgression, Sphere } from "../item-data";
-import { getAllSpheres } from "../item-util";
+import type { SaveProgression } from "../../item-data";
+import type { BABProgression, Sphere } from "../../item-data";
+import { getAllSpheres } from "../../item-util";
 
 import * as t from "io-ts";
 

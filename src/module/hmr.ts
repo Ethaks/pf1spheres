@@ -13,10 +13,8 @@ interface HandlebarsReloadData {
   content: string;
 }
 
-// @ts-expect-error Vite specific HMR handler
 if (import.meta.hot) {
   // Handle
-  // @ts-expect-error Vite specific HMR handler
   import.meta.hot.on("hotHandle:update", ({ file, content }: HandlebarsReloadData) => {
     const compiled = Handlebars.compile(content);
     Handlebars.registerPartial(file, compiled);

@@ -5,10 +5,10 @@
  */
 
 import type { JournalEntryDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/journalEntryData";
-import { PF1S } from "../config";
-import type { Sphere } from "../item-data";
-import { getAllSpheres, getSphereType } from "../item-util";
-import { getGame } from "../util";
+import { PF1S } from "../../config";
+import type { Sphere } from "../../item-data";
+import { getAllSpheres, getSphereType } from "../../item-util";
+import { getGame } from "../../util";
 import { isBannedTalent } from "./items";
 import { importData } from "./pack-util";
 import type { BasePackConfig, DataImportOptions } from "./pack-util-data";

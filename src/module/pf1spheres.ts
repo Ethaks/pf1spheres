@@ -14,13 +14,16 @@ import { onAddDefaultChanges, onGetChangeFlat, registerChanges } from "./changes
 import { getGame, localize } from "./util";
 import type { PF1ModuleData } from "./common-data";
 import { onActorSheetHeaderButtons, onActorSheetRender } from "./actor-sheet";
-import { getPackUtils } from "./pack-utils";
 import { initializeModuleIntegrations } from "./integrations";
 
 // Vite specific imports
 import "../styles/pf1spheres.scss";
-import "./hmr";
-import { getDevUtils } from "./dev-utils";
+if (import.meta.env.DEV) {
+  import("./dev");
+}
+if (import.meta.hot) {
+  import("./hmr");
+}
 
 export {};
 
@@ -133,18 +136,6 @@ Hooks.once("setup", () => {
         devUtils: undefined,
       },
     };
-    // Add packUtils, if available
-    getPackUtils().then(
-      (result) => {
-        if (moduleData.api) moduleData.api._internal.packUtils = result;
-      },
-      (error) => {
-        console.error("Could not load pack utils! ", error);
-      }
-    );
-    getDevUtils().then((result) => {
-      if (moduleData.api) moduleData.api._internal.devUtils = result;
-    });
   }
 });
 
