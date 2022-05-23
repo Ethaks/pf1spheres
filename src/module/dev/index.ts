@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 import type { PF1ModuleData } from "../common-data";
 import { enforce, getGame, MODULE_ID } from "../util";
 import * as items from "./pack-utils/items";
