@@ -7,6 +7,7 @@
 import defaultConfig from "./vitest.config";
 
 const config = defaultConfig;
+if (!config.test) throw new Error("No test config found!");
 config.test.reporters = ["default", "junit"];
 config.test.outputFile = { junit: "junit.xml" };
 config.test.coverage = {
@@ -22,7 +23,7 @@ config.test.coverage = {
     // Exclude hot reload code, as it only runs in dev environment
     "src/module/hmr.ts",
     // Exclude dev utils, as they only run in dev environment
-    "src/module/dev-utils.ts",
+    "src/module/dev",
     // Exclude entry point file containing only imports and Hooks
     "src/module/pf1spheres.ts",
   ],
