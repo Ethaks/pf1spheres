@@ -195,9 +195,10 @@ export type SaveType = "fort" | "ref" | "will";
 export type SaveProgression = "high" | "low";
 
 export declare class ItemChange {
+  constructor(data: ItemChangeCreateData);
   data: ItemChangeData;
   parent: ActorPF;
-  static create(data: ItemChangeCreateData): ItemChange;
+  static create(data: ItemChangeCreateData, parent: ItemChangeCreateContext): Promise<ItemChange>;
   get source(): ItemChangeData;
 }
 
@@ -213,6 +214,10 @@ export interface ItemChangeData {
 }
 export type ItemChangeCreateData = Omit<ItemChangeData, "_id" | "operator" | "priority" | "value"> &
   Partial<Pick<ItemChangeData, "operator" | "priority" | "value">>;
+
+interface ItemChangeCreateContext {
+  parent?: Item | Actor;
+}
 
 // TODO: This type can be refined a bit even without typing the PF1 system
 export type RollData = {

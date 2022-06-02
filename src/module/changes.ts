@@ -45,7 +45,7 @@ export const registerChanges = (): void => {
     };
   });
 
-  // Allow stacking of multple sphere caster level modifiers capped at HD
+  // Allow stacking of multiple sphere caster level modifiers capped at HD
   CONFIG.PF1.stackingBonusModifiers?.push("sphereCLCap");
 };
 
@@ -165,7 +165,7 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
   // Actually add Changes to the system's process
   changes.push(
     ...changeData.flatMap(
-      (data) => data.changes?.map((changeData) => ItemChange.create(changeData)) ?? []
+      (data) => data.changes?.map((changeData) => new ItemChange(changeData)) ?? []
     )
   );
   // Push source info into actor
@@ -268,7 +268,7 @@ const getChangeHelpers = (actor: ActorPF) => ({
   ItemChange: getGame().pf1.documentComponents.ItemChange,
 });
 
-/** A data set used to create Changes added bu default as well as corresponding source info */
+/** A data set used to create Changes added by default as well as corresponding source info */
 interface DefaultChangeData {
   changes?: ItemChangeCreateData[];
   nSourceInfo?: [ActorDataPath, SourceEntry][];

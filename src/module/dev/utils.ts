@@ -122,10 +122,9 @@ const getClassData = async (
   classData.data.level = level;
 
   const ItemChange = getGame().pf1.documentComponents.ItemChange;
-  classData.data.changes = changes.map((c) => {
-    const change = ItemChange.create(c);
-    const data = change.data;
-    return data;
+  classData.data.changes = changes.map((changeData) => {
+    const change = new ItemChange(changeData);
+    return change.data;
   });
   classData.data.contextNotes = notes;
   return classData;
