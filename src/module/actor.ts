@@ -4,7 +4,6 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
-import type { ItemData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
 import type { TotalData, TotalModData, ValueData } from "./common-data";
 import type { ActorPF, PF1ActorSpheresData } from "./actor-data";
 import type { CombatSphere, MagicSphere, PF1ClassDataSource } from "./item-data";
@@ -20,7 +19,7 @@ import { getGame, localize } from "./util";
  * Every change target needs to get initialised with a value of the type number,
  * as otherwise Changes cannot be calculated and summed up.
  *
- * @param {Actor} actor - The actor whose data gets prepared
+ * @param actor - The actor whose data gets prepared
  */
 export const onActorBasePreparation = (actor: ActorPF): void => {
   // Do not interact with basic actors, whose data can/should be empty
@@ -61,12 +60,11 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
   sphereData.msd.base = baseMSB + 11;
 
   // Base Caster Level after fractional BAB check
-  const baseCasterLevel = useFractionalBAB ? Math.floor(casterLevel) : casterLevel;
-  sphereData.cl.base = baseCasterLevel;
+  sphereData.cl.base = useFractionalBAB ? Math.floor(casterLevel) : casterLevel;
 };
 
 /** Filters itemData by its type, narrowing available data to class data with a caster progression */
-export const filterClasses = (item: ItemData): item is ItemData & PF1ClassDataSource =>
+export const filterClasses = (item: Item["data"]): item is Item["data"] & PF1ClassDataSource =>
   item.type === "class" && Boolean(item.flags.pf1spheres?.casterProgression);
 
 /**
@@ -75,7 +73,7 @@ export const filterClasses = (item: ItemData): item is ItemData & PF1ClassDataSo
  */
 export const getItemLevelData =
   (useFractionalBAB: boolean) =>
-  (item: ItemData & PF1ClassDataSource): ItemSphereClData => {
+  (item: Item["data"] & PF1ClassDataSource): ItemSphereClData => {
     const baseLevel = item.data.level ?? 0;
 
     // Determine progression for actual CL contribution
