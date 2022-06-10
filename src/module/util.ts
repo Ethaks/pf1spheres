@@ -24,7 +24,7 @@ const regex = /^ACTOR\.|ITEM\.|PF1\.|PF1SPHERES\./;
  * @returns The localised string
  */
 export const localize = (key: string, data?: Record<string, unknown>): string => {
-  let result = key;
+  let result: string;
   if (regex.test(key)) result = getGame().i18n.format(key, data);
   else result = getGame().i18n.format(`PF1SPHERES.${key}`);
 
@@ -60,20 +60,19 @@ export function enforce(value: unknown, message?: string | Error): asserts value
 
 /** Creates an HTMLElement for a {@link Roll}, adding some data */
 export function enrichRoll(roll: Roll, formula: string, label: string | number) {
-  const enrichedRoll = createNode("a", {
-    attr: {
+  return createNode("a", {
+    attributes: {
       class: "inline-roll inline-result",
       "data-roll": escape(JSON.stringify(roll)), // Ignore deprecation, Foundry uses this
       title: formula,
     },
     html: `<i class="fas fa-dice-d20"></i> ${label}`,
   });
-  return enrichedRoll;
 }
 
 interface CreateNodeOptions {
   /** Attributes set for the HTMLElement via {@link HTMLElement.setAttribute} */
-  attr?: Record<string, string>;
+  attributes?: Record<string, string>;
   /**
    * A string of HTML directly set as the element's {@link HTMLElement.innerHTML}
    * before possible children are added
@@ -91,10 +90,10 @@ interface CreateNodeOptions {
  * @param options - Additional options affecting the element's contents
  * @returns The created HTML element
  */
-export function createNode(tag: string, options: CreateNodeOptions) {
+export function createNode(tag: string, options: CreateNodeOptions = {}) {
   const element = document.createElement(tag);
-  if (options.attr !== undefined)
-    for (const a in options.attr) element.setAttribute(a, options.attr[a]);
+  if (options.attributes !== undefined)
+    for (const a in options.attributes) element.setAttribute(a, options.attributes[a]);
   if (options.html !== undefined) element.innerHTML = options.html;
   const children = Array.isArray(options.children) ? options.children : [options.children];
   children.filter(nonNullable).forEach((child) => {
