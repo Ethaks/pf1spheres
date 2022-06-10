@@ -38,5 +38,5 @@ export const getAllSpheres = () =>
 export const getSphereDisplayName = (sphere: Sphere) => {
   if (isMagicSphere(sphere)) return PF1S.magicSpheres[sphere];
   else if (isCombatSphere(sphere)) return PF1S.combatSpheres[sphere];
-  else throw new Error(`No display name found for ${sphere}`);
+  else throw new Error(`No display name found for "${sphere}"`);
 };
