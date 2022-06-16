@@ -102,7 +102,7 @@ build:
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
 
 # Publish artifacts to package registry and generate release notes from changelog
-# Link for regex: https://regex101.com/r/OyDskw/1, has to be verified manually in ripgrep
+# Link for regex: https://regex101.com/r/BIWIYr/1, has to be verified manually in ripgrep
 publish_artifacts:
   stage: prepare-release
   image: alpine:latest
@@ -119,7 +119,7 @@ publish_artifacts:
       curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file $PACKAGE_NAME/$PACKAGE_TYPE.json "$PACKAGE_REGISTRY_URL/$CI_COMMIT_TAG/$PACKAGE_TYPE.json"
     - echo "**Manifest URL:** $CI_PROJECT_URL/-/releases/$CI_COMMIT_TAG/downloads/$PACKAGE_TYPE.json" > recent-changes.md
     - echo "" >> recent-changes.md
-    - echo "$(rg -U --multiline-dotall '(?P<latest>^[#]{1,3}\sv?\d.*?)(?:\n^[#]{1,3}\sv?\d.*)' -r '$latest' CHANGELOG.md)" >> recent-changes.md
+    - echo "$(rg -U --multiline-dotall '(?P<latest>^[#]{1,3}\s[v|\[]?\d.*?)(?:\n^[#]{1,3}\s[v|\[]?\d.*)' -r '$latest' CHANGELOG.md)" >> recent-changes.md
   rules:
     - if: '$CI_COMMIT_TAG =~ /^v[0-9]+\.[0-9]+\.[0-9]+$/'
   artifacts:
