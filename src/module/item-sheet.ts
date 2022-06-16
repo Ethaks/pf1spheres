@@ -40,7 +40,7 @@ export const onItemSheetRender = async (
           ...sphereData,
         }
       );
-      html.find("div.tab.details > div:nth-child(2)").after(sphereDropdown);
+      html.find("div.tab.details > h3").next(".form-group.select").after(sphereDropdown);
     }
   }
   // Handle additions to class sheet
