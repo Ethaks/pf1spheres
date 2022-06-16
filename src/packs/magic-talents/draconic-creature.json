@@ -1,4 +1,5 @@
 {
+  "_id": "FOin8P3sZbEYZLOP",
   "name": "Draconic Creature",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
@@ -9,6 +10,57 @@
       "unidentified": ""
     },
     "tags": [["Form"]],
+    "actions": [],
+    "uses": {
+      "per": null,
+      "value": 0,
+      "maxFormula": "",
+      "autoDeductCharges": true,
+      "autoDeductChargesCost": "1"
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "changes": [],
+    "changeFlags": {
+      "loseDexToAC": false,
+      "noEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "useCustomTag": false,
+    "armorProf": {
+      "value": [],
+      "custom": ""
+    },
+    "weaponProf": {
+      "value": [],
+      "custom": ""
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "featType": "magicTalent",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "nonlethal": false,
+    "abilityType": "none",
+    "crOffset": "",
+    "disabled": false,
+    "classSkills": {},
     "activation": {
       "cost": 1,
       "type": ""
@@ -32,13 +84,6 @@
       "maxIncrements": 1,
       "minValue": null,
       "minUnits": ""
-    },
-    "uses": {
-      "value": 0,
-      "per": null,
-      "autoDeductCharges": true,
-      "autoDeductChargesCost": "1",
-      "maxFormula": ""
     },
     "measureTemplate": {
       "type": "",
@@ -80,54 +125,13 @@
       "type": "",
       "description": ""
     },
-    "effectNotes": [],
-    "attackNotes": [],
     "soundEffect": "",
     "powerAttack": {
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
     },
-    "changes": [],
-    "changeFlags": {
-      "loseDexToAC": false,
-      "noEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false
-    },
-    "contextNotes": [],
-    "links": {
-      "children": [],
-      "charges": []
-    },
-    "tag": "",
-    "useCustomTag": false,
-    "armorProf": {
-      "value": [],
-      "custom": ""
-    },
-    "weaponProf": {
-      "value": [],
-      "custom": ""
-    },
-    "languages": {
-      "value": [],
-      "custom": ""
-    },
-    "flags": {
-      "boolean": [],
-      "dictionary": []
-    },
-    "scriptCalls": [],
-    "featType": "magicTalent",
-    "associations": {
-      "classes": []
-    },
-    "showInQuickbar": false,
-    "nonlethal": false,
-    "abilityType": "none",
-    "crOffset": "",
-    "disabled": false
+    "size": "med"
   },
   "effects": [],
   "folder": null,
@@ -139,6 +143,5 @@
     "pf1spheres": {
       "sphere": "conjuration"
     }
-  },
-  "_id": "FOin8P3sZbEYZLOP"
+  }
 }

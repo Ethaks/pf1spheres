@@ -30,6 +30,11 @@ export const createTestActor = async ({ exportToJSON = false } = {}) => {
       },
     },
     items: [],
+    flags: {
+      pf1spheres: {
+        castingAbility: "int",
+      },
+    },
   };
 
   enforce(actorData.items);
