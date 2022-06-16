@@ -125,7 +125,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         "spellbooks": {
           "primary": {
             "ability": "int",
-            "altName": "",
             "arcaneSpellFailure": true,
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
@@ -141,7 +140,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
-            "name": "Primary",
+            "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
             "spellPoints": {
@@ -198,7 +197,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           },
           "secondary": {
             "ability": "int",
-            "altName": "",
             "arcaneSpellFailure": true,
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
@@ -214,7 +212,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
-            "name": "Secondary",
+            "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
             "spellPoints": {
@@ -271,7 +269,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           },
           "spelllike": {
             "ability": "cha",
-            "altName": "",
             "arcaneSpellFailure": true,
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
@@ -287,7 +284,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
-            "name": "Spell-likes",
+            "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
             "spellPoints": {
@@ -344,7 +341,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           },
           "tertiary": {
             "ability": "int",
-            "altName": "",
             "arcaneSpellFailure": true,
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
@@ -360,7 +356,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
-            "name": "Tertiary",
+            "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
             "spellPoints": {
@@ -955,7 +951,24 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         "value": [],
       },
       "regen": "",
-      "senses": "",
+      "senses": {
+        "bs": 0,
+        "bse": 0,
+        "custom": "",
+        "dv": 0,
+        "ll": {
+          "enabled": false,
+          "multiplier": {
+            "bright": 2,
+            "dim": 2,
+          },
+        },
+        "sc": false,
+        "si": false,
+        "sid": false,
+        "tr": false,
+        "ts": 0,
+      },
       "size": "med",
       "stature": "tall",
       "weaponProf": {
@@ -969,8 +982,8 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
     "exportSource": {
       "coreVersion": "9.269",
       "system": "pf1",
-      "systemVersion": "0.80.18",
-      "world": "pf1",
+      "systemVersion": "0.81.0",
+      "world": "pf1s",
     },
     "pf1spheres": {
       "castingAbility": "int",
@@ -1093,6 +1106,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           "children": [],
         },
         "scriptCalls": [],
+        "size": "med",
         "subTypes": [
           [
             "Human",
@@ -1131,7 +1145,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         },
         "changes": [
           {
-            "_id": "2kftvikk",
+            "_id": "6prx0p18",
             "formula": "1",
             "modifier": "sphereCLCap",
             "operator": "add",
@@ -1291,6 +1305,9 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
             },
           ],
         },
+        "range": {
+          "maxIncrements": 1,
+        },
         "savingThrows": {
           "fort": {
             "value": "low",
@@ -1343,7 +1360,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         },
         "changes": [
           {
-            "_id": "6vrsfh2f",
+            "_id": "gle0wlos",
             "formula": "2",
             "modifier": "untyped",
             "operator": "add",
@@ -1530,6 +1547,9 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
             },
           ],
         },
+        "range": {
+          "maxIncrements": 1,
+        },
         "savingThrows": {
           "fort": {
             "value": "low",
@@ -1582,7 +1602,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         },
         "changes": [
           {
-            "_id": "4wulb1dr",
+            "_id": "u1qr4h7w",
             "formula": "12",
             "modifier": "untyped",
             "operator": "add",
@@ -1781,6 +1801,9 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
               "name": "Spellsword",
             },
           ],
+        },
+        "range": {
+          "maxIncrements": 1,
         },
         "savingThrows": {
           "fort": {
@@ -1998,7 +2021,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         "spellbooks": {
           "primary": {
             "ability": "int",
-            "altName": "",
             "arcaneSpellFailure": true,
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
@@ -2014,7 +2036,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
-            "name": "Primary",
+            "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
             "spellPoints": {
@@ -2071,7 +2093,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           },
           "secondary": {
             "ability": "int",
-            "altName": "",
             "arcaneSpellFailure": true,
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
@@ -2087,7 +2108,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
-            "name": "Secondary",
+            "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
             "spellPoints": {
@@ -2144,7 +2165,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           },
           "spelllike": {
             "ability": "cha",
-            "altName": "",
             "arcaneSpellFailure": true,
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
@@ -2160,7 +2180,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
-            "name": "Spell-likes",
+            "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
             "spellPoints": {
@@ -2217,7 +2237,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           },
           "tertiary": {
             "ability": "int",
-            "altName": "",
             "arcaneSpellFailure": true,
             "autoSpellLevelCalculation": true,
             "autoSpellLevels": true,
@@ -2233,7 +2252,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
-            "name": "Tertiary",
+            "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
             "spellPoints": {
@@ -2828,7 +2847,24 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         "value": [],
       },
       "regen": "",
-      "senses": "",
+      "senses": {
+        "bs": 0,
+        "bse": 0,
+        "custom": "",
+        "dv": 0,
+        "ll": {
+          "enabled": false,
+          "multiplier": {
+            "bright": 2,
+            "dim": 2,
+          },
+        },
+        "sc": false,
+        "si": false,
+        "sid": false,
+        "tr": false,
+        "ts": 0,
+      },
       "size": "med",
       "stature": "tall",
       "weaponProf": {
@@ -2842,8 +2878,8 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
     "exportSource": {
       "coreVersion": "9.269",
       "system": "pf1",
-      "systemVersion": "0.80.18",
-      "world": "pf1",
+      "systemVersion": "0.81.0",
+      "world": "pf1s",
     },
     "pf1spheres": {
       "castingAbility": "int",
@@ -2966,6 +3002,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           "children": [],
         },
         "scriptCalls": [],
+        "size": "med",
         "subTypes": [
           [
             "Human",
@@ -3004,7 +3041,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         },
         "changes": [
           {
-            "_id": "2kftvikk",
+            "_id": "6prx0p18",
             "formula": "1",
             "modifier": "sphereCLCap",
             "operator": "add",
@@ -3164,6 +3201,9 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
             },
           ],
         },
+        "range": {
+          "maxIncrements": 1,
+        },
         "savingThrows": {
           "fort": {
             "value": "low",
@@ -3216,7 +3256,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         },
         "changes": [
           {
-            "_id": "6vrsfh2f",
+            "_id": "gle0wlos",
             "formula": "2",
             "modifier": "untyped",
             "operator": "add",
@@ -3403,6 +3443,9 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
             },
           ],
         },
+        "range": {
+          "maxIncrements": 1,
+        },
         "savingThrows": {
           "fort": {
             "value": "low",
@@ -3455,7 +3498,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         },
         "changes": [
           {
-            "_id": "4wulb1dr",
+            "_id": "u1qr4h7w",
             "formula": "12",
             "modifier": "untyped",
             "operator": "add",
@@ -3654,6 +3697,9 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
               "name": "Spellsword",
             },
           ],
+        },
+        "range": {
+          "maxIncrements": 1,
         },
         "savingThrows": {
           "fort": {

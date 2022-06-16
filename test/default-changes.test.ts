@@ -106,4 +106,62 @@ describe("Test default changes handling", () => {
       },
     });
   });
+
+  test("Magic Skill Bonus to Concentration change source info", () => {
+    expect(changes).toContainEqual({
+      data: {
+        formula: "@spheres.msb.total",
+        subTarget: "sphereConcentration",
+        modifier: "untyped",
+      },
+    });
+    expect(actor.sourceInfo["data.spheres.concentration.total"]?.positive).toContainEqual({
+      name: "Magic Skill Bonus",
+      formula: "@spheres.msb.total",
+    });
+  });
+
+  test("Casting Ability change and source info", () => {
+    expect(actor.data.flags.pf1spheres?.castingAbility).toBe("int");
+    expect(changes).toContainEqual({
+      data: {
+        formula: "@abilities.int.mod",
+        subTarget: "sphereConcentration",
+        modifier: "untyped",
+      },
+    });
+    expect(changes).toContainEqual({
+      data: {
+        formula: "@abilities.int.mod",
+        subTarget: "~castingAbility",
+        modifier: "untyped",
+      },
+    });
+
+    expect(actor.sourceInfo["data.spheres.concentration.total"]?.positive).toContainEqual({
+      name: `Casting Ability (Intelligence)`,
+      formula: "@abilities.int.mod",
+    });
+  });
+
+  test("No casting ability", () => {
+    const newActor = getFakeActor({ castingAbility: "" });
+    const newChanges: ItemChange[] = [];
+    onAddDefaultChanges(newActor, newChanges);
+
+    expect(newChanges).not.toContainEqual({
+      data: {
+        formula: "@abilities.int.mod",
+        subTarget: "sphereConcentration",
+        modifier: "untyped",
+      },
+    });
+    expect(newChanges).not.toContainEqual({
+      data: {
+        formula: "@abilities.int.mod",
+        subTarget: "~castingAbility",
+        modifier: "untyped",
+      },
+    });
+  });
 });

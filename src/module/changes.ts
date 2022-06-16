@@ -158,8 +158,8 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
   const changeData: DefaultChangeData[] = [
     defaultChangeData,
     batteredChangeData,
-    castingAbilityChangeData,
     msbToConcentrationChangeData,
+    castingAbilityChangeData,
   ].filter(nonNullable);
 
   // Actually add Changes to the system's process
@@ -227,6 +227,12 @@ const getMsbToConcentrationChange = (): DefaultChangeData => ({
   changes: [
     { formula: `@spheres.msb.total`, subTarget: "sphereConcentration", modifier: "untyped" },
   ],
+  pSourceInfo: [
+    [
+      "data.spheres.concentration.total",
+      { name: localize("MagicSkillBonus"), formula: "@spheres.msb.total" },
+    ],
+  ],
 });
 
 const getCastingAbilityChange = (
@@ -253,10 +259,6 @@ const getCastingAbilityChange = (
               formula: `@abilities.${ability}.mod`,
               name: `${localize("CastingAbility")} (${CONFIG.PF1.abilities[ability]})`,
             },
-          ],
-          [
-            "data.spheres.concentration.total",
-            { name: localize("MagicSkillBonus"), formula: "@spheres.msb.total" },
           ],
         ],
       }

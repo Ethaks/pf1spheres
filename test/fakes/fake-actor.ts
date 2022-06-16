@@ -5,7 +5,7 @@
  */
 
 import type { ActorDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
-import type { ActorPF } from "../../src/module/actor-data";
+import type { Ability, ActorPF } from "../../src/module/actor-data";
 import type { ItemPF } from "../../src/module/item-data";
 import { FakeCollection } from "./fake-collection";
 import { FakeItem } from "./fake-item";
@@ -74,9 +74,13 @@ export const getFakeActor = (options?: FakeActorOptions): ActorPF => {
   if (options?.battered !== undefined)
     actor._data.data.attributes.conditions.battered = options.battered;
 
+  if (options?.castingAbility !== undefined)
+    setProperty(actor._data, "flags.pf1spheres.castingAbility", options.castingAbility);
+
   return actor as unknown as ActorPF;
 };
 
 interface FakeActorOptions {
   battered?: boolean;
+  castingAbility?: Ability | "";
 }

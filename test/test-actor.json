@@ -138,10 +138,9 @@
       "spells": {
         "spellbooks": {
           "primary": {
-            "altName": "",
+            "name": "",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Primary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -211,10 +210,9 @@
             "domainSlotValue": 1
           },
           "secondary": {
-            "altName": "",
+            "name": "",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Secondary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -284,10 +282,9 @@
             "domainSlotValue": 1
           },
           "tertiary": {
-            "altName": "",
+            "name": "",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Tertiary",
             "casterType": "high",
             "class": "",
             "cl": {
@@ -357,10 +354,9 @@
             "domainSlotValue": 1
           },
           "spelllike": {
-            "altName": "",
+            "name": "",
             "castPerDayAllOffsetFormula": "",
             "preparedAllOffsetFormula": "",
-            "name": "Spell-likes",
             "casterType": "high",
             "class": "_hd",
             "cl": {
@@ -700,7 +696,24 @@
     "customSkills": {},
     "traits": {
       "size": "med",
-      "senses": "",
+      "senses": {
+        "dv": 0,
+        "ts": 0,
+        "bs": 0,
+        "bse": 0,
+        "ll": {
+          "enabled": false,
+          "multiplier": {
+            "dim": 2,
+            "bright": 2
+          }
+        },
+        "sid": false,
+        "tr": false,
+        "si": false,
+        "sc": false,
+        "custom": ""
+      },
       "dr": "",
       "eres": "",
       "cres": "",
@@ -857,6 +870,7 @@
         },
         "scriptCalls": [],
         "creatureType": "humanoid",
+        "size": "med",
         "subTypes": [["Human"]]
       },
       "effects": [],
@@ -881,7 +895,7 @@
         "tags": [],
         "changes": [
           {
-            "_id": "2kftvikk",
+            "_id": "6prx0p18",
             "formula": "1",
             "operator": "add",
             "subTarget": "spherecl",
@@ -1053,6 +1067,9 @@
         },
         "customHD": "",
         "identifiedName": "Incanter",
+        "range": {
+          "maxIncrements": 1
+        },
         "contextNotes": [
           {
             "text": "Incanter Note",
@@ -1086,7 +1103,7 @@
         "tags": [],
         "changes": [
           {
-            "_id": "6vrsfh2f",
+            "_id": "gle0wlos",
             "formula": "2",
             "operator": "add",
             "subTarget": "sphereclDark",
@@ -1285,6 +1302,9 @@
         },
         "customHD": "",
         "identifiedName": "Wraith",
+        "range": {
+          "maxIncrements": 1
+        },
         "contextNotes": [
           {
             "text": "Wraith Note",
@@ -1318,7 +1338,7 @@
         "tags": [],
         "changes": [
           {
-            "_id": "4wulb1dr",
+            "_id": "u1qr4h7w",
             "formula": "12",
             "operator": "add",
             "subTarget": "spherebabAlchemy",
@@ -1535,6 +1555,9 @@
         },
         "customHD": "",
         "identifiedName": "Mageknight",
+        "range": {
+          "maxIncrements": 1
+        },
         "contextNotes": []
       },
       "effects": [],
@@ -1556,10 +1579,10 @@
       "castingAbility": "int"
     },
     "exportSource": {
-      "world": "pf1",
+      "world": "pf1s",
       "system": "pf1",
       "coreVersion": "9.269",
-      "systemVersion": "0.80.18"
+      "systemVersion": "0.81.0"
     }
   }
 }
