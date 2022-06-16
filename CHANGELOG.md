@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.2.1...v0.3.0) (2022-06-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* increase minimum system version
+* remove `changeFlatTargets` dictionary from API
+* msbAbility is replaced by Casting Ability
+
+### Features
+
+* add `@spheres.cam` data shortcut, separate MSB and concentration ([255eaef](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/255eaefa98367fe4650bd400299aa6ce115b0fcf)), closes [#17](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/issues/17) [#18](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/issues/18)
+* add `pf1spheres.preSetup` hook to allow custom Sphere registration ([05c7728](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/05c7728d6313f07ac57ceaca95e0146276b82118)), closes [#20](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/issues/20)
+* add Context Note target for Magic Skill Checks ([148f522](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/148f522801e67e433901bc05610b6714a59a90c7)), closes [#10](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/issues/10)
+* add Little Helper integration to add tags to Magic Skill checks ([4f9d824](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/4f9d824d3b20f8975c6c2a50305a7b46c531c04d)), closes [#16](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/issues/16)
+* add method like Spheres functions to actors ([d2d4a2b](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/d2d4a2b6ce05125e881912c8487109042310a369)), closes [#15](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/issues/15)
+
+
+### Bug Fixes
+
+* add msb to concentration sources even if no casting ability is set ([64c847a](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/64c847a5ce70eaf4f478997597fd273e549bac2e))
+* fix spheres data not being available in Change formulas ([5648e62](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/5648e62fdca69700f367e0bb3af005abb86c5787))
+* **packs:** fix Equipment Sphere's journal entry name ([8b38030](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/8b38030c80adde6efd5be69f94a434a68a135222)), closes [#21](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/issues/21)
+
+
+* increase minimum system version ([32ba921](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/32ba9211cb366b2fcadbd5687e3bac213a71db0e))
+
 ### [0.2.1](https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/compare/v0.2.0...v0.2.1) (2022-04-30)
 
 
