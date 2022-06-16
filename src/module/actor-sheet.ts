@@ -10,6 +10,7 @@ import { PF1S } from "./config";
 import type { CombatSphere, ItemPF, MagicSphere, SourceEntry, Sphere } from "./item-data";
 import { getSphereType } from "./item-util";
 import { enforce, getGame, localize } from "./util";
+import { renderPf1sTemplate } from "./preloadTemplates";
 
 export const onActorSheetHeaderButtons = (
   sheet: ActorSheetPF,
@@ -30,7 +31,7 @@ export const onActorSheetRender: (
   app: ActorSheetPF,
   html: JQuery,
   options: ActorSheetPFData
-) => Promise<boolean> = async (app, html, _options) => {
+) => boolean = (app, html, _options) => {
   if (app.spheresTab == null) {
     app.spheresTab = { activateTab: false, expandedSpheres: {} };
   }
@@ -41,7 +42,7 @@ export const onActorSheetRender: (
   const actor = app.actor as ActorPF;
 
   const renderData = getSpheresData(app, actor);
-  const renderedTemplate = await getRenderedSpheresTab(renderData);
+  const renderedTemplate = getRenderedSpheresTab(renderData);
   const spheresBody = body.append($(renderedTemplate));
   activateListeners(app, spheresBody, actor);
 
@@ -192,7 +193,7 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
 };
 
 const getRenderedSpheresTab = (data: SpheresTemplateData) =>
-  renderTemplate("modules/pf1spheres/templates/actor-spheres-tab.hbs", data);
+  renderPf1sTemplate("actor-spheres-tab", data);
 
 const activateListeners = (app: ActorSheetPF, html: JQuery<HTMLElement>, actor: ActorPF) => {
   html.find(".msb>.attribute-name.rollable").on("click", _onMsbRoll(actor));

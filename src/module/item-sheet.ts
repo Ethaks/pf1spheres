@@ -5,6 +5,7 @@
  */
 
 import { PF1S } from "./config";
+import { renderPf1sTemplate } from "./preloadTemplates";
 
 /**
  * Hooks into the rendering of the Item sheet, adding input fields for data
@@ -15,11 +16,11 @@ import { PF1S } from "./config";
  * @param  html - The rendered HTML element
  * @param  data - The sheet's data object
  */
-export const onItemSheetRender = async (
+export const onItemSheetRender = (
   app: ItemSheet,
   html: JQuery<HTMLElement>,
   data: ItemSheet.Data
-): Promise<void> => {
+): void => {
   const item = app.item;
   const itemData = item.data;
 
@@ -33,22 +34,16 @@ export const onItemSheetRender = async (
     else if (itemData.data.featType === "magicTalent") sphereData.spheres = PF1S.magicSpheres;
 
     if (sphereData.spheres != null) {
-      const sphereDropdown = await renderTemplate(
-        "modules/pf1spheres/templates/talent-details.hbs",
-        {
-          ...data,
-          ...sphereData,
-        }
-      );
+      const sphereDropdown = renderPf1sTemplate("talent-details", {
+        ...data,
+        ...sphereData,
+      });
       html.find("div.tab.details > h3").next(".form-group.select").after(sphereDropdown);
     }
   }
   // Handle additions to class sheet
   else if (itemData.type === "class") {
-    const progressionDropdown = await renderTemplate(
-      "modules/pf1spheres/templates/class-progression.hbs",
-      { ...data, ...sphereData }
-    );
+    const progressionDropdown = renderPf1sTemplate("class-progression", { ...data, ...sphereData });
     html.find("div.tab.details > h4").first().before(progressionDropdown);
   }
 
