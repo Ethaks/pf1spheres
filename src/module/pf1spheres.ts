@@ -11,6 +11,7 @@ import { PF1S, PF1CONFIG_EXTRA } from "./config";
 import { onItemSheetRender } from "./item-sheet";
 import { onActorBasePreparation } from "./actor";
 import { onAddDefaultChanges, onGetChangeFlat, registerChanges } from "./changes";
+import type { LocalizationKey } from "./util";
 import { getGame, localize } from "./util";
 import type { PF1ModuleData } from "./common-data";
 import { onActorSheetHeaderButtons, onActorSheetRender } from "./actor-sheet";
@@ -89,8 +90,8 @@ Hooks.once("i18nInit", () => {
     const localized = Object.entries(obj).map(([key, value]) => {
       let newValue;
       if (typeof value === "object" && value.label != null)
-        newValue = { ...value, label: localize(value.label) };
-      else if (typeof value === "string") newValue = localize(value);
+        newValue = { ...value, label: localize(value.label as LocalizationKey) };
+      else if (typeof value === "string") newValue = localize(value as LocalizationKey);
       return [key, newValue];
     });
     if (sort)

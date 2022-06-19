@@ -74,7 +74,7 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
     (attribute): AttributeData => ({
       attribute,
       total: actor.data.data.spheres?.[attribute].total ?? 0,
-      label: localize(attribute.toLocaleUpperCase()),
+      label: localize(attribute.toLocaleUpperCase() as Uppercase<typeof attribute>),
       path: `@spheres.${attribute}.total`,
       sources: actor.sourceDetails[`data.spheres.${attribute}.total` as const],
       cappedSources: actor.sourceDetails[`data.spheres.${attribute}.modCap` as const] ?? [],

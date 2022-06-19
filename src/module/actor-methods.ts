@@ -9,9 +9,6 @@ import type { DicePFD20RollOptions } from "./dice-data";
 import type { ItemPF } from "./item-data";
 import { getGame, localize } from "./util";
 
-/** Various functions working like methods for a single actor */
-export type SpheresActorMethods = ReturnType<typeof getActorMethods>;
-
 type ActorRollMethod = (
   options?: DicePFD20RollOptions & RollMethodOptions
 ) => Promise<ChatMessage | Roll> | void;

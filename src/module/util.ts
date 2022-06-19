@@ -4,15 +4,31 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
+import type { SafePropPath, StripPrefix } from "./ts-util";
 import { nonNullable } from "./ts-util";
+import type langEn from "../../public/lang/en.json";
+
+/** Type of the English localisation file */
+type LangEn = typeof langEn;
 
 /** The module's name/id */
-export const MODULE_ID = "pf1spheres";
+export const MODULE_ID = "pf1spheres" as const;
 
 /**
- * Regular Expression which localisation keys are checked against.
+ * Prefixes a localisation key for this module is allowed to start with,
+ * causing it to not be prefixed with `PF1SPHERES`.
  */
-const regex = /^ACTOR\.|ITEM\.|PF1\.|PF1SPHERES\./;
+const allowedPrefixes = [
+  "ACTOR",
+  "ITEM",
+  "PF1",
+  MODULE_ID.toUpperCase() as Uppercase<typeof MODULE_ID>,
+] as const;
+
+export type LocalizationKey =
+  | StripPrefix<"PF1SPHERES", SafePropPath<LangEn>>
+  | SafePropPath<LangEn>
+  | `${Exclude<typeof allowedPrefixes[number], Uppercase<typeof MODULE_ID>>}.${string}`;
 
 /**
  * Returns a localised string from a localisation key.
@@ -21,14 +37,23 @@ const regex = /^ACTOR\.|ITEM\.|PF1\.|PF1SPHERES\./;
  *
  * @param key - The localisation key
  * @param data - Data used for variables in the localisation string
+ * @param debug - Whether console warnings should be printed when a localisation key is not found
+ *  TODO: Replace with logger
  * @returns The localised string
  */
-export const localize = (key: string, data?: Record<string, unknown>): string => {
-  let result: string;
-  if (regex.test(key)) result = getGame().i18n.format(key, data);
-  else result = getGame().i18n.format(`PF1SPHERES.${key}`);
+export const localize = (
+  key: LocalizationKey,
+  data?: Record<string, unknown>,
+  debug = false
+): string => {
+  const startsWithPrefix = allowedPrefixes.some((prefix) => key.startsWith(prefix));
+  const result = startsWithPrefix
+    ? getGame().i18n.format(key, data)
+    : getGame().i18n.format(`PF1SPHERES.${key}`, data);
 
-  if (result.startsWith("PF1SPHERES")) console.warn(`No translation string found for ${key}`);
+  if (debug && startsWithPrefix && allowedPrefixes.some((prefix) => result.startsWith(prefix)))
+    console.warn(`No translation string found for ${key}`);
+
   return result;
 };
 

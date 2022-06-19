@@ -7,7 +7,7 @@
 import type { ItemPF, RollData, SourceDetails, SourceInfo } from "./item-data";
 import type { TotalData, TotalModData, ValueData } from "./common-data";
 import type { PF1S } from "./config";
-import type { DeepNonNullable, PropPath } from "./ts-util";
+import type { PropPath } from "./ts-util";
 import type { getActorMethods } from "./actor-methods";
 
 declare global {
@@ -153,4 +153,4 @@ type Condition = SphereCondition;
 type SphereCondition = "battered";
 
 /** A path pointing towards a property of an actor's data */
-export type ActorDataPath = PropPath<DeepNonNullable<PF1ActorDataProperties>>;
+export type ActorDataPath = PropPath<PF1ActorDataProperties>;

@@ -14,12 +14,25 @@ type Primitive = string | number | bigint | boolean | undefined | symbol;
 
 /**
  * A type including only valid property paths of a given type.
+ * If a property path could resolve to an undefined value, it will be excluded.
+ * Paths are given in dot notations as `data.some.property`
+ */
+export type SafePropPath<T, Prefix = ""> = {
+  [K in keyof T]: T[K] extends Primitive | Array<unknown>
+    ? `${string & Prefix}${string & K}`
+    : `${string & Prefix}${string & K}` | SafePropPath<T[K], `${string & Prefix}${string & K}.`>;
+}[keyof T];
+
+/**
+ * A type including valid property paths of a given type, including possible undefined values.
  * Paths are given in dot notations as `data.some.property`
  */
 export type PropPath<T, Prefix = ""> = {
-  [K in keyof T]: T[K] extends Primitive | Array<unknown>
+  [K in keyof T]-?: T[K] extends Primitive | Array<unknown>
     ? `${string & Prefix}${string & K}`
-    : `${string & Prefix}${string & K}` | PropPath<T[K], `${string & Prefix}${string & K}.`>;
+    :
+        | `${string & Prefix}${string & K}`
+        | PropPath<NonNullable<T[K]>, `${string & Prefix}${string & K}.`>;
 }[keyof T];
 
 export type PropType<T, Path extends string> = string extends Path
@@ -54,3 +67,15 @@ export type FromEntriesWithReadOnly<T> = FromEntries<DeepWriteable<T>>;
  */
 export const nonNullable = <T>(value: T): value is NonNullable<T> =>
   value !== null && value !== undefined;
+
+/**
+ * A utility type stripping a prefix from a string.
+ * Assumes that the prefix is separated from the string by a period.
+ *
+ * @template TPrefix - The prefix to strip
+ * @template T - The string to strip the prefix from
+ */
+export type StripPrefix<
+  TPrefix extends string,
+  T extends string // changed this constraint to string
+> = T extends `${TPrefix}.${infer R}` ? R : never;
