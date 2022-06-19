@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.3.0...v0.3.1) (2022-06-19)
+
+
+### Bug Fixes
+
+* move sphere select under details header in feat sheets ([81d3eb3](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/81d3eb36ec29f1f95f8b0ad2cc6a751ab71ce0a1))
+
 ## [0.3.0](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.2.1...v0.3.0) (2022-06-16)
 
 
