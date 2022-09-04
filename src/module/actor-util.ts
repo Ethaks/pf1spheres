@@ -7,16 +7,17 @@ import type { TotalModData } from "./common-data";
 import type { MagicSphere, SourceEntry } from "./item-data";
 
 import { isMagicSphere } from "./item-util";
-import { enforce, getGame, localize } from "./util";
+import { enforce, localize } from "./util";
 import { PF1S } from "./config";
 
 /**
  * Returns a function that adds a SourceEntry to a given actor's sourceInfo
  *
  * @param actor - The actor to whose sourceInfo data is added
+ * @param modifierType - Whether the source info is positive or negative
  */
 const pushSourceInfo = (actor: ActorPF, modifierType: "positive" | "negative") => {
-  const getSourceInfo = getGame().pf1.utils.getSourceInfo;
+  const getSourceInfo = pf1.documents.actor.changes.getSourceInfo;
   /**
    * Adds a SourceEntry to this actor's sourceInfo. If the key ends in ".base",
    * a similar SourceEntry will also be pushed to the key's ".total".
@@ -48,7 +49,7 @@ const getActorAbility =
    * @returns The ability modifier
    */
   (ability: Ability | "" | undefined) =>
-    ability !== undefined && ability !== "" ? actor.data.data.abilities[ability]?.mod : 0 ?? 0;
+    ability !== undefined && ability !== "" ? actor.system.abilities[ability]?.mod : 0 ?? 0;
 
 /**
  * Returns a collection of helper functions working with an actor
@@ -70,7 +71,7 @@ export const getHighestCl =
    * Returns an object containing this actor's highest magic CL, whether it's the total level or in
    * a specific sphere, and a possible lable should the CL be displayed. */
   (): { sphere: MagicSphere | "total"; label: string; cl: number } => {
-    const clData = actor.data.data.spheres?.cl;
+    const clData = actor.system.spheres?.cl;
     enforce(clData, `Could not determine highest CL for ${actor.name}: No CL data found!`);
     const highest: [MagicSphere | "total", number] = Object.entries(clData)
       .filter((entry): entry is [MagicSphere, TotalModData<number>] => isMagicSphere(entry[0]))

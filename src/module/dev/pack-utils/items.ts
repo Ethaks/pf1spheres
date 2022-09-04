@@ -139,7 +139,7 @@ function getClassData(c: RawClassData): DeepPartial<ItemDataSource> {
       savingThrows: Object.entries(c.savingThrows).reduce((acc, [save, val]) => {
         acc[save as SaveType] = { value: val };
         return acc;
-      }, {} as Partial<PF1ClassDataSource["data"]["savingThrows"]>),
+      }, {} as Partial<PF1ClassDataSource["system"]["savingThrows"]>),
       classType: "base",
       classSkills: Object.fromEntries(
         Object.keys(CONFIG.PF1.skills).map((sk) => [sk, c.classSkills.includes(sk)])

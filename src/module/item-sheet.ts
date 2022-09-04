@@ -22,16 +22,17 @@ export const onItemSheetRender = (
   data: ItemSheet.Data
 ): void => {
   const item = app.item;
-  const itemData = item.data;
 
   const sphereData: PF1SItemSheetData = {
     pf1sconfig: PF1S,
   };
 
   // Handle additions to feature sheet
-  if (itemData.type === "feat") {
-    if (itemData.data.featType === "combatTalent") sphereData.spheres = PF1S.combatSpheres;
-    else if (itemData.data.featType === "magicTalent") sphereData.spheres = PF1S.magicSpheres;
+  if (item.type === "feat") {
+    // @ts-expect-error v10 types, above type check acts as type guard
+    if (item.system.featType === "combatTalent") sphereData.spheres = PF1S.combatSpheres;
+    // @ts-expect-error v10 types, above type check acts as type guard
+    else if (item.system.featType === "magicTalent") sphereData.spheres = PF1S.magicSpheres;
 
     if (sphereData.spheres != null) {
       const sphereDropdown = renderPf1sTemplate("talent-details", {
@@ -42,7 +43,7 @@ export const onItemSheetRender = (
     }
   }
   // Handle additions to class sheet
-  else if (itemData.type === "class") {
+  else if (item.type === "class") {
     const progressionDropdown = renderPf1sTemplate("class-progression", { ...data, ...sphereData });
     html.find("div.tab.details > h4").first().before(progressionDropdown);
   }

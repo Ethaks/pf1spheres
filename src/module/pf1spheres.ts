@@ -146,8 +146,8 @@ Hooks.on("renderActorSheetPF", onActorSheetRender);
 
 Hooks.on("getActorSheetPFHeaderButtons", onActorSheetHeaderButtons);
 
-Hooks.on("pf1.prepareBaseActorData", onActorBasePreparation);
+Hooks.on("pf1PrepareBaseActorData", onActorBasePreparation);
 
-Hooks.on("pf1.getChangeFlat", onGetChangeFlat);
+Hooks.on("pf1GetChangeFlat", onGetChangeFlat);
 
-Hooks.on("pf1.addDefaultChanges", onAddDefaultChanges);
+Hooks.on("pf1AddDefaultChanges", onAddDefaultChanges);

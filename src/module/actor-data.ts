@@ -57,6 +57,10 @@ export declare class ActorPF extends Actor {
     rollData: RollData,
     options?: { roll: boolean }
   ): string[];
+
+  // TODO: v10 hack, check with updated types
+  system: PF1ActorDataPropertiesData;
+  flags: Actor["data"]["flags"];
 }
 
 export interface PF1ActorSpheresData {
@@ -79,12 +83,14 @@ type CombatSpheresRecord = {
 /* PF1 Source Data */
 interface PF1BasicActorData {
   type: "basic";
-  data: Record<string, never>;
+  // TODO: v10 hack, check with updated types
+  system: Record<string, never>;
 }
 
 export type PF1ActorDataSource = {
   type: "character" | "npc";
-  data: PF1ActorDataSourceData;
+  // TODO: v10 hack, check with updated types
+  system: PF1ActorDataSourceData;
 };
 
 export interface PF1ActorDataSourceData {
@@ -114,7 +120,8 @@ interface AbilitySourceData {
 
 export type PF1ActorDataProperties = {
   type: "character" | "npc";
-  data: PF1ActorDataPropertiesData;
+  // TODO: v10 hack, check with updated types
+  system: PF1ActorDataPropertiesData;
 };
 
 export interface PF1ActorDataPropertiesData extends PF1ActorDataSourceData {

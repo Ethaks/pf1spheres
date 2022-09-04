@@ -7,7 +7,7 @@
 import type { ActorPF } from "./actor-data";
 import type { DicePFD20RollOptions } from "./dice-data";
 import type { ItemPF } from "./item-data";
-import { getGame, localize } from "./util";
+import { localize } from "./util";
 
 type ActorRollMethod = (
   options?: DicePFD20RollOptions & RollMethodOptions
@@ -43,7 +43,7 @@ const rollMsb =
     const allowed = Hooks.call("actorRoll", actor, "msb", null, options);
     if (allowed === false) return;
 
-    const parts = actor.sourceDetails["data.spheres.msb.total"]
+    const parts = actor.sourceDetails["system.spheres.msb.total"]
       .map((info) => `${info.value}[${info.name}]`)
       .join("+");
 
@@ -52,9 +52,9 @@ const rollMsb =
     const notes = actor.formatContextNotes(noteObjects, rollData);
     const props = notes.length > 0 ? [{ header: localize("PF1.Notes"), value: notes }] : [];
 
-    return getGame().pf1.DicePF.d20Roll({
+    return pf1.dice.DicePF.d20Roll({
       event: options.event ?? new MouseEvent(""),
-      fastForward: getGame().pf1.skipConfirmPrompt,
+      fastForward: pf1.skipConfirmPrompt,
       parts,
       subject: { pf1spheres: "msb" },
       dice: options.dice,
@@ -87,7 +87,7 @@ const rollConcentration =
     const allowed = Hooks.call("actorRoll", actor, "concentration", null, options);
     if (allowed === false) return;
 
-    const parts = actor.sourceDetails["data.spheres.concentration.total"]
+    const parts = actor.sourceDetails["system.spheres.concentration.total"]
       .map((info) => `${info.value}[${info.name}]`)
       .join("+");
 
@@ -96,9 +96,9 @@ const rollConcentration =
     const notes = actor.formatContextNotes(noteObjects, rollData);
     const props = notes.length > 0 ? [{ header: localize("PF1.Notes"), value: notes }] : [];
 
-    return getGame().pf1.DicePF.d20Roll({
+    return pf1.dice.DicePF.d20Roll({
       event: options.event ?? new MouseEvent(""),
-      fastForward: getGame().pf1.skipConfirmPrompt,
+      fastForward: pf1.skipConfirmPrompt,
       parts,
       subject: { pf1spheres: "concentration" },
       dice: options.dice,

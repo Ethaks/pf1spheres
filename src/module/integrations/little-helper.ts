@@ -63,7 +63,8 @@ export const onLilHelperCheckHints = (
       ).outerHTML;
       let defensiveSuccess = false,
         entangleSuccess = false;
-      const actor = ChatMessage.getSpeakerActor(cm.data.speaker);
+      // @ts-expect-error TODO: v10 types
+      const actor = ChatMessage.getSpeakerActor(cm.speaker);
       if (actor) {
         const { cl = 0 } = getHighestCl(actor)();
         if (check - 15 >= cl) defensiveSuccess = true;

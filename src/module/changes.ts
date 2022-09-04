@@ -17,7 +17,7 @@ import type {
   SphereCLChangeTarget,
 } from "./item-data";
 import { PF1CONFIG_EXTRA, PF1S } from "./config";
-import { getGame, localize } from "./util";
+import { localize } from "./util";
 import { getActorHelpers } from "./actor-util";
 import { nonNullable } from "./ts-util";
 
@@ -59,12 +59,12 @@ export const registerChanges = (): void => {
 export const onGetChangeFlat = (
   target: SphereChangeTarget,
   modifier: BonusModifier,
-  result: { keys: ActorDataPath[] }
+  result: ActorDataPath[]
 ): number => {
   // Cache change targets on first call
   if (changeFlatTargets === undefined) changeFlatTargets = getChangeFlatTargets();
 
-  return result.keys.push(
+  return result.push(
     ...(changeFlatTargets[target]?.[modifier] ?? changeFlatTargets[target]?.default ?? [])
   );
 };
@@ -77,56 +77,56 @@ export const getChangeFlatTargets = (): Record<SphereChangeTarget, ChangeFlatTar
   // General Sphere CL (general buffs apply to everything, HD capped only to modCap)
   spherecl: {
     default: [
-      "data.spheres.cl.total",
+      "system.spheres.cl.total",
       ...Object.keys(PF1S.magicSpheres).map(
-        (sphere): ActorDataPath => `data.spheres.cl.${sphere}.total`
+        (sphere): ActorDataPath => `system.spheres.cl.${sphere}.total`
       ),
     ],
-    sphereCLCap: ["data.spheres.cl.modCap"],
+    sphereCLCap: ["system.spheres.cl.modCap"],
   },
   // Hidden target, only applied to general total (used for base + modCap calculation)
   "~spherecl": {
-    default: ["data.spheres.cl.total"],
+    default: ["system.spheres.cl.total"],
   },
   // Hidden target, used to make CAM available via short
   "~castingAbility": {
-    default: ["data.spheres.cam"],
+    default: ["system.spheres.cam"],
   },
   // MSB
   msb: {
-    default: ["data.spheres.msb.total"],
-    untypedPerm: ["data.spheres.msb.base"],
+    default: ["system.spheres.msb.total"],
+    untypedPerm: ["system.spheres.msb.base"],
   },
   // Actor-wide concentration
   sphereConcentration: {
-    default: ["data.spheres.concentration.total"],
+    default: ["system.spheres.concentration.total"],
   },
   // MSD
   msd: {
-    default: ["data.spheres.msd.total"],
-    untypedPerm: ["data.spheres.msd.base"],
+    default: ["system.spheres.msd.total"],
+    untypedPerm: ["system.spheres.msd.base"],
   },
   // Sphere specific CL
   ...Object.fromEntries(
     Object.keys(PF1S.magicSpheres).map((sphere): [SphereCLChangeTarget, ChangeFlatTargetData] => [
       `spherecl${sphere.capitalize()}`,
       {
-        default: [`data.spheres.cl.${sphere}.total`],
-        sphereCLCap: [`data.spheres.cl.${sphere}.modCap`],
+        default: [`system.spheres.cl.${sphere}.total`],
+        sphereCLCap: [`system.spheres.cl.${sphere}.modCap`],
       },
     ])
   ),
   // BAB to sphere BABs
   "~spherebabBase": {
     default: Object.keys(PF1S.combatSpheres).map(
-      (sphere): ActorDataPath => `data.spheres.bab.${sphere}.total`
+      (sphere): ActorDataPath => `system.spheres.bab.${sphere}.total`
     ),
   },
   // Sphere specific BAB
   ...Object.fromEntries(
     Object.keys(PF1S.combatSpheres).map((sphere): [SphereBABChangeTarget, ChangeFlatTargetData] => [
       `spherebab${sphere.capitalize()}`,
-      { default: [`data.spheres.bab.${sphere}.total`] },
+      { default: [`system.spheres.bab.${sphere}.total`] },
     ])
   ),
 });
@@ -146,11 +146,11 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
   const defaultChangeData = getDefaultChanges();
 
   // Add battered condition change if applicable
-  const battered = actor.data.data.attributes.conditions.battered ?? false;
+  const battered = actor.system.attributes.conditions.battered ?? false;
   const batteredChangeData = getBatteredChangeData(battered);
 
   // Add Casting Ability Modifier to Concentration and `@spheres.cam` shortcut
-  const castingAbility = actor.data.flags.pf1spheres?.castingAbility;
+  const castingAbility = actor.flags.pf1spheres?.castingAbility;
   const castingAbilityChangeData = getCastingAbilityChange(castingAbility);
 
   const msbToConcentrationChangeData = getMsbToConcentrationChange();
@@ -219,7 +219,7 @@ const getBatteredChangeData = (battered: boolean): DefaultChangeData | undefined
             modifier: "untyped",
           },
         ],
-        nSourceInfo: [["data.attributes.cmd.total", { value: -2, name: localize("Battered") }]],
+        nSourceInfo: [["system.attributes.cmd.total", { value: -2, name: localize("Battered") }]],
       }
     : undefined;
 
@@ -229,7 +229,7 @@ const getMsbToConcentrationChange = (): DefaultChangeData => ({
   ],
   pSourceInfo: [
     [
-      "data.spheres.concentration.total",
+      "system.spheres.concentration.total",
       { name: localize("MagicSkillBonus"), formula: "@spheres.msb.total" },
     ],
   ],
@@ -254,7 +254,7 @@ const getCastingAbilityChange = (
         ],
         pSourceInfo: [
           [
-            "data.spheres.concentration.total",
+            "system.spheres.concentration.total",
             {
               formula: `@abilities.${ability}.mod`,
               name: `${localize("CastingAbility")} (${CONFIG.PF1.abilities[ability]})`,
@@ -267,7 +267,7 @@ const getCastingAbilityChange = (
 /** Returns a collection of helper functions and classes for actor and ItemChange handling */
 const getChangeHelpers = (actor: ActorPF) => ({
   ...getActorHelpers(actor),
-  ItemChange: getGame().pf1.documentComponents.ItemChange,
+  ItemChange: pf1.components.ItemChange,
 });
 
 /** A data set used to create Changes added by default as well as corresponding source info */

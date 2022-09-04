@@ -69,25 +69,25 @@ const addNavTab = (app: ActorSheetPF, html: JQuery<HTMLElement>) => {
 };
 
 const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData => {
-  if (!actor.data.data.spheres) throw new Error("Spheres data missing!");
+  if (!actor.system.spheres) throw new Error("Spheres data missing!");
   const attributeGrid = (["cl", "msb", "msd"] as const).map(
     (attribute): AttributeData => ({
       attribute,
-      total: actor.data.data.spheres?.[attribute].total ?? 0,
+      total: actor.system.spheres?.[attribute].total ?? 0,
       label: localize(attribute.toLocaleUpperCase() as Uppercase<typeof attribute>),
       path: `@spheres.${attribute}.total`,
-      sources: actor.sourceDetails[`data.spheres.${attribute}.total` as const],
-      cappedSources: actor.sourceDetails[`data.spheres.${attribute}.modCap` as const] ?? [],
+      sources: actor.sourceDetails[`system.spheres.${attribute}.total` as const],
+      cappedSources: actor.sourceDetails[`system.spheres.${attribute}.modCap` as const] ?? [],
       rollable: ["msb"].includes(attribute) ? "rollable" : "",
     })
   );
   // Insert Concentration element between MSB and MSD
   attributeGrid.splice(2, 0, {
     attribute: "concentration",
-    total: actor.data.data.spheres.concentration.total ?? 0,
+    total: actor.system.spheres.concentration.total ?? 0,
     label: localize("PF1.Concentration"),
     path: "@spheres.concentration.total",
-    sources: [...actor.sourceDetails["data.spheres.concentration.total"]],
+    sources: [...actor.sourceDetails["system.spheres.concentration.total"]],
     cappedSources: [],
     rollable: "rollable",
   });
@@ -109,10 +109,10 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
 
   attributeGrid.push({
     attribute: "bab",
-    total: actor.data.data.attributes.bab.total,
+    total: actor.system.attributes.bab.total,
     label: localize("PF1.BABAbbr"),
     path: `@attributes.bab.total`,
-    sources: actor.sourceDetails["data.attributes.bab.total"],
+    sources: actor.sourceDetails["system.attributes.bab.total"],
     cappedSources: [],
     rollable: "",
   });
@@ -141,10 +141,11 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
 
   // Get owned talents and collect info for every sphere regardless of talents
   const ownedTalents = actor.items.reduce((talents: TalentMap, item) => {
-    const sphere = item.data.flags.pf1spheres?.sphere;
+    const sphere = item.flags.pf1spheres?.sphere;
     if (
-      item.data.type === "feat" &&
-      ["combatTalent", "magicTalent"].includes(item.data.data.featType) &&
+      item.type === "feat" &&
+      // @ts-expect-error v10 types, above check now acts as typeguard
+      ["combatTalent", "magicTalent"].includes(item.system.featType) &&
       sphere
     ) {
       talents[sphere] ??= [];
@@ -157,11 +158,11 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
       sphere,
       label: PF1S.magicSpheres[sphere],
       levelLabel: levelLabels.magic,
-      total: actor.data.data.spheres?.cl[sphere].total ?? 0,
+      total: actor.system.spheres?.cl[sphere].total ?? 0,
       path: `@spheres.cl.${sphere}.total`,
       icon:
         PF1S.sphereIcons[sphere as keyof typeof PF1S.sphereIcons] ??
-        foundry.data.ItemData.DEFAULT_ICON,
+        CONFIG.Item.documentClass.DEFAULT_ICON,
       talents: ownedTalents[sphere] ?? [],
       hasTalents: Boolean(ownedTalents[sphere]?.length),
       expandTalents: Boolean(app.spheresTab.expandedSpheres[sphere] ?? false),
@@ -173,7 +174,7 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
       sphere,
       label: PF1S.combatSpheres[sphere],
       levelLabel: levelLabels.combat,
-      total: actor.data.data.spheres?.bab[sphere].total ?? 0,
+      total: actor.system.spheres?.bab[sphere].total ?? 0,
       path: `@spheres.bab.${sphere}.total`,
       icon: PF1S.sphereIcons[sphere],
       talents: ownedTalents[sphere] ?? [],
@@ -204,24 +205,21 @@ const activateListeners = (app: ActorSheetPF, html: JQuery<HTMLElement>, actor: 
   html
     .find(".talent-name")
     // @ts-expect-error Weird contextmenu types?
-    .on("contextmenu", getGame().pf1.applications.ActorSheetPF.prototype._onItemEdit.bind(app));
+    .on("contextmenu", pf1.applications.actor.ActorSheetPF.prototype._onItemEdit.bind(app));
 
   // TODO: Decide upon own solution for rolling – depends on how talents should be activated
   html
     .find(".talent-use>img")
-    .on(
-      "click",
-      getGame().pf1.applications.ActorSheetPF.prototype._quickItemActionControl.bind(app)
-    );
+    .on("click", pf1.applications.actor.ActorSheetPF.prototype._quickItemActionControl.bind(app));
 
   html.find(".sphere-label").on("click", _openSphereJournal);
 };
 
 const getTalentTemplateData = (item: ItemPF): TalentTemplateData => ({
   id: item.id ?? "",
-  img: item.img ?? foundry.data.ItemData.DEFAULT_ICON,
+  img: item.img ?? CONFIG.Item.documentClass.DEFAULT_ICON,
   name: item.name ?? "",
-  tags: item.data.data.tags.flat(),
+  tags: item.system.tags.flat(),
   hasAction: item.hasAction,
   activationType: item.labels.activation,
 });
@@ -267,7 +265,8 @@ const _openSphereJournal = async (event: JQuery.ClickEvent<HTMLElement>) => {
   const pack = getGame().packs.get(`pf1spheres.${sphereType}-spheres`);
   enforce(pack);
   const documents = (await pack.getDocuments()) as StoredDocument<JournalEntry>[];
-  const targetDocument = documents.find((d) => d.data.flags.pf1spheres?.sphere === sphere);
+  // @ts-expect-error v10 types, flags are top level property now
+  const targetDocument = documents.find((d) => d.flags.pf1spheres?.sphere === sphere);
   targetDocument?.sheet?.render(true);
 };
 
@@ -298,10 +297,10 @@ const _toggleSphereTalentsDisplay = (app: ActorSheetPF) => (ev: JQuery.ClickEven
 const getSphereClSources =
   (actor: ActorPF) =>
   (sphere: MagicSphere): { sources: SourceEntry[]; cappedSources: SourceEntry[] } => {
-    const baseSources = actor.sourceDetails["data.spheres.cl.base"] ?? [];
-    const cappedBaseSources = actor.sourceDetails["data.spheres.cl.modCap"] ?? [];
-    const sphereSources = actor.sourceDetails[`data.spheres.cl.${sphere}.total` as const] ?? [];
-    const cappedSources = actor.sourceDetails[`data.spheres.cl.${sphere}.modCap` as const] ?? [];
+    const baseSources = actor.sourceDetails["system.spheres.cl.base"] ?? [];
+    const cappedBaseSources = actor.sourceDetails["system.spheres.cl.modCap"] ?? [];
+    const sphereSources = actor.sourceDetails[`system.spheres.cl.${sphere}.total` as const] ?? [];
+    const cappedSources = actor.sourceDetails[`system.spheres.cl.${sphere}.modCap` as const] ?? [];
     return {
       sources: [...baseSources, ...sphereSources],
       cappedSources: [...cappedBaseSources, ...cappedSources],
@@ -309,9 +308,9 @@ const getSphereClSources =
   };
 
 const getSphereBabSources = (actor: ActorPF) => (sphere: CombatSphere) => {
-  const baseSources = actor.sourceDetails["data.attributes.bab.total"] ?? [];
-  const sphereSources = actor.sourceDetails[`data.spheres.bab.${sphere}.total` as const] ?? [];
-  const cappedSources = actor.sourceDetails[`data.spheres.bab.${sphere}.modCap` as const] ?? [];
+  const baseSources = actor.sourceDetails["system.attributes.bab.total"] ?? [];
+  const sphereSources = actor.sourceDetails[`system.spheres.bab.${sphere}.total` as const] ?? [];
+  const cappedSources = actor.sourceDetails[`system.spheres.bab.${sphere}.modCap` as const] ?? [];
   return {
     sources: [...baseSources, ...sphereSources],
     cappedSources,

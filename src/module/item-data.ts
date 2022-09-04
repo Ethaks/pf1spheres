@@ -38,6 +38,11 @@ export declare class ItemPF extends Item {
   labels: {
     activation: string;
   };
+
+  // TODO: v10 hack, check with updated types
+  flags: ItemPF["data"]["flags"];
+  system: PF1ItemDataProperties["system"];
+  static DEFAULT_ICON: string;
 }
 
 /** The data after preparation, i.e. what's usually available at runtime */
@@ -80,7 +85,8 @@ interface PF1ItemDataSourceTagged {
 
 export interface PF1FeatDataSource {
   type: "feat";
-  data: PF1FeatDataSourceData;
+  // TODO: v10 hack, check with updated types
+  system: PF1FeatDataSourceData;
 }
 
 interface PF1FeatDataSourceData
@@ -102,7 +108,8 @@ interface PF1FeatDataSourceData
 
 export interface PF1ClassDataSource {
   type: "class";
-  data: PF1ClassDataSourceData;
+  // TODO: v10 hack, check with updated types
+  system: PF1ClassDataSourceData;
 }
 
 interface PF1ClassDataSourceData

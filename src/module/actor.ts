@@ -11,6 +11,7 @@ import { getActorMethods } from "./actor-methods";
 import { getActorHelpers } from "./actor-util";
 import { PF1S } from "./config";
 import { getGame, localize } from "./util";
+import type { ItemPF } from "./item-data";
 
 /**
  * Hooks into the preparation of base data for Actors, setting base values
@@ -23,26 +24,25 @@ import { getGame, localize } from "./util";
  */
 export const onActorBasePreparation = (actor: ActorPF): void => {
   // Do not interact with basic actors, whose data can/should be empty
-  if (actor.data.type === "basic") return;
+  if (actor.type === "basic") return;
 
   // Add Spheres actor methods if not already present
   if (!("spheres" in actor)) actor.spheres = getActorMethods(actor);
 
   // Populate/reset spheres data
-  const sphereData = (actor.data.data.spheres = getBlankSphereData());
+  const sphereData = (actor.system.spheres = getBlankSphereData());
 
   // Start actual calculations
   const useFractionalBAB = getGame().settings.get("pf1", "useFractionalBaseBonuses") ?? false;
 
   const { pushPSourceInfo } = getActorHelpers(actor);
-  pushPSourceInfo("data.spheres.msd.base", {
+  pushPSourceInfo("system.spheres.msd.base", {
     name: localize("PF1.Base"),
     value: 11,
   });
 
   // Determine MSB and Caster Level from classes
   const { casterLevel, baseMSB } = actor.items
-    .map((i) => i.data)
     .filter(filterClasses)
     .map(getItemLevelData(useFractionalBAB))
     .map(pushLevelSources(actor))
@@ -64,7 +64,8 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
 };
 
 /** Filters itemData by its type, narrowing available data to class data with a caster progression */
-export const filterClasses = (item: Item["data"]): item is Item["data"] & PF1ClassDataSource =>
+// @ts-expect-error - Wait for v10 types
+export const filterClasses = (item: ItemPF): item is ItemPF & PF1ClassDataSource =>
   item.type === "class" && Boolean(item.flags.pf1spheres?.casterProgression);
 
 /**
@@ -73,8 +74,8 @@ export const filterClasses = (item: Item["data"]): item is Item["data"] & PF1Cla
  */
 export const getItemLevelData =
   (useFractionalBAB: boolean) =>
-  (item: Item["data"] & PF1ClassDataSource): ItemSphereClData => {
-    const baseLevel = item.data.level ?? 0;
+  (item: ItemPF & PF1ClassDataSource): ItemSphereClData => {
+    const baseLevel = item.system.level ?? 0;
 
     // Determine progression for actual CL contribution
     const progression = item.flags.pf1spheres?.casterProgression;
@@ -86,7 +87,7 @@ export const getItemLevelData =
     // The actual number of levels contributed by this class
     const clPart = useFractionalBAB ? rawLevel : Math.floor(rawLevel);
 
-    return { baseLevel, clPart, name: item.name };
+    return { baseLevel, clPart, name: item.name ?? "" };
   };
 
 /**
@@ -101,17 +102,17 @@ export const pushLevelSources = (
 
   return (data: ItemSphereClData): ItemSphereClData => {
     if (data.baseLevel > 0) {
-      pushPSourceInfo("data.spheres.msb.base", {
+      pushPSourceInfo("system.spheres.msb.base", {
         value: data.baseLevel ?? 0,
         name: data.name,
       });
-      pushPSourceInfo("data.spheres.msd.base", {
+      pushPSourceInfo("system.spheres.msd.base", {
         value: data.baseLevel ?? 0,
         name: data.name,
       });
     }
     if (data.clPart > 0) {
-      pushPSourceInfo("data.spheres.cl.base", {
+      pushPSourceInfo("system.spheres.cl.base", {
         value: data.clPart,
         name: data.name,
       });

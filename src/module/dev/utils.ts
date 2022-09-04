@@ -123,14 +123,14 @@ const getClassData = async (
   } = {}
 ) => {
   const classData = await fetchPackEntryData("pf1spheres.classes", className);
-  enforce("level" in classData.data);
-  classData.data.level = level;
+  enforce("level" in classData.system);
+  classData.system.level = level;
 
-  const ItemChange = getGame().pf1.documentComponents.ItemChange;
-  classData.data.changes = changes.map((changeData) => {
+  const ItemChange = pf1.components.ItemChange;
+  classData.system.changes = changes.map((changeData) => {
     const change = new ItemChange(changeData);
     return change.data;
   });
-  classData.data.contextNotes = notes;
+  classData.system.contextNotes = notes;
   return classData;
 };

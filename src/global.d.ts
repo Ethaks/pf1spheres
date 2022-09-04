@@ -24,24 +24,30 @@ declare global {
     err?: Error;
   }
 
-  interface Game {
-    pf1: {
-      DicePF: typeof DicePF;
-      applications: {
+  const pf1: {
+    documents: {
+      actor: {
+        changes: {
+          getSourceInfo(
+            sourceInfo: SourceInfo,
+            key: ActorDataPath
+          ): { positive: SourceEntry[]; negative: SourceEntry[] };
+        };
+      };
+    };
+    applications: {
+      actor: {
         ActorSheetPF: typeof ActorSheetPF;
       };
-      documentComponents: {
-        ItemChange: typeof ItemChange;
-      };
-      utils: {
-        getSourceInfo(
-          sourceInfo: SourceInfo,
-          key: ActorDataPath
-        ): { positive: SourceEntry[]; negative: SourceEntry[] };
-      };
-      skipConfirmPrompt: boolean;
     };
-  }
+    components: {
+      ItemChange: typeof ItemChange;
+    };
+    dice: {
+      DicePF: typeof DicePF;
+    };
+    skipConfirmPrompt: boolean;
+  };
 
   namespace ClientSettings {
     interface Values {
