@@ -21,8 +21,12 @@ export class FakeActor {
     this.prepareData();
   }
 
-  get data() {
-    return this._data;
+  // Begin v10 hack
+  get system() {
+    return this._data.system;
+  }
+  get flags() {
+    return this._data.flags;
   }
 
   prepareData() {
@@ -41,7 +45,7 @@ export class FakeActor {
   }
 
   getRollData() {
-    return JSON.parse(JSON.stringify(this.data));
+    return JSON.parse(JSON.stringify(this.system));
   }
 
   formatContextNotes() {
@@ -52,13 +56,16 @@ export class FakeActor {
     return this.items
       .map((i) => ({
         item: i,
-        notes: i.data.data.contextNotes ?? [],
+        notes: i.system.contextNotes ?? [],
       }))
       .filter((no) => no.notes.length > 0);
   }
 
   toJSON() {
     return this._data;
+  }
+  toObject() {
+    return this.toJSON();
   }
 }
 
@@ -72,7 +79,7 @@ export class FakeActor {
 export const getFakeActor = (options?: FakeActorOptions): ActorPF => {
   const actor = new FakeActor(testActor as unknown as ActorDataSource);
   if (options?.battered !== undefined)
-    actor._data.data.attributes.conditions.battered = options.battered;
+    actor._data.system.attributes.conditions.battered = options.battered;
 
   if (options?.castingAbility !== undefined)
     setProperty(actor._data, "flags.pf1spheres.castingAbility", options.castingAbility);

@@ -18,11 +18,17 @@ export class FakeItem {
   }
 
   get id(): string {
-    return this.data._id as string;
+    return this._data._id as string;
   }
 
-  get data() {
-    return this._data;
+  get system() {
+    return this._data.system;
+  }
+  get type() {
+    return this._data.type;
+  }
+  get flags() {
+    return this._data.flags;
   }
 
   toJSON() {

@@ -6,7 +6,6 @@
 
 import { onActorBasePreparation } from "../src/module/actor";
 import type { ActorPF } from "../src/module/actor-data";
-import { getGame } from "../src/module/util";
 import { getFakeActor } from "./fakes/fake-actor";
 
 beforeAll(() => {
@@ -37,10 +36,10 @@ describe("Actor#spheres#rollMsb", () => {
   });
 
   test("with default parameters rolls a ChatMessage", async () => {
-    actor.sourceDetails["data.spheres.msb.total"] = [{ value: 1, name: "Base" }];
+    actor.sourceDetails["system.spheres.msb.total"] = [{ value: 1, name: "Base" }];
 
     const hookSpy = vi.spyOn(Hooks, "call").mockImplementation(() => true);
-    const d20RollSpy = vi.spyOn(getGame().pf1.DicePF, "d20Roll");
+    const d20RollSpy = vi.spyOn(pf1.dice.DicePF, "d20Roll");
 
     await actor.spheres.rollMsb();
 
@@ -52,7 +51,7 @@ describe("Actor#spheres#rollMsb", () => {
       fastForward: undefined,
       parts: "1[Base]",
       dice: undefined,
-      data: actor.data,
+      data: actor.system,
       title: "Magic Skill Check",
       speaker: {},
       subject: { pf1spheres: "msb" },
@@ -68,7 +67,7 @@ describe("Actor#spheres#rollMsb", () => {
     // @ts-expect-error Only for test
     actor.isOwner = false;
     const hookSpy = vi.spyOn(Hooks, "call").mockImplementation(() => true);
-    const d20RollSpy = vi.spyOn(getGame().pf1.DicePF, "d20Roll");
+    const d20RollSpy = vi.spyOn(pf1.dice.DicePF, "d20Roll");
 
     const result = await actor.spheres.rollMsb();
     expect(result).toBeUndefined();
@@ -85,13 +84,13 @@ describe("Actor#spheres#rollConcentration", () => {
   });
 
   test("with default parameters rolls a ChatMessage", async () => {
-    actor.sourceDetails["data.spheres.concentration.total"] = [
+    actor.sourceDetails["system.spheres.concentration.total"] = [
       { value: 1, name: "Magic Skill Bonus" },
       { value: 2, name: "Buff" },
     ];
 
     const hookSpy = vi.spyOn(Hooks, "call").mockImplementation(() => true);
-    const d20RollSpy = vi.spyOn(getGame().pf1.DicePF, "d20Roll");
+    const d20RollSpy = vi.spyOn(pf1.dice.DicePF, "d20Roll");
 
     await actor.spheres.rollConcentration();
 
@@ -103,7 +102,7 @@ describe("Actor#spheres#rollConcentration", () => {
       fastForward: undefined,
       parts: "1[Magic Skill Bonus]+2[Buff]",
       dice: undefined,
-      data: actor.data,
+      data: actor.system,
       title: "PF1.ConcentrationCheck",
       speaker: {},
       subject: { pf1spheres: "concentration" },
@@ -119,7 +118,7 @@ describe("Actor#spheres#rollConcentration", () => {
     // @ts-expect-error Only for test
     actor.isOwner = false;
     const hookSpy = vi.spyOn(Hooks, "call").mockImplementation(() => true);
-    const d20RollSpy = vi.spyOn(getGame().pf1.DicePF, "d20Roll");
+    const d20RollSpy = vi.spyOn(pf1.dice.DicePF, "d20Roll");
 
     const result = await actor.spheres.rollConcentration();
     expect(result).toBeUndefined();

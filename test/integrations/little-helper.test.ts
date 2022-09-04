@@ -19,7 +19,7 @@ beforeAll(() => {
     const actor = getFakeActor();
     onActorBasePreparation(actor);
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-    actor.data.data.spheres!.cl.total = totalCl;
+    actor.system.spheres!.cl.total = totalCl;
     return actor;
   });
   vi.spyOn(RollPF, "safeRoll").mockImplementation(

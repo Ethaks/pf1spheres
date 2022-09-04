@@ -22,13 +22,13 @@ beforeAll(() => {
 describe("Test default changes handling", () => {
   test("Battered change and source info", () => {
     // Condition
-    expect(actor.data.data.attributes.conditions.battered).toBe(true);
+    expect(actor.system.attributes.conditions.battered).toBe(true);
     // Change
     expect(changes).toContainEqual({
       data: { formula: "-2", subTarget: "cmd", modifier: "untyped" },
     });
     // Source info
-    expect(actor.sourceInfo["data.attributes.cmd.total"]?.negative).toContainEqual({
+    expect(actor.sourceInfo["system.attributes.cmd.total"]?.negative).toContainEqual({
       name: localize("Battered"),
       value: -2,
     });
@@ -46,7 +46,7 @@ describe("Test default changes handling", () => {
       )
     ).toBeUndefined();
     expect(
-      newActor.sourceInfo["data.attributes.cmd.total"]?.negative?.find(
+      newActor.sourceInfo["system.attributes.cmd.total"]?.negative?.find(
         (c) => c.name === localize("Battered")
       )
     ).toBeUndefined();
@@ -115,14 +115,14 @@ describe("Test default changes handling", () => {
         modifier: "untyped",
       },
     });
-    expect(actor.sourceInfo["data.spheres.concentration.total"]?.positive).toContainEqual({
+    expect(actor.sourceInfo["system.spheres.concentration.total"]?.positive).toContainEqual({
       name: "Magic Skill Bonus",
       formula: "@spheres.msb.total",
     });
   });
 
   test("Casting Ability change and source info", () => {
-    expect(actor.data.flags.pf1spheres?.castingAbility).toBe("int");
+    expect(actor.flags.pf1spheres?.castingAbility).toBe("int");
     expect(changes).toContainEqual({
       data: {
         formula: "@abilities.int.mod",
@@ -138,7 +138,7 @@ describe("Test default changes handling", () => {
       },
     });
 
-    expect(actor.sourceInfo["data.spheres.concentration.total"]?.positive).toContainEqual({
+    expect(actor.sourceInfo["system.spheres.concentration.total"]?.positive).toContainEqual({
       name: `Casting Ability (Intelligence)`,
       formula: "@abilities.int.mod",
     });

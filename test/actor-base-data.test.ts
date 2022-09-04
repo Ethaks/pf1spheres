@@ -4,7 +4,6 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
-import type { ItemData } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/module.mjs";
 import type { ItemSphereClData } from "../src/module/actor";
 import {
   filterClasses,
@@ -14,38 +13,39 @@ import {
 } from "../src/module/actor";
 import type { ActorPF } from "../src/module/actor-data";
 import { PF1S } from "../src/module/config";
-import type { CasterProgression, PF1ClassDataSource } from "../src/module/item-data";
+import type { CasterProgression, ItemPF, PF1ClassDataSource } from "../src/module/item-data";
 import { getFakeActor } from "./fakes/fake-actor";
 import type { FakeSettings } from "./setup";
 
-const classData = (progression: CasterProgression, level: number): ItemData & PF1ClassDataSource =>
+const classData = (progression: CasterProgression, level: number): ItemPF & PF1ClassDataSource =>
   ({
+    // @ts-expect-error Type instantiation should be checked with v10 types
     name: `${progression.capitalize()} Caster Class`,
     type: "class",
     flags: { pf1spheres: { casterProgression: progression } },
-    data: { level: level },
-  } as ItemData & PF1ClassDataSource);
+    system: { level: level },
+  } as ItemPF & PF1ClassDataSource);
 
 describe("Actor snapshot data", () => {
   // Initialise actor
   const actor = getFakeActor();
 
   test("Actor has a class for each caster progression", () => {
-    expect(actor.data.items).toContainEqual(
+    expect(actor.toObject().items).toContainEqual(
       expect.objectContaining({
         name: "Mageknight",
         type: "class",
         flags: { pf1spheres: { casterProgression: "low" } },
       })
     );
-    expect(actor.data.items).toContainEqual(
+    expect(actor.toObject().items).toContainEqual(
       expect.objectContaining({
         name: "Wraith",
         type: "class",
         flags: { pf1spheres: { casterProgression: "mid" } },
       })
     );
-    expect(actor.data.items).toContainEqual(
+    expect(actor.toObject().items).toContainEqual(
       expect.objectContaining({
         name: "Incanter",
         type: "class",
@@ -63,20 +63,19 @@ describe("Actor base data preparation with fractional base bonuses", () => {
   onActorBasePreparation(actor);
 
   test("Base CL", () => {
-    expect(actor.data.data.spheres?.cl.base).toEqual(4);
+    expect(actor.system.spheres?.cl.base).toEqual(4);
   });
 
   test("Base MSB", () => {
-    expect(actor.data.data.spheres?.msb.base).toEqual(6);
+    expect(actor.system.spheres?.msb.base).toEqual(6);
   });
 
   test("Base MSD", () => {
-    expect(actor.data.data.spheres?.msd.base).toEqual(17);
+    expect(actor.system.spheres?.msd.base).toEqual(17);
   });
 
   it("matches the snapshot", () => {
-    const actorState = actor;
-    expect(actorState).toMatchSnapshot();
+    expect(actor).toMatchSnapshot();
   });
 });
 
@@ -92,7 +91,7 @@ describe("Actor base data preparation without fractional base bonuses", () => {
   onActorBasePreparation(actor);
 
   test("Base CL", () => {
-    expect(actor.data.data.spheres?.cl.base).toEqual(3);
+    expect(actor.system.spheres?.cl.base).toEqual(3);
   });
 
   it("matches the snapshot", () => {
@@ -164,40 +163,40 @@ describe("Source tracking for Sphere CL, MSB/D", () => {
   const expectSource = (level: number, cl: number) => {
     pushSource(itemSphereData(level, cl));
     if (Boolean(level)) {
-      expect(actor.sourceInfo["data.spheres.msb.base"]?.positive).toContainEqual({
+      expect(actor.sourceInfo["system.spheres.msb.base"]?.positive).toContainEqual({
         value: level,
         name: `Class with level ${level} and CL ${cl}`,
       });
-      expect(actor.sourceInfo["data.spheres.msb.total"]?.positive).toContainEqual({
+      expect(actor.sourceInfo["system.spheres.msb.total"]?.positive).toContainEqual({
         value: level,
         name: `Class with level ${level} and CL ${cl}`,
       });
-      expect(actor.sourceInfo["data.spheres.msd.base"]?.positive).toContainEqual({
+      expect(actor.sourceInfo["system.spheres.msd.base"]?.positive).toContainEqual({
         value: level,
         name: `Class with level ${level} and CL ${cl}`,
       });
-      expect(actor.sourceInfo["data.spheres.msd.total"]?.positive).toContainEqual({
+      expect(actor.sourceInfo["system.spheres.msd.total"]?.positive).toContainEqual({
         value: level,
         name: `Class with level ${level} and CL ${cl}`,
       });
     } else {
-      expect(actor.sourceInfo["data.spheres.msb.base"]).toBeUndefined();
-      expect(actor.sourceInfo["data.spheres.msb.total"]).toBeUndefined();
-      expect(actor.sourceInfo["data.spheres.msd.base"]).toBeUndefined();
-      expect(actor.sourceInfo["data.spheres.msd.total"]).toBeUndefined();
+      expect(actor.sourceInfo["system.spheres.msb.base"]).toBeUndefined();
+      expect(actor.sourceInfo["system.spheres.msb.total"]).toBeUndefined();
+      expect(actor.sourceInfo["system.spheres.msd.base"]).toBeUndefined();
+      expect(actor.sourceInfo["system.spheres.msd.total"]).toBeUndefined();
     }
     if (Boolean(cl)) {
-      expect(actor.sourceInfo["data.spheres.cl.base"]?.positive).toContainEqual({
+      expect(actor.sourceInfo["system.spheres.cl.base"]?.positive).toContainEqual({
         value: cl,
         name: `Class with level ${level} and CL ${cl}`,
       });
-      expect(actor.sourceInfo["data.spheres.cl.total"]?.positive).toContainEqual({
+      expect(actor.sourceInfo["system.spheres.cl.total"]?.positive).toContainEqual({
         value: cl,
         name: `Class with level ${level} and CL ${cl}`,
       });
     } else {
-      expect(actor.sourceInfo["data.spheres.cl.base"]).toBeUndefined();
-      expect(actor.sourceInfo["data.spheres.cl.total"]).toBeUndefined();
+      expect(actor.sourceInfo["system.spheres.cl.base"]).toBeUndefined();
+      expect(actor.sourceInfo["system.spheres.cl.total"]).toBeUndefined();
     }
   };
 
@@ -210,7 +209,7 @@ describe("Source tracking for Sphere CL, MSB/D", () => {
 
   test("Class with neither level nor CL", () => {
     pushSource(itemSphereData(0, 0));
-    expect(actor.sourceInfo["data.spheres.msd.base"]).toBeUndefined();
+    expect(actor.sourceInfo["system.spheres.msd.base"]).toBeUndefined();
   });
   // ESLint does not register the expects from expectSource
   test("Caster with level 1 and CL 0", () => {

@@ -32,24 +32,6 @@ class Game {
       useFractionalBaseBonuses: true,
     },
   };
-  public pf1 = {
-    documentComponents: {
-      ItemChange: FakeItemChange,
-    },
-    utils: {
-      getSourceInfo: (obj: SourceInfo, key: ActorDataPath): SourceInfoEntry => {
-        if (!obj[key]) {
-          obj[key] = { negative: [], positive: [] };
-        }
-        return obj[key] as SourceInfoEntry;
-      },
-    },
-    DicePF: class {
-      static d20Roll() {
-        return {};
-      }
-    },
-  };
   public i18n = {
     format: (key: string, data: Record<string, any> = {}) => {
       let str = getProperty(this.translations, key) || key;
@@ -94,6 +76,31 @@ export function setup() {
       buffTargets: {},
       stackingBonusModifiers: [],
       abilities: { int: "Intelligence" },
+    },
+  };
+
+  (global as any).pf1 = {
+    components: {
+      ItemChange: FakeItemChange,
+    },
+    dice: {
+      DicePF: class {
+        static d20Roll() {
+          return {};
+        }
+      },
+    },
+    documents: {
+      actor: {
+        changes: {
+          getSourceInfo: (obj: SourceInfo, key: ActorDataPath): SourceInfoEntry => {
+            if (!obj[key]) {
+              obj[key] = { negative: [], positive: [] };
+            }
+            return obj[key] as SourceInfoEntry;
+          },
+        },
+      },
     },
   };
 
