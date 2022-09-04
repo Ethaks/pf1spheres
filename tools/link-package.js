@@ -31,10 +31,10 @@ function getDataPath() {
  * @param {boolean} clean Whether to remove the link instead of creating it
  */
 async function linkPackage(clean) {
-  if (!fs.existsSync(path.resolve("system.json"))) {
-    throw new Error("Could not find system.json");
+  if (!fs.existsSync(path.resolve("public", "module.json"))) {
+    throw new Error("Could not find module.json");
   }
-
+  const name = fs.readJSONSync(path.resolve("./public", "module.json")).id;
   const linkDirectory = path.resolve(getDataPath(), "Data", destinationDirectory, name);
 
   if (clean) {
