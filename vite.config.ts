@@ -7,7 +7,8 @@ import { visualizer } from "rollup-plugin-visualizer";
 import checker from "vite-plugin-checker";
 import path from "path";
 import { copy } from "@guanghechen/rollup-plugin-copy";
-import handlebarsReload from "./scripts/handlebars-reload";
+import handlebarsReload from "./tools/handlebars-reload.js";
+import langReload from "./tools/lang-reload";
 
 function resolve(relativePath: string) {
   return path.resolve(__dirname, relativePath);
@@ -62,6 +63,7 @@ const config = defineConfig({
     }),
     copy({ targets: [{ src: COPY_FILES, dest: resolve("dist") }], hook: "writeBundle" }),
     handlebarsReload(),
+    langReload(),
   ],
 });
 
