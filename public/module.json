@@ -1,9 +1,9 @@
 {
+  "id": "pf1spheres",
   "name": "pf1spheres",
   "title": "Spheres for Pathfinder 1e",
   "description": "Adds Spheres of Power/Might content packs and mechanics to Pathfinder 1e",
   "version": "0.3.1",
-  "author": "Ethaks",
   "authors": [
     {
       "name": "Ethaks",
@@ -13,8 +13,22 @@
     },
     { "name": "Xavion", "discord": "Xavion#9504" }
   ],
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
+  "minimumCoreVersion": "10",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.284"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "compatibility": {
+          "minimum": "0.82.0",
+          "verified": "0.82.1"
+        }
+      }
+    ]
+  },
   "scripts": [],
   "esmodules": ["pf1spheres.js"],
   "styles": ["style.css"],
@@ -79,8 +93,6 @@
   "readme": "https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/-/blob/master/README.md",
   "bugs": "https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/-/issues",
   "changelog": "https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/-/blob/master/CHANGELOG.md",
-  "system": ["pf1"],
-  "minimumSystemVersion": "0.81.0",
   "library": false,
   "flags": { "allowBugReporter": true }
 }
