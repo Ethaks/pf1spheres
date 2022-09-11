@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.3.1...v0.4.0) (2022-09-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* make module Foundry v10 and PF1 0.82 compatible
+
+### Bug Fixes
+
+* make module Foundry v10 and PF1 0.82 compatible ([2a4ec33](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/2a4ec3306c669a2c1f3455f071e00829ab2a9df0))
+
 ### [0.3.1](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.3.0...v0.3.1) (2022-06-19)
 
 
