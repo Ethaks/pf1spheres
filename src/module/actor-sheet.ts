@@ -235,18 +235,12 @@ interface TalentTemplateData {
 
 const _onMsbRoll = (actor: ActorPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
   ev.preventDefault();
-  const options = {
-    event: ev,
-  };
-  return actor.spheres.rollMsb(options);
+  return actor.spheres.rollMsb({ skipDialog: pf1.skipConfirmPrompt });
 };
 
 const _onConcentrationRoll = (actor: ActorPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
   ev.preventDefault();
-  const options = {
-    event: ev,
-  };
-  return actor.spheres.rollConcentration(options);
+  return actor.spheres.rollConcentration({ skipDialog: pf1.skipConfirmPrompt });
 };
 
 /**

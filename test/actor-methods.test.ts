@@ -39,7 +39,7 @@ describe("Actor#spheres#rollMsb", () => {
     actor.sourceDetails["system.spheres.msb.total"] = [{ value: 1, name: "Base" }];
 
     const hookSpy = vi.spyOn(Hooks, "call").mockImplementation(() => true);
-    const d20RollSpy = vi.spyOn(pf1.dice.DicePF, "d20Roll");
+    const d20RollSpy = vi.spyOn(pf1.dice, "d20Roll");
 
     await actor.spheres.rollMsb();
 
@@ -47,19 +47,13 @@ describe("Actor#spheres#rollMsb", () => {
     expect(hookSpy).toHaveBeenCalledWith("actorRoll", actor, "msb", null, {});
     expect(d20RollSpy).toHaveBeenCalledOnce();
     expect(d20RollSpy).toHaveBeenCalledWith({
-      event: {},
-      fastForward: undefined,
-      parts: "1[Base]",
-      dice: undefined,
-      data: actor.system,
-      title: "Magic Skill Check",
+      skipDialog: undefined,
+      parts: ["1[Base]"],
+      rollData: actor.system,
+      flavor: "Magic Skill Check",
       speaker: {},
       subject: { pf1spheres: "msb" },
-      chatTemplate: "systems/pf1/templates/chat/roll-ext.hbs",
       chatTemplateData: { hasProperties: false, properties: [] },
-      chatMessage: true,
-      noSound: false,
-      originalOptions: {},
     });
   });
 
@@ -67,7 +61,7 @@ describe("Actor#spheres#rollMsb", () => {
     // @ts-expect-error Only for test
     actor.isOwner = false;
     const hookSpy = vi.spyOn(Hooks, "call").mockImplementation(() => true);
-    const d20RollSpy = vi.spyOn(pf1.dice.DicePF, "d20Roll");
+    const d20RollSpy = vi.spyOn(pf1.dice, "d20Roll");
 
     const result = await actor.spheres.rollMsb();
     expect(result).toBeUndefined();
@@ -90,7 +84,7 @@ describe("Actor#spheres#rollConcentration", () => {
     ];
 
     const hookSpy = vi.spyOn(Hooks, "call").mockImplementation(() => true);
-    const d20RollSpy = vi.spyOn(pf1.dice.DicePF, "d20Roll");
+    const d20RollSpy = vi.spyOn(pf1.dice, "d20Roll");
 
     await actor.spheres.rollConcentration();
 
@@ -98,19 +92,13 @@ describe("Actor#spheres#rollConcentration", () => {
     expect(hookSpy).toHaveBeenCalledWith("actorRoll", actor, "concentration", null, {});
     expect(d20RollSpy).toHaveBeenCalledOnce();
     expect(d20RollSpy).toHaveBeenCalledWith({
-      event: {},
-      fastForward: undefined,
-      parts: "1[Magic Skill Bonus]+2[Buff]",
-      dice: undefined,
-      data: actor.system,
-      title: "PF1.ConcentrationCheck",
+      skipDialog: undefined,
+      parts: ["1[Magic Skill Bonus]", "2[Buff]"],
+      rollData: actor.system,
+      flavor: "PF1.ConcentrationCheck",
       speaker: {},
       subject: { pf1spheres: "concentration" },
-      chatTemplate: "systems/pf1/templates/chat/roll-ext.hbs",
       chatTemplateData: { hasProperties: false, properties: [] },
-      chatMessage: true,
-      noSound: false,
-      originalOptions: {},
     });
   });
 
@@ -118,7 +106,7 @@ describe("Actor#spheres#rollConcentration", () => {
     // @ts-expect-error Only for test
     actor.isOwner = false;
     const hookSpy = vi.spyOn(Hooks, "call").mockImplementation(() => true);
-    const d20RollSpy = vi.spyOn(pf1.dice.DicePF, "d20Roll");
+    const d20RollSpy = vi.spyOn(pf1.dice, "d20Roll");
 
     const result = await actor.spheres.rollConcentration();
     expect(result).toBeUndefined();

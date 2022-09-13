@@ -5,13 +5,13 @@
  */
 
 import type { ActorPF } from "./actor-data";
-import type { DicePFD20RollOptions } from "./dice-data";
 import type { ItemPF } from "./item-data";
 import { localize } from "./util";
+import type { ActorRollOptions } from "../pf1-types/d20roll";
 
 type ActorRollMethod = (
-  options?: DicePFD20RollOptions & RollMethodOptions
-) => Promise<ChatMessage | Roll> | void;
+  options?: ActorRollOptions
+) => Promise<ChatMessage | ChatMessage["data"]["_source"] | void> | void;
 
 /** Returns an object containing method-like functions scoped to work with an actor */
 export const getActorMethods = (actor: ActorPF) => ({
@@ -43,29 +43,23 @@ const rollMsb =
     const allowed = Hooks.call("actorRoll", actor, "msb", null, options);
     if (allowed === false) return;
 
-    const parts = actor.sourceDetails["system.spheres.msb.total"]
-      .map((info) => `${info.value}[${info.name}]`)
-      .join("+");
+    const parts = actor.sourceDetails["system.spheres.msb.total"].map(
+      (info) => `${info.value}[${info.name}]`
+    );
 
     const rollData = actor.getRollData();
     const noteObjects = getMsbNotes(actor)();
     const notes = actor.formatContextNotes(noteObjects, rollData);
     const props = notes.length > 0 ? [{ header: localize("PF1.Notes"), value: notes }] : [];
 
-    return pf1.dice.DicePF.d20Roll({
-      event: options.event ?? new MouseEvent(""),
-      fastForward: pf1.skipConfirmPrompt,
+    return pf1.dice.d20Roll({
+      ...options,
       parts,
       subject: { pf1spheres: "msb" },
-      dice: options.dice,
-      data: actor.getRollData(),
-      title: options.label ?? localize(`Checks.MSB`),
+      rollData: actor.getRollData(),
+      flavor: localize(`Checks.MSB`),
       speaker: ChatMessage.getSpeaker({ actor }),
-      chatTemplate: "systems/pf1/templates/chat/roll-ext.hbs",
       chatTemplateData: { hasProperties: props.length > 0, properties: props },
-      chatMessage: options.chatMessage ?? true,
-      noSound: options.noSound ?? false,
-      originalOptions: options,
     });
   };
 
@@ -87,29 +81,23 @@ const rollConcentration =
     const allowed = Hooks.call("actorRoll", actor, "concentration", null, options);
     if (allowed === false) return;
 
-    const parts = actor.sourceDetails["system.spheres.concentration.total"]
-      .map((info) => `${info.value}[${info.name}]`)
-      .join("+");
+    const parts = actor.sourceDetails["system.spheres.concentration.total"].map(
+      (info) => `${info.value}[${info.name}]`
+    );
 
     const rollData = actor.getRollData();
     const noteObjects = getConcentrationNotes(actor)();
     const notes = actor.formatContextNotes(noteObjects, rollData);
     const props = notes.length > 0 ? [{ header: localize("PF1.Notes"), value: notes }] : [];
 
-    return pf1.dice.DicePF.d20Roll({
-      event: options.event ?? new MouseEvent(""),
-      fastForward: pf1.skipConfirmPrompt,
+    return pf1.dice.d20Roll({
+      ...options,
       parts,
       subject: { pf1spheres: "concentration" },
-      dice: options.dice,
-      data: actor.getRollData(),
-      title: options.label ?? localize("PF1.ConcentrationCheck"),
+      rollData: actor.getRollData(),
+      flavor: localize("PF1.ConcentrationCheck"),
       speaker: ChatMessage.getSpeaker({ actor }),
-      chatTemplate: "systems/pf1/templates/chat/roll-ext.hbs",
       chatTemplateData: { hasProperties: props.length > 0, properties: props },
-      chatMessage: options.chatMessage ?? true,
-      noSound: options.noSound ?? false,
-      originalOptions: options,
     });
   };
 /** Returns a function that returns an actor's Magic Skill Check Context Notes */
@@ -136,10 +124,4 @@ const getConcentrationNotes = (actor: ActorPF) => (): ContextNoteObject[] =>
 interface ContextNoteObject {
   item: ItemPF;
   notes: string[];
-}
-
-interface RollMethodOptions {
-  chatMessage?: boolean;
-  noSound?: boolean;
-  dice?: string;
 }
