@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
 export interface D20RollConstructorOptions extends RollTerm.EvaluationOptions {
   /**
    * The number on the d20 that is considered a critical success.
