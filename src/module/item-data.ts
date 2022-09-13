@@ -218,6 +218,7 @@ export interface ItemChangeData {
   modifier: BonusModifier;
   priority: number;
   value: number;
+  flavor?: string;
 }
 export type ItemChangeCreateData = Omit<ItemChangeData, "_id" | "operator" | "priority" | "value"> &
   Partial<Pick<ItemChangeData, "operator" | "priority" | "value">>;

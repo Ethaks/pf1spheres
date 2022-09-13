@@ -217,21 +217,20 @@ const getBatteredChangeData = (battered: boolean): DefaultChangeData | undefined
             formula: "-2",
             subTarget: "cmd",
             modifier: "untyped",
+            flavor: localize("Battered"),
           },
         ],
-        nSourceInfo: [["system.attributes.cmd.total", { value: -2, name: localize("Battered") }]],
       }
     : undefined;
 
 const getMsbToConcentrationChange = (): DefaultChangeData => ({
   changes: [
-    { formula: `@spheres.msb.total`, subTarget: "sphereConcentration", modifier: "untyped" },
-  ],
-  pSourceInfo: [
-    [
-      "system.spheres.concentration.total",
-      { name: localize("MagicSkillBonus"), formula: "@spheres.msb.total" },
-    ],
+    {
+      formula: `@spheres.msb.total`,
+      subTarget: "sphereConcentration",
+      modifier: "untyped",
+      flavor: localize("MagicSkillBonus"),
+    },
   ],
 });
 
@@ -245,21 +244,14 @@ const getCastingAbilityChange = (
             formula: `@abilities.${ability}.mod`,
             subTarget: "sphereConcentration",
             modifier: "untyped",
+            flavor: `${localize("CastingAbility")} (${CONFIG.PF1.abilities[ability]})`,
           },
           {
             formula: `@abilities.${ability}.mod`,
             subTarget: "~castingAbility",
             modifier: "untyped",
+            flavor: `${localize("CastingAbility")} (${CONFIG.PF1.abilities[ability]})`,
           },
-        ],
-        pSourceInfo: [
-          [
-            "system.spheres.concentration.total",
-            {
-              formula: `@abilities.${ability}.mod`,
-              name: `${localize("CastingAbility")} (${CONFIG.PF1.abilities[ability]})`,
-            },
-          ],
         ],
       }
     : undefined;

@@ -8,7 +8,6 @@ import type { ActorPF } from "../src/module/actor-data";
 import { onAddDefaultChanges } from "../src/module/changes";
 import { PF1S } from "../src/module/config";
 import type { ItemChange } from "../src/module/item-data";
-import { localize } from "../src/module/util";
 import { getFakeActor } from "./fakes/fake-actor";
 
 let actor: ActorPF;
@@ -25,12 +24,7 @@ describe("Test default changes handling", () => {
     expect(actor.system.attributes.conditions.battered).toBe(true);
     // Change
     expect(changes).toContainEqual({
-      data: { formula: "-2", subTarget: "cmd", modifier: "untyped" },
-    });
-    // Source info
-    expect(actor.sourceInfo["system.attributes.cmd.total"]?.negative).toContainEqual({
-      name: localize("Battered"),
-      value: -2,
+      data: { formula: "-2", subTarget: "cmd", modifier: "untyped", flavor: "Battered" },
     });
   });
 
@@ -43,11 +37,6 @@ describe("Test default changes handling", () => {
       newChanges.find(
         (c) =>
           c.data.formula === "-2" && c.data.subTarget === "cmd" && c.data.modifier === "untyped"
-      )
-    ).toBeUndefined();
-    expect(
-      newActor.sourceInfo["system.attributes.cmd.total"]?.negative?.find(
-        (c) => c.name === localize("Battered")
       )
     ).toBeUndefined();
   });
@@ -113,11 +102,8 @@ describe("Test default changes handling", () => {
         formula: "@spheres.msb.total",
         subTarget: "sphereConcentration",
         modifier: "untyped",
+        flavor: "Magic Skill Bonus",
       },
-    });
-    expect(actor.sourceInfo["system.spheres.concentration.total"]?.positive).toContainEqual({
-      name: "Magic Skill Bonus",
-      formula: "@spheres.msb.total",
     });
   });
 
@@ -128,6 +114,7 @@ describe("Test default changes handling", () => {
         formula: "@abilities.int.mod",
         subTarget: "sphereConcentration",
         modifier: "untyped",
+        flavor: "Casting Ability (Intelligence)",
       },
     });
     expect(changes).toContainEqual({
@@ -135,12 +122,8 @@ describe("Test default changes handling", () => {
         formula: "@abilities.int.mod",
         subTarget: "~castingAbility",
         modifier: "untyped",
+        flavor: "Casting Ability (Intelligence)",
       },
-    });
-
-    expect(actor.sourceInfo["system.spheres.concentration.total"]?.positive).toContainEqual({
-      name: `Casting Ability (Intelligence)`,
-      formula: "@abilities.int.mod",
     });
   });
 
