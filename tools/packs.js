@@ -63,7 +63,7 @@ function sluggify(string) {
  */
 function sanitizePack(entry) {
   // Reset permissions to default
-  entry.permission = { default: 0 };
+  entry.ownership = { default: 0 };
   // Remove non-system/non-core flags
   for (const key of Object.keys(entry.flags)) {
     if (!["pf1", "pf1spheres"].includes(key)) delete entry.flags[key];
