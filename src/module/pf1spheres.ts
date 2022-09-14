@@ -37,10 +37,22 @@ declare global {
        * Modules wishing to add spheres should do so here, as the modules registers its Changes with the
        * system afterwards.
        *
+       * @group Initialization
        * @param config - The {@link PF1S|config} object also available globally via `CONFIG.PF1SPHERES`
+       * @deprecated
        * @remarks This is called by {@link Hooks.callAll}
        */
       "pf1spheres.preSetup": (config: typeof PF1S) => void;
+      /**
+       * A hook event that fires at the beginning of `pf1spheres`'s {@link Hooks.StaticCallbacks.setup} hook.
+       * Modules wishing to add spheres should do so here, as the modules registers its Changes with the
+       * system afterwards.
+       *
+       * @group Initialization
+       * @param config - The {@link PF1S|config} object also available globally via `CONFIG.PF1SPHERES`
+       * @remarks This is called by {@link Hooks.callAll}
+       */
+      pf1spheresPreSetup: (config: typeof PF1S) => void;
     }
   }
 }
@@ -122,7 +134,19 @@ Hooks.once("i18nInit", () => {
 
 Hooks.once("setup", () => {
   // Call hook to allow modules to add spheres
-  Hooks.callAll("pf1spheres.preSetup", PF1S);
+  // @ts-expect-error v9 types do not include v10 Hooks property
+  if (Hooks.events["pf1spheres.preSetup"]?.length) {
+    // @ts-expect-error v9 types do not include v10 function
+    foundry.utils.logCompatibilityWarning(
+      "The 'pf1spheres.preSetup' hook has been deprecated. Please use 'pf1spheresPreSetup' instead.",
+      {
+        from: "PF1Spheres 0.5",
+        until: "PF1Spheres 0.7",
+      }
+    );
+    Hooks.callAll("pf1spheres.preSetup", PF1S);
+  }
+  Hooks.callAll("pf1spheresPreSetup", PF1S);
 
   // Register changes
   registerChanges();
