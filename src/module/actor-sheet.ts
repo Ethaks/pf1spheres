@@ -243,12 +243,14 @@ interface TalentTemplateData {
 
 const _onMsbRoll = (actor: ActorPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
   ev.preventDefault();
-  return actor.spheres.rollMsb({ skipDialog: pf1.skipConfirmPrompt });
+  return actor.spheres.rollMsb({ skipDialog: pf1.documents.settings.getSkipActionPrompt() });
 };
 
 const _onConcentrationRoll = (actor: ActorPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
   ev.preventDefault();
-  return actor.spheres.rollConcentration({ skipDialog: pf1.skipConfirmPrompt });
+  return actor.spheres.rollConcentration({
+    skipDialog: pf1.documents.settings.getSkipActionPrompt(),
+  });
 };
 
 /**

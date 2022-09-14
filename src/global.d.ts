@@ -34,6 +34,9 @@ declare global {
           ): { positive: SourceEntry[]; negative: SourceEntry[] };
         };
       };
+      settings: {
+        getSkipActionPrompt: () => boolean;
+      };
     };
     applications: {
       actor: {
@@ -48,7 +51,6 @@ declare global {
         options: D20ActorRollOptions
       ) => Promise<ChatMessage | ChatMessage["data"]["_source"] | void>;
     };
-    skipConfirmPrompt: boolean;
   };
 
   namespace ClientSettings {
