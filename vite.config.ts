@@ -9,6 +9,7 @@ import path from "path";
 import { copy } from "@guanghechen/rollup-plugin-copy";
 import handlebarsReload from "./tools/handlebars-reload.js";
 import langReload from "./tools/lang-reload";
+import { FOUNDRY_CONFIG } from "./tools/foundry-config";
 
 function resolve(relativePath: string) {
   return path.resolve(__dirname, relativePath);
@@ -22,7 +23,7 @@ const config = defineConfig({
   publicDir: resolve("public"),
   server: {
     port: 30001,
-    open: true,
+    open: FOUNDRY_CONFIG.openBrowser ?? false,
     proxy: {
       "^(?!/modules/pf1spheres)": "http://localhost:30000/",
       "/socket.io": {
