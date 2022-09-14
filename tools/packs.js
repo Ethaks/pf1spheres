@@ -16,8 +16,10 @@ const __dirname = new URL(".", import.meta.url).pathname;
 
 /** Helper function that resolves a path from the pack source directory */
 const resolveSource = (...file) => path.resolve(__dirname, PACK_SRC, ...file);
-/** Helper function that resolves a path from the pack destination directory */
+/** Helper function that resolves a path from the pack cache directory */
 const resolveCache = (...file) => path.resolve(__dirname, PACK_CACHE, ...file);
+/** Helper function that resolves a path from the pack destination directory */
+const resolveDist = (...file) => path.resolve(__dirname, "../dist/packs", ...file);
 
 yargs(process.argv.slice(2))
   .demandCommand(1, 1)
@@ -63,7 +65,12 @@ function sluggify(string) {
  */
 function sanitizePack(entry) {
   // Reset permissions to default
+  delete entry.permission;
   entry.ownership = { default: 0 };
+
+  if (entry._stats) {
+    entry._stats.lastModifiedBy = "pf1spheres-db";
+  }
   // Remove non-system/non-core flags
   for (const key of Object.keys(entry.flags)) {
     if (!["pf1", "pf1spheres"].includes(key)) delete entry.flags[key];
@@ -87,7 +94,7 @@ function sanitizePack(entry) {
 async function extractPack(filename, options) {
   // This db files directory in PACK_SRC
   const directory = resolveSource(path.basename(filename, ".db"));
-  const db = new Datastore({ filename: resolveCache(filename), autoload: true });
+  const db = new Datastore({ filename: resolveDist(filename), autoload: true });
 
   console.log(`Extracting pack ${filename}`);
 
@@ -139,7 +146,7 @@ async function extractPack(filename, options) {
  * @param {PackOptions} options - Additional options modifying the extraction process
  */
 async function extractAllPacks(options) {
-  const packs = await fs.readdir(resolveCache(), { withFileTypes: true });
+  const packs = await fs.readdir(resolveDist(), { withFileTypes: true });
   return Promise.all(
     packs
       .filter((p) => p.isFile() && path.extname(p.name) === ".db")
