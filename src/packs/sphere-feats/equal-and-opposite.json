@@ -3,7 +3,11 @@
   "name": "Equal and Opposite",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere, character level 5th.</p>\n<p><strong>Benefit:</strong> When an enemy performs a combat maneuver against you, you may spend an immediate action to roll your own bull rush check opposing your opponent&#8217;s, using your caster level as your base attack bonus and adding your casting ability modifier instead of your Strength modifier but adding any other modifiers excluding size modifiers to bull rush checks you may have. This does not provoke an attack of opportunity. If your result is greater than the attacking creature&#8217;s result, the creature&#8217;s combat maneuver fails. If you beat it by at least 5, they instead are forced 5 feet directly away from you for every 5 by which your roll exceeds theirs. This movement counts as your bull rush for the purpose of determining whether the enemy provokes attacks of opportunity, but not for any other purposes.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897503,
+    "modifiedTime": 1663169295465,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

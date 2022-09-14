@@ -3,7 +3,11 @@
   "name": "Siegesmith",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The blacksmith&#8217;s skill and knowledge of engineering make him particularly good at working on siege equipment. The blacksmith becomes proficient with all siege engines, lowers the costs to craft, enchant, or repair them by 25%, and no longer needs to pay any additional cost to craft a siege engine of masterwork quality (this reduction stacks with that granted by the economic crafting insight). In addition, the blacksmith gains a +2 bonus to Disable Device checks made to disable a siege engine and decreases the amount of time necessary to disable a siege engine by one round (minimum 1); at 5th level and every five levels thereafter the bonus to Disable Device checks increases by +2 and the number of rounds necessary to disable a siege engine decreases by an additional one round.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900704,
+    "modifiedTime": 1663169296801,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

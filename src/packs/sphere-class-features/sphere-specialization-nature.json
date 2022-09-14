@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Nature)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Animal Companion (Ex):</strong> Beginning at 3rd level, the incanter gains an animal companion, as the druid class feature, treating his incanter levels as druid levels for this purpose.</p>\n<p><strong>Empower Companion (Su):</strong> At 8th level, the incanter may touch an animal to infuse it with power. The animal immediately gains the advanced creature simple template: it gains a +2 bonus on all rolls, including damage rolls and special ability DCs, a +4 bonus to AC and CMD, and +2 hit points per Hit Die. This lasts for a number of rounds equal to his casting ability modifier.</p>\n<p>During this time, the animal&#8217;s primal instincts take hold for the duration of this spell&#8212;if the animal knows tricks granted by the Handle Animal skill, it loses access to all of those tricks save for &#8220;attack.&#8221; Animals that already have the advanced creature template are unaffected by this ability. He may use this ability once per day, plus an additional time per day for every 6 levels beyond 8th.</p>\n<p><strong>Life Connection:</strong> At 20th level, the incanter may transfer up to half of any hit point damage dealt to himself to his animal companion.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900164,
+    "modifiedTime": 1663169296310,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

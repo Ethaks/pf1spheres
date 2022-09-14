@@ -3,7 +3,11 @@
   "name": "Traumatic Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> A traumatic talent causes lingering memories of pain and suffering in creatures harmed by it. When a creature fails a saving throw against a traumatic talent, the next time it sleeps it must succeed at a Will save with a DC equal to the original talent&#8217;s DC or be affected as if by nightmare (as the spell). Each time the target fails its save, it must save again the following night or be affected by another nightmare, though the save DC decreases by 2 each night after the first. This metamagic effect can be applied only to talents with the emotion or fear descriptor.</p>\n<p><strong>Cost:</strong> +2 spell points</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897863,
+    "modifiedTime": 1663169295682,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Dispelling Knuckle",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The striker can spend 3 tension whenever she makes a successful attack against a creature or object to treat the results of that attack roll as a caster level check against 1 spell as though using the targeted dispel option of dispel magic or the Counterspell feat; if this attempt fails, the striker cannot use this striker art against that creature or object for 24 hours. At 8th level and every 4 levels afterwards, she can dispel an additional spell with this ability as though using greater dispel magic or the Improved Counterspell feat.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900360,
+    "modifiedTime": 1663169296481,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

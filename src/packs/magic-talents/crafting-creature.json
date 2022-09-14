@@ -3,7 +3,15 @@
   "name": "Crafting Creature",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may treat your companion as if it had the Cooperative Crafting feat and possessed all your Craft skill ranks and item creation feats. All Craft and Profession skills are class skills for your companion. This talent does not remove the need for your companion to have appropriate anatomy in order to be capable of crafting.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892927,
+    "modifiedTime": 1663169294495,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

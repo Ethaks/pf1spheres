@@ -3,7 +3,11 @@
   "name": "Remote Hacking",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Tech sphere (Remote Control).</p>\n<p><strong>Benefit:</strong> Your remote control can be used to override signals that don&#8217;t belong to you. Locating foreign signals with the remote control requires a Craft (mechanical) check opposed by their sphere DC. Each time you spend an action to control their gadgets you musts make a craft Craft (mechanical) check opposed by their sphere DC +5.</p>\n<p>In place of an activation check or Craft (mechanical) check, each time you spend an action to control a foreign gadget, it gets to attempt a Will saving throw opposed by your Tech sphere DC.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897902,
+    "modifiedTime": 1663169295711,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

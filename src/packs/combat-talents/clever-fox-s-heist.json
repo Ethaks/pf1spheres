@@ -3,7 +3,15 @@
   "name": "Clever Fox’s Heist",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You channel the fox, weaving expert thievery with grace. You may perform the dirty trick or steal combat maneuver as an attack of opportunity. You cannot apply (trick) talents to a combat maneuver performed this way unless you expend martial focus or spend an additional attack of opportunity.</p>\n<p>Whenever you successfully perform a dirty trick or steal combat maneuver as an attack of opportunity, as an immediate action, you may move up to half your base speed. This movement does not provoke an attack of opportunity from the target of your dirty trick or steal. If you take an action to move during your next turn, subtract the amount of movement you made using this ability from your total movement.</p>\n<p><strong>Associated Feat:</strong> Fox Trickery.</p>\n<p><strong>Special:</strong> If you would be granted an attack of opportunity against a target because of a dirty trick or steal combat maneuver you performed, such as a (trick) causing the target to provoke an attack of opportunity, you may not use this talent to perform a dirty trick or steal maneuver as an attack of opportunity.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885575,
+    "modifiedTime": 1663169291570,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

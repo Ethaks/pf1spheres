@@ -3,7 +3,11 @@
   "name": "Burst",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 2nd level, the crimson dancer learns to pull forth the blood of a bleeding opponent. As a move action (or as a swift action by spending two points of vitae), she may target a creature she can see that is suffering from her bloodletting, forcing them to succeed at a Fortitude save (DC 10 + 1/2 her crimson dancer level + her Charisma modifier) or suffer 1d8 points of bludgeoning, piercing, and slashing damage + 1 damage per point of bleed damage they are suffering from (bleed damage rolled with dice is treated as its minimum result). After this damage, all bleed damage currently affecting her target ends. Starting at 5th level, if the creature is exsanguinated, the damage dealt becomes untyped damage.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900929,
+    "modifiedTime": 1663169297019,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

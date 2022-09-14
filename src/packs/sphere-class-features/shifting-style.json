@@ -3,7 +3,11 @@
   "name": "Shifting Style",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Requires:</strong> At least 1 combat talent not from the Alchemy, Equipment, Tech, or Trap sphere; Knowledge of Many Shapes class feature</p>\n<p>When the shifter applies a shapeshift to herself, she may spend an additional spell point to gain a combat talent she doesn&#8217;t currently possess (excluding the Alchemy, Equipment, Tech, or Trap sphere). She must possess the base sphere associated with the talent in order to gain it. This talent lasts for 1 minute or until she applies a new shapeshift to yourself.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900543,
+    "modifiedTime": 1663169296667,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

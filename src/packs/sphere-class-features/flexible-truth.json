@@ -3,7 +3,11 @@
   "name": "Flexible Truth",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 3rd level, the troubadour has become so adept at living multiple &#8216;truths&#8217; through his personas that he can make himself temporarily believe anything, making it possible for him to fool truth-detecting magic or magic that detects his thoughts. A creature using this sort of magic against the troubadour must succeed on a caster level check (MSB check) against a DC of 15 + 1/2 the troubadour&#8217;s class level to succeed; failure means the magic doesn&#8217;t detect the troubadour&#8217;s lies or force him to speak only the truth, and if the magic is reading his mind, this lets the troubadour choose what thoughts to display. If the troubadour possesses a similar ability (such as through skill unlocks), only use the higher DC; do not roll the check twice.</p>\n<p>This ability does not protect against mental attacks or mind-reading that delves deeper than surface thoughts.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900020,
+    "modifiedTime": 1663169296151,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

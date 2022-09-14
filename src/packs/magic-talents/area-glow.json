@@ -3,7 +3,15 @@
   "name": "Area Glow",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to create an eruption of light, causing all creatures and objects within a 10 feet + 5 feet per 5 caster levels radius centered within range to glow. You do not need to make a ranged touch attack against any creature within this area. You may only make a single target glow brightly as part of applying an area glow chosen after the targets are affected.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892696,
+    "modifiedTime": 1663169294271,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

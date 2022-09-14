@@ -3,7 +3,11 @@
   "name": "Telekinetic Colossus",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 16th level, the symbiat may use telekinesis to grant a target unparalleled strength and speed. The symbiat may affect one creature within 60 feet, plus an additional creature for every 2 levels beyond 16th. The targets gain a +6 enhancement bonus to Strength and Dexterity, as well as a +30 feet enhancement bonus to their movement speed as long as this ability is in effect. When making an attack action or full attack action, the creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature&#8217;s full base attack bonus, plus any modifiers appropriate to the situation. This extra attack is not cumulative with similar effects, such as that provided by a speed weapon or the Improved Haste Time talent.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900771,
+    "modifiedTime": 1663169296862,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

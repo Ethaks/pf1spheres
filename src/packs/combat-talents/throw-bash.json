@@ -3,7 +3,15 @@
   "name": "Throw Bash",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You gain proficiency with throwing shields. Ranged attacks made with a throwing shield incorporate shield spikes into their damage calculation as normal. Additionally, if you have the Cover Ally talent, you may treat any ally within your shield&#8217;s first range increment as being within your shield&#8217;s reach by throwing it as part of the active defense action. You may apply a (deflect) talent to this active defense as normal, performing any additional actions by ricocheting the shield off of the attack. If your shield has the returning property, or you have the Throwing Mastery talent, it returns after using Cover Ally as if you made an attack with it.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885402,
+    "modifiedTime": 1663169291452,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

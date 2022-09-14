@@ -3,7 +3,15 @@
   "name": "Firearm Proficiency",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You gain proficiency with all firearms (except siege weapons) and the Gunsmithing feat.</p>\n<p><sup><strong>Wiki Note:</strong> It is reasonable for any Martial Tradition that grants this proficiency to also grant a battered firearm. (<a href=\"http://www.giantitp.com/forums/showthread.php?561876-Drop-Dead-Studios-Ask-Me-Anything-3/page4&amp;p=23200219#post23200219\">Source</a>)</sup></p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885442,
+    "modifiedTime": 1663169291490,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

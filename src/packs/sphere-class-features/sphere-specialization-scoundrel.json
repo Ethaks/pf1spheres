@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Scoundrel)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Easy Mark (Ex):</strong> At 3rd level, a conscript deals damage equal to 1/2 his level + his practitioner modifier whenever he successfully resolves a dirty trick or steal combat maneuver.</p>\n<p><strong>Brutal Trickster (Ex):</strong> At 8th level, whenever the conscript successfully uses a dirty trick or steal combat maneuver, the creature affected by it must make a successful Fortitude saving throw or be staggered for 1 round. At 16th level, the creature also loses their martial focus if they possess it.</p>\n<p><strong>Master Thief (Ex):</strong> At 20th level, whenever the conscript makes a successful steal or dirty trick attempt against a creature, the next time the conscript forces that creature to make a saving throw within 1 minute, they must roll twice and take the worse result.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900165,
+    "modifiedTime": 1663169296310,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

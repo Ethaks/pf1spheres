@@ -3,7 +3,15 @@
   "name": "Greater Trip",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You gain a +1 competence bonus to your trip combat maneuver checks, as well as to your CMD vs. that maneuver. This bonus increases by +1 for 4 points of base attack bonus you possess. This bonus does not stack with the bonus to this maneuver provided by the Improved or Greater Trip feats. <strong>Associated Feat:</strong> Improved Trip.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887421,
+    "modifiedTime": 1663169292038,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

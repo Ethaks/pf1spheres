@@ -3,7 +3,15 @@
   "name": "Towering Bulwark",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/shield.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "shield"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Shield sphere (Flexible Cover), base attack bonus +7.</p>\n<p>Whenever you use flexible cover, your shield provides total cover regardless of what type of shield it is and provides total cover against targeted spells.</p>\n<p>If you possess the Cover Ally talent, when you use cover ally to grant your active defense to an ally, you may expend martial focus as an immediate action to grant that ally total cover against a single attack. Using cover ally this way cannot be used in conjunction with the Extensive Defense talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "shield"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887415,
+    "modifiedTime": 1663169292032,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

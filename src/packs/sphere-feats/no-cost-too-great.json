@@ -3,7 +3,11 @@
   "name": "No Cost Too Great",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Success sometimes necessitates losing more than you bargained for.</p>\n<p><strong>Prerequisite:</strong> Draining Casting (drawback) or Unsettling Casting (drawback).</p>\n<p><strong>Benefit:</strong> When you use Draining Casting or Unsettling Casting, you may double the amount of damage or sanity damage that you take. If you do, you gain a +1 competence bonus to your caster level on the effect. You must take damage or sanity damage from Draining Casting or Unsettling casting with the sphere effect to use this feat.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897557,
+    "modifiedTime": 1663169295488,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

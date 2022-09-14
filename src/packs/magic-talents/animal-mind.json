@@ -3,7 +3,15 @@
   "name": "Animal Mind",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may apply the following trait to your forms:</p>\n<p><strong>Bestial Mind:</strong> The target must succeed at a Will save or have their mind become bestial. Their Intelligence is reduced to 2, and they are treated as an animal for skills such as Handle Animal and Diplomacy. While the target has an Intelligence score of 2 or less they cannot use any spells, skills based on mental ability scores, or magic sphere abilities, although they retain other aspects of their class levels such as base attack bonus and any other abilities.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891692,
+    "modifiedTime": 1663169293865,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

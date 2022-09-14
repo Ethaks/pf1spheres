@@ -3,7 +3,15 @@
   "name": "Base Of Operations",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Choose up to two settlements with which you are familiar when you gain this talent; you have a group of followers permanently based in that settlement that cannot be dispersed unless the settlement is destroyed, in which case they regroup in a nearby settlement of your choice, regaining 10% of their strength per week. This group is in addition to your normal group of followers; you do not gain any additional benefit from having multiple groups of followers in the same location. This permanent group cannot form a caravan, so remains in the chosen settlement.</p>\n<p>Moving them to a new settlement requires 1d4 months of selling, buying, traveling, and forming new contacts. Severing ties with existing followers and recruiting new followers in a different settlement requires the same amount of time. You do not benefit from these followers during this time. At 5 ranks in Diplomacy and every 5 ranks thereafter, you may have your followers settled in an additional settlement simultaneously.</p>\n<p>Contacts from the (cohort) package will often choose to settle in a settlement where you maintain a presence via this talent. When you release a cohort and maintain them as a contact, unless they are particularly prone to wander or tied to a specific location, they will live in or near one of these locations of your choice.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "leadership"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888223,
+    "modifiedTime": 1663169292809,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

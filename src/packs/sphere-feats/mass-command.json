@@ -3,7 +3,11 @@
   "name": "Mass Command",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> War sphere, Squadron Commander; or Warleader sphere, Troop Commander, casting class feature.</p>\n<p><strong>Benefit:</strong> When using a sphere ability on a single creature in your squadron other than yourself, you may spend an additional spell point to target any number of creatures in your squadron. All squadron members must be within the range of the sphere ability. You must have line of sight and line of effect to affect them, and you may include yourself as a target. This cannot be used with sphere effects that do not have the option of being augmented by a (mass) talent. If the sphere ability has a duration greater than 1 hour, it is reduced to 1 hour.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897986,
+    "modifiedTime": 1663169295779,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

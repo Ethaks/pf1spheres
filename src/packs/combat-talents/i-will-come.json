@@ -3,7 +3,15 @@
   "name": "I Will Come",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/guardian.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "guardian"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Guardian sphere, I Will Hear, Defend Other, base attack bonus +10.</p>\n<p>When a creature calls you with the I Will Hear talent, you may spend a full-round action to teleport to their location. You can bring along objects as long as their weight doesn&#8217;t exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three points of base attack bonus you possess. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be teleported must be in contact with one another, and at least one of those creatures must be in contact with you. You arrive in the safe space nearest to the calling creature that is large enough for you and any creatures you bring along to occupy. You are exhausted for 10 minutes after using this ability, and fatigued for 1 hour thereafter. You may expend focus as a free action to delay these conditions for a number of rounds equal to your base attack bonus. You incur the penalties of these conditions even if you are immune to the exhausted and fatigued conditions. You may attempt to use this ability while exhausted or fatigued, but doing so incurs a 50% chance that the ability fails to work; regardless of whether you succeed at this attempt, you suffer 1d6 points of Constitution damage and the duration of the exhausted and fatigued conditions caused by using this ability are doubled. You may only travel to a particular creature using this ability once per day. This is a supernatural teleportation effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "guardian"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886676,
+    "modifiedTime": 1663169291845,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

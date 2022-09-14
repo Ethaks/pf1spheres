@@ -3,7 +3,11 @@
   "name": "Muscular Reflexes",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You rely on muscle memory and strength to enhance your reflexes.</p>\n<p><strong>Benefit:</strong> You may make a number of additional attacks of opportunity per round equal to your Strength bonus. With this feat, you may also make attacks of opportunity while flat-footed.</p>\n<p><strong>Normal:</strong> A character without this feat can make only one attack of opportunity per round and can&#8217;t make attacks of opportunity while flat-footed.</p>\n<p><strong>Special:</strong> The Muscular Reflexes feat does not allow a rogue to use her opportunist ability more than once per round. The attacks of opportunity from this feat do not stack with those granted by Combat Reflexes or similar feats, but Muscular Reflexes counts as Combat Reflexes when meeting the prerequisites for feats.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898114,
+    "modifiedTime": 1663169295877,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

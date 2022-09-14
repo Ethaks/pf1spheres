@@ -3,7 +3,11 @@
   "name": "Paths",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The hedgewitch draws power from her paths, blending magic and hidden knowledge to powerful effect. A hedgewitch chooses two paths at 1st level, gaining their class skills, path benefits, path powers, and their path masteries at 20th level. In addition, each path grants access to a number of secrets the hedgewitch may choose whenever she gains a secret.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900681,
+    "modifiedTime": 1663169296784,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

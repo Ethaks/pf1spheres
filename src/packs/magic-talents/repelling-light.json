@@ -3,7 +3,15 @@
   "name": "Repelling Light",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to create light that repels unwanted creatures. Choose one creature type. In the case of humanoids and outsiders, you must instead choose one subtype.</p>\n<p>Any creature of this type or subtype within the area of bright light must succeed at a Fortitude save or be unable to move closer to the source of the light. Affected creatures may move sideways or backwards, but cannot move closer, although the source of the light may move closer to them. Creatures who succeed at their saving throw but remain within the area of bright light must attempt a new saving throw every round to avoid being affected.</p>\n<p>If a creature enters this area of bright light (or if the source of bright light moves close to them), they must immediately save or be affected.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890562,
+    "modifiedTime": 1663169293389,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

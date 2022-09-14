@@ -3,7 +3,11 @@
   "name": "Animal Trainer",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The shifter gains a bonus equal to 1/2 her shifter level to all Handle Animal checks. The shifter may reduce the time needed to teach an animal a new trick or train an animal for a general purpose to 1 day per 1 week required by increasing the DC by +5. She can also train more than one animal at once, although each animal after the first adds +2 to the DC.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900066,
+    "modifiedTime": 1663169296202,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Striker Art",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 2nd level and every three levels thereafter, a striker gains a striker art from the following list (striker arts with the [Tension] tag add new tension techniques):</p>\n<hr>See also:<br><ul><li>@Compendium[pf1spheres.class-features.AoEKMP3myQgDQJTm]{Adrenaline Surge}</li><li>@Compendium[pf1spheres.class-features.7C9xhxyonsvUVFnd]{Armored Striker}</li><li>@Compendium[pf1spheres.class-features.YXgBh0N6YWuIVwg6]{Blindside Offense}</li><li>@Compendium[pf1spheres.class-features.Yn0wihVsvmtSeSAA]{Blink Step}</li><li>@Compendium[pf1spheres.class-features.JL6rBhWJfE5s2bmk]{Critical Tension}</li><li>@Compendium[pf1spheres.class-features.FddqqTqgPw1p4z0G]{Dispelling Knuckle}</li><li>@Compendium[pf1spheres.class-features.QbpN0Lq5hHLm0FmK]{Enduring Critical}</li><li>@Compendium[pf1spheres.class-features.cgVou4lzjTKPhAxH]{Exploited Opening}</li><li>@Compendium[pf1spheres.class-features.MyssZs2bmXM23Fhz]{Extra Boost}</li><li>@Compendium[pf1spheres.class-features.EJiz7RyLvnoWWZx7]{Favored Weapon}</li><li>@Compendium[pf1spheres.class-features.J04AiK6x1fpgtGNJ]{High Tension}</li><li>@Compendium[pf1spheres.class-features.GkndDL7gJQ0KE9VR]{Lightning Dodge}</li><li>@Compendium[pf1spheres.class-features.duzNjtNYKzoAfPOH]{Lucky Chance}</li><li>@Compendium[pf1spheres.class-features.qaRKVrVEzfNy38P4]{Improved Determination}</li><li>@Compendium[pf1spheres.class-features.NA22UmEKuiNd8KcO]{Invigorated Spirit}</li><li>@Compendium[pf1spheres.class-features.jMbug93tyCrop7pN]{Iron Body}</li><li>@Compendium[pf1spheres.class-features.ETyGSBljVWXxzB8J]{Iron Soul}</li><li>@Compendium[pf1spheres.class-features.G64t0T6ppigSjvpt]{Lasting Flame}</li><li>@Compendium[pf1spheres.class-features.zjKRm5UXjpvEGVxq]{Mobile Step}</li><li>@Compendium[pf1spheres.class-features.FVD9BBMXXNfAaA05]{Mounted Striker}</li><li>@Compendium[pf1spheres.class-features.crn1VCvJqoh31yHr]{Piercing Fist}</li><li>@Compendium[pf1spheres.class-features.ntcNwY1xZMb2MmYj]{Speed Pummeling}</li><li>@Compendium[pf1spheres.class-features.xPZoLmH4S1pmuAAs]{Steel Heart}</li><li>@Compendium[pf1spheres.class-features.N1XMKMaQsngi4R8H]{True Desperation}</li><li>@Compendium[pf1spheres.class-features.UmrZR21P4Pqnabfi]{Vital Tension}</li><li>@Compendium[pf1spheres.class-features.7JTOPDoEwHA6tCZL]{Unarmored Striker}</li><li>@Compendium[pf1spheres.class-features.FTEs78uaXEasE2dS]{Wild Charge}</li></ul>",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900076,
+    "modifiedTime": 1663169296216,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

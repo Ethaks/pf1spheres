@@ -3,7 +3,15 @@
   "name": "Confusion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may unravel a creature&#8217;s mind and make them behave erratically.</p>\n<p><strong>Lesser Charm:</strong> The target becomes confused for 1 round (Will negates).</p>\n<p><strong>Greater Charm:</strong> The target becomes confused for 1 minute per caster level (Will negates).</p>\n<p><strong>Powerful Charm:</strong> This is the same as the Confusion greater charm, except in addition to being confused, the target also suffers a -2 penalty to their caster level and a -4 penalty to all their mental ability scores.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mind"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894286,
+    "modifiedTime": 1663169294823,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Quick Reactions",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to make a telekinetic Catch as an immediate action. If you possess the Telekinetic Push talent, you may spend a spell point to perform pushes as an immediate action.</p>\n<p>If you possess Kinetic Field, you may spend a spell point as a standard action to fold kinetic energy around yourself to create a catch field. This catch field moves with you and lasts 1 round per 3 caster levels (minimum 1). Once per round this stops a projectile aimed at you as if you were using Catch. You cannot have more than one use of this ability active at any one time.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893131,
+    "modifiedTime": 1663169294554,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Shadow Coterie",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You have learned to manipulate a target&#8217;s shadow more efficiently, allowing you to apply one additional (shadow) talent to a target for every 5 caster levels, up to 5 at 20th caster level.</p>\n<p>You may not apply the same (shadow) talent to a single target more than once, save for the Shadow Lurk talent. Using the Shadow Lurk talent or Shadow Double advanced talent no longer removes the target&#8217;s shadow or renders its Shadow Stash inaccessible unless you wish it to.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893575,
+    "modifiedTime": 1663169294585,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

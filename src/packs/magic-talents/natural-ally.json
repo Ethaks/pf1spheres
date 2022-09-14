@@ -3,7 +3,15 @@
   "name": "Natural Ally",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Nature sphere (Friend To Wildlife (spirit)), caster level 1st.</p>\n<p>As an instantaneous effect, you may, as a standard action, spend 3 spell points to call a specific fey, magical beast, plant or vermin of a type you designate (provided the creature&#8217;s CR is equal to or less than 1/2 your caster level) which then appears in a place within range at the start of your next turn, and remains for up to 1 hour per caster level. Unlike Friend To Wildlife, this advanced talent does not require that there are creatures of those types in the area. The creature will aid the caster to the best of its ability, but unless the caster speaks the creature&#8217;s language, only basic communication is possible (attacking an enemy, defending the caster, etc.) The creature must also be treated fairly and will not give aid that is obviously suicidal. If treated poorly, they may turn on and attack the caster. A caster may not use Natural Ally more than once per day.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894656,
+    "modifiedTime": 1663169294973,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

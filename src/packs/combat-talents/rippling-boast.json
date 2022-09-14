@@ -3,7 +3,15 @@
   "name": "Rippling Boast",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/gladiator.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "gladiator"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Gladiator sphere.</p>\n<p>Whenever you perform a boast, you may target a creature within boast range with your voice as part of the boast, dealing sonic damage to the target equal to your ranks in Intimidate unless they succeed at a Fortitude save.</p>\n<p>Additionally, you may raise the volume of your voice at any time to that of a creature one size larger than you are.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "gladiator"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887871,
+    "modifiedTime": 1663169292286,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Habit Forming",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> Creatures affected by your sphere effects can develop an addiction to receiving your magic. Whenever a creature fails a saving throw (or accepts an effect willingly) against a sphere effect that is also affected by this feat, it must make a Fortitude saving throw (DC is identical to the saving throw for the sphere effect itself), or develop dependance to your magic, as if they possessed the Addictive Casting drawback, except instead of having to make Fortitude saves against addiction whenever they spend a spell point (or do not spend a spell point), they instead must make Fortitude saves whenever they are affected by one of your sphere effects that spends one or more spell points. This dependance may be cured as dependance is cured, the addiction DC resets itself to 10 once more if they are subjected to this feat again.</p>\n<p><strong>Cost:</strong> +1 spell point. If you possess this feat as a drawback feat, the cost is reduced to 0 as long as it is used with a sphere ability that requires spending 1 or more spell points.</p>\n<p><strong>Special:</strong> You may only take this feat as a drawback feat if you possess the Addictive Casting drawback.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898172,
+    "modifiedTime": 1663169295902,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

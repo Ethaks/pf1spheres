@@ -3,7 +3,15 @@
   "name": "Soul Weaver",
   "type": "class",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": "high"
+    }
+  },
+  "system": {
     "description": {
       "value": "Soul weavers focus on controlling the powers of life and death. While they tend to make townsfolk a bit nervous - especially if the shambling horde of undead follows them into town - those who face great danger tend to appreciate having such a powerful ally at their side.\n<p><strong>Role:</strong> Soul Weavers are usually either masters of healing or masters of many small minions, though sometimes they can be masters of both at once.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d6</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The soul weaver&#8217;s class skills are Craft (Int), Diplomacy (Cha), Fly (Dex), Heal (Wis), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (history) (Int), Knowledge (planes) (Int), Knowledge (religion) (Int), Linguistics (Int), Perform (Cha), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n",
       "chat": "",
@@ -26,8 +34,7 @@
           "name": "Weapon and Armor Proficiency (Soul Weaver)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0,
-          "hiddenLinks": {}
+          "_index": 0
         },
         {
           "id": "pf1spheres.class-features.koX5jJk7rlGVVs8u",
@@ -35,8 +42,7 @@
           "name": "Casting (Soul Weaver)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1,
-          "hiddenLinks": {}
+          "_index": 1
         },
         {
           "id": "pf1spheres.class-features.jCHMsQkbB9scZrM1",
@@ -44,8 +50,7 @@
           "name": "Spell Pool (Soul Weaver)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2,
-          "hiddenLinks": {}
+          "_index": 2
         },
         {
           "id": "pf1spheres.class-features.goeaG2i6ohzRxxLt",
@@ -53,8 +58,7 @@
           "name": "Magic Talents (Soul Weaver)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 3,
-          "hiddenLinks": {}
+          "_index": 3
         },
         {
           "id": "pf1spheres.class-features.tyPmigohMnQa7l17",
@@ -62,8 +66,7 @@
           "name": "Channel Energy (Soul Weaver)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 4,
-          "hiddenLinks": {}
+          "_index": 4
         },
         {
           "id": "pf1spheres.class-features.pkl8kfXnOQSSIjuc",
@@ -71,8 +74,7 @@
           "name": "Master of Life and Death",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 5,
-          "hiddenLinks": {}
+          "_index": 5
         },
         {
           "id": "pf1spheres.class-features.5oPDuSCHx9SkPFoO",
@@ -80,8 +82,7 @@
           "name": "Bound Nexus",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 6,
-          "hiddenLinks": {}
+          "_index": 6
         },
         {
           "id": "pf1spheres.class-features.Kau1TycjWVeEEws2",
@@ -89,8 +90,7 @@
           "name": "Blessing/Blight",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 7,
-          "hiddenLinks": {}
+          "_index": 7
         },
         {
           "id": "pf1spheres.class-features.NU3Fwgc19RALWBHw",
@@ -98,12 +98,11 @@
           "name": "Gravewalker",
           "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 8,
-          "hiddenLinks": {}
+          "_index": 8
         }
       ]
     },
-    "tag": "",
+    "tag": "soulWeaver",
     "useCustomTag": false,
     "armorProf": {
       "value": [],
@@ -194,17 +193,18 @@
     "identifiedName": "Soul Weaver",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "casterProgression": "high"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168899453,
+    "modifiedTime": 1663169295982,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

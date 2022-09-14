@@ -3,7 +3,15 @@
   "name": "Bestow Focus",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/illusion.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "illusion"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When creating a glamer on a target you may have the target use their action to maintain concentration of the glamer instead of yourself. In all other ways the glamer still behaves as if cast by you. You may only have one creature concentrating in your place at any time. The number of creatures that can simultaneously concentrate in your place improves by an additional 1 per 10 caster levels.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "illusion"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894357,
+    "modifiedTime": 1663169294842,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Environment Charge",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You maintain the power of a location even as you depart it.</p>\n<p><strong>Prerequisite:</strong> Charged Spells drawback.</p>\n<p><strong>Benefit:</strong> For the purpose of drawbacks or boons which alter your casting based on the location in which they are cast (such as the Area Bound or Terrain Casting drawbacks or the Atmoturgy or Draw Magic boons), you may determine all variables of any effect you create as if you were in the location in which you charged the effect rather than in the location in which you are casting the spell. This feat allows characters with the Terrain Casting drawback to cast spells in a blighted space so long as they prepared the spell charge in a non-blighted space.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897837,
+    "modifiedTime": 1663169295668,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

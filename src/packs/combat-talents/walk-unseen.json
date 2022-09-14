@@ -3,7 +3,15 @@
   "name": "Walk Unseen",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scout.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scout"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Scout sphere, Lurker, Stealth 7 ranks.</p>\n<p>So long as you have martial focus, ending your turn without cover or concealment does not automatically cause you to lose the benefits of Stealth. This only applies for a single round in a row; if you end your next turn without cover or concealment, this benefit does not apply.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scout"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888229,
+    "modifiedTime": 1663169292814,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

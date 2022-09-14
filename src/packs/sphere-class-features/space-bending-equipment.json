@@ -3,7 +3,11 @@
   "name": "Space-Bending Equipment",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The armorist&#8217;s summoned and bound armors gain the collapsible special ability. The armorist adds intercepting (+1) to the list of special abilities she can add to summoned and bound shields, and adds phasic (+2) to the list of special abilities she can add to summoned and bound weapons.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900049,
+    "modifiedTime": 1663169296191,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

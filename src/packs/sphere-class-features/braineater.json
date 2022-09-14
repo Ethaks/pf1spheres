@@ -3,7 +3,11 @@
   "name": "Braineater",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You gain Brain Consumption as a bonus feat. If you already possess Brain Consumption, you may immediately retrain Brain Consumption at no additional cost in money or time, selecting a new, valid feat (such as retraining a feat gained with level advancement to another valid feat). You may benefit from having two brains consumed at once, in which case you gain a bonus to one skill that one creature had ranks in and another skill that the other had ranks in.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901005,
+    "modifiedTime": 1663169297212,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

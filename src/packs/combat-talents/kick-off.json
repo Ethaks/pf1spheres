@@ -3,7 +3,15 @@
   "name": "Kick-Off",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you make a successful attack with an unarmed strike using an attack action, you may spend a swift action to move 10 ft. away from the target of your attack. This movement does not provoke an attack of opportunity from the target of your attack. For every 5 points of base attack bonus you possess, you may move an additional 5 ft. with this talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887938,
+    "modifiedTime": 1663169292342,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

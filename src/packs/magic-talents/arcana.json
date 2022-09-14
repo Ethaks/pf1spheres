@@ -3,7 +3,15 @@
   "name": "Arcana",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Where most normal motifs grant a brief glimpse of the target&#8217;s fate, and ends with a short lived burst of power, some Fate casters learn to weave additional prophecy into their motifs.</p>\n<p>(Arcana) talents are unique (motif) talents which can either be cast normally as a motif or attached to another motif as part of casting it. When casting any motif, the caster may attach one (arcana) to that motif, which is hereafter referred to as the &#8220;attached motif&#8221;. Attaching an (arcana) to a motif does not cost the caster any additional spell points or increase the casting time of the attached motif.</p>\n<p>While attached to another motif, an (arcana) talent functions in the following ways:</p>\n<ul>\n<li>An (arcana) shares its duration with the attached motif, and ends when the attached motif ends.</li>\n<li>An (arcana) does not grant bonuses while attached to another motif, and only adds its discharge effect to the attached motif&#8217;s discharge (e.g. the pentacle&#8217;s bonus to one saving throw would not apply while being attached and only grants the discharge benefit for rerolls on saving throws).</li>\n<li>An (arcana) cannot be discharged for its additional effect independently, and only grants its discharge effect when the attached motif is discharged.</li>\n<li>A caster may only attach one (arcana) to another (motif) talent, though feats, items, and other features may affect this. An (arcana) talent can not be attached to the same (arcana) when cast as a motif. For example, you cannot attach Swords to Swords as a motif, but can attach Swords to Cups as a motif.</li>\n</ul>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890556,
+    "modifiedTime": 1663169293384,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

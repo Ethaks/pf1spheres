@@ -3,7 +3,15 @@
   "name": "Heavy Swing",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "berserker"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Creature damaged by your brutal strike must succeed on a Fortitude save or be staggered for 1 round plus 1 round per 4 base attack bonus. If the target is battered, it is instead staggered for 1 round on a successful save, or dazed for 1 round then staggered as normal on a failed save. If the target failed the Fortitude save, for the duration of the staggered condition, it also counts the damage from the attack as ongoing damage for the purpose of concentration checks. Creatures immune to the dazed condition are instead staggered for the round they would have been dazed.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "berserker"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888012,
+    "modifiedTime": 1663169292614,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

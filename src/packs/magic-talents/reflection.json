@@ -3,7 +3,15 @@
   "name": "Reflection",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When a creature with an aegis you created becomes the target of a spell or sphere ability that affects only them, you may spend a spell point and sacrifice an aegis they are bearing as an immediate action to attempt to counterspell the ability and redirect the effect. You attempt a magical skill check against the magical skill defense of the caster, and if successful, the sphere effect affects the caster as if they had been the original target. Any bonuses you or the other sphere caster have to counterspelling apply to this roll. The decision to do this must be made before any attack roll or saving throw is made.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892590,
+    "modifiedTime": 1663169294173,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

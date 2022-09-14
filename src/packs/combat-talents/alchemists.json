@@ -3,7 +3,15 @@
   "name": "Alchemists",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When any allied creature is with your followers, the allied creature counts as having access to an alchemy lab. The followers can craft alchemical items with a DC of not greater than 15 + your ranks in Diplomacy, requiring that you pay the normal crafting cost. The followers makes 10 gp of progress per rank in Diplomacy per day and can craft masterwork items.</p>\n<p>Additionally, if a PC is crafting formulae from the Alchemy sphere, the followers can assist them, allowing them to craft one additional item per rank in Diplomacy in the 15 minute crafting time. This additional productivity may be divided among present PCs who are crafting at the same time.</p>\n<p>Alchemists can identify alchemical items and potions with a Craft (alchemy) check of 15 + your ranks in Diplomacy.</p>\n<p>Any Craft (alchemy) checks made while with the followers automatically gain a +2 circumstance bonus from the alchemists&#8217; aid. This bonus increases by +1 for every 8 ranks in Diplomacy that you possess.</p>\n<p>If you possess the Merchants talent, alchemical items purchased from the followers have their cost reduced by half.</p>\n<p>If using the Downtime rules from Ultimate Campaign, your followers may generate Magic capital in place of earning gold, with 50 gp equaling 1 Magic. Use your Diplomacy modifier for making the earnings checks. This stacks with capital gains from other talents.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "leadership"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887017,
+    "modifiedTime": 1663169291998,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

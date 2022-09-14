@@ -3,7 +3,11 @@
   "name": "Soul Stitching (Sage)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The sage transforms his ki into a tangible needle and thread he can use to stitch wounds. As a standard action, the sage can spend 1 ki point to heal himself or an adjacent target of an amount of hit point damage equal to 3 x his class level. If the sage is at least 5th level, the target is also healed of 1 point of ability damage, plus 1 additional point of ability damage for every 3 class levels he possesses. This ability can be used to reattach severed limbs, as long as the original limb is available, removing any effects or penalties attributed with the limbs&#8217; loss.</p>\n<h3 id=\"toc56\"><span><span style=\"color: #00c000\">Ki Blaster Esoteries</span></span></h3>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901022,
+    "modifiedTime": 1663169297227,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

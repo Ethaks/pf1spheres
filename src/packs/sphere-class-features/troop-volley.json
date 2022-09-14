@@ -3,7 +3,11 @@
   "name": "Troop Volley",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever the commander uses an attack action to make a ranged attack, he may immediately spend a move action to allow each ally currently benefiting from one of his shouts or tactics to make a single ranged attack against the same creature as an immediate action.</p>\n<h2 id=\"toc19\"><span><span style=\"color: #993300\">Battlefield Specialist (Ex)</span></span></h2>\n<p>At 3rd level and every 6 levels thereafter, the commander may select a specific terrain he excels at coordinating battles in. The commander chooses one terrain and its associated benefits each time he gains this ability.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900953,
+    "modifiedTime": 1663169297160,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

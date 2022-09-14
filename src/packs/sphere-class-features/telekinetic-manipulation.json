@@ -3,7 +3,11 @@
   "name": "Telekinetic Manipulation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The symbiat may use their telekinesis to manipulate the battlefield. So long as this effect is active, the symbiat may, as an immediate action, add either a bonus or a penalty equal to 1/2 his symbiat level (minimum 1) to one attack roll made within 60 feet of him. The symbiat must announce he will use this ability before the attack roll is made.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900535,
+    "modifiedTime": 1663169296660,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

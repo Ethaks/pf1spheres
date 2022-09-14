@@ -3,7 +3,11 @@
   "name": "Severing Ki Disc",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The sage may form his ki blasts into deadly discs of razor sharp energy capable of severing an opponent&#8217;s head from their body. Whenever the sage makes a ki blast attack, he may spend a ki point to declare it to be a ki disc attack, causing it to deal slashing damage instead of the normal bludgeoning and piercing damage and making the attack&#8217;s critical threat range 18-20 with a x3 critical multiplier (instead of the normal 20 x2). Whenever the sage rolls a natural 20 on an attack while using this ability (followed by a successful roll to confirm the critical hit), the ki disc severs the opponent&#8217;s head (if it has one) from its body. Some creatures, such as many aberrations and all oozes, have no heads. Others, such as golems and undead creatures other than vampires, are not affected by the loss of their heads. Most other creatures, however, die when their heads are cut off.</p>\n<p>The sage must be at least 12th level to select this esotery.</p>\n<h3 id=\"toc67\"><span><span style=\"color: #00c000\">Manipulator Esoteries</span></span></h3>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900415,
+    "modifiedTime": 1663169296554,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Sand Swimmer",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When a creature bearing your mantle is in an area of Aridity of severity level 2 or higher, they can swim through sand as if it were water at a speed of 30 feet and gain tremorsense 30 feet (even if they stand on ground other than sand). They may breathe sand as if it were air. The speed and tremorsense range both increase by 5 feet per category above severity level 2.</p>\n<p>Unlike the effects of other (mantle) talents, if a creature bearing your mantle leaves an area of Aridity of severity level 2 or higher they retain the ability to swim through sand for a number of rounds equal to the last Aridity severity level they were in, but not the other effects of this talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "weather"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893117,
+    "modifiedTime": 1663169294542,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

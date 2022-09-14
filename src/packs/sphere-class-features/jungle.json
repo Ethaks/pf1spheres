@@ -3,7 +3,11 @@
   "name": "Jungle",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The commander has learned to take the natural hazards of jungle fighting and turn them into tactical advantages. When fighting or traveling in jungle terrain, the commander and any ally affected by one of his tactics or shouts gain a bonus to saving throws against poisons and diseases equal to the greater of the commander&#8217;s Charisma or Intelligence modifiers (minimum +1), increase their base Climb speed by 10 ft. (or gain a Climb speed of 10 ft. if they do not already have one), and gain a bonus on Acrobatics checks equal to 1/2 the commander&#8217;s class level.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900424,
+    "modifiedTime": 1663169296567,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

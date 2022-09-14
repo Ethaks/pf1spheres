@@ -3,7 +3,15 @@
   "name": "Numb",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may cut off flow to parts of a creature&#8217;s body, making fine manipulation difficult. The target takes a -2 penalty on Strength and Dexterity checks (including initiative) and Strength and Dexterity-based skill checks and gains an equal bonus on saves against pain effects for the duration of the blood control. This penalty increases by +1 at 5th caster level and again every 5 caster levels thereafter. This effect may change a creature&#8217;s place in the initiative count after combat has begun.</p>\n<p>You may spend a spell point to slow blood flow, staggering the target for the duration of the blood control.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "blood"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890417,
+    "modifiedTime": 1663169293261,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "High-Low Combination",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dual_wielding.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dualWielding"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you use dual attack and successfully strike a creature with your main-hand weapon, you may forgo your off-hand weapon attack to make a trip attempt against the target of your main-hand attack without provoking an attack of opportunity (if you use a ranged weapon to make this trip attempt, the creature must be within 30 ft.).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dualWielding"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887988,
+    "modifiedTime": 1663169292382,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

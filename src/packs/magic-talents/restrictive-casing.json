@@ -3,7 +3,15 @@
   "name": "Restrictive Casing",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When attempting to create a cage that occupies the same space as a creature, you may spend an additional spell point to create a full-body confinement cage. Treat a 1-inch thick cage created in this fashion as an object the same size as the creature. The target may still breathe and may still attempt Strength checks to escape, but are otherwise unable to attack the cage or take any action which requires physical movement. If spikes or harmful materials are applied to the inside of such a full-body confinement cage, the target suffers damage each round they remain inside the cage.</p>\n<p>Additionally, you may create non-harmful objects directly on a creature. An unwilling target is always entitled a Reflex save to avoid having an object created directly on them, causing the object to fall harmlessly to the ground. (For example, you may create manacles on a target&#8217;s wrists, but if they succeed at a Reflex save the manacles miss and fall to the ground.) When using this talent, create becomes subject to spell resistance.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891191,
+    "modifiedTime": 1663169293674,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

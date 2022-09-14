@@ -3,7 +3,15 @@
   "name": "Repositioning Strike",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fencing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fencing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You cause the target to stumble, letting you slip past them. You may immediately move up to half your movement speed as a free action, so long as you end your movement in a space adjacent to the target, and may even move through the target&#8217;s occupied space when doing so. This movement does not provoke attacks of opportunity from the target.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fencing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887679,
+    "modifiedTime": 1663169292111,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

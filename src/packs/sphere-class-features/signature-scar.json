@@ -3,7 +3,11 @@
   "name": "Signature Scar",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When the mageknight damages an enemy with a melee weapon or natural weapon, she may spend a spell point as a free action to give them a scar. The target may attempt a Fortitude save against a DC equal to 10 + 1/2 her mageknight level plus her casting ability modifier to avoid the scar. Any hit points regained by a scarred enemy are instead diverted to the mageknight unless she is already at her full hit point total. The scar fades away after 1 minute.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900548,
+    "modifiedTime": 1663169296669,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Harmonic Resilience",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Miracles of any shape fail to penetrate your defenses.</p>\n<p><strong>Benefit:</strong> Any spell or power resistance or immunity that you possess applies against magic from any source, including those from casters with the Alien Source boon. If using any ruleset in which psionics and magic are not transparent, any spell resistance or immunity that you possess also applies against psionic powers that allow power resistance, and vice versa.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898232,
+    "modifiedTime": 1663169295939,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

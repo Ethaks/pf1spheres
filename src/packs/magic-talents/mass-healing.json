@@ -3,7 +3,15 @@
   "name": "Mass Healing",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "life"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When using a cure, invigorate, or restore, you may spend an additional spell point to affect an additional 1 creature per 2 caster levels (minimum 1) at the same time. Each target must be within range and must be affected by the same cure, invigorate, or restore.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "life"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890767,
+    "modifiedTime": 1663169293552,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

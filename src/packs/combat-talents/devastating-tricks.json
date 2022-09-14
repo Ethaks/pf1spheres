@@ -3,7 +3,15 @@
   "name": "Devastating Tricks",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Sleight of Hand 10 ranks, Scoundrel sphere (Savage Tricks (trick))</p>\n<p>Whenever you use the Savage Tricks talent to inflict a greater condition upon a creature, you may choose to inflict an even more intense condition when expending your martial focus.</p>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Original Condition</th>\n<th>New Condition</th>\n</tr>\n<tr>\n<td>Battered</td>\n<td>Stunned</td>\n</tr>\n<tr>\n<td>Dazzled</td>\n<td>Dazed</td>\n</tr>\n<tr>\n<td>Entangled</td>\n<td>Pinned</td>\n</tr>\n<tr>\n<td>Fatigued</td>\n<td>Exhausted</td>\n</tr>\n<tr>\n<td>Shaken</td>\n<td>Panicked</td>\n</tr>\n<tr>\n<td>Sickened</td>\n<td>Nauseated</td>\n</tr>\n</table>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885494,
+    "modifiedTime": 1663169291523,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

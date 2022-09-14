@@ -3,7 +3,15 @@
   "name": "Flash Step",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Athletics sphere, 5 ranks in either Acrobatics, Climb, or Fly.</p>\n<p>When using a movement mode associated with a package you possess, you may expend martial focus as a swift action to complete your movement without passing through any intervening squares. This does not allow you to reach any space you would not normally be able to reach with associate movement modes you posses. You may use this ability to charge through difficult or obstructed terrain as long as you are aware of the position of your target. This is a supernatural teleportation effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885394,
+    "modifiedTime": 1663169291442,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

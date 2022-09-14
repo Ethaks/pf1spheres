@@ -3,7 +3,11 @@
   "name": "Uncanny Dodge (Symbiat)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Starting at 4th level, a symbiat&#8217;s mental senses let him react to danger before his physical senses would normally allow him to do so. He cannot be caught flat-footed, nor does he lose his Dexterity bonus to AC if the attacker is invisible. He still loses his Dexterity bonus to AC if immobilized. A symbiat with this ability can still lose his Dexterity bonus to AC if an opponent successfully uses the feint action against him.</p>\n<p>If a symbiat already has uncanny dodge from a different class, he automatically gains improved uncanny dodge (see below) instead.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900025,
+    "modifiedTime": 1663169296159,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

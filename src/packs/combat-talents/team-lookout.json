@@ -3,7 +3,15 @@
   "name": "Team Lookout",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When within close range (25 feet + 5 feet per 2 ranks in Diplomacy) of any cohort, when making a Perception check, you and the cohorts may share the result of the check of the creature with the highest result.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "leadership"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886409,
+    "modifiedTime": 1663169291798,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

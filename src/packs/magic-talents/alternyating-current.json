@@ -3,7 +3,15 @@
   "name": "Alternyating Current",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your destructive blast is a shocking current of latent static electricity built up by cats. An alternyating current blast deals electricity damage. Any creature struck by the attack or that failed their Reflex saving throw if one was required must take a 5-foot step. Affected creatures may take this 5-foot step in any direction they choose. If a creature was forced to take a 5-foot step by this effect, they may not take a 5-foot step during their next turn (but may otherwise move normally). If an affected creature would be forced to take a 5-foot step by this effect and could not, they do not move and cannot take a 5-foot step during their next turn (such as being surrounded by difficult terrain).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "destruction"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891975,
+    "modifiedTime": 1663169293946,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

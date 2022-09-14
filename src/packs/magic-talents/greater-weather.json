@@ -3,7 +3,15 @@
   "name": "Greater Weather",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you use control weather, you may spend an extra spell point to affect 2 weather categories instead of 1, or two extra spell points to affect 3 weather categories instead of 2. You do not need to change these categories in the same way, or make them the same severity level (i.e., you may make one category more severe, while making another less severe).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "weather"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893097,
+    "modifiedTime": 1663169294525,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

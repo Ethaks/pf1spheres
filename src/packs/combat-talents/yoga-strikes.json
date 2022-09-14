@@ -3,7 +3,15 @@
   "name": "Yoga Strikes",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Open Hand sphere, base attack bonus +5.</p>\n<p>On your turn, whenever you use the attack action to attack with an unarmed strike or perform a combat maneuver, you may spend a move action to treat your reach as being 5 ft. larger than it actually is for every 5 points of base attack bonus you possess.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888219,
+    "modifiedTime": 1663169292805,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

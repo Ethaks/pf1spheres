@@ -3,7 +3,11 @@
   "name": "Sequence",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>A prodigy may string together actions in combat, building momentum, setting her position, and unbalancing enemies to be able to execute powerful offensive and defensive techniques. Sequences have three parts: openers, link components, and finishers. The maximum length of a sequence is 4 links plus 1 link per 3 class levels. Attempts to add additional links have no effect and anything that would cause the sequence to lose a link acts normally. A prodigy may only have one sequence active at a time; any actions affect the currently active sequence. Any time a prodigy begins her turn without having added a link to her sequence since the beginning of her last turn, her active sequence loses one link. Should this reduce the sequence to 0 links, the sequence ends and must be started again. If the prodigy becomes dazed, dead, helpless, paralyzed, stunned, or unconscious, the sequence immediately ends.</p>\n<p>A sequence requires the rush induced by real danger. As such, a sequence cannot be started prior to rolling initiative and ends automatically 1 round after there is no longer any apparent immediate threat (such as a hostile creature capable of making an attack or casting a spell or sphere effect).</p>\n<hr>See also:<br><ul><li>@Compendium[pf1spheres.class-features.aDAgMm4HjLzMKaJ6]{Openers}</li><li>@Compendium[pf1spheres.class-features.4BpYiiS0BJDnCZHd]{Link Components}</li><li>@Compendium[pf1spheres.class-features.C8mSREvvjaBUbiOm]{Finishers}</li></ul>",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900783,
+    "modifiedTime": 1663169296878,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

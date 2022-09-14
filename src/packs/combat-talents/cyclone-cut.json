@@ -3,7 +3,15 @@
   "name": "Cyclone Cut",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dual_wielding.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dualWielding"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Dual Wielding sphere, base attack bonus +5.</p>\n<p>While wielding two weapons, as a standard action you expend your martial focus to twirl the two weapons with enough force to create a damaging cyclone of air. Each creature within 10 ft. of you takes damage equal to your weapon damage for both your primary and one of your off-hand attacks. A successful Reflex save reduces this damage by half. For every 5 additional base attack bonus you possess, you may increase the radius by an additional 5 ft.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dualWielding"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886413,
+    "modifiedTime": 1663169291804,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

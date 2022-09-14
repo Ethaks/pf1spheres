@@ -3,7 +3,15 @@
   "name": "Alchemical Creation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create items that require processing, such as alchemical items and poisons. You may spend 1 spell point to create an alchemical item or poison worth up to 25 gp per caster level. This functions exactly as the normal alchemical item or poison, except that any DC is 10 + your casting ability modifier + 1/2 your caster level and any hit point damage it deals is increased by your casting ability modifier. These alchemical items or poisons remain for the normal duration of a created object, at which point they disappear as usual (but any effects inflicted on creatures or objects remain). You may also alter mundane alchemical items or poisons up to a maximum value of 25 gp per caster level, enhancing their potency in the same way for the normal duration, at which point the items return to their normal damage and saving throw DC. This does not stack with other effects that increase the item&#8217;s DC.</p>\n<p>At 5th caster level and every 5 caster levels thereafter, the total value you may alter or create increases by an additional 25 gp per caster level, according to Table: Alchemical Creation.</p>\n<p>If you possess Divided Creation, you may create any number of alchemical items or poisons whose total value is no more than half the maximum value you may create and whose total size is less than or equal to your maximum size (with each alchemical item or poison counting as a Small object), but only one object created this way increases its saving throw DC and damage. All others retain their base, non-magical statistics.</p>\n<p>If you possess Plasma Production, then any time you create an alchemical weapon that includes a fuse as the method of activating it (such as with a fuse grenade and its variants, or fireworks), you may create it with the fuse pre-lit. This allows you to treat the weapon as if you had used it as provided in its description. (For example, creating a fuse grenade with this option causes the grenade to explode in 1d4 rounds.) You cannot create or alter poisons or formulae from the Alchemy sphere (see Spheres of Might), as those mixtures are simply too unstable.</p>\n<strong>Table: Alchemical Creation</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Caster Level</th>\n<th>Max GP</th>\n<th>Caster Level</th>\n<th>Max GP</th>\n<th>Caster Level</th>\n<th>Max GP</th>\n<th>Caster Level</th>\n<th>Max GP</th>\n<th>Caster Level</th>\n<th>Max GP</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>25</td>\n<td>5th</td>\n<td>250</td>\n<td>9th</td>\n<td>450</td>\n<td>13th</td>\n<td>975</td>\n<td>17th</td>\n<td>1,700</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>50</td>\n<td>6th</td>\n<td>300</td>\n<td>10th</td>\n<td>750</td>\n<td>14th</td>\n<td>1,150</td>\n<td>18th</td>\n<td>1,800</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>75</td>\n<td>7th</td>\n<td>350</td>\n<td>11th</td>\n<td>825</td>\n<td>15th</td>\n<td>1,500</td>\n<td>19th</td>\n<td>1,900</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>100</td>\n<td>8th</td>\n<td>400</td>\n<td>12th</td>\n<td>900</td>\n<td>16th</td>\n<td>1,600</td>\n<td>20th</td>\n<td>2,500</td>\n</tr>\n</table>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891669,
+    "modifiedTime": 1663169293847,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

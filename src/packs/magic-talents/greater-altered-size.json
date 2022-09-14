@@ -3,7 +3,15 @@
   "name": "Greater Altered Size",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Conjuration sphere (Altered Size (form)), caster level 15th.</p>\n<p>You may increase the size of a Huge companion to Gargantuan or a Gargantuan companion to Colossal. You may decrease the size of a Diminutive companion to Fine. This talent may be taken more than once for the same companion to enlarge the companion from Gargantuan to Colossal.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894359,
+    "modifiedTime": 1663169294845,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

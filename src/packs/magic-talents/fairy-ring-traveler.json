@@ -3,7 +3,15 @@
   "name": "Fairy Ring Traveler",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallenFey"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> 5th caster or higher.</p>\n<p>You know the secrets of traveling via the fey realms. You may spend a 1-round action to determine the direction to the nearest fairy ring. You may open a fairy ring with a 10 minute ritual or by spending a spell point as a standard action. Once opened, creatures may pass through the fairy ring into the realm of Faerie. The ring remains open for 3d6 rounds. While in Faerie, you may spend a 1-round action to determine the direction to the fairy ring connected to the spot nearest your desired destination.</p>\n<p>When rolling on Table: Time Difference, you may spend two spell points to shift the result by one step in the direction of your choice. These points must be spent before the result of the roll is known. (See Traveling Through Faerie, below, for more information.)</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fallenFey"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892699,
+    "modifiedTime": 1663169294275,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

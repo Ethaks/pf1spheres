@@ -3,7 +3,11 @@
   "name": "Restorative Blast",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The sage learns to convert the energy of his ki blasts into healing positive energy. The sage may spend 1 ki point when making a ki blast attack to cause the attack to heal an amount of damage equal to the damage it would normally deal; undead creatures are instead damaged by this effect. The sage rolls an attack roll as normal, and the healing is multiplied on a critical hit just as the damage dealt would normally be.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900137,
+    "modifiedTime": 1663169296286,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

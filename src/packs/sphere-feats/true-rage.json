@@ -3,7 +3,11 @@
   "name": "True Rage",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your mastery over adrenaline walks hand in hand with anger.</p>\n<p><strong>Prerequisites:</strong> Berserker sphere (any (adrenaline) talent), base attack bonus +6.</p>\n<p><strong>Benefit:</strong> When berserking, when you choose to benefit from an (adrenaline) talent, you do not lose the temporary hit points granted by the base berserking ability. This does not allow you to benefit from two (adrenaline) talents at the same time.</p>\n<p><strong>Normal:</strong> When berserking, a creature who chooses to benefit from an (adrenaline) talent does not gain the temporary hit points from the base berserking ability.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897748,
+    "modifiedTime": 1663169295592,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

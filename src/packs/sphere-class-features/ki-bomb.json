@@ -3,7 +3,11 @@
   "name": "Ki Bomb",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The sage may spend a ki point when making an attack with his ki blast to cause it to detonate in a 10 ft. radius burst if it strikes his target. The sage rolls damage for the attack once and deals it to all creatures within the radius of the effect; creatures other than the primary target of the attack may make a Reflex save for half damage. For every 5 class levels the sage possesses, the radius of the burst increases by 10 ft.; the sage may always choose to have the effect detonate in a smaller burst than its maximum, but can only decrease the radius in units of 10 feet.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900377,
+    "modifiedTime": 1663169296514,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

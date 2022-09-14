@@ -3,7 +3,15 @@
   "name": "Teleport Trap",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may lay a teleport effect onto an adjacent, unoccupied 5-foot square. If you possess the Ranged Warp talent, you may place this effect anywhere within that range. This is a latent teleport effect, except it only activates when a creature steps onto the target square, and must target the triggering creature.</p>\n<p>You must possess the Unwilling Teleport talent and spend a spell point as usual if you want your teleport trap to affect unwilling targets. You must possess the Teleport Object talent to affect unattended objects, and may decide when making the teleport trap whether unattended objects will trigger the effect or not. If you possess the Mass Teleport talent, you may spend a spell point to allow the teleport trap to remain after its initial use, affecting additional creatures who enter its square until the duration expires or it has attempted to teleport 1 creature + 1 per 2 caster levels (minimum 2 total). You must designate the destination where triggering creatures will be teleported when creating a teleport trap.</p>\n<p>When a creature steps into the triggering square, the teleport effect activates, transporting the triggering creature to the designated destination. Unwilling targets are allowed a saving throw as normal.</p>\n<p>A teleport trap lasts for 10 minutes per caster level before becoming inert. This is a magical trap with a Perception DC and Disable Device DC equal to the teleport&#8217;s save DC. You may only have one teleport trap active at a time. You may select this talent multiple times. Each time this talent is gained beyond the 1st, increase the total number of teleport traps you may have active at one time by 1.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891660,
+    "modifiedTime": 1663169293841,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

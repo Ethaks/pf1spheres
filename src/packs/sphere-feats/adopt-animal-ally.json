@@ -3,7 +3,11 @@
   "name": "Adopt Animal Ally",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Beastmastery sphere (handle animal) package, an animal or vermin companion.</p>\n<p><strong>Benefit:</strong> If your animal or vermin companion dies, you may make one of your tame creatures your new companion without the normal mourning period. The creature assumes all abilities and statistics of an animal companion appropriate to your abilities. The creature must correspond to an available animal companion type. This takes 1 hour.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898005,
+    "modifiedTime": 1663169295792,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

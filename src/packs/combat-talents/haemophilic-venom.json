@@ -3,7 +3,15 @@
   "name": "Haemophilic Venom",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Instead of causing fatigue, your poison thins the target&#8217;s blood greatly. Creatures under the effects of this poison suffer 1 additional point of bleed damage whenever they would take bleed damage. For every 4 ranks in Craft (alchemy) you possess, creatures suffer 1 additional point of bleed damage. Additionally, whenever the creature would suffer a critical hit, the creature suffers an additional 1d4 points of bleed damage.</p>\n<p>A creature under the effects of this poison is also considered to be taking bleed damage for the purposes of the blood control sphere ability of the Blood sphere.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alchemy"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888041,
+    "modifiedTime": 1663169292623,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Resounding Rally",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/war.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "war"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you rally an ally other than yourself, you may also rally yourself at the same time with the same rally without expending any additional spell points. If the rally is triggered by an event, that event must affect you for the rally to affect you as well.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "war"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892761,
+    "modifiedTime": 1663169294338,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

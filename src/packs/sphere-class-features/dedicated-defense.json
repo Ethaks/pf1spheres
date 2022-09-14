@@ -3,7 +3,11 @@
   "name": "Dedicated Defense",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 2nd level, a sentinel&#8217;s devotion begins to manifest in a more powerful fashion, granting her DR 1/- (this damage reduction stacks with similar damage reduction, such as that granted by wearing adamantine armor or the barbarian class feature). At 6th level and every four levels afterwards, this damage reduction is increased by 1.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900034,
+    "modifiedTime": 1663169296171,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

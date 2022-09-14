@@ -3,7 +3,11 @@
   "name": "Shield Drone",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Tech sphere, Drone.</p>\n<p><strong>Benefit:</strong> Drones you create are proficient with all shields (including tower shields). In addition, drones you create gain the Guardian sphere or Shield sphere as a bonus talent. If the drone already possess the sphere, they instead gain a bonus talent from either sphere.</p>\n<p><strong>Special:</strong> This feat may be taken multiple times, each time granting an additional talent from the Guardian or Shield sphere.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897872,
+    "modifiedTime": 1663169295690,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

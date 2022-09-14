@@ -3,7 +3,11 @@
   "name": "Polish",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The blacksmith polishes his allies metal armor, weapons, and shields, giving them a clean polish that can even deflect magical attacks. Once per day, when an affected ally would normally be hit by a ray attack, they may deflect it as a free action that can be taken even when it is not their turn so that they take no damage and are unaffected by it. The ally must be aware of the attack and not flat-footed. The blacksmith and his affected allies may reflect one additional ray per day at 5th level and every 5 levels thereafter.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900488,
+    "modifiedTime": 1663169296621,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

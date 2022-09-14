@@ -3,7 +3,15 @@
   "name": "Aggressive Vitality",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "life"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your Life magic gives the target a fevered strength. This grants the target a +2 circumstance bonus on attack and damage rolls with weapon attacks.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "life"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892681,
+    "modifiedTime": 1663169294259,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

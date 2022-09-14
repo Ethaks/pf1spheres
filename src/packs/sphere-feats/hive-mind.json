@@ -3,7 +3,11 @@
   "name": "Hive Mind",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> War sphere, Squadron Commander; or Warleader sphere, Troop Commander; caster level 5th or 5 ranks in Diplomacy.</p>\n<p><strong>Benefit:</strong> You gain the ability to communicate telepathically with all members of your squadron regardless of range, allowing you to send messages and for them to send their own. In addition, you do not need to touch members of your squadron in order to renew your bond with them; they need only be in telepathic contact with you when you take a minute to renew your bond. So long as at least one member of your squadron is aware of a threat, all members are aware of the threat and cannot be flanked by threats that others are aware of. Such awareness can spread along a &#8220;chain&#8221; of creatures under appropriate circumstances, potentially alerting distant creatures.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898118,
+    "modifiedTime": 1663169295880,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

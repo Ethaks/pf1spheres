@@ -3,7 +3,15 @@
   "name": "Hurricane Kick",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a full-round action, you may move up to 10 ft. in any direction (this movement does not provoke attacks of opportunity); each time you move 5 ft. while using this talent, if a creature is within your reach, you may make an unarmed attack against them with a -2 penalty; you may only make a single attack against a creature with this talent. For every 5 points of base attack bonus you possess, you may move an additional 5 feet.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885421,
+    "modifiedTime": 1663169291468,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

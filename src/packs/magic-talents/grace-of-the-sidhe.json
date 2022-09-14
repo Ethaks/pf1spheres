@@ -3,7 +3,15 @@
   "name": "Grace Of The Sidhe",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallenFey"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may activate the following abilities as fey-blessings:</p>\n<p><strong>Evasion:</strong> You gain the evasion ability. When you succeed at a Reflex saving throw against an attack that normally deals half damage on a successful save, it instead takes no damage. This ability does not function when wearing medium or heavier armor.</p>\n<p><strong>Supernatural Speed:</strong> Whenever you move at least 20 feet, you gain 20% miss chance against ranged attacks until the start of your next turn. If you spend an additional spell point, you instead gain this benefit against all attacks.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fallenFey"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892697,
+    "modifiedTime": 1663169294272,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

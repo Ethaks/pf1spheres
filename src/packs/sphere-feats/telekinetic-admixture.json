@@ -3,7 +3,11 @@
   "name": "Telekinetic Admixture",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Destruction sphere (Admixture), Telekinesis sphere.</p>\n<p><strong>Benefit:</strong> When using Admixture, you may spend an additional spell point to lift a creature that takes damage as per Hostile Lift. If you possess the Divided Mind talent, you may lift any number of creatures damaged by the destructive blast that do not exceed your lift limit. Maintaining the Hostile Lift requires concentration or spending one spell point as normal.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898206,
+    "modifiedTime": 1663169295924,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

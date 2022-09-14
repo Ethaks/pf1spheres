@@ -3,7 +3,11 @@
   "name": "True Disguise",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When the troubadour creates a persona of a different race, age, or gender, he is considered to have those qualities while in that persona not only for feats and class features, but also for the purpose of magic. This means that spells and magic items that grant different benefits depending on the creature&#8217;s race or subtype, age, or gender will react as if the troubadour possesses the mimicked qualities.</p>\n<p>The troubadour does not suffer any penalty to his Disguise skill when attempting to change his gender, race, or age.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900030,
+    "modifiedTime": 1663169296166,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

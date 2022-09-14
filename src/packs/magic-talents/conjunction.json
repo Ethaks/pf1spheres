@@ -3,7 +3,15 @@
   "name": "Conjunction",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When an ally within range fails a saving throw, you may spend a spell point as an immediate action to allow them to reroll it using your modifier. Alternatively, when you fail a saving throw, you may spend a spell point as an immediate action to reroll it using the modifier of an ally within range. If they or you still fail, whatever effect required your ally to attempt that saving throw affects your ally and you as if both of you had been the target, had been in its area of effect, or were subject to its ongoing effect. If the saving throw was to end an ongoing effect and a failure has no penalty other than the effect remaining, you (if your ally rerolled the saving throw) or your ally (if you rerolled the saving throw) are affected by it until the end of your next turn.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894705,
+    "modifiedTime": 1663169295008,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

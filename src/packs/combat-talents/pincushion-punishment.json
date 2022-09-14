@@ -3,7 +3,15 @@
   "name": "Pincushion Punishment",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/lancer.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "lancer"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can make a impale attempt against a creature who is currently impaled; if you do so, they take a -1 penalty to attack rolls and armor class for each weapon currently impaling them. As long as no other creatures are holding any weapons currently impaling the creature, you may choose to remove all weapons currently impaling it as an attack action by making a single combat maneuver check against the creature&#8217;s CMD, dealing damage equal to the weapon&#8217;s base damage die for each weapon removed with this talent. If you do not have enough hands to carry all of these weapons you may choose which ones to hold, with any remaining weapons falling to your feet.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "lancer"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886822,
+    "modifiedTime": 1663169291973,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Heat Lord",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Weather sphere, caster level 1st.</p>\n<p>When using control weather to create heat, increase the highest severity level you may create or alter by 1. In addition, you may create an area of up to 80 feet in diameter in the center of the affected area where the change in temperature is not felt.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "weather"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894718,
+    "modifiedTime": 1663169295020,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

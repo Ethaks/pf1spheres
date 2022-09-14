@@ -3,7 +3,15 @@
   "name": "Sanguine Minion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Blood sphere (Extract Blood Construct, Lengthened Control), caster level 5th.</p>\n<p>When you create a blood construct, you may spend 2 spell points to make the creation an instantaneous effect. The creature exists independent of your concentration, has no duration, and cannot be dispelled. These constructs still count against the total number of blood constructs you may have created at any one time. If you create more than your total, you may select which constructs are destroyed.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "blood"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892934,
+    "modifiedTime": 1663169294502,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Pathological Host",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Blood sphere and 5th caster level; or Death sphere and 5th caster level; or Duelist sphere and base attack bonus +5; or Alchemy sphere and base attack bonus +5; Virulent Ailment, character level 7th.</p>\n<p><strong>Benefit:</strong> By plunging yourself further into your studies, you become a vessel for your disease. You can choose to become the host of a single disease you are capable of creating through your plague feats. This is a ritual that takes 10 minutes of time, at the end of which you must choose to either deal damage to yourself equal to your Hit Dice, or spend a spell point.</p>\n<p>Afterwards, you become infected with the disease, but suffer none of its negative effects and never need to attempt saving throws against the disease (meaning it never cures naturally, but can be cured through magic or other methods). This causes all of your natural attacks to gain the disease, causing any creature that takes damage from your natural attacks must succeed at a save against your hosted disease or be infected by it. You may only have one disease selected in this way, although you may use the ritual again to infect yourself with a new disease, becoming a host of the new disease and curing the old one.</p>\n<p><strong>Special:</strong> Abilities that primarily use your blood as a weapon (such as the Gory Armaments (blood art) talent), or otherwise affect a creature using your blood may additionally cause a saving throw against the hosted disease, subject to GM discretion.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897861,
+    "modifiedTime": 1663169295681,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

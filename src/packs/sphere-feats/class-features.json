@@ -3,7 +3,11 @@
   "name": "Class Features",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Class</th>\n<th>Class Feature</th>\n</tr>\n<tr>\n<td>Alchemist</td>\n<td>Discovery</td>\n</tr>\n<tr>\n<td>Armorist</td>\n<td>Arsenal trick</td>\n</tr>\n<tr>\n<td>Hedgewitch</td>\n<td>Secret</td>\n</tr>\n<tr>\n<td>Investigator</td>\n<td>Investigator talent</td>\n</tr>\n<tr>\n<td>Mageknight</td>\n<td>Mystic combat</td>\n</tr>\n<tr>\n<td>Magus</td>\n<td>Arcana</td>\n</tr>\n<tr>\n<td>Ninja</td>\n<td>Ninja trick</td>\n</tr>\n<tr>\n<td>Reaper</td>\n<td>Reaper technique</td>\n</tr>\n<tr>\n<td>Rogue</td>\n<td>Rogue talent</td>\n</tr>\n<tr>\n<td>Sage</td>\n<td>Esotery</td>\n</tr>\n<tr>\n<td>Shaman</td>\n<td>Hex</td>\n</tr>\n<tr>\n<td>Slayer</td>\n<td>Slayer talent</td>\n</tr>\n<tr>\n<td>Vigilante</td>\n<td>Vigilante talent</td>\n</tr>\n<tr>\n<td>Witch</td>\n<td>Hex</td>\n</tr>\n<tr>\n<td>Wraith</td>\n<td>Wrath haunt</td>\n</tr>\n</table>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897851,
+    "modifiedTime": 1663169295678,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

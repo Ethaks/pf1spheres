@@ -3,7 +3,15 @@
   "name": "Expendable Summons",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Conjuration sphere (Call The Departed), caster level 5th.</p>\n<p>You do not increase the spell point cost for re-summoning companions who have disappeared, nor do such companions suffer temporary negative levels from having disappeared.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890818,
+    "modifiedTime": 1663169293594,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

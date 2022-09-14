@@ -3,7 +3,15 @@
   "name": "Extreme Range",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Destruction sphere (Extended Range [range] x2), caster level 5th.</p>\n<p>Your destructive blast has a range of 1,000 feet + 100 feet per caster level. Destructive blasts outside of your long range but inside this range can only target squares or large objects (ones the occupy more than one square), not individual creatures and take effect one round after being used.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "destruction"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890482,
+    "modifiedTime": 1663169293319,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

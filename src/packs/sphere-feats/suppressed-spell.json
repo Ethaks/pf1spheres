@@ -3,7 +3,11 @@
   "name": "Suppressed Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Illusion sphere (Suppression (glamer)).</p>\n<p><strong>Benefit:</strong> Spells affected by this feat have a reduced manifestation. Being subjected to the effect requires a Perception check (DC 15 + 1/2 your caster level) or the target does not perceive the presence and source of the effect.</p>\n<p><strong>Special:</strong> For each (sensory) talent you possess, improve the Perception check DC by an additional +2 and hide sensation associated with that (sensory) talent. This has no effect on spells or sphere abilities that rely on a suppressed sensation( s) to function, but you may always forgo the +2 bonus to the Perception DC to allow the sensation of the effect to function normally.</p>\n<p><strong>Cost:</strong> +2 spell points</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897699,
+    "modifiedTime": 1663169295571,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

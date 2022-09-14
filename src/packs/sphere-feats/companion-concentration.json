@@ -3,7 +3,11 @@
   "name": "Companion Concentration",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Conjuration sphere.</p>\n<p><strong>Benefit:</strong> When you choose to concentrate on a sphere effect, as a swift action you may pass concentration on that sphere effect to your companion within close range (based on your Conjuration caster level). You must have line of effect to the companion to do so. As long as the companion remains within close range, you may resume concentrating on the effect at any time as a swift action. A companion may not concentrate to maintain the effect that summoned it, nor on any effect to which it lacks line of effect. If the companion leaves close range, it may continue to concentrate on the effect, but you may not resume concentrating on it yourself. A mindless companion may not assume concentration of a sphere effect. Treat the companion&#8217;s Hit Dice as levels in a caster class for determining its bonus on concentration checks. If the companion does not have a casting ability modifier, use its Charisma to determine its concentration check bonus.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898134,
+    "modifiedTime": 1663169295883,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

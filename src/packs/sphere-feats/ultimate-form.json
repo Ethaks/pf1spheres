@@ -3,7 +3,11 @@
   "name": "Ultimate Form",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Alteration sphere.</p>\n<p><strong>Benefit:</strong> You gain a +1 bonus on concentration checks for Alteration sphere effects for every Aristeia feat you possess. When you enter aristeia, you gain a single Alteration sphere trait that you may select for the duration of your aristeia. If you possess 4 or more aristeia feats, you gain an additional trait when in aristeia. These traits are chosen when you enter aristeia and do not count towards the maximum number of traits you may gain from the Alteration sphere.</p>\n<p><strong>Special:</strong> This feat counts as Combat Casting for the purpose of meeting prerequisites.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897690,
+    "modifiedTime": 1663169295562,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

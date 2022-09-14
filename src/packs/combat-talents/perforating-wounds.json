@@ -3,7 +3,15 @@
   "name": "Perforating Wounds",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/duelist.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "duelist"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you deal bleed damage as part of an attack action to a creature who is already suffering bleed damage from your blooded strike, you deal an amount of bleed damage equal to 1 + 1 for every 3 points of base attack bonus you possess. This bleed damage stacks with other bleed damage granted by the Duelist sphere. You can stack this bleed damage with itself once for every 6 points of base attack bonus you possess. This bleed damage is separate from your blooded strike, and does not affect other abilities that scale off of your blooded strike&#8217;s bleed damage.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "duelist"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887862,
+    "modifiedTime": 1663169292279,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

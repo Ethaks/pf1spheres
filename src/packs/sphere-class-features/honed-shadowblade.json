@@ -3,7 +3,11 @@
   "name": "Honed Shadowblade",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Objects created with the mageknight&#8217;s Shadowstuff Armament feat act as if she had the Surreinforcement feat. Treat her mageknight level as Illusion caster level for calculating its effects for her shadowstuff armaments. This stacks normally with caster levels gained from other sources. Once per round as a free action she may cause a creature damaged by one of her weapons created or enhanced by her shadowblade mystic combat to suffer a -1 circumstance penalty to all Perception checks and Will saves against illusions for one minute. This penalty stacks with itself up to 5 times.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900500,
+    "modifiedTime": 1663169296628,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

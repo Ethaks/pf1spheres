@@ -3,7 +3,11 @@
   "name": "Technical Compatibility",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Independent Invention, Tech sphere, Drone.</p>\n<p><strong>Benefit:</strong> Your independent inventions are considered drones for purposes from benefiting from effects that affect drones, and vice versa. In addition as independent inventions you can select Drones as a base form (these independent inventions don&#8217;t count towards the maximum number of Hit Dice of drones you may maintain). Your independent inventions can be activated or deactivated as if they where drones.</p>\n<p>You may also apply improvements and technical insights to your drones (1 improvement for every 10 levels of technician you possess (minimum 0)).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897995,
+    "modifiedTime": 1663169295786,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

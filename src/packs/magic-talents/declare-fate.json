@@ -3,7 +3,15 @@
   "name": "Declare Fate",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Fate sphere, caster level 15th.</p>\n<p>You may spend two spell points to place a word on a creature to peer into its near future. Each round, at the end of the creature&#8217;s turn, the creature must succeed at a Will saving throw or be forced to declare all actions that it will take on its next turn and be unable to change them. If a declared action would become impossible to perform (such as casting a spell on a creature that is no longer within range), that action is lost. You are aware of what actions an affected creature intends to take.</p>\n<p>This effect lasts as long as you concentrate, but you may always spend a spell point to allow the effect to endure for 1 minute per caster level without concentration.</p>\n<p><strong>Author's Note:</strong> This does not affect attacks of opportunity, which are normally free actions.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890813,
+    "modifiedTime": 1663169293589,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Ritualistic Perseverance",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> 3 ranks in any 2 skills.</p>\n<p><strong>Benefit:</strong> Choose two skills that you have at least 3 ranks in. You may take 10 on a single skill check made with each of these skills as part of an incantation even if there is a backlash component to the incantation.</p>\n<p><strong>Special:</strong> You may select this feat multiple times, each time selecting two different skills.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897513,
+    "modifiedTime": 1663169295471,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

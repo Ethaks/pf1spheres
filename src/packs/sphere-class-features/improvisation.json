@@ -3,7 +3,11 @@
   "name": "Improvisation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When the troubadour creates a disguise through the Disguise skill that is not a persona, that disguise counts as a persona for the purpose of other actor trainings that improve personas such as True Disguise or True Intent. The improvised persona does not, however, gain the benefits of the method acting class feature.</p>\n<p>When discarding an old persona to create a new persona, the troubadour only needs 2 days to create a new persona rather than 5 days.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900947,
+    "modifiedTime": 1663169297152,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

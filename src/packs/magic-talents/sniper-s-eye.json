@@ -3,7 +3,15 @@
   "name": "Sniper’s Eye",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "divination"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to gain a sense that reduces the distance-based DC adjustment for Perception checks by an amount equal to your caster level. (For example, if the DC would normally increase by 10 due to being 100 feet away and you have caster level of 3, the DC increase would only be by 7.) While this sense is active, you also reduce environmental and range increment-based penalties to your ranged attack rolls by an amount equal to half your caster level. This can only ever reduce penalties, and can never grant a bonus.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "divination"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894707,
+    "modifiedTime": 1663169295011,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

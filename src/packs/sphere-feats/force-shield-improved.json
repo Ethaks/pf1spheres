@@ -3,7 +3,11 @@
   "name": "Force Shield, Improved",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere, Force Shield, character level 5th.</p>\n<p><strong>Benefit:</strong> The shield bonus to armor class provided by your force shield increases to +3, +1 per 5 caster levels, and while benefiting from it you count as wielding a light shield when beneficial for the purposes of class features and other effects. It counts as having hardness equal to half your caster level and 10 hit points. If broken, you may reform it as a swift action (as if it had been dispelled). You may also make shield bash attacks with it as if it were a light shield.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897602,
+    "modifiedTime": 1663169295513,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

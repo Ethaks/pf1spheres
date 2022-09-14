@@ -3,7 +3,15 @@
   "name": "Master’s Aura",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warleader.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warleader"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warleader sphere, Diplomacy 7 ranks.</p>\n<p>Any ally affected by this tactic can use the aid another action to assist you on a skill or ability check as an immediate action as long as they are within close range. Any creature who comes into physical contact with you while this tactic is active must succeed on a Will saving throw or have their attitude towards you instantly improved by 1 step for 1 hour. Once a given creature has attempted a saving throw against this effect, they cannot be affected by it again for 24 hours.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warleader"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887427,
+    "modifiedTime": 1663169292043,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

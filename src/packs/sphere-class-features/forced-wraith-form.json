@@ -3,7 +3,11 @@
   "name": "Forced Wraith Form",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The wraith may target an unwilling creature with Share Wraith Form via a melee touch attack. A successful Will save negates this effect. An unwilling creature cannot choose to end this effect, though the wraith may end it normally. The target creature may attempt a new Will save each round as a full-round action to end the effect early. This wraith haunt may be taken a second time to allow the wraith to use this ability with a ranged touch attack with a range of close (25 feet + 5 feet per 2 class levels).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900984,
+    "modifiedTime": 1663169297193,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

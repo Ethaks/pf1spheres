@@ -3,7 +3,15 @@
   "name": "Fairy Flight",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallenFey"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You sprout wings (which can appear as insectile, feathered, or made of leaves at the caster&#8217;s choice); you take no damage when falling and may glide, moving with a speed of 30 feet with maneuverability (poor), but falling 1 feet for every 5 feet traveled. At 5th caster level, you gain a fly speed of 30 feet with maneuverability (poor). This improves by 5 feet and one maneuverability category (to a maximum of perfect) for each 5 additional caster levels. This is a polymorph effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fallenFey"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892713,
+    "modifiedTime": 1663169294297,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

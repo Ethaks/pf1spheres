@@ -3,7 +3,11 @@
   "name": "Warden of the Many",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 20th level, the warden becomes an unstoppable protector of those under his charge, his resolve surpassing even the finality of death itself. The warden may have up to five guarded allies at one time. Additionally, whenever the warden would fall unconscious or be slain, his soul rises from his body, appearing barely visible and ethereal. While within this ethereal form, the warden may move in any direction (even up or down, albeit at half his normal speed), and may move through solid objects and living creatures, essentially being considered as an ethereal creature, except that he may still cast harmless spells and sphere effects upon his allies as long as he remains within this form.</p>\n<p>The warden remains within this form for up to 1 minute, after which the soul returns to his body, immediately becoming stable and conscious again if he was unconscious, or linger for a moment if he was slain.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900958,
+    "modifiedTime": 1663169297163,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

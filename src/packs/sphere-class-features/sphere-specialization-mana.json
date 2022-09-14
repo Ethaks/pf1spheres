@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Mana)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Mana Master:</strong> The incanter&#8217;s mastery over magic is unmatched by any other. At 3rd level, he gains a +2 bonus on all Spellcraft and Knowledge (arcana) checks. Additionally, his magic skill bonus and defense both increase by +1. These bonuses increase by 1 at 7th level and every four levels thereafter.</p>\n<p><strong>Reinforce Magic:</strong> At 8th level when an ally within close range of the incanter casts or attempts to dispel a sphere effect, as a free action that may be taken outside of his turn he may reinforce that magical effect. This grants the ally the benefits of his mana master ability, but only for that specific use of the sphere effect. He may use this ability a number of times per day equal to 3 + his casting ability modifier.</p>\n<p><strong>Impossible Magic:</strong> The incanter&#8217;s magic will forever be unimpeded, and his mastery of antimagic provides him with a defense against it. At 20th level, when the incanter casts a sphere effect, he may spend up to 10 additional spell points when casting it to reinforce the sphere effect. The sphere effect is unimpeded by any attempt to counterspell it (which fails automatically) and penetrates any antimagic effects originating from creatures with a magic skill bonus lower than twice the amount of additional spell points used to reinforce the sphere effect.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900529,
+    "modifiedTime": 1663169296651,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

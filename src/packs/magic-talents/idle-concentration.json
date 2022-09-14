@@ -3,7 +3,15 @@
   "name": "Idle Concentration",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may choose to maintain concentration on your telekinesis as a swift action. However, targets of your telekinesis remain motionless while you concentrate on them this way, hovering in place. You cannot move them, use them to Bludgeon, or direct them to perform tasks. Dancing weapons that hover do not threaten their range or provide flanking bonuses, and you may not apply the benefits of Telekinetic Crush to hovering targets.</p>\n<p>This talent cannot be used to concentrate on a Hostile Lift or Kinetic Field.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890486,
+    "modifiedTime": 1663169293320,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Craft Implement Of Power",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Magic skill bonus +3.</p>\n<p><strong>Benefits:</strong> Just as a weapon can grant enhancement bonuses to its wielder&#8217;s attack and damage rolls, an implement of power serves as a focus for magical power, adding enhancement bonuses to its wielder&#8217;s caster level with a particular sphere. These bonuses are always enhancement bonuses, and therefore multiple implements benefiting the same sphere do not stack.</p>\n<p>These bonuses only apply to the wielder; this bonus does not apply to spell engines nor other magic items they might be using. Implements of Conjuration, Death, and Enhancement do not increase the number or statistics of companions, undead, or animated objects; instead, such implements grant circumstance bonuses to the creature&#8217;s attack rolls and skill checks.</p>\n<p>Most implements are staves; 3-5 feet long sticks of wood or metal that the caster holds, but an implement can take any shape. Just like a magical weapon, an implement of power has its cost calculated according to its maximum bonus; an implement of power grants an enhancement bonus from +1 to +5, with a total possible bonus of +10. Just like a magic weapon, an implement costs 2,000 gp x (total bonus) squared.</p>\n<p>An implement uses the crafter&#8217;s MSB rather than their caster level when determining the maximum caster level implement they can create. The item&#8217;s caster level must be at least 3x the enhancement bonus granted by the implement. If the implement has other magical enchantments placed upon it, use the highest caster level. An implement must have at least a +1 enhancement bonus to have any other implement special abilities.</p>\n<p><strong>Note:</strong> Implements cannot be used to meet caster level prerequisites. If a talent has prerequisites, the user or the staff must have access to all prerequisites to use that talent. Implements can be either slotted items or handheld items, like staves or weapons. They can be combined with other magic items as normal.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897682,
+    "modifiedTime": 1663169295554,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

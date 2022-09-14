@@ -3,7 +3,11 @@
   "name": "Improved Natural Attack",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>One of the shifter&#8217;s natural attacks increases its damage by one die size. If the shifter loses that natural attack due to a shapeshift, she may designate a different natural attack for this to augment for the duration. The shifter may select this trait multiple times. A single natural attack cannot be improved more than once. Each time this trait is gained, increase the number of natural attacks that may be augmented at one time by 1.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900026,
+    "modifiedTime": 1663169296161,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

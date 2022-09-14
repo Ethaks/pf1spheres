@@ -3,7 +3,15 @@
   "name": "Monument",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/war.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "war"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> War sphere, caster level 10th.</p>\n<p>The caster may attach a totem to a manufactured object that is at least 2,000 pounds and is of high quality - such as a great statue, masterwork building, or impressive sailing vessel.</p>\n<p>The object can not be animated, and can not become animated without dispelling the totem first. The range of the totem increases to 1 mile per caster level, and it remains for one day per caster level. Multiple totems may be attached to the same monument.</p>\n<p>The owner of a monument does not need to stay within range of it to maintain it, and they can share ownership with allies, allowing those allies to use it to rally their own allies. When created, the creator must specify an easily perceived condition by which allies of the monument will be identified, such as their race, uniform or equipment.</p>\n<p>Creating a monument takes 8 hours.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "war"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893233,
+    "modifiedTime": 1663169294569,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

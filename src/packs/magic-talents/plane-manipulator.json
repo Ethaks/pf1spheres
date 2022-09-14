@@ -3,7 +3,15 @@
   "name": "Plane Manipulator",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create a dimensional anchor emanating from yourself, affecting you and all creatures within 10 feet per caster level. You must concentrate each round to maintain this effect, although you may spend a spell point to allow the emanation to continue for 1 minute per caster level without concentration. Any attempt to teleport or cross planes made by any creature within this area fails unless they succeed at a magical skill check against you. This also applies to the summoning of companions and other extraplanars.</p>\n<p>You may also touch a creature from another plane and spend a spell point to banish them back to their home plane (Will negates).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890374,
+    "modifiedTime": 1663169293239,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

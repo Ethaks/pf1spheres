@@ -3,7 +3,11 @@
   "name": "Chaotic Counter",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Counterspell or the ability to cast dispel magic.</p>\n<p><strong>Benefit:</strong> When you successfully counterspell a spell or sphere effect, the caster suffers a 50% increase in wild magic chance until the end of its next turn. This penalty increases by 10% per wild magic feat you possess, to a maximum of 100%. Additionally, you gain a +1 bonus to your MSB when counterspelling. The affected caster is not aware of this increase.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898184,
+    "modifiedTime": 1663169295908,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

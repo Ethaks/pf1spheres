@@ -3,7 +3,15 @@
   "name": "Improved Fuse Grenade",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Craft DC:</strong> 25</p>\n<p>An improved fuse grenade may be lit and thrown into an unoccupied square capable of supporting an object within 60 ft. as a standard action. 1d3 rounds after being lit, the grenade explodes, dealing 2d6 points of bludgeoning damage and 2d6 points of fire damage in a 20-foot-radius burst (Reflex halves). For every 3 ranks in Craft (alchemy) you possess, both the bludgeoning and fire damage from this item increase by an additional 1d6. You can increase the Craft DC for this item in increments of 10; each time you do so, the radius increases by 10 ft. and the Reflex save DC increases by +1.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alchemy"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885397,
+    "modifiedTime": 1663169291444,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

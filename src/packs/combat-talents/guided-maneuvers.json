@@ -3,7 +3,15 @@
   "name": "Guided Maneuvers",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "beastmastery"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>While mounted, your mount may use your combat maneuver bonus (including feats and other bonuses to particular maneuvers but retaining their own size modifiers) in place of its own when performing bull rush, drag, overrun, reposition, or trip combat maneuvers.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "beastmastery"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886417,
+    "modifiedTime": 1663169291806,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

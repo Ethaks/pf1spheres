@@ -3,7 +3,15 @@
   "name": "Misdirect",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You imbue an area to persuade travelers to wander elsewhere.</p>\n<p><strong>Lesser Cloud:</strong> A creature entering the cloud must succeed on a Will save. Failure causes them to, potentially, change directions. Roll a d8 as if throwing a splash weapon that missed its target square; on a 1, the creature continues moving in its intended direction. On a 2 through 8, count around the target creature&#8217;s adjacent squares in a clockwise direction to determine the direction it walks in. It finishes moving after the intended distance has been traversed, or after it moves into an obstruction (such as a wall). If it was moving faster than its typical movement speed (such as by running) the creature takes 1d4 nonlethal damage. This cloud lasts for one minute per caster level.</p>\n<p><strong>Greater Cloud:</strong> As the lesser cloud, but you determine the new direction of travel when imbuing the area with the cloud and may select a number of familiar creatures equal to your casting ability modifier to be immune to the cloud&#8217;s effects.</p>\n<p><strong>Powerful Cloud:</strong> As the greater cloud, but you may alter the direction of every target moving through the cloud as a free action as long as you remain within close range of the cloud.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mind"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893107,
+    "modifiedTime": 1663169294536,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

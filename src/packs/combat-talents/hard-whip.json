@@ -3,7 +3,15 @@
   "name": "Hard Whip",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/wrestling.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "wrestling"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may end the grapple to force the grappled creature to move up to 10 ft. in a direction of your choice except upwards. This movement does not provoke an attack of opportunity, although if the creature&#8217;s movement would force them to enter one of your ally&#8217;s squares, they provoke an attack of opportunity from that ally and their movement is stopped before entering that ally&#8217;s square (if two or more of your allies share the same square, only a single ally of your choice may make an attack of opportunity due to this talent); for every 5 ft. the creature was forced to travel, your ally&#8217;s attack of opportunity gains a +2 circumstance bonus to damage. If this movement would cause a creature to collide with a solid object, they take damage equal to 1d6 + the modifier of the attribute used to determine your combat maneuver bonus for the maneuver. This damage is increased by +1d6 for every 5-ft. square the target would have traveled beyond the wall or object.</p>\n<p>You may choose to use this talent on an ally; if you do, that ally may make a melee attack any point during this movement, and may choose to end this movement whenever they wish. For every 5 ft. your ally travels before making this attack, they gain a +2 circumstance bonus to this attack&#8217;s damage roll. For every 4 points of base attack bonus you possess, the distance you can force a creature to move with this talent increases by 5 ft.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "wrestling"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887932,
+    "modifiedTime": 1663169292335,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

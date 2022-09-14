@@ -3,7 +3,15 @@
   "name": "Capoeira Spin",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you make an attack with an unarmed strike while prone, the penalty to attack rolls is reduced by 2. In addition, you may spend an immediate action to stand up from being prone without provoking an attack of opportunity as a part of an attack action made with an unarmed strike, dealing an additional +2 damage. At +10 base attack bonus, this additional damage increases to +5 and you no longer take a penalty on attack rolls made with unarmed strikes while prone.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885545,
+    "modifiedTime": 1663169291555,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

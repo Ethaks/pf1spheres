@@ -3,7 +3,15 @@
   "name": "Halfling Heritage",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You gain proficiency with the double sling, sling, halfling rope-shot, halfling sling staff, machete, sling glove, and war razor. In addition, you may reload a double sling, halfling sling staff, sling, and sling glove as a free action that does not provoke an attack of opportunity. <strong>Associated Feat:</strong> Ammo Drop.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886417,
+    "modifiedTime": 1663169291806,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

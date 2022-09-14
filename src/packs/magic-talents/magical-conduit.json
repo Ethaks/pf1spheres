@@ -3,7 +3,15 @@
   "name": "Magical Conduit",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You have achieved mastery over opening magical windows between yourself and others. You can now create new manabonds as a free action as part of casting your other Mana sphere abilities, rather than a swift action.</p>\n<p>In addition, you can now become the host for multiple manabonds (but not benefit from being the recipient to multiple). When you spend a swift action to concentrate on a manabond, you count it as if you were concentrating on all currently active manabonds you have created and linked to yourself. You may also spend a spell point as part of creating a manabond to allow it to remain for 1 minute per caster level without concentration, although you may still activate effects that otherwise require concentrating on the manabond as a swift action.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mana"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894279,
+    "modifiedTime": 1663169294817,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

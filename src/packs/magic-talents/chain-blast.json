@@ -3,7 +3,15 @@
   "name": "Chain Blast",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to arc your destructive blast between multiple targets. Choose a number of targets no greater than 1 + half your caster level (minimum 2 targets total). Make a ranged touch attack against each of them in order. No target can be farther than 10 feet + 5 feet per 5 caster levels from the previous target and no target can be targeted more than once. Should any of the targets fail to take damage, either by a missed attack, resistances, or other method, the chain stops and no further targets are damaged.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "destruction"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891026,
+    "modifiedTime": 1663169293613,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Obstruction",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create an aegis that absorbs damage. The target gains DR/- equal to 1/2 the caster level (minimum 1). Once this aegis has absorbed damage equal to 10 x the caster level, the aegis ends even if its duration has not yet expired.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890508,
+    "modifiedTime": 1663169293337,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

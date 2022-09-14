@@ -3,7 +3,11 @@
   "name": "Ghostly Admixture",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Death sphere, Destruction sphere (Admixture).</p>\n<p><strong>Benefit:</strong> When using Admixture, you may spend an additional spell point to affect one target damaged by the destructive blast with a ghost strike effect you know, in place of a second blast type. If you possess the Mass Death Magic talent, you may pay an additional spell point to apply the ghost strike to all targets damaged.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898224,
+    "modifiedTime": 1663169295933,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

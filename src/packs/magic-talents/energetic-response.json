@@ -3,7 +3,15 @@
   "name": "Energetic Response",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can make attacks of opportunity with your destructive blast, as if it were a melee weapon. You are considered armed with your destructive blast, and if you possess the ability to make attacks of opportunity with ranged weapons, you may do so with a destructive blast. Using a destructive blast to make an attack of opportunity is considered a (blast shape), and you cannot use any effects that would increase its casting time, nor spend a spell point to increase its damage. Using your destructive blast this way does not provoke an attack of opportunity for the casting, though it may still provoke if used to make ranged attacks.</p>\n<p><strong>Wiki Note:</strong> Absent other effects, Energetic Response does not allow you to use your destructive blast as part of an attack action, and broadly does not work with talents from Spheres of Might (including the Sentinel's Opportunistic Offense ability).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "destruction"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892929,
+    "modifiedTime": 1663169294497,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

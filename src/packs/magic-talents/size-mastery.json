@@ -3,7 +3,15 @@
   "name": "Size Mastery",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Alteration sphere (Size Change), caster level 15th.</p>\n<p>When using the Size Change talent, you may spend an additional spell point to increase the maximum/minimum possible size to Gargantuan/Fine. At caster level 20th, you may instead spend two additional spell points to increase the maximum size to Colossal. Ability score changes follow the standard rules for the Size Change talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890367,
+    "modifiedTime": 1663169293237,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

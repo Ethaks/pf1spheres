@@ -3,7 +3,15 @@
   "name": "Imbue Teleport",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you would teleport a target, you may imbue them with the ability to teleport instead of immediately teleporting them. The imbued target gains the ability to teleport itself once with the same details (such as caster level, talents, spell point expenditures) as you used with the original casting. However, the target may only teleport themselves and not others.</p>\n<p>The imbued teleport remains for 1 hour per caster level, or until used once. You may maintain one imbued teleport at a time, plus an additional imbued teleport for each five caster levels you possess.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893589,
+    "modifiedTime": 1663169294601,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

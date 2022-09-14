@@ -3,7 +3,11 @@
   "name": "Form-Breaker",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The mageknight may spend a spell point as a swift action to empower her next attack with magical energies disruptive to shapechangers. If the attack successfully strikes a creature under a polymorph effect (such as shapeshift, beast shape spells, polymorph, or change shape), she may attempt a magical skill check against the effect&#8217;s MSD. She gains a +4 bonus on this check. If successful, the polymorph effect immediately ends and the target cannot benefit from polymorph effects for a number of rounds equal to her CAM.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900726,
+    "modifiedTime": 1663169296815,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

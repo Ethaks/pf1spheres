@@ -3,7 +3,15 @@
   "name": "Weird Radiance",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When causing a glow effect to shed normal light or bright light, you may shape this light into strange shapes as a free action. It illuminates an area that you form of a number of 5-foot cubes, with each cube placed adjacent to the target of the glow or another cube. For normal light you may place up to 20&#160;5-foot cubes, and with bright light you may place up to 30, plus another for each 2 caster levels you possess. The light 20 feet away from any square of this area (or 30 feet + 5 feet per 2 caster levels away if shedding bright light) is increased by one step to a maximum of normal. With the Intensity Control talent you may add an additional 5-foot cube per 5 feet of radius you would add to your area, and increase or decrease the radius in which light is increased by 10 feet. You may change the light&#8217;s area or return it to its normal area as a free action, but for the purpose of (light) talents you may only affect one area per round.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894058,
+    "modifiedTime": 1663169294631,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

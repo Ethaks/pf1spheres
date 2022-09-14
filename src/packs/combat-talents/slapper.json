@@ -3,7 +3,15 @@
   "name": "Slapper",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/brute.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "brute"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may use a natural weapon, unarmed strike, or weapon held in one hand to perform a shove, adding its bonuses to your shove&#8217;s attack roll and its enhancement bonus to your shove&#8217;s damage, as well as damage from appropriate special abilities such as flaming, holy, etc.</p>\n<p>In addition, whenever you successfully perform a bull rush, drag, reposition, or overrun combat maneuver (assuming the target decided to block you and did not simply move out of the way), the target gains the battered condition until the end of your next turn.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "brute"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885906,
+    "modifiedTime": 1663169291732,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

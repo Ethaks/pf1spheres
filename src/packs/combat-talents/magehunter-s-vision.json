@@ -3,7 +3,15 @@
   "name": "Magehunter’s Vision",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scout.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scout"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Scout sphere, Heightened Awareness, Knowledge (arcana) 3 ranks, Perception 3 ranks.</p>\n<p>While you discover the presence of ongoing magical effects through the use of the Heightened Awareness talent, you may focus as a standard action to further focus your senses on the various magical auras. The longer you focus, the more information is revealed.</p>\n<ul>\n<li><strong>1st Round:</strong> The number of magical auras within your range, and which one is the strongest.</li>\n<li><strong>2nd Round:</strong> The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Knowledge (arcana) skill checks to determine the school of magic involved in each. (Make one check per aura: DC 15 + spell level, or 15 + 1/2 caster level for a non-spell effect.) If the aura emanates from a magic item, you can attempt to identify its properties with the Spellcraft skill.</li>\n</ul>\n<p>If you expend your martial focus while trying to identify a magical effect or magic item, you gain a bonus to that check equal to your practitioner modifier, plus the number of Scout sphere talents you possess.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scout"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887500,
+    "modifiedTime": 1663169292067,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

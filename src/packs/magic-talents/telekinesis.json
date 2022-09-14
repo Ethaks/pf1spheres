@@ -3,7 +3,15 @@
   "name": "Telekinesis",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a standard action, you can use telekinesis to lift one willing creature or unattended object within close range and move it up to 20 feet + 5 feet per 5 caster levels (its telekinesis speed). The creature or object levitates as long as you concentrate, have line of effect, and the object remains within close range. The objects and creatures you may lift are restricted by size; the largest creature or object you can lift is given in the chart below. This assumes the creature or object is made from a dense material, such as flesh creatures or stone objects.</p>\n<p>Creatures or objects made of lighter materials, mostly open space, or reduced to 1/2 weight with the Lighten talent of the Enhancement sphere count as being one size category smaller, while weightless creatures or objects count as being 2 size categories smaller for this purpose.</p>\n<strong>Table: Object Size</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Caster Level</th>\n<th>Object Size</th>\n<th>Sample Object</th>\n<th>Average Weight (lbs.)</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>Diminutive</td>\n<td>Dagger</td>\n<td>1 lbs.</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>Tiny</td>\n<td>Candelabra</td>\n<td>5 lbs.</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>Small</td>\n<td>Heavy shield</td>\n<td>25 lbs.</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>Medium</td>\n<td>Adult human</td>\n<td>125 lbs.</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>Large</td>\n<td>Statue</td>\n<td>625 lbs.</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>Huge</td>\n<td>Wagon</td>\n<td>3,125 lbs.</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>Gargantuan</td>\n<td>Catapult</td>\n<td>8 tons</td>\n</tr>\n<tr>\n<td>25th</td>\n<td>Colossal</td>\n<td>Sailing Ship</td>\n<td>39 tons</td>\n</tr>\n<tr>\n<td>30th</td>\n<td>Colossal+</td>\n<td>Tavern</td>\n<td>195 tons</td>\n</tr>\n<tr>\n<td>40th</td>\n<td>Colossal++</td>\n<td>Galleon</td>\n<td>977 tons</td>\n</tr>\n<tr>\n<td>50th</td>\n<td>Colossal+++</td>\n<td>Temple</td>\n<td>4,883 tons</td>\n</tr>\n<tr>\n<td>60th</td>\n<td>Colossal++++</td>\n<td>Cathedral</td>\n<td>24,414 tons</td>\n</tr>\n</table>\n<p>Your telekinesis is simple and cannot perform dexterous actions (tying a knot, opening a book, turning a key, etc.). Any object you control with telekinesis has a touch AC of 10 + your casting ability modifier + any size modifier, and a CMD of 10 + your caster level + your casting ability modifier + the object&#8217;s size modifier. If ever a Strength check is required (such as a creature trying to battle you for control of an item), you may use your casting ability modifier as your Strength modifier for that purpose. If another target attempts to use telekinesis on something you are already affecting with telekinesis, they must overcome your MSD first, or the attempt fails.</p>\n<p>The following special rules apply to certain activities you may perform with telekinesis:</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891736,
+    "modifiedTime": 1663169293902,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

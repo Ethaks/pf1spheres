@@ -3,7 +3,15 @@
   "name": "Dimension Pierce",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You allow one touched object or creature to interact with other planes by spending a spell point. A touched creature can target ethereal and incorporeal targets without suffering a 50% miss chance or reduction in damage, and can manipulate such targets as if they were material. A touched ethereal or incorporeal target gains the ability to interact with the world as if it were corporeal in all ways. A touched object gains the ghost touch special ability. The effects of this talent last for one hour per caster level.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891012,
+    "modifiedTime": 1663169293599,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

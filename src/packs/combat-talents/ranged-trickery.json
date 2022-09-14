@@ -3,7 +3,15 @@
   "name": "Ranged Trickery",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As long as you have martial focus, you may attempt a dirty trick combat maneuver against a creature within 15 ft. of yourself, +5 ft. per 4 ranks in Sleight of Hand you possess. For every 10 ft. you are from a creature, you take a -2 penalty on your combat maneuver check.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888266,
+    "modifiedTime": 1663169292853,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

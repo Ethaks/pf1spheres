@@ -3,7 +3,15 @@
   "name": "Death",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Fate sphere (one (motif) talent), caster level 5th.</p>\n<p>You may grant a motif that allows a target to preserve and, ultimately, change the other motifs they bear. While this motif is active, whenever the target discharges a (motif) talent other than Death there is a 50% chance that it does not end. The target may discharge this effect to immediately bring one other (motif) talent you or they know into effect with a duration equal to this motif &#8217;s remaining duration. Granting this motif costs two spell points.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892593,
+    "modifiedTime": 1663169294175,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

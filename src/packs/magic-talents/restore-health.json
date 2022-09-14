@@ -3,7 +3,15 @@
   "name": "Restore Health",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "life"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your cure ability heals an additional 1 hit point per caster level. When restoring a target&#8217;s body, the exhausted and nauseated conditions are completely removed rather than lessened, and you may attempt a magic skill check against the DC of any poison or disease the target is suffering from. On a success, this removes that poison or disease from the target. This does not reverse damage the target may have suffered from the poison or disease (such as ability damage), but it does stop the poison or disease from causing any more.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "life"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891015,
+    "modifiedTime": 1663169293604,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

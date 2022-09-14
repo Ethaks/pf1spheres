@@ -3,7 +3,15 @@
   "name": "Fire Tornadoes",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Nature sphere ((fire) package), Weather sphere (Wind Lord (advanced)), caster level 15th.</p>\n<p>When you are using control weather to create or alter Wind of severity level 7 you may cause the tornadoes to become alive with fire. Any object or creature swept into the funnel cloud takes an additional 6d6 fire damage each round and are set on fire once they are expelled. Any flammable objects (including grass or other vegetation) in the tornadoes&#8217; path that cannot be swept into the funnel cloud take 6d6 fire damage and are set on fire.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "weather"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894052,
+    "modifiedTime": 1663169294623,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

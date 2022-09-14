@@ -3,7 +3,11 @@
   "name": "Spell Adept",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your ability to use rituals has grown to great power.</p>\n<p><strong>Prerequisites:</strong> Spell Dabbler, spherecaster</p>\n<p><strong>Benefit:</strong> When using your Spell Dabbler feat, you may increase the preparation time to 1 hour to prepare as many rituals as you desire, spending spell points for each prepared ritual. You cannot prepare more than 4 rituals of any individual level in this manner.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898199,
+    "modifiedTime": 1663169295919,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

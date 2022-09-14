@@ -3,7 +3,15 @@
   "name": "Mandate",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/war.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "war"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Talents marked (mandate) grant you ways of creating mandates. Mandates are effects that exist between a pair of allies, each of whom benefits from the actions of the other. As a standard action, you can create a mandate between two allies within medium range, one of whom may be yourself. You may concentrate to maintain a mandate, or can spend a spell point to make it last 1 minute per level without concentration. A mandate only works while the two sharing the mandate are within medium range of each other, and both are conscious and able to act.</p>\n<p>A creature can be part of multiple mandates with the same or different creatures, but cannot be a member of the same mandate type talent multiple times. Bonuses granted last until the end of the next turn of the ally who received the bonus. The advantage of a mandate can be triggered over and over again, though it does not stack with itself.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "war"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890521,
+    "modifiedTime": 1663169293351,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

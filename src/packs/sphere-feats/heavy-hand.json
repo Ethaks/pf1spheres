@@ -3,7 +3,11 @@
   "name": "Heavy Hand",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Destruction sphere (at least one (blast type) talent that deals nonlethal damage).</p>\n<p><strong>Benefit:</strong> When using a destructive blast blast type that deals nonlethal damage, you may instead deal lethal bludgeoning damage, but your die size is reduced one step. Additionally, you gain a +1 insight bonus to attack rolls and save DCs with destructive blasts that deal nonlethal damage.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897953,
+    "modifiedTime": 1663169295752,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

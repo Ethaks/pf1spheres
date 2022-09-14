@@ -3,7 +3,11 @@
   "name": "Militant Animation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Enhancement sphere (Animate Object (enhance)), base attack bonus +1.</p>\n<p><strong>Benefit:</strong> Whenever you create an animated object, you may grant it a single combat feat it qualifies for as a bonus feat. You may spend an additional spell point when using Animate Object to grant the animated object an additional bonus combat feat it qualifies for.</p>\n<p><strong>Normal:</strong> Animated objects are mindless, and do not possess any feats.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898000,
+    "modifiedTime": 1663169295791,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

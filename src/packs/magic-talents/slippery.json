@@ -3,7 +3,15 @@
   "name": "Slippery",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create an aegis that protects a creature from being physically restrained or manipulated. The bearer of this aegis gains a +2 enhancement bonus to Acrobatics checks, Escape Artist checks, and to CMD, and if they are under an effect they could escape with an Escape Artist check they may attempt such a check immediately as an immediate action. These bonuses increase by 1 for every 5 caster levels you possess.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893592,
+    "modifiedTime": 1663169294604,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Extradimensional Storage",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The armorist gains the Extradimensional Storage Warp sphere talent, even if she does not possess the Warp sphere. She may use her armorist level as her caster level for this ability if it is higher, and she may choose to summon items from her extradimensional storage with the same action and with the same rules (such as replacing one suit of armor with another) as her other summoned equipment.</p>\n<p>She may take this arsenal trick twice, which upgrades her spell-like ability to have the effect of two purchases of Extradimensional Storage.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "sp",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900021,
+    "modifiedTime": 1663169296154,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

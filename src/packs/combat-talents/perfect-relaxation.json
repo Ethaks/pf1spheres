@@ -3,7 +3,15 @@
   "name": "Perfect Relaxation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "barroom"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Barroom sphere, Nice and Loose, base attack bonus +10.</p>\n<p>You gain improved evasion while using the Nice and Loose talent; you can also end the duration of your Escape Artist bonus to be treated as though you were under the effects of a freedom of movement spell for 1 round as a supernatural effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "barroom"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885586,
+    "modifiedTime": 1663169291582,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

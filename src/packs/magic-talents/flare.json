@@ -3,7 +3,15 @@
   "name": "Flare",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a swift action you can expend one of your glow effects within range of your glow ability, causing it to blaze up momentarily before dying completely, ending the effect. The target of the glow effect takes 1d4 untyped damage per 2 caster levels (minimum 1d4), while all creatures within 5 feet + 5 feet per 10 caster levels of the target suffer half this damage. Affected creatures may attempt a Reflex save for half damage. If the target of your glow is Large or larger, choose one of its squares when determining the area of this effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893588,
+    "modifiedTime": 1663169294600,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

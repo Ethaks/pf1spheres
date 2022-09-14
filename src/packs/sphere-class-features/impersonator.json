@@ -3,7 +3,11 @@
   "name": "Impersonator",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>If the troubadour spends 10 minutes observing an individual, then impersonates that individual via the Disguise skill, he suffers only half the usual penalty when meeting someone who is familiar with that individual. Any spell or ability designed to locate the individual has a 50% chance of finding the troubadour instead of the actual individual (which increases to 100% if the individual wouldn&#8217;t normally be able to be found via magic, such as by being dead or protected in some other way), and divination spells and abilities used on the troubadour give results as if he were the actual individual. A troubadour must be at least 10th level to select this actor training.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900665,
+    "modifiedTime": 1663169296767,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Maneuver Master (Sage)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The sage treats his class level as his base attack bonus when calculating his combat maneuver bonus and combat maneuver defense. This stacks with base attack bonus gained from other classes. If the sage has the infuser esoteric training package and this esotery, he may spend a ki point as an immediate action whenever an opponent would succeed on a combat maneuver check against him to force the opponent to reroll the check, keeping the second result.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900433,
+    "modifiedTime": 1663169296575,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

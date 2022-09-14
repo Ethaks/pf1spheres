@@ -3,7 +3,11 @@
   "name": "Defender’s Determination",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 7th level, whenever a sentinel uses her second wind, she can also ignore the following conditions for 1 minute: blinded, deafened, entangled, fatigued, sickened, shaken, or staggered. Once a specific instance of a condition has been ignored by this ability, it cannot be ignored again for 24 hours, or until she has rested for 8 hours (whichever comes first). She can also spend an additional point of reserve while using her second wind to ignore the normal limitations on how much she can heal with it.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900993,
+    "modifiedTime": 1663169297203,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Fabricate",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (Forge (alter)), caster level 10th.</p>\n<p>When using your Forge talent, you may spend an additional spell point to produce items of great detail. You must succeed at the appropriate skill check to make complex items and work at a rate of 1 round per 10 cubic feet when working in this manner. You can only work with a material which you can create.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891028,
+    "modifiedTime": 1663169293614,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

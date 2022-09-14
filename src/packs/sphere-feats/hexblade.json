@@ -3,7 +3,11 @@
   "name": "Hexblade",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your attacks channel your fell will.</p>\n<p><strong>Prerequisite:</strong> Hex class feature.</p>\n<p><strong>Benefit:</strong> Once per round, when you successfully make a melee attack as part of an attack action against a creature, you may use one of your hexes on that creature as a swift action that does not provoke attacks of opportunity from the target.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897666,
+    "modifiedTime": 1663169295549,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

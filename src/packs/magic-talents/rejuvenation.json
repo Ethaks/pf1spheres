@@ -3,7 +3,15 @@
   "name": "Rejuvenation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a standard action, you may heal yourself an amount equal to 1/2 your caster level (minimum 1) per round for as long as you concentrate. This healing only functions if you have 1/2 your maximum hit points or less. You may spend a spell point to grant yourself fast healing equal to 1/2 your caster level (minimum 1) for 1 minute per caster level, but this fast healing also only confers healing so long as you have 1/2 your maximum hit points or less.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890461,
+    "modifiedTime": 1663169293299,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

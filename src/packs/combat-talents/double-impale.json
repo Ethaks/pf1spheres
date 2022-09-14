@@ -3,7 +3,15 @@
   "name": "Double Impale",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/lancer.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "lancer"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>If you successfully impale a creature with a weapon wielded with two hands, you can expend your martial focus to make an additional attack roll against a creature adjacent to that creature with the same penalty. If this attack is successful, that creature takes damage and is also impaled. While they are impaled, both creatures are forced to act on the same initiative count (whichever is lower between the two) until they are no longer impaled, and both can only move if both agree to move using both of their move actions, using the slower of their speeds to determine movement between the two using a movement type both share. The creature who was impaled first cannot remove the weapon impaling them as long as it is still impaling the creature who was impaled second, but both can make a combat maneuver check to remove it, gaining a +2 circumstance bonus on this check. The creature who was impaled second can choose to attempt to free only themselves from the impaling weapon.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "lancer"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887961,
+    "modifiedTime": 1663169292359,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

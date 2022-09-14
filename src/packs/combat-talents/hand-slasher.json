@@ -3,7 +3,15 @@
   "name": "Hand Slasher",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/duelist.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "duelist"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As long as a creature is currently taking bleed damage, their disarm and sunder attempts always provoke attacks of opportunity from you, even if they have an ability that would normally prevent them from doing so.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "duelist"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886449,
+    "modifiedTime": 1663169291827,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

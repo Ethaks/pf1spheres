@@ -3,7 +3,15 @@
   "name": "The Sun",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may grant a motif that ensures a glorious dawn after the darkest night. Whenever the target is below 50% of their maximum hit points, they roll twice on all saving throws and take the better result.</p>\n<p>The target may discharge this effect when they are below 50% of their maximum hit points and succeed on a saving throw against a non-harmless effect to regain a number of hit points equal to the caster level + your casting ability modifier and gain an insight bonus to armor class and saving throws equal to your casting ability modifier for 1 round.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891667,
+    "modifiedTime": 1663169293846,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

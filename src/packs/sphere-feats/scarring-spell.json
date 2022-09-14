@@ -3,7 +3,11 @@
   "name": "Scarring Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> When a creature fails a saving throw against a scarring talent, for the next 24 hours that creature takes a -2 penalty on saving throws against emotion and fear effects you create, and a -1 penalty on saving throws against other emotion and fear effects. Penalties from multiple scarring talents do not stack. This metamagic can be activated only for talents with the emotion or fear descriptor.</p>\n<p><strong>Cost:</strong> +1 spell point</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898009,
+    "modifiedTime": 1663169295796,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

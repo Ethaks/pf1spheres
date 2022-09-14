@@ -3,7 +3,15 @@
   "name": "Brainwash",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Leadership sphere, (cohort) package.</p>\n<p>You may choose to have the exposure to your latent mind affecting abilities permanently bent your cohorts to your will. When you recruit a cohort, you may choose to affect it with this talent. Affected cohorts will obey harmful and even suicidal orders. Additionally, due to your mental influence, the DC of your recruit ability no longer suffers an increase for cohorts having died when applying this talent. This is a supernatural, mind-affecting ability.</p>\n<p>Cohorts (such as those gained from the Advanced Cohorts legendary talent) that are immune to such effects may not be targeted with this talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "leadership"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888209,
+    "modifiedTime": 1663169292798,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

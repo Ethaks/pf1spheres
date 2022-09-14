@@ -3,7 +3,15 @@
   "name": "Arcane Calculation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you use Perception to intentionally search for stimuli (typically a move action), you may measure a single aspect of whatever you perceive. You may calculate this aspect with perfect accuracy depending on how your Perception check compares to the DC to perceive it, requiring higher results to estimate from vague or incomplete information (see the table below).</p>\nAlternately, you may focus on a target you wish to attack as a standard action. This allows you to roll twice on the first attack roll you make against them within the next minute and take the better result. If you focus again before making such an attack, you lose the benefits of any previous focus attempts.<br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Perception Check &#8805;</th>\n<th>Examples</th>\n</tr>\n<tr>\n<td>DC</td>\n<td>Number of seen objects, weight of a held object</td>\n</tr>\n<tr>\n<td>DC + 1</td>\n<td>Speed of something seen, exact time based on the sun&#8217;s position</td>\n</tr>\n<tr>\n<td>DC + 5</td>\n<td>Number of people from their footsteps, distance from a singing bird</td>\n</tr>\n<tr>\n<td>DC + 10</td>\n<td>Distance from smelled food, number of soldiers milling in an army</td>\n</tr>\n</table>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mind"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893091,
+    "modifiedTime": 1663169294522,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

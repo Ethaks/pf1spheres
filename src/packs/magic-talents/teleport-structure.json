@@ -3,7 +3,15 @@
   "name": "Teleport Structure",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warp sphere (Teleport Object), caster level 5th.</p>\n<p>You can teleport objects of much greater weight and size, even whole vehicles and structures. You may teleport any object of appropriate size, shown on the Structure Table below. If you use Mass Teleport in conjunction with this talent, a teleported object counts as a creature in the affected group for the purposes of who may be included within the Mass Teleport.</p>\n<p>If you use Group Teleport in conjunction with this talent, you may teleport all targets touching a teleported object or structure instead of teleporting all creatures within Ranged Warp range. You must use Unwilling Teleport to teleport any unwilling creatures on the object or structure.</p>\n<strong>Table: Structure</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Caster Level</th>\n<th>Maximum Size</th>\n<th>Example Object</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>Medium</td>\n<td>Barrel</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>Large</td>\n<td>Table</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>Huge</td>\n<td>Wagon</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>Gargantuan</td>\n<td>Catapult</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>Colossal</td>\n<td>Ship</td>\n</tr>\n<tr>\n<td>25th</td>\n<td>Colossal+</td>\n<td>Tavern</td>\n</tr>\n<tr>\n<td>30th</td>\n<td>Colossal++</td>\n<td>Castle</td>\n</tr>\n</table>\n<h5 id=\"toc59\"><span>Warping Structures (Store and Teleport Structure)</span></h5>\n<p>A vehicle or building that is occupied is counted as attended or in a creature's possession, preventing it from being teleported or stored unless all occupying creatures are willing and/or helpless, or targeted with Unwilling Teleport.</p>\n<p>Some large structures, such as a castle, are arguably made up of a multitude of smaller structures, but can be counted as a single structure for this purpose as long as they are conceptually a single unit.</p>\n<p>Finally, the contents of a structure are moved with it as if they were part of the object, so long as the contents can fit comfortably inside (this, hay inside a wagon would work, but an enormous dragon's corpse across the top would not).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891709,
+    "modifiedTime": 1663169293878,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

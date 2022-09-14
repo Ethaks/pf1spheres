@@ -3,7 +3,15 @@
   "name": "Improved Bottled Lightning",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Craft DC:</strong> 25</p>\n<p>Improved bottled lightning unleashes a small bolt of lightning toward an enemy within 20 ft. of you. This is a ranged touch attack that deals 1d8 points of electricity damage, plus 1d8 per 2 Craft (alchemy) ranks you possess. Any creature in a line between you and the target (including the target) takes 1 point of sonic damage plus 1 point per rank in Craft (alchemy) you possess from the terrific clap of thunder the bolt generates.</p>\n<p>You can increase the Craft DC for this weapon in increments of 10; each time you do so, the range increases by 10 ft. and the sonic damage dealt to creatures in the line of effect increases by 1d6.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alchemy"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887500,
+    "modifiedTime": 1663169292066,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

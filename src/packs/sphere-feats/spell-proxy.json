@@ -3,7 +3,11 @@
   "name": "Spell Proxy",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Enhancement sphere, Circle Casting.</p>\n<p><strong>Benefit:</strong> You gain access to an additional enhancement, which you may use normally:</p>\n<p><span style=\"text-decoration: underline;\">Create Proxy:</span> You may enhance creatures, allowing them to act as aiding casters as if they themselves possessed the Circle Casting feat. They do not need to have any magic talents or a spell pool to do so.</p>\n<p><strong>Special:</strong> You may incorporate Create Proxy into a spell as if it were an Enhancement talent. You may not take Spell Proxy if you have the Personal Magics drawback.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898190,
+    "modifiedTime": 1663169295912,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

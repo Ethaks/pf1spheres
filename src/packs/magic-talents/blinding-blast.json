@@ -3,7 +3,15 @@
   "name": "Blinding Blast",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to have your destructive blast deal untyped damage. Any creature struck by the attack or that failed their Reflex saving throw if one was required must succeed at a Fortitude save or be blinded for 1 round. The damage die size increases to d8 against undead creatures and any creatures vulnerable to sunlight.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "destruction"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891701,
+    "modifiedTime": 1663169293871,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

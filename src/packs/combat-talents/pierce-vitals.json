@@ -3,7 +3,15 @@
   "name": "Pierce Vitals",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/lancer.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "lancer"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Lancer sphere, base attack bonus +10.</p>\n<p>Whenever you cause an impaled creature to lose the impaled condition and suffer the bleed damage associated with it, you may forgo any bleed damage you would deal to instead deal 1d2 points of Constitution damage. You can expend your martial focus when using this talent to instead deal 1 point of Constitution bleed.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "lancer"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888186,
+    "modifiedTime": 1663169292776,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

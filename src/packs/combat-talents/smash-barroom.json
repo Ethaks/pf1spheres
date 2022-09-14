@@ -3,7 +3,15 @@
   "name": "Smash (Barroom)",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "barroom"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Some talents possess the (smash) tag, allowing you to grant an improvised weapon or weapon with the fragile special feature the broken condition in exchange for a benefit, known as a break. If you would apply such a benefit to a weapon that has the broken condition, it is destroyed. If you would use a (smash) talent in conjunction with a ranged weapon, the ranged weapon gains the broken quality and not its ammunition. You can only break an improvised weapon that is made of a material with a hardness of 5 or lower (wood, glass, etc.). You cannot break magic items or creatures being used as improvised weapons.</p>\n<p>You may only use one (smash) talent as part of a given action (such as part of an attack or in response to another effect); if you would use a (smash) talent as part of an action that would involve multiple attack rolls (such as a full-round attack or a barrage), the (smash) talent only applies to the first attack. If a (smash) talent would have you break a weapon as part of an attack, you must break the weapon being used to attack.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "barroom"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885580,
+    "modifiedTime": 1663169291578,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

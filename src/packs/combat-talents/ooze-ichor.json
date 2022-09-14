@@ -3,7 +3,15 @@
   "name": "Ooze Ichor",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/duelist.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "duelist"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You are able to deal bleed damage to behemoths, constructs, elementals, and undead, bypassing their normal immunity, though all bleed damage you deal to such creatures is reduced to half of what it would normally be, to a minimum of 1 point of bleed damage whenever you would successfully deal bleed damage to such a creature.</p>\n<p><strong>Blood Sphere note:</strong> The Duelist sphere Ooze Ichor talent allows the user to deal bleed damage to creature types that are normally immune, but does not by itself make them susceptible to blood control.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "duelist"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885890,
+    "modifiedTime": 1663169291722,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

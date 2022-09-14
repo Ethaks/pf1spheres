@@ -3,7 +3,15 @@
   "name": "Dug In Blow",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/boxing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "boxing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you successfully make an attack with your counter punch, you gain DR 2/- until the beginning of your next turn, although this damage reduction is lost if you move more than 5 ft. during your turn. For every 3 points of base attack bonus you possess, this damage reduction increases by 1.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "boxing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885506,
+    "modifiedTime": 1663169291527,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

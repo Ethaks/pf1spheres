@@ -3,7 +3,15 @@
   "name": "Contagion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Alchemy sphere.</p>\n<p>When you create a poison you may create a disease instead. The disease functions like the poison (and benefits from Alchemy sphere talents like a poison) with the following changes:</p>\n<ul>\n<li>It gains an onset period of 1 hour, but its duration is increased to 1 week (this duration is still doubled by the Potent Poison talent). If you possess the Delayed Poison talent the onset period can be increased by a number of days equal to 1/2 your ranks in Craft (alchemy). The increase in duration applies only to any penalties of the poisons not the benefits.</li>\n<li>Instead of attempting a save to resist the poison every round, the save is made every 24 hours. If you possess the Lingering Poison talent and expend martial focus as part of creating a contact, ingested or injury disease, a creature that attempts a save against it must attempt a new save against the disease every 24 hours for a number of days equal to your practitioner modifier.</li>\n<li>If you possess the Food Poisoning talent and create an ingested disease, for every 4 ranks in Craft (alchemy) you possess, your ingested poisons last for another week (also doubled by the Potent Poison talent). A successful save does not end the disease&#8217;s effect, but a failed save causes a new effect as normal for that poison which lasts for the remaining duration of this disease.</li>\n<li>If you possess the Catalyzed Poison talent, you expend an existing disease in your possession in place of a poison.</li>\n<li>Your diseases can affect that which you selected with Specialized Venom.</li>\n</ul>\n<p>You cannot be infected by diseases you created.</p>\n<p>If you possess at least 10 ranks in Craft (alchemy), you may select this talent a second time and make your diseases contagious. Creatures that remain within 30 feet of the infected for more than 30 minutes without protective clothing (any clothing item that grants any sort of bonuses against disease counts), become carriers and must attempt a saving throw as normal after the onset period. The disease will only spread to creatures of the same type (or subtype if the creature is humanoid or is an outsider), but for every 4 ranks in Craft (alchemy) you possess, you may select another creature type (or subtype) from the ranger's list of favored enemies to also be susceptible to infection.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alchemy"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888241,
+    "modifiedTime": 1663169292829,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Damage Control",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may choose to have all damage dealt by a destructive blast be nonlethal damage. Damage dealt is calculated as if the destructive blast was its original damage type as well as nonlethal (for example, an acid blast would still be subject to acid resistance), but the resulting damage is added to the target&#8217;s nonlethal damage total and not subtracted from their hit points. When using a (blast type) talent that already deals nonlethal damage, your destructive blast damage increases by +1 damage per die.</p>\n<p>Alternatively, you may choose to deal no damage at all, only inflicting secondary effects, such as from (blast type) talents, or only expressing minor, controlled effects of the damage type you would normally deal with your destructive blast. For example, you might create a spark with a Fire Blast, drive a nail into wood with the bludgeoning force of a standard destructive blast, or make an indistinct sound with a Thunder Blast. These effects should never be powerful, and the GM is the final arbiter of what can be accomplished this way.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "destruction"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894643,
+    "modifiedTime": 1663169294965,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Barding Expertise",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "beastmastery"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Any creature you are mounted on is considered proficient with all armors you are proficient with. If you fail the Ride check granted by the Defensive Rider talent by 5 or less while your mount is wearing barding that it is proficient with, the attack damages your mount&#8217;s barding instead of your mount. Any damage in excess of the barding&#8217;s hit points is dealt to the mount.</p>\n<p>In addition, your mount may fly in medium or heavy barding.</p>\n<p><strong>Normal:</strong> A mount wearing medium or heavy barding cannot fly.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "beastmastery"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886381,
+    "modifiedTime": 1663169291772,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

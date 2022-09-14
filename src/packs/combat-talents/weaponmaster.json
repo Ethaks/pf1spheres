@@ -3,7 +3,15 @@
   "name": "Weaponmaster",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You take advantage of your weapons in unique ways. When wielding any weapon you have proficiency with, you can shift your grip as a swift action so that your weapon deals bludgeoning, piercing, or slashing damage instead of the damage type normally dealt by that weapon. You may switch back to the weapon&#8217;s normal damage as a swift action. At +5 base attack bonus, you may change damage types as a free action instead. <strong>Associated Feat:</strong> Weapon Versatility.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886092,
+    "modifiedTime": 1663169291763,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

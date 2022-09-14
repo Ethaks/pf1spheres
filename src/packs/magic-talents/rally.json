@@ -3,7 +3,15 @@
   "name": "Rally",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/war.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "war"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>A rally is a magical effect you may enact as an immediate action, targeting a creature within the area of effect of one of your totems (or with whom you share a mandate, as detailed below), granting the target bonuses or allowing them to take certain actions. You must be within long range of a target to rally that target. If a rally targets a specific creature, it is subject to spell resistance.</p>\n<p>Some rallies can be used in response to other events, in which case the rally occurs before the triggering event completes, unless noted otherwise. Rallies that work from triggers can only be used when that trigger occurs, and can only affect those allies that the trigger applies to.</p>\n<p>When you gain the War sphere, you gain the following rally:</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "war"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891507,
+    "modifiedTime": 1663169293691,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

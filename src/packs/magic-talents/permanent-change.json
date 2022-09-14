@@ -3,7 +3,15 @@
   "name": "Permanent Change",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (Change Material (alter), Expanded Materials (material), Forge (alter)), caster level 10th.</p>\n<p>When using your Change Material talent, you may spend an additional spell point to make the change an instantaneous effect; the change is permanent and cannot be dispelled. If used on a target in conjunction with the Change Material and Fleshcraft talents, another application of the Fleshcraft and Change Material talents can return them to normal for a limited time, but only another use of the Permanent Change talent or the use of the Make Whole advanced Life talent can permanently reverse this effect. You cannot create a permanent change involving gems, precious metals (such as gold or silver) or rare metals (such as cold iron or mithril), unless you possess Costly Creation.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891964,
+    "modifiedTime": 1663169293931,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

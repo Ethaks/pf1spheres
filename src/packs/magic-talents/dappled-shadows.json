@@ -3,7 +3,15 @@
   "name": "Dappled Shadows",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may reduce the radius of your darkness or blot in 5 feet increments to create a second area of darkness or blot with a radius equal to the subtracted amount. You may do this multiple times to create multiple areas of darkness or blot. These spheres may be placed anywhere within your range that you can see, but do not overlap each other. If used in conjunction with the Wall Of Darkness talent, your cubes no longer need to be placed contiguously.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892739,
+    "modifiedTime": 1663169294320,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Sentinel’s Reserve",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Each day, a sentinel gains a number of reserve points equal to 1/2 her sentinel level + her Wisdom modifier (minimum 1). She can spend a reserve point as a swift action to gain an amount of temporary hit points equal to two times her base attack bonus + her Wisdom modifier; these temporary hit points last for 1 minute or until lost, whichever comes first. She regains reserve points after resting for 8 hours, although she may only regain reserve points once every 24 hours.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900941,
+    "modifiedTime": 1663169297150,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

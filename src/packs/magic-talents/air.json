@@ -3,7 +3,15 @@
   "name": "Air",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Breeze:</strong> Concentration, requires air. You create a light wind that remains swirling around a target. The breeze grants the target a circumstance bonus equal to 2 + 1 per 5 caster levels on saves against very hot conditions, severe heat, and saves against clouds, vapors, and gases (such as cloudkill, stinking cloud, and inhaled poisons).</p>\n<p><strong>Gust Of Wind:</strong> Concentration, requires air. You may create a line-shaped gust of wind emanating out from you out to the edge of your geomancing range, affecting all creatures and objects within that line. The severity level of the wind is 3 + 1 per 5 caster levels (see the Wind category of the Weather sphere for more information). If maintaining Gust Of Wind via concentration, you may spend a spell point as a free action to increase the severity level of its wind by 1 for that round. Walls and other barriers block this wind.</p>\n<p><em>Author's Note:</em> If Gust Of Wind is used in an area of existing wind severity level 3 or greater, the geomancing ability may have different effects depending upon what direction your line-shaped gust is blowing versus the existing weather.</p>\n<ul>\n<li>Gust Of Wind blowing in same direction of Existing Wind: instead increase the wind severity in the line-shaped gust by 1 + 1 per 5 caster levels.</li>\n<li>Gust Of Wind blowing in opposite direction of Existing Wind: instead decrease the wind severity in the line-shaped gust by 3 + 1 per 5 caster levels.</li>\n<li>Gust Of Wind blowing in perpendicular directions of Existing Wind: Gust Of Wind overrides the existing wind severity and direction in that line-shaped gust, but otherwise remains unchanged.</li>\n</ul>\n<p><strong>Purify Air:</strong> Concentration, requires air, gas, or vaporous substance. You may convert polluted air or a non-breathable gas or vapor into a cloud of breathable air in a 5 feet + 5 feet per 5 caster levels radius area centered within range. This has no effect on supernatural or other magically created clouds (such as a vampire&#8217;s gaseous form or a cloudkill spell). Creatures who are entirely within the area of the cloud are able to breathe in sufficient air to sustain them.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894058,
+    "modifiedTime": 1663169294631,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

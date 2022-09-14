@@ -3,7 +3,15 @@
   "name": "Cold-Weather Adaptation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>With 10 minutes of work, you may treat any set of clothing you wear as a cold-weather outfit, granting a +5 circumstance bonus on Fortitude saving throws against exposure to cold weather. When using the outfit in this fashion, you may wear it in addition to another outfit or armor.</p>\n<p>Additionally, while wearing a great kilt or cold-weather outfit, you gain cold resistance 2. At +6 base attack bonus the cold resistance increases to 5. At base attack bonus +12 the cold resistance increases to 10. At base attack bonus +18 the cold resistance increases to 20.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886420,
+    "modifiedTime": 1663169291809,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

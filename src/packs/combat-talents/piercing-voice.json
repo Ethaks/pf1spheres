@@ -3,7 +3,15 @@
   "name": "Piercing Voice",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warleader.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warleader"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warleader sphere.</p>\n<p>Whenever you would be affected by a magic effect that would make you unable to speak (such as the silence option of the Suppression Illusion talent), the caster must first attempt a magic skill check against a DC equal to 10 + 1/2 your Diplomacy ranks + your practitioner modifier (minimum 1). If the caster fails, your voice is not affected by the magic effect, allowing you to speak, use shouts, tactics with verbal components, etc. If the caster succeeds, your voice is completely silenced and affected by the effect normally. If the effect would suppress other forms of noise (such as moving), they still remain suppressed even if the caster fails.</p>\n<p>Additionally, whenever the effects of your shouts would be either reduced in range or completely negated with a solid barrier or wall, they instead carry through the obstruction without interruption.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warleader"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886424,
+    "modifiedTime": 1663169291813,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

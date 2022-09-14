@@ -3,7 +3,15 @@
   "name": "The Empress",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may grant a motif that subtly improves the target&#8217;s ability to make their own fate. The target gains a floating pool of bonus points they can use throughout the duration of this motif. This pool has 1 point, plus 1 point per caster level when you first grant the motif. The target may spend up to 1 point for every 5 caster levels (minimum 1) to gain an insight bonus to an attack roll, weapon damage roll, skill check, ability check, or saving throw equal to the points they spend. The effect does not end if they spend all of these points, but they can no longer spend them.</p>\n<p>The target may discharge this effect to gain an insight bonus equal to +5 plus +1 for every 4 remaining points to any one attack roll, skill check, ability check, or saving throw.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891826,
+    "modifiedTime": 1663169293910,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

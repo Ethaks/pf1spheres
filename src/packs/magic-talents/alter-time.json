@@ -3,7 +3,15 @@
   "name": "Alter Time",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/time.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "time"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>The base Time sphere grants you two methods to alter time. All alter time effects require a standard action to activate (unless otherwise stated) and have a range of touch, and are subject to spell resistance. Effects that target an area are centered on you. Effects maintained through concentration require you to remain within close range of the target or location after placing the effect.</p>\n<p>When you gain the Time sphere, you gain the following ways to alter time:</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "time"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891830,
+    "modifiedTime": 1663169293914,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

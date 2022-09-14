@@ -3,7 +3,15 @@
   "name": "Greater Communication",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Mind sphere (Project Thoughts (charm)), caster level 10th.</p>\n<p>So long as you are personally familiar with the subject, you may spend an additional spell point to use your Project Thoughts charm across any distance, even across planes (although there is a 5% chance a cross-planar sending simply does not arrive). Recipients are allowed to respond in kind, but the target must voluntarily receive and send the messages; the target may simply decide to block you out, in which case the conversation immediately ends.</p>\n<p>You no longer require line of sight or line of effect when using the Project Thoughts charm when you are personally familiar with the target.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mind"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892305,
+    "modifiedTime": 1663169293985,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

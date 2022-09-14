@@ -3,7 +3,15 @@
   "name": "I Will Hear",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/guardian.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "guardian"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Guardian sphere, Defend Other.</p>\n<p>You may form a bond with a creature as a full-round action. A bonded creature can call your name as an immediate action; if you are within 1 mile per base attack bonus, you become immediately aware of the call and the direction to the creature. At +5 base attack bonus, this range increases to 10 miles per base attack bonus. At +10 base attack bonus, the range becomes unlimited as long as you are both on the same plane. At +15 base attack bonus, you may hear the call across the planes and gain knowledge of what plane the calling creature is on. You may maintain a number of these bonds equal to your base attack bonus.</p>\n<p><strong>Author's Note:</strong> To form a bond, a creature must be within your reach + 5 ft. + 5 ft. for every 4 points of base attack bonus you possess.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "guardian"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887017,
+    "modifiedTime": 1663169291998,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

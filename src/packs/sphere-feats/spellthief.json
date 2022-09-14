@@ -3,7 +3,11 @@
   "name": "Spellthief",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Counterspell.</p>\n<p><strong>Benefit:</strong> Whenever you successfully counterspell an effect that targets a creature or object, you may instead choose to reassign the effect&#8217;s targets. If you do so, you immediately take over concentration for the original caster (if the effect requires concentration), and the original caster cannot choose to prematurely end the effect.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898179,
+    "modifiedTime": 1663169295906,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Note: Light And Darkness",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever a glow effect (from the Light sphere) interacts with a magical darkness effect (such as from the Dark sphere), the caster of the glow effect must succeed at a magic skill check against the MSD of the darkness effect&#8217;s caster. If he succeeds, the Light effect functions normally. If he fails, the Dark effect functions normally (outlines are swallowed, light sources are hampered, etc.). An area filled with normal or bright light from a glow effect is no longer considered an area of darkness for Dark sphere abilities.</p>\n<h2 id=\"toc2\"><span>Meld</span></h2>\n<p>Melds are effects that can be granted to a creature that alter the way they interact with darkness. The caster must touch a target as a standard action to grant them the benefits of a (meld) talent, and unwilling targets may attempt a Will save to negate. A dark caster begins with knowledge of the following meld:</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892757,
+    "modifiedTime": 1663169294333,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

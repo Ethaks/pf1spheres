@@ -3,7 +3,15 @@
   "name": "Classify",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to force a target creature to state their name, the kind of creature they are (typically their creature type, subtypes, or both), where they came from, why they are where they are, and where they are going. They speak in whichever language they are most comfortable with (usually one of the ones gained from their race), which you may or may not understand.</p>\n<p>A successful Will saving throw negates this effect. This is a mind-affecting compulsion effect and creatures that do not speak any languages (including telepathy) are immune to it.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891845,
+    "modifiedTime": 1663169293925,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

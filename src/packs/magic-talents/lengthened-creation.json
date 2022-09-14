@@ -3,7 +3,15 @@
   "name": "Lengthened Creation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you alter or create an object, you may spend a spell point to make the object or effect remain for 1 hour per caster level without concentration.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891035,
+    "modifiedTime": 1663169293617,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

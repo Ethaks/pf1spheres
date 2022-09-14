@@ -3,7 +3,11 @@
   "name": "Snuffing Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> You can modify a talent to extinguish magical and non-magical light sources that the target has. The first time a creature takes damage from or fails a saving throw against a snuffing talent, any non-magical light sources it has are immediately extinguished and you can attempt to dispel any active sphere effects with the light descriptor that are affecting the target as if you had also cast the targeted version of Counterspell (as the feat). Talents that do not target creatures cannot be snuffing talents.</p>\n<p><strong>Cost:</strong> +2 spell points</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897651,
+    "modifiedTime": 1663169295541,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

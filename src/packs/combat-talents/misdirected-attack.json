@@ -3,7 +3,15 @@
   "name": "Misdirected Attack",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you provoke an attack of opportunity due to leaving a creature&#8217;s threatened square, you gain a dodge bonus to your AC equal to 1/4 your ranks in Sleight of Hand (minimum 1). If an attack of opportunity provoked in this way misses you, you can expend an attack of opportunity to choose to redirect the attack to a creature within the attacker&#8217;s reach (other than the attacker themselves), adding a bonus to the attack roll equal to the dodge bonus granted by this talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887509,
+    "modifiedTime": 1663169292073,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

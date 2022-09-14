@@ -3,7 +3,11 @@
   "name": "Feylignment",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Using the gifts of your fey bloodline you can hide the true nature of your soul.</p>\n<p><strong>Prerequisites:</strong> Fey type or subtype.</p>\n<p><strong>Benefit:</strong> By spending an immediate action, you may change your alignment to appear to be within one step of what it truly is for one minute. This changes the way your alignment interacts with spells, magic items, and other effects. Performing any action related to your actual alignment immediately ends this effect (for example, a Neutral Evil sidhier could use this ability to change his alignment to True Neutral to avoid being detected as Evil by a paladin nor targeted by the paladin&#8217;s smite. However, if the Neutral Evil sidhier should attack the paladin, his allies, an innocent or perform any other Evil act, the benefit of Feylignment would immediately end).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897712,
+    "modifiedTime": 1663169295575,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

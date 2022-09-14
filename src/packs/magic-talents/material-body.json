@@ -3,7 +3,15 @@
   "name": "Material Body",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (any (material) talent, Change Material (alter)), caster level 5th.</p>\n<p>You may spend a spell point to change a willing, touched creature&#8217;s skin into another solid material you can create as long as you maintain concentration to a maximum of 1 minute per caster level. You may spend an additional spell point to maintain this effect without concentration. If you possess Lengthened Creation, the duration of this ability is increased to 1 hour per caster level.</p>\n<p>The creature gains damage reduction equal to the material&#8217;s hardness. This damage reduction is bypassed by adamantine as long as the material&#8217;s hardness is less than 20. Once this damage reduction has prevented a number of points of damage equal to the material&#8217;s hit points per inch per 3 caster levels the effect ends.</p>\n<p>If you possess the Fleshcrafting advanced talent, the effect increases, granting the target a +4 bonus to saving throws against diseases and poisons, and a 50% chance that any critical hit or sneak attack against the target is treated as a normal hit, as if the target were wearing medium fortification armor.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891963,
+    "modifiedTime": 1663169293931,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

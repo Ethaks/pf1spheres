@@ -3,7 +3,15 @@
   "name": "Logic",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>This ward presents subtle inconsistencies and misdirections that prevent entry. Creatures must have an Intelligence of at least 3 to enter into the warded area. Teleportation bypasses the effect of this ward, and low-intelligence creatures can still be pushed or otherwise motivated into the ward area by other more intelligent creatures or by accident.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894708,
+    "modifiedTime": 1663169295012,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

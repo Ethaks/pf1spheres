@@ -3,7 +3,15 @@
   "name": "Plasma Production",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may alter or create non-magical fires with your normal limitations on size, as if it were an object. When creating objects, you may create the object already on fire. Flaming objects deal 1d6 fire damage to any creature who touches the object, such as by having it dropped on them or used as a weapon against them. You may also light the terrain on fire or summon burning materials as a form of hazardous terrain. This behaves and deals damage as a fire created by the Nature sphere instead of as normal for hazardous terrain. A fire that has insufficient fuel quickly burns itself out if not maintained through concentration.</p>\n<p>In addition, you may spend a spell point to create non-magical electricity. However, with no battery or other way to store electricity, the energy quickly dissipates. Electricity must be generated directly on a creature or object (not simply in a square) and instead of being calculated by size, is instead calculated by its charge, with 1 charge being equal to a Medium object. If used on a battery or other electrical storage object, the charges are stored safely. If used on any other creature or object, it instead deals 1d6 points of electricity damage per charge to the creature or object (Reflex negates). If the creature or object is made from a conductive material such as flesh or metal, targets touching the electrified creature or object (including touching the same body of water) are also affected, but the electricity loses 1d6 for every 10 feet the electricity must travel to reach these targets from the specific square designated as the center of the electricity (for example, if electrocuting a metal floor, all targets touching the floor would be affected, so long as they are close enough the damage is not reduced to 0).</p>\n<p>The charge deals damage again each round at the beginning of your turn, with the charge reducing by 1 each round. If affecting a creature or their attended objects, they may ground themselves or the object as a move action, harmlessly dissipating any charges that remain. Creating electricity is an instantaneous effect, and you cannot create an object charged with electricity as you can create an object on fire.</p>\n<p>Repairing plasma restores it to the size (for fire) or stored energy (for electricity) it had in the previous round. This allows a fire to retain its size indefinitely without fuel so long as it is repaired every round. Destroying a plasma reduces its size or stored energy by 1 size category or 1d6 points of damage for every 5 points of damage dealt to it.</p>\n<p>If you use Change Material to turn an object into a plasma which dissipates entirely before the duration expires, then the object is destroyed when it regains its normal form. Otherwise, when the duration expires, the object reverts to its previous form with no apparent difference or damage that was not preexisting.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892586,
+    "modifiedTime": 1663169294169,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

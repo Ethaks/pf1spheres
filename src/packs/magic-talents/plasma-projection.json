@@ -3,7 +3,15 @@
   "name": "Plasma Projection",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (Plasma Production (material)), caster level 5th.</p>\n<p>When holding any object that could be reasonably used as a hilt or wielding a melee weapon you may spend a spell point to create in the space above the hilt or alter the weapon into a blade of plasma. The shape of the plasma can take any form you wish, but regardless of its form treat this weapon as an energy sword (see Equipment section) that you are proficient with that lasts for 1 round per caster level without concentration. You may spend an additional spell point when this duration expires to renew its duration as a free action. This duration can be extended by Lengthened Creation as normal. While the effect persists the energy blade can be turned off or on again by the wielder as a swift action.</p>\n<p>You may spend an additional spell point as a swift action each round to increase the length and intensity of the &#8216;sword&#8217; for 1 round. The sword&#8217;s damage increases by 1d10 (for a Medium energy sword) and an additional 1d10 for every 5 caster levels you possess beyond 5th. When enlarged in this way, the energy sword may threaten and make attacks at a reach of 10 feet or against adjacent targets at no penalty.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893611,
+    "modifiedTime": 1663169294618,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

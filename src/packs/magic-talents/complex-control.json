@@ -3,7 +3,15 @@
   "name": "Complex Control",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Creatures affected by your blood control may be affected by both (quicken) and (still) talents at the same time.</p>\n<p>Whenever the creature would attempt to end the blood control on themselves by using a standard action, the creature must instead use a mental-only full-round action to end the blood control.</p>\n<p>If you possess Greater Blood Control, you may apply two effects of either type instead of just one when using the talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "blood"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893120,
+    "modifiedTime": 1663169294546,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

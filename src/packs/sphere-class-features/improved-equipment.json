@@ -3,7 +3,11 @@
   "name": "Improved Equipment",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The armorist chooses one piece of bound equipment she possesses. That piece of equipment gains an additional +1 enhancement bonus, to a maximum total of +11. If she permanently dismisses this piece of bound equipment, she may transfer this bonus to another piece of bound equipment she possesses. She may take this arsenal trick multiple times. Each time it is taken, increase the bonus granted by another piece of bound equipment by 1. She cannot increase an individual item more than once with this arsenal trick.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901047,
+    "modifiedTime": 1663169297253,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

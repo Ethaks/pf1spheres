@@ -3,7 +3,11 @@
   "name": "Living Accumulator",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>By focusing and unleashing your innate electrical powers, you can charge the remains of your kin with lightning.</p>\n<p><strong>Prerequisites:</strong> Draconic subtype, Constitution 13+.</p>\n<p><strong>Benefit:</strong> You can naturally charge a cuazite weapon with electricity as a swift action a number of times per day equal to your Constitution modifier.</p>\n<p><strong>Special:</strong> If you have the cuazaj assault racial ability, you can instead increase the additional damage of a cuazite weapon to +1d8 electricity damage a number of times per day equal to your Constitution modifier.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897965,
+    "modifiedTime": 1663169295759,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

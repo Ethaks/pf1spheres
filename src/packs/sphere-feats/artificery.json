@@ -3,7 +3,11 @@
   "name": "Artificery",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Any Craft or Profession 5 ranks.</p>\n<p><strong>Benefit:</strong> Select one Craft or Profession skill in which you have at least 5 ranks. You gain a +2 bonus on your chosen Craft or Profession skill. You may use your ranks in this Craft or Profession skill as if it were your caster level and magic skill bonus when qualifying for item creation feats, and when determining how powerful of an enchantment you may place upon an item. Possessing this feat does not, however, grant you access to any magic spheres when determining which enchantments you may place upon an item. You must use your chosen Craft or Profession skill when creating a magic item, and cannot work with any item or material not related to your chosen skill.</p>\n<p><strong>Special:</strong> This feat counts as, and does not stack with, the Master Craftsman feat, and may be selected in place of Master Craftsman whenever that feat is gained.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898216,
+    "modifiedTime": 1663169295927,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

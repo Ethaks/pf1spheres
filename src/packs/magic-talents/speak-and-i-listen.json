@@ -3,7 +3,15 @@
   "name": "Speak And I Listen",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "divination"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Divination sphere (Hear Name (advanced)); Divination sphere (Greater Divine [range], Viewing (divine), Scrying (advanced)) or Warp sphere (Distant Teleport, Unseeing Teleport, True Teleport); caster level 10th.</p>\n<p>Whenever you learn the name, appearance and location of a creature through Hear Name or Power Of The Name, you may spend a spell point to use Scrying to spy on the creature or try to teleport to their location as an immediate action. This is restricted by the normal range limitations for these abilities and costs spell points as normal in addition to the one spent to use this talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "divination"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892771,
+    "modifiedTime": 1663169294347,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

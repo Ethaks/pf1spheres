@@ -3,7 +3,11 @@
   "name": "Expert Coordinator",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When the commander first learn this enhanced tactic, he gains one teamwork feat he qualifies for as a bonus feat. The commander may share any one teamwork feat he knows with all allies currently benefiting from one of his shouts or tactics, even if they do not meet the feat&#8217;s prerequisites. At 5th level and every 5 levels thereafter, the commander may share 1 additional teamwork feat he knows when using this enhanced tactic. This enhanced tactic may be taken multiple times, gaining a new teamwork feat each time.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900769,
+    "modifiedTime": 1663169296859,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

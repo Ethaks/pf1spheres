@@ -3,7 +3,11 @@
   "name": "Friends In Close Places",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your retinue of followers has attracted some skilled individuals you can call on in a time of need.</p>\n<p><strong>Prerequisites:</strong> Leadership sphere ((follower) package), call in a specialist logistic specialty.</p>\n<p><strong>Benefit:</strong> When using your call in a specialist logistic specialty, you may recruit a specialist from your followers so that the specialist appears in half the time they&#8217;d normally take to arrive. For example, a level 11 commander recruits an equipment specialist, who arrives in 6.5 hours instead of 13.</p>\n<p>In addition, whenever your followers attempt a skill check using your ranks or bonus in Diplomacy, they gain a +2 bonus on that check. If you have 10 or more ranks in Diplomacy, this bonus increases to +4.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897934,
+    "modifiedTime": 1663169295737,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

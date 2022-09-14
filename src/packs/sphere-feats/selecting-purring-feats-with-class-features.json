@@ -3,7 +3,11 @@
   "name": "Selecting Purring Feats with Class Features",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Many classes may select a purring feat with their appropriate class features (subject to GM discretion). Suggestions of appropriate class features include but are not limited to alchemist discoveries, armorist arsenal tricks, blacksmith smithing insights, hedgewitch secrets, investigator talents, magus arcana, rogue talents, shaman and witch hexes, wraith haunts, etc.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897606,
+    "modifiedTime": 1663169295515,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

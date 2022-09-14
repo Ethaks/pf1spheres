@@ -3,7 +3,15 @@
   "name": "Crippling Strike",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may deliver enhancements through a melee touch attack. As a standard action, you may make a single weapon attack in conjunction with making an enhancement. This casting cannot be reduced below a standard action, and does not provoke attacks of opportunity, unless as usual if making a ranged attack. If the target is struck by the attack, it is also struck by the enhancement. If using a scatter weapon, the enhancement only applies to a single target, chosen at the time of attack.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "enhancement"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891101,
+    "modifiedTime": 1663169293644,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

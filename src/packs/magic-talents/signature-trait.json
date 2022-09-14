@@ -3,7 +3,15 @@
   "name": "Signature Trait",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Alteration sphere, caster level 10th.</p>\n<p>Choose a single Alteration sphere trait that you may select as part of a shapeshift. That trait reduces its spell point cost by 1 (to a minimum of 0) and if this reduces it to 0 it does not count as having 1 additional spell point cost for the purposes of your other abilities. This reduction in spell points does not apply to using the trait outside of casting the shapeshift ability (such as with the Transformation feat).</p>\n<p>This talent can be taken multiple times, selecting a different trait each time.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891710,
+    "modifiedTime": 1663169293880,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

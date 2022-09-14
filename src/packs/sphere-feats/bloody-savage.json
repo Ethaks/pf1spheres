@@ -3,7 +3,11 @@
   "name": "Bloody Savage",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Vampiric Casting drawback, bite attack.</p>\n<p><strong>Benefit:</strong> You automatically drain a creature&#8217;s blood (as described by the Vampiric Casting general drawback) as part of any successful bite attack. You may also choose to drain a creature&#8217;s blood as an option made after succeeding at a check to maintain a grapple. When you drain a creature&#8217;s blood, you gain 5 temporary hit points and a +1 bonus on all Constitution-based saves and skill checks for one minute. You may stack the temporary hit points with themselves, up to a maximum amount of 5 temporary hit points for every 3 Hit Dice you possess.</p>\n<p><strong>Special:</strong> If you have taken the Vampiric Casting drawback twice, you additionally gain a +1 bonus to all attack and damage rolls with your bite attack for one minute after draining blood, increasing by +1 at 10th character level and every 10 levels thereafter.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898223,
+    "modifiedTime": 1663169295931,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

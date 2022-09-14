@@ -3,7 +3,15 @@
   "name": "Leaping Rider",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "beastmastery"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can fluidly mount and dismount, transitioning from mounted to unmounted combat with ease.</p>\n<p>You gain the following abilities:</p>\n<ul>\n<li><strong>Leaping Charge:</strong> You may use the leaping dismount ability granted by this talent during a mounted charge attack. If you move at least 10 feet towards the target of your charge attack using leaping dismount, the bonus on attack rolls made at the end of a charge and the penalty to your AC after performing a charge attack both increase by +1 + 1 per 5 ranks of Ride you possess. You are still considered mounted for this charge attack for the purposes of lance damage, mounted combat feats, and other abilities or effects. You may use leaping dismount to move into any unoccupied space within reach of the target of your charge, even if it would not be the closest square for a charge.</li>\n<li><strong>Leaping Dismount:</strong> Whenever you dismount your mount (normally a move action, or as a free action with a successful fast dismount), instead of dismounting into a square adjacent to your mount, you may spend an immediate action to jump, moving in any direction up to 10 feet + 5 feet for every 5 ranks in Ride you possess (without needing to attempt an Acrobatics check to jump). Leaping dismount&#8217;s movement provokes attacks of opportunity as normal.</li>\n<li><strong>Skilled Mount and Dismount:</strong> You can attempt Ride checks to fast mount or fast dismount your mount even if your mount is more than one size category larger than you. You may take 10 on Ride checks to fast mount or fast dismount, even if rushed or threatened.</li>\n</ul>\n<p><strong>Note:</strong> The leaping charge ability granted by this talent allows you to perform a charge attack against a target further than your mount&#8217;s movement provided you move into an empty space within reach of your target with leaping dismount.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "beastmastery"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888013,
+    "modifiedTime": 1663169292615,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Mixed Assault",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dual_wielding.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dualWielding"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you wield a melee weapon in one hand and a ranged weapon in the other, you don&#8217;t provoke attacks of opportunity from firing or reloading while threatened. If you successfully attack two different creatures more than 5 ft. apart from each other in the same round you make an attack using the attack action, you gain a +2 circumstance bonus on damage rolls against each creature until the end of your next turn; for every 5 base attack bonus you have, this bonus increases by +2.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dualWielding"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887840,
+    "modifiedTime": 1663169292265,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

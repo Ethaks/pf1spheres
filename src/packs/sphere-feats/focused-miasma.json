@@ -3,7 +3,11 @@
   "name": "Focused Miasma",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>By focusing your naturally disruptive odor you are able to sap another creature of its willpower.</p>\n<p><strong>Prerequisites:</strong> Fermon alraun, odor of susceptibility.</p>\n<p><strong>Benefit:</strong> By spending a standard action to suppress your odor of susceptibility (provoking attacks of opportunity), you can narrow its effects into a miasma that targets only one creature within 20 feet, increasing its penalty to -2 while it is within this range. This is a mind-affecting effect and creatures that do not need to breathe are immune to its effects. Deactivating focused miasma is a swift action.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897909,
+    "modifiedTime": 1663169295715,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

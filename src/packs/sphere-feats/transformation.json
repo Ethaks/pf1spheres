@@ -3,7 +3,11 @@
   "name": "Transformation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><em>Errata:</em> The Transformation feat (Ultimate Spheres of Power pg. 487) has received an errata, clarifying some interactions and allowing the feat to be taken more than once.</p>\n<p><strong>Benefit:</strong> Choose one (transformation) Alteration sphere talent that does not cost a spell point. If you choose Anthropomorphic Transformation and are humanoid or of a similar makeup, choose another (transformation) or (body) talent to choose traits from for Anthropomorphic Transformation&#8217;s effects.</p>\n<p>As a full-round action, you may assume the form of a single creature whose type corresponds to the chosen (transformation) talent. This functions as the Alteration sphere shapeshift sphere effect as a supernatural ability. The same form and appearance is mimicked each time you assume this form (e.g. the same wolf, spider, treant, etc.). The chosen form may be the same as your base size or Medium or Small, applying size change bonuses and penalties as appropriate if your size would change. This transformation lasts until you choose to revert to your original form as a full-round action.</p>\n<p>While in your chosen form, you gain all the abilities granted by your chosen form (movement modes, natural attacks, special abilities, etc.) but do not gain any additional traits from this shapeshift effect. Treat your Hit Dice as your caster level for the purposes of this effect. If an Alteration sphere effect from your chosen form would use your casting ability modifier (and you do not have one), you use your Charisma modifier to determine the effects (such as the save DC of a trait). This is a polymorph effect.</p>\n<p>You gain the shapechanger subtype.</p>\n<p><strong>Special:</strong> You may gain traits from the Alteration sphere Blank Transformation while under the effects of this feat, even though it is a polymorph effect. This feat counts as possessing the Alteration sphere and the chosen (transformation) talent for the purpose of meeting feat prerequisites. If you possess the Perfect Imitation talent or Shifting Disguise feat, you may make cosmetic changes to your Transformation form per the base Alteration sphere trait.</p>\n<p><strong>Special:</strong> This feat may be taken more than once; each time gaining a new form and selecting any Alteration (transformation) talent or other (transformation) or (body) talent if choosing Anthropomorphic transformation.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898228,
+    "modifiedTime": 1663169295936,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Manabond Channeling",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a manabond, you may create a magical conduit between yourself and the recipient. As long as the manabond holds, you may target the creature with any magic sphere effects with a range of touch or greater as if the creature was in range and you had line of sight and line of effect to the creature. You may not use this ability to channel effects that require an attack roll.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mana"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894070,
+    "modifiedTime": 1663169294637,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

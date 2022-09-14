@@ -3,7 +3,11 @@
   "name": "Sickening Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> You can modify a talent to sicken a creature damaged by the talent. When a creature takes damage from this talent, they become sickened for a number of rounds equal 1/2 the caster level of the spell (minimum 1 round). If the talent allows a saving throw, a successful save negates the sickening effect. If the talent does not allow a save, the target can attempt a Fortitude save to negate the sickening effect. If the talent effect also causes the creature to become sickened, the duration of this metamagic effect is added on to the duration of the talent. Talents that do not inflict damage do not benefit from this effect.</p>\n<p><strong>Cost:</strong> +2 spell points</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897725,
+    "modifiedTime": 1663169295583,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

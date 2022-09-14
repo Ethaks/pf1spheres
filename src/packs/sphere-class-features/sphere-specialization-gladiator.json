@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Gladiator)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Armed Intimidator (Ex):</strong> At 3rd level, whenever the conscript is wielding a weapon with the performance special feature, or any weapon from the Gladiator Training discipline, he may add its enhancement bonus (if any) to his Intimidate checks.</p>\n<p><strong>Celebrity Combatant (Ex):</strong> From 8th level on, the conscript treats every battle as a performance combat as long as he is wielding a weapon with the performance special feature or a weapon from the Gladiator Training discipline, treating his allies and other creatures participating in the combat as a small, indifferent crowd for the purposes of determining what benefits he receives. In addition, whenever he begins a performance combat, he starts with a number of victory points equal to half his practitioner modifier (rounded down, minimum 1).</p>\n<p><strong>Gladiatorial Weapon Master (Ex):</strong> Once the conscript reaches 20th level, whenever he threatens a critical hit with a weapon with the performance special feature or any weapon from the Gladiator Training discipline, he automatically confirms the critical threat. In addition, he is always treated as having the Improved Critical feat for any of these weapons.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900982,
+    "modifiedTime": 1663169297190,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

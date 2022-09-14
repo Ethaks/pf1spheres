@@ -3,7 +3,15 @@
   "name": "Ursine Blow",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "bear"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When using the bear strength bearacteristic and successfully striking a corporeal target, you may spend an additional spell point to compare the result of your attack roll to your opponent&#8217;s CMD. If your attack roll is higher, the target is knocked flying 10 ft. in a single direction of your choice and falls prone. The target cannot move closer to you than its starting square, and if an obstacle prevents the completion of the target&#8217;s move, it strikes the obstacle and each take 1d6 points of damage before the target falls prone in an adjacent space.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "bear"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892426,
+    "modifiedTime": 1663169293998,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Collapse Armor",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The mageknight can treat any armor she wears as having the collapsible special ability, except that she may collapse or recall the armor as a swift action instead of a full-round action, and she may choose which piece the armor collapses into each time she uses this ability. This allows the mageknight to wear multiple suits of armor and allows her to collapse one and recall another as part of the same action, though it does not allow her to benefit from more than one suit at a time. She may spend a spell point to collapse or recall her armor as a free action instead of a swift action.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900373,
+    "modifiedTime": 1663169296502,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

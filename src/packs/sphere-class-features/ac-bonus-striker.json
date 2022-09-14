@@ -3,7 +3,11 @@
   "name": "AC Bonus (Striker)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When wearing light armor or no armor, not carrying a shield, and unencumbered, the striker adds her Constitution bonus (if any) to her AC and her CMD; this bonus cannot exceed her class level. (A 1st level striker with 16 Constitution still gains only a +1 bonus to her armor class from this class feature.) This AC bonus does not stack with any class features which share the same name as it.</p>\n<p>This bonus to AC applies even against touch attacks or when the striker is flat-footed. She loses these bonuses when she is immobilized or helpless, when she wears medium or heavy armor, uses a shield, or when she carries a medium or heavy load.</p>\n<p><sup><strong>Wiki Note:</strong> This stacks with the Equipment Sphere's Unarmored Training talent. You can also get Unarmored Training as a Striker Art. (<a href=\"http://www.giantitp.com/forums/showsinglepost.php?p=23312776&amp;postcount=308\">Source</a>)</sup></p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900144,
+    "modifiedTime": 1663169296296,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

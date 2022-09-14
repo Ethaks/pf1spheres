@@ -3,7 +3,11 @@
   "name": "Lucky Streak",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> When you successfully confirm a critical hit, you may spend a kismet point to make an extra attack at your highest base attack bonus as an immediate action. If this attack hits, increase its critical threat range by +1. This bonus is applied after abilities such Improved Critical or the keen weapon special ability and cannot be doubled.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897967,
+    "modifiedTime": 1663169295761,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Goblin Heritage",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You gain proficiency with the the brutal bola, dogslicer, garrote, horsechopper, light flail, machete, sap, shortbow, spiked chain, swordbreaker dagger and torch. In addition, when you wield a torch as a weapon it is considered a club that deals an additional 1d4 fire damage on a successful hit if the torch is lit. <strong>Associated Feat:</strong> Fire Hand, Burn! Burn! Burn!.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887914,
+    "modifiedTime": 1663169292320,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

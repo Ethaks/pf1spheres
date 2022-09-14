@@ -3,7 +3,15 @@
   "name": "Control Figment",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/illusion.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "illusion"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a full-round action you may attempt a magic skill check against the magic skill defense of the controller of an existing figment. If successful you gain control of the figment and may command it as if it was your effect. Treat the figment in all ways as if it was cast by you except this does not change any of the original variables related to caster level, Illusion sphere talents, class abilities or spell points. You however must remain within the maximum range that you may control illusions to maintain this effect as normal.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "illusion"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894270,
+    "modifiedTime": 1663169294808,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

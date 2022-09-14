@@ -3,7 +3,15 @@
   "name": "Dust Cloud",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You place this shroud on a target creature, filling the air it breathes with dry dust. At the beginning of each turn the target must succeed on a Fortitude save or begin coughing, becoming staggered for one round.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "weather"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894666,
+    "modifiedTime": 1663169294981,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

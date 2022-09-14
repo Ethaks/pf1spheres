@@ -3,7 +3,15 @@
   "name": "Fey Adept",
   "type": "class",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": "high"
+    }
+  },
+  "system": {
     "description": {
       "value": "Fey Adepts specialize in using illusion and the creation of partially-real shadows to get their job done.\n<p><strong>Role:</strong> Fey adepts are versatile casters and experts of trickery.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d6</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The fey adept&#8217;s class skills are Appraise (Int), Bluff (Cha), Craft (Int), Disguise (Cha), Escape Artist (Dex), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (local) (Int), Knowledge (nature) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Sense Motive (Wis), Sleight of Hand (Dex), Spellcraft (Int), Stealth (Dex), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n",
       "chat": "",
@@ -26,8 +34,7 @@
           "name": "Weapon and Armor Proficiency (Fey Adept)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0,
-          "hiddenLinks": {}
+          "_index": 0
         },
         {
           "id": "pf1spheres.class-features.Hnr6QYMJG6UeP5YC",
@@ -35,8 +42,7 @@
           "name": "Casting (Fey Adept)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1,
-          "hiddenLinks": {}
+          "_index": 1
         },
         {
           "id": "pf1spheres.class-features.IhypKTZwYP1UWDNT",
@@ -44,8 +50,7 @@
           "name": "Spell Pool (Fey Adept)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2,
-          "hiddenLinks": {}
+          "_index": 2
         },
         {
           "id": "pf1spheres.class-features.zHPAHCiCfQcXuZcx",
@@ -53,8 +58,7 @@
           "name": "Magic Talents (Fey Adept)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 3,
-          "hiddenLinks": {}
+          "_index": 3
         },
         {
           "id": "pf1spheres.class-features.WlpIXIp3dOyYT5XF",
@@ -62,8 +66,7 @@
           "name": "Fey Magic",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 4,
-          "hiddenLinks": {}
+          "_index": 4
         },
         {
           "id": "pf1spheres.class-features.DiDB6XBAFubdxBKV",
@@ -71,8 +74,7 @@
           "name": "Master Illusionist",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 5,
-          "hiddenLinks": {}
+          "_index": 5
         },
         {
           "id": "pf1spheres.class-features.mCMj24cAanA6nwaZ",
@@ -80,8 +82,7 @@
           "name": "Shadowstuff",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 6,
-          "hiddenLinks": {}
+          "_index": 6
         },
         {
           "id": "pf1spheres.class-features.BWe5x3EMVakRuDhq",
@@ -89,8 +90,7 @@
           "name": "Darkvision",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 7,
-          "hiddenLinks": {}
+          "_index": 7
         },
         {
           "id": "pf1spheres.class-features.HwjagvCDwpSLYlk5",
@@ -98,8 +98,7 @@
           "name": "Truesight",
           "img": "icons/svg/item-bag.svg",
           "level": 4,
-          "_index": 8,
-          "hiddenLinks": {}
+          "_index": 8
         },
         {
           "id": "pf1spheres.class-features.Q6LcDPnz8agpB2JX",
@@ -107,8 +106,7 @@
           "name": "Hide in Plain Sight",
           "img": "icons/svg/item-bag.svg",
           "level": 10,
-          "_index": 9,
-          "hiddenLinks": {}
+          "_index": 9
         },
         {
           "id": "pf1spheres.class-features.H5wrk9Fe60herRso",
@@ -116,8 +114,7 @@
           "name": "See in Darkness",
           "img": "icons/svg/item-bag.svg",
           "level": 14,
-          "_index": 10,
-          "hiddenLinks": {}
+          "_index": 10
         },
         {
           "id": "pf1spheres.class-features.rfgL5maVMMlNBFnn",
@@ -125,8 +122,7 @@
           "name": "Feytouched",
           "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 11,
-          "hiddenLinks": {}
+          "_index": 11
         },
         {
           "id": "pf1spheres.class-features.lMpEfS79KpQyTTP4",
@@ -134,12 +130,11 @@
           "name": "Permanent Illusion",
           "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 12,
-          "hiddenLinks": {}
+          "_index": 12
         }
       ]
     },
-    "tag": "",
+    "tag": "feyAdept",
     "useCustomTag": false,
     "armorProf": {
       "value": [],
@@ -230,17 +225,18 @@
     "identifiedName": "Fey Adept",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "casterProgression": "high"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168899467,
+    "modifiedTime": 1663169295997,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

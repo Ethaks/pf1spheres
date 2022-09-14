@@ -3,7 +3,11 @@
   "name": "Curse Mastery",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Innate Curse.</p>\n<p><strong>Benefit:</strong> You gain all the benefits of your oracle curse; both the base benefit as well as the benefits that come with increasing in level (treat your magic skill bonus as your oracle level).</p>\n<p><strong>Special:</strong> If your curse provides you with spells known, instead of normally granting bonus spells (for example, Haunted), you do not gain spells or talents. Instead, you gain a bonus spell point at the levels you would normally gain the spells.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897969,
+    "modifiedTime": 1663169295762,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

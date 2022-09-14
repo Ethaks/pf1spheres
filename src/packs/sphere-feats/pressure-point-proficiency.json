@@ -3,7 +3,11 @@
   "name": "Pressure Point Proficiency",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Mind sphere, Improved Unarmed Strike.</p>\n<p><strong>Benefit:</strong> By studying precisely where and how to strike your enemies, you can interrupt the biological processes that contribute to mental stability. If you make a successful unarmed strike against an opponent, it takes a -1 penalty to all Will saves until the end of your next turn. Multiple strikes you make against the same target do not stack, and the penalty to Will saves can apply to mind-affecting effects channeled through the strike.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897922,
+    "modifiedTime": 1663169295723,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

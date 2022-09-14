@@ -3,7 +3,11 @@
   "name": "Home in Nature",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The shifter gains a favored terrain, as the ranger class feature. She may select this trait once at 2nd level, plus an additional time for every 4 shifter levels she possesses beyond 2nd. Each time this trait is gained beyond the first, she gains an additional favored terrain, and the bonuses granted in one of her favored terrains (even the one just selected if she desires) increases by 2.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900822,
+    "modifiedTime": 1663169296903,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

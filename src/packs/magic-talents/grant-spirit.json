@@ -3,7 +3,15 @@
   "name": "Grant Spirit",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When activating one of your spirit Nature abilities, you may touch a willing target and grant them the benefit of your (spirit) talent, rather than gaining it yourself. This can only be done with (spirit) talents that have a non-concentration duration, and requires a minimum of a standard action when granting an effect to another.</p>\n<p>You may take this talent twice. When taken twice, you may spend an additional spell point to affect up to 1 additional creature per 2 caster levels (minimum 1). Each target must be within range and must be affected by the same (spirit) talent and ability. Once created, each spirit is considered a separate sphere effect. Taking this talent twice is considered a mass talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894654,
+    "modifiedTime": 1663169294971,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

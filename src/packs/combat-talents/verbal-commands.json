@@ -3,7 +3,15 @@
   "name": "Verbal Commands",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warleader.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warleader"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Creatures may benefit from your tactics even if they cannot see you, as long as they can hear your instructions; this allows creatures who are blind, but not deaf, to benefit from your tactics. You must still be able to see affected creatures and the area within your tactic&#8217;s radius to issue commands, but need not have direct line of sight or line of effect; for example, if you are watching an area through a magical viewing device and have a method of communicating verbally with affected allies in the area each round, you can maintain a tactic and grant its benefits to your allies without being physically present.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warleader"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888187,
+    "modifiedTime": 1663169292776,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

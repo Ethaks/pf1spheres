@@ -3,7 +3,15 @@
   "name": "Jagged Edge",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "barroom"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You know how to break an object to use its jagged edges to your advantage. You may break a melee or thrown weapon when you attack a creature to deal 1d4 points of bleed damage to that opponent. <strong>Associated Feat:</strong> Splintering Weapon.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "barroom"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887839,
+    "modifiedTime": 1663169292265,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

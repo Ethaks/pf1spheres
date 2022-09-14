@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Illusion)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Extended Illusions (Su):</strong> At 3rd level, any illusion the incanter creates and maintains through concentration lasts a number of additional rounds equal to 1/2 his incanter level after he stops maintaining concentration (minimum +1).</p>\n<p><strong>Bedeviling Aura (Su):</strong> At 8th level, as a standard action you can emit a 30-foot aura that bedevils your enemies with phantasmal assailants. Enemies within this aura move at half speed, are unable to take attacks of opportunity, and are considered to be flanked. This is a mind-affecting effect. Maintaining this effect is a free action, and you can use this ability for a number of rounds per day equal to your incanter level. These rounds do not need to be consecutive.</p>\n<p><strong>Permanent Illusion:</strong> At 20th level, the incanter can make one illusion permanent. He can have no more than one illusion made permanent in this way at one time. If he designates another illusion as permanent, the previous permanent illusion ends.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900662,
+    "modifiedTime": 1663169296766,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

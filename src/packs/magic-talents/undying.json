@@ -3,7 +3,15 @@
   "name": "Undying",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Protection sphere (Deathless (aegis)), caster level 7th.</p>\n<p>When you create a Deathless aegis, you may spend an additional spell point to create an Undying aegis instead. In addition to the effects of the Deathless aegis, the subject is immune to energy drain and any negative energy effects, including channeled negative energy.</p>\n<p>This aegis does not remove negative levels that the subject has already gained, but it does remove the penalties from negative levels for the duration of its effect.</p>\n<p>This aegis does not protect against other sorts of attacks, even if those attacks might be lethal.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890422,
+    "modifiedTime": 1663169293269,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

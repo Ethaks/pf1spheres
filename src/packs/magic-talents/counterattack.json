@@ -3,7 +3,15 @@
   "name": "Counterattack",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/war.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "war"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When an enemy misses an ally with a melee attack, you may spend a spell point to rally that ally, allowing them to make an attack with a natural or manufactured weapon on the enemy that missed them. If the attack hits, the ally gains a +4 dodge bonus against that enemy until the end of their next turn. If the ally was flat-footed against the enemy, they are no longer flat-footed.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "war"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890772,
+    "modifiedTime": 1663169293555,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

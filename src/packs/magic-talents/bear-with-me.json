@@ -3,7 +3,15 @@
   "name": "Bear With Me",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "bear"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may touch a target and spend a spell point to grant them the benefits of your bear spirit for 1 minute per caster level. The target gains the benefits of any (bearacteristic) talents you possess that apply whenever you are channeling a bear spirit, and you may spend spell points as normal to activate any bearacteristics with a duration. However, the target does not gain access to bearacteristics you possess that require an action to activate.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "bear"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890543,
+    "modifiedTime": 1663169293367,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

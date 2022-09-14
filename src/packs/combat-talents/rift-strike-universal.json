@@ -3,7 +3,15 @@
   "name": "Rift Strike, Universal",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "berserker"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Berserker sphere (Rift Strike (legendary)), base attack bonus +17.</p>\n<p>You may expend your martial focus whenever you use your Berserker sphere Rift Strike talent. If you do, your Rift Strike&#8217;s maximum range becomes unlimited, allowing you to even teleport between planets, and may be used for interplanar travel, allowing you to teleport to alternate dimensions or planes. You must know the plane or planet you are trying to reach, as well as where within or on that planet you would like to appear.</p>\n<p>If you do not know a specific location to appear on that plane or planet, you may still use Rift Strike to travel there, but you may appear anywhere on that plane.</p>\n<p>You may not use this talent to travel between a plane or planet if you are fatigued or exhausted.</p>\n<p><strong>Note:</strong> A private or secret plane or demiplane may not be traveled to using this talent unless you possess permission from the plane&#8217;s creator or owner, an appropriate tuning fork or key, or other object which anchors or strongly originates from that plane (subject to GM discretion).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "berserker"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886073,
+    "modifiedTime": 1663169291747,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

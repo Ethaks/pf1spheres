@@ -3,7 +3,11 @@
   "name": "Battlefield Tactics",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> War sphere, Squadron Commander; or Warleader sphere, Troop Commander.</p>\n<p><strong>Benefit:</strong> You may give your actions to members of your squadron. The type of action required to do this is equal to the type of action given: swift, move, standard, full-round, or attack of opportunity. If you give an attack of opportunity action to another squadron member, they must use it to attack the target that provoked the attack of opportunity from you. A character can not receive more than one extra action per round this way, regardless of how many squadrons they might be a member of.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897922,
+    "modifiedTime": 1663169295723,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

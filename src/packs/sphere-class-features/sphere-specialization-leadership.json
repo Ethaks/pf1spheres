@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Leadership)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Cohort Coordination:</strong> At 3rd level and every five levels thereafter, a conscript gains a teamwork feat he qualifies for as a bonus feat. The conscript may share these feats with any cohort within close range (25 feet + 5 feet per 2 class levels), even if they would not normally qualify for it.</p>\n<p><strong>Directed Motion:</strong> At 8th level, the conscript may grant an additional move action to a number of cohorts equal to his practitioner ability modifier (minimum 1) as a move action. This additional move action may only be used to move.</p>\n<p><strong>True Leader:</strong> At 20th level, the conscript&#8217;s cohorts gain a morale bonus to AC and all saving throws equal to the conscript's practitioner ability modifier and fast healing 5.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900768,
+    "modifiedTime": 1663169296857,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

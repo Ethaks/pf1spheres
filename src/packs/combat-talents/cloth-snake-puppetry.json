@@ -3,7 +3,15 @@
   "name": "Cloth Snake Puppetry",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>While in this stance, you can use any long, flexible objects like strings, ropes, sashes, chains, etc. as an extension of your own body. As part of the action you use to enter this stance, you may draw or pick up an unattended object within reach capable of use with this talent. While holding such an object in your hand, you may use it to increase your natural reach for grabbing objects, manipulating objects, and performing the bull rush, dirty trick, disarm, drag, steal, and trip maneuvers. The increased reach is limited by the length of the object used, to a maximum of 10 feet.</p>\n<p>For every 4 base attack bonus you possess, the maximum potential reach of the object increases by 5 feet and you gain a +1 bonus to CMB for combat maneuvers made with the object. These objects count as grappling hooks for the purposes of talents such as Get Over Here! and Rope Swing.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888180,
+    "modifiedTime": 1663169292769,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

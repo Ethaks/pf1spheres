@@ -3,7 +3,11 @@
   "name": "Eldritch Craft",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your strange magics bleed into the devices you forge.</p>\n<p><strong>Prerequisite:</strong> Any item creation feat.</p>\n<p><strong>Benefit:</strong> Any magic items that you craft share the benefits of boons that you possess. For example, you possess the Alien Source boon, creatures take penalties to counterspell the item and spell resistance against the item&#8217;s effects. Similarly, the item&#8217;s caster level would increase in specific weather conditions if you possess the Atmoturgy boon or when at least three creatures are already affected by the item if you possess the Draw Magic boon. Boons which apply negative conditions (such as Overcharge) or which are dependent upon certain factors of the user (such as Deathful Magic) consider the state of the creature using the effect rather than the item to determine effects. This feat cannot be used in conjunction with boons that require a specific drawback such as Fortified Casting.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898194,
+    "modifiedTime": 1663169295915,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

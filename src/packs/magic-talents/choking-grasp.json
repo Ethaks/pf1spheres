@@ -3,7 +3,15 @@
   "name": "Choking Grasp",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere (Telekinetic Crush), caster level 15th.</p>\n<p>As either a stand-alone standard action or as part of maintaining a Hostile Lift, you may spend 2 spell points to suffocate a target within your telekinesis range. The target must succeed at a Fortitude save or have its hit points drop to 0 and fall unconscious on its next turn as if it had failed a Constitution check against suffocation. Next round, the target must succeed at a second Fortitude save or drop to -1 hit points begin dying.</p>\n<p>In the round following that they must succeed at another Fortitude save or suffocate and die. Succeeding on any of these saves prevents further saves and stops the effects from worsening, but does not negate the effects of any previously failed saves. This talent only affects living creatures that must breathe.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892670,
+    "modifiedTime": 1663169294236,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

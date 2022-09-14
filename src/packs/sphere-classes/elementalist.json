@@ -3,7 +3,15 @@
   "name": "Elementalist",
   "type": "class",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": "mid"
+    }
+  },
+  "system": {
     "description": {
       "value": "Elementalists specialize in the command and control of elemental magic, using it to control the battle area, protect allies, and rain destruction down upon their foes.\n<p><strong>Role:</strong> Elementalists are magical warriors, wielding elemental damage with the same skill and tactical precision a fighter might wield their sword or bow.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The elementalist&#8217;s class skills are Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Escape Artist (Dex), Fly (Dex), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (nature) (Int), Knowledge (planes) (Int), Perception (Wis), Profession (Wis), Spellcraft (Int), Stealth (Dex), Survival (Wis), and Swim (Str).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n",
       "chat": "",
@@ -26,8 +34,7 @@
           "name": "Weapon and Armor Proficiency (Elementalist)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0,
-          "hiddenLinks": {}
+          "_index": 0
         },
         {
           "id": "pf1spheres.class-features.tFBWYHszlFt4TIAy",
@@ -35,8 +42,7 @@
           "name": "Casting (Elementalist)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1,
-          "hiddenLinks": {}
+          "_index": 1
         },
         {
           "id": "pf1spheres.class-features.6VTAL88ucqnoauZP",
@@ -44,8 +50,7 @@
           "name": "Spell Pool (Elementalist)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2,
-          "hiddenLinks": {}
+          "_index": 2
         },
         {
           "id": "pf1spheres.class-features.0VGlPGnhAvKHLPKn",
@@ -53,8 +58,7 @@
           "name": "Magic Talents (Elementalist)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 3,
-          "hiddenLinks": {}
+          "_index": 3
         },
         {
           "id": "pf1spheres.class-features.TYLqVJ4KWVwr5hAM",
@@ -62,8 +66,7 @@
           "name": "Weave Energy",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 4,
-          "hiddenLinks": {}
+          "_index": 4
         },
         {
           "id": "pf1spheres.class-features.BOJhJIoAsQV4UgFE",
@@ -71,8 +74,7 @@
           "name": "Evasion (Elementalist)",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 5,
-          "hiddenLinks": {}
+          "_index": 5
         },
         {
           "id": "pf1spheres.class-features.PBb9uwDacpHjrBxv",
@@ -80,8 +82,7 @@
           "name": "Combat Feat (Elementalist)",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 6,
-          "hiddenLinks": {}
+          "_index": 6
         },
         {
           "id": "pf1spheres.class-features.7intbfLghSFBMGhA",
@@ -89,8 +90,7 @@
           "name": "Favored Element",
           "img": "icons/svg/item-bag.svg",
           "level": 3,
-          "_index": 7,
-          "hiddenLinks": {}
+          "_index": 7
         },
         {
           "id": "pf1spheres.class-features.eK7r15fDYQmdzdLt",
@@ -98,8 +98,7 @@
           "name": "Dodge Bonus",
           "img": "icons/svg/item-bag.svg",
           "level": 4,
-          "_index": 8,
-          "hiddenLinks": {}
+          "_index": 8
         },
         {
           "id": "pf1spheres.class-features.IcqfhA8KncAFAtqP",
@@ -107,8 +106,7 @@
           "name": "Elemental Defense (Elementalist)",
           "img": "icons/svg/item-bag.svg",
           "level": 5,
-          "_index": 9,
-          "hiddenLinks": {}
+          "_index": 9
         },
         {
           "id": "pf1spheres.class-features.U3Md7Py0aCPG5OMH",
@@ -116,8 +114,7 @@
           "name": "Elemental Movement",
           "img": "icons/svg/item-bag.svg",
           "level": 7,
-          "_index": 10,
-          "hiddenLinks": {}
+          "_index": 10
         },
         {
           "id": "pf1spheres.class-features.RCZkvQw6J6n0oZb8",
@@ -125,8 +122,7 @@
           "name": "Improved Evasion (Elementalist)",
           "img": "icons/svg/item-bag.svg",
           "level": 11,
-          "_index": 11,
-          "hiddenLinks": {}
+          "_index": 11
         },
         {
           "id": "pf1spheres.class-features.Ce8vjrtr2dBvRO1R",
@@ -134,12 +130,11 @@
           "name": "Energy Body",
           "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 12,
-          "hiddenLinks": {}
+          "_index": 12
         }
       ]
     },
-    "tag": "",
+    "tag": "elementalist",
     "useCustomTag": false,
     "armorProf": {
       "value": [],
@@ -230,17 +225,18 @@
     "identifiedName": "Elementalist",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "casterProgression": "mid"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168899463,
+    "modifiedTime": 1663169295995,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

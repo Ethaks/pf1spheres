@@ -3,7 +3,15 @@
   "name": "Armiger",
   "type": "class",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  },
+  "system": {
     "description": {
       "value": "“Right tool, right job.”\n<p>A warrior trained in a variety of weapons, mastering different techniques with each, able to quickly bring the best tool to bear against her foes.</p>\n<p><strong>Role:</strong> The armiger is formidable in both ranged and melee combat, able to master a variety of weapons.</p>\n<p><strong>Alignment:</strong> Any.</p>\n<p><strong>Hit Die:</strong> d10</p>\n<p><strong>Starting Wealth:</strong> 5d6 x 10 gp (average 175 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Starting Age:</strong> Self-taught</p>\n<p><strong>Class Skills:</strong> The armiger&#8217;s class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Intimidate (Cha), Knowledge (dungeoneering) (Int), Knowledge (geography) (Int), Knowledge (local) (Int), Knowledge (nobility) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Sleight of Hand (Dex), Survival (Wis), and Swim (Str).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n<p><strong>Proficiencies:</strong> Armigers are proficient with simple weapons, as well as light armor and bucklers. In addition, if this is this character&#8217;s first level in any class, they may select a martial tradition of their choice.</p>\n\n<h2>Combat Training</h2>\n<p>An armiger may combine combat spheres and talents to create powerful martial techniques. Armigers use the Proficient talent progression. When they gain their first level in the armiger class, armigers may choose either Charisma, Intelligence or Wisdom as their practitioner modifier.</p>\n",
       "chat": "",
@@ -26,8 +34,7 @@
           "name": "Customized Weapons",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0,
-          "hiddenLinks": {}
+          "_index": 0
         },
         {
           "id": "pf1spheres.class-features.nkcqLdLqqItqkYpi",
@@ -35,8 +42,7 @@
           "name": "Quick Change (Armiger)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1,
-          "hiddenLinks": {}
+          "_index": 1
         },
         {
           "id": "pf1spheres.class-features.i4Q0l5kRqi7dBtiN",
@@ -44,8 +50,7 @@
           "name": "Prowess",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 2,
-          "hiddenLinks": {}
+          "_index": 2
         },
         {
           "id": "pf1spheres.class-features.eAc0tDnFizX3hS3x",
@@ -53,8 +58,7 @@
           "name": "Focusing Switch",
           "img": "icons/svg/item-bag.svg",
           "level": 3,
-          "_index": 3,
-          "hiddenLinks": {}
+          "_index": 3
         },
         {
           "id": "pf1spheres.class-features.vOzcNmnCHav7vFjz",
@@ -62,8 +66,7 @@
           "name": "Rapid Assault",
           "img": "icons/svg/item-bag.svg",
           "level": 5,
-          "_index": 4,
-          "hiddenLinks": {}
+          "_index": 4
         },
         {
           "id": "pf1spheres.class-features.LrNMHH5Fg3ffwNcM",
@@ -71,8 +74,7 @@
           "name": "Enhanced Customization",
           "img": "icons/svg/item-bag.svg",
           "level": 5,
-          "_index": 5,
-          "hiddenLinks": {}
+          "_index": 5
         },
         {
           "id": "pf1spheres.class-features.gCM1hZCushWQpH9s",
@@ -80,8 +82,7 @@
           "name": "Lightning Change",
           "img": "icons/svg/item-bag.svg",
           "level": 7,
-          "_index": 6,
-          "hiddenLinks": {}
+          "_index": 6
         },
         {
           "id": "pf1spheres.class-features.6lo8hxts38XFyb4f",
@@ -89,8 +90,7 @@
           "name": "Lightning Assault",
           "img": "icons/svg/item-bag.svg",
           "level": 15,
-          "_index": 7,
-          "hiddenLinks": {}
+          "_index": 7
         },
         {
           "id": "pf1spheres.class-features.iLH8qZVF2GCwXg6u",
@@ -98,12 +98,11 @@
           "name": "Unlimited Assault",
           "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 8,
-          "hiddenLinks": {}
+          "_index": 8
         }
       ]
     },
-    "tag": "",
+    "tag": "armiger",
     "useCustomTag": false,
     "armorProf": {
       "value": ["lgt"],
@@ -194,17 +193,18 @@
     "identifiedName": "Armiger",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "casterProgression": ""
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168899453,
+    "modifiedTime": 1663169295983,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Protean Mastery",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may add the following traits to your forms:</p>\n<p><strong>Belated Shift:</strong> You may spend an additional spell point to leave one trait option unassigned. You may assign any valid trait to this slot at any time as a swift action, or spend a spell point to do so as an immediate action, paying any spell points required for the chosen trait at that time. Once assigned, the trait persists for 1 minute and cannot be changed again until 1 minute after expiring. The target must be within close range or the range of your shapeshift for you to assign a trait in this fashion.</p>\n<p><strong>Close Wounds:</strong> The target gains the ability to end any ongoing bleed effects it suffers from as a swift action.</p>\n<p><strong>Lycanthropic Hide:</strong> The target gains DR 3/silver. This improves by +1 per 5 caster levels.</p>\n<p><strong>Shift Organs:</strong> The target gains a 25% ability to ignore critical hits and precision damage, which increases by 25% per 10 caster levels, to a maximum of 100%.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891838,
+    "modifiedTime": 1663169293920,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

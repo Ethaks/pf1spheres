@@ -3,7 +3,15 @@
   "name": "Aerial Trigger",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can give your traps a trigger that extends to the air to affect flying creatures. Creatures up to 10 feet per rank in Craft (traps) over the area occupied by your traps can trigger them as normal.</p>\n<p>If your trap would knock the flying creature prone, it is instead battered until the end of its next turn. If your trap entangles the flying creature and prevents it from moving from the triggering square, it is pulled harmlessly to the triggering square.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "trap"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885555,
+    "modifiedTime": 1663169291560,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

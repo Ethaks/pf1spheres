@@ -3,7 +3,11 @@
   "name": "Ammunition Specialist",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When the armorist summons a ranged weapon or calls a bound ranged weapon, she may summon non-basic ammunition. If it is a firearm it can be summoned with paper alchemical cartridges. Additionally, the armorist may summon up to 10 gp per armorist level of specialist ammunition; this ammunition replaces pieces of normal ammunition such that the summoned amount is still 50.</p>\n<p>This arsenal trick can be taken twice. If taken a second time, increase the value of summoned non-basic ammunition to 25 gp per armorist level.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900139,
+    "modifiedTime": 1663169296289,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

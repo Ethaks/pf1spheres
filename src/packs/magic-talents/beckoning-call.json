@@ -3,7 +3,15 @@
   "name": "Beckoning Call",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallenFey"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You gain the ability to, as a standard action, sing, speak, or dance in such a manner as to cause any creature of one non-fey specific form of creature (humans, rats, orcs, birds, etc., chosen when this fey-blessing is activated) within 60 feet who can see and hear you to become fascinated with you (Will negates). A creature that successfully saves cannot be targeted with your beckoning call for 24 hours. If a creature fails its saving throw, it approaches to sit before you, and follows you if you move, so long as you take a standard action each round to maintain the effect. As normal, fascinated creatures suffer a -4 penalty to Perception, but cease to be fascinated if attacked or approached with an obviously hostile intent, such as someone drawing a weapon. This is a mind-affecting effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fallenFey"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890765,
+    "modifiedTime": 1663169293550,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Vegetalker",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The forest speak to you as plainly as any other living creature.</p>\n<p><strong>Prerequisites:</strong> Plant type or subtype.</p>\n<p><strong>Benefit:</strong> You may speak with plants, as if constantly under the effects of a speak with plants spell or the Speak with Plants Nature talent, with a caster level equal to your hit dice.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897923,
+    "modifiedTime": 1663169295724,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

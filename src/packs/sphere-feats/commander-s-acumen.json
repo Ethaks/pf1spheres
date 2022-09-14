@@ -3,7 +3,11 @@
   "name": "Commander’s Acumen",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your intricate plans come into motion faster.</p>\n<p><strong>Prerequisites:</strong> Warleader sphere, tactician class feature.</p>\n<p><strong>Benefit:</strong> You may begin a tactic as part of the same action as your tactician ability. Your tactic must still be maintained each round as normal.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897504,
+    "modifiedTime": 1663169295466,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

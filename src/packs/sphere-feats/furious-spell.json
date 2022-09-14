@@ -3,7 +3,11 @@
   "name": "Furious Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> A furious talent that deals hit point damage adds the talent&#8217;s caster level to the amount of damage dealt by the talent. Talents that affect multiple targets deal the extra damage once to each target, regardless of whether the talent deals its damage all at once or in multiple hits (in the latter case, add the extra damage to the first hit against each target). In addition, a furious talent can be cast while the caster is enraged, including during a barbarian rage or while affected by a rage talent. Even a furious talent that requires an emotion component (as required by the Emotional Casting drawback) can be cast while enraged. The caster gains a +2 circumstance bonus on concentration checks and magic skill checks related to casting a furious talent if she is enraged.</p>\n<p><strong>Cost:</strong> +1 spell point</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897610,
+    "modifiedTime": 1663169295516,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

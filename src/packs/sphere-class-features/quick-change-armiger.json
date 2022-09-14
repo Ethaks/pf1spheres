@@ -3,7 +3,11 @@
   "name": "Quick Change (Armiger)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 1st level, an armiger gains the benefits of the Quick Draw feat with her customized weapons and may stow customized weapons as a free action once per round, plus one additional time at 5th level and every 5 levels thereafter. This class feature counts as possessing the Quick Draw feat for the purposes of meeting the prerequisites of other feats, though any feat qualified for this way may only be applied to customized weapons.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900940,
+    "modifiedTime": 1663169297145,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

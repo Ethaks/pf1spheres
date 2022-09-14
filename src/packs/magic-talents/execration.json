@@ -3,7 +3,15 @@
   "name": "Execration",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Fate sphere (at least one [curse] (word) talent), caster level 10th.</p>\n<p>When you spend a spell point to allow a word with the [curse] descriptor to continue without concentration, you may spend an additional 2 spell points to increase the duration to permanent. A permanent curse cannot be dispelled, but it may be broken through the Break Enchantment Life talent, as well as spells such as break enchantment, limited wish, miracle, remove curse, or wish. You may remove a permanent curse that you placed on a target as a standard action as long as the target is within your word range.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891699,
+    "modifiedTime": 1663169293869,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Master Engineer",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When you learn the ins and outs of an engine, you can coax more from it than another engineer could.</p>\n<p><strong>Prerequisites:</strong> Profession (engineer) 5 ranks.</p>\n<p><strong>Benefit:</strong> When you serve as a ship&#8217;s engineer for at least 1 week, you can coax greater feats than normal from that ship&#8217;s engine. When pushing an engine, its power increases by 75%. When overloading the engine, its power increases by 150%. When successfully aiding the pilot, you grant them an additional +2 bonus to their piloting checks.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897478,
+    "modifiedTime": 1663169295450,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Sense Presence",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "divination"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend 1 spell point and select a kind of creature, material, or other effect that you could divine for or that you could distinguish using divine (for example, if you possess Divine Alignment, you could select all creatures of a specific alignment). You automatically detect the presence of entities of the specified kind within the range of your divine. This does not tell you the exact location of such entities, just whether or not any are within the area. You may change the type of creature, material, or effect whose presence you are sensing with this talent as a full-round action.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "divination"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890815,
+    "modifiedTime": 1663169293592,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

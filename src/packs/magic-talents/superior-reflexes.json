@@ -3,7 +3,15 @@
   "name": "Superior Reflexes",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may enhance creatures, giving them a +1 bonus to initiative and allowing them to make an additional attack of opportunity each round. In addition, they may make attacks of opportunity while flat-footed.</p>\n<p>At 5th caster level, and every 4 levels thereafter, increase to bonus to initiative by +1 and the number of additional attacks of opportunity by 1.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "enhancement"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894283,
+    "modifiedTime": 1663169294820,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

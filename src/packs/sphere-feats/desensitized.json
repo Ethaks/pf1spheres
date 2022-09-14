@@ -3,7 +3,11 @@
   "name": "Desensitized",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your experience with the horrific dulls the impact of atrocities.</p>\n<p><strong>Benefits:</strong> Whenever you would take sanity damage, that sanity damage is reduced by 1 for every lesser madness you possess and by 3 for every greater madness you possess. This cannot reduce sanity damage taken below 1.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898193,
+    "modifiedTime": 1663169295914,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

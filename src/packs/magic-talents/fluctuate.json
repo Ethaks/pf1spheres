@@ -3,7 +3,15 @@
   "name": "Fluctuate",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>By spending a spell point you can charge a target with spatial instability. Each turn they may teleport as a swift action, with the range decreased to 10 feet plus an additional 5 feet per 4 caster levels. This effect lasts as long as you concentrate. As a free action you may spend a spell point to allow the effect to continue for 1 round per caster level without the need for concentration.</p>\n<p>You cannot select this talent if you possess the Bender drawback, or otherwise do not possess the teleport function of the Warp sphere.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894691,
+    "modifiedTime": 1663169294996,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

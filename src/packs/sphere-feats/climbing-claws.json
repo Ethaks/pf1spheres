@@ -3,7 +3,11 @@
   "name": "Climbing Claws",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Less rude than shoving them into living things, but still less refined than most would prefer, your sharp claws make fine climbing tools.</p>\n<p><strong>Prerequisite:</strong> Tatulani subtype, secondary arms racial trait, claws racial trait.</p>\n<p><strong>Benefit:</strong> You gain a +2 racial bonus to Climb checks per free hand. If all four hands are free, you gain a 15 ft. climb speed as well.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898156,
+    "modifiedTime": 1663169295894,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Improvisationalist",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The armiger may choose improvised weapons as a customized weapon set, grabbing objects from the environment to wield in a pinch. She may grab and wield a suitable unattended object as an improvised weapon as a free action any time she stows her active weapon. Additionally, the armiger gains the Barroom sphere (or a talent from that sphere if she already possesses the base sphere) as a bonus talent. Any improvised weapon benefits from the talents granted by the improvised weapon customization set, though she may only have a single such set.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901042,
+    "modifiedTime": 1663169297245,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

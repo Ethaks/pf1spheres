@@ -3,7 +3,15 @@
   "name": "Spell Conduit",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your companions can deliver touch spells and sphere abilities for you. If you and one of your companions are in contact at the time you cast a touch spell or sphere ability requiring a melee touch attack, you can designate your companion as the &#8220;toucher.&#8221; You may touch a companion within your natural reach as a free action during your turn to initiate this contact; your companion may do the same during its turn. The companion can then deliver the touch spell or ability just as you would. As usual, if you cast another spell or sphere ability before the touch is delivered, the touch spell or ability dissipates.</p>\n<p>You may take this talent a multiple times. If taken twice, the companion may be anywhere within close range of you when you cast the touch spell or ability and may also deliver ranged touch attacks, using its attack modifiers and serving as the effect&#8217;s point of origin. Each additional time this talent is taken, increase the range at which this ability functions by one step, to a maximum of long range.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891118,
+    "modifiedTime": 1663169293659,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

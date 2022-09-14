@@ -3,7 +3,15 @@
   "name": "Tag Team",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/wrestling.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "wrestling"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You force the target of your grapple to provoke an attack of opportunity from one other ally threatening the target with a +2 circumstance bonus on their attack roll, breaking your grapple. If the target takes damage from the attack of opportunity, you regain martial focus and may move up to 10 feet. This movement does not provoke an attack of opportunity.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "wrestling"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887901,
+    "modifiedTime": 1663169292312,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

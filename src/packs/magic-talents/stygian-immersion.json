@@ -3,7 +3,15 @@
   "name": "Stygian Immersion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to create a blot that acts as if it were a pool of water. This volume of liquid is an extradimensional space 5 feet deep per caster level, and does not damage the surface the blot has been cast upon. Creatures underneath the blot when it is created can attempt a Reflex save to avoid falling in, and if a creature possesses the ability to breathe underwater, it can breathe within the blot. Light does not pass through the blot liquid, and those within have their senses limited in the same manner as the Pure Darkness talent. Creatures are deposited safely on the surface of the blot directly above their position when the duration expires.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892926,
+    "modifiedTime": 1663169294494,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

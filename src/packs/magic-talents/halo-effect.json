@@ -3,7 +3,15 @@
   "name": "Halo Effect",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may place a lens upon a creature that subtly controls light around them. This is a powerful aid to communication, and can be used to communicate basic ideas and emotions to anyone who can see the creature. In addition, the creature gains a +2 circumstance bonus to Bluff and Diplomacy checks against creatures that can see them with conventional or low-light vision, with a +1 increase every 4 caster levels. At the GM&#8217;s discretion, this bonus may also apply to certain types of Perform checks as well.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892619,
+    "modifiedTime": 1663169294193,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

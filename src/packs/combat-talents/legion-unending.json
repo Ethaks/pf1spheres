@@ -3,7 +3,15 @@
   "name": "Legion Unending",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warleader.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warleader"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warleader sphere, Rousing Claxon, Diplomacy 10 ranks.</p>\n<p>Whenever an ally affected by this tactic would be reduced to 0 or fewer hit points, you may spend an immediate action to grant them a number of temporary hit points equal to twice your ranks in Diplomacy. These temporary hit points are applied directly to the damage dealt first, with any remaining temporary hit points applied after the attack is resolved. This ability may be used as a free action that can be taken even when it&#8217;s not your turn, though doing so expends your martial focus and ends the tactic.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warleader"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887974,
+    "modifiedTime": 1663169292367,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

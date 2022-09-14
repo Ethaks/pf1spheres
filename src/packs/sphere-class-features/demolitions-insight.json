@@ -3,7 +3,11 @@
   "name": "Demolitions Insight",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The technician&#8217;s detonators deal full damage to objects rather than half, and deals an additional 3 damage per technician level to unattended objects, walls, and terrain.</p>\n<p>Additionally, the technician may choose to give his detonator a cone area of effect rather than a burst area of effect. Rather than affecting all squares within 5 ft., it affects everything in a 15 ft. cone. He may choose which direction this cone extends when holding or placing the detonator, and if the detonator destroys a wall or piece of terrain, it can affect creatures on the other side of the blast. If combined with a benefit from Chemical Insight, the cone&#8217;s size becomes 3x the effect&#8217;s radius.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900102,
+    "modifiedTime": 1663169296245,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Marked",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 7th level, a mageknight who successfully deals damage with a weapon or natural attack to a target may, as a swift action, leave a magical mark on that target. The target suffers a -2 penalty to saving throws against the spells, spelllike abilities, and sphere abilities of the mageknight, and the mageknight gains a +2 bonus to saving throws against the spells, spell-like abilities, and sphere abilities of the target. This mark lasts for 1 minute. The mageknight may not have more than 1 mark active at a time; giving a second mark causes the first to be dismissed.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900131,
+    "modifiedTime": 1663169296286,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

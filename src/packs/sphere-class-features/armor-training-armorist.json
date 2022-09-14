@@ -3,7 +3,11 @@
   "name": "Armor Training (Armorist)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Starting at 3rd level, an armorist learns to be more maneuverable while wearing armor. Whenever she is wearing armor, she reduces the armor check penalty by 1 (minimum 0) and increases the maximum Dexterity bonus allowed by her armor by 1. Every four levels thereafter (7th, 11th, 15th, and 19th) these bonuses increase by +1, to a maximum &#8211;5 reduction of the armor check penalty and a +5 increase of the maximum Dexterity bonus allowed.</p>\n<p>In addition, an armorist can also move at her normal speed while wearing medium armor. At 7th level, an armorist can move at her normal speed while wearing heavy armor.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900547,
+    "modifiedTime": 1663169296668,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

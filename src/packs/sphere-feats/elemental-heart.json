@@ -3,7 +3,11 @@
   "name": "Elemental Heart",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your attachment to the forces of flame deepens with your power.</p>\n<p><strong>Prerequisite:</strong> Fenghaung subtype, energy resistance.</p>\n<p><strong>Benefit:</strong> Increase the energy resistance given by your elemental nature by an amount equal to your character level.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898200,
+    "modifiedTime": 1663169295920,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

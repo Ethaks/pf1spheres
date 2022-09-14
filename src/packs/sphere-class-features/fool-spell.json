@@ -3,7 +3,11 @@
   "name": "Fool Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever the troubadour succeeds at a saving throw against mind-affecting magic that exerts control over the troubadour (such as charm person, dominate person, or similar effects), he can so thoroughly pretend that it has affected him that he can even fool the magic itself. To the caster, it appears that the troubadour failed his saving throw, but the troubadour is not under the caster&#8217;s control. If the spell provides a telepathic link, it functions normally, but the troubadour is under no obligation to follow the caster&#8217;s commands. The troubadour can always dismiss the fooled magic as a standard action. Fool spell can be used when the troubadour succeeds at a subsequent saving throw against an ongoing effect. The troubadour must be at least 4th level to gain this actor training.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900206,
+    "modifiedTime": 1663169296350,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

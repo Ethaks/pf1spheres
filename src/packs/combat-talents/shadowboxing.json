@@ -3,7 +3,15 @@
   "name": "Shadowboxing",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/boxing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "boxing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can use your total Perform (dance) bonus in place of your Acrobatics or Intimidate bonuses. Any creature which watches you make a Perform (dance) check outside of combat must make a Will save (using the result of your Perform (dance) check to determine the save DC) or be fascinated for up to 1 minute. Once a creature has been affected by this talent, they cannot be affected by it again for 1 day.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "boxing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887952,
+    "modifiedTime": 1663169292352,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Parry And Riposte",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fencing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fencing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When a creature makes a melee attack against you, you may expend your martial focus and use an attack of opportunity to attempt to parry that attack. Make an attack roll as if you were making an attack of opportunity, but for each size category the attacking creature is larger than you, you take a &#8211;2 penalty on this roll. If your result is greater than the attacking creature&#8217;s result, the creature&#8217;s attack automatically misses and you regain your martial focus. If your base attack bonus is +5 or greater, you may choose to make a single melee attack against a creature whose attack you have successfully parried instead of regaining your martial focus.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fencing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888165,
+    "modifiedTime": 1663169292751,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Rush To The Head",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When using a blood art that allows a Fortitude save, you may replace all Fortitude saves that effect allows for with Will saves.</p>\n<p>In addition, as a standard action, you rush the target&#8217;s blood to their head and away from their vital organs, disorienting them. On a failed Fortitude save, the target suffers blood loss and falls prone. If you spend an additional spell point when casting this effect, the target also becomes confused for 1 round per caster level. While confused by this effect, whenever the target rolls to determine behavior in a given round, add twice the blood loss to the result (maximum 100).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "blood"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892292,
+    "modifiedTime": 1663169293970,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

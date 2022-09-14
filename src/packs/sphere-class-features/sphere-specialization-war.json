@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (War)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Seize the Initiative (Su):</strong> At 3rd level, whenever the incanter and his allies roll for initiative, he can grant one ally within 30 feet the ability to roll twice and take either result. This decision is made before the initiative roll is made. He can use this ability a number of times per day equal to 3 + his casting ability modifier.</p>\n<p><strong>Cooperative Defense:</strong> At 8th level, whenever a spell or effect targets the incanter and one or more allies within 30 feet, he can use this ability to allow his allies to use his saving throw against the effect in place of their own. Each ally must make this choice individually before the rolls are made. Using this ability is an immediate action. He can use this ability once per day at 8th level, and one additional time per day for every four incanter levels beyond 8th.</p>\n<p><strong>War Mage (Ex):</strong> At 20th level, the incanter and all allies within 60 feet gain a +2 circumstance bonus to attack rolls and damage rolls.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900391,
+    "modifiedTime": 1663169296531,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

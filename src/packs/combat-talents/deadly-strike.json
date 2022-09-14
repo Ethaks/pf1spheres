@@ -3,7 +3,15 @@
   "name": "Deadly Strike",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scout.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scout"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you initiate an attack against a creature while they are unaware of your presence due to your use of Stealth, you deal additional precision damage to the target equal to 1/2 your ranks in Stealth (minimum 1) with your first attack. If you have successfully used the scout ability to identify the target&#8217;s weaknesses, you instead deal additional precision damage equal to your ranks in Stealth.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scout"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886691,
+    "modifiedTime": 1663169291857,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

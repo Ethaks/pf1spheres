@@ -3,7 +3,15 @@
   "name": "Drowning Kiss",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallenFey"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Fallen Fey sphere, caster level 10th.</p>\n<p>You can flood the lungs of a willing, helpless, or fascinated creature by touching it (traditionally by kissing the creature on the lips) as a standard action. If the target cannot breathe water, it cannot hold its breath and immediately begins to drown.</p>\n<p>On its turn, the target can attempt a Fortitude save to cough up this water; otherwise it falls unconscious at 0 hit points. On the next round, the target must save again or drop to &#8211;1 hit points and be dying; on the third round it must save again or die. Succeeding at any of these Fortitude saves causes the target to cough up the water and no longer be drowning, ending the effect. Activating this fey-blessing costs an additional spell point.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fallenFey"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893108,
+    "modifiedTime": 1663169294536,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

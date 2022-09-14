@@ -3,7 +3,15 @@
   "name": "Cacaphonic Clap",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Weather sphere (Storm Lord), caster level 10th.</p>\n<p>When you use Storm Lord to control where a lightning bolt strikes, you may spend a spell point to cause the strike to be accompanied by a great thunderclap. Any creature within 10 feet of the strike must succeed at a Fortitude save or be deafened for 1 hour, a Will save or be dazed for 1 round, and a Reflex save or fall prone.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "weather"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890510,
+    "modifiedTime": 1663169293342,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

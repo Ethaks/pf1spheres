@@ -3,7 +3,15 @@
   "name": "Instant Foam",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Craft DC:</strong> 15</p>\n<p>You create a single-use jar filled with a durable chemical foam that expands to fill an area when shattered. This item can be thrown as a ranged touch attack with a range increment of 10 feet into an unoccupied square capable of supporting an object as a standard action.</p>\n<p>The foam fills an area with a radius of 10 feet + 5 feet per 5 ranks in Craft (alchemy) with semi-solid foam. A 5-foot block of foam possesses a break DC equal to your Alchemy sphere DC and has a number of hit points equal to your ranks in Craft (alchemy). A creature may attempt to move through the foam during their turn, requiring a successful break attempt for every 5 feet they pass through. On a failed break attempt they can no longer move through the foam and their movement ends. Creatures in the radius are allowed a Reflex save to be pushed to a square at the edge of the radius to avoid entrapment. Creatures that fail their Reflex save may attack the foam or try other means of escape as described above.</p>\n<p>The foam also serves a cushioning function preventing 15 feet of fall damage for every 5 feet of foam exists between the ground and the point where the falling individual touches the foam.</p>\n<p>This foam is porous to oxygen, and cannot be used to suffocate a creature, and too light to deal damage as a falling object. The foam dissipates on its own after 1 minute.</p>\n<p>You can increase the Craft DC of this item in increments of 10; each time you do so, each 5-foot square of foam gains 5 additional hit points, and lasts for an additional minute.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alchemy"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888182,
+    "modifiedTime": 1663169292771,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

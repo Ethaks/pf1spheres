@@ -3,7 +3,15 @@
   "name": "Fey Body",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may apply the following traits to your forms:</p>\n<p><strong>Fey Skin:</strong> The target gains DR 3/cold iron. This improves by +1 per 5 caster levels.</p>\n<p><strong>Wild Empathy:</strong> The target may improve the initial attitude of an animal within 30 feet using Diplomacy. The target gains a bonus equal to half your caster level on this check. Typically domestic animals start as indifferent and wild animals start as unfriendly and the check takes 1 minute. This ability may be used to influence a magical beast with an Intelligence score of 1 or 2, but the check takes a -4 penalty. If you spend an additional spell point when granting this trait, this check may be performed as a standard action and the penalty for influencing magical beasts is removed.</p>\n<p><strong>Woodland Stride:</strong> The target may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at its normal speed without taking damage or suffering impairment. This has no effect on magically manipulated terrain.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891037,
+    "modifiedTime": 1663169293619,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

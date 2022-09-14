@@ -3,7 +3,15 @@
   "name": "Snapping Tortoise",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/shield.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "shield"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>While in this stance, whenever a creature misses an attack against a creature benefiting from your active defense, your next successful attack action against that creature before the end of your next turn forces that creature to succeed at a Fortitude save or fall prone even if you are no longer in this stance.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "shield"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886815,
+    "modifiedTime": 1663169291970,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

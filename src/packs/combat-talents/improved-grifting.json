@@ -3,7 +3,15 @@
   "name": "Improved Grifting",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You gain a +1 competence bonus to your dirty trick and steal combat maneuver checks, as well as to your CMD vs. those maneuvers. This bonus increases by +1 for every 4 ranks in Sleight of Hand you possess. This bonus does not stack with the bonus to these maneuvers provided by the Improved or Greater Dirty Trick or Improved or Greater Steal feats. <strong>Associated Feats:</strong> Improved Steal, Improved Dirty Trick.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885589,
+    "modifiedTime": 1663169291584,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

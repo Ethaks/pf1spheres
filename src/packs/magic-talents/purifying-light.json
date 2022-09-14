@@ -3,7 +3,15 @@
   "name": "Purifying Light",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you cause a creature to glow, you can help eradicate toxic substances they are afflicted with, granting them a +1 circumstance bonus on all Fortitude saves against poisons and diseases, increasing by 1 for every 10 caster levels. When you cause an object to glow, as an instantaneous effect you may purify rotten, diseased or poisonous food and drink, causing it to become suitable for consumption. This has no effect on magical diseases or poisons.</p>\n<p>You may spend a spell point to create a light of purification. Creatures within the area of the bright light gain a +2 circumstance bonus on saves against contracting new diseases and against the application of new poisons, increasing by 1 for every 4 caster levels. Additionally, as long as a creature currently suffering from a disease or poison stays within the bright light, all diseases and poisons currently active on them are suppressed, and any penalties bestowed by the disease no longer affect the creature, although this does not remove any ability damage, drain or negative levels the disease already bestowed. This does not stop the spread of diseases or poisons, nor makes creatures immune to them, but simply prevents the application of new effects they would suffer from additional saving throws.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890754,
+    "modifiedTime": 1663169293542,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

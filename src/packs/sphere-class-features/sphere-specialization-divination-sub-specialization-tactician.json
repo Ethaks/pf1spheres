@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Divination Sub-Specialization: Tactician)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The following abilities replace forewarned and foretell.</p>\n<p><strong>Preempt Fumble (Su):</strong> At 3rd level, as an immediate action you can cause any creature within 60 feet to reroll any attack or saving throw it missed or failed that same round and accept the new result. You can use this ability a number of times per day equal to 3 + your casting ability modifier.</p>\n<p><strong>Share Information (Su):</strong> At 8th level, when you use a (divine) talent you can choose a number of creatures equal to your casting ability modifier within 60 feet. Those creatures gain the exact same information you gain from the (divine) talent for as long as you maintain concentration on it, although this is not enough to distract them or impose penalties in any way.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900377,
+    "modifiedTime": 1663169296513,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

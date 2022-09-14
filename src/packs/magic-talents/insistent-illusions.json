@@ -3,7 +3,15 @@
   "name": "Insistent Illusions",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/illusion.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "illusion"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a swift action, you may spend 2 spell points to force all creatures that currently disbelieve any of your figments to re-roll their Will saves to disbelieve. Failure indicates that they believe the illusion is real regardless of the results of previous Will saves.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "illusion"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891057,
+    "modifiedTime": 1663169293630,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

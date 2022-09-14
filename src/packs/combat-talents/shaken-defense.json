@@ -3,7 +3,15 @@
   "name": "Shaken Defense",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/gladiator.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "gladiator"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you successfully demoralize a creature, it takes an additional -2 penalty to its combat maneuver rolls and CMD for the duration of the demoralization. In addition, if they attempt a combat maneuver against you, it always provokes an attack of opportunity, even if it normally would not. If you have 10 or more ranks in Intimidate, this penalty is doubled.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "gladiator"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887413,
+    "modifiedTime": 1663169292031,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

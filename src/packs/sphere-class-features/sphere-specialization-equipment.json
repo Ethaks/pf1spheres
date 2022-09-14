@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Equipment)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Well Equipped (Ex):</strong> At 3rd level, a conscript gains a +1 competence bonus to attack and damage rolls with any weapon with which he is proficient; at 10th level, this bonus increases by +1.</p>\n<p><strong>Guarding Gear (Ex):</strong> From 8th level on, the conscript gains a competence bonus to his CMD equal to his practitioner modifier.</p>\n<p><strong>Well Studied (Ex):</strong> At 20th level, whenever a conscript rolls to confirm a critical hit with a manufactured weapon, he can roll twice and select the better result. While wearing any armor or carrying a shield, the conscript is treated as though they had the heavy fortification armor special ability.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900387,
+    "modifiedTime": 1663169296528,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

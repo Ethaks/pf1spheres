@@ -3,7 +3,15 @@
   "name": "Admixture",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may either increase the casting time of your destructive blast by one step or spend an additional spell point to apply two (blast type) talents instead of 1. The resultant blast does half of its damage of each type and any additional effects of the blast types are applied normally. If the die size for the two blasts are d8 and d6, use d8; if d8 and d4 use d6; if d6 and d4, use d4. If two blast types have different caster levels, then use the lower caster level for determining the admixtured blast&#8217;s caster level.</p>\n<p><strong>Special:</strong> You do not increase the casting time or spend an additional spell point when using the Admixture talent with two blast types from the same blast type group.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "destruction"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891837,
+    "modifiedTime": 1663169293918,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Truesight",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Once per day at 4th level, a fey adept may grant himself the ability to see all things as they truly are to a range of 120 feet for 1 round per level. The fey adept sees through magical darkness, notices secret doors hidden by magic, sees the exact locations of creatures or objects under blur or displacement effects, sees invisible creatures or objects normally, succeeds at all saving throws against illusions and sees through them naturally, and sees the true form of polymorphed, changed, or transmuted things. The fey adept may use this ability an additional time per day for every 4 levels beyond 4th, to a maximum of 5 times at 20th level. This does not allow the target to see through mundane disguises, non-magical means of hiding things, fog, or other such effects.</p>\n<p>This cannot be combined with other magic that enhances the senses, such as a crystal ball.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "sp",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900396,
+    "modifiedTime": 1663169296534,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

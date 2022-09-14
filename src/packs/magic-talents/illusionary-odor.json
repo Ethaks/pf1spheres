@@ -3,7 +3,15 @@
   "name": "Illusionary Odor",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/illusion.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "illusion"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may add smell and taste to your illusions. For example, you may change something&#8217;s taste or create the smell of smoke.</p>\n<p>As a trick, you may add half your caster level to the DC required to detect poison in foods or to track a target by smell.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "illusion"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891697,
+    "modifiedTime": 1663169293868,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

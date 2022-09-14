@@ -3,7 +3,15 @@
   "name": "Gift Of Knowledge",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may manipulate your magical essence, and grant others access to your own magical knowledge. By spending a spell point and targeting a creature, you may choose a single talent you possess that the target does not, or a single base sphere that you possess that the target does not.</p>\n<p>The target may use this talent or base sphere ability once, using your caster level at the time this ability is cast (not including temporary bonuses or bonuses gained from items) and related sphere-specific drawbacks. They must use this ability within an hour per caster level, otherwise the ability is wasted. They must pay any spell point costs as normal. If you attempt to grant a talent to a target that already knows that talent, this effect fails and any spell points spent are wasted.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mana"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892621,
+    "modifiedTime": 1663169294194,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

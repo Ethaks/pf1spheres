@@ -3,7 +3,15 @@
   "name": "Bestial Reflexes",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may add the following traits to your forms:</p>\n<p><strong>Lunge:</strong> Choose one natural attack the target possesses. As a full-round action, the target may make a single attack action at double its normal reach with that natural weapon with a +4 bonus to its attack roll.</p>\n<p><strong>Leaping Attack:</strong> As a standard action, the target may jump, making a single attack action at any point during the leap. It does not provoke an attack of opportunity for leaving a threatened square.</p>\n<p><strong>Pounce:</strong> The target may make a full-attack after a charge. Granting this trait costs an additional spell point.</p>\n<p><strong>Trample:</strong> As a full-round action, the target may move up to its move speed, moving over and dealing slam damage (1d6 + 1-1/2 Strength modifier Medium, 1d4 + 1-1/2 Strength modifier Small) to any creatures smaller than itself. Creatures affected by the trample can make an attack of opportunity, but at a &#8211;4 penalty.</p>\n<p>If they forgo an attack of opportunity, they may attempt to avoid the target, attempting a Reflex save for half damage (DC 10 + 1/2 Hit Dice + Str modifier). A trampling creature can only deal trampling damage to each target once per round, no matter how many times it moves over that creature.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890409,
+    "modifiedTime": 1663169293256,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

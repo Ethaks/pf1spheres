@@ -3,7 +3,15 @@
   "name": "Slumbear",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "bear"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a standard action, you may spend a spell point to cause one target creature to fall into a deep, restful slumber for one minute, immediately recovering 1 hit point per level and curing 1 point of ability damage for each ability score as though resting for 8 hours. Each round the target sleeps, they regain 1 hit point + 1 hit point per 3 caster levels (this counts as natural healing). If the sleeping target takes damage or another creature attempts to wake them as a standard action, the target does not automatically awaken, but instead must succeed at a Will save to wake up. An unwilling creature can attempt a Will save to negate this effect, and on a successful save the creature is staggered for 1 round as they resist the urge to curl up and sleep. This is a mind-affecting sleep effect.</p>\n<p><strong>Author's Note:</strong> No, this does not count as a full night's rest for any purpose (no refreshing spell points, no healing from draining casting damage). It is bearly an appropriate substitute for the real thing.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "bear"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891682,
+    "modifiedTime": 1663169293856,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

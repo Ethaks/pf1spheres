@@ -3,7 +3,15 @@
   "name": "Sudden Empowerment/Weakening",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When the recipient of your Mystical Bond casts a sphere effect, you may, as a free action that can be taken outside of your turn, end your Mystical Bond in order to empower or hinder that spellcasting, applying double the effect of Mystical Bond for that specific casting.</p>\n<p>The use of this talent allows your Mystical Bond to reduce the caster level of a sphere effect to below 1. If this reduces the ability to a caster level below 0, the manifested ability fails and any spell points used are lost.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mana"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891111,
+    "modifiedTime": 1663169293652,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

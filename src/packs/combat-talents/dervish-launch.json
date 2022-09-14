@@ -3,7 +3,15 @@
   "name": "Dervish Launch",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/duelist.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "duelist"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Duelist sphere, base attack bonus +6.</p>\n<p>Whenever you succeed at a disarm attempt to cause a creature to drop a weapon they were wielding, you may use an immediate action to make a ranged attack with that weapon against any other creature within range. If the weapon cannot normally be used at range, it is treated as a thrown weapon with a range increment of 10 ft. Projectile weapons must be nocked or loaded at the time they are disarmed to be used with this ability. If the disarmed creature is currently taking bleed damage, you may instead make the granted ranged attack as an attack of opportunity.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "duelist"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888243,
+    "modifiedTime": 1663169292831,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

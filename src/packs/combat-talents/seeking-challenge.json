@@ -3,7 +3,15 @@
   "name": "Seeking Challenge",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/guardian.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "guardian"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When a creature affected by your challenge is reduced to 0 or fewer hit points, you may issue a challenge to a creature you can see as a free action (even if it is not your turn). A creature challenged this way gains an additional +2 bonus on attack rolls against you until the end of its next turn.</p>\n<p>If you have Mass Challenge, challenging a creature this way does not end your challenge on any other creatures.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "guardian"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885503,
+    "modifiedTime": 1663169291526,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

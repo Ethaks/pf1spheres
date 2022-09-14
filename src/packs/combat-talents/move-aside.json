@@ -3,7 +3,15 @@
   "name": "Move Aside",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you move, you can finish your movement in the space of a willing ally. If you do, that ally may immediately take a 5-foot step into the last space you occupied without either of you spending an action. This 5-foot step does not prevent them taking a 5-foot step or moving normally on their turn, and must be taken if you could not share a space with that ally normally.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885801,
+    "modifiedTime": 1663169291712,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

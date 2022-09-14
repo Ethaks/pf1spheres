@@ -3,7 +3,15 @@
   "name": "Illusionary Touch",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/illusion.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "illusion"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may make an illusion that feels real to the touch, including temperature and texture. Your illusion still cannot hold weight (thus while touching the wall would only grant a new saving throw, being thrown into the wall would still cause the creature to pass through).</p>\n<p>You may take this talent a total of twice; when taken a second time, your illusions may also cause pain. When coming into contact with an appropriate illusion (stepping into fire, being hit by an illusionary enemy, etc.), if the subject fails their Will save to disbelieve they take nonlethal damage equal to your caster level + your casting ability modifier. A target can only be damaged by your illusions once in a round, no matter how many times it thinks the illusion has hurt it.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "illusion"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890458,
+    "modifiedTime": 1663169293296,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

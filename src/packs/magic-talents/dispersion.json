@@ -3,7 +3,15 @@
   "name": "Dispersion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You imbue a creature or object with a field of refracting cognitive energy that makes it difficult to focus on what or where the field masks.</p>\n<p><strong>Lesser Cloud:</strong> The creature or object becomes difficult to locate intentionally and almost impossible to stumble across accidentally. Perception checks made to recognize a creature or locate such an object or person have their DCs increased by 1 + 1 for every 2 caster levels, and any creature with this ability placed upon them may immediately attempt to hide even if observed or without cover or concealment. Loud noises, sudden actions, or other typically noticeable events allow creatures near such an effect to attempt a Perception check (still modified by the lesser cloud&#8217;s boost to DCs) to notice the creature. This effect lasts for a number of hours equal to your caster level. If the creature makes an attack against another creature, the effect automatically ends.</p>\n<p><strong>Greater Cloud:</strong> In addition to the effects of the lesser cloud, a magic skill check may be rolled at the time of casting, prompting a Will save from anyone in the cloud&#8217;s line of sight. If the check result is higher than any given observer&#8217;s Will save, then when the target is successfully hidden from direct observation the observer will forget about their active presence in the environment. If the observer is reminded about the target by being told of its presence or directly observing it, the observer gains another Will save to recall the target and the target&#8217;s significance to the current situation. (Successfully hiding again may, however, cause the observer to forget the target again.)</p>\n<p><strong>Powerful Cloud:</strong> In addition to the effects of the lesser and greater cloud, the warded area, object, or creature becomes supernaturally difficult to observe. Even if a creature is aware of the target, they must succeed at a Will save every round to actively engage with the target, such as through conversation, attacking, searching, or medical treatment. Skill checks that are carried out over the course of minutes, hours, or days (or similar unit of time) instead of rounds impose a Will save for every unit of time involved instead of every round due to the increased intentional focus of the people performing such tasks (up to the duration of the Dispersion effect).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mind"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891738,
+    "modifiedTime": 1663169293903,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

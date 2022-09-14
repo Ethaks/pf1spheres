@@ -3,7 +3,15 @@
   "name": "Command Undead",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to make a ghost strike that grants you a measure of control over an undead creature (Will negates). For 1 minute per caster level, an unintelligent undead creature falls under your control or an intelligent undead becomes friendly toward you. You can give an intelligent undead creature orders, but you must win an opposed Charisma check to convince it to do anything it would not ordinarily do. Retries are not allowed. An intelligent commanded undead never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing. Any act by you or your apparent allies that threatens the commanded undead (regardless of its Intelligence) breaks this effect.</p>\n<p>Your commands are not telepathic; the undead creature must be able to hear you. Intelligent undead remember they were manipulated and may seek revenge.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "death"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894359,
+    "modifiedTime": 1663169294845,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

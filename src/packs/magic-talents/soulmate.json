@@ -3,7 +3,15 @@
   "name": "Soulmate",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a manabond, you can create a warm bond between yourself and a willing creature. When you (but not the recipient of this manabond) are targeted by a harmless magical effect that lasts for at least 2 rounds that does not require concentration, you may choose to clone the magical effect and allow the recipient of this manabond to benefit from that magical effect for 2 rounds, but may not last more than a number of rounds equal to half the duration that the effect is placed upon you. At 10th level and every ten levels thereafter, the magical effect lasts for an additional round on your ally.</p>\n<p>Additionally, when you are healed for any amount of hit points originating from a magical effect (and not from sources such as fast healing, regeneration or similar), you can redirect any amount of that healing to the recipient of this manabond as a free action that can be taken outside of your turn. As the healing is redirected and not merely transferred, the healing is still limited by any effects that limited the original healing (such as not being able to heal creatures above half health, or even being used to damage creatures that are damaged by the healing you would receive.)</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mana"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891730,
+    "modifiedTime": 1663169293893,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

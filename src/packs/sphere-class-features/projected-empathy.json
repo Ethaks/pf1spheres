@@ -3,7 +3,11 @@
   "name": "Projected Empathy",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 5th level, as long as the warden can see a guarded ally, they are considered to be 10 feet closer to the warden for the purposes of the range of magical sphere effects that he casts (including touch effects). This increases to 30 feet at 10th level, 100 feet at 15th level, and at 20th level is considered being adjacent to the warden.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900493,
+    "modifiedTime": 1663169296624,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

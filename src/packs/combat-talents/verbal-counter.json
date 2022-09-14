@@ -3,7 +3,15 @@
   "name": "Verbal Counter",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warleader.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warleader"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>While outside of combat, whenever a creature makes a Bluff check against you that involves speaking, you can make a Bluff, Diplomacy, or Intimidate check opposed by their Bluff check; upon making a successful opposed check, you can force them to either tell the truth (as far as they know) about the subject or take a -5 penalty on Charisma-based skill and ability checks (this includes Bluff, Diplomacy, and Intimidate, even if the target uses an alternate ability score to determine their bonuses with these skills) against everyone who listened to them speak for 1 day.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warleader"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887897,
+    "modifiedTime": 1663169292310,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

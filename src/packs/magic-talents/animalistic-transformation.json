@@ -3,7 +3,15 @@
   "name": "Animalistic Transformation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You grant the form of a land beast or magical beast with your shapeshift.<br>\n<strong>Limbs:</strong> 1 head, 4 legs<br>\n<strong>Speech:</strong> No; <strong>Hands:</strong> No<br>\n<strong>Speed:</strong> 40 ft. land speed, +20 ft. per 5 caster levels<br>\n<strong>Natural weapons:</strong> bite (primary, 1d6 Medium, 1d4 Small)<br>\n<strong>AC:</strong> +2 natural armor bonus, +1 per 5 caster levels<br>\n<strong>Special:</strong> The target also gains the scent ability.</p>\n<p>In addition, you may grant the following traits to any form:</p>\n<ul>\n<li>A land speed as that granted by Animalistic Transformation (grants 2 legs if the target lacked a land speed).</li>\n<li>Scent.</li>\n<li>2 hoof attacks (secondary, 1d4 Medium, 1d3 Small). This may be granted once per pair of legs beyond the first.</li>\n<li><strong>Sprint:</strong> Once per minute as a free action, the shapeshifted target can increase the base speed of one movement type it possesses (land, swim, burrow, fly, climb) by +10 feet + 5 feet per 2 caster levels for one round. [BTH]</li>\n<li><strong>Sticky Tongue:</strong> The shapeshifted target gains a tongue with a range of 10 feet which can be used to pick up items no greater than 10 lbs. per caster level, attempt Sleight of Hand checks, perform the steal or disarm combat maneuvers, or deliver melee touch attacks. The tongue is not a prehensile limb, and cannot otherwise be used or manipulated as one. If you spend an additional spell point when granting this trait, the tongue&#8217;s range becomes equal to 15 feet + 5 feet per 5 caster levels you possess and the tongue may be used as a primary natural attack. As a natural attack, the tongue attacks versus touch AC, deals no damage on a hit, but has the grab universal monster ability. The shapeshifted target does not gain the grappled condition when using the tongue&#8217;s grab property to grapple other creatures. [BTH]</li>\n</ul>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890494,
+    "modifiedTime": 1663169293327,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

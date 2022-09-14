@@ -3,7 +3,11 @@
   "name": "Share Capacity",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 7th level, the symbiat may create an effect similar to the share expertise psionic effect, except instead of sharing ranks in a skill with his allies, the symbiat shares one feat he possesses. All allies within 60 feet gain the benefits of that feat, even if they do not meet that feat&#8217;s prerequisites. At 14th level, the symbiat may choose a feat possessed by any of his affected allies instead of one he possesses and grant that feat to himself and his other allies instead.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900966,
+    "modifiedTime": 1663169297172,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

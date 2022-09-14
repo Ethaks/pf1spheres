@@ -3,7 +3,15 @@
   "name": "Fearful Darkness",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create a darkness or blot effect that plays with the fears of any who enter it. Creatures within this area of darkness or blot must succeed at a Will save or become shaken. Creatures who succeed at this save but remain in the darkness must save again at the end of your subsequent turns. If any creature enters this area of darkness, they must immediately save or become shaken. When a creature fails their saving throw, they remain shaken for as long as they remain within the area of darkness +1d4 rounds. This is a mind-affecting effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891834,
+    "modifiedTime": 1663169293917,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Spell Scent",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scout.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scout"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Knowledge (arcana) 6 ranks, Perception 6 ranks, Scout sphere (Heightened Awareness, Magehunter&#8217;s Vision).</p>\n<p>After spending three rounds using Heightened Awareness to examine a magic aura, you may track the creature or object that created the magic aura. You gain a circumstance bonus to follow tracks based upon the strength of the examined aura (dim +1, faint +2, moderate +4, strong +8, overwhelming +16). The bonus lasts until you have traveled a number of miles or made a number of Survival checks equal to half your ranks in Perception, or until you use Heightened Awareness to examine another magic aura.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scout"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887045,
+    "modifiedTime": 1663169292017,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

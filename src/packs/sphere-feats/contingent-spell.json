@@ -3,7 +3,11 @@
   "name": "Contingent Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Life sphere.</p>\n<p><strong>Benefit:</strong> A contingent talent infuses a target with a dormant healing or restorative talent that can trigger when the target needs it the most. This metamagic can be applied to only Life talents or any harmless talent that can be used to remove ability score damage, ability score drain, or a negative condition or effect (such as the Life sphere&#8217;s Restore Senses talent). When you cast a contingent talent, you must set a specific trigger that dictates under what circumstances the target is immediately subject to the spell&#8217;s effects (for instance, &#8220;When the target dies, cure + Resuscitate takes effect&#8221;). The contingent talent&#8217;s effects can remain dormant within the target for up to 10 minutes per caster level you have. A creature can be infused with only one contingent talent at a time.</p>\n<p><strong>Cost:</strong> +2 spell points</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897681,
+    "modifiedTime": 1663169295553,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Platoon Commander",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> War sphere, Squadron Commander; or Warleader sphere, Troop Commander.</p>\n<p><strong>Benefit:</strong> The number of members of your squadron increases. Your squadron includes yourself and 4 allies plus an additional ally for every 2 caster levels or ranks in Diplomacy (whichever is higher) you possess. You may add troop or crew creatures to your squadron, with each counting as 4 creatures.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898007,
+    "modifiedTime": 1663169295793,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

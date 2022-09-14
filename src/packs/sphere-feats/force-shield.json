@@ -3,7 +3,11 @@
   "name": "Force Shield",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Telekinesis sphere.</p>\n<p><strong>Benefit:</strong> By forming a thin field of telekinetic force with your hand as a swift action you can gain a +2 shield bonus to your armor class, +1 per 5 caster levels in Telekinesis. This counts as a shield, except it imposes no spell failure or armor check penalty. You must keep at least one hand free to maintain your force shield.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897643,
+    "modifiedTime": 1663169295536,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

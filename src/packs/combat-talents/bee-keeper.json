@@ -3,7 +3,15 @@
   "name": "Bee Keeper",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "beastmastery"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may tame creatures with the swarm subtype that are otherwise of a creature type that you can affect. When taming a creature in this way, they count as twice their Hit Dice against the total amount you may have tame at once. This increase does not stack with the increase for creatures not of the animal type from the Broad Skills talent. Additionally, you are immune to swarm damage from swarms that have a friendly or better disposition towards you.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "beastmastery"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886418,
+    "modifiedTime": 1663169291807,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

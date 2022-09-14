@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Trap)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Surprising Activation (Ex):</strong> At 3rd level, whenever a creature fails a save against a conscript&#8217;s trap, they are flat-footed until the beginning of their next turn.</p>\n<p><strong>Engineering Genius (Ex):</strong> At 8th level, a conscript&#8217;s dart traps extend to medium range and his snare traps double their normal area.</p>\n<p><strong>Enduring Trapper (Ex):</strong> At 20th level, a conscript&#8217;s traps do not break when activated, resetting after 1 round. Each time they are activated, they lose 5 rounds of their duration (if a trap&#8217;s duration would be measured in minutes, it instead loses 5 minutes each time it is activated), breaking when their duration would expire. Traps that contain expendable items such as alchemical items still expend the item upon usage, but may be pre-loaded with additional items, in which case a new one is loaded when the trap resets.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900506,
+    "modifiedTime": 1663169296631,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

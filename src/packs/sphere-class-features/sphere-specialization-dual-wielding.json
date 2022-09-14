@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Dual Wielding)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Perfect Ambidexterity (Ex):</strong> From 3rd level on, the conscript reduces all penalties taken for two-weapon fighting or attacking with a main hand and off-hand weapon using the Dual Wielding sphere by 1 (so a conscript wielding at least one light weapon will only take a -1 penalty for dual wielding, and a conscript wielding two one-handed weapons would take a -3 penalty for dual wielding). This reduction applies after any other effects that reduce the conscript&#8217;s dual wielding penalties, such as the Balanced Blows talent.</p>\n<p><strong>Rending Strikes:</strong> At 8th level, a conscript gains Two-Weapon Rend as a bonus feat, even if he would not normally qualify for it. Whenever the conscript rolls maximum damage on his rend damage dice (normally this means rolling a 10 on 1d10), the target of his attack is sickened for a number of rounds equal to his practitioner modifier.</p>\n<p><strong>Eviscerate (Ex):</strong> At 20th level, a conscript becomes an expert at cutting his foes apart with his perfectly paired weapons; whenever the conscript deals damage with his main-hand weapon, his next attack with his off-hand weapon is automatically a critical threat as long as it successfully hits the target, regardless of the actual roll.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900826,
+    "modifiedTime": 1663169296906,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

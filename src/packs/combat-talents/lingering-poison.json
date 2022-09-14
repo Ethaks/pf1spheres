@@ -3,7 +3,15 @@
   "name": "Lingering Poison",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your poisons remain potent by an additional number of rounds equal to your practitioner modifier. You can expend martial focus when you create a poison with one of the following additional effects:</p>\n<ul>\n<li>If it was a contact, ingested or injury poison, a creature that successfully saves against the poison must attempt new saving throws against the poison at the beginning of their turn for a number of rounds equal to your practitioner modifier or until the creature fails their saving throw.</li>\n<li>If it was an inhaled poison the area it affects when thrown remains poisoned for a number of rounds equal to your practitioner modifier; creatures that enter or begin their turns in this area must attempt a save against this poison (a creature only needs to attempt a save against this poison once per round, regardless of how many times it might enter the poisoned area).</li>\n</ul>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alchemy"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886092,
+    "modifiedTime": 1663169291764,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

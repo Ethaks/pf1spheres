@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Telekinesis)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Telekinetic Impediment (Sp):</strong> At 3rd level, the incanter may spend an immediate action to attempt to impede an attack made against a creature within 30 feet of him, including himself. He must declare he is using this ability before the attack roll is made. The attack suffers a -1 penalty, -1 per 5 incanter levels he possesses. He may use this ability a number of times per day equal to 3 + his casting ability modifier.</p>\n<p><strong>Great Flight (Su):</strong> Starting at 8th level, as a free action the incanter may grant himself a fly speed of 50 feet with perfect maneuverability for a number of minutes per day equal to his incanter level. This duration does not need to be consecutive, but it must be used in 1 minute increments.</p>\n<p><strong>Telekinetic Stability (Su):</strong> At 20th level, the incanter gains a circumstance bonus equal to his incanter level to Fly checks, Acrobatics checks, and his CMD.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900825,
+    "modifiedTime": 1663169296905,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

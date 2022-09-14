@@ -3,7 +3,15 @@
   "name": "Nature Lord",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Treat your caster level as 5 higher when determining the maximum area radius and height you can affect with your geomancing abilities that affect an area (such as Bury, Dust Storm, Entangle, Fog, Gust Of Wind, Purify Air, Tremor, or Vortex).</p>\n<p>When using a geomancing ability dependent on size (such as Affect Fire, Create Fire, Magnetize, Pummel, or Recover Ore), increase the maximum size object you can create or target by 1 size category.</p>\n<p>When using Freeze, you may affect twice as many equivalent Medium-sized creatures without affecting the thickness of the ice.</p>\n<p><strong>Author's Note:</strong> You can apply this effect to each applicable effect. For example, if using the Create Nature talent to both Create Fire and Affect Fire, both abilities will receive the size increases from the Nature Lord talent</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893222,
+    "modifiedTime": 1663169294562,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

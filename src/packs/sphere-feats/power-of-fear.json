@@ -3,7 +3,11 @@
   "name": "Power Of Fear",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The terror in your foes powers your magic.</p>\n<p><strong>Prerequisite:</strong> Emotional Casting drawback.</p>\n<p><strong>Benefit:</strong> You gain a +1 competence bonus to your caster level whenever there is at least one creature within 30 feet of you (excluding yourself) which is affected by a fear effect. If there are 4 or more creatures, this bonus increases to +2. Creatures with fewer Hit Dice than half your MSB do not count for this feat.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898164,
+    "modifiedTime": 1663169295899,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

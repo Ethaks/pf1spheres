@@ -3,7 +3,11 @@
   "name": "Masterpiece",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The troubadour gains the use of a bardic masterpiece for which he meets the prerequisites. The troubadour is considered to possess a number of rounds of bardic performance equal to 1/2 his troubadour level + his Charisma modifier when determining how many times per day this masterpiece may be performed.</p>\n<p>This actor training can be taken multiple times. Each time it is taken, gain another bardic masterpiece you qualify for, and increase the number of rounds of bardic performance you possess by +2.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901074,
+    "modifiedTime": 1663169297274,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

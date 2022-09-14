@@ -3,7 +3,11 @@
   "name": "Armorclad Mastery",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The blacksmith learns to fight and maneuver in his armor better. While wearing armor, the blacksmith reduces the armor check penalty by 1 (to a minimum of 0) and increases the maximum Dexterity bonus allowed by his armor by 1. The blacksmith also learns to move at his normal speed when wearing medium armor. This counts as the fighter&#8217;s armor training class feature.</p>\n<p>In addition, the blacksmith gains an armor mastery feat (Armor Master&#8217;s Handbook pg. 16). The blacksmith must still meet all other prerequisites, but treats his blacksmith level as his fighter level when qualifying for armor mastery feats. The blacksmith must be at least 4th level to learn this insight. He may select this insight again at 8th and 16th level. If he does, the blacksmith increases his armor training benefits by 1 and gains a new armor mastery feat. When the blacksmith gains this insight a second time, he learns to move at his normal speed when wearing heavy armor.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900805,
+    "modifiedTime": 1663169296897,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

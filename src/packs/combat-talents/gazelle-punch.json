@@ -3,7 +3,15 @@
   "name": "Gazelle Punch",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/boxing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "boxing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you ready a counter punch, you treat your reach as though it was 5 ft. further for the purposes of being able to make a counter punch. If the triggering action was taken by a creature that is outside of your normal reach, you may move to a square that places the creature within your reach (this movement does provoke attacks of opportunity) before making the attack. At +10 base attack bonus, your effective reach increases by an additional 5 ft. (up to your speed).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "boxing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885445,
+    "modifiedTime": 1663169291493,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

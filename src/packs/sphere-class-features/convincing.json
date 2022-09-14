@@ -3,7 +3,11 @@
   "name": "Convincing",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 9th level, an eliciter may take 10 with any Bluff, Diplomacy, Intimidate, or Sense Motive check if he has ranks in that skill, even if circumstances would normally prohibit this action.</p>\n<p>In addition, once per day the eliciter may choose to take 20 on one of these skill checks without taking additional time. He may use this ability twice per day at 13th level, and three times per day at 17th level.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900773,
+    "modifiedTime": 1663169296866,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

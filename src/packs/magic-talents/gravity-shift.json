@@ -3,7 +3,15 @@
   "name": "Gravity Shift",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>By concentrating your telekinetic powers on an area you may effectively increase or decrease the area&#8217;s gravity. As a standard action you may alter the gravity of a 10-foot radius + 5 feet per five caster levels sphere anywhere within range of your telekinesis. As long as you concentrate, the area becomes either an area of heavy gravity or an area of light gravity. You may also change the type of gravity in the area as a move action. This talent can be used to alter areas that are already heavy or light gravity, either altering them to normal gravity or doubling their effects, but cannot be used in areas of no gravity or subjective gravity. You may spend a spell point to sustain this effect with Sustained Force.</p>\n<p><strong>Heavy Gravity:</strong> In heavy gravity areas, Acrobatics, Climb, Ride, and Swim checks incur a -2 circumstance penalty, as do all attack rolls. All item weights are effectively doubled, which might affect a character&#8217;s speed. Weapon ranges are halved. A character&#8217;s Strength and Dexterity scores are not affected. Characters that fall in areas of heavy gravity take 1d10 points of damage for each 10 feet fallen, to a maximum of 20d10 points of damage.</p>\n<p><strong>Light Gravity:</strong> Characters in an area of light gravity gain a +2 circumstance bonus on attack rolls and on Acrobatics and Ride checks. All items weigh half as much, and weapon ranges double. Strength and Dexterity do not change as a result of light gravity, but what you can do with such scores does change. Falling characters in light gravity take 1d4 points of damage for each 10 feet fallen (maximum 20d4).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892637,
+    "modifiedTime": 1663169294207,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

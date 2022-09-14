@@ -3,7 +3,15 @@
   "name": "Targe Riposte",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/shield.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "shield"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can use the hand wielding a light shield to also wield a light or one-handed weapon, as if it were a buckler, but you take a -2 penalty on attack rolls (instead of -1). If the hand wielding the light shield is wielding a weapon from the close or light blades fighter weapon group, you only take a -1 penalty on attack rolls. Whenever you would attempt a melee attack with a shield bash, you may instead attempt a melee attack with a light or one-handed weapon from the close or light blades fighter weapon groups wielded in your shield hand.</p>\n<p>You may take this talent a total of twice. If taken a second time, whenever you would attempt a melee attack with a shield bash, you may instead attempt a melee attack with any light or one-handed weapon (not just those from the close or light blades fighter weapon groups) wielded in your shield hand.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "shield"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886688,
+    "modifiedTime": 1663169291854,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

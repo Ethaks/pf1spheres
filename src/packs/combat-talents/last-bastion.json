@@ -3,7 +3,15 @@
   "name": "Last Bastion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/gladiator.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "gladiator"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your words are often the last thing an ally hears before victory. The first time an ally within range of your boast would be reduced to 0 or fewer hit points during the next minute, they gain a number of temporary hit points equal to your ranks in Intimidate + your practitioner modifier which last one minute. Creatures with temporary hit points granted to them by this ability do not fall unconscious until these temporary hit points are lost.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "gladiator"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887410,
+    "modifiedTime": 1663169292030,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

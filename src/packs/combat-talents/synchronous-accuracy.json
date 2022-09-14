@@ -3,7 +3,15 @@
   "name": "Synchronous Accuracy",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dual_wielding.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dualWielding"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you miss an attack with your main hand weapon, you may expend your martial focus as an immediate action to make an additional attack with your off-hand weapon. This effect lasts until the start of your next turn, allowing you to make an off-hand attack whenever you miss with an attack made with your main hand weapon.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dualWielding"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886411,
+    "modifiedTime": 1663169291802,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

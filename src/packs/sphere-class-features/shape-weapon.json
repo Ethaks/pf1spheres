@@ -3,7 +3,11 @@
   "name": "Shape Weapon",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>As a standard action the shifter may reshape one of her limbs capable of wielding a weapon into a weapon she is proficient in as per the Shape Weapon trait of the Morphic Weapon Alteration talent. Use her shifter level to determine the effective caster level of this ability. This stacks normally with caster levels gained from other sources. This change persists until dismissed as a free action.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900787,
+    "modifiedTime": 1663169296884,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

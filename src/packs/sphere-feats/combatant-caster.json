@@ -3,7 +3,11 @@
   "name": "Combatant Caster",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Galvanized.</p>\n<p><strong>Benefit:</strong> You have an increased selection of weapons. As long as you wield any kind of weapon that you are proficient in and can attack with, it counts towards meeting the requirements of Galvanized.</p>\n<p>For the purposes of unarmed strikes or natural attacks you are considered wielding your weapons when you are not impeded in using them. Having your arms bound, or wearing heavy chains on your legs are an example of how an average human would be considered unarmed with unarmed strikes.</p>\n<p>While wielding a weapon appropriate for your drawback, you gain a +4 bonus on concentration checks while casting defensively, being grappled, or casting a spell while in the area of an environment that calls for concentration checks to successfully cast a spell such as weather or a battlefield.</p>\n<p><strong>Special:</strong> This feat counts as Combat Casting for the purposes of meeting other prerequisites that depend on it. This feat's benefits to concentration checks do not stack with Combat Casting.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897847,
+    "modifiedTime": 1663169295676,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

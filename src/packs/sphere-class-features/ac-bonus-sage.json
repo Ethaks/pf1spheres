@@ -3,7 +3,11 @@
   "name": "AC Bonus (Sage)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When unarmored and unencumbered, the sage adds his Wisdom bonus (if any) to his AC and his CMD. In addition, a sage gains a +1 bonus to AC and CMD at 4th level. This bonus increases by 1 for every four sage levels thereafter, up to a maximum of +5 at 20th level.</p>\n<p>These bonuses to AC apply even against touch attacks or when the sage is flat-footed. He loses these bonuses when he is immobilized or helpless, when he wears any armor, when he carries a shield, or when he carries a medium or heavy load.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901052,
+    "modifiedTime": 1663169297254,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

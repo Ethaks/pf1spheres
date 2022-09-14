@@ -3,7 +3,15 @@
   "name": "Improved Eject",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/time.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "time"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Time sphere (Eject (time)), caster level 17th.</p>\n<p>You may spend 5 spell points to touch a target and attempt to permanently eject a creature from the space-time continuum unless they succeed on a Will saving throw. The subject remains there in a state of suspended animation unless a freedom spell or Reclamation is cast at the locale where the ejection took place. Magical search by a crystal ball, a locate object spell, or other similar divinations (including most effects from the Divination sphere) does not reveal the fact that a creature is ejected, but the discern location spell or advanced talent does.</p>\n<p>A miracle or wish spell will not free the recipient, but will reveal where it has been ejected.</p>\n<p><strong>Reclamation:</strong> In addition to ejecting someone from the space-time continuum, you may also spend 5 spell points to return a creature ejected from the space-time continuum. This ability must be used at the location where the target was first ejected. This talent may also be used to free a creature from the effects of an imprisonment or maze spell, and can be used to instantly dispel any ongoing effect created by the Time sphere, such as a Slow effect, Time Bubble, or Time Clone.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "time"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894056,
+    "modifiedTime": 1663169294626,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

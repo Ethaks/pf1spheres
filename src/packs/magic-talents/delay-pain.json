@@ -3,7 +3,15 @@
   "name": "Delay Pain",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/time.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "time"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As an immediate action, when an ally or object with your natural reach (or within Time sphere range, if you possess the Ranged Time talent) would take damage or be subject to any effect, you may spend a spell point to delay the onset of that damage and/or effect until the end of the creature&#8217;s next turn (for creatures and attended objects) or the caster&#8217;s next turn (for unattended objects). The delayed damage and/or effect is incurred at this time, though it is subject to any changes to immunity, resistances, etc. A given effect or instance of damage cannot be delayed more than once. Unwilling creatures and objects attended by unwilling creatures require a successful touch attack and are allowed a Will save to negate this delay.</p>\n<p>If you spend an additional spell point as part of using this ability, you may partially delay ability damage, ability drain, and hit point damage further, causing the creature to receive half (round up) of the damage or drain at the end of its next turn and the remainder at the end of the following turn.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "time"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894674,
+    "modifiedTime": 1663169294987,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Counterspell Mastery",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Counterspell, magic skill bonus +7.</p>\n<p><strong>Benefit:</strong> You may perform a counterspell as an immediate action by spending an additional spell point. You may only use a counterspell in this fashion when using it to counter an effect while it is being cast i.e., you cannot use this ability to dispel effects already in place or suppress magic items. You gain a +2 bonus to magical skill checks made when using the Counterspell feat.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897658,
+    "modifiedTime": 1663169295545,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

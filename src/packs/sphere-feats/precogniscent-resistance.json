@@ -3,7 +3,11 @@
   "name": "Precogniscent Resistance",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Divination sphere (one or more (sense) talents or abilities).</p>\n<p><strong>Benefit:</strong> You gain a resistance bonus to saves equal to the number of senses from the Divination sphere you have active (maximum 1 + 1 per 4 Hit Dice). In addition, you may as an immediate action spend a spell point and dismiss a sense you have active to reroll a saving throw you have failed.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897899,
+    "modifiedTime": 1663169295708,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

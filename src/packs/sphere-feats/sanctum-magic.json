@@ -3,7 +3,11 @@
   "name": "Sanctum Magic",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your area of power amplifies your strength.</p>\n<p><strong>Prerequisite:</strong> Area Bound drawback.</p>\n<p><strong>Benefit:</strong> While you are within the area designated by your Area Bound drawback, you gain a +1 competence bonus to your caster level.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897897,
+    "modifiedTime": 1663169295706,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

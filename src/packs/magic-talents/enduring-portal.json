@@ -3,7 +3,15 @@
   "name": "Enduring Portal",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warp sphere (Mass Teleport [mass], Portal (advanced), Teleport Beacon (space), Unwilling Teleport, Wormhole (space)), caster level 15th.</p>\n<p>When using the Portal advanced talent, you may spend an additional spell point to cause the portal to remain without the need for concentration, and increase its maximum duration to 1 hour per caster level.</p>\n<p>If you instead spend 2 spell points, the portal has a permanent duration and dispelling attempts affect it as if it were a magic item. Effects that would destroy a magic item (such as Counterspell, Greater) can also destroy the portal.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892771,
+    "modifiedTime": 1663169294346,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Armored Charge",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "beastmastery"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>While mounted, you and your mount suffer no penalties for squeezing (down to half your mount&#8217;s space). You also don&#8217;t take the usual armor check penalty on Ride checks. In addition, while mounted, you and your mount gain a +1 bonus to CMD against bull rush, overrun, and trip combat maneuvers. At 10 ranks in Ride, this bonus increases to +2.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "beastmastery"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885524,
+    "modifiedTime": 1663169291537,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

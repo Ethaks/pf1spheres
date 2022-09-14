@@ -3,7 +3,15 @@
   "name": "Slipstream",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Acrobatics, Fly or Swim 5 ranks, Athletics sphere.</p>\n<p>When you have martial focus, while using movement modes associated with the packages you possess, the squares that you pass through become easier to move through for 1 round, plus 1 round per 5 ranks you possess in the skill associated with the movement type. Allies who move through these squares only subtract 5 feet of movement for every 2 squares travelled within the affected squares. A creature that only moves through one of these affected squares in a round subtracts 5 feet of movement as normal.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888208,
+    "modifiedTime": 1663169292797,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

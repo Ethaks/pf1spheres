@@ -3,7 +3,11 @@
   "name": "Bloodlust",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The mageknight may spend a spell point as a swift action to increase her damage dealt to creatures depending on how many times she has hit them. For 1 round per level, whenever she successfully strikes an opponent with a weapon or natural attack, she gains a cumulative +1 bonus on future damage rolls, to a maximum equal to her class level. If she misses with an attack, the bonus to damage decreases by 1 (minimum 0).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900817,
+    "modifiedTime": 1663169296899,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

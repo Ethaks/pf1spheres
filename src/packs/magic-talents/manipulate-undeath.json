@@ -3,7 +3,15 @@
   "name": "Manipulate Undeath",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may make a ghost strike that harms undead, dealing 1d8 damage per 2 caster levels (minimum 1d8, Will half). You may spend a spell point to instead heal the undead for this amount.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "death"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892716,
+    "modifiedTime": 1663169294301,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

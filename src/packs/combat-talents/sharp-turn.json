@@ -3,7 +3,15 @@
   "name": "Sharp Turn",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may change direction up to 90 degrees once at any point during a charge or while taking the run action. For every 7 ranks in Acrobatics you possess, the number of times you may change direction during a charge increases by 1, to a total maximum of 3 times. You still must be able to see the target of your charge when you begin the charge action.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887499,
+    "modifiedTime": 1663169292065,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

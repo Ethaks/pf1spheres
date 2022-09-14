@@ -3,7 +3,15 @@
   "name": "Planisphere",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Leadership sphere, (followers) package, Air Travel, Teleportation, Diplomacy 15 ranks.</p>\n<p>Your followers are equipped for planar travel. While with your caravan, you and a number of allies equal to your Diplomacy modifier may ignore negative planar traits.</p>\n<p>Your caravan can meet you in any location on any plane within 1d4 days. This does not grant the caravan the ability to travel into dangerous places, though the effects of dangerous planes are ignored when determining where they can travel. Once per day, you and your allies can be carried to another plane by your caravan, arriving between 5 and 500 miles from a chosen destination. This requires 1d4 hours.</p>\n<p>If you possess the Messengers talent, your messengers can reach any location on any plane and return within 1d4 days. If you possess both Messengers and Merchants, your messengers can be sent to obtain items from anywhere in the planes. You do not need to roll for availability; if it is available for purchase anywhere in the planes it will be bought and brought to you.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "leadership"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885386,
+    "modifiedTime": 1663169291434,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

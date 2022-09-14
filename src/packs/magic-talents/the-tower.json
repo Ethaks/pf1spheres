@@ -3,7 +3,15 @@
   "name": "The Tower",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may grant a motif that lets the target focus the vagaries of time on a creature or object. The target&#8217;s unarmed strikes, natural attacks, and manufactured weapons ignore a number of points of damage reduction and hardness up to 5 + 1 per 4 caster levels.</p>\n<p>The target may discharge this effect when struck by a manufactured weapon and after taking damage (if any). The weapon takes 1d4 untyped damage per caster level, ignoring hardness. A successful Reflex save halves the damage, but nonmagical items take the full damage regardless of the result. If the weapon&#8217;s wielder has evasion, that ability does not apply to this saving throw.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893610,
+    "modifiedTime": 1663169294618,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

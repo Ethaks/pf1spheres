@@ -3,7 +3,15 @@
   "name": "Bound To Nature",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallenFey"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Fallen Fey sphere, caster level 10th.</p>\n<p>If you are slain while under the effects of this fey-blessing, you immediately reincarnate as the reincarnate spell at the start of your next turn (based on when your next turn would be, if you were not dead). You return in the same space, or the nearest space that is not intrinsically dangerous, though your equipment remains in the place you died. You may choose to delay your reincarnation by up to 1 hour. Upon your return, all spell slots and spell points you possessed are lost and you gain 1 negative level until you rest to regain spell points (this negative level replaces the negative levels normally incurred by the reincarnate spell). If you are slain by an effect that would prevent reincarnation, you may attempt a magic skill check against that effect to return regardless. You gain a +2 on this check if in a natural setting (not in a settlement or artificial structure). Once you have been reincarnated by this ability, you cannot benefit from it for 1 week.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fallenFey"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890510,
+    "modifiedTime": 1663169293339,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

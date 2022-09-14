@@ -3,7 +3,15 @@
   "name": "Programmed Illusion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/illusion.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "illusion"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you create an illusion, you may add a specific circumstance that, when met, changes the nature of the illusion immediately. You may create an additional circumstance per 5 caster levels. For example, you could create an illusion that only activates when a humanoid comes within 10 feet of it, at which point it becomes a high pitched siren and flashing bright lights. See the Contingency feat for more examples.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "illusion"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894356,
+    "modifiedTime": 1663169294841,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Tactile Shot",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/sniper.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "sniper"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When performing a deadly shot with this talent, you may choose to deal no damage. Your attacks allow you to manipulate objects in precise ways. An unattended object has an AC equal to 3 + the object&#8217;s size modifier (minimum +0) + its hardness. If the object is attended, the deadly shot resolves against the possessing creature&#8217;s AC as normal. You may use the following options with this deadly shot:</p>\n<ul>\n<li><strong>Detach Object:</strong> You can make a deadly shot to cause an object to drop off your target, such as causing a quiver on someone&#8217;s back or a keyring on someone&#8217;s waist to fall to the ground. On a successful deadly shot, you may make a free ranged steal attempt against the target, using your original attack roll for the deadly shot as your combat maneuver check. An object or item you steal this way falls harmlessly into an unattended square adjacent to the target. You do not provoke an attack of opportunity for this combat maneuver, except as usual when making ranged attacks.</li>\n<li><strong>Open/Close Object:</strong> You can make a deadly shot to open or close an object, such as an unattended door, window, or container, within the first range increment of your weapon. On a successful deadly shot, the object opens if it was closed or closes if it was open. Otherwise, your deadly shot functions as the open/close spell.</li>\n<li><strong>Use Object:</strong> You can make a deadly shot to use a simple object, such as a lever or switch. On a successful deadly shot, you pull, push, or otherwise manipulate the object in such a way that it activates, such as pulling a lever for a drawbridge or pressing a button.</li>\n<li><strong>Light/Extinguish:</strong> You can make a deadly shot to light or extinguish a Diminutive-size or smaller mundane light source, such as match, torch, lantern, or fuse. On a successful deadly shot, you light or extinguish the object.</li>\n</ul>\n<p><strong>Special:</strong> When using the Trap Technician talent, you may choose to not deal damage to an object you attempt a Disable Device check against, and no longer take a -5 penalty to disable traps with that talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "sniper"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888237,
+    "modifiedTime": 1663169292824,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

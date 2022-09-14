@@ -3,7 +3,15 @@
   "name": "Trail",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When causing a glow effect to shed normal or bright light, as a free action you may cause it to trail light behind it rather than radiate light normally. The glow sheds normal or bright light in any square it passes through during the round, and the light 20 feet away from any square of this area (or 30 feet + 5 feet per 2 caster levels away if shedding bright light) is increased by one step to a maximum of normal. If you return the light&#8217;s area to normal or change between (nimbus) talents, any trail left behind is removed.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892693,
+    "modifiedTime": 1663169294270,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Empower",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/war.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "war"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to rally a target, giving them a +4 morale bonus to either attack rolls and CMB, AC and CMD, saving throws, or concentration checks and spell penetration checks. The bonus from this rally lasts 1 round. The decision to use this rally in response to an attack must be made prior to the attack roll, and the decision to use this rally in response to a saving throw must be made before the save is rolled.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "war"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894075,
+    "modifiedTime": 1663169294641,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

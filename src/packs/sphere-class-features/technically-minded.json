@@ -3,7 +3,11 @@
   "name": "Technically Minded",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 2nd level, a technician gains a bonus to all Knowledge (engineering) checks equal to 1/2 his technician level, and takes half the usual time when using the Craft skill to repair an object.</p>\n<p>Whenever the technician uses the Disable Device skill, he reduces the required time by 1 step (2d4 rounds, 1d4 rounds, 1 round, a standard action, a move action, a swift action).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900090,
+    "modifiedTime": 1663169296235,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Tenacious Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> Increase the DC of magic skill checks to counter or dispel a tenacious talent by 2. If a tenacious talent is dispelled or dismissed, it lasts for 1d4 further rounds (to a maximum of the talents normal duration) before ending (this does not occur if an antimagic field or a similar talent or effect suppresses or ends the talent&#8217;s effect without dispelling or dismissing it). The lingering auras of tenacious talents detectable with detect magic last for twice as long as usual after the talent ends.</p>\n<p><strong>Cost:</strong> +1 spell point</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897585,
+    "modifiedTime": 1663169295506,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Hammer Down",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When the blacksmith succeeds at a bull rush combat maneuver, he can make a trip combat maneuver at the end of the bull rush as a free action that does not provoke attacks of opportunity. Even if he does not move with the target, the force of his attack may still trip his foe, but he takes a &#8211;5 penalty on the combat maneuver check to trip.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900019,
+    "modifiedTime": 1663169296149,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

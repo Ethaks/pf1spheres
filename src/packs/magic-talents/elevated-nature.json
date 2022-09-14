@@ -3,7 +3,15 @@
   "name": "Elevated Nature",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your geomancing abilities can now affect greater depths and heights; rocks fly, vines reach, and fire blazes in such a way as to affect creatures at much higher or lower elevations than normal.</p>\n<p>When using Entangle or Tremor, you may affect flying creatures up to 10 feet per caster level over the effect. Affected creatures must succeed at a Fly check (DC 15 + caster level) or fall; Entangle pulls targets harmlessly to the ground and entangles them as normal, while Tremor causes targets to suffer falling damage.</p>\n<p>When creating a Vortex, increase the height to 10 feet + 10 feet per caster level. The top of the vortex is 10 feet + 5 feet per 5 caster levels wide, though the base of the vortex is still 5 feet.</p>\n<p>When using Affect Fire, you may cause the fire to manifest as a pillar, reaching 10 feet per caster level into the air.</p>\n<p>When using Gust Of Wind you may create the gust as a column with a radius of 5 feet + 5 feet per 5 caster levels and a height of 10 feet per caster level, centered anywhere within your geomancing range.</p>\n<p>When using Magnetize, double the range you can target.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892695,
+    "modifiedTime": 1663169294271,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

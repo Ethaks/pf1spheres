@@ -3,7 +3,11 @@
   "name": "Planar Strike",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You can swing your blade with so murderous an intent that it cleaves between dimensions.</p>\n<p><strong>Prerequisites:</strong> Fey type or subtype, planar balancer racial trait, Arcane Strike, caster level 5th.</p>\n<p><strong>Benefit:</strong> When using Arcane Strike, your empowered weapons also gain the ghost touch enhancement for that round.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897984,
+    "modifiedTime": 1663169295777,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

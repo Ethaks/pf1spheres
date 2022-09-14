@@ -3,7 +3,11 @@
   "name": "Siphon Health",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The soul weaver may expend a soul to siphon health from a living creature. The target suffers 1d6 damage per 2 levels (minimum 1d6, Fortitude half), and the soul weaver gains temporary hit points that last one hour equal to the damage dealt. A creature cannot be damaged beyond what would kill them.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900799,
+    "modifiedTime": 1663169296891,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

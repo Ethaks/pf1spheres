@@ -3,7 +3,15 @@
   "name": "Mobile Bludgeon",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you use your telekinesis to make a Bludgeon attack, you may continue to move the object after the attack roll is made if it has any movement remaining. This means you may make multiple Bludgeon attacks in a round, though not more than you would normally be allowed with your base attack bonus, and applying penalties for full attacks as normal. You may choose to forfeit any remaining movement in order to make a full attack with a single Bludgeon against a single target. If you possess the Dancing Weapon talent, you may gain extra attacks from feats and combat talents.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892425,
+    "modifiedTime": 1663169293996,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

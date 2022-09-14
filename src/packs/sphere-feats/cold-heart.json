@@ -3,7 +3,11 @@
   "name": "Cold Heart",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your blood flow slows and heartbeat grows erratic without significant harm to you, increasing your ability to survive freezing temperatures and electric shocks.</p>\n<p><strong>Prerequisite:</strong> Death sphere.</p>\n<p><strong>Benefit:</strong> You gain +1 spell point. You can spend a spell point as an immediate action to gain cold resistance 5 and electricity resistance 5 for 1 round. For each necrosis feat you possess beyond this one, the cold and electricity resistances increase by 5 and the duration increases by 1 round.</p>\n<p><strong>Four Necrosis Feats:</strong> You always have cold resistance 10 and electricity resistance 10, and when you spend a spell point, you gain immunity to cold and electricity for a number of rounds equal to the number of necrosis feats you possess.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897625,
+    "modifiedTime": 1663169295524,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

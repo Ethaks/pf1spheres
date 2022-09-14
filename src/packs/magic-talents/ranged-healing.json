@@ -3,7 +3,15 @@
   "name": "Ranged Healing",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "life"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your cure, invigorate, and restore abilities have a range of close rather than touch.</p>\n<p><strong>Author's Note:</strong> Life sphere abilities used at range no longer require a successful touch attack, unless otherwise specified (such as making an attack with your cure ability; hostile uses of abilities with attacks still need to make those attacks).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "life"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891050,
+    "modifiedTime": 1663169293624,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

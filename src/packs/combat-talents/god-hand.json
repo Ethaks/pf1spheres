@@ -3,7 +3,15 @@
   "name": "God Hand",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Open Hand sphere, Mystic Fists, base attack bonus +10.</p>\n<p>Your unarmed strikes cause all fast healing and regeneration a creature may possess to cease functioning for 1 round.</p>\n<p>Whenever you deal damage to a creature or object with your unarmed strike using an attack action, if that creature would be reduced to 0 or fewer hit points, it is instantly killed and transformed into fine dust. If you deal damage in this manner to an object, reducing the object to 0 hp disintegrates the object (or a 10 ft. cube, if the object is particularly large). This is a supernatural effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885544,
+    "modifiedTime": 1663169291555,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

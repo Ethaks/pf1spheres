@@ -3,7 +3,11 @@
   "name": "Slow Reflexes",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever the sage deals damage to an opponent using his chi gong ability, he may spend a ki point to twine his ki throughout his opponent&#8217;s body, hindering their movement and slowing their reactions. The opponent must succeed at a Fortitude save or take a penalty to their Reflex saving throws and attack rolls made as part of an attack of opportunity equal to the number of chi gong dice the sage possesses (so a 5th level sage would inflict a -3 penalty) until the end of the sage&#8217;s next turn; multiple uses of this ability do not stack.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900976,
+    "modifiedTime": 1663169297187,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

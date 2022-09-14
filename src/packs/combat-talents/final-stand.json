@@ -3,7 +3,15 @@
   "name": "Final Stand",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/gladiator.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "gladiator"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Intimidate ranks 4, Gladiator sphere.</p>\n<p>While in this stance, whenever an ally that you can see would be reduced to 0 hit points or fewer, you can perform a boast once per round as a free action that can be taken outside of your normal turn. Additionally, allies who are unconscious can benefit from your boasts; a dying ally who is affected by your boast immediately becomes stabilized. When stabilized in this way, the ally still attempts stabilization checks; if they succeed, they regain 1 hit point, become conscious (if they were not already), and stop attempting stabilization checks.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "gladiator"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888232,
+    "modifiedTime": 1663169292817,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

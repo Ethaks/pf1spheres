@@ -3,7 +3,15 @@
   "name": "Mystic Shell",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create an aegis that protects magical effects on the character. A mystic shell has 2 layers, + 1 layer per 10 caster levels. While the layers are in place, whenever a magical effect on the character would be dispelled, it remains and instead a layer of the shell is lost. Each layer is counterspelled as a separate magical effect. Layers of the shell can also be sacrificed to use (succor) talents or abilities. Layers from multiple castings of this aegis do not stack.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891094,
+    "modifiedTime": 1663169293642,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Amnesia",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may reach into a subject&#8217;s memory and remove information and awareness of people, places, things, or events.</p>\n<p><strong>Lesser Charm:</strong> The target loses any recollection of what happened in the last round, back to the beginning of your previous round&#8217;s actions (Will negates). A reminder of the events, such as witnessing a similar action taken by one of the involved creatures or distinctive items being used in the same fashion or someone spending a free action to inform the person about the event, allows the target to attempt a new Will save to recall the forgotten moment, or the target may have their memory restored through the Life sphere&#8217;s Break Enchantment talent, the break enchantment spell, any effect that removes the confused condition, or the use of the Inception talent&#8217;s lesser, greater, or powerful charms being used to specifically make the target remember what was forgotten.</p>\n<p><strong>Greater Charm:</strong> The target loses all awareness of the immediate past (Will negates). This affects all memories from up to 1 minute per caster level. Alternatively, a target may lose all memory of just a single person, location, item, or event, such as the identity of someone they talked to, or a robbery they participated in. No matter what in their memory is targeted, no more than 1 minute per caster level can be altered or removed from the target&#8217;s memory. A target&#8217;s memory may be restored through the Life sphere&#8217;s Break Enchantment talent, the break enchantment spell, or through the Inception talent&#8217;s greater or powerful charms being used to specifically make the target remember what was forgotten.</p>\n<p><strong>Powerful Charm:</strong> The target loses all memory of events that transpired in the recent past (Will negates). This may erase memories going back 1 day per caster level. The caster may erase all or part of the subject&#8217;s memory of this time. A target&#8217;s memory may only be restored through the Life sphere&#8217;s Break Enchantment effect if the caster also possesses the Restore Senses talent, or through the miracle or wish spells. The target&#8217;s memory may also be replenished through the Inception talent&#8217;s powerful charm being used to specifically make the target remember what was forgotten.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mind"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893601,
+    "modifiedTime": 1663169294610,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

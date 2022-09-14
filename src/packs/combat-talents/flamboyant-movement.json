@@ -3,7 +3,15 @@
   "name": "Flamboyant Movement",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/gladiator.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "gladiator"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You confuse enemies with flirtatious gestures before your attack. The next enemy you attack before the end of your next turn must succeed at a Will save, or else they are denied their Dexterity bonus to AC against your attack. Each time the same creature attempts a save against this effect they gain a cumulative +1 bonus to the save for the next 24 hours.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "gladiator"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885415,
+    "modifiedTime": 1663169291463,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

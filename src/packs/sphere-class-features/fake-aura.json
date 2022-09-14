@@ -3,7 +3,11 @@
   "name": "Fake Aura",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When creating a persona or disguise via the Disguise skill, you may grant yourself a powerful aura corresponding to its alignment, as an aligned undead or outsider with Hit Dice up to your class level, or a cleric, paladin, or antipaladin of up to your class level. You may make personas of the outsider or undead creature type, provided the creature imitated possesses your basic physiology (the same number of limbs, not incorporeal, etc.). The GM has the final say on whether or not it is even possible to imitate a given creature.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900025,
+    "modifiedTime": 1663169296158,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Flight",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When using telekinesis to lift a creature or creatures and spending a spell point to create a Sustained Force on them, you may grant that creature the ability to control their own movement for the duration of the Sustained Force. They gain a fly speed equal to your telekinesis speed, with maneuverability (perfect).</p>\n<p>When affecting a target with a Sustained Force, they no longer need to remain within your telekinesis range.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891668,
+    "modifiedTime": 1663169293847,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Jarring Block",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/shield.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "shield"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever a melee attack misses a creature benefiting from your active defense, you may initiate a disarm combat maneuver against the attacking creature as a free action that does not provoke an attack of opportunity and that can be taken even when it is not your turn. This must target the weapon used for the triggering attack, and must be accomplished with your shield, rather than a weapon you are wielding. You may add your shield&#8217;s enhancement bonus to AC to your disarm check.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "shield"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888166,
+    "modifiedTime": 1663169292752,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

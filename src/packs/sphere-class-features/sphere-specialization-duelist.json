@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Duelist)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Death By A Thousand Cuts (Ex):</strong> Starting at 3rd level, a conscript&#8217;s attacks slowly sap away his foe&#8217;s strength. Whenever the conscript deals bleed damage to a creature, it must make a Fortitude save (DC = 10 + the amount of bleed damage the target is suffering due to talents from the Duelist sphere (treat bleed damage in form of dice as their minimum roll)) or become fatigued; creatures who are already fatigued become exhausted, and exhausted creatures who fail their save lose consciousness and fall asleep.</p>\n<p>Sleeping creatures are helpless. Slapping or wounding (but not taking bleed damage) awakens an affected creature, but normal noise does not. Awakening a creature is a standard action (an application of the aid another action). Creatures immune to bleed are immune to all other effects of this ability.</p>\n<p><strong>Blooded Riposte (Ex):</strong> From 8th level on, whenever a creature currently taking bleed damage successfully deals damage to a conscript with a melee attack, the conscript may make an attack action to disarm that creature as an immediate action.</p>\n<p><strong>Exsanguinating Strikes (Ex):</strong> At 20th level, the bleed damage granted by blooded strike increases to 1d6 + 1d6 per 3 points of base attack bonus he possesses. In addition, the conscript&#8217;s attacks now ignore immunity to bleed damage; even if the target is not a creature with blood or capable of bleeding, his penetrating blows still sap whatever force animates the target creature.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900926,
+    "modifiedTime": 1663169297017,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

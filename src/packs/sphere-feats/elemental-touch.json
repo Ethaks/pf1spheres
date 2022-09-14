@@ -3,7 +3,11 @@
   "name": "Elemental Touch",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The elemental energies within you can escape through your attacks, helping express your fury.</p>\n<p><strong>Prerequisite:</strong> Fenghaung subtype, energy resistance.</p>\n<p><strong>Benefit:</strong> When attacking with a natural or manufactured melee weapon, you deal 1d6 damage of fire or cold damage as appropriate. This does not stack with weapon qualities such as flaming or frost.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897919,
+    "modifiedTime": 1663169295720,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

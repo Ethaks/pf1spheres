@@ -3,7 +3,15 @@
   "name": "Permanent Undead",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Death sphere (Sustained Necromancy), caster level 5th.</p>\n<p>When you reanimate a corpse as a skeleton or zombie, you may spend 2 spell points to make the reanimation an instantaneous effect. The undead creature exists independent of your concentration, has no duration, and cannot be dispelled. These undead still count against the total number of undead you may have reanimated at any one time. If you create more undead than your total, old permanent undead are not destroyed; instead, they are simply released from service and will attack you or any other nearby living creatures.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "death"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893092,
+    "modifiedTime": 1663169294522,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

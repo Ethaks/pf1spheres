@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Life)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Bolstering Essence (Sp):</strong> At 3rd level, the incanter may grant himself temporary hit points equal to his incanter level as a free action. These hit points last for 1 round. He can use this ability a number of times per day equal to 3 + his casting ability modifier.</p>\n<p><strong>Life Sight (Su):</strong> At 8th level, the incanter can give himself blindsight to a range of 10 feet as a free action for 1 round. He may use this ability a number of times per day equal to his incanter level. This ability only allows him to detect living creatures and undead creatures. This sight also tells him whether a creature is living or undead. Constructs and other creatures that are neither living nor undead cannot be seen with this ability. The range of this ability increases by 10 feet at 12th level, and by an additional 10 feet for every four levels beyond 12th. These rounds do not need to be consecutive.</p>\n<p><strong>Life Essence (Su):</strong> At 20th level, the incanter becomes immune to death effects and gains fast healing 1.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900816,
+    "modifiedTime": 1663169296898,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

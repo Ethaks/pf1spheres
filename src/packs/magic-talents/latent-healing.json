@@ -3,7 +3,15 @@
   "name": "Latent Healing",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "life"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you use cure or invigorate on a target, you may choose to delay its effects. You may apply effects that add additional hit points of healing at the time of the initial cure, such as additional hit points from Fount Of Life. At any point within 1 hour per caster level, the subject of the effect can trigger its effects as a swift action. A target can only be under the effects of one latent healing at a time.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "life"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890493,
+    "modifiedTime": 1663169293325,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

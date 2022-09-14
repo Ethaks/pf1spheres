@@ -3,7 +3,11 @@
   "name": "Sneak Attack",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Starting at 3rd level if the conscript can catch a creature when he is unable to defend himself effectively from his attack, he can strike a vital spot for extra damage.</p>\n<p>The conscript&#8217;s attack deals extra damage anytime his target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when the conscript flanks his target. This additional damage is 1d6 at 3rd level, and increases by 1d6 every three levels thereafter. Ranged attacks can count as sneak attacks only if the target is within 30 feet. This additional damage is precision damage and is not multiplied on a critical hit.</p>\n<p>With a weapon that deals nonlethal damage (such as a sap, unarmed strike, or whip), a conscript can make a sneak attack that deals nonlethal damage instead of lethal damage. He cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual &#8211;4 penalty.</p>\n<p>The conscript must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. A conscript cannot sneak attack while striking a creature with total concealment.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900654,
+    "modifiedTime": 1663169296761,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

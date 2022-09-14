@@ -3,7 +3,11 @@
   "name": "Finesse Training",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 1st level, a conscript gains the Finesse Fighting Equipment talent (if he already has or gains Finesse Fighting or an equivalent feat from another source, he may select another combat talent for which he qualifies). In addition, starting at 4th level, he can select any one type of weapon that can be used with Finesse Fighting (such as rapiers or daggers). Once this choice is made, it cannot be changed. Whenever he makes a successful melee attack with the selected weapon, he adds his Dexterity modifier instead of his Strength modifier to the damage roll. If any effect would prevent the conscript from adding his Strength modifier to the damage roll, he does not add his Dexterity modifier. The conscript can select a second weapon at 12th level and a third at 18th level.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900038,
+    "modifiedTime": 1663169296175,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

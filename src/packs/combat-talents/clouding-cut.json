@@ -3,7 +3,15 @@
   "name": "Clouding Cut",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/duelist.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "duelist"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you deal bleed damage to a creature, you may expend your martial focus to open a gash near the target&#8217;s sensory organ. The creature immediately suffers from a 10% miss chance on all of their attacks. At the start of their turn, when it takes damage due to their bleeds, it increases the miss chance bestowed by this talent by 10%. When the miss chance would reach 40%, the creature is instead blinded and the miss chance ceases to increase. Stopping the bleed damage ends this effect.</p>\n<p>You may use Clouding Cut against a creature already suffering from its effects without spending martial focus, and doing so causes their miss chance to increase by 10%, unless they are already blinded.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "duelist"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885541,
+    "modifiedTime": 1663169291552,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

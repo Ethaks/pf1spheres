@@ -3,7 +3,15 @@
   "name": "Sight Beyond Sight",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scout.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scout"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a move action to grant yourself blindsense out to 10 ft. for one round. You may expend your martial focus when activating this ability to instead gain blindsight for the same duration. At 10 ranks in Perception, this distance increases to 15 ft.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scout"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887723,
+    "modifiedTime": 1663169292155,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

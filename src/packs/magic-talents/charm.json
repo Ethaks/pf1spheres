@@ -3,7 +3,15 @@
   "name": "Charm",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may place charms on creatures. Charms require a standard action to use, have a range of close, and are subject to spell resistance. You may only use charms on targets that possess your own creature type (humanoid for humanoids, etc.) although the Expanded Charm talent changes this. Each charm has three strengths; lesser, greater, and powerful. Lesser charms are at-will abilities, but you may not target an individual creature more than once in a day with any individual lesser charm. Greater charms cost a spell point to use and powerful charms cost 2 points to use. You must possess the Powerful Charm talent before you may use any powerful charms.</p>\n<p>When you gain the Mind sphere, you gain the following charm:</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mind"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890403,
+    "modifiedTime": 1663169293250,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

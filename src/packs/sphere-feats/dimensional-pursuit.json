@@ -3,7 +3,11 @@
   "name": "Dimensional Pursuit",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Teleporting away from you is not a solution in your pinnacle state.</p>\n<p><strong>Benefit:</strong> When a creature you threaten or that you have damaged in the last round attempts a concentration check to use an effect that would teleport them or move to another plane, increase the DC of the check by 4. While in Aristeia, you may spend an attack of opportunity to move with any creature you see that attempts to teleport or shift planes, arriving in the same position relative to them wherever they arrive.</p>\n<p><strong>Special:</strong> This feat counts as Disruption for the purpose of meeting prerequisites.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897684,
+    "modifiedTime": 1663169295556,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

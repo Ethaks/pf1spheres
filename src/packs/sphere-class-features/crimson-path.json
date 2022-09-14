@@ -3,7 +3,11 @@
   "name": "Crimson Path",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 3rd level, the crimson dancer forms her view upon her powers, and chooses a path to walk that will form her abilities. She immediately learns the initiation ability under her path, and learns new abilities as she levels. Each path grants a different ability earned at their respective level.</p>\n<p>At 7th level, she learns the understanding ability.</p>\n<p>At 10th level, she learns the revelation ability.</p>\n<p>At 13th level, she learns the secret of blood ability.</p>\n<p>At 16th level, she learns the secret of heart ability.</p>\n<p>At 19th level, she learns the secret of soul ability.</p>\n<p>At 20th level, she learns the realization ability.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900364,
+    "modifiedTime": 1663169296485,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

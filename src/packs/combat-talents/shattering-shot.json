@@ -3,7 +3,15 @@
   "name": "Shattering Shot",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/sniper.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "sniper"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may use deadly shot to make a ranged sunder attempt, using your Dexterity bonus in place of your Strength bonus when determining your combat maneuver bonus. You do not provoke an attack of opportunity for this combat maneuver, except as usual when making ranged attacks.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "sniper"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887976,
+    "modifiedTime": 1663169292369,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

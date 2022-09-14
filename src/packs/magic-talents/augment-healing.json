@@ -3,7 +3,15 @@
   "name": "Augment Healing",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/time.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "time"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you use Haste or Slow on a creature (or group of creatures, such as with the Mass Time talent), you may spend an extra spell point to augment the natural healing abilities of all affected targets. With Haste, you can grant them fast healing equal to 1 + 1 per 5 caster levels you possess for the duration of the effect.</p>\n<p>With Slow, you can suspend the target&#8217;s natural healing abilities, preventing any fast healing or regeneration they may possess for the duration of the effect. Magical or extraordinary healing from other sources continues to function as normal. A creature whose regeneration cannot be suppressed or ignored (such as the tarrasque) is immune to this effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "time"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891966,
+    "modifiedTime": 1663169293934,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Blood)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<strong>Red Minion (Su):</strong> At 3rd level, the incanter gains a Tiny blood construct as a permanent servant. As the incanter gains levels, he may choose to increase the size of the construct based on the following table, changeable when the incanter gains a level. The incanter may choose to advance the blood construct&#8217;s Hit Dice to that of an available size without actually increasing its size, if he so chooses.<br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Incanter Level</th>\n<th>Construct</th>\n</tr>\n<tr>\n<td>3rd</td>\n<td>Small</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>Medium</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>Large</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>Huge</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>Gargantuan</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>Colossal</td>\n</tr>\n</table>\n<p>A slain blood construct may be replaced with an 8 hour ritual and sufficient blood to create a construct of that size (see the Extract Blood Construct talent).</p>\n<p><strong>Hemorrhagic Aura (Su):</strong> At 8th level, as a free action the incanter can emit a 30-foot aura that intensifies any bleed effects for one round. He may emit this aura for a total number of rounds per day equal to his incanter level. Hostile creatures within this area that are suffering from ongoing bleed effects must attempt a Fortitude save each round or suffer 1d2 points of Constitution damage that round. These rounds do not need to be consecutive.</p>\n<p><strong>Hemorrhagic Mastery (Su):</strong> At 20th level, any bleed damage the incanter deals is increased by 1/2 his incanter level. This bonus bleed damage is not increased by Empower Spell or similar effects. Additionally, whenever he uses blood control, he can roll twice to penetrate a creature&#8217;s spell resistance and take the better result.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900375,
+    "modifiedTime": 1663169296512,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

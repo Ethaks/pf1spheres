@@ -3,7 +3,15 @@
   "name": "Buried",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When a target is buried in material, such as from large cloth objects as mentioned above, they suffer 1d6 points of nonlethal damage per minute while buried, which becomes lethal damage when their nonlethal damage equals their hit points. A creature may clear material equal to five times their heavy load limit per minute, or per 30 seconds if using an appropriate tool such as a pick, crowbar, or shovel. The amount of stone or heavier material that fills a 5-foot-by-5-foot area weighs about 1 ton (2,000 pounds), with wood and softer materials such as cloth weight half that amount. A buried character cannot unbury itself, but may attempt to free itself with a Strength check or Escape Artist check against a DC equal to 5 + the Reflex save DC they failed that buried them.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890776,
+    "modifiedTime": 1663169293562,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

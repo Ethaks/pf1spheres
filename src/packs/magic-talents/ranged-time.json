@@ -3,7 +3,15 @@
   "name": "Ranged Time",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/time.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "time"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your alter time effects gain a range of close. You may select this talent multiple times. Each time it is selected, you may increase the range by one level (close to medium, medium to long). Increasing the range beyond close also increases the range at which you may maintain an effect through concentration.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "time"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891966,
+    "modifiedTime": 1663169293935,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

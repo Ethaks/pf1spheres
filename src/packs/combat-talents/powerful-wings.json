@@ -3,7 +3,15 @@
   "name": "Powerful Wings",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>While flying, you may ascend vertically without making a Fly check.</p>\n<p>You may halt your movement while flying, hovering without needing to make a Fly skill check. If you are Large or larger and use wings to fly, when you hover within 20 ft. of the ground in an area with lots of loose debris, the draft from your wings creates a hemispherical cloud with a radius of 60 ft. The winds generated can snuff torches, small campfires, exposed lanterns, and other small, open flames of non-magical origin. Clear vision within the cloud is limited to 10 feet. Creatures have concealment at 15 to 20 ft. (20% miss chance). At 25 ft. or more, creatures have total concealment (50% miss chance, and opponents cannot use sight to locate the creature). <strong>Associated Feat:</strong> Hover.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887888,
+    "modifiedTime": 1663169292299,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

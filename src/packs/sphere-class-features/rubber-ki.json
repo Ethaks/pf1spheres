@@ -3,7 +3,11 @@
   "name": "Rubber Ki",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The sage&#8217;s natural reach with his unarmed strikes and melee touch attacks increases by 5 ft., plus an additional 5 ft. for every 4 class levels he possesses. Whenever the sage succeeds at a combat maneuver check against an opponent, or when the opponent fails a Reflex save against the sage&#8217;s infuser ability, the sage may move that opponent up to 10 ft. in any direction (including directly up), though the opponent must end their movement within the sage&#8217;s unarmed strike reach. Opponents moved by this ability provoke attacks of opportunity from creatures other than the sage for moving through threatened spaces.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900081,
+    "modifiedTime": 1663169296224,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

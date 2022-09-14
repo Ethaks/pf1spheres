@@ -3,7 +3,11 @@
   "name": "Titan Breaker",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You are the bane of those who believe they stand atop the world.</p>\n<p><strong>Prerequisites:</strong> Con 15, Giantslayer, base attack bonus +10.</p>\n<p><strong>Benefit:</strong> The bonus granted by your Giantslayer feat when performing or resisting a combat maneuver against a foe who is at least 1 size category larger than yourself increases to +2 per size category larger than yourself the opponent is. In addition, you can now use combat maneuvers against targets 2 size categories larger than would normally be allowed (instead of just 1 size category as allowed by the Giantslayer feat).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897566,
+    "modifiedTime": 1663169295495,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

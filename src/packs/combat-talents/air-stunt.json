@@ -3,7 +3,15 @@
   "name": "Air Stunt",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Athletics sphere, Wall Stunt, Acrobatics 5 ranks.</p>\n<p>If you possess the (leap) package, you no longer require a solid surface to make your swift action jump with the Wall Stunt talent. While you have martial focus, the DC for Acrobatics checks to determine jump height have their DC reduced to 1 per 1 ft. of height. Additionally, you may reduce the effective height of any fall by an additional 10 ft. on a successful Acrobatics check.</p>\n<p>If you possess the (run) package, you may run over the air as if it were ground. You do not fall when moving, though if you are not supported at the end of your turn you fall as normal.</p>\n<p>You may ascend or descend up to 45 degrees as part of this movement, though ascending costs 2 squares of movement per 5 ft. of additional elevation. Additionally, you may balance on any solid surface, even those unable to support your weight, such as a taught string, a narrow tree branch, etc.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885397,
+    "modifiedTime": 1663169291445,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

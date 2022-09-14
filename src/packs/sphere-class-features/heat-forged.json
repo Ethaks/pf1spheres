@@ -3,7 +3,11 @@
   "name": "Heat Forged",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The blacksmith&#8217;s time spent working over a scorching forge has inured him to the effects of heat. The blacksmith becomes immune to nonlethal damage caused by heat, and gains fire resistance 10. This fire resistance increases by 5 at 5th level and every 5 levels thereafter.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900220,
+    "modifiedTime": 1663169296369,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

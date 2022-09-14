@@ -3,7 +3,11 @@
   "name": "Practiced Power",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Regardless of his actual physical might, the blacksmith&#8217;s time working at a forge has enabled him to strike with power beyond what his frame should allow. The blacksmith gains a +1 competence bonus to his combat maneuver bonus and damage rolls made with hammers when using an attack action to sunder, plus an additional +1 at 5th level and every 5 levels thereafter.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900952,
+    "modifiedTime": 1663169297159,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

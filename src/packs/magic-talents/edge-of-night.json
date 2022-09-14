@@ -3,7 +3,15 @@
   "name": "Edge Of Night",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create a darkness that is unnaturally edgy. Any creature inside the darkness must succeed at a Reflex save or take 1d6 slashing damage per 3 caster levels (minimum 1d6). Creatures who remain within this area of darkness must save at the end of your subsequent turns or take additional slashing damage. If a creature enters this area of darkness after it is created, they must immediately save or also suffer this damage. A creature may only be affected by Edge Of Night once per round, regardless of how many times they enter or exit the area that round.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891050,
+    "modifiedTime": 1663169293625,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

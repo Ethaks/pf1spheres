@@ -3,7 +3,11 @@
   "name": "Enlarging Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> You can alter a talent with a range of close, medium, or long to increase its range by 100%. An enlarged talent with a range of close now has a range of 50 feet + 5 feet/level, while medium-range spells have a range of 200 feet + 20 feet/level and long-range spells have a range of 800 feet + 80 feet/level. Talents whose ranges are not defined by distance, as well as talents whose ranges are not close, medium, or long, do not benefit from this effect.</p>\n<p>Note: This refers only to the targeting range, not the effect range.</p>\n<p><strong>Cost:</strong> +1 spell point</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897693,
+    "modifiedTime": 1663169295564,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

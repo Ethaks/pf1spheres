@@ -3,7 +3,11 @@
   "name": "Alchemical Maintenance",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You gain the Alchemy sphere for the (formulae) package and must select the Armor Maintenance Kit talent with the free (formulae) talent granted by that package.</p>\n<p>You may expend an armor maintenance kit when performing a maintenance to gain a unique benefit:</p>\n<p><strong>Polish:</strong> You may expend a polish kit when performing the polish maintenance to allow the maintenance to be used one additional time per day per ray that could be deflected by the polish kit.</p>\n<p><strong>Lubrication:</strong> You may expend a lubrication kit when applying the armor maintenance to apply the lubrication kit&#8217;s bonus to the armor maintenance.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901023,
+    "modifiedTime": 1663169297230,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Aberrant Body",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may add the following traits to your forms:</p>\n<p><strong>Acid Spit:</strong> As a standard action, the target may launch a glob of acid as a ranged touch attack out to close range, dealing 1d6 damage per 2 caster levels, +1 damage per d6 for a number of additional rounds equal to 1/2 your caster level (minimum 1). Spending a move action removing the acid stops the additional damage.</p>\n<p><strong>Gibbering:</strong> All creatures within 30 feet of the target take a -2 penalty on concentration checks. This penalty increases by 1 per 5 caster levels.</p>\n<p><strong>Many Eyes:</strong> The target cannot be flanked.</p>\n<p><strong>Mucus:</strong> The target gains the ability to release a mucus cloud as a standard action, with a radius of 5 feet + 5 feet per 5 caster levels that persists for 1 round per caster level unless dispersed by a strong wind. Once this ability is used, it cannot be used again for 1d4 rounds. Any creature that comes in contact with the cloud must succeed at a Fortitude save with a DC of 10 + 1/2 Hit Dice + Constitution modifier or become unable to breathe air but can breathe underwater for 1 round per caster level or until they spend a standard action removing the mucus. A creature unable to breathe air that remains out of water begins to suffocate.</p>\n<p><strong>Roper Strands:</strong> The target gains a roper strand. This trait may be granted multiple times, granting an additional roper strand per additional trait. As a standard action, (or full-round action if using multiple strands), the target may launch their strands, making one ranged touch attack per strand at a target within close range. Each strands clings to the target, causing 1 Strength damage each round they remain attached (increasing by 1 die size per 5 caster levels; i.e. 1, 1d2, 1d3, 1d4, 1d6, etc.).</p>\n<p>A Fortitude save (10 + 1/2 Hit Dice + Constitution modifier) negates this damage for the round. A creature cannot be affected more than once per round. Strands have 1 hit point, and hardness equal to the effect&#8217;s caster level, and a Break DC, Escape Artist DC, and AC equal to 10 + the effect&#8217;s caster level. However, strands are instantly severed by any slashing damage, which bypasses its hardness automatically. Creatures connected by roper strands may not move away from each other, though may choose to move closer or laterally. Moving farther requires severing the strand with an attack, breaking it with a Strength check, or removing it with an Escape Artist check, or succeeding on a drag combat maneuver against the target they are connected to. When two targets are connected by a strand, they may attempt drag combat maneuver checks against each other at range without provoking attacks of opportunity. If a strand is broken, the target instantly regrows the strand, and may still make strand attacks.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890557,
+    "modifiedTime": 1663169293385,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

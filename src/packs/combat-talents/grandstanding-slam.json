@@ -3,7 +3,15 @@
   "name": "Grandstanding Slam",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/wrestling.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "wrestling"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you use a (slam) talent, you may make make an Intimidate check against all those who can see you except for the creature which was affected by the (slam) talent to demoralize them, gaining a +2 bonus on this check. For every 4 points of base attack bonus you possess, this bonus increases by +2.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "wrestling"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885492,
+    "modifiedTime": 1663169291521,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

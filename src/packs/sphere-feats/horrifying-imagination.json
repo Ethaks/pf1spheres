@@ -3,7 +3,11 @@
   "name": "Horrifying Imagination",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> For one additional spell point, anyone targeted by your spells or sphere effects, attempting a save against them, or within their area becomes shaken for 1d4+1 rounds unless they succeed at a Will saving throw using the same DC as the original spell. For two additional spell points, they instead become frightened for 1d4+1 rounds unless they succeed at a Will saving throw using the same DC as the original spell. On a successful save, they instead become shaken for 1d4+1 rounds. This is a mind-affecting fear effect. Characters must only save against this effect once per spell or sphere effect it is applied to even if the modified spell requires additional saves.</p>\n<p><strong>Cost:</strong> +1 or +2 spell points</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897735,
+    "modifiedTime": 1663169295588,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

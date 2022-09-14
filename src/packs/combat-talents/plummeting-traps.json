@@ -3,7 +3,15 @@
   "name": "Plummeting Traps",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Craft (traps) 10 ranks, Trap sphere.</p>\n<p>You must expend your martial focus as part of placing this snare. A creature that fails its Reflex save to avoid this snare falls prone and suffers 1d6 points of bludgeoning damage per rank in Craft (traps) you possess. A successful Reflex saving throw halves this damage and negates falling prone.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "trap"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888176,
+    "modifiedTime": 1663169292766,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

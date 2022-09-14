@@ -3,7 +3,15 @@
   "name": "Aura Of Fear",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/gladiator.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "gladiator"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Gladiator sphere, Intimidate 7 ranks.</p>\n<p>All hostile creatures that come within close range (25 ft. + 5 ft. per 2 base attack bonus) must make a Will save or be shaken for as long as they remain within the area of effect, +1d4 rounds. Once a creature has succeeded on this save, it is immune to your use of this ability for 24 hrs. If the creature is already shaken, it instead becomes frightened. Frightened creatures become panicked. Creatures with more Hit Dice than you are immune to this effect.</p>\n<p>This is an extraordinary (fear) effect. You may suppress or resume this ability as a free action. This ability ceases to function if you are stunned, paralyzed, unconscious, dead, or otherwise incapacitated.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "gladiator"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886834,
+    "modifiedTime": 1663169291983,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

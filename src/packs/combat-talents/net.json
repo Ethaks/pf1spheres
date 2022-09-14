@@ -3,7 +3,15 @@
   "name": "Net",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When used with a dart trap, a creature that is struck by your dart must make a Reflex save or become entangled. You may forgo damage to resolve this attack against touch AC. This condition lasts until the creature succeeds on a Strength or Escape Artist check against the trap&#8217;s DC or destroys the trap via damage.</p>\n<p>When used with a snare trap, the target is entangled and unable to move from the triggering square until it succeeds on a Strength or Escape Artist check against the trap&#8217;s DC or destroys the trap via damage.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "trap"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885475,
+    "modifiedTime": 1663169291510,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

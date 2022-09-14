@@ -3,7 +3,11 @@
   "name": "Banishing Strike",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever the mageknight strikes an extraplanar creature with a weapon attack, she may spend a spell point as an immediate action to attempt to break the bonds that bind it to this plane. The extraplanar creature must make a Will save (DC 10 + 1/2 her mageknight level + casting ability modifier) or be sent back to its home plane. On a successful save the creature is still staggered for 1d4 rounds. The banished creature can be resummoned as normal.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900536,
+    "modifiedTime": 1663169296662,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Ki Clone (Sage)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The sage may spend a ki point as a standard action to form his ki into a perfect clone of himself that aids him in combat for a number of rounds equal to the sage&#8217;s class level. The ki clone may act immediately and shares the sage&#8217;s place in the initiative order. When the sage creates a ki clone, it has all of his abilities and statistics, but it is destroyed if it takes any amount of hit point or ability score damage. Anything the ki clone sees, hears, or otherwise learns during its existence is transferred to the sage when the ki clone is dismissed, expires, or is destroyed. The ki clone does not have any ki of its own, but the sage may invest any number of his own ki points into the clone at the time he creates it (this does not count against the normal limit on how many ki points can be spent when activating an esotery); if the ki clone is killed or destroyed, the sage loses this ki until he rests and recovers it, but he regains the ki automatically if the effect expires naturally or if he dismisses the clone (a free action). The ki clone is instantly destroyed if it ever leaves the same plane of existence as the sage but can otherwise move about freely. The sage may spend additional ki points when activating this ability to create multiple clones, but cannot exceed his normal limitations on the total number of ki points he can spend on an esotery effect, and each additional ki clone after the first costs 2 ki points instead of 1.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901010,
+    "modifiedTime": 1663169297216,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Razor Beak",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your beak isn&#8217;t just for speaking and grasping, but for defense as well.</p>\n<p><strong>Prerequisite:</strong> Fenghuang subtype.</p>\n<p><strong>Benefit:</strong> You gain a bite attack that deals standard damage for your size (1d6 medium, 1d4 small).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898146,
+    "modifiedTime": 1663169295888,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

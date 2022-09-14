@@ -3,7 +3,11 @@
   "name": "Weird Assault",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Illusion sphere (Decoy (glamer), Mage Feint), base attack bonus +3.</p>\n<p><strong>Benefit:</strong> You may suppress two decoys surrounding you until the start of your next turn to use the Mage Feint talent as a swift action.</p>\n<p><strong>Special:</strong> If you possess the Weird Defense feat, you may end its effect instead of suppressing two decoys to use the Mage Feint talent as a swift action</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897879,
+    "modifiedTime": 1663169295696,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Cultivate Ki",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Improved Unarmed Strike, base attack bonus +4, martial focus.</p>\n<p><strong>Benefits:</strong> You gain one ki power from the unchained monk&#8217;s list of ki powers, treating your base attack bonus as your unchained monk level and using your practitioner modifier in place of your Wisdom modifier when determining the effects of ki powers you gain. Whenever you would gain ki powers that require the unchained monk to be of a specific level or higher before they can be chosen, use your base attack bonus in place of your unchained monk level.</p>\n<p><strong>Special:</strong> If you do not have a ki pool, instead of spending one or more ki points on a ki power, you may instead spend one spell point per ki point required. As long as you have one or more spell points in your spell pool, you are treated as having at least one ki point in your ki pool for the purposes of ki powers.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897883,
+    "modifiedTime": 1663169295698,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

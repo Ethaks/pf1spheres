@@ -3,7 +3,11 @@
   "name": "Shifted Karma",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever the mageknight hits an enemy she has marked with a melee weapon or natural weapon, she may give the target a -4 penalty to attack and AC against creatures other than herself. This penalty lasts until the beginning of her next turn, or she may spend a spell point to make it last for 1 minute. This ability ends immediately if the mark ends, or if the target successfully hits her with a melee attack.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900162,
+    "modifiedTime": 1663169296308,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

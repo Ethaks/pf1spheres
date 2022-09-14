@@ -3,7 +3,15 @@
   "name": "Beary Hairy",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "bear"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>While you are channeling a bear spirit you gain a bear&#8217;s thick skin and resilience. You gain +1 natural armor, as well as fire and cold resistance 2. You may take this talent multiple times; up to one additional time per 5 caster levels you possess. The effects stack.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "bear"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891132,
+    "modifiedTime": 1663169293663,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Through The Long Night",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The night is hard and the night is long, but you know deep down, you can brave it.</p>\n<p><strong>Prerequisites:</strong> Heroic Resolve, ability to gain martial focus, Cha 15 or Con 15, good alignment.</p>\n<p><strong>Benefit:</strong> When you activate heroic resolve and suppress a condition, you may instead suppress it for a number of rounds equal to the highest bonus between your Charisma or Constitution modifier.</p>\n<p>If the chosen condition originates from an evil-aligned creature or object or a creature or object with an evil aura or the evil sub-type, you may activate heroic resolve as a swift action.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898094,
+    "modifiedTime": 1663169295872,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

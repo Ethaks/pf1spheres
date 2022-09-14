@@ -3,7 +3,15 @@
   "name": "Extinguish",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may opt to instantly extinguish all non-magical light sources within your areas of darkness, not merely suppress them. This includes fire, incandescence, and alchemical sources. Coals turn cold, glowing-hot metal is made cool, and luminous chemicals are rendered inert. Additionally, your darkness can be used to dispel sources of magical light and flame (such as an Energy Wall consisting of fire) with a magic skill check. This is an instantaneous effect that occurs when the area of darkness is created. Creatures made of flame or other luminous materials or energies are not harmed by this talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893576,
+    "modifiedTime": 1663169294586,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

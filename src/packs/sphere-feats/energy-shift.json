@@ -3,7 +3,11 @@
   "name": "Energy Shift",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Destruction sphere or at least 2 evocation spells known.</p>\n<p><strong>Benefit:</strong> When casting a destructive blast or an evocation spell that deals damage, you may increase your wild magic chance for that destructive blast or spell by 50% to change its damage type to one of the following types: acid, bludgeoning, cold, fire, electricity, piercing, or slashing. You may instead increase your wild magic chance by 100% to change the damage type to force, sonic, or untyped.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897891,
+    "modifiedTime": 1663169295702,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

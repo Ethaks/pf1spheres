@@ -3,7 +3,11 @@
   "name": "Greater Lies",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When the troubadour attempts to lie through truth-detecting magic, zones of truth, or other, similar effects, the caster of those effects no longer gains a caster level check (MSB check) to attempt to force the troubadour to tell the truth. When he uses the Bluff skill to pass a secret message, the words and meaning of his secret messages cannot be gleaned from him or those he directly delivers the message to by divinations unless the caster succeeds at a caster level check (MSB check) against a DC of 15 + the troubadour&#8217;s level. The troubadour must be 4th level and possess the flexible truth class feature to gain this actor training.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900726,
+    "modifiedTime": 1663169296815,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

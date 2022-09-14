@@ -3,7 +3,15 @@
   "name": "Sneaky Trapper",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You know how to place traps in a discreet manner. When a creature has line of sight to and is within 30 feet of a trap you are placing, you may perform a Sleight of Hand check with a DC equal to 11 + the observer&#8217;s Perception modifier in order to place it without automatically making the observer&#8217;s aware of the trap&#8217;s existence, or granting them bonuses to locate or avoid the trap. If there are multiple observers within 30 feet, use the highest DC among them. If there are no creatures within 30 feet of the trap, you automatically succeed on this check.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "trap"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886827,
+    "modifiedTime": 1663169291979,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Friends In High Places",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Leadership sphere.</p>\n<p>You can recruit cohorts from the outer planes themselves. Such cohorts are built like a normal cohort, but are Small or Medium creatures with the outsider (extraplanar) type, and benefits from the Conjuration sphere Planar Creature (type) talent as if it were a Conjuration companion. As you recruit by calling on creatures from other planes, you don&#8217;t actually have to be at a settlement in order to recruit cohorts this way. You treat this as if recruiting from a metropolis and the population is always at least 50% of the particular race you are seeking.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "leadership"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886840,
+    "modifiedTime": 1663169291988,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Instinctual Skittishness",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Coy Caster.</p>\n<p><strong>Benefit:</strong> You still do not like having others look at you while your casting, but you have enough self control to prevent them from looking. Whenever you use magic that would enable you to hide from creatures currently observing you either by enabling you to make a Stealth check to hide or making you better at hiding if the opportunity to hide already exists, you do not have to make a concentration check to produce the desired effect. This only prevents you from having to make concentration checks caused by your drawback, not concentration checks required from other reasons (like casting defensively).</p>\n<p>In addition you receive a +2 circumstance bonus to Stealth checks.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898179,
+    "modifiedTime": 1663169295907,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

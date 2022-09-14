@@ -3,7 +3,11 @@
   "name": "Mastered Imposition",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 20th level, the scholar chooses any one material imposition she knows; the scholar no longer needs to expend her martial focus for uses of this imposition, never provokes an attack of opportunity for activating it, and may activate it as a swift action. If the scholar chooses a material imposition that grants an explosive option, any bonus damage it deals and the save DC for flashbangs modified by it are determined as though the scholar&#8217;s class level were 4 levels higher than it actually is.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900707,
+    "modifiedTime": 1663169296806,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

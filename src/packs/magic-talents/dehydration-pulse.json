@@ -3,7 +3,15 @@
   "name": "Dehydration Pulse",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Weather sphere (Desert Lord (advanced)), caster level 5th.</p>\n<p>While within an area with Aridity of severity level 2 or higher, you may as a standard action (but no more often than once every 1d4 rounds) spend 2 spell points to draw in the moisture from an area in a 20-foot radius surrounding yourself. Plantlife within the area dies, beds of water are drained, and living creatures within range (other than you) take 1d6 points of damage per caster level and are staggered for 1d4 rounds. A successful Fortitude save halves the damage and negates the staggered effect. Oozes, plants, and creatures with the aquatic or water subtype take double damage from this effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "weather"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890547,
+    "modifiedTime": 1663169293372,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Totem Tactics",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> War sphere.</p>\n<p><strong>Benefit:</strong> Allies inside any of your totems or sharing a mandate with you are treated as if they possessed the same teamwork feats as you for the purpose of determining whether you receive a bonus from those feats. Your allies do not receive any bonuses from these feats unless they actually possess the feats themselves. The allies&#8217; positioning and actions must still meet the prerequisites listed in the teamwork feat for you to receive the listed bonus.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897952,
+    "modifiedTime": 1663169295751,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

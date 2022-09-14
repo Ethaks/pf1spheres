@@ -3,7 +3,15 @@
   "name": "Finesse Fighting",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may use your Dexterity modifier in place of your Strength modifier when calculating your melee attack rolls with light weapons and weapons with the finesse weapon special feature. You may take this talent a total of two times. If taken a second time, whenever you make an attack using your Dexterity bonus on attack rolls and your Strength bonus on melee damage rolls, you may also add 1/2 your base attack bonus (minimum 1) as a bonus on that damage roll. <strong>Associated Feat:</strong> Weapon Finesse.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885534,
+    "modifiedTime": 1663169291547,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

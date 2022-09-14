@@ -3,7 +3,15 @@
   "name": "Armorist",
   "type": "class",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": "low"
+    }
+  },
+  "system": {
     "description": {
       "value": "Armorists are among the most direct masters of the spheres, and indeed, tend to see magic as only the first step in resolving a situation. Their ability to call forth whatever equipment a situation requires makes them more flexible than many of their opponents realize.\n<p><strong>Role:</strong> Armorists are masters of combat who use items, rather than simple brute force, to dominate their enemies.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d10</p>\n<p><strong>Starting Wealth:</strong> 5d6 x 10 gp (average 175 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The armorist&#8217;s class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (engineering) (Int), Knowledge (nobility) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n",
       "chat": "",
@@ -26,8 +34,7 @@
           "name": "Weapon and Armor Proficiency (Armorist)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0,
-          "hiddenLinks": {}
+          "_index": 0
         },
         {
           "id": "pf1spheres.class-features.S2Eujrvp2TZWJVVh",
@@ -35,8 +42,7 @@
           "name": "Casting (Armorist)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1,
-          "hiddenLinks": {}
+          "_index": 1
         },
         {
           "id": "pf1spheres.class-features.FhfbOsFZ2C7Wzrix",
@@ -44,8 +50,7 @@
           "name": "Spell Pool (Armorist)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2,
-          "hiddenLinks": {}
+          "_index": 2
         },
         {
           "id": "pf1spheres.class-features.Feqec9GCjleIvWSX",
@@ -53,8 +58,7 @@
           "name": "Magic Talents (Armorist)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 3,
-          "hiddenLinks": {}
+          "_index": 3
         },
         {
           "id": "pf1spheres.class-features.6geRudrr6dRKZjrY",
@@ -62,8 +66,7 @@
           "name": "Summon Equipment",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 4,
-          "hiddenLinks": {}
+          "_index": 4
         },
         {
           "id": "pf1spheres.class-features.a4TUSEOKc5b9M4K9",
@@ -71,8 +74,7 @@
           "name": "Bound Equipment",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 5,
-          "hiddenLinks": {}
+          "_index": 5
         },
         {
           "id": "pf1spheres.class-features.AK80JTbl35Ys3Lk9",
@@ -80,8 +82,7 @@
           "name": "Arsenal Trick",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 6,
-          "hiddenLinks": {}
+          "_index": 6
         },
         {
           "id": "pf1spheres.class-features.TWCBjPqR0geijA9K",
@@ -89,8 +90,7 @@
           "name": "Armor Training (Armorist)",
           "img": "icons/svg/item-bag.svg",
           "level": 3,
-          "_index": 7,
-          "hiddenLinks": {}
+          "_index": 7
         },
         {
           "id": "pf1spheres.class-features.AAd45qJ55cFUEFtr",
@@ -98,8 +98,7 @@
           "name": "Boost Equipment",
           "img": "icons/svg/item-bag.svg",
           "level": 10,
-          "_index": 8,
-          "hiddenLinks": {}
+          "_index": 8
         },
         {
           "id": "pf1spheres.class-features.iZCJAvUQYFuMwERW",
@@ -107,8 +106,7 @@
           "name": "Quick Summons",
           "img": "icons/svg/item-bag.svg",
           "level": 15,
-          "_index": 9,
-          "hiddenLinks": {}
+          "_index": 9
         },
         {
           "id": "pf1spheres.class-features.E83Qw33qj65iq2qR",
@@ -116,12 +114,11 @@
           "name": "Infinite Arsenal",
           "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 10,
-          "hiddenLinks": {}
+          "_index": 10
         }
       ]
     },
-    "tag": "",
+    "tag": "armorist",
     "useCustomTag": false,
     "armorProf": {
       "value": [],
@@ -212,17 +209,18 @@
     "identifiedName": "Armorist",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "casterProgression": "low"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168899455,
+    "modifiedTime": 1663169295984,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

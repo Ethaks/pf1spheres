@@ -3,7 +3,15 @@
   "name": "Catatonia",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You wrap the weary kittens in a soft and warm blanket so they might drift off to sleep.</p>\n<p><strong>Prerequisites:</strong> Mind sphere (Powerful Charm, Sleep (charm)), caster level 10th.</p>\n<p>Whenever you use the Sleep (charm) powerful charm, you may spend an additional spell point. If you do, the duration of this (charm) effect becomes permanent. Whenever the sleeping target would receive a new Will saving throw to wake up, they roll twice on their saving throw, taking the worse result. A target put to sleep this way does not receive a +4 on their saving throw to wake up.</p>\n<p>If your permanent Mind sphere caster level is 15th or higher, a creature who fails their saving throw against a Sleep (charm) powerful charm modified with this advanced talent may only receive a single new Will saving throw to wake up every 24 hours (such as through an attempt to rouse or from taking damage).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mind"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893087,
+    "modifiedTime": 1663169294517,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

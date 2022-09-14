@@ -3,7 +3,11 @@
   "name": "Companion Trigger",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Animal Companion class feature, Mount class feature, or Beastmastery sphere.</p>\n<p><strong>Benefit:</strong> When your animal companion or a creature you are mounted on succeeds on a combat maneuver, you may expend your martial focus as a free action even when it is not your turn to count the maneuver as though you had performed it for the purpose of any feats or talents you possess.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898016,
+    "modifiedTime": 1663169295801,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

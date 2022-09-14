@@ -3,7 +3,15 @@
   "name": "Breathless",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create an aegis that suspends the body&#8217;s needs. The target gains a +4 morale bonus to saving throws against poisons and diseases, can withstand extreme pressures (such as from the ocean), and can survive without air, making it immune to effects that require breathing (such as inhaled poison), and granting it the power to survive underwater, or even in a vacuum. This does not give immunity to cloud or gas attacks that do not require breathing.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891972,
+    "modifiedTime": 1663169293943,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Coagulate",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may end any bleed damage affecting the target of your blood control. For the duration of the blood control, the target reduces any bleed damage taken by 1 + 1 per 3 caster levels and any creature using an effect that would inflict bleed damage must succeed at a magic skill check or have the bleed damage negated. Creatures imposing bleed damage via non-magical abilities (such as an attack that deals bleed damage) may substitute their base attack bonus for their magic skill bonus on this check.</p>\n<h3 id=\"toc3\"><span>Blood Talent Types</span></h3>\n<p>Some Blood talents are marked (quicken) or (still). These talents grant you additional blood control abilities.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "blood"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890455,
+    "modifiedTime": 1663169293293,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

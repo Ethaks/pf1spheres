@@ -3,7 +3,15 @@
   "name": "Face Strike",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fencing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fencing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your attack cuts into the target&#8217;s face, impeding their ability to see and hear. The target treats all targets as if they had partial concealment (a 20% miss chance) for 1 round, and suffers a -2 Penalty to all Perception checks. For every 5 points of base attack bonus you possess, this penalty lasts an additional round.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fencing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887683,
+    "modifiedTime": 1663169292117,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

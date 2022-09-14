@@ -3,7 +3,11 @@
   "name": "Restore Life (Sage)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>As a standard action, the sage may touch a creature that has been dead no longer than 1 hour per sage level, and spend 3 ki points to raise them from the dead. The subject&#8217;s soul must be free and willing to return, otherwise they simply do not return to life. Coming back from the dead is an ordeal. The subject gains two permanent negative levels when it is raised, just as if it had been hit by an energy-draining creature. If the subject is 1st or 2nd level, it takes 2 points of Constitution drain instead (if this would reduce its Con to 0 or less, it can&#8217;t be raised).</p>\n<p>A raised creature has a number of hit points equal to its current HD. Any ability scores damaged to 0 are raised to 1. Normal poison and normal disease are cured in the process of raising the subject, but magical diseases and curses are not undone. While this esotery closes mortal wounds and repairs lethal damage of most kinds, the body of the creature to be raised must be whole. Otherwise, missing parts are still missing when the creature is brought back to life. None of the dead creature&#8217;s equipment or possessions are affected in any way by this ability.</p>\n<p>A creature who has been turned into an undead creature or killed by a death effect can&#8217;t be raised by this esotery. Constructs, elementals, outsiders, and undead creatures can&#8217;t be raised. This cannot bring back a creature that has died of old age.</p>\n<p>If the sage has the ki blaster esoteric training package, he may use this ability at close range (25 ft. + 5 ft. per class level) instead of touch.</p>\n<p>A sage must be at least 10th level to gain this esotery.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901015,
+    "modifiedTime": 1663169297221,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Focused Power",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere (Powerful Telekinesis), caster level 5th.</p>\n<p>By spending a spell point you can further advance the strength of your telekinesis. Increase the maximum sized object you can affect with telekinesis by 1 size category. This effect stacks with the benefits of Powerful Telekinesis. However, the action required to concentrate on the effect is increased by one step, and you may not spend a spell point to maintain it with Sustained Force.</p>\n<p>You may spend an additional spell point to increase your capacity by another size, but doing so demands all of your mental focus. You may only use the basic capability of telekinesis to move objects, and cannot use this in conjunction with Hostile Lift or Bludgeon.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892687,
+    "modifiedTime": 1663169294268,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

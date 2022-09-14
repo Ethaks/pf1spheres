@@ -3,7 +3,15 @@
   "name": "Greater Enhance Equipment",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When using the Enhance Equipment enhancement, increase the enhancement bonus granted by 1, and raise the maximum enhancement cap to +6. Additionally, when spending a spell point to allow Enhance Equipment to endure for 1 minute per caster level without concentration, it instead lasts for 10 minutes per caster level. If you possess Deep Enhancement, this enhancement instead lasts for 1 hour per caster level.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "enhancement"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891108,
+    "modifiedTime": 1663169293651,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

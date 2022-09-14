@@ -3,7 +3,15 @@
   "name": "Barroom Expert",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "barroom"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may treat an improvised weapon as though it had one of the following special features (chosen upon first picking up an improvised weapon and may be changed once per round as a free action): blocking, brace, deadly, disarm, distracting, double (this may not be applied to improvised light weapons), grapple, nonlethal, performance, reach (this may only be applied to two handed improvised weapons), sunder, or trip. If the GM chooses, he may pose reasonable limitations on which items can gain which special features (for example, a sack of flour wouldn&#8217;t have reach, while a sandwich wouldn&#8217;t have deadly).</p>\n<p>In addition, the improvised weapon has its damage increased by 1 size category and has its critical threat range increased to 19&#8211;20, with a critical multiplier of &#215;2. At +10 base attack bonus, improvised weapons have their critical threat range increased to 18-20 and you may apply two of the listed special features to improvised weapons. <strong>Associated Feat:</strong> Improvised Weapon Mastery</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "barroom"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887428,
+    "modifiedTime": 1663169292044,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

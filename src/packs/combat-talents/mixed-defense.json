@@ -3,7 +3,15 @@
   "name": "Mixed Defense",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dual_wielding.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dualWielding"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you wield a melee weapon in one hand and a ranged weapon in the other, you may forgo your ranged attack when using the dual attack ability. If you do so, until your next turn, you may spend an attack of opportunity to make a ranged attack against an opponent attempting to attack you in melee. If your ranged attack hits, you gain a +2 dodge bonus to AC against that opponent and a +2 circumstance bonus to attack rolls against that opponent until the end of your next turn. Both the melee weapon attack and the ranged attack suffer the attack penalty from dual attack as normal, and the ranged attack must be made with the same ranged weapon wielded during the dual attack.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dualWielding"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888205,
+    "modifiedTime": 1663169292795,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

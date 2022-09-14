@@ -3,7 +3,11 @@
   "name": "Bloodhound",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The conscript revels in bloodshed. Any effect from him that would inflict bleed damage increases that bleed damage by 1, +1 for every 10 class levels he has. He additionally gains the ability to attempt Heal checks to try and end bleeds on creatures as a swift action, and gain a +2 bonus on any such checks.</p>\n<p>Starting at 5th level, he gains the blood identification class feature of the crimson dancer.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900207,
+    "modifiedTime": 1663169296351,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

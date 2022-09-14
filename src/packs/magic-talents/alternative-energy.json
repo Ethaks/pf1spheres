@@ -3,7 +3,15 @@
   "name": "Alternative Energy",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Enhancement sphere (Energy Enhancement (enhance)), caster level 5th.</p>\n<p>When enhancing a weapon with Energy Enhancement, you may choose sonic damage. At 10th caster level, you may choose force damage. Treat these choices as though they were the flaming weapon special ability, but instead dealing sonic or force damage respectively.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "enhancement"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893216,
+    "modifiedTime": 1663169294557,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

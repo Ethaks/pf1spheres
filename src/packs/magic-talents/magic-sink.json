@@ -3,7 +3,15 @@
   "name": "Magic Sink",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may enhance creatures or objects, protecting any other magic they might be subject to. Whenever a creature attempts to Counterspell or otherwise dispel a magical effect on the target, they must first roll their check against your magic sink, only rolling against the intended magical effect if this first check was a success. While Magic Sink can be countered when first cast, it is not considered its own magical effect once applied to a target and cannot be dispelled; instead, it is considered an augment to the other magical effects the target is affected by.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "enhancement"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894689,
+    "modifiedTime": 1663169294994,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

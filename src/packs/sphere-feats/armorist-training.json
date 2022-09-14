@@ -3,7 +3,11 @@
   "name": "Armorist Training",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> One or more of the following class features: arcane pool, divine bond, sacred armor, sacred weapon.</p>\n<p><strong>Benefit:</strong> You may add all the special abilities from the list of special abilities an armorist may add to their summon and bound weapons to the list of special abilities your weapons or armor may possess. When you add weapon special abilities to a weapon using your arcane pool, divine bond, or sacred weapon ability, you may choose from the special abilities an armorist has access to. Similarly, when you add special abilities to armor using your sacred armor ability, you may choose armor special abilities an armorist has access to.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897928,
+    "modifiedTime": 1663169295732,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

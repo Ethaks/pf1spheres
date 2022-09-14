@@ -3,7 +3,15 @@
   "name": "Shadowed Mien",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a standard action you cloak the target in an aura of menacing shadow that conceals its appearance, subtle movements, and intentions behind a curtain of disconcerting murk. This dark aura hides distinguishing features from observers and grants a competence bonus of 1/2 your caster level to Bluff checks to lie or feint, as well as to Intimidation checks to demoralize. Sense Motive checks to get a hunch about Shadowed Mien&#8217;s target have their DC increased by your caster level. The target has no problem seeing out of Shadowed Mien, but the effect cannot be penetrated by darkvision. Clearsight and see in darkness allow the target of Shadowed Mien to be seen clearly, negating its bonuses against creatures with those abilities.</p>\n<p>Shadowed Mien lasts for as long as you concentrate or, if you spend one spell point at any time as a free action, ten minutes per caster level.</p>\n<p>You may spend an additional spell point as part of the action to initiate Shadowed Mien to grant substance to the shadowy aura. The target gains a number of temporary hit points equal to your caster level for the duration of the effect. Exhausting these temporary hit points does not end the other effects of Shadowed Mien.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890452,
+    "modifiedTime": 1663169293291,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

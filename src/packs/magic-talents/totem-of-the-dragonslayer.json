@@ -3,7 +3,15 @@
   "name": "Totem Of The Dragonslayer",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/war.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "war"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You and your allies gain a +1 competence bonus to Reflex saves vs. area effects. This increases by +1 for every 5 caster levels you possess. When you create this totem, you may spend a spell point. If you do, whenever an ally attempts a Reflex saving throw that benefits from this totem against an attack that normally deals half damage on a successful save, they take no damage on a successful save instead.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "war"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892947,
+    "modifiedTime": 1663169294513,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

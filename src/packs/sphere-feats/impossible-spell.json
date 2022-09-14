@@ -3,7 +3,11 @@
   "name": "Impossible Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> Impossible spells can be applied to any magic effect which allows a Will save. Creatures that fail their Will saving throw against the effect take 1d3 sanity damage. This die sizes increases by 1 (1d3-&gt;1d4-&gt;1d6-&gt;1d8-&gt;1d10-&gt;2d6) for every 4 caster levels you possess.</p>\n<p><strong>Cost:</strong> +1 spell point</p>\n<p><strong>Note:</strong> This spell uses the sanity/strain system introduced in Horror Adventures and expanded upon in The Cataclysm Handbook. Games that do not use this system should not incorporate this feat.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897940,
+    "modifiedTime": 1663169295742,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

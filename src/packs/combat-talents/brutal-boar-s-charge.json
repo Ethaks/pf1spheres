@@ -3,7 +3,15 @@
   "name": "Brutal Boar’s Charge",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/brute.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "brute"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You channel the boar, goring your foe before trampling them underfoot or launching them.</p>\n<p>When you perform a combat maneuver as part of a charge attack, you may shove one target in the path of your charge as a free action before rolling your combat maneuver check (such as an overrun check during the charge or a bull rush at the end of the charge). A shove performed this way gains the normal bonus on attack rolls made while charging and deals +1 damage for every 10 feet travelled before performing this shove (either during the charge&#8217;s movement or at the end). This additional damage cannot exceed twice your base attack bonus.</p>\n<p>You may only shove one target when using this talent, even if you could attempt combat maneuvers against multiple targets as part of the same charge attack (such as with the Brute sphere Unstoppable talent).</p>\n<p><strong>Special:</strong> Abilities that multiply damage dealt on a charge do not multiply the additional damage dealt with this talent, such as the Spirited Charge feat, wielding a lance while making a mounted charge, or the Boxing sphere Raging Bull talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "brute"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887926,
+    "modifiedTime": 1663169292332,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

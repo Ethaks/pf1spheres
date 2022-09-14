@@ -3,7 +3,15 @@
   "name": "Hurricane Twist",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dual_wielding.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dualWielding"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Dual Wielding sphere (Cyclone Cut), base attack bonus +10.</p>\n<p>When using the Cyclone Cut talent, you may instead use it as a full-round action to twirl the weapons with such speed that you begin to form dangerous winds. Until the beginning of your next turn, you increase the Wind severity within the affected area by one step, plus an additional step for every 5 points of base attack bonus you possess beyond base attack bonus +10 (maximum wind severity 6); in addition to the normal effects of the talent. You are immune to the effects of the increased Wind severity caused when you use this talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dualWielding"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888006,
+    "modifiedTime": 1663169292609,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

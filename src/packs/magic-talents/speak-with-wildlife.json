@@ -3,7 +3,15 @@
   "name": "Speak With Wildlife",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Choose either animals or vermin. You may spend a spell point to gain the ability to speak with your chosen creature type for 1 minute per caster level. You can ask questions of and receive answers from them, but this does not make them any more friendly than normal. Mindless vermin cannot understand or answer with more than basic information, wary and cunning animals are likely to be terse and evasive, and stupid creatures make inane comments. If a creature is friendly toward you, it may do some favor or service for you. You may take this talent twice, gaining both options.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893568,
+    "modifiedTime": 1663169294580,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

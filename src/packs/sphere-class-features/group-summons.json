@@ -3,7 +3,11 @@
   "name": "Group Summons",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The armorist may summon (or boost, if she is capable) multiple pieces of equipment at once, +1 per 2 armorist levels she possesses (minimum 1). The armorist may summon or boost multiple pieces of equipment on the same creature or onto multiple creatures, but the armorist must still be touching the creature or creatures to affect them. The armorist may grant different benefits to each summoned or boosted piece of equipment, but still spend a spell point for each summon or boost.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900654,
+    "modifiedTime": 1663169296762,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

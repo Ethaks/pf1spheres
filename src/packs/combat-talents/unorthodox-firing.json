@@ -3,7 +3,15 @@
   "name": "Unorthodox Firing",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may fire any ranged weapon while prone. Additionally, you may use a leg in place of a hand when wielding a ranged weapon, although you must still use at least one hand to fire the weapon and suffer a -2 penalty to attack rolls while using a foot in this manner. This can allow you to fire the weapon in situations where two hands are not available, such as when hanging from a rope, grappling a creature, or in other, similar situations.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886694,
+    "modifiedTime": 1663169291858,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

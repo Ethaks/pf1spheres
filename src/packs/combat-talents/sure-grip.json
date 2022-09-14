@@ -3,7 +3,15 @@
   "name": "Sure Grip",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Once per round when a creature attempts a disarm or steal combat maneuver against you, or uses a similar ability that would remove a weapon or item from your grasp, you may attempt a Climb check as a free action that can be taken even when it&#8217;s not your turn, using the result in place of your CMD for the triggering maneuver. In addition, you never drop held items when subject to the panicked, unconscious, or stunned conditions and gain a +10 competence bonus on Climb checks to catch yourself or another creature when falling (or when ending your movement when using the Rope Swinger or Wall Stunt talents).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885908,
+    "modifiedTime": 1663169291733,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

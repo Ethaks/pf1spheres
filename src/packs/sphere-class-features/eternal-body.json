@@ -3,7 +3,11 @@
   "name": "Eternal Body",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Through the absorption of countless creatures' blood, the crimson dancer becomes an unrelenting physiological entity. At 11th level, the crimson dancer ceases to age, and no longer suffers any penalties or gains any benefits related to her age and she cannot be magically aged. Due to her precise control over her body&#8217;s makeup, she can appear as any age she would like, and can change her apparent age as a swift action (this does not affect her size category).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900691,
+    "modifiedTime": 1663169296790,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

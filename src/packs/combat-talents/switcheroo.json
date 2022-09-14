@@ -3,7 +3,15 @@
   "name": "Switcheroo",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you successfully perform a steal combat maneuver, you may replace what you stole with a different item, placing it in either an empty hand or pocket of the creature. If the item you placed on their person is somehow volatile (such as a vial of alchemist&#8217;s fire, a thunderstone, or an alchemist&#8217;s bomb), you can rig that item to explode as an immediate action (you must choose when to make the item explode within a number of rounds equal to your ranks in Sleight of Hand); you are immune to any damage or effects of explosions triggered in this manner. When you have at least 10 ranks in Sleight of Hand, you may choose when to make the item explode within a number of minutes equal to your ranks in Sleight of Hand.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888230,
+    "modifiedTime": 1663169292815,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

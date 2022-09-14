@@ -3,7 +3,15 @@
   "name": "Humiliating Trick",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you successfully perform a dirty trick combat maneuver, the target of your dirty trick takes a -5 penalty to Diplomacy checks and a -2 penalty to damage rolls for 1 minute, although the penalty to damage rolls can be removed in the same action required to remove the effects of the dirty trick. In addition, if that creature fails a Diplomacy check, they are treated as though they had failed by 10 or more. When you have at least 10 ranks in Sleight of Hand, these penalties are doubled and its duration is increased to 10 minutes.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885917,
+    "modifiedTime": 1663169291742,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

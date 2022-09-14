@@ -3,7 +3,11 @@
   "name": "Cumulative Nimbus",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Weather sphere (any (shroud) talent), magic skill bonus +5.</p>\n<p><strong>Benefit:</strong> When a creature is under the effect of shrouds produced by multiple casters with this feat, any saving throws against one of these shrouds is made against the highest DC of any such shroud. Shrouds produced by casters without this feat are unaffected and other shrouds cannot use their DC.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898001,
+    "modifiedTime": 1663169295791,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

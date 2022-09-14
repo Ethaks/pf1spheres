@@ -3,7 +3,15 @@
   "name": "Knowledge Drain",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Mana sphere (Manathief (advanced, expunge), Gift Of Knowledge (manipulation)), caster level 1st.</p>\n<p>Your knowledge and experience in stealing the mana from others has pushed you to a new discovery; stealing their prowess in the magical arts. Whenever you successfully drain spell points from a target using Manathief, the target must additionally attempt a Will save, with a penalty to this save equal to the amount of spell points they lost from the triggering effect. On a failure, you steal the use of a single magic talent you are aware they can cast (or base sphere, if they possess a sphere with no additional talents invested). The target cannot use that sphere or talent until they rest to regain spell points, and you gain access to the talent stolen. If you do not possess the base sphere when stealing a talent this way, you instead only gain access to the base sphere. You retain use of it for 24 hours, however you may spend a spell point to retain it for another 24 hours, but each extra 24 hours adds a cumulative extra spell point cost to retaining the ability. You may only gain knowledge of one talent or sphere this way at a time, although you may choose to replace the talent you have retained an additional use of this talent.</p>\n<p>At caster level 10th, you may retain up to two talents at a time, and an additional talent every ten caster levels thereafter.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mana"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890396,
+    "modifiedTime": 1663169293241,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

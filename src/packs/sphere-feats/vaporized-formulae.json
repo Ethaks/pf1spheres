@@ -3,7 +3,11 @@
   "name": "Vaporized Formulae",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Alchemy sphere ((formulae) package)</p>\n<p><strong>Benefit:</strong> You can increase the Craft DC of a formulae by 10 to turn the formulae from a liquid to a gaseous state. A vaporized formulae that would require a Reflex save instead requires a Fortitude save, otherwise functioning as the original formulae. A formulae talent that can only be used on a single target (such as Panacea and Salve) can also be vaporized, allowing it to be thrown as a ranged touch attack with a range increment of 10 feet. Creatures within a 5-foot radius burst of the point of contact gain the benefits of the chosen formulae.</p>\n<p><strong>Note:</strong> The 5-foot radius effect only applies to formulae that would normally affect a single target. Formulae that normally affect an area or multiple targets in an area have their radius unchanged when used with this feat.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897839,
+    "modifiedTime": 1663169295671,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

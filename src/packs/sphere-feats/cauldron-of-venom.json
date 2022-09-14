@@ -3,7 +3,11 @@
   "name": "Cauldron of Venom",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You&#8217;ve carefully developed your poison for greater versatility.</p>\n<p><strong>Prerequisites:</strong> Poison Spitter, poison eater alraun, character level 7th.</p>\n<p><strong>Benefit:</strong> You can change your poison&#8217;s type (from injury to contact, ingested, or inhaled) by expending twice as many of your daily uses as normal. When used as an inhalation poison, your poison fills one adjacent 5-ft.-square for a number of rounds equal to half your hit dice, affecting the first creature to enter that square.</p>\n<p><strong>Normal:</strong> Alraun poison is an injury poison.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897848,
+    "modifiedTime": 1663169295677,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Dragon’s Tattoos",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Etching your limbs with exquisite art, your body truly becomes a weapon.</p>\n<p><strong>Prerequisites:</strong> Improved Unarmed Strike, Craft (tattoos) 5 ranks.</p>\n<p><strong>Benefit:</strong> You learn how to adorn yourself with the sacred tattoos that are said to have been first conceived by an ancient monk known only as &#8220;the Dragon&#8221;. Covering your body in these intricate tattoos etched by your own hand, your limbs, grapples, and unarmed strikes are now treated as masterwork weapons, and may be enhanced just as any other masterwork weapon. Enhancements applied via this ability apply to all unarmed strikes or grapple checks you make, regardless of the limb you choose to use; essentially, your entire body is treated as a single weapon.</p>\n<p><strong>Author's Note:</strong> Dragon's Tattoos applies to all of your unarmed strikes and natural attacks, essentially like an amulet of mighty fists.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897937,
+    "modifiedTime": 1663169295739,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

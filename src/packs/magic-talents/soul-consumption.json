@@ -3,7 +3,15 @@
   "name": "Soul Consumption",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "life"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Death sphere (Create Soul Gem (advanced)), Life sphere (Revitalize), caster level 5th.</p>\n<p>When you use Revitalize, you may destroy a soul gem in your possession as part of creating the effect. This increases the fast healing from Revitalize to an amount equal to your caster level for a number of rounds equal to half the CR of the soul trapped within the gem, rounded down (minimum 0).</p>\n<p>If you possess the Resurrection talent, you may use a soul gem containing a creature&#8217;s soul in place of the creature&#8217;s body to resurrect them.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "life"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890429,
+    "modifiedTime": 1663169293276,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

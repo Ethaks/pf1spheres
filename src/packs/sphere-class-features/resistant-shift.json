@@ -3,7 +3,11 @@
   "name": "Resistant Shift",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When the shifter applies a shapeshift to herself and becomes a size category larger then she was before, she gains stalwart (if she makes a Fortitude or Will saving throw against an attack that has a reduced effect on a successful save, she instead avoids the effect entirely) for 1 round per 5 levels of shifter she possesses (minimum 1), or until she applies a new shapeshift to herself (whichever is shorter). When she applies a shapeshift to herself and becomes a size category smaller than she was before, she gains evasion (As the shifter bestial trait) for 1 round per 5 levels of shifter she possesses (minimum 1), or until she applies a new shapeshift to herself (whichever is shorter).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900680,
+    "modifiedTime": 1663169296781,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

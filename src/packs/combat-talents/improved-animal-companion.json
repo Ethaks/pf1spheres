@@ -3,7 +3,15 @@
   "name": "Improved Animal Companion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "beastmastery"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Beastmastery sphere; animal companion, mount, or other similar ability; additional requirements (see details).</p>\n<p><strong>Benefit:</strong> When selecting your animal companion or mount, you can choose from special creatures to serve as your improved companion, such as creatures from the Beast Speaker feat (Heroes of Golarion), Monstrous Mount feat (Inner Sea Combat), or other similar source. An improved companion chosen using this talent advances the same way as detailed in the ability that grants you access to your animal companion or mount (such as a druid&#8217;s animal companion, cavalier&#8217;s mount, paladin&#8217;s divine bond, or the Beastmastery sphere Animal Companion talent).</p>\n<p>You can also dismiss an improved companion, as dictated by your class feature. Subject to GM discretion, other special creatures can be made available with this feat. If a chosen improved companion has prerequisites, as described in its entry, you must meet any additional prerequisites to select that improved companion. For example, to select a behir available through the Beast Speaker feat, you must have 7 ranks in either Diplomacy or Intimidate and 7 ranks in Knowledge (arcana).</p>\n<p>An improved companion chosen with this talent gains additional abilities and bonuses listed in the mastery entry in its stat block when your effective druid level is equal to or higher than that companion&#8217;s indicated mastery level. If you dismiss an improved companion and gain a new creature of a different type, your effective druid levels may not be a sufficient level to gain that creature&#8217;s mastery benefits.</p>\n<p><strong>Associated Feats:</strong> Beast Speaker, Beast Speaker Mastery, Monstrous Mount, Monstrous Mount Mastery.</p>\n<p><strong>Wiki Note:</strong> Some improved animal companions can be found in the <a href=\"/sphere-bestiary\">Sphere Bestiary</a>, including in the Monster Collections.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "beastmastery"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888258,
+    "modifiedTime": 1663169292846,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

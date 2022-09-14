@@ -3,7 +3,15 @@
   "name": "Light",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Some talents are designated (light), which add additional effects to your glow ability. You may only apply the benefits of one (light) talent to any individual glow effect. While you may only apply one such talent to an individual glow effect, areas of bright light from different glow effects overlap, provided they are augmented by different (light) effects; an area cannot be affected by the same (light) effect from multiple sources simultaneously.</p>\n<p>When augmenting a glow effect with a (light) talent, the effect is applied once per round, at the end of the caster&#8217;s turn. For example, if a glowing object is thrown into a large group of enemies, it would only affect those within the area where it landed, not those targets it passed by to arrive in that area.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890769,
+    "modifiedTime": 1663169293553,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

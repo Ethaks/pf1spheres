@@ -3,7 +3,11 @@
   "name": "Urgency",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>A warden of urgency is a manipulator of space and reality, commonly in an attempt to ensure that they are always by their allies&#8217; side. These wardens are experts in manipulating and distorting the battlefield, teleporting into battle and distorting reality around them.</p>\n<p><strong>Vigil Sphere:</strong> Warp</p>\n<p><strong>Urgent Guard:</strong> An urgent warden&#8217;s guard feels strange and sudden. At 3rd level, the warden&#8217;s guarded allies gain a miss chance equal to 5 x the warden&#8217;s guard bonus. Additionally, as part of beginning his guard, the warden may teleport the guarded ally up to 10 feet.</p>\n<p><strong>Distorting Patrol:</strong> At 7th level, the warden may spend a spell point when using his patrol ability to cause time and space to distort and shift. Whenever an enemy within the warden&#8217;s area of patrol would attempt to cast a spell or use a sphere ability that has a range greater than touch, the enemy reduces the range of the spell by 20 feet, plus 10 feet at 10th level and every 4 class levels thereafter (minimum 10 feet). If a spell would have no valid targets due to this, the spell fails, keeping any spell points spent. If the warden would reactivate his patrol before the end of his next turn, he can apply this ability without spending a spell point.</p>\n<p><strong>Warp Beacon:</strong> At 11th level, allies benefiting from the warden&#8217;s guard that are within his guard range may spend a swift action to immediately teleport to an adjacent unoccupied square to the warden. If the ally is beyond the warden&#8217;s guard range, the ally must instead spend a full-round action and have the warden spend a spell point to teleport to his side.</p>\n<p><strong>Reality Burst:</strong> At 15th level, the warden may spend a spell point when using his patrol ability to cause those within it to buckle and warp. Whenever an enemy would end their turn within the warden&#8217;s area of patrol, they must succeed at a Will saving throw or be teleported up to 20 feet in a square of the warden&#8217;s choice (otherwise following the normal Warp sphere teleport rules). If the warden would reactivate his patrol before the end of his next turn, he can apply this ability without spending a spell point.</p>\n<p><strong>Boundless Vanguard:</strong> At 19th level, whenever a guarded ally would be successfully attacked (as long as the warden is aware of the attack), the warden may spend a spell point as an immediate action or by expending an attack of opportunity to instantly teleport in front of the guarded ally, suffering the damage instead of his guarded ally (with resistances and damage reduction applying normally).</p>\n<p>Additionally, the warden and his guarded allies may use his warp beacon vigil ability regardless of whether or not they are within his guard range, and may be used regardless of whether or not the warden and the guarded ally are on the same plane or not.</p>\n<p><em>Special:</em> If the warden is using the custodian archetype and possesses the Eternal Guardian class feature, he does not need to spend a spell point when using this vigil ability.</p>\n<h3 id=\"toc81\"><span><span style=\"color: #00c000\">Vigil Reinforcements</span></span></h3>\n<h4 id=\"toc82\"><span>Boon of Extrication (requires urgency, Warp sphere) [AoP2]</span></h4>\n<p>The warden gains the Imbue Teleport Warp talent as a bonus talent. If the warden imbues a teleport on a guarded ally, it lasts for as long as the guarded ally is guarded.</p>\n<h4 id=\"toc83\"><span>Desperate Shift (requires urgency, warden 4, Warp sphere) [AoP2]</span></h4>\n<p>As part of beginning his guard, the warden may expend an attack of opportunity to teleport his guarded ally or himself up to 20 feet, plus 5 feet per 5 warden levels you possess.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900542,
+    "modifiedTime": 1663169296666,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

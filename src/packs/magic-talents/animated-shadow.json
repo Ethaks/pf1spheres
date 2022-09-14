@@ -3,7 +3,15 @@
   "name": "Animated Shadow",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Dark sphere (Shadow Lurk (shadow)), caster level 5th.</p>\n<p>By spending one spell point you lend your shadow animation and substance, allowing it to move and manipulate objects as if they were an additional set of limbs for 1 hour per caster level. Your animated shadow has two arms and a reach of 10 feet. It can retrieve and use stored items, wield and attack with weapons, activate magical items, accomplish delicate tasks like disabling a lock, and deliver touch attacks, all using your own statistics and bonuses. These arms can not be used to make additional attacks above your normal maximum, gain extra magic item slots, or grant additional actions. You may not use other abilities or talents that allow you to use your shadow to manipulate objects, such as shadow limb and Shadow Boxing, while Animated Shadow is active.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890463,
+    "modifiedTime": 1663169293302,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

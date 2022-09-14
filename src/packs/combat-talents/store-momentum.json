@@ -3,7 +3,15 @@
   "name": "Store Momentum",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As long as you have martial focus, you are always considered to have a running start when attempting an Acrobatics check to jump.</p>\n<p>As a move action, you may store kinetic energy. Kinetic energy may be stored indefinitely, but you may only have one instance of stored kinetic energy at any time.</p>\n<p>Whenever you move more than 5 feet during your turn using a movement mode corresponding to a package you possess, you may expend this stored kinetic energy to increase your speed with that package by +10 feet, increasing by +10 for every 5 ranks in a skill associated with a package you possess.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886379,
+    "modifiedTime": 1663169291770,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

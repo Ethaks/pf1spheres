@@ -3,7 +3,11 @@
   "name": "Willpower",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>A warden of willpower is incredibly resolute and willful, typically protecting the minds of their allies whilst opening them to a world of clarity and calm. These wardens focus around unity and prevention, granting their allies connection and calm when within their presence.</p>\n<p><strong>Vigil Sphere:</strong> Mind</p>\n<p><strong>Willful Guard:</strong> A wilful warden&#8217;s guard feels calm and strong. At 3rd level, the warden&#8217;s guarded allies gain a bonus to Will saving throws equal to the warden&#8217;s guard bonus. Additionally, the warden and his guarded allies may communicate telepathically, as long as they remain within 100 feet of one another.</p>\n<p><strong>Embolden Mind:</strong> At 7th level, as a swift action, the warden may spend a spell point to cast a lesser or greater charm on one of his guarded allies, paying any costs associated with the charm as normal.</p>\n<p><strong>Discordance:</strong> At 11th level, the warden may spend a spell point when using his patrol ability to cause intense pain to those who enter it. All enemies within the warden&#8217;s area of patrol suffer a -4 penalty to all concentration checks and mental skill checks as long as they remain within the area, and must succeed a Fortitude save or become deafened and sickened until the end of your next turn. If the warden would reactivate his patrol before the end of his next turn, he can keep extending the duration of the ability by one additional round without spending a spell point.</p>\n<p><strong>Mental Imposition:</strong> At 15th level, whenever an ally (guarded or not) within the warden&#8217;s guard range would be affected by a fear or mind-affecting effect, as an immediate action, he may attempt to redirect the effect. The caster must attempt a magic skill check against the warden&#8217;s magic skill defense. Creatures imposing these effects via non-magical abilities (such as using Intimidate to demoralize a creature) may substitute their base attack bonus for their magic skill bonus on this check. On a failure, the effect is destroyed. If successful, the warden must choose to have the effect affect either himself or the original target.</p>\n<p><strong>Mental Symbiosis:</strong> At 19th level, while the warden is using his patrol ability, allies within the warden&#8217;s area of patrol may expend one another&#8217;s spell points and martial focus, as long as the ally has Hit Dice of at least the warden&#8217;s Hit Dice -3.</p>\n<h3 id=\"toc85\"><span><span style=\"color: #00c000\">Vigil Reinforcements</span></span></h3>\n<h4 id=\"toc86\"><span>Manipulate Focus (requires willpower)</span></h4>\n<p>Whenever an ally or enemy would attempt a concentration check within the warden&#8217;s guard range, as an immediate action or by expending an attack of opportunity, he may either grant a bonus or penalty to the concentration check equal to twice his guard bonus.</p>\n<h4 id=\"toc87\"><span>Phrenic Library (requires willpower)</span></h4>\n<p>The warden gains the Mental Archive <a href=\"/mind\">Mind</a> talent as a bonus talent. Additionally, the warden&#8217;s guarded allies may access the warden&#8217;s archived memories, and may even store the warden&#8217;s archived memories within their own archived memories if they also possess the Mental Archive talent.</p>\n<h4 id=\"toc88\"><span>Psionic Link (requires willpower, warden 6)</span></h4>\n<p>The warden&#8217;s allies gain the ability to communicate telepathically with the warden and his allies as long as they remain within his guard range. Additionally, the warden and his guarded allies may communicate telepathically for up to long range (400 feet + 40 feet per warden level).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900727,
+    "modifiedTime": 1663169296816,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

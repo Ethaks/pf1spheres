@@ -3,7 +3,11 @@
   "name": "Grenade Master",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> When determining the save DC of an explosive or splash weapons such as an alchemical weapon, dust, oil, or potion you are activating, you may add your casting ability modifier (or Intelligence modifier, if you do not possess the casting class feature) to the save DC. This only applies to explosives and splash weapons that do not already add an ability modifier to the DC (so while it would apply to alchemical weapons, it would not apply to an Alchemist&#8217;s bomb class feature).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898231,
+    "modifiedTime": 1663169295939,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

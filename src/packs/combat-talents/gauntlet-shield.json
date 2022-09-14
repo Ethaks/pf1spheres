@@ -3,7 +3,15 @@
   "name": "Gauntlet Shield",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may treat a cestus, gauntlet, or spiked gauntlet as a buckler, gaining the +1 shield bonus to AC as normal for a buckler. The weapon&#8217;s enhancement bonus to attack and damage also applies to the shield bonus granted by the weapon. You lose this bonus if you attack with the weapon or wield another weapon in the same hand unless you possess an ability to retain your shield bonus when making a shield bash attack, such as the Bashing Shield talent of the Shield sphere or the Improved Shield Bash feat. Making an attack with this weapon may count as making a shield bash if beneficial.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888264,
+    "modifiedTime": 1663169292850,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

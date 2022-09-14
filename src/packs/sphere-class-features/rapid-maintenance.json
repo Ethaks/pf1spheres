@@ -3,7 +3,11 @@
   "name": "Rapid Maintenance",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The blacksmith&#8217;s skill at performing maintenance improves and he may now perform multiple maintenances at once. At 9th, 13th, and 17th level, the blacksmith may perform 1 additional maintenance during an 8 hour rest (for a total of 4 maintenances per affected creature at 17th level).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900762,
+    "modifiedTime": 1663169296853,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

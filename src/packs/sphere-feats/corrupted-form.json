@@ -3,7 +3,11 @@
   "name": "Corrupted Form",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your magic overtakes your body, blessing you with an advanced physiology as you sink deeper into depravity.</p>\n<p><strong>Prerequisites:</strong> Addictive Casting drawback or Unsettling Casting drawback, Witchwarped, magic skill bonus 5.</p>\n<p><strong>Benefits:</strong> Select one additional trait that you could select with the Witchwarped feat. While you possess a lesser madness or a moderate addiction as a result of a casting drawback, you gain the benefits of this trait in addition to the trait granted from Witchwarped.</p>\n<p>When your magic skill bonus reaches 10, you may select a third trait which you gain while you possess a greater madness or severe addiction</p>\n<p>Traits gained from this feat count towards the number of traits you may possess when under the effects of Blank Transformation, but are not considered a polymorph effect.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897955,
+    "modifiedTime": 1663169295753,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

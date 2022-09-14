@@ -3,7 +3,11 @@
   "name": "Hinder Movement",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever the sage deals damage to an opponent using his chi gong ability, he may spend a ki point to use his ki to disrupt the opponent&#8217;s motor functions. The opponent must succeed at a Fortitude save or have all of their movement speeds reduced by 5 ft. per chi gong die he possesses until the end of the sage&#8217;s next turn; multiple uses of this ability do not stack, and this ability cannot reduce the opponent&#8217;s speed to lower than 5 ft. in any movement mode they possess.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900036,
+    "modifiedTime": 1663169296173,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Battle Creature",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your companion is learned in the ways of war. It gains proficiency with all simple weapons and when summoned, appears with up to 2 weapons it is proficient with (masterwork, but of unremarkable composition). These weapons gain a +1 enhancement bonus for every 3 Hit Dice possessed to a maximum of +5. A companion may gain this form talent twice. If gained a second time, it gains proficiency with all martial weapons and treats its Hit Dice as fighter levels when meeting the prerequisites for feats.</p>\n<p><strong>Note:</strong> If using Spheres of Might, companions with Battle Creature (form) may take <a href=\"/martial-traditions\">martial traditions</a> instead of proficiency with all martial weapons.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892740,
+    "modifiedTime": 1663169294320,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Moving Target",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When moving more than 5 ft. during your turn using the movement mode corresponding to a package you possess, you gain a 20% miss chance against ranged attacks until the start of your next turn. If you move more than 20 ft., you may expend your martial focus as a free action to increase this miss chance to 50%. If you take this talent a second time, the miss chance applies to all attacks made against you. <strong>Associated Feat:</strong> Wind Stance.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887419,
+    "modifiedTime": 1663169292036,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

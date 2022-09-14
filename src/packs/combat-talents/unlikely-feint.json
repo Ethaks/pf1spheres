@@ -3,7 +3,15 @@
   "name": "Unlikely Feint",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fencing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fencing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You do not suffer a penalty when feinting against non-humanoids, and the penalty against feinting a creature with an Intelligence of 1 or 2 is reduced to -4. You may attempt to feint mindless creatures, but suffer a -8 penalty. For every 5 points of base attack bonus you possess, these penalties are reduced by 2 (minimum 0).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fencing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886669,
+    "modifiedTime": 1663169291838,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Cunning Caster",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Deceitful, caster level 1st.</p>\n<p><strong>Benefit:</strong> When creating a magical sphere effect, you can attempt a Bluff check (opposed by observers&#8217; Perception checks) to conceal your actions from onlookers.</p>\n<p>Every drawback possessed that could be heard or seen (materials, somatic components, verbal components, requiring a focus, etc.) imposes a cumulative -4 penalty to this Bluff check.</p>\n<p>If the magic sphere effect is obvious (such as a summoned creature or a destructive blast), you also take a &#8211;4 penalty on the Bluff check, and even if your check is successful, observers still see the effect (though they fail to notice that you are responsible for it).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897590,
+    "modifiedTime": 1663169295509,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

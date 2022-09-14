@@ -3,7 +3,11 @@
   "name": "Toppling Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> The impact of your force talent is strong enough to knock the target prone. If the target takes damage, fails its saving throw, or is moved by your force talent, make a trip check against the target, using your caster level plus your casting ability modifier. This does not provoke an attack of opportunity. If the check fails, the target cannot attempt to trip you or the force effect in response. This metamagic only affects talents with the force descriptor.</p>\n<p><strong>Cost:</strong> +1 spell point</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897954,
+    "modifiedTime": 1663169295753,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

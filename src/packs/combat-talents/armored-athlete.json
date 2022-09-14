@@ -3,7 +3,15 @@
   "name": "Armored Athlete",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you attempt a check for a skill associated with an Athletics sphere package you possess, your armor check penalty on that check for wearing armor you are proficient in is reduced by 2. For every 4 ranks in the skill associated with the package you possess, the penalty is further reduced by 1 (this cannot reduce your armor check penalty below 0). The benefits granted by this talent do not stack with those provided by the Armored Athlete feat. <strong>Associated Feat:</strong> Armored Athlete.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886080,
+    "modifiedTime": 1663169291753,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

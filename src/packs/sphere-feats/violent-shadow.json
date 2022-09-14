@@ -3,7 +3,11 @@
   "name": "Violent Shadow",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Shadowmark 3d6, shadow pool.</p>\n<p><strong>Benefit:</strong> You may spend a shadow point as a full-round action to make a single attack with your shadowmark. Rather than a ranged touch attack, treat your shadowmark as a melee touch attack with a 10-foot reach. Regardless of if your attack hits or not, you may make attacks of opportunity as melee touch attacks with a 10-foot reach with your shadowmark without additional expenditure of points from your shadow pool until the beginning of your next turn. If you have multiple attacks from a high base attack bonus or effects such as haste you can (as part of the full-round action) make as many attacks with your violent shadow as your base attack bonus allows.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898212,
+    "modifiedTime": 1663169295925,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

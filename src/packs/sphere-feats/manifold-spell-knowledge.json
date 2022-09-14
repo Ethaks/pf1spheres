@@ -3,7 +3,11 @@
   "name": "Manifold Spell Knowledge",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You know of multiple ways to utilize your magic.</p>\n<p><strong>Prerequisite:</strong> Caster level 1st or higher with at least two casting traditions.</p>\n<p><strong>Benefit:</strong> You may pool your magic spheres and talents between two of your casting traditions, allowing you to select which casting tradition you use each of your magic talents with when you cast them. Any magic effects created with a casting tradition other than the original tradition it was selected with costs 1 additional spell point (or 1 spell point if it would not cost spell points). You cannot use this feat with the two talents you gain at 1st level for being a caster or with any talents gained through sphere-specific drawbacks. Add your caster levels from the two casting traditions together rather than determining them separately. For example, a 5th-level incanter with this feat who used two levels to advance in the Blood Magic tradition and three levels to advance in the Runist tradition would have a caster level of 5 for both traditions rather than a caster level of 2 when using Blood Magic and a caster level of 3 when using Runist magic.</p>\n<p><strong>Special:</strong> You may take this feat multiple times, each time adding magic spheres and talents from an additional casting tradition to the pool.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897532,
+    "modifiedTime": 1663169295476,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

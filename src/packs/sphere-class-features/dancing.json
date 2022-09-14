@@ -3,7 +3,11 @@
   "name": "Dancing",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The armorist adds dancing (+4), flying (+5), and animated (+2) to the list of special abilities she may add to her bound and summoned weapon and shields, respectively. A bound weapon or shield with the dancing, flying, or animated special ability does not disappear until after it has finished its 4 rounds of independent action.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901074,
+    "modifiedTime": 1663169297273,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

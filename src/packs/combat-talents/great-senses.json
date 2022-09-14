@@ -3,7 +3,15 @@
   "name": "Great Senses",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scout.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scout"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You gain 5 ranks in the Perception skill, plus 5 ranks per additional talent spent in the Scout sphere (maximum ranks equal to your total Hit Dice). If you already have ranks in the Perception skill you may immediately retrain them, but you do not get to retrain when only temporarily gaining talents, such as through the armiger&#8217;s customized weapons class feature.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scout"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888240,
+    "modifiedTime": 1663169292827,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

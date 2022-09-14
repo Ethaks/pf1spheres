@@ -3,7 +3,15 @@
   "name": "Ninjutsu Training",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You gain proficiency with the kama, kusarigama, nunchaku, rope dart, sai, short sword, shortbow, shuriken, siangham, and wakizashi, and may wield the katana as a two-handed martial weapon. In addition, when attacking an enemy that is unaware of your presence, your first attack against them deals an additional +1 damage.</p>\n<p>You may take this talent a total of twice. If taken a second time, you also gain proficiency with the chakram, crystal chakram, double-chained kama, kyoketsu shoge, tekko-kagi, tube arrow shooter, and may wield the katana as a one handed exotic weapon.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885424,
+    "modifiedTime": 1663169291475,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Inspiration",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>From 2nd level on, a conscript gains the ability to augment skill checks and ability checks through his brilliant inspiration. The conscript gains an inspiration pool equal to 1/2 his class level (minimum 1). A conscript&#8217;s inspiration pool refreshes each day, typically after he gets a restful night&#8217;s sleep. As a free action, he can expend one use of inspiration from his pool to add 1d6 (his inspiration die) to the result of a skill or ability check, including any on which he takes 10 or takes 20. This choice is made after the check is rolled and before the result is revealed. A conscript can use inspiration once only per check or roll.</p>\n<p>Inspiration can also be used on attack rolls and saving throws, at the cost of two uses of inspiration each time from the conscript&#8217;s pool. In the case of saving throws, using inspiration is an immediate action rather than a free action.</p>\n<p>This counts as the investigator&#8217;s inspiration class feature, and conscripts with this ability add their investigator and conscript levels together when determining their uses per day and other level related functions of this ability.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900094,
+    "modifiedTime": 1663169296241,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

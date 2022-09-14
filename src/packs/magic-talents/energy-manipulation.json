@@ -3,7 +3,15 @@
   "name": "Energy Manipulation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Alteration sphere (any talent granting energy resistance as a trait option), caster level 10th.</p>\n<p>You may spend an additional spell point to add the following trait options to your forms:</p>\n<p><strong>Energy Immunity:</strong> You may grant the target immunity to one energy type to which it has resistance.</p>\n<p><strong>Vulnerability:</strong> You may grant the target vulnerability to one energy type. Calculate this effect after any existing resistance. If the target is immune to the energy type, this trait has no effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890548,
+    "modifiedTime": 1663169293373,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

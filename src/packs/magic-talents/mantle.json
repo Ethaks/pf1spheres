@@ -3,7 +3,15 @@
   "name": "Mantle",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you gain your first (mantle) talent, you gain the ability, as a standard action, to touch a creature and spend a spell point, bestowing your mantle upon it. Unwilling targets may attempt a Will save to resist a mantle being placed on them. A mantle lasts for one hour per caster level, and is subject to spell resistance.</p>\n<p>Having a mantle grants different effects depending on the current weather conditions. Talents marked with the (mantle) tag add effects to your mantle; once you have bestowed your mantle upon a creature they gain the benefits of all (mantle) talents you have that apply to the weather in its area. Abilities and effects that reduces the severity of weather (such as the Weather incanter specialization or Clear Skies mantle) do not reduce the effect of mantles.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "weather"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894634,
+    "modifiedTime": 1663169294958,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

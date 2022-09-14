@@ -3,7 +3,15 @@
   "name": "Planar Creature",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your Conjuration companion is strongly tied to the alignment planes. Choose one of the following alignment groups. Your companion gains two of the options listed under that alignment group. Taking this talent a second time grants the remaining two options under that alignment.</p>\n<p><strong>Anarchic</strong></p>\n<ul>\n<li>DR 2/lawful (increasing by +1 per 5 Hit Dice)</li>\n<li>Energy resistance (acid, electricity, sonic) equal to 1/2 Hit Dice</li>\n<li>+1 saves vs. mind-affecting effects (increasing by +1 per 5 Hit Dice)</li>\n<li>Attacks count as chaotic for the purpose of overcoming damage reduction.</li>\n</ul>\n<p><strong>Axiomatic</strong></p>\n<ul>\n<li>DR 2/chaotic (increasing by +1 per 5 Hit Dice)</li>\n<li>DR vs. nonlethal damage equal to 1/2 Hit Dice</li>\n<li>+1 saves vs. death effects (increasing by +1 per 5 Hit Dice)</li>\n<li>Attacks count as lawful for the purpose of overcoming damage reduction.</li>\n</ul>\n<p><strong>Celestial</strong></p>\n<ul>\n<li>DR 2/evil (increasing by +1 per 5 Hit Dice)</li>\n<li>Energy resistance (acid, cold, electricity) equal to 1/2 Hit Dice</li>\n<li>+1 saves vs. disease (increasing by +1 per 5 Hit Dice)</li>\n<li>Attacks count as good for the purpose of overcoming damage reduction.</li>\n</ul>\n<p><strong>Fiendish</strong></p>\n<ul>\n<li>DR 2/good (increasing by +1 per 5 Hit Dice)</li>\n<li>Energy resistance (cold, fire) equal to 1/2 Hit Dice</li>\n<li>+1 saves vs. poison (increasing by +1 per 5 Hit Dice)</li>\n<li>Attacks count as evil for the purpose of overcoming damage reduction.</li>\n</ul>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892676,
+    "modifiedTime": 1663169294252,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

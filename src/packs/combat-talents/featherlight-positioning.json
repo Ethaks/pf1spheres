@@ -3,7 +3,15 @@
   "name": "Featherlight Positioning",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>While in this stance, whenever you make an attack action, attack of opportunity, or additional attack granted by a class feature or talent with an unarmed strike, you may spend an attack of opportunity to take a 5-foot step immediately after the attack as a free action that can be taken even outside of your normal turn. You may make 5-foot steps in this manner even if you have already moved for the round. <strong>Associated Feat:</strong> Circling Mongoose.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886429,
+    "modifiedTime": 1663169291818,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

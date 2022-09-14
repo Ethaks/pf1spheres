@@ -3,7 +3,15 @@
   "name": "Repel The Unnatural",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warp sphere (Plane Manipulator (space)).</p>\n<p>You may treat aberrations and oozes as if they were extraplanar creatures for the purpose of your Plane Manipulator talent, banishing them back to where they came. This effect sends the creature to the place on the Material Plane from which it originated (which may be an underground cavern, a laboratory, or another planet somewhere in the stars).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893580,
+    "modifiedTime": 1663169294592,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

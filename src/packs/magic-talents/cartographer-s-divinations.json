@@ -3,7 +3,15 @@
   "name": "Cartographer’s Divinations",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "divination"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Great diviners often learn a number of wide-reaching but imprecise tools which can map entire regions and battlefields, grant precise directions, and learn about the terrain.</p>\n<p><strong>Prerequisites:</strong> Divination sphere, caster level 5th.</p>\n<p>You gain a number of new (divine) abilities. The abilities granted by this talent are improved if you possess certain alternate divinations. These additional options are noted as expanded options. If you possess the Divination sphere Greater Divine talent, the range of the sphere effects granted by this advanced talent increase by 1 step (1 mile to 10 miles per caster level, 10 miles to 100 miles per caster level).</p>\n<h5 id=\"toc71\"><span>Divine Chart</span></h5>\n<p>You may spend 2 spell points to divine a location within 1 mile per caster level, granting you vision of the specified location in up to a 1,000-foot radius as though viewed with a map. You gain accurate knowledge of the terrain and topography, including buildings and other structures, although fine topographical features or concealed or hidden locations are not revealed. In addition, all normally visible creatures are located, but no identifying characteristics of those creatures are known, appearing as an indistinct speck. This effect does not reveal invisible or incorporeal creatures or give any information about the interiors of locations (such as buildings or caves). Only information as viewed from above is made known to the caster.</p>\n<p><strong>Expanded Options:</strong></p>\n<ul>\n<li>If you possess the Divine Allegiance alternate divination, obvious war camps and contingents of troops are also made known to the caster with a symbol of their banner (if they openly carry such a symbol).</li>\n<li>If you possess the Divine Illusions or Divine Force alternate divinations, the locations of invisible or incorporeal creatures are located respectively, as though detecting a normal creature.</li>\n<li>If you possess the Divine Warp alternate divination, the locations of extraplanar gates, teleportation circles, and other permanent magical teleportation effects are made known to the caster (although where they connect to is not revealed).</li>\n</ul>\n<p>This sphere effect is instantaneous and does not adjust for changes that occur after this effect is cast. When casting this sphere effect, a blank piece of parchment or other reasonably flat surface may be used as an optional focus component, the divined information is scribed as a readable map. Alternatively, a sufficiently large table with a malleable substance (such as clay or sand) or bowl of water or other liquid may be used to instead create a still model of the divined area, which crumbles if the table or bowl is disturbed.</p>\n<h5 id=\"toc72\"><span>Lay of the Land</span></h5>\n<p>You may spend 2 spell points to divine the surrounding lands within up to 10 miles per caster level, extending underground and through objects without hindrance (unless you possess the Divination sphere Limited Penetration sphere-specific drawback). You instantly learn 2 facts + 1 fact per 4 caster levels about any of the following information pertaining to the surrounding lands: terrain, plantlife, minerals, bodies of water, people and civilizations, animal populations, the presence of powerful and unnatural creatures, supernatural phenomenon and landmarks (such as ley lines, fairy rings, extraplanar portals, etc.), or even the general state of the natural area.</p>\n<p><strong>Expanded Options:</strong></p>\n<ul>\n<li>If you possess the Divine Elements alternate divination, you may learn 1 additional fact about any element you could divine information for (such as air or water quality, active fires, etc.).</li>\n<li>If you possess the Divine Warp alternate divination, when you learn a fact about a nearby supernatural phenomenon, if that supernatural phenomenon is connected to another location by a permanent teleportation effect, you learn the type of plane or location it connects to (such as geographical traits, if the same plane, or planar traits if extraplanar).</li>\n<li>If you possess the Divine Weather alternate divination, you may learn 1 additional fact about the weather in the area, including past weather patterns or an accurate forecast of the natural weather for the next day per caster level. This fact is only accurate to naturally occurring weather, not any magical occurrences which could change the weather.</li>\n</ul>\n<p>This sphere effect provides facts and information which can pertain to any relevant information about the surrounding lands, subject to GM discretion, but should generally be limited to the topography, natural features, and overall qualities about such information (such as total population numbers, locations of major natural bodies, categories of and presence of plant life or minerals, including rare resources, general locations of animals or unnatural creatures, etc.). This sphere effect does not provide precise information about the nature of communities, signs of civilization, or constructed locations, but may reveal their general locations (such as knowing there is something man-made and constructed located inside a mountain, but not being aware of the nature of the construction, such as being a dungeon, shrine, or tower).</p>\n<h5 id=\"toc73\"><span>Pathfinder</span></h5>\n<p>You may spend 2 spell points to divine the shortest, most direct physical route to a prominent and specific destination, such as a castle, city, lake, crypt, or dungeon. The destination can be outdoors or underground as long as it is prominent. If no specific destination is named (such as &#8220;a nearby lake&#8221; or &#8220;the nearest city&#8221;, instead of &#8220;Fort Lotheed&#8221;), this sphere effect locates the nearest destination which meets the description (subject to GM discretion). This sphere effect has no maximum range, but is limited to a destination on the same plane as the caster. This sphere effect is blocked by effects which protect against scrying and other forms of divination (such as not locating a dungeon which is warded against divination effects).</p>\n<p><strong>Expanded Options:</strong></p>\n<ul>\n<li>If you possess the Divine Warp alternate divination, you may designate an extraplanar gate, teleportation circle, and other permanent magical teleportation effect leading to a specific plane as your destination. If no such effect exists, this ability fails and grants no directions.</li>\n</ul>\n<p>For 1 day per caster level, the caster gains knowledge of the destination&#8217;s general location and the destination&#8217;s distance and direction from the caster. In addition, the caster gains a supernatural sense for any actions which must be taken to reach that destination (such as which corridor in a cavern to take). This sphere effect otherwise functions as the find the path spell for the purposes of interactions with the maze spell.</p>\n<p><strong>Pathfinder Example:</strong> The caster could not specify a specific cabin or home, but could specify the specific logging camp where the structure is located (such as &#8220;The Maple Forest Logging Camp&#8221;). Subject to GM discretion, sufficiently prominent individual buildings (such as landmarks or a noble&#8217;s mansion) may qualify as a prominent destination if it is notable or unique to the location.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "divination"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893241,
+    "modifiedTime": 1663169294578,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

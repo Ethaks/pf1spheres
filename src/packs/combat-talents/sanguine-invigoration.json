@@ -3,7 +3,15 @@
   "name": "Sanguine Invigoration",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "berserker"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As long as you have martial focus, whenever you reduce a creature to 0 hit points or fewer with a melee or thrown weapon attack, you gain temporary hit points equal to your base attack bonus for 1 round. The creature must have a CR of at least half your character level (rounded down, minimum 1/2). These temporary hit points stack with those granted by the base sphere. Whenever this ability would be triggered, you may expend your martial focus as an immediate action to remove the fatigued condition, or lessen the exhausted condition to fatigued.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "berserker"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887673,
+    "modifiedTime": 1663169292103,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

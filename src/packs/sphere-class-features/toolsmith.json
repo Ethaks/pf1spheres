@@ -3,7 +3,11 @@
   "name": "Toolsmith",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The blacksmith&#8217;s training and practice with tools increases the bonus he gets from using masterwork tool kits, such as a set of masterwork thieves&#8217; tools; the circumstance bonus granted to the blacksmith by such masterwork tools increases by +2, plus an additional +2 at 5th level and every 5 levels thereafter (so a 5th level blacksmith using a set of masterwork thieves&#8217; tools would receive a +6 circumstance bonus on associated checks).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900093,
+    "modifiedTime": 1663169296240,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Dumbfounding Crack",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "barroom"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Barroom sphere, base attack bonus +5.</p>\n<p>Whenever you attack a creature, you may break your weapon and expend your martial focus. If your attack is successful, the creature must succeed at a Will saving throw or become confused for 1 round, plus 1 round per 3 points of base attack bonus you possess.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "barroom"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888214,
+    "modifiedTime": 1663169292802,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

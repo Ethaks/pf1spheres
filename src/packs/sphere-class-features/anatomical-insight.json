@@ -3,7 +3,11 @@
   "name": "Anatomical Insight",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever the technician attacks a target who is flat-footed, is denied their Dexterity bonus to AC, or that the technician is flanking, the technician&#8217;s attacks deal an additional amount of damage equal to 1/2 the technician&#8217;s class level (minimum: 1). This insight qualifies the technician for feats and other options that require sneak attack dice, as if each point of precision damage dealt was a sneak attack die that always rolls &#8216;1&#8217;. This stacks with any sneak attack the technician might possess from another source.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900080,
+    "modifiedTime": 1663169296222,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

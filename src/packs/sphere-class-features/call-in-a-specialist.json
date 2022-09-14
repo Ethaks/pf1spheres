@@ -3,7 +3,11 @@
   "name": "Call In A Specialist",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The commander makes many contacts over the course of his career, including individuals with unique skill sets capable of turning the tide of a critical battle or provide crucial information. Once per week, the commander may spread the word in any small town or larger settlement that he is looking for such a specialist to aid in a particular task.</p>\n<p>The specialist appears within 24 hours, minus 1 hour for each level the commander possesses (minimum time until appearance of 1 hour). The specialist stays until their task (as described in their entry) is completed, or for a number of days equal to 1/2 the commander&#8217;s class level, whichever comes first.</p>\n<p>Specialists whose services are acquired in this way generally will not become directly involved in combat; if forced into a situation where combat is inevitable, they will fight to protect themselves but will otherwise avoid conflict. If a specialist is killed in the course of performing their services as defined in this ability, the commander must wait 1 month before another specialist will work with him again. Each time the commander uses this ability, he chooses a particular type of specialist from the following list:</p>\n<h5 id=\"toc33\"><span>Equipment Specialist</span></h5>\n<p>The commander gains the services of a blacksmith whose class level is equal to the commander&#8217;s class level -3. This equipment specialist will use his maintenance class feature for the commander and up to 5 other individuals in preparation for the following day. In addition, the blacksmith can use his reforge ability to repair or reforge one magic weapon in the commander&#8217;s possession.</p>\n<h5 id=\"toc34\"><span>Information Specialist</span></h5>\n<p>The commander gains the services of a bard or rogue whose class level is equal to the commander&#8217;s class level -3. This information specialist can perform one of two services; first, they can provide the commander with a detailed map of the local town or city, including hidden passages, sewer passageways (if any), guild hall locations (both legitimate businesses and illicit organizations such as thieves guilds), and other relevant points of interest. Secondly, they can spend 5 days studying a single city block, or one major figure in their town or city; if they study a city block, they provide basic information about all traffic that moves in or out of this area, including what races and in what numbers, any traps or particularly dangerous individuals who frequent the area, and any other major points of interest. If they study a particular individual or citizen they gain detailed information about the figure including their friends and contacts, any significant abilities possessed by the individual (such as martial prowess or spellcasting), any weapons or possessions of particular note or value, and any addictions, habits, or other social weaknesses the individual possesses.</p>\n<h5 id=\"toc35\"><span>Medical Specialist</span></h5>\n<p>The commander gains the services of a cleric or scholar whose class level is equal to the commander&#8217;s class level -3. This medical specialist will provide medical treatment to the commander and up to 5 other individuals, using any abilities they possess to heal the injuries and negative conditions affecting these targets. The commander must still pay for any expensive material components necessary for spells or abilities the medical specialist performs.</p>\n<h5 id=\"toc36\"><span>Scouting Specialist</span></h5>\n<p>The commander gains the services of a hunter or ranger whose class level is equal to the commander&#8217;s class level -3. This scouting specialist can perform one of two services; first, they can provide the commander with a detailed map of nearby wilderness territory, including pathways, dungeons, and the lairs of dangerous beasts. The scouting specialist can successfully map up to 1 square mile of territory each day. Secondly, they can spend 5 days studying a wilderness area of 1 square mile or less, or a single creature; if they study a particular creature, at the end of this period they provide detailed information about it to the commander, including its current condition, weaknesses, spell-like or supernatural abilities, and its habits and daily routine (where it goes and why).</p>\n<p>If they study a particular area, they provide basic information on all creatures that move through that territory, including species and approximate number, any hazards or pitfalls in the area, and any other items of particular interest.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900683,
+    "modifiedTime": 1663169296786,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

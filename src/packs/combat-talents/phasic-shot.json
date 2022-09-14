@@ -3,7 +3,15 @@
   "name": "Phasic Shot",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/sniper.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "sniper"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Sniper sphere, Perfect Shot, base attack bonus +15.</p>\n<p>Your shot is fired with such force and deadly accuracy that it cuts through the very bonds of reality, bypassing any obstacle between it and its target. Targets gain no benefit from cover, even total cover, against your attacks. If you possess the Star Scraper legendary talent, you may attack a target anywhere within its advanced range, even if they are completely enclosed by protective surfaces, though you must still have a reliable means of ascertaining your target&#8217;s exact location. This is a supernatural effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "sniper"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885521,
+    "modifiedTime": 1663169291534,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

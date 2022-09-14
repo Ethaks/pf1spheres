@@ -3,7 +3,15 @@
   "name": "Control Oxygenation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You gain the following abilities:</p>\n<p>As a (still) effect, the target becomes fatigued for the duration of your blood control. You may spend a spell point to cause the creature to instead become exhausted for this duration. Creatures that do not breathe are immune to this effect.</p>\n<p>As a (quicken) effect, you may boost the circulation of the target of your blood control, allowing the target to ignore one instance of the fatigued or staggered conditions and treat one instance of the exhausted condition as fatigued for a number of rounds equal to the target&#8217;s Constitution modifier. After a creature benefits from this ability, it cannot do so again for one minute per round the ability was active. Creatures that do not breathe do not benefit from this effect</p>\n<p>If you spend a spell point, the target may make an extra attack as part of a full attack or make additional attacks of opportunity (as the Improved Haste Time sphere talent) for the duration of this effect. This does not stack with similar effects such as the Improved Haste Time sphere talent. When used this way, the target is fatigued at the end of this effect. If the target was already fatigued, it is instead exhausted. If it was exhausted, it drops unconscious for 1d6 rounds.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "blood"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892304,
+    "modifiedTime": 1663169293984,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Raging Bull",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/boxing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "boxing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you ready a counter punch, you can instead ready a charge, although you may only move up to your speed with this charge (the attack granted by this charge is still treated as an attack action). <strong>Associated Feat:</strong> Rhino Charge.</p>\n<p><strong>Author's Note:</strong> Abilities that multiply damage dealt on a charge, such as the Spirited Charge feat or wielding a lance while making a mounted charge, may not be used with this talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "boxing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885557,
+    "modifiedTime": 1663169291561,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

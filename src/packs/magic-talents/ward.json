@@ -3,7 +3,15 @@
   "name": "Ward",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a standard action, you may create a ward centered on yourself with a radius of up to 10 feet + 5 feet per caster level, but can also be made so small as to only cover yourself. Wards remain as long as you concentrate, but you may spend a spell point to allow them to remain for 1 round per caster level without concentration. Wards remain in the location they were created, even if you move (however, if the ward is created entirely on top of a vehicle, it will move with that vehicle). If a ward affects targets inside it, its effects are subject to spell resistance.</p>\n<p>When you gain the Protection sphere, you gain the following ward:</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892310,
+    "modifiedTime": 1663169293991,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

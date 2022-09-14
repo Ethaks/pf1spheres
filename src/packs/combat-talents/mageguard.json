@@ -3,7 +3,15 @@
   "name": "Mageguard",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/guardian.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "guardian"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When a hostile creature within your threatened area attempts to cast a spell defensively, they take a penalty to their concentration check equal to 1/2 your base attack bonus (minimum 1). The creature is aware of this penalty. This ability stacks with the Disruptive feat and similar effects.</p>\n<p>If you possess the (challenge) package, if the creature is under the effects of your challenge, they provoke an attack of opportunity from you whenever they fail a concentration check to cast a spell defensively.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "guardian"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888177,
+    "modifiedTime": 1663169292767,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

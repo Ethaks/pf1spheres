@@ -3,7 +3,15 @@
   "name": "Thaumic Sink",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Trap sphere, Craft (traps) 15 ranks.</p>\n<p>When used with a dart trap, a creature that is struck by your dart becomes affected as if he were inside of an antimagic field, as per the spell. This effect persists for 1 round per rank in Craft (traps) you possess or until a full-round action is spent removing the dart. A dart may be removed as a standard action, but doing so inflicts damage equal to the dart&#8217;s minimum damage. When used with a snare trap, a 10-ft. radius around the triggering square is covered in an antimagic field per the spell. This effect persists for 1 round per rank in Craft (traps) you possess.</p>\n<p>An antimagic field suppresses any spell or magical effect used within, brought into, or cast into the area, but does not dispel it. Time spent within an antimagic field counts against the suppressed spell&#8217;s duration. Summoned creatures of any type wink out if they enter an antimagic field. They reappear in the same spot once the field goes away.</p>\n<p>This trap is a spell-like ability, using your ranks in Craft (trap) as your caster level.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "trap"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886685,
+    "modifiedTime": 1663169291851,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

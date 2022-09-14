@@ -3,7 +3,15 @@
   "name": "Spirit",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Some talents are marked (spirit). These talents give the caster ways they have learned to tune their spirit with nature.</p>\n<p>Each (spirit) talent grants the caster a new ability they may use as a standard action unless otherwise specified. If a (spirit) talent grants multiple options, each one is considered a separate spirit ability. If an ability granted by a (spirit) talent affects a target directly, that effect is subject to spell resistance.</p>\n<p>If a (spirit) talent uses your geomancing range or references a geomancing ability, you may instead use your caster level with (spirit) talents to determine the range or strength of its effects.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890751,
+    "modifiedTime": 1663169293540,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

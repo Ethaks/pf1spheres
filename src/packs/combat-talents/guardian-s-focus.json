@@ -3,7 +3,15 @@
   "name": "Guardian’s Focus",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/guardian.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "guardian"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When a creature affected by your challenge is reduced to 0 or fewer hit points or you succeed on a combat maneuver check made on an attack of opportunity while you have a patrol set up, you may regain martial focus as an immediate action.</p>\n<p>If you posses the Defend Other talent, you may regain focus on your next turn whenever an enemy misses an ally benefiting from that talent with an attack.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "guardian"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887923,
+    "modifiedTime": 1663169292327,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

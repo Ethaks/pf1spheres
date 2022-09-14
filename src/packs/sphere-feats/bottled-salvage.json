@@ -3,7 +3,11 @@
   "name": "Bottled Salvage",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Vampiric Casting drawback.</p>\n<p><strong>Benefit:</strong> When draining a creature, you may instead spend 1 minute harvesting the blood of that creature, creating a single bottle of their blood. You can only harvest the blood from a number of creatures equal to your casting ability modifier each week, and bottled blood expires after a week of being bottled. You may drink bottled blood at any time as if it were a potion to grant yourself +1 morale bonus on the next saving throw you attempt for one minute, and be treated as if you drained the creature of which you created the bottle of blood from.</p>\n<p><strong>Special:</strong> You can mix a bottle of blood with any other potion, formulae, or similar item to gain the effects of drinking bottled blood whenever you drink that potion or use the formulae on yourself. If you have taken the Vampiric Casting drawback twice, the morale bonus applies to all saving throws made for one minute after consumption, rather than only one, and stacks with itself up to +2.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898173,
+    "modifiedTime": 1663169295903,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

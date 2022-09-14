@@ -3,7 +3,15 @@
   "name": "Absolute Totem",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/war.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "war"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You must spend a spell point to create an absolute totem. Within this totem, the weapons, armor and equipment allies are wearing or carrying receive a bonus to their hardness equal to your caster level. While using these weapons, allies receive a +1 competence bonus to sunder attempts. This increases by +1 for every 5 caster levels, and whenever an enemy strikes them with a melee attack using a manufactured weapon, they may attempt to sunder their opponent&#8217;s weapon as an immediate action.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "war"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890535,
+    "modifiedTime": 1663169293359,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

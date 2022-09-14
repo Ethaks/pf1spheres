@@ -3,7 +3,15 @@
   "name": "Elude Fate",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Fate sphere, caster level 10th.</p>\n<p>You may spend three spell points to place a word on a creature that protects it from a single doom. Choose a set of circumstances. If the circumstances would kill the target of this word the target is instead left at 1 hit point and the word ends. In order for this word to function, the circumstances must be sufficiently specific. For example, &#8220;death at the hands of an orc,&#8221; &#8220;death in an ambush,&#8221; &#8220;death by fire,&#8221; or &#8220;death caused by the Telekinesis sphere&#8221; would be acceptable; &#8220;death by hit point damage&#8221; or &#8220;death at the hands of an enemy&#8221; would not.</p>\n<p>The GM is the ultimate arbiter both of what is sufficiently specific (though if a set of circumstances is ruled to not be, the caster does not spend spell points) and of whether a particular death meets the specified conditions.</p>\n<p>This word lasts 1 hour per caster level or until discharged.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893120,
+    "modifiedTime": 1663169294545,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

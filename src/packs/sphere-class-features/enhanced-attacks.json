@@ -3,7 +3,11 @@
   "name": "Enhanced Attacks",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Starting at 4th level, the shifter&#8217;s magic begins to augment her natural attacks, in both her normal and transformed shapes. All the shifter&#8217;s natural attacks are treated as magic weapons for the purpose of overcoming damage reduction. At 7th level they are treated as cold iron and silver weapons. At 10th level, the shifter has come to embody fluidity so much that her natural attacks are treated as chaotic weapons for the purpose of overcoming damage reduction. At 16th level, they are treated as adamantine weapons for this purpose.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900777,
+    "modifiedTime": 1663169296870,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

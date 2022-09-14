@@ -3,7 +3,15 @@
   "name": "Friendship",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create an aegis that gives a creature special protection from the spell, spell-like, sphere and supernatural abilities of his allies. Whenever one of that creature&#8217;s allies uses a spell, spell-like, or sphere ability that is subject to spell resistance and covers an area, or a supernatural ability that covers an area, allies with this aegis and their equipment are treated as if they were immune. This aegis does not block beneficial effects from a creature's allies.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892759,
+    "modifiedTime": 1663169294335,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

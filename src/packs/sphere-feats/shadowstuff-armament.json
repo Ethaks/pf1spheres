@@ -3,7 +3,11 @@
   "name": "Shadowstuff Armament",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> As a move action or a free action with the expenditure of a shadow point, you may create and instantaneously equip a non-magical version of a weapon, piece of ammunition, light armor, or light shield you are proficient with out of stable shadowstuff. In the case of exotic weapons, you must have studied a pre-existing version of the weapon for at least 1 week. This object dissipates one round after you are no longer in contact with it or if you use this feat a second time. Creating ammunition using this feat may be done as part of the same action required to load a weapon instead of a move action without having to spend a shadow point.</p>\n<p><strong>Special:</strong> You may create an additional simultaneous object with a single use of this feat per 5 character levels.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897923,
+    "modifiedTime": 1663169295727,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Broken Earth",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your magic shatters the ground, transforming into hazardous terrain.</p>\n<p><strong>Prerequisite:</strong> Terrain Casting drawback.</p>\n<p><strong>Benefit:</strong> Whenever you blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may cause any affected area to become difficult terrain for all creatures other than yourself.</p>\n<p><strong>Four Defiler Feats:</strong> Creatures other than yourself moving through terrain you have defiled take 1d4 points of piercing damage for each 5 feet of movement through the spiked area.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898222,
+    "modifiedTime": 1663169295930,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

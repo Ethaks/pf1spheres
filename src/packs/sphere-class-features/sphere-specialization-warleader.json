@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Warleader)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Born Leader:</strong> At 3rd level and every five levels thereafter, a conscript gains a teamwork feat he qualifies for as a bonus feat. The conscript may share these feats with any ally currently benefiting from one of his tactics or shouts, even if they would not normally qualify for it.</p>\n<p><strong>Triumphant Stand (Ex):</strong> Starting at 8th level, whenever a conscript would be dropped to 0 or fewer hit points by a melee or ranged weapon attack while he has a tactic active, any ally currently benefiting from the tactic may make an aid another check as an immediate action to add +2 to the conscript&#8217;s AC (to a maximum bonus of +10). If these bonuses would be enough to raise his AC above the attack roll for the triggering attack, the attack is instead treated as a miss and he takes no damage from it.</p>\n<p><strong>Concerted Finish (Ex):</strong> At 20th level, whenever a conscript confirms a critical hit against a creature, each ally currently benefiting from one of the conscript&#8217;s tactics or shouts may make a single attack against the target as an immediate action. This attack may be made with a melee or ranged weapon, but the ally must be threatening the creature to make a melee attack, or have a ranged weapon in hand and ready to fire in order to make a ranged attack.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900216,
+    "modifiedTime": 1663169296366,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

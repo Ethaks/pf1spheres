@@ -3,7 +3,11 @@
   "name": "Charming",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefits:</strong> While using the charming purr, enemies within your purring aura suffer a -1 penalty on saving throws made against charm and compulsion effects you create. In addition, you gain a +2 bonus on skill checks made to improve the attitude of a creature within your purring aura (such as using Diplomacy or Intimidate).</p>\n<p><strong>Powerful Purring:</strong> The charming purr&#8217;s penalty and bonus increase to -2 and +6 respectively.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897935,
+    "modifiedTime": 1663169295738,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

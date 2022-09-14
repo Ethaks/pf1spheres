@@ -3,7 +3,15 @@
   "name": "Energy Wall",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may craft your destructive blast into a 5-foot-by-5-foot cubic wall with a duration of concentration, so long as it is fully contained within your destructive blast range. You may spend a spell point to increase this effect and create a wall up to 20 feet high and up to 20 feet wide per caster level in a straight line, or a hemisphere with a radius up to 5 feet per 2 caster levels (minimum 5 feet). If used in either way, the duration increases to 1 round per caster level.</p>\n<p>The wall does not block line of effect, line of sight, projectiles, or thrown objects. Creatures passing through your wall suffer your destructive blast&#8217;s damage and effects as normal. Creatures standing in the wall&#8217;s space when it is created are allowed a Reflex save to avoid damage.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "destruction"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891129,
+    "modifiedTime": 1663169293662,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

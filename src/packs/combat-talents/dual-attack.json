@@ -3,7 +3,15 @@
   "name": "Dual Attack",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dual_wielding.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dualWielding"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you make an attack action with a light or one-handed weapon, you can make an additional attack with a light or one-handed weapon held in your off-hand, though both attacks take a -2 penalty on their attack rolls when doing so; only your initial main hand attack qualifies as an attack action, and the additional attack cannot be made with the same weapon as your initial main hand attack. Your off-hand attack only applies 1/2 your Strength modifier, and if your off-hand attack is made with anything other than a light weapon, both attacks take an additional -2 penalty. <strong>Associated Feat:</strong> Two-Weapon Fighting</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dualWielding"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887716,
+    "modifiedTime": 1663169292150,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

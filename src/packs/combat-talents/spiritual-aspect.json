@@ -3,7 +3,15 @@
   "name": "Spiritual Aspect",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/shield.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "shield"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Shield sphere (Cover Ally), base attack bonus +5.</p>\n<p>As a swift action, you may choose a creature or 5-foot square that you can see within close range (25 feet + 5 feet per 2 points of base attack bonus you possess), guarding the location with an aspect of yourself until the beginning of your next turn; if you choose a creature, the aspect moves with them.</p>\n<p>You are treated as if you were standing in the same square as your aspect when determining the effects of your Shield sphere talents, including when using active defense.</p>\n<p>If you possess the Extensive Defense talent, you may expend your martial focus when creating an aspect to allow the aspect to last for a number of rounds equal to your practitioner modifier (minimum 2 rounds).</p>\n<p>This talent is a supernatural effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "shield"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886684,
+    "modifiedTime": 1663169291851,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

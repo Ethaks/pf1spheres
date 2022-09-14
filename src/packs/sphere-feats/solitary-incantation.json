@@ -3,7 +3,11 @@
   "name": "Solitary Incantation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> 5 ranks in any 1 skill.</p>\n<p><strong>Benefit:</strong> You may perform an incantation in which you are the primary caster that does not have the requisite number of secondary casters. For every secondary caster omitted from the incantation, the DC of all skill checks associated with the incantation increase by 2.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897699,
+    "modifiedTime": 1663169295571,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

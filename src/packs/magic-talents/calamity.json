@@ -3,7 +3,15 @@
   "name": "Calamity",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Destruction sphere (Explosive Orb (blast shape) or Sculpt Blast (blast shape)), caster level 10th.</p>\n<p>When creating a destructive blast, you may spend 2 spell points to shape your destructive blast into a vast shape. If you possess Explosive Orb, you may create a close range-radius burst centered within range. If you possess Sculpt Blast, you may create either a long-range line, a medium-range cone, or a close-radius burst centered on yourself. All targets are allowed a Reflex save for half damage.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "destruction"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891970,
+    "modifiedTime": 1663169293941,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

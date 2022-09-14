@@ -3,7 +3,15 @@
   "name": "Enmity",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point as a standard action to place a word on a target debilitating them more severely the less similar their outlook on life is to yours. The effect of this word depends on the number of steps away its alignment is from your own. A target with the same alignment as you is unaffected, while all others are affected as follows:</p>\n<strong>Table: Enmity</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Steps</th>\n<th>Effect</th>\n</tr>\n<tr>\n<td>1</td>\n<td>Sickened 1 minute</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Staggered 1 round</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Blind 1 round</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Dazed 1 round</td>\n</tr>\n</table>\n<p>These effects are cumulative and consecutive; for example, if a chaotic evil creature were affected by an Enmity word produced by a lawful good creature, it would be dazed for one round, then blind for one round, then staggered for one round, and finally sickened for one minute. As this power is cosmic in origin, it can affect undead, even though undead are usually immune to some of these conditions.</p>\n<p>A successful Will save negates this effect, but targets with an especially strong alignment aura opposing your alignment (such as chaotic or good for a lawful evil caster) take a penalty to their save: strong, -1; overwhelming, -2.</p>\n<p>If a target has multiple alignment auras, the penalty is determined by the strongest one.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892594,
+    "modifiedTime": 1663169294176,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

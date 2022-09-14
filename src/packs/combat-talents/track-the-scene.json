@@ -3,7 +3,15 @@
   "name": "Track The Scene",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scout.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scout"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You gain a competence bonus to Survival checks made to find and follow tracks equal to 1/2 your ranks in Perception (minimum +1). When successfully following a set of tracks no older than 1 hour per rank in Stealth you possess (minimum 1 hour), you learn not only what direction they headed but what actions the tracked targets took before leaving the area and during their movement as long as you successfully continue to follow their trail; information gained in this manner is typically quite general, such as whether the targets paused and ate, split up, had an altercation, etc. Detailed information such as what spells they may have cast or items they may have used is typically unavailable, unless the targets left some tangible indication of the act behind, such as an empty potion bottle.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scout"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887979,
+    "modifiedTime": 1663169292372,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

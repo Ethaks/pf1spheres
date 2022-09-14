@@ -3,7 +3,11 @@
   "name": "Disrupt Acumen (Sage)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever the sage deals damage to an opponent using his chi gong ability, the opponent must succeed at a Will save or be unable to identify spells and sphere effects being cast using Spellcraft, even if normally able to automatically (such as when seeing a creature cast a sphere effect with the Magical Signs drawback) for a number of rounds equal to his casting ability modifier (minimum 1). The sage can spend a ki point when activating this ability to also have the creature be unable to benefit from Divination sphere abilities on a failed save for the duration.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900736,
+    "modifiedTime": 1663169296827,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

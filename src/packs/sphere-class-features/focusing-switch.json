@@ -3,7 +3,11 @@
   "name": "Focusing Switch",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 3rd level, while using her active weapon, whenever the armiger succeeds on a combat maneuver, confirms a critical hit, or reduces a foe to 0 or fewer hit points, she may regain martial focus by activating a different customized weapon as an immediate action, stowing the current weapon and drawing the new one as needed.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900742,
+    "modifiedTime": 1663169296833,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Augmented Grip",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/barrage.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "barrage"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You have mastered how to hold multiple pieces of ammunition in one hand for faster reloading and more accurate barrages. You may reduce your attack penalty by 1 when using the barrage ability. At +10 base attack bonus, you further reduce the penalty when using the barrage ability by 1. In addition, so long as you have martial focus, you do not provoke an attack of opportunity for reloading a ranged weapon.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "barrage"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888040,
+    "modifiedTime": 1663169292623,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

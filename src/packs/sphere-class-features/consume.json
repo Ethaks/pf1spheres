@@ -3,7 +3,11 @@
   "name": "Consume",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 14th level, the soul weaver may use lesion to kill a target rather than damage it or take control of it. The target dies instantly (Fortitude negates) and raises the next round as a zombie under the soul weaver&#8217;s control for 1 hour per level. After the time is up, the body collapses and becomes simply another dead body. On a successful save, the target still suffers 1d8 damage per soul weaver level.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900385,
+    "modifiedTime": 1663169296522,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

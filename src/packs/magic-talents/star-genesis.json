@@ -3,7 +3,15 @@
   "name": "Star Genesis",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Light sphere (Intensity Control), caster level 10th.</p>\n<p>When you use the Intensity Control talent you may spend a spell point to increase the radius of your normal and bright light (as well as the distance at which light is increased by one step) by 25 feet + 5 feet per 2 levels instead of just by 10 feet. If you exercise this option, you may also spend an additional spell point when creating bright light to cause the central 30 feet + 5 feet per 2 caster level radius to be equivalent to daylight for all purposes, including for creatures that are damaged or destroyed by such light.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892143,
+    "modifiedTime": 1663169293951,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

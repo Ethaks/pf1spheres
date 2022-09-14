@@ -3,7 +3,15 @@
   "name": "Savant",
   "type": "class",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  },
+  "system": {
     "description": {
       "value": "<strong>Wiki Note:</strong> The Savant is technically an archetype of the <a href=\"/thaumaturge\">Thaumaturge</a>. However, because it changes practically everything of its base class (up to, and including, its base attack bonus and saving throws), it is <em>functionally</em> a separate class in its own right and is included here for ease of play. The Savant still qualifies for any feats that have Thaumaturge as a prerequisite, assuming they meet the other prerequisites.\n<hr>\n<p>Naturally gifted with an innate sense of the workings of their own bodies and an uncanny knack for quickly copying new skills, savants are unpredictable foes.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d10</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The savant&#8217;s class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Disguise (Cha), Diplomacy (Cha), Fly (Dex), Heal (Wis), Intimidate (Cha), Knowledge (all except Arcana; Int), Linguistics (Int), Perform (Cha), Profession (Wis), Sense Motive (Wis), and Swim (Str).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n",
       "chat": "",
@@ -26,8 +34,7 @@
           "name": "Weapon and Armor Training (Savant)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0,
-          "hiddenLinks": {}
+          "_index": 0
         },
         {
           "id": "pf1spheres.class-features.xWLXx46RjpMymAyl",
@@ -35,8 +42,7 @@
           "name": "Flexible Combat Training",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1,
-          "hiddenLinks": {}
+          "_index": 1
         },
         {
           "id": "pf1spheres.class-features.m2lCuQ1PeMhyRxaC",
@@ -44,8 +50,7 @@
           "name": "Strain",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2,
-          "hiddenLinks": {}
+          "_index": 2
         },
         {
           "id": "pf1spheres.class-features.ROBTObibYMOojbpF",
@@ -53,8 +58,7 @@
           "name": "Kinesthetic Intuition",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 3,
-          "hiddenLinks": {}
+          "_index": 3
         },
         {
           "id": "pf1spheres.class-features.jR840pGKGd0iyDB8",
@@ -62,8 +66,7 @@
           "name": "Insights",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 4,
-          "hiddenLinks": {}
+          "_index": 4
         },
         {
           "id": "pf1spheres.class-features.rCoxav45ZAPSnOgK",
@@ -71,8 +74,7 @@
           "name": "Combat Trained",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 5,
-          "hiddenLinks": {}
+          "_index": 5
         },
         {
           "id": "pf1spheres.class-features.GPD8JoHUMvlTQnqX",
@@ -80,12 +82,11 @@
           "name": "Masterful Insights",
           "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 6,
-          "hiddenLinks": {}
+          "_index": 6
         }
       ]
     },
-    "tag": "",
+    "tag": "savant",
     "useCustomTag": false,
     "armorProf": {
       "value": [],
@@ -176,17 +177,18 @@
     "identifiedName": "Savant",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "casterProgression": ""
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168899462,
+    "modifiedTime": 1663169295993,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

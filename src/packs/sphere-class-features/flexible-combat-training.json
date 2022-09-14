@@ -3,7 +3,11 @@
   "name": "Flexible Combat Training",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>A savant may combine combat spheres and talents to create powerful martial techniques.</p>\n<p>Savants are considered Proficient combatants. When they gain their first level in the savant archetype, savants may choose either Charisma, Intelligence or Wisdom as their practitioner modifier. Whenever a savant rests for 8 hours (or the equivalent), he may change any and all combat talents gained from savant levels, choosing new spheres and new talents.</p>\n<p>Combat talents gained as part of levels taken in other classes, as part of his martial tradition, or combat talents gained from taking the Extra Combat Talent feat are not eligible to be changed in this fashion.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901037,
+    "modifiedTime": 1663169297241,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Heroic Tenacity",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>In your heroic moment, your abilities expand.</p>\n<p><strong>Benefit:</strong> While in a situation where you could enter Aristeia, you gain a +1 insight bonus which you may add to any d20 roll once per round. When you enter Aristeia, choose a single feat that you meet the prerequisites for. So long as you remain in Aristeia, you gain the benefits of that feat. If entering Aristeia level 3 or higher, you may select two feats rather than one. You cannot select other Aristeia feats with this feat.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898194,
+    "modifiedTime": 1663169295915,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Referential Enhancements",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Enhancement sphere (Deep Enhancement, Mass Enhancement [mass]), caster level 15th.</p>\n<p>Whenever you use Mass Enhancement, you may spend 2 additional spell points to have the enhancement affect a 30-foot burst instead. If you do so, the enhancement&#8217;s duration changes to days per caster level and it affects all valid targets that are within the enhancement&#8217;s area; the benefits fade if the target leaves the area, but return if they do.</p>\n<p>Upon using this talent, you may exclude targets from the effect based on some visible or audible criterion. This would allow you to, for example, have Enhance Equipment affect any swords within the area.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "enhancement"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892568,
+    "modifiedTime": 1663169294139,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

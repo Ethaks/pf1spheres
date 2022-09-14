@@ -3,7 +3,15 @@
   "name": "Shadowing Darkness",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When creating an area of darkness you can choose to have your darkness cling to anyone who passes through it and trail from them like smoke. Anyone who leaves the area of your darkness treats areas of bright light as areas of dim light and all other light levels as total darkness for the purposes of determining concealment when it would not be beneficial to them. In addition, they continue to be affected by any (darkness) talents as if they were still in an area of your darkness. These lingering effects last for one round after a creature leaves an area of your darkness.</p>\n<p>In addition, you may increase the effects of this talent by spending a spell point when you create an area of darkness. If you do so, the effects of this talent linger for an additional round per two caster levels, though a creature can attempt a Reflex save at the end of each of these turns as a move action to remove the clinging shadows.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892681,
+    "modifiedTime": 1663169294258,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

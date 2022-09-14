@@ -3,7 +3,15 @@
   "name": "Draft",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Leadership sphere, Diplomacy 5 ranks.</p>\n<p>You may expend martial focus as a standard action to force a creature which you can recruit within close range (25 feet + 5 feet per 2 base attack bonus) to make a Will save or have its attitude improved to helpful and serve you as a cohort for 1 minute per rank in Diplomacy you possess. Creatures not of the humanoid type gain a +2 bonus on their Will saves. Once a creature saves successfully against your use of this ability, it is immune to further uses of this ability by you for 24 hours. When the duration of the recruit effect ends, the creature returns to its previous disposition, modified by any other effects that would have altered it in the meantime.</p>\n<p>Attempting to make the creature perform an obviously suicidal action automatically releases it, even if you possess the Brainwash legendary talent. This is a supernatural, mind-affecting ability.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "leadership"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885401,
+    "modifiedTime": 1663169291451,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

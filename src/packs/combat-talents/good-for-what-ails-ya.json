@@ -3,7 +3,15 @@
   "name": "Good For What Ails Ya",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "barroom"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Barroom sphere.</p>\n<p>Whenever you imbibe a non-magical alcoholic drink, you regain an amount of hit points equal to your base attack bonus; this healing cannot increase your hit points above 1/2 of your maximum hit points. At +10 base attack bonus, this healing can instead not increase your hit points above 3/4 of your maximum hit points.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "barroom"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885420,
+    "modifiedTime": 1663169291468,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

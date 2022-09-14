@@ -3,7 +3,11 @@
   "name": "Mystic Generosity",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Enhancement sphere, Circle Casting, Spell Proxy.</p>\n<p><strong>Benefit:</strong> Whenever you use Create Proxy on a creature, you may spend a spell point to grant them the Basic Magic Training feat as a bonus feat while they are under the effects of that enhancement. The sphere they gain access to must be one that you also have access to.</p>\n<p><strong>Special:</strong> If the target of Create Proxy does not meet the prerequisites for Basic Magic Training, they gain Extra Magic Talent as a bonus feat instead. The bonus talent they gain must be one that you also possess.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897550,
+    "modifiedTime": 1663169295485,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

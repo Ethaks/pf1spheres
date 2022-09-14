@@ -3,7 +3,15 @@
   "name": "Thread the Needle",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/sniper.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "sniper"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>On a successful deadly shot, you aim for the target&#8217;s eyes, seeking to take away their vision. The first time you hit a target while using this ability, they are dazzled for 1d4 rounds; if you successfully use this ability against a target already suffering from the dazzled condition, they are instead blinded for 1 minute. The blind condition can be removed with a DC 20 Heal check, or when the target receives at least 1 hit point of healing. If your base attack bonus is +10 or higher, you may use the blinding option of this ability even if the target is not dazzled.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "sniper"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887662,
+    "modifiedTime": 1663169292091,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

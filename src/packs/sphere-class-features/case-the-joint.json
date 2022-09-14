@@ -3,7 +3,11 @@
   "name": "Case the Joint",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The troubadour can use one persona to learn important facts about a location before returning later in another persona. If he spends at least 1 hour in a location while in one persona that is considered welcome there, he can attempt a DC 20 Knowledge (engineering) check. If he succeeds, he gains the ability to later reroll any one failed skill check involving the location&#8217;s layout (such as a Stealth check to sneak into the location, a Disable Device check to disable an alarm, or a Sleight of Hand check to snatch an object from a pedestal).</p>\n<p>For every 10 by which the check exceeds 20, the troubadour gains an additional reroll. If the troubadour fails to return to the location within 1 week, the situation changes too much and he cannot use the rerolls. A troubadour can&#8217;t case the same joint more than once a week.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900122,
+    "modifiedTime": 1663169296273,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

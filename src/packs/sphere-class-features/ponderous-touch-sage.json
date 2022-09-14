@@ -3,7 +3,11 @@
   "name": "Ponderous Touch (Sage)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever a creature is damaged by the sage&#8217;s chi gong ability, fails a saving throw to resist one of the sage&#8217;s esoteries or resist a combat maneuver, or when the sage succeeds on a combat maneuver attempt against a creature (including maintaining a grapple) that creature must succeed on a Will saving throw (DC 10 + 1/2 the sage&#8217;s class level + his practitioner modifier) or be slowed (as the <a href=\"/time\">Time</a> sphere alter time effect) for 1 round.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900983,
+    "modifiedTime": 1663169297191,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Harmonious Swordplay",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Dual Wielding sphere, Improved Unarmed Strike.</p>\n<p><strong>Benefits:</strong> As long as you have martial focus, dual attacks made with a manufactured weapon and an unarmed strike remove the attack penalty from dual attack for one manufactured weapon (as long as it is not being treated as an unarmed strike), and any unarmed strikes add your full Strength bonus to damage rolls instead of half for an off-hand attack.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897553,
+    "modifiedTime": 1663169295486,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

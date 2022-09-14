@@ -3,7 +3,15 @@
   "name": "Undead Creature",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your companion mimics the properties of undead. It is healed by negative energy and harmed by positive energy. The companion gains the undead creature type. The companion also gains +2 channel resistance, as well as a +2 bonus on saves against disease, exhaustion, fatigue, paralysis, poison, sleep effects, and stunning. These bonuses and channel resistance increases by +1 per 2 Hit Dice.</p>\n<p>You may take this talent twice. If taken twice, your companion gains immunity to disease, exhaustion, fatigue, paralysis, poison, sleep effects, and stunning, and your companion no longer needs to breathe, granting it immunity to drowning, suffocation, or gas-based effects.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892300,
+    "modifiedTime": 1663169293978,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

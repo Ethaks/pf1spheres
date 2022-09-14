@@ -3,7 +3,15 @@
   "name": "Blot Talents",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Dark talents listed with the (blot) tag are treated the same as talents with the (darkness) tag, except in addition to adding an effect, they cause the darkness to manifest as a blot. A blot is a darkness effect created on a two-dimensional surface, such as the ground or a wall, appearing as an inky coating rather than a volume of decreased illumination. Blots do not affect the light level of the area.</p>\n<p>Only one (blot) talent may be applied to an individual blot, and a single darkness effect cannot be affected by both a (blot) and (darkness) talent at the same time, but blots and darknesses with different effects may overlap. Individual blots do not stack with themselves, nor do they stack with similar (darkness) talents.</p>\n<p>If a talent is labeled as (blot) and (darkness), the caster may decide which tag to use when applying the talent to an area of darkness.</p>\n<p>In order for a blot to affect a target, it must be in contact with the blot. Blots count as areas of darkness with respect to melds and interactions with Light sphere effects and talents.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894072,
+    "modifiedTime": 1663169294638,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

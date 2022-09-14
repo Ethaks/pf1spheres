@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Creation)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Creator&#8217;s Focus (Su):</strong> At 3rd level, whenever the incanter maintains an object he has created with the Creation sphere through concentration, that object remains a number of additional rounds equal to 1/2 his incanter level (minimum 1 round) after he ceases concentrating before disappearing.</p>\n<p><strong>Master of Creation (Sp):</strong> At 8th level, whenever the incanter creates an object with the Creation sphere, the cost of creating the object is reduced by 1 spell point (minimum 0). Only one such object can be created with master of creation at a time; if another object is created using master of creation, any previous objects created with master of creation are immediately dismissed.</p>\n<p><strong>Unbreakable (Su):</strong> At 20th level, the incanter gains a +2 natural armor bonus. All of his worn equipment and any object he creates gain a +10 bonus to its hardness.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900125,
+    "modifiedTime": 1663169296277,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

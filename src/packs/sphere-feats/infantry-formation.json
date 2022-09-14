@@ -3,7 +3,11 @@
   "name": "Infantry Formation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Squadron Commander or Troop Commander.</p>\n<p><strong>Benefit:</strong> As a move action, you may expend your martial focus or spend 1 spell point to give all other squad members within close range (25 feet + 5 feet per 2 ranks in Diplomacy) a free move action that can only be spent to move toward you to create one of three formations.</p>\n<ul>\n<li><strong>Cone:</strong> Additional allies who choose to use this free movement must end their turn standing adjacent to either yourself or other allies, forming a single cone.</li>\n<li><strong>Line:</strong> Additional allies who choose to use this free movement must end their turn standing adjacent to either yourself or other allies, forming a single line.</li>\n<li><strong>Square:</strong> Additional allies who choose to use this free movement must form up into a tight square formation.</li>\n</ul>\n<p>The first ally to move must move adjacent to at least one other squad member, the second ally to move must be adjacent to at least two other squad members, and any additional allies must either move adjacent to at least three other squad members, or move to be adjacent to an ally already adjacent to at least three other squad members.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897502,
+    "modifiedTime": 1663169295464,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

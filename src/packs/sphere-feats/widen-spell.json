@@ -3,7 +3,11 @@
   "name": "Widen Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> You can alter a burst, emanation, or spread-shaped spell to increase its area. Any numeric measurements of the spell&#8217;s area increase by 100%. Spells that do not have an area of one of these sorts are not affected by this feat. (Cones, lines, and spheres are emanations.)</p>\n<p><strong>Cost:</strong> +3 spell points</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897500,
+    "modifiedTime": 1663169295462,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

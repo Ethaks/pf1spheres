@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Warp)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Shift (Su):</strong> At 3rd level, the incanter can teleport to a nearby space as a swift action. This movement does not provoke an attack of opportunity. He must be able to see the space that he is moving into. He cannot take other creatures with him when he uses this ability (except for familiars). He can move 5 feet for every two incanter levels he possesses (minimum 5 feet). He can use this ability a number of times per day equal to 3 + his casting ability modifier.</p>\n<p><strong>Dimensional Lord (Sp):</strong> At 8th level, whenever a creature attempts to use a teleportation effect or summon a creature within 30 feet of him, the incanter may attempt to block the effect by attempting a magic skill check as an immediate action. If the check succeeds, the effect or spell fails and is wasted; otherwise, it is unaffected. He can use this ability once per day plus one additional time for every 6 incanter levels he possesses beyond 8th.</p>\n<p><strong>Warp Mastery (Su):</strong> At 20th level, the incanter quadruples the distance he may teleport. This also affects his shift power, and he may use shift as a free action.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900078,
+    "modifiedTime": 1663169296219,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

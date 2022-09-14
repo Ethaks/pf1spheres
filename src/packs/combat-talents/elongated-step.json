@@ -3,7 +3,15 @@
   "name": "Elongated Step",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/boxing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "boxing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>At the start of your turn, you can spend a swift action to use this talent. When you do, until the beginning of your next turn whenever you use your counter punch ability, you increase your reach by 5 feet for attacks made with your counter punch. At +10 base attack bonus, you instead increase your reach by 10 feet. If you expend your martial focus while activating this talent, it instead lasts a number of rounds equal to your practitioner modifier.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "boxing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886439,
+    "modifiedTime": 1663169291823,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

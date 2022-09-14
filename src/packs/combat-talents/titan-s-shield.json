@@ -3,7 +3,15 @@
   "name": "Titan’s Shield",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Equipment sphere (Oversized Weapons), base attack bonus +6.</p>\n<p>You may wield shields that are one size category larger than you. While wielding a shield that is larger than you, you gain a +1 bonus to your CMD. While wielding a tower shield that is larger than you, when you use your tower shield to provide cover, you treat your space as though you were the same size category as your shield. This allows you to provide cover for other creatures.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885593,
+    "modifiedTime": 1663169291588,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

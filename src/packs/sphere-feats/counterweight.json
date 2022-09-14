@@ -3,7 +3,11 @@
   "name": "Counterweight",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Acrobatics 3 ranks, Telekinesis sphere.</p>\n<p><strong>Benefit:</strong> By applying your telekinetic powers to your own body you can stand on surfaces that could not normally support your weight, allowing you to balance on a single thread or walk across liquid, though you must still attempt Acrobatics checks to balance on narrow or difficult surfaces. You cannot walk on normal gaseous substances such as air or clouds, though you could balance on a solid fog spell. In addition, you may add your casting ability modifier as a bonus to Acrobatics checks.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897979,
+    "modifiedTime": 1663169295772,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

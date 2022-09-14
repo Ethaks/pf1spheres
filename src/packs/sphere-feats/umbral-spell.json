@@ -3,7 +3,11 @@
   "name": "Umbral Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> An umbral talent gains the darkness descriptor. As long as the talent is in effect, the creature or object affected radiates darkness in a 10-foot radius, reducing illumination similar to the effects of the basic effect of the Dark sphere. Nonmagical sources of light, such as torches or lanterns, do not increase the light level in this area.</p>\n<p>Magical light sources only increase the light level in an area affected by an umbral talent if they are of a higher level than the umbral talent&#8217;s caster level. This effect does not stack with itself or with any other effect that creates darkness.</p>\n<p><strong>Cost:</strong> +2 spell points</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897538,
+    "modifiedTime": 1663169295479,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

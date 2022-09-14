@@ -3,7 +3,15 @@
   "name": "Illusionary Terrain",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/illusion.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "illusion"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a trick, you may designate a single cube (no larger than your maximum illusion size) as difficult terrain for one round per caster level. A Will save to disbelieve is allowed by all who enter the cube. On a successful save they treat the area as normal. This difficult terrain applies to all travel through the area regardless of type of movement.</p>\n<p>You may treat the area of your figments as difficult terrain regardless of the type of movement for those who fail to disbelieve.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "illusion"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892304,
+    "modifiedTime": 1663169293984,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

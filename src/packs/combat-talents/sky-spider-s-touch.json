@@ -3,7 +3,15 @@
   "name": "Sky Spider’s Touch",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Athletics sphere, Climb 5 ranks.</p>\n<p>You can climb at your full base speed with no penalty, and may always take 10 on Climb checks, even when rushed or threatened. In addition, all base DCs for climbing all surfaces are reduced by half. This division happens before applying modifier such as from bracing between two walls, climbing a slippery surface, or when catching oneself while falling. You can climb with only one hand free with no penalty, or no hands free at a -5 penalty.</p>\n<p>In addition to the uses of Climb described by that skill, you also gain several new ones; specifically, you may climb smooth vertical walls or inverted surfaces with a DC 30 Climb check (reduced to 15 with this talent), ceilings without handholds with a DC 40 Climb check (reduced to 20 with this talent), and even climb on nothing but air with a DC 60 Climb check (reduced to 30 with this talent).</p>\n<p>Wind speed penalties to Fly checks also apply to Climb checks made to cling to air. If you fail a Climb check when climbing on air, you fall 10 ft. plus 10 ft. per 5 points by which you failed the check.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886422,
+    "modifiedTime": 1663169291811,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

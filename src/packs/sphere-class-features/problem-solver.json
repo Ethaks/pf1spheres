@@ -3,7 +3,11 @@
   "name": "Problem Solver",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>A scholar gains the <span style=\"color: #993300\"><a href=\"/alchemy\">Alchemy</a></span> and <span style=\"color: #993300\"><a href=\"/scout\">Scout</a></span> spheres as bonus combat talents at 1st level. If she already has either of these talents from another source, she may instead gain any talent she qualifies for from the corresponding sphere.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900187,
+    "modifiedTime": 1663169296332,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

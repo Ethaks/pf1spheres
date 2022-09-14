@@ -3,7 +3,11 @@
   "name": "Purging Despoilation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your destructive magics nullify magical workings.</p>\n<p><strong>Prerequisites:</strong> Terrain Casting drawback, Counterspell, Improved Counterspell, casting class feature, magic skill bonus +5.</p>\n<p><strong>Benefit:</strong> Whenever you blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may use Counterspell or Improved Counterspell as a free action as part of casting. You may only target effects within your blighted area.</p>\n<p><strong>Four Defiler Feats:</strong> You may use Greater Counterspell (if you have the feat) as a free action as part of casting, targeting effects within your blighted area as normal. The spell point cost of any counterspell used as part of blighting is reduced by 1 (minimum 0).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898175,
+    "modifiedTime": 1663169295904,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

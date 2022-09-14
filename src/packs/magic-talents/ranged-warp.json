@@ -3,7 +3,15 @@
   "name": "Ranged Warp",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You no longer need to be touching another creature in order to teleport them, although the creature must still be within close range to be affected in this manner. Likewise, when you use a (space) talent, the target or location to be affected may be any appropriate target or location within close range instead of touch range.</p>\n<p>You may take this talent multiple times. Each time it is taken, increase the range by 1 step (close to medium, medium to long).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894277,
+    "modifiedTime": 1663169294815,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Steady Skill",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 3rd level, once per day after the prodigy rests to regain spell points, she may spend 10 minutes practicing to focus her mind on a particular skill. She selects one skill from the prodigy class skill list; the prodigy may take ten on that skill even when rushed or threatened. Additionally, a number of times per day equal to her casting ability modifier, she may expend martial focus as part of making a skill check with the chosen skill to take 15 instead of 10. This otherwise is treated as taking 10, though can be used even when rushed or threatened. This effect lasts until she chooses a new skill after resting to regain spell points.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900469,
+    "modifiedTime": 1663169296609,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Adaptation (Prodigy)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The prodigy may open her mind to a flash of insight, temporarily discovering skills she didn&#8217;t know she had. At 2nd level, as a standard action, the prodigy may grant himself the benefit of any one magic talent or combat talent she doesn&#8217;t possess. This effect lasts for 1 minute. The prodigy must possess that talent&#8217;s base sphere and meet any prerequisites (if an advanced talent). The prodigy may use this ability a number of times per day equal to 3 + 1/2 her class level. Multiple uses of this ability do not stack. If the prodigy uses this ability again before the previous duration has expired, it replaces the previous use.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900464,
+    "modifiedTime": 1663169296605,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Soul Drain",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Death sphere, caster level 5th.</p>\n<p>Each time you use a ghost strike that does not cause negative levels or immediately kill its target (such as Killing Curse), you can choose for it not to count as a death effect, meaning it can affect creatures normally resistant or immune to death effects, such as outsiders with the daemon subtype. This allows you to affect constructs and undead with your ghost strikes. Such creatures gain a +4 bonus to any granted saving throw, and may still be immune to the effects caused by your ghost strike (disease, etc.).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "death"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892669,
+    "modifiedTime": 1663169294235,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

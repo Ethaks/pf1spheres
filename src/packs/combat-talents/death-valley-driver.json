@@ -3,7 +3,15 @@
   "name": "Death Valley Driver",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/wrestling.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "wrestling"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You ceremoniously swing the creature&#8217;s body up over your back before dropping them onto their back.</p>\n<p><strong>Prerequisites:</strong> Wrestling sphere, base attack bonus +10.</p>\n<p>The creature suffers 1 negative level and must succeed at a Reflex save or fall prone. Negative levels caused by this talent last for a number of hours equal to your base attack bonus. This is a supernatural effect; using this slam immediately ends your grapple on the creature. If you expend martial focus when using this talent, a creature who fails their Reflex saving throw suffers 1 additional negative level for every 10 points of base attack bonus you possess.</p>\n<p>In addition, the first time each round a creature suffering from negative levels attacks you, that creature provokes an attack of opportunity from you. You can use this attack of opportunity to grapple the creature even if you could not normally grapple on an attack of opportunity.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "wrestling"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887439,
+    "modifiedTime": 1663169292054,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

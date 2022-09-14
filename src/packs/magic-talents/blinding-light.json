@@ -3,7 +3,15 @@
   "name": "Blinding Light",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you cause a creature to glow, you may choose to make that target dazzled, giving it a -1 penalty to attack rolls and Perception checks.</p>\n<p>You may spend a spell point to create bright light that blinds the glowing target and all creatures within the area of bright light. All creatures must succeed at a Fortitude save or be blinded for 1 round. They must attempt this saving throw each round they are within this area. Creatures who succeed at their saving throw are still dazzled for that round.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892142,
+    "modifiedTime": 1663169293950,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

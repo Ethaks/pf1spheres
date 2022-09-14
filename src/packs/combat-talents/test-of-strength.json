@@ -3,7 +3,15 @@
   "name": "Test Of Strength",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/wrestling.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "wrestling"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you attempt to initiate a grapple, you can allow the creature which you are attempting to grapple to make an opposed grapple check; if the creature&#8217;s result is higher than yours, the grapple fails regardless of your result. If your result is higher, the grapple is successful regardless of your result and the creature provokes an attack of opportunity from an ally of your choice. The creature may choose to not make an opposed grapple check, in this case, they take a -2 penalty to their CMD until the end of their next round.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "wrestling"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887705,
+    "modifiedTime": 1663169292139,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

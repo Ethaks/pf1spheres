@@ -3,7 +3,15 @@
   "name": "Counter Theft",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever a creature within your natural reach makes an attack against you with a manufactured melee weapon, you can expend your martial focus as an immediate action to perform a steal combat maneuver against that creature to attempt to disarm them of the weapon being used for the attack before the attack resolves, although any bonuses the target possesses against disarm checks, such as wearing a locked gauntlet, apply to their CMD against this maneuver.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887016,
+    "modifiedTime": 1663169291997,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

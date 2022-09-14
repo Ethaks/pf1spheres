@@ -3,7 +3,11 @@
   "name": "Magician’s Trade",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Enhancement sphere, Counterspell.</p>\n<p><strong>Benefit:</strong> Whenever you use Counterspell, you may end an enhancement affecting yourself to increase the number of magical effects you may end with Counterspell by one. There is no limit on the number of enhancements you may cancel to improve your Counterspell; however, you may only use enhancements you created yourself to fuel this feat that are not maintained through concentration.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897826,
+    "modifiedTime": 1663169295662,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

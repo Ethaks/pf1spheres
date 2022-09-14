@@ -3,7 +3,11 @@
   "name": "Penetrating Blows",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The blacksmith&#8217;s time spent pounding iron and steel has translated into an ability to strike with such force that the impact of his blows punches through his opponent&#8217;s defenses with ease. The blacksmith ignores 2 points of damage reduction his target possesses when attacking with a melee weapon using the attack action, plus an additional point at 5th level and every 5 levels thereafter.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900374,
+    "modifiedTime": 1663169296509,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

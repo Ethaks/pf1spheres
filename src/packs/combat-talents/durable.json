@@ -3,7 +3,15 @@
   "name": "Durable",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/guardian.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "guardian"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When targeted by a natural, extraordinary or supernatural ability that inflicts ability damage, ability drain, disease, negative levels, poison or any of the following conditions: (blinded, confused, cowering, dazed, dazzled, entangled, exhausted, fascinated, fatigued, frightened, nauseated, panicked, paralyzed, petrified, shaken, sickened, staggered, stunned, unconscious) you may delay the onset of its effects until the end of your next turn. Each effect is treated as if it were an amount of hit point damage equal to the attacking creature&#8217;s Hit Dice for determining the capacity of your delayed damage pool. If you do not have enough space remaining in the delayed damage pool, you may not delay the effect.</p>\n<p>If you possess the (patrol) package and the Defend Other talent, when an ally within the area of your patrol is the target of such an ability, you may spend an attack of opportunity to move to put that ally within reach (with the normal limits for moving as part of your patrol) and redirect the effect to yourself.</p>\n<p>If you possess the (challenge) package, any time a creature under the effects of your challenge uses such an ability that does not include you in its effect, it suffers a -2 penalty to the ability&#8217;s save DC. This penalty increases by 1 for every 4 points of base attack bonus you possess.</p>\n<p><sup><strong>Wiki Note:</strong> Per discussion with the author, this is intended to permit characters to cure effects caused by things this ability can delay before they take effect.</sup></p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "guardian"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885907,
+    "modifiedTime": 1663169291733,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

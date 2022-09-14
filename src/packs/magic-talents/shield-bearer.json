@@ -3,7 +3,15 @@
   "name": "Shield Bearer",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your companion gains the shield proficiency feat, and when summoned, appears carrying a type of shield it is proficient with. If the creature possesses the Tower Shield Proficiency feat, this may be a tower shield. The shield is masterwork, but of unremarkable composition. This shield gains a +1 enhancement bonus for every 3 Hit Dice your companion possesses, to a maximum of +5.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890541,
+    "modifiedTime": 1663169293365,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

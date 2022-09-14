@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Protection)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Resistance (Ex):</strong> At 3rd level, the incanter gains resistance equal to his incanter level to an energy type of his choice, chosen when he rests to regain spell points.</p>\n<p><strong>Energy Absorption (Su):</strong> At 8th level, the incanter gains an amount of energy absorption equal to 3 times his incanter level per day. Whenever he takes energy damage, apply immunity, vulnerability (if any), and resistance first and apply the rest to this absorption, reducing his daily total by that amount. Any damage in excess of his absorption is applied to him normally.</p>\n<p><strong>Protected Life (Su):</strong> At 20th level, the first time each day that the incanter would be reduced to 0 or fewer hit points by damage, he is instead reduced to 1.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900940,
+    "modifiedTime": 1663169297148,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

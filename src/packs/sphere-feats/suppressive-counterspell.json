@@ -3,7 +3,11 @@
   "name": "Suppressive Counterspell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your magic prevents foes from exploiting idiosyncrasies in their magic.</p>\n<p><strong>Prerequisites:</strong> Counterspell, casting class feature, magic skill bonus +7.</p>\n<p><strong>Benefit:</strong> Whenever you perform a counterspell, you may choose to affect the target or targets with a magical suppression rather than a normal counterspell effect. Creatures affected by a magical suppression must spend an additional spell point to create a magical effect or else the effect fails. A magical suppression lasts for 1 round.</p>\n<p>As part of suppressing a target, you may suppress a single drawback worth no more than a single drawback that the target possesses. A creature with a suppressed drawback is not considered to have that drawback when casting but cannot benefit from any boons or drawback feats which rely on that drawback so long as the drawback is suppressed.</p>\n<p><strong>Author's Note:</strong> Vancian casters would have to spend an additional spell slot/prepared spell of equal level to create an effect. Suppressing a drawback could suppress a somatic, verbal, emotion, thought, or focus component for a spell but would shut down any abilities explicitly tied to them (such as a bard&#8217;s Harmonic Spell continuing performance).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897982,
+    "modifiedTime": 1663169295774,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

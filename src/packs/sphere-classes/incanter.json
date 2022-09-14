@@ -3,7 +3,15 @@
   "name": "Incanter",
   "type": "class",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": "high"
+    }
+  },
+  "system": {
     "description": {
       "value": "The incanter is among the purest forms of a caster, dedicated above all to expanding their knowledge of the magical arts. Their powers are almost entirely determined by their choice of sphere - whether they’re dabbling in everything or focusing their knowledge on a few areas, though, they’re a force to be reckoned with.\n<p><strong>Role:</strong> An incanter is a master of magical spheres, bending magic to their needs more fully than any other caster.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d6</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The incanter&#8217;s class skills are Appraise (Int), Craft (Int), Fly (Dex), Knowledge (all) (Int), Linguistics (Int), Profession (Wis), and Spellcraft (Int).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n",
       "chat": "",
@@ -26,8 +34,7 @@
           "name": "Weapon and Armor Proficiency (Incanter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0,
-          "hiddenLinks": {}
+          "_index": 0
         },
         {
           "id": "pf1spheres.class-features.flMB9hKbsb8bRrI1",
@@ -35,8 +42,7 @@
           "name": "Casting (Incanter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1,
-          "hiddenLinks": {}
+          "_index": 1
         },
         {
           "id": "pf1spheres.class-features.0JHCoqow5V8nzcw6",
@@ -44,8 +50,7 @@
           "name": "Spell Pool (Incanter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2,
-          "hiddenLinks": {}
+          "_index": 2
         },
         {
           "id": "pf1spheres.class-features.nURFMMZjd7LyZfA0",
@@ -53,8 +58,7 @@
           "name": "Magic Talents (Incanter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 3,
-          "hiddenLinks": {}
+          "_index": 3
         },
         {
           "id": "pf1spheres.class-features.yMTwPUIZM4m3xvOT",
@@ -62,8 +66,7 @@
           "name": "Bonus Feat (Incanter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 4,
-          "hiddenLinks": {}
+          "_index": 4
         },
         {
           "id": "pf1spheres.class-features.YrixbDQqY3kmdsTa",
@@ -71,8 +74,7 @@
           "name": "Incanter Specializations",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 5,
-          "hiddenLinks": {}
+          "_index": 5
         },
         {
           "id": "pf1spheres.class-features.7W1eLxdXzGzq9jLP",
@@ -80,12 +82,11 @@
           "name": "List of Sphere Specializations (Incanter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 6,
-          "hiddenLinks": {}
+          "_index": 6
         }
       ]
     },
-    "tag": "",
+    "tag": "incanter",
     "useCustomTag": false,
     "armorProf": {
       "value": [],
@@ -176,17 +177,18 @@
     "identifiedName": "Incanter",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "casterProgression": "high"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168899450,
+    "modifiedTime": 1663169295980,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

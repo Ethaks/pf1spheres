@@ -3,7 +3,11 @@
   "name": "Dominant Counterspell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere, Counterspell.</p>\n<p><strong>Benefit:</strong> When you successfully counterspell a non-instantaneous magical effect which is not targeting a creature or object (such as a Protection sphere barrier, a Warp sphere looped space, or a Destructive sphere energy sphere), instead of ending the effect, you may spend a spell point to lift and move the effect as per the Telekinesis sphere. You may not Bludgeon using a spell effect, although you may move it or affect it with sustained force. You may spend a spell point when you dismiss a sphere effect to affect it with this feat as if you had successfully counterspelled it.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897955,
+    "modifiedTime": 1663169295754,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Quick Change (Troubadour)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 2nd level, the troubadour may adopt or change a prepared persona much more quickly than normal, but doing so is very mentally taxing and cannot be done often. Once per day, the troubadour can change his prepared persona as a move action. This does not allow the troubadour to adopt a disguise to appear as that persona as part of that same move action. The troubadour can use this ability an additional time per day at 6th level, and every 4 troubadour levels thereafter.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900052,
+    "modifiedTime": 1663169296193,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

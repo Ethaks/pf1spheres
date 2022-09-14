@@ -3,7 +3,15 @@
   "name": "Promethean",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "berserker"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You are no stranger to the elements you walk through. Each time you use this adrenaline, choose acid, cold, electricity, fire, or sonic. You gain energy resistance equal to 5 + 1/2 your base attack bonus against the chosen energy type. This energy resistance stacks with other forms of energy resistance. If you expend your martial focus when you start berserking using this talent, increase the energy resistance granted to 10 + your base attack bonus.</p>\n<p>Whenever the energy resistance granted by this (adrenaline) would prevent or reduce energy damage you take, you may spend an immediate action to regain martial focus.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "berserker"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885528,
+    "modifiedTime": 1663169291540,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

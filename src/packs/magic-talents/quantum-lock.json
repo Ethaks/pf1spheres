@@ -3,7 +3,15 @@
   "name": "Quantum Lock",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create a ward that represses all effects that alter reality, including sphere abilities that change the rate of time, teleportation, gravitational effects, transdimensional effects, distortion of space, and Warp and Time sphere abilities within its area of effect. When this ward is created, attempt one magic skill check against each effect in the area of the ward that it can repress. Magic items have a MSD of 11 + their caster level. If your check exceeds the MSD of the magical effect or item, the effect is suppressed or the magic item ceases to function, respectively. Time spent suppressed counts toward a magical effect&#8217;s total duration.</p>\n<p>Once inside the effect, any caster attempting to use an ability that can be repressed by this ward must attempt a magic skill check against your MSD. If they fail, the ability is negated completely (e.g., the creature never leaves its point of origin).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892674,
+    "modifiedTime": 1663169294247,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

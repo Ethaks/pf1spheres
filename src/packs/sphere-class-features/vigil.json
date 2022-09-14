@@ -3,7 +3,11 @@
   "name": "Vigil",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whereas some casters draw their magic from a divine presence or years of practice, the warden instead draws his magic from his will to protect. At 1st level, the warden chooses the source of his protective nature, known as a vigil. Once selected, this choice cannot be changed. (Vigils are listed below)</p>\n<p>At 3rd level, the warden gains a vigil ability that augments his guard ability, in addition to gaining an additional vigil ability every 4 class levels beyond 3rd.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900988,
+    "modifiedTime": 1663169297196,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

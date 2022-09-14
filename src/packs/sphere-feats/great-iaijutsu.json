@@ -3,7 +3,11 @@
   "name": "Great Iaijutsu",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Duelist sphere (Iai Slash (bleed)), base attack bonus +5.</p>\n<p><strong>Benefit:</strong> When utilizing your Iai Slash talent, you may expend your martial focus to additionally apply the effects of one (bleed) talent other than Iai Slash to a single creature struck as part of the talent. If you have more than one martial focus, you may expend two martial focuses to instead apply that (bleed) talent to all creatures struck.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898235,
+    "modifiedTime": 1663169295943,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

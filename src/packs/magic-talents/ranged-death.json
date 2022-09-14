@@ -3,7 +3,15 @@
   "name": "Ranged Death",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Increase the range at which you can reanimate from touch to close range, your ghost strike from medium to long range, and the range you can use your dominion abilities from close to medium range.</p>\n<p>You may select this talent up to 3 times. Each time it is selected, the range of your Death sphere abilities increase by 1 additional step to a maximum range of long (close to medium, medium to long).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "death"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891719,
+    "modifiedTime": 1663169293885,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

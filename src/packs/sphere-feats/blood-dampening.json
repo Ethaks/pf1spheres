@@ -3,7 +3,11 @@
   "name": "Blood Dampening",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Casting class feature.</p>\n<p><strong>Benefit:</strong> When you trigger a wild magic event (but not a major event), you may choose to negate the event by taking 2 points of Constitution burn. This decision must be made before the roll is made on the wild magic table. If you possess at least 4 wild magic feats, you may use this ability on a major event (see Variant Rules) by accepting 4 points of Constitution burn. If you have at least 6 wild magic feats, the burn cost is reduced by 1.</p>\n<p><strong>Ability Burn</strong></p>\n<p>Ability burn functions as ability score damage, but may not be removed by any means other than 8 hours of resting, which removes all burn.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897484,
+    "modifiedTime": 1663169295457,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

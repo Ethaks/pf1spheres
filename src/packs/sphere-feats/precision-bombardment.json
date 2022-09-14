@@ -3,7 +3,11 @@
   "name": "Precision Bombardment",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (Created Momentum).</p>\n<p><strong>Benefit:</strong> When using create to drop objects on a target or attack them with Created Momentum and are doing so in a way that targets normal AC, you may treat the attack as a weapon attack roll for all purposes; you may apply feats to your attack as you could with any ranged weapon, and may treat creating and dropping a single object on a target as a standard action as an attack action. Dropping the object has its range increment increased to 40 feet just as when using it as a weapon. Additional damage from feats or talents such as Deadly Aim or Vital Strike is not multiplied based on hardness or falling distance.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897737,
+    "modifiedTime": 1663169295589,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

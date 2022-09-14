@@ -3,7 +3,15 @@
   "name": "Resonating Chorus",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warleader.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warleader"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Diplomacy 5 ranks, Warleader sphere.</p>\n<p>You may release a shout that causes nearby metal weapons to suddenly resonate with sound. For the shout&#8217;s duration, you and your affected allies&#8217; weapon attacks made with metal weapons deal an additional 1d6 points of sonic damage. This damage increases by 1d6 at 10 ranks in Diplomacy and every 5 ranks beyond.</p>\n<p>You may expend your martial focus when using this shout to allow the shout to benefit all kinds of weapons. Additionally, at 10 ranks in Diplomacy, the damage die size is also increased to d8s instead of d6s.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warleader"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886838,
+    "modifiedTime": 1663169291987,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

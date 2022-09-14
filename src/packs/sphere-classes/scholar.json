@@ -3,7 +3,15 @@
   "name": "Scholar",
   "type": "class",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": ""
+    }
+  },
+  "system": {
     "description": {
       "value": "“Knowledge is power.”\n<p>Scholars are not front-line combatants. They&#8217;re not weapons experts, nor are they charismatic leaders. What they are, are adventurers who use their brains instead of their brawn, identifying enemy&#8217;s weaknesses, laying dangerous traps, and leveraging their diverse knowledge to turn the tide of battle. Scholars lack a wizard&#8217;s magical mastery to supplement their mind&#8217;s strength, relying instead on keen observation and mechanical mastery to win their battles.</p>\n<p><strong>Starting Wealth:</strong> 5d6 x 10 gp (average 175 gp) plus 1 healer&#8217;s kit. In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Starting Age:</strong> Trained</p>\n<p><strong>Role:</strong> Scholars support their allies in combat by targeting enemy weaknesses and using powerful alchemical concoctions to help control the flow of battle. Out of combat, scholars are masters of any trade or skill they choose to undertake.</p>\n<p><strong>Alignment:</strong> Any.</p>\n<p><strong>Hit Die:</strong> d6</p>\n<p><strong>Class Skills:</strong> The scholar&#8217;s class skills are Appraise (Int), Bluff (Cha), Craft (Int), Diplomacy (Cha), Disable Device (Dex), Disguise (Cha), Escape Artist (Dex), Handle Animal (Cha), Heal (Wis), Intimidate (Cha), Knowledge (all) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Spellcraft (Int), Stealth (Dex), Survival (Wis), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 8 + Int modifier.</p>\n<p><strong>Proficiencies:</strong> Scholars are proficient with simple weapons, as well as light armor and bucklers. In addition, if this is this character&#8217;s first level in any class, they may select a martial tradition of their choice.</p>\n\n<h2>Combat Training</h2>\n<p>A scholar may combine combat spheres and talents to create powerful martial techniques. Scholars are considered Proficient combatants and use Intelligence as their practitioner modifier.</p>\n",
       "chat": "",
@@ -26,8 +34,7 @@
           "name": "Careful Packer",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0,
-          "hiddenLinks": {}
+          "_index": 0
         },
         {
           "id": "pf1spheres.class-features.E4MMYwqUwT2GRPcT",
@@ -35,8 +42,7 @@
           "name": "Medical Training",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1,
-          "hiddenLinks": {}
+          "_index": 1
         },
         {
           "id": "pf1spheres.class-features.CgHY1UONeyOSDapj",
@@ -44,8 +50,7 @@
           "name": "Problem Solver",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2,
-          "hiddenLinks": {}
+          "_index": 2
         },
         {
           "id": "pf1spheres.class-features.nowUHvB1g6tW2MyT",
@@ -53,8 +58,7 @@
           "name": "Flashbangs",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 3,
-          "hiddenLinks": {}
+          "_index": 3
         },
         {
           "id": "pf1spheres.class-features.pCUvcABj8gvNijLn",
@@ -62,8 +66,7 @@
           "name": "Scholar’s Knack",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 4,
-          "hiddenLinks": {}
+          "_index": 4
         },
         {
           "id": "pf1spheres.class-features.CNXP5d9UIEGnTtAF",
@@ -71,8 +74,7 @@
           "name": "Material Imposition",
           "img": "icons/svg/item-bag.svg",
           "level": 3,
-          "_index": 5,
-          "hiddenLinks": {}
+          "_index": 5
         },
         {
           "id": "pf1spheres.class-features.EZyjJVM2hMYxgNO7",
@@ -80,8 +82,7 @@
           "name": "Advanced Medical Training",
           "img": "icons/svg/item-bag.svg",
           "level": 5,
-          "_index": 6,
-          "hiddenLinks": {}
+          "_index": 6
         },
         {
           "id": "pf1spheres.class-features.Sk0XM5ikIxxvHVPP",
@@ -89,8 +90,7 @@
           "name": "Expert Medical Training",
           "img": "icons/svg/item-bag.svg",
           "level": 9,
-          "_index": 7,
-          "hiddenLinks": {}
+          "_index": 7
         },
         {
           "id": "pf1spheres.class-features.ajTY8FVXX98Po1DR",
@@ -98,12 +98,11 @@
           "name": "Mastered Imposition",
           "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 8,
-          "hiddenLinks": {}
+          "_index": 8
         }
       ]
     },
-    "tag": "",
+    "tag": "scholar",
     "useCustomTag": false,
     "armorProf": {
       "value": ["lgt"],
@@ -194,17 +193,18 @@
     "identifiedName": "Scholar",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "casterProgression": ""
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168899460,
+    "modifiedTime": 1663169295992,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Flawless Sequence",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 14th level, the prodigy does not lose a link in her sequence if she fails to add a link since the beginning of her previous turn and no longer needs to expend martial focus to prevent her sequence ending from the dazed, helpless, paralyzed, stunned, or unconscious conditions. Using a (finish) still ends the sequence as normal.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901044,
+    "modifiedTime": 1663169297248,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

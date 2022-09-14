@@ -3,7 +3,15 @@
   "name": "Death Blossom",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/barrage.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "barrage"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Barrage sphere (Cone Of Death), base attack bonus +5.</p>\n<p>When using Cone Of Death, you may change the area affected from a cone into a burst centered on you with the same range. You are excluded from the targeting of Death Blossom.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "barrage"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888233,
+    "modifiedTime": 1663169292817,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

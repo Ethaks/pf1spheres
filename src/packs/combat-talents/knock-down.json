@@ -3,7 +3,15 @@
   "name": "Knock Down",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "beastmastery"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>While mounted, whenever you or your mount succeed on a bull rush, drag, or reposition combat maneuver, you may make a free trip attempt against the target, using your or your mount&#8217;s original combat maneuver check as your trip combat maneuver check. Even if you fail this check by 10 or more, you do not fall prone. If the target was mounted, they fall off their mount in a space adjacent to their mount directly away from you. When a target falls prone this way, you may expend martial focus to deal 1d6 points of falling damage, plus an additional 1d6 for every 3 ranks of Ride you possess.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "beastmastery"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887933,
+    "modifiedTime": 1663169292337,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

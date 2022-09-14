@@ -3,7 +3,15 @@
   "name": "Infectious Creature",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Choose one of the following diseases: blinding sickness, bubonic plague, cackle fever, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom. When a creature takes damage from a manufactured or natural weapon attack made by your companion, it must succeed on a Fortitude save with a DC of 10 + 1/2 your companion&#8217;s Hit Dice + Constitution modifier or contract the disease immediately (the onset period does not apply). Use the disease&#8217;s listed frequency and save DC to determine further effects. Regardless of the success or failure of this save, the creature is immune to further applications of this ability by your companion for 24 hours.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892745,
+    "modifiedTime": 1663169294324,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

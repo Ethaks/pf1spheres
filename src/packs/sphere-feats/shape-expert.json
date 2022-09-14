@@ -3,7 +3,11 @@
   "name": "Shape Expert",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Destruction sphere (Energy Wall (blast shape) or Explosive Orb (blast shape)).</p>\n<p><strong>Benefit:</strong> When using the Energy Wall (blast shape) talent without a spell point, increase the wall&#8217;s size to a 10-foot-by-10-foot wall, plus an additional 10 feet per 10 caster levels. When using the Explosive Orb (blast shape) talent without a spell point, the radius becomes 5 feet + 5 feet per 10 caster levels.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897902,
+    "modifiedTime": 1663169295710,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

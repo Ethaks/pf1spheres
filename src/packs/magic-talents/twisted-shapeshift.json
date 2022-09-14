@@ -3,7 +3,15 @@
   "name": "Twisted Shapeshift",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to have your shapeshift deal 1d6 per two caster levels (minimum 1d6) untyped damage to all targets that fail their save against the shapeshift. You may add the following traits to your forms:</p>\n<p><strong>Flesh Pocket:</strong> You rearrange internal organs and muscles to create a pocket inside the target&#8217;s body, usually in the abdomen. The opening to the pocket resembles a large scar. The pocket can hold creatures and objects up to two sizes smaller than the target. The target gains a +20 circumstance bonus to concealing items in their flesh pocket.</p>\n<p><strong>Seal Eyes:</strong> The target must succeed at a Fortitude save or have its eyes sealed, blinding it.</p>\n<p><strong>Twist Legs:</strong> The target must succeed at a Fortitude save or have one movement speed reduced by 10 feet + 5 feet per 5 caster levels (minimum 5 feet).</p>\n<p><strong>Vocal Theft:</strong> The target becomes unable to speak and may not supply vocal spell components or attempt Perform checks that require singing or speaking.</p>\n<p><strong>Wrench Stomach:</strong> The target must succeed at a Fortitude save or be sickened while the shapeshift lasts or for a number of rounds equal to your caster level, whichever is shorter. If you spend an additional spell point, the target is instead nauseated on a failed save and sickened for one round on a successful save.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893221,
+    "modifiedTime": 1663169294561,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

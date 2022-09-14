@@ -3,7 +3,11 @@
   "name": "Adrenaline-Fueled Frenzy",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The shark&#8217;s frenzy turns to a churning rage.</p>\n<p><strong>Prerequisites:</strong> Berserker sphere (any (adrenaline) talent), Duelist sphere (Bloodied Shark&#8217;s Frenzy), base attack bonus +3.</p>\n<p><strong>Benefit:</strong> Whenever you enter a blood frenzy using the Bloodied Shark&#8217;s Frenzy talent, you may also gain the benefits of one (adrenaline) talent you possess for the blood frenzy&#8217;s duration. If an (adrenaline) talent requires you to expend your martial focus to use each round, you do not need to expend martial focus when first entering a blood frenzy, but must expend martial focus at the start of each subsequent round to gain the benefits of that (adrenaline).</p>\n<p><strong>Special:</strong> When you successfully make a brutal strike special attack action and deal bleed damage with that attack, you may expend your martial focus as a free action to enter a blood frenzy.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897856,
+    "modifiedTime": 1663169295679,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

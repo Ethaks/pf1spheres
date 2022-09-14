@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Fate)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prescience (Su):</strong> At 3rd level, the incanter may, at the beginning of his turn, spend a free action to roll a single d20. At any point before his next turn, he may use the result of this roll as the result of any d20 roll he is required to make. If he does not use the d20 result before his next turn, it is lost. He can use this ability a number of times per day equal to 3 + his casting ability modifier.</p>\n<p><strong>Tugging Strands (Su):</strong> At 8th level, as a non-action the incanter can force a creature within line of sight to reroll any one roll that it has just made before the result of the roll is revealed. The result of the reroll must be taken, even if it is worse than the original roll. He can use this ability once per day at 8th level, and one additional time per day for every 6 levels beyond 8th.</p>\n<p><strong>Fated Protection (Su):</strong> At 20th level, whenever he would be affected by a sphere effect, spell, or spell-like ability that allows a saving throw, he can roll twice to save against the effect and take the better result.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900039,
+    "modifiedTime": 1663169296176,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

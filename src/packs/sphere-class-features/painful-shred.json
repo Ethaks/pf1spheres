@@ -3,7 +3,11 @@
   "name": "Painful Shred",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>For a number of rounds equal to 1/2 the blacksmith's level after giving a creature&#8217;s armor the broken condition or reducing a creature&#8217;s natural armor bonus to 0, the creature is battered and takes an amount of damage equal to the 1/2 the blacksmith&#8217;s level + the blacksmith&#8217;s practitioner modifier whenever it moves more than 5 feet. This damage is of the same type as the weapon the blacksmith used to sunder the armor or natural armor and bypasses damage reduction in the same way.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900552,
+    "modifiedTime": 1663169296671,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

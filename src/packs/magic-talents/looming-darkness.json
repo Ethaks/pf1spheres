@@ -3,7 +3,15 @@
   "name": "Looming Darkness",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create a darkness or blot effect that erodes the resolve of those who enter it. Creatures within this area of darkness or blot must succeed at a Will save or suffer a -1 penalty to all saving throws so long as they remain within this area of darkness. This penalty increases by 1 per 5 caster levels. If any creature enters this area of darkness or blot, they must immediately save or suffer this penalty. This is a mind-affecting effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893104,
+    "modifiedTime": 1663169294533,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

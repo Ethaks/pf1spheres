@@ -3,7 +3,15 @@
   "name": "Perfect Shot",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/sniper.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "sniper"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As long as you have martial focus, whenever you would suffer a miss chance due to concealment, roll the miss chance twice and take the most favorable result. In addition, as long as you have martial focus, you no longer automatically miss when rolling a natural 1 on a ranged attack roll; your attack must still hit the target&#8217;s AC as normal. At +10 base attack bonus, you can reroll a result of 1 on a ranged attack roll once per round.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "sniper"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886682,
+    "modifiedTime": 1663169291850,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

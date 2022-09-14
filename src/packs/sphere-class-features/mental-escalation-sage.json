@@ -3,7 +3,11 @@
   "name": "Mental Escalation (Sage)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>As a swift action, the sage may grant himself a +2 bonus to either his Charisma, Intelligence, or Wisdom score for a number of rounds equal to his Wisdom modifier, or for 1 minute if the sage spends a ki point when activating the ability. At 3rd level and every 3 levels thereafter, the bonus granted by this ability increases by an additional +2. The sage may apply all of this bonus to a single mental ability score, or divide it in units of +2 between multiple mental ability scores; regardless of how the sage assigns this bonus, he cannot add more than +10 to a given ability score.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900407,
+    "modifiedTime": 1663169296548,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

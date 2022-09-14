@@ -3,7 +3,11 @@
   "name": "Coordinated Combatant",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Starting at 1st level, and again at 8th level, the conscript gains 1 teamwork feat for which he qualifies as a bonus feat. All of the conscript&#8217;s allies are treated as if they possessed the same teamwork feats for the purpose of determining whether the conscript receives a bonus from his teamwork feats. His allies do not receive any bonuses from this feat unless they actually possess the feat themselves. The allies&#8217; positioning and actions must still meet the prerequisites listed in the teamwork feat for the conscript to receive the listed bonus. After any rest of 8 hours or longer, the conscript may choose to retrain the teamwork feats granted by this ability for any other teamwork feat he qualifies for.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900426,
+    "modifiedTime": 1663169296571,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

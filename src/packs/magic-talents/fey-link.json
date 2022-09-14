@@ -3,7 +3,15 @@
   "name": "Fey-Link",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallenFey"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a swift action, you change your creature type to fey for 1 minute per caster level. You are treated as a fey and no longer count as your previous creature type for all purposes including spells, magic items, etc., but you do not gain any of the benefits of the fey type or lose the benefits of your previous creature type, and still possess any subtypes you previously possessed (thus, an elf using this ability would be treated as a fey with the elf subtype).</p>\n<p>Whenever fey-link is active, you may spend 1 spell point as a free action to gain the benefits of a fey-blessing until the end of the fey-link. There is no limit to the number of fey-blessings you may have active at a time, but each one must be activated separately, and all only endure until the end of the fey-link. Renewing a fey-link does not increase the duration of a fey-blessing, and ends all fey-blessings you currently possess.</p>\n<p>When you gain the Fallen Fey sphere, you gain the following fey-blessing:</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fallenFey"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892948,
+    "modifiedTime": 1663169294513,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

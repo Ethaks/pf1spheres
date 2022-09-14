@@ -3,7 +3,11 @@
   "name": "Cerebrevore’s Ecstasy",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Barroom sphere, Brain Consumption.</p>\n<p><strong>Benefit:</strong> Whenever you consume a creature&#8217;s brain using the Brain Consumption feat, you may gain the drunk status as if you had consumed an alcoholic drink. Alternatively, while you possess a bonus talent from Brain Consumption Consumptive Intuition, you may end the bonus talent&#8217;s duration to gain the drunk status as a free action. When you gain the drunk status in either of these ways, you gain the status for double the duration (twice Constitution modifier rounds + 1 per 2 points of base attack bonus).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898208,
+    "modifiedTime": 1663169295925,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

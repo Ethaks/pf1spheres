@@ -3,7 +3,11 @@
   "name": "Gravitic Anomaly",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere, Counterweight.</p>\n<p><strong>Benefit:</strong> Due to your control over your personal gravity, you can move on walls and ceilings and other surfaces as if they were the ground. If you are tripped or fall prone, the area&#8217;s normal gravity reasserts itself and you fall to the ground, taking falling damage as appropriate for your distance above the ground.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898158,
+    "modifiedTime": 1663169295896,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

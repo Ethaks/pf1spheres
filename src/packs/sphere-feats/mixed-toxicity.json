@@ -3,7 +3,11 @@
   "name": "Mixed Toxicity",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You are not only nourished by drinking poisons other than your own, your venom becomes more potent as well.</p>\n<p><strong>Prerequisites:</strong> Poison eater alraun.</p>\n<p><strong>Benefit:</strong> After ingesting a poison other than your own, the DC of your poison is increased by +2 for each 500 gp of its value (minimum +1) the next time you use your poison.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897998,
+    "modifiedTime": 1663169295790,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Hunger",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to make a ghost strike that saps a creature of its energy (Will negates). On a failed save, the subject is fatigued and takes nonlethal damage equal to 1d8 per caster level. This is considered starvation damage, and as such the fatigue and nonlethal damage cannot be healed, even by magic, until the target consumes some sort of food (a standard action, assuming the food is on hand and need not be dug out of a backpack first). If no food is available, the target begins to attempt Constitution checks per day as normal for starvation.</p>\n<p>Multiple applications of hunger do not stack; only the highest nonlethal damage applies.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "death"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890813,
+    "modifiedTime": 1663169293589,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

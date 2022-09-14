@@ -3,7 +3,15 @@
   "name": "Psychotropic Hallucinogen",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can choose for your poison to not cause fatigue, instead causing it to alter the thought process of those subjected to it (this talent cannot be used with a contact or inhaled poison). Those who are under the effects of this poison can select a single Intelligence, Wisdom, or Charisma-based skill, gaining a +2 alchemical bonus to the next check they make with that skill within 1 minute. Those under the effects of this poison suffer a -5 penalty to Initiative checks for 1 minute. For every 5 ranks in Craft (alchemy) you possess, this bonus increases by +2. A creature cannot benefit from a Psychotropic Hallucinogen more than once per hour.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alchemy"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885431,
+    "modifiedTime": 1663169291481,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

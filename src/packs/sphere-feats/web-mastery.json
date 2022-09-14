@@ -3,7 +3,11 @@
   "name": "Web Mastery",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Alteration sphere (Vermin Transformation (transformation)) or web bestial trait.</p>\n<p><strong>Benefit:</strong> If you possess the web bestial trait, increase the number of times per day you may use the web bestial trait by twice your Constitution modifier. When you possess the Web Alteration trait, it may be used a number of times per minute equal to your Constitution modifier.</p>\n<p>Additionally, as a full-round action, you may render a creature that is entangled by your web and within your reach helpless. Such a creature counts as being tied up, increasing the DC to escape to 20 + 1/2 of your Hit Dice + Constitution modifier. The helpless creature may still attempt Strength and Escape Artist checks to free themselves as normal.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897978,
+    "modifiedTime": 1663169295772,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

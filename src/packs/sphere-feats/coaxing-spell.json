@@ -3,7 +3,11 @@
   "name": "Coaxing Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Knowledge (Dungeoneering) 6 ranks, Sphere Focus (Mind).</p>\n<p><strong>Benefit:</strong> This can only be applied to mind-affecting effects. A coaxing talent affects mindless oozes and vermin as if they were not mindless, but has no effect on other creature types. This does not provide the effects of the Mind sphere&#8217;s Expanded Charm talent.</p>\n<p><strong>Cost:</strong> +2 spell points</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897554,
+    "modifiedTime": 1663169295486,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

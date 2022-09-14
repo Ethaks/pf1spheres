@@ -3,7 +3,11 @@
   "name": "Share Expertise",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 3rd level, the symbiat may create a psionic effect that allows him and his allies to share knowledge and capabilities. The symbiat chooses one skill he has at least 1 rank in. All allies within 60 feet may use the symbiat&#8217;s ranks in that skill in place of their own when attempting checks, if the symbiat has more ranks. If the skill to be shared is a class skill, the class skill bonus is also shared, although every creature uses its own ability score modifier. At 10th level, the symbiat may choose the skill ranks and class skill bonus from an ally within range instead of himself and grant those ranks to himself and his other allies.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900778,
+    "modifiedTime": 1663169296871,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

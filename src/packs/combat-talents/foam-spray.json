@@ -3,7 +3,15 @@
   "name": "Foam Spray",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When triggered, this trap sprays a fluid that hardens on contact with air, filling the space of the trap to a height of 5 ft. with an opaque foam. This height increases by 5 ft. for every 5 ranks in Craft (traps) you possess. Creatures occupying a space filled with foam are entangled until they succeed on a Strength or Escape Artist check with a DC equal to the trap&#8217;s DC or the foam is destroyed. Alchemical foam has a hardness of 0 and each 5-ft. cube has hit points equal to your ranks in Craft (traps) x3.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "trap"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885918,
+    "modifiedTime": 1663169291742,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

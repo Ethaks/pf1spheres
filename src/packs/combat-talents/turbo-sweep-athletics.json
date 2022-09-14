@@ -3,7 +3,15 @@
   "name": "Turbo Sweep (Athletics)",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Athletics sphere (Mobile Striker), Guardian sphere (Sweeping Defense), base attack bonus +10.</p>\n<p>When you use Mobile Striker and Sweeping Defense in the same round, instead of attacking multiple adjacent targets, you may instead target multiple creatures you threaten with the weapon used for the attack at some point during your movement. Resolve the attack action after completing the movement from Mobile Striker. At base attack bonus +15, you may instead target any number of creatures threatened during movement.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888257,
+    "modifiedTime": 1663169292842,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

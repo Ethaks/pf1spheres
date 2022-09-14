@@ -3,7 +3,11 @@
   "name": "Heroic Resolve",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Ability to gain martial focus, Constitution 13 or higher.</p>\n<p><strong>Benefit:</strong> As a move action, you may expend focus to suppress a single instance of the dazzled, fatigued, shaken, or sickened condition for a number of rounds equal to your Constitution modifier (minimum 1). The duration of these conditions continues to expire while suppressed. You may instead choose to treat the frightened condition as shaken, the nauseated condition as sickened, the exhausted condition as fatigued, or the blinded condition as dazzled for the same duration. You may take this move action even if the condition would normally prevent you from taking move actions. You may only have one condition suppressed at a time; suppressing an additional condition forces you to stop suppressing the previous condition.</p>\n<p>If your base attack bonus is +10 or higher, you may suppress the dazed, frightened, nauseated, shaken, staggered, and stunned conditions and treat the panicked condition as shaken, though the duration of the suppression is cut in half (minimum 1 round).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898186,
+    "modifiedTime": 1663169295910,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

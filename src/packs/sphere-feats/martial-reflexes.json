@@ -3,7 +3,11 @@
   "name": "Martial Reflexes",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Combat Stamina or a grit pool, ki pool, luck pool, or panache class feature; base attack bonus +1.</p>\n<p><strong>Benefit:</strong> Choose a basic (rally) talent. You may rally yourself with this talent at any time by spending either 5 stamina points or one grit, ki, luck, or panache point for every spell point you would normally need to spend. If you do so, the rally is considered an extraordinary ability, and may be used within areas where magic does not function. For the purposes of this rally, you use your base attack bonus as your caster level and your highest mental ability for your casting ability, if you do not already possess a casting tradition. This ability is not a true rally and does not interact with other abilities that affect rallies.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897852,
+    "modifiedTime": 1663169295678,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

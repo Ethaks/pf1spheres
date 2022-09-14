@@ -3,7 +3,11 @@
   "name": "Inventor’s Insight",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The technician may create one extra invention with no more than 1 improvement. Alternately, he may add 1 additional improvement to one of his other inventions. If he dismantles this invention, he may create a new invention with 1 improvement, or choose another invention to gain +1 improvement. This insight may be selected multiple times. The effects do not stack. Each time this insight is gained, the technician may create a new invention with only 1 improvement, or choose a different invention to gain a bonus improvement.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900668,
+    "modifiedTime": 1663169296770,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

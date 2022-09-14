@@ -3,7 +3,15 @@
   "name": "Stinking Companion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your companion gains one of the abilities listed below. This talent may be taken more than once; each time a different ability may be gained:</p>\n<p><strong>Nauseating Spray:</strong> As a standard action your companion may spray noxious chemicals in a 15-foot cone. Any creature in this cone must succeed at a Fortitude save with a DC of 10 + 1/2 Hit Dice + Constitution modifier or be sickened for 1d6 rounds. This is a poison effect.</p>\n<p><strong>Stench:</strong> Your companion secretes a stinking chemical offensive to most living things. Any creature other than you adjacent to your companion must succeed at a Fortitude save or be sickened until 1d6 rounds after they are no longer adjacent. A creature that saves against this effect is immune to any instance of it from the same companion for 24 hours. This is a poison effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892678,
+    "modifiedTime": 1663169294256,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

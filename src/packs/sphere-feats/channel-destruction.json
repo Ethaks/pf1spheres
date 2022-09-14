@@ -3,7 +3,11 @@
   "name": "Channel Destruction",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Destruction sphere, channel energy class feature.</p>\n<p><strong>Benefit:</strong> You may imbue your channel energy with a blast type talent. This channeled energy may only be used to harm, but affects all creatures in the area, not just living or undead. The channeled energy does its normal number of damage dice of a die size and damage type corresponding to the chosen blast type. Additional effects apply as usual for the chosen blast type.</p>\n<p>If more than one blast type is known, a different blast type may be selected each time channel energy is used. For example, a 5th level soul weaver with this feat and the Crystal Blast talent could channel energy, dealing 3d4 piercing damage as well as the effects of Crystal Blast in the normal area and with the normal DC of her channel energy. If, for example, she also possesses the Searing Blast talent, the next round she can channel energy, dealing 3d8 fire damage.</p>\n<p>If the (blast type) talent chosen has additional spell point costs, an additional use of channel energy must be used in place of each spell point required. You may spend a spell point to increase the damage to one die per level in the class that grants channel energy that you possess.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898128,
+    "modifiedTime": 1663169295881,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

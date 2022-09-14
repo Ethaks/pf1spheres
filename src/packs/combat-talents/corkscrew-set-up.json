@@ -3,7 +3,15 @@
   "name": "Corkscrew Set Up",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/boxing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "boxing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a part of readying an action to perform a counter punch, you can make an attack roll against one creature within your reach. If this attack hits, it deals no damage, but until the start of your next turn, the target of this attack can move only in such a way that the space it occupies is adjacent to you after their movement. Alternatively, it can attempt a combat maneuver check (against your CMD) on their turn as a swift action to ignore this talent&#8217;s effect. If your base attack bonus is +10 or higher, this attack deals damage equal to your practitioner modifier + your base attack bonus instead of no damage.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "boxing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887420,
+    "modifiedTime": 1663169292038,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

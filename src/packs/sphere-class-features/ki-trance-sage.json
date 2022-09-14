@@ -3,7 +3,11 @@
   "name": "Ki Trance (Sage)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever the sage or an ally within reach would attempt a concentration check, he may spend a ki point as an immediate action to instill a temporary trance of utter calm, granting him or the ally a competence bonus to the concentration check equal to the number of chi gong dice he possesses.</p>\n<p>The sage may also use this ability whenever he would need to make a Will saving throw against a spell or effect to add a bonus equal to the number of chi gong dice he possesses to his roll.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900389,
+    "modifiedTime": 1663169296530,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Subtle Poisoner",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Once per round, as part of the same action used to draw a hidden weapon, you can apply poison to the weapon. To do so, you must already have the poison in hand and must succeed at a DC 20 Sleight of Hand check. Success means the dose of poison is expended and you poison the weapon without drawing attention to your act. Failure means any creatures present can immediately attempt opposed Perception checks to notice your poisoning attempt.</p>\n<p>If you fail the check by 5 or more, you also expose yourself to the poison unless you have an ability that would prevent accidental poisoning, such as the (poison) package of the Alchemy sphere, or the poison use ability. <strong>Associated Feat:</strong> Subtle Poisoner</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887412,
+    "modifiedTime": 1663169292031,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

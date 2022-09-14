@@ -3,7 +3,11 @@
   "name": "Favored Enemy",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>From 2nd level on, a conscript selects a creature type from the ranger&#8217;s favored enemies table. He gains a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against creatures of his selected type. Likewise, he gets a +2 bonus on weapon attack and damage rolls against them. A conscript may make Knowledge skill checks untrained when attempting to identify these creatures.</p>\n<p>At 8th level and again at 16th level, the conscript may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by +2.</p>\n<p>If the conscript chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated in the ranger&#8217;s favored enemy class feature. If a specific creature falls into more than one category of favored enemy, the conscript&#8217;s bonuses do not stack; he simply uses whichever bonus is higher.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900067,
+    "modifiedTime": 1663169296203,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

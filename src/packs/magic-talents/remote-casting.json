@@ -3,7 +3,15 @@
   "name": "Remote Casting",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "divination"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Divination sphere (Viewing (divine)), caster level 5th.</p>\n<p>You may spend 1 spell point to cast one magic sphere effect through your viewing viewpoint, using it as your location for the purpose of determining line of sight, line of effect, and range. If an ability requires a successful melee or ranged touch attack, use your normal bonuses for these attacks. You must pay for the spell point cost of the magic sphere effect as normal. Casting a magic sphere effect in this way immediately ends the viewing or scrying effect you are using.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "divination"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891666,
+    "modifiedTime": 1663169293845,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

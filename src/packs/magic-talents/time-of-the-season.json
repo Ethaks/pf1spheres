@@ -3,7 +3,15 @@
   "name": "Time Of The Season",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/time.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "time"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You create a temporal bubble which changes the season. Create a sphere with a radius of 10 feet + 5 feet per 2 caster levels centered on a creature, object, or square within reach (or within your Time sphere range, if you possess the Ranged Time talent) and choose one of the following seasons:</p>\n<p><strong>Spring:</strong> The area becomes a refreshing spring. Additionally, you may spend an additional spell point to make this area burst with overgrowth. If you do, the area becomes difficult terrain (effects which allow a creature to move normally in natural terrain, such as woodland stride, ignore this difficult terrain).</p>\n<p><strong>Summer:</strong> The area becomes a warm summer. Additionally, you may spend an additional spell point to make this area cause heatstroke. If you do, creatures that enter this area or are inside this area at the end of your turn must succeed at a Fortitude save or take 1d4 nonlethal damage and are fatigued until they recover from this nonlethal damage.</p>\n<p><strong>Autumn:</strong> The area becomes a tranquil autumn. Additionally, you may spend an additional spell point to make this area filled with rustling leaves and a calming rustic scent. If you do, creatures that enter this area or are inside this area at the end of your turn must succeed at a Will save or be fascinated as long as they remain in this area. This is a mind-affecting effect, and creatures who save against this effect cannot be fascinated by this sphere effect for 24 hours.</p>\n<p><strong>Winter:</strong> The area becomes a frosty winter. Additionally, you may spend an additional spell point to make the area filled with a miniature snowstorm. If you do, the snowstorm obscures all sight in this area, including darkvision, beyond 5 feet. A creature 5 feet away has concealment and creatures farther away have total concealment.</p>\n<p>An unwilling creature targeted by this effect can attempt a Will save to negate this effect, and is granted a new saving throw each round as a free action. You must concentrate to maintain this effect, but may spend a spell point to allow it to remain for 1 minute per caster level without concentration.</p>\n<p><strong>Special:</strong> Weather conditions inside this effect&#8217;s area are treated as severity 1, generally matching the selected season (winter: Cold 1, spring: Heat 1, summer: Heat 1, fall: Cold 1), allowing creatures inside the effect&#8217;s radius to ignore current weather conditions. Time Of The Season counts as an opposed control weather effect, and changing the weather in an area that includes Time Of The Season&#8217;s area of effect is treated as opposed casters affecting the same weather category. If Time Of The Season&#8217;s caster is successful when making a magic skill check in this manner, or an opposed caster is unsuccessful, the weather inside Time Of The Season&#8217;s area of effect is treated as severity 0. If Time Of The Season&#8217;s caster is unsuccessful, or an opposed caster is successful, the weather within Time Of The Season&#8217;s area is unaffected and any season&#8217;s additional effects (such as spring&#8217;s overgrowth or summer&#8217;s intensified heat) are suppressed.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "time"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892714,
+    "modifiedTime": 1663169294299,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

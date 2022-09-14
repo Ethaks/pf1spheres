@@ -3,7 +3,15 @@
   "name": "Rope A Dope",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/boxing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "boxing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Once per round, when a creature makes a melee attack against you, you may spend an immediate action to force them to make a Fortitude save at the end of their turn or be fatigued for 1 round; in addition, the creature takes a -2 penalty to this saving throw for each attack they make that round. This fatigue last for 1 additional round for each 4 points of base attack bonus you possess. If your base attack bonus is +10 or higher, that creature is instead exhausted instead of fatigued.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "boxing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888193,
+    "modifiedTime": 1663169292782,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

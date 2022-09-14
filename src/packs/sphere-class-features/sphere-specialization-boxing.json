@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Boxing)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Raw Knuckle (Ex):</strong> At 3rd level, whenever a conscript uses his counter punch ability, he deals an additional +2 damage. At 6th level and every six levels afterwards, this additional damage increases by +2.</p>\n<p><strong>Lights Out (Ex):</strong> At 8th level, whenever a conscript makes a successful attack using his counter punch ability, the creature he damaged with it treats the conscript as though he had concealment for 1 round. At 16th level, he is instead treated as though he had total concealment.</p>\n<p><strong>Impossible Preparation (Ex):</strong> At 20th level, as long as a conscript has an action readied, he is immune to being moved or teleported (he may choose to allow himself to be moved or teleported if he wishes) and may roll two times whenever he is required to make a Will saving throw, taking the most favorable result.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900969,
+    "modifiedTime": 1663169297175,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

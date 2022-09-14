@@ -3,7 +3,15 @@
   "name": "Blast Salvo",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Instead of a single destructive blast, you unleash a volley of destructive power. You deliver 2 surges, each requiring a melee touch attack or a ranged touch attack within range. A ranged surge counts as a ray attack. Each surge may be delivered at the same or different targets, but all surges must be delivered simultaneously. Determine the damage dealt by each surge by distributing the damage dice dealt by your destructive blast between each surge. A surge must deal at least 1 damage die or you do not create that surge. If you spend an additional spell point, you may deliver one additional surge, plus 1 surge for every 6 caster levels you possess.</p>\n<p>This (blast shape) only damages a target once, even if multiple surges hit a single target, and would only count as damaging a target once for the Cascade Failure talent.</p>\n<p>Additional effects from a destructive blast modified with this blast shape only affect a creature once regardless of how many times they are damaged.</p>\n<p><strong>Example:</strong> A destructive blast which deals 7d6 damage could be distributed between the two surges as 3d6 and 4d6, 1d6 and 6d6, or any combination the caster chooses. Each surge must deal at least 1d6 damage, or the caster does not create it and the burst is lost.</p>\n<p>A caster would only make a single disarm attempt against a creature struck multiple times by this blast shape when modified by the Static Blast blast type, and only applies additional effects from the Admixture talent or admixture feats to the damaged creature a single time. Effects not caused by the destructive blast, such as additional damage caused by the Fate sphere Harm (word), would trigger on each successful surge. Additional damage from other sources (such as the bonus damage from the Primal Blast feat) would apply to each surge.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "destruction"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890425,
+    "modifiedTime": 1663169293273,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

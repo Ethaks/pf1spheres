@@ -3,7 +3,15 @@
   "name": "Sparrow’s Path",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Athletics sphere, Fly 3 ranks.</p>\n<p>You gain a fly speed equal to half your base speed, with a maneuverability of clumsy. The fly speed only functions during your turn; if you are not on a surface that can support you at the end of your turn, you fall. If you deal damage to a hostile creature with a melee attack during your turn, you may choose not to fall at the end of that turn.</p>\n<p>At 8 ranks in Fly, this fly speed becomes permanent. This is a supernatural effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885478,
+    "modifiedTime": 1663169291512,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

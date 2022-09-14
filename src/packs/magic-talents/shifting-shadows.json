@@ -3,7 +3,15 @@
   "name": "Shifting Shadows",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a free action at the beginning of your turn or when you first create an area of darkness, you may remove up to one 5-foot square plus an additional 5-foot square per 2 caster levels from anywhere within the area, and may add one 5-foot square plus an additional 5-foot square per 2 caster levels to an existing area of darkness, so long as the addition is contiguous. At the beginning of each turn, you may change which squares are removed or added, but may never add or remove more at one time than your caster level would allow.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890462,
+    "modifiedTime": 1663169293300,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

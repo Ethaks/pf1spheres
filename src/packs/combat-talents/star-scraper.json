@@ -3,7 +3,15 @@
   "name": "Star Scraper",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/sniper.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "sniper"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Sniper sphere, Perfect Shot, base attack bonus +10.</p>\n<p>As a full-round action, you may perform a deadly shot with a -5 penalty that increases your weapon&#8217;s base range increment to 1 mile. You can attack a target without having line of sight or line of effect to them, ignoring any cover or concealment they possess, provided there is at least some form of straight open path between you and them, even if that path must go over a mountain or some other sort of large obstacle. However, you must have an accurate idea of the target&#8217;s location, such as by being signaled by a flying ally or informed of the target&#8217;s location and movements via a spell cast by an ally who currently has line of sight to the opponent. Creatures who are completely enclosed by protective surfaces, such as creatures inside a castle room with no windows, cannot be targeted by this effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "sniper"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887026,
+    "modifiedTime": 1663169292005,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

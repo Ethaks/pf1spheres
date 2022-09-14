@@ -3,7 +3,15 @@
   "name": "Quaking Block",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/shield.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "shield"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Shield sphere, base attack bonus +5.</p>\n<p>Whenever an attack misses a creature benefiting from your active defense, you may spend an immediate action to release a burst of energy, dealing damage as if you had made a successful shield bash to all enemies within a 15-foot cone (or a 10-foot radius burst), centered on the initial target. Creatures within the area may attempt a Reflex saving throw to negate this damage.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "shield"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887957,
+    "modifiedTime": 1663169292356,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

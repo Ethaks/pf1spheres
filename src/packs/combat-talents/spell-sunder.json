@@ -3,7 +3,15 @@
   "name": "Spell Sunder",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "berserker"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Berserker sphere, base attack bonus +6.</p>\n<p>You may attempt to sunder an ongoing spell effect by succeeding at a special sunder combat maneuver attempt. For any effect that is not already on a creature, you must make a sunder combat maneuver attempt against a CMD of 15 plus the effect&#8217;s caster level. To sunder an effect on a creature, you must succeed at a normal sunder combat maneuver against the creature&#8217;s CMD +5, ignoring any miss chance caused by a spell or spell-like ability. If successful, you suppress the effect for 1 round, or 2 rounds if you exceeded the CMD by 5 to 9. If you exceed the CMD by 10 or more, the effect is dispelled.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "berserker"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885893,
+    "modifiedTime": 1663169291724,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

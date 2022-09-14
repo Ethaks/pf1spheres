@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Light)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Lighteyes (Su):</strong> At 3rd level, the incanter gains Perception as a class skill and he gains an insight bonus equal to 1/2 his incanter level on all Perception checks. This bonus increases to being equal to his incanter level when detecting invisible or incorporeal creatures.</p>\n<p><strong>Disappearance (Sp):</strong> At 8th level, the incanter may bend light around himself, giving himself the invisible condition as a swift action. The incanter may use this ability for a total number of rounds per day equal to his incanter level, and these rounds do not need to be consecutive. Ending this invisibility is a free action.</p>\n<p><strong>See All:</strong> At 20th level, the incanter can see perfectly in darkness of any kind, even magical darkness that normally impedes darkvision. The target may see all invisible and ethereal creatures as if they were normally visible. Such creatures are visible to you as translucent shapes, allowing you easily to discern the difference between visible, invisible, and ethereal creatures.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900820,
+    "modifiedTime": 1663169296902,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

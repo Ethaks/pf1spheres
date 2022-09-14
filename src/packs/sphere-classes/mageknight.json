@@ -3,7 +3,15 @@
   "name": "Mageknight",
   "type": "class",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": "low"
+    }
+  },
+  "system": {
     "description": {
       "value": "The mageknight is a warrior who mixes magic and blade in the heat of combat. Unlike the armorist, who focuses on calling forth weapons, the mageknight prefers to enhance their weapons with a wide variety of magical tricks. Mageknights aren’t limited in their choice of sphere, so they tend to come up with unique combinations that suit their personal style.\n<p><strong>Role:</strong> The mageknight combines magic and martial power to become a powerful combatant.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d10</p>\n<p><strong>Starting Wealth:</strong> 5d6 x 10 gp (average 175 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The mageknight&#8217;s class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Knowledge (arcana) (Int), Knowledge (nature) (Int), Knowledge (nobility) (Int), Knowledge (planes) (Int), Knowledge (religion) (Int), Profession (Wis), Ride (Dex), Spellcraft (Int), Survival (Wis), and Swim (Str).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n",
       "chat": "",
@@ -26,8 +34,7 @@
           "name": "Weapon and Armor Proficiency (Mageknight)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0,
-          "hiddenLinks": {}
+          "_index": 0
         },
         {
           "id": "pf1spheres.class-features.LkYbWc2Ndz77BYDl",
@@ -35,8 +42,7 @@
           "name": "Casting (Mageknight)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1,
-          "hiddenLinks": {}
+          "_index": 1
         },
         {
           "id": "pf1spheres.class-features.P0jaPmKH84zBS54A",
@@ -44,8 +50,7 @@
           "name": "Spell Pool (Mageknight)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2,
-          "hiddenLinks": {}
+          "_index": 2
         },
         {
           "id": "pf1spheres.class-features.Zo2mGytkoRZ4zR6x",
@@ -53,8 +58,7 @@
           "name": "Magic Talents (Mageknight)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 3,
-          "hiddenLinks": {}
+          "_index": 3
         },
         {
           "id": "pf1spheres.class-features.k52yj4Mx5Z8Ip4BI",
@@ -62,8 +66,7 @@
           "name": "Resist Magic",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 4,
-          "hiddenLinks": {}
+          "_index": 4
         },
         {
           "id": "pf1spheres.class-features.ffgoUI04RocplIZx",
@@ -71,8 +74,7 @@
           "name": "Mystic Combat",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 5,
-          "hiddenLinks": {}
+          "_index": 5
         },
         {
           "id": "pf1spheres.class-features.fXHIKnUkoE3tYdRI",
@@ -80,8 +82,7 @@
           "name": "Stalwart (Mageknight)",
           "img": "icons/svg/item-bag.svg",
           "level": 3,
-          "_index": 6,
-          "hiddenLinks": {}
+          "_index": 6
         },
         {
           "id": "pf1spheres.class-features.9ACiDLIIRijxRPbN",
@@ -89,8 +90,7 @@
           "name": "Marked",
           "img": "icons/svg/item-bag.svg",
           "level": 7,
-          "_index": 7,
-          "hiddenLinks": {}
+          "_index": 7
         },
         {
           "id": "pf1spheres.class-features.WA1aryYI2coAo27M",
@@ -98,8 +98,7 @@
           "name": "Mystic Defense",
           "img": "icons/svg/item-bag.svg",
           "level": 11,
-          "_index": 8,
-          "hiddenLinks": {}
+          "_index": 8
         },
         {
           "id": "pf1spheres.class-features.avK47Jl25gTbDMZi",
@@ -107,8 +106,7 @@
           "name": "Draw Power",
           "img": "icons/svg/item-bag.svg",
           "level": 15,
-          "_index": 9,
-          "hiddenLinks": {}
+          "_index": 9
         },
         {
           "id": "pf1spheres.class-features.lPbWHom1Bjpw6gBJ",
@@ -116,8 +114,7 @@
           "name": "Spell Critical",
           "img": "icons/svg/item-bag.svg",
           "level": 19,
-          "_index": 10,
-          "hiddenLinks": {}
+          "_index": 10
         },
         {
           "id": "pf1spheres.class-features.yql3khNIFabx80xp",
@@ -125,12 +122,11 @@
           "name": "Spellsword",
           "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 11,
-          "hiddenLinks": {}
+          "_index": 11
         }
       ]
     },
-    "tag": "",
+    "tag": "mageknight",
     "useCustomTag": false,
     "armorProf": {
       "value": [],
@@ -221,17 +217,18 @@
     "identifiedName": "Mageknight",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "casterProgression": "low"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168899468,
+    "modifiedTime": 1663169295998,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

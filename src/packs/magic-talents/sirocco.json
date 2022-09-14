@@ -3,7 +3,15 @@
   "name": "Sirocco",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You place this shroud on a target creature, causing a constant dry wind to sap its strength. The target is fatigued and each round it takes nonlethal damage equal to 1d6 + half your caster level. At 10th level it is instead exhausted. At the beginning of each turn the target may attempt a Fortitude save to reduce the damage by half and negate the fatigue for one round or reduce the exhaustion to fatigue. Unlike normal exhaustion or fatigue, the effect ends as soon as the spell&#8217;s duration expires.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "weather"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892299,
+    "modifiedTime": 1663169293978,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

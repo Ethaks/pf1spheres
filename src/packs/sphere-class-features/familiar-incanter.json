@@ -3,7 +3,11 @@
   "name": "Familiar (Incanter)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The incanter gains a familiar, as the wizard&#8217;s arcane bond option, using his incanter levels as wizard levels for this purpose.</p>\n<p>This specialization costs 1 point. If the incanter spends 2 specialization points, he can instead gain one of the following special familiars: Fey Servant or Omnimental Familiar.</p>\n<h5 id=\"toc11\"><span>Fey Servant (2 specialization points)</span></h5>\n<p>The incanter&#8217;s familiar is a special form of fey creature. The familiar must be an animal, and its type becomes fey (granting low-light vision if not already possessed). Its fey nature is obvious from its unusual coloring and features.</p>\n<p>At 4th level, this familiar gains DR/cold iron equal to half his class level.</p>\n<p>At 8th level, he gains the Improved Familiar feat, but must select an improved familiar of the fey type.</p>\n<p>At 10th level, a number of times per day equal to 3 + his casting ability modifier, he may grant his familiar the benefits of any (fey-blessing) talent that he activates on himself without paying any additional cost. His familiar must be within 30 feet and under the effects of his fey-link when the (fey-blessing) talent is used.</p>\n<h5 id=\"toc12\"><span>Omnimental Familiar (2 specialization points)</span></h5>\n<p>The familiar becomes an omnimental. The omnimental never gains the speak with animals of its kind ability. At 6th level, the incanter may determine range, line of effect, and line of sight for his destructive blasts from his familiar&#8217;s position instead of his own.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900706,
+    "modifiedTime": 1663169296804,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

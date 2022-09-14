@@ -3,7 +3,15 @@
   "name": "Encompassing Weather",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When using a shroud, you may spend an additional spell point to affect additional creatures, up to 1 extra creature per 2 caster levels (minimum 1). Every target must be affected by the same shroud. If you possess a mantle, you may likewise increase the number of targets you affect with your mantle, but the duration is reduced from 1 hour per caster level to 10 minutes per caster level.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "weather"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892928,
+    "modifiedTime": 1663169294496,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

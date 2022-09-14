@@ -3,7 +3,15 @@
   "name": "Sustained Force",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a free action, you can spend a spell point to no longer need to concentrate to maintain lifting a particular object for up to 1 minute per caster level. You may give a Sustained Force simple orders (float in the air, go north, follow a target) that it obeys to the best of its ability, to a maximum of your telekinesis range. Changing a Sustained Force&#8217;s orders is a move action.</p>\n<p>You cannot sustain combat-related uses of telekinesis (combat maneuvers, Bludgeons, etc.), nor complicated tasks (make a wagon load itself with stones and move them to another location, etc.). You may dismiss a Sustained Force as a standard action.</p>\n<h3 id=\"toc5\"><span>Wiki Note: Telekinesis and Attack Actions</span></h3>\n<p>You generally cannot make more than one attack action per round, even when using Telekinesis to manipulate multiple weapons and attacking with them individually.</p>\n<h3 id=\"toc6\"><span>Wiki Note: Telekinesis and Maneuvers</span></h3>\n<p>Maneuvers created by telekinesis talents do not originate from you and do not work with many effects that require that (such as many combat talents) unless you have an additional ability allowing this.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892649,
+    "modifiedTime": 1663169294214,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

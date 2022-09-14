@@ -3,7 +3,15 @@
   "name": "Covering Fire",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/sniper.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "sniper"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a standard action, you may choose an area with a 5-ft. radius. This area must be within your first range increment. You threaten this area until the beginning of your next turn, and may make attacks of opportunity using a ranged weapon that you are wielding against any creature in this area that provokes them. If the weapon uses ammunition, it must either be loaded or you must be able to load it as a free action and thrown weapons must be in hand or able to be drawn as a free action to make these attacks of opportunity. For every 4 points of base attack bonus you possess, this radius increases by 5 ft.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "sniper"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888002,
+    "modifiedTime": 1663169292605,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

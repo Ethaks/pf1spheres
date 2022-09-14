@@ -3,7 +3,15 @@
   "name": "Steal Time",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/time.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "time"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to attempt to erase a creature&#8217;s turn from existence. The target is dazed for 1 round (Will negates). If successful, you immediately gain an additional standard action. An individual target cannot suffer the effects of this ability more than once per round. Even if you successfully target multiple creatures in the same round with this ability (such as through the Mass Time talent), you cannot gain more than a single standard action in a round in this manner, nor can you use this new standard action to activate this talent an additional time by any means.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "time"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892714,
+    "modifiedTime": 1663169294299,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

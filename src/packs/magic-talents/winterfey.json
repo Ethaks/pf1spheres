@@ -3,7 +3,15 @@
   "name": "Winterfey",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallenFey"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may activate the following abilities as fey-blessings:</p>\n<p><strong>Cold Touch:</strong> Your natural attacks do cold damage instead of their normal damage type.</p>\n<p><strong>Icebeard:</strong> You become rimed in jagged ice (often taking the form of a jutting beard, but formations vary according to the caster), posing a serious threat to anyone attacking you in melee. An adjacent attacker must succeed at a Reflex save or take 1d4 points of slashing damage when it succeeds on an attack roll against you. At 3rd caster level, this ability also deals 1d6 cold damage. This slashing damage increases by 1d4 at 6th caster level and every 6 caster levels thereafter and the cold damage by 1d6 at 9th caster level and every 9 caster levels thereafter. Additionally, you may break off sharp shards as a free action; treat these as daggers appropriate to your size. These shards melt at the end of your next turn.</p>\n<p><strong>Icewalk:</strong> You may ignore difficult terrain, speed reductions, and penalties to Acrobatics imposed by naturally occurring snow and ice.</p>\n<p><strong>Lower Temperature:</strong> As a free action, you can lower the temperature in a 10-foot radius around your body by 1 step, +1 step per 10 caster levels (see the Weather sphere for the effect of Cold). The temperature changes at a rate of 1 step per round. This change does not stack with that from other magic effects; if another effect is present in the area, you must succeed on a magic skill check against the effect&#8217;s MSD or be unable to alter the temperature. Additionally, you are unaffected by temperatures down to -50&#176;F (-45&#176;C).</p>\n<p><strong>Snowsight:</strong> You can see clearly through snow and sleet as if they were perfectly clear, ignoring miss chance from these obstructions, up to the normal limits of your vision.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fallenFey"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890502,
+    "modifiedTime": 1663169293333,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

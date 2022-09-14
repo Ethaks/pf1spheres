@@ -3,7 +3,15 @@
   "name": "Permanent Transformation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Alteration sphere (Lingering Transformation), caster level 10th.</p>\n<p>When applying a shapeshift, you may spend 2 spell points to change your shapeshift into an instantaneous effect, permanently changing the creature into the new form. Because this is an instantaneous effect, it cannot be dispelled once placed. The target is still under the effect of a shapeshift, however, and any caster attempting to apply a new shapeshift to the target (except the original caster himself) must succeed at a magic skill check as usual; the second shapeshift replaces the first instead of adding to it. When the second shapeshift&#8217;s duration expires, the first shapeshift returns. A second application of a Permanent Transformation can be used to counter the first Permanent Transformation, returning the target to its original form. The Make Whole advanced Life talent, as well as polymorph any object, can also restore the target to its original form.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892925,
+    "modifiedTime": 1663169294493,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

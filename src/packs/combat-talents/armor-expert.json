@@ -3,7 +3,15 @@
   "name": "Armor Expert",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You increase the armor bonus to AC of any armor you are wearing by +1. When your base attack bonus reaches +8, you lower the armor check penalty of any armor you wear by 1. For every 8 points of base attack bonus you gain thereafter, you reduce the armor check penalty of your worn armor by a further 1 (this cannot reduce your armor check penalty below 0). The benefits granted by this talent do not stack with those provided by the Armor Focus and Improved Armor Focus feats. <strong>Associated Feat:</strong> Armor Focus.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887434,
+    "modifiedTime": 1663169292049,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

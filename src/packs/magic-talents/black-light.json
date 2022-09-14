@@ -3,7 +3,15 @@
   "name": "Black Light",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a free action you may cause any glow within your range to shed non-visible light. While shedding non-visible light, a glow does not outline a creature with light, impose a Stealth penalty, or increase light levels within its radius. However, (light) talents applied to the glow still function as if it was shedding light in its normal area.</p>\n<p>A glow shedding non-visible light functions normally even in magical darkness and does not hinder the function of magical darkness in the same area. No magical skill check is made when a glow under the effects of Black Light interacts with magical darkness.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890559,
+    "modifiedTime": 1663169293387,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

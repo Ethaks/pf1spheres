@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Berserker)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Iron Rage (Ex):</strong> At 3rd level, whenever a conscript takes a penalty to their AC from the Berserker sphere, they also gain DR 1/- for 1 round. At 5th level and every five levels afterwards, this DR increases by 1.</p>\n<p><strong>Steel Rage (Ex):</strong> At 8th level, whenever a conscript gains temporary hit points from the Berserker sphere ability, they gain an additional number of temporary hit points equal to 1/2 their conscript level.</p>\n<p><strong>Adamantine Rage (Ex):</strong> At 20th level, whenever a conscript takes a penalty to their AC from a Berserker sphere ability, they treat all creatures as battered for as long as the penalty lasts.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900967,
+    "modifiedTime": 1663169297173,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

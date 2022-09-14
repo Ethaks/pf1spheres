@@ -3,7 +3,15 @@
   "name": "Darkvision",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to grant the target darkvision 60 feet for 1 hour per caster level. If the target already possesses darkvision, this instead increases the range of their darkvision by 30 feet.</p>\n<h3 id=\"toc4\"><span>Dark Talent Types</span></h3>\n<p>Some talents are marked (darkness). These talents add additional effects that can be added to a sphere of darkness. Only one such effect can be added to a single area of darkness, though areas of different darkness can overlap, provided they do not have the same (darkness) talent effect.</p>\n<p>Some talents are marked (meld). These talents grant you additional melds you can grant to targets.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890760,
+    "modifiedTime": 1663169293546,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

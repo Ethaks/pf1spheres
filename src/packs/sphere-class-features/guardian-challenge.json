@@ -3,7 +3,11 @@
   "name": "Guardian Challenge",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 1st level, whenever a sentinel uses the challenge ability of the Guardian sphere, for the duration of the challenge she gains a +1 bonus to attack and damage rolls against a challenged creature. At 5th level and every four levels thereafter, these bonuses increase by +1, to a maximum of +5 at 17th level.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901063,
+    "modifiedTime": 1663169297263,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

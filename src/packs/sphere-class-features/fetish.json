@@ -3,7 +3,11 @@
   "name": "Fetish",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The hedgewitch may bind one masterwork item to herself as a fetish. She may enchant this item as if she possessed the prerequisite item creation feat, provided she meets that item creation feat&#8217;s other prerequisites, such as minimum caster level. She may change her fetish at any time by spending 8 hours binding a new one, but doing so causes her previous fetish to lose all of its magic, becoming an ordinary masterwork item again.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900084,
+    "modifiedTime": 1663169296228,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

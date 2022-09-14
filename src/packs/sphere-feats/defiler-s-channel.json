@@ -3,7 +3,11 @@
   "name": "Defiler’s Channel",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You draw life energy directly from your environment.</p>\n<p><strong>Prerequisites:</strong> Terrain Casting drawback, channel energy 3d6.</p>\n<p><strong>Benefit:</strong> Whenever you channel energy, you may drain an area of its nutrients as per the Terrain Casting drawback. If you do, the number of dice used with your channel energy increases by 2.</p>\n<p><strong>Four Defiler Feats:</strong> The number of dice increases by 4 rather than 2.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898197,
+    "modifiedTime": 1663169295917,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Sunstroke",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you place a glow effect on a creature, you may choose to deal it 1d4 nonlethal fire damage per 2 caster levels (minimum 1d4). The creature takes this damage each round the glow is in effect. A successful Fortitude save negates the damage for that round, while two consecutive Fortitude saves ends the effect.</p>\n<p>If you cause this glow to shed bright light, the target also becomes fatigued the next time they take nonlethal damage from this effect. If they are already fatigued, they instead become exhausted. This fatigue or exhaustion cannot be recovered from until the target has been healed of the nonlethal damage taken from this effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890414,
+    "modifiedTime": 1663169293259,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

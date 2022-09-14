@@ -3,7 +3,11 @@
   "name": "Bloodthirst",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 3rd level, the crimson dancer develops an uncanny sensory perception for blood. She gains a limited scent ability out to 30 feet that can only be used to detect bleeding creatures, or that have less than half their maximum hit points. Additionally, she gains a bonus equal to her class level when attempting Survival checks to track a creature that has left a blood trail, and when attempting Perception checks to locate bleeding creatures.</p>\n<p>At 17th level, the crimson dancer gains blindsense 30 feet, but this vision can only sense creatures that can naturally bleed and that do not have bleed immunity.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900939,
+    "modifiedTime": 1663169297142,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

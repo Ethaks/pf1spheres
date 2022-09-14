@@ -3,7 +3,15 @@
   "name": "Subvert Weapon",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to place a curse upon a weapon that causes it to turn against its wielder. The next time it is used to make an attack, the attack automatically hits the wielder.</p>\n<p>This word itself does not obviously modify the weapon, so unless alerted by other means (such as detect magic or the divine use of the Divination sphere) the wielder cannot attempt to deal nonlethal damage. At 10th level, the attack automatically threatens a critical hit. An attended or magic weapon is entitled to a Will saving throw to negate this effect. This curse remains up to 1 hour per caster level or until discharged.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890758,
+    "modifiedTime": 1663169293544,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

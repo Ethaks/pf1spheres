@@ -3,7 +3,11 @@
   "name": "Veiled Horror",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> You gain a +1 bonus to Intimidate checks for every Aristeia feat you possess. When you enter aristeia, you gain the frightful presence universal monster ability with a range of 30 feet and a DC of 10 + 1/2 your Hit Dice + your Charisma modifier. This range increases to 100 feet if you possess at least three aristeia feats and 300 feet if you possess at least 5 aristeia feats.</p>\n<p><strong>Special:</strong> This feat counts as Intimidating Prowess for the purpose of meeting prerequisites.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897867,
+    "modifiedTime": 1663169295684,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Catisthenics",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> 1 rank in any Strength- or Dexterity-based skill.</p>\n<p><strong>Benefits:</strong> By spending 10 minutes stretching (such as doing yoga, martial exercises, etc.), you gain a catisthenics pool with a number of dice equal to 1 + 1 for every 3 Hit Dice you possess.</p>\n<p>You may spend a catisthenics die as part of attempting a Strength- or Dexterity-based skill check to add +1d6 to that roll. You may spend 10 minutes to stretch and replenish your catisthenics pool, regaining up to the maximum number of catisthenics dice.</p>\n<p>If a catisthenics die is used at the same time as another ability which adds a bonus die to a check (such as investigator&#8217;s inspiration, sage&#8217;s meditation, etc.), the bonus granted by a catisthenics dice is decreased to +1d4.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897908,
+    "modifiedTime": 1663169295715,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

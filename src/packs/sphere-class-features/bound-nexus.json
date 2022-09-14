@@ -3,7 +3,11 @@
   "name": "Bound Nexus",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>A soul weaver&#8217;s greatest strength is the souls she collects. A soul weaver possesses a number of souls equal to 3 + her casting ability modifier (minimum 1). These souls replenish whenever the soul weaver rests to regain spell points. These souls may be turned visible or invisible as a free action (if visible, they appear as wisps of energy that glow dimly).</p>\n<p>Souls either orbit the soul weaver (moving as she does at the same speed), or may be directed to move independently as a free action that may be taken once per soul per round. Souls behave as creatures with a fly speed of 40 feet that may only take actions to move and always succeed at Fly checks. These souls are only projected into the same plane as the soul weaver, and as such are considered ethereal and are also immune to damage of any kind. A soul must remain within medium range of the soul weaver, or disappear back to the nether.</p>\n<p>A soul weaver gains a number of abilities, each of which uses up a soul&#8217;s energy, returning it to the nether until the soul weaver rests to regain spell points. Nexus powers require a standard action, and if a saving throw is required the DC is equal to 10 + 1/2 soul weaver level + casting ability modifier. To use an ability, the target must be adjacent to the soul weaver (if the spirit is orbiting her), or else the soul weaver must first direct the soul to move into the target&#8217;s square.</p>\n<p>The soul weaver gains the following bound nexus abilities:</p>\n<hr>See also:<br><ul><li>@Compendium[pf1spheres.class-features.JdNMZ1GfedQAK3r8]{Aid the Dead}</li><li>@Compendium[pf1spheres.class-features.AlL9aq92pkc5qbIq]{Lovelorn Soul}</li><li>@Compendium[pf1spheres.class-features.jcNCdO0ghSOJX38Z]{Siphon Health}</li><li>@Compendium[pf1spheres.class-features.sN47WNTruZrfbxMU]{Curious Spirit}</li><li>@Compendium[pf1spheres.class-features.QdemRlB8j4CscAHu]{Summon Spirit I}</li><li>@Compendium[pf1spheres.class-features.YVp62Kcs3uRS406J]{Channel Mastery}</li><li>@Compendium[pf1spheres.class-features.ZzvNuIPWPicgpwSp]{Summon Spirit II}</li><li>@Compendium[pf1spheres.class-features.N3wY9MknFvoeSaAb]{Divine Soul}</li><li>@Compendium[pf1spheres.class-features.pFl1YzK0vnpKu8Tu]{Blessed Soul}</li><li>@Compendium[pf1spheres.class-features.2SzWNncmqfOaNZwX]{Summon Spirit III}</li><li>@Compendium[pf1spheres.class-features.fbKTuHuETuf68Dm3]{Ghostpoint}</li><li>@Compendium[pf1spheres.class-features.KgnR45Bv502WzEs7]{Summon Spirit IV}</li><li>@Compendium[pf1spheres.class-features.n7fIphayQyt9uV1z]{Temporary Resurrection}</li><li>@Compendium[pf1spheres.class-features.K1u3tZLgCYoPgHwq]{Trap Soul}</li><li>@Compendium[pf1spheres.class-features.MdJdDTqYbxyqQjak]{Summon Spirit V}</li></ul>",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900080,
+    "modifiedTime": 1663169296224,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

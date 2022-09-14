@@ -3,7 +3,11 @@
   "name": "Detonate",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 18th level, when using the soul weaver&#8217;s lesion ability to kill a target, she may also cause their blight to burst on a failed save, dealing 1d6 fire damage per soul weaver level to all adjacent targets (Reflex half).</p>\n<h3 id=\"toc30\"><span>List of Blessings</span></h3>\n<p>The blessing ability list includes the following:</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900216,
+    "modifiedTime": 1663169296364,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

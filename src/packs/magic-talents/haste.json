@@ -3,7 +3,15 @@
   "name": "Haste",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/time.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "time"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You grant the target increased speed. The target gains a +10 feet enhancement bonus to all forms of movement, as well as a +1 bonus to attack rolls and a +1 dodge bonus to AC and Reflex saves. This increases by +10 feet per 5 caster levels, and a +1 bonus per 10 caster levels. You must concentrate to maintain this effect, but may spend a spell point as a free action to allow it to remain for 1 round per caster level without concentration.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "time"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893132,
+    "modifiedTime": 1663169294556,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

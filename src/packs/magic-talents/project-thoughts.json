@@ -3,7 +3,15 @@
   "name": "Project Thoughts",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can communicate directly into the mind of another.</p>\n<p><strong>Lesser Charm:</strong> You may project a telepathic message to a target consisting of no more than 25 words. If you and the target do not possess a shared language, this form of communication is impossible. Unlike other lesser charms, there is no limit to the number of times you may use this on a target in a day.</p>\n<p><strong>Greater Charm:</strong> Your projected telepathic message does not have a word limit, although communication is carried out in real time and you must concentrate for as long as you communicate. You can communicate with the target even without a shared language.</p>\n<p><strong>Powerful Charm:</strong> This functions the same as the greater charm, except the target may also respond to you with their own projected telepathic messages, allowing for two-way communication. However, the target is under no obligation to respond in any way and can simply remain silent if they so choose.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mind"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893598,
+    "modifiedTime": 1663169294607,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Second Wind",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 3rd level, a sentinel can choose to spend a reserve point as a swift action; if she does so, she heals 1d6 hit points of damage for every two sentinel levels she possesses + her Wisdom modifier; this healing cannot raise a sentinel&#8217;s hit points beyond 1/2 of their maximum amount. She can reduce this healing by half to also regain her martial focus, but she must decide to do so before rolling to determine how much she would be healed.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900775,
+    "modifiedTime": 1663169296869,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

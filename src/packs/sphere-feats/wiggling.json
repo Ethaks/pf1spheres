@@ -3,7 +3,11 @@
   "name": "Wiggling",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefits:</strong> While using the wiggling purr, you and allies within your purring aura gain a +2 dodge bonus to AC against attacks of opportunity and Escape Artist checks. Whenever an enemy&#8217;s attack of opportunity misses a creature benefiting from the wiggling purr, that enemy provokes an attack of opportunity from you. Each enemy may only provoke an attack of opportunity this way once per round.</p>\n<p><strong>Powerful Purring:</strong> While using the wiggling purr, you gain the compression ability.</p>\n<p><strong>Note:</strong> You may not use this feat to take an attack of opportunity in conjunction with (deflect) talents or any other ability that would grant you an attack or combat maneuver due to a missed attack.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897831,
+    "modifiedTime": 1663169295665,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Expert Fence",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fencing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fencing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a swift action, you may choose one edge of your space and create a metaphorical fence for 1 round. That edge is treated as partial cover for attacks targeting you only. At +10 base attack bonus, you may expend martial focus to reduce this to an immediate action. Partial cover provided by this talent does not block line of effect and cannot be used to attempt a Stealth check.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fencing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888181,
+    "modifiedTime": 1663169292771,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

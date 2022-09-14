@@ -3,7 +3,11 @@
   "name": "Phantom Strike",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The sage may spend a ki point as swift action to allow all of their attacks to resolve as touch attacks for one round. A sage must be at least 6th level to select this esotery.</p>\n<h3 id=\"toc20\"><span><span style=\"color: #00c000\">Chakra Disruptor Esoteries</span></span></h3>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901056,
+    "modifiedTime": 1663169297259,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

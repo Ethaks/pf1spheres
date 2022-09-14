@@ -3,7 +3,15 @@
   "name": "Flawless Teleport",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warp sphere (Distant Teleport, True Teleport (advanced), Unseeing Teleport), caster level 15th.</p>\n<p>When using the True Teleport advanced talent, the range is increased to unlimited (excluding interplanetary transport) and you no longer suffer a chance of arriving off-target, always appearing exactly where you intended. When using the Planeshift advanced talent, you no longer appear off-target from your intended destination on the other plane.</p>\n<p>You need not have seen the destination you are trying to reach, but in that case you must have at least a reliable description of the place to which you are teleporting. If you attempt to teleport with insufficient information (or with misleading information), you disappear and simply reappear in your original location.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892707,
+    "modifiedTime": 1663169294291,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

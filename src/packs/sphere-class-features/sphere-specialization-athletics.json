@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Athletics)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Expert Climber (Ex):</strong> Starting at 3rd level, the conscript gains a climb speed of 20 ft. If he has or gains a climb speed from another source, he instead increases his climb speed by 10 ft. (unless that would make his total climb speed less than 20 ft.). Whenever he climbs and uses another movement mode in the same round, treat his speed for both movement modes as being equal to his greatest movement speed.</p>\n<p><strong>Uncanny Swimmer (Ex):</strong> From 8th level on, the conscript gains a swim speed of 30 ft. If he has or gains a swim speed from another source, increase that swim speed by 10 ft. instead (unless that would make his total swim speed less than 30 ft.). Whenever the conscript swims and uses another movement mode in the same round, treat his speed for both movement modes as being equal to his greatest movement speed.</p>\n<p><strong>Athletic Paragon (Ex):</strong> Upon reaching 20th level, the conscript has achieved the peak of physical fitness. Increase the total speed of any movement mode he possesses by 10 ft. (this is applied after any modifications or bonuses gained from the expert climber or uncanny swimmer class features). In addition, he gains a competence bonus to Fortitude and Reflex saving throws equal to his practitioner modifier, and he does not suffer any penalties to his physical ability scores (Strength, Dexterity, and Constitution) due to aging. Any penalties that have accrued due to age prior to this point are removed.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900203,
+    "modifiedTime": 1663169296347,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

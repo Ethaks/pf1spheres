@@ -3,7 +3,11 @@
   "name": "Precogniscent Protection",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Divination sphere (one or more (sense) talents or abilities).</p>\n<p><strong>Benefit:</strong> You gain an insight bonus to armor class equal to the number of senses from the Divination sphere you have active (maximum 1 + 1 per 5 Hit Dice). In addition, you may as an immediate action spend a spell point and dismiss a sense you have active to cause a critical hit against you to become a regular hit instead.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897562,
+    "modifiedTime": 1663169295494,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

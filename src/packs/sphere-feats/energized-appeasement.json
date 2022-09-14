@@ -3,7 +3,11 @@
   "name": "Energized Appeasement",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The powers of the beyond are sufficient to appease the bound force within.</p>\n<p><strong>Prerequisite:</strong> Spirit class feature.</p>\n<p><strong>Benefit:</strong> When your spirit would gain a point of influence over you, you may spend two uses of channel energy in place of allowing the spirit to gain that point of influence. In addition, when you would spend a use of channel energy, you may instead allow your spirit to gain a point of influence over you.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897944,
+    "modifiedTime": 1663169295745,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Encompassing Illness",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Blood sphere and 5th caster level; or Death sphere and 5th caster level; or Duelist sphere and base attack bonus +5; or Alchemy sphere and base attack bonus +5; Virulent Ailment, character level 9th.</p>\n<p><strong>Benefit:</strong> Diseases you create through Plague feats become incredibly infectious. Created diseases can affect creatures that have immunity to diseases or Fortitude saves, although such creatures gain a +4 bonus to the saving throw (+8 if they possess no Constitution score). This allows your diseases to even infect constructs and other non-living creatures, although they cannot infect anything that does not have at least one Hit Dice.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897912,
+    "modifiedTime": 1663169295717,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

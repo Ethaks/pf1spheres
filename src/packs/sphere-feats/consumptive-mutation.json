@@ -3,7 +3,11 @@
   "name": "Consumptive Mutation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Consumptive Intuition, Improved Transformation, Transformation, character level 5th.</p>\n<p><strong>Benefit:</strong> You may exchange one or more traits granted by Improved Transformation for any other traits you would qualify for whenever you consume a creature&#8217;s brain. These traits must emulate abilities that the consumed creature possessed or that are associated with the creature, subject to GM discretion.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897510,
+    "modifiedTime": 1663169295468,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

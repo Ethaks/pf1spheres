@@ -3,7 +3,11 @@
   "name": "Wishbound Casting",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The desires of others can ease the burdens of your magic.</p>\n<p><strong>Prerequisites:</strong> Extended Casting (drawback), Verbal Casting (drawback).</p>\n<p><strong>Benefit:</strong> You may use the wishes of creatures other than yourself in place of the normal verbal components of your magic sphere effects. A creature can make a wish as an immediate action at any time, even during your turn. You must be able to hear and understand a wish in order to use it as a spell component but must still take the normal actions required to create the sphere effect. A wish does not need to mention the name of a specific effect, but must describe an outcome that can be accomplished through one of your magic abilities (for example, wishing to be bigger could supply the verbal component for a shapeshift that increases size). When you grant a wish using a magic effect, you do not need to supply a verbal component yourself, nor do you need to extend the casting time as per Extended Casting. You may not grant your own wish or that of one of your subordinate creatures.</p>\n<p>As a swift action, you may spend a spell point to force a single creature within 30 feet to confess its deepest desire. The target receives a Will save (DC 10 + 1/2 your caster level + your casting ability modifier) to negate this effect. On a failed save, the creature must wish aloud in a clear voice for something it truly desires, allowing you to activate your wishbound casting if you know an effect that can fulfill that wish (this does not require them to spend an action). This is a mind-affecting effect. Regardless of whether the save is successful, a creature cannot be the target of this wish-forcing ability again for 24 hours.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897994,
+    "modifiedTime": 1663169295786,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

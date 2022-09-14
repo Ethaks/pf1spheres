@@ -3,7 +3,15 @@
   "name": "Star-Spawn Body",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Alteration sphere (Aberrant Body (body) or Cosmic Body (body)), caster level 5th.</p>\n<p>You may spend an additional spell point to add the following trait options to your forms:</p>\n<p><strong>Impossible Geometries:</strong> You may grant the target the appearance of impossible geometries, making its apparent and actual positions different. This grants a 2% miss chance per caster level against all attacks. The true seeing spell or True Seeing Divination sphere talent can defeat this miss chance, but any creature that looks upon the target while under the aforementioned effects must succeed at a Will save equal to your Alteration sphere DC or be staggered for 1d4 rounds (this is a mind-affecting effect). (requires caster level 10th)</p>\n<p>If you possess the Mind sphere, you may spend an additional spell point to add the following traits to your forms:</p>\n<ul>\n<li><strong>Unspeakable Presence:</strong> You may grant the target a fear aura with a 30-foot radius. Hostile creatures must attempt a Will save against a DC of 10 + 1/2 the target&#8217;s Hit Dice + their Charisma modifier each round they end their turn within the aura. On a failure they become shaken until they leave the aura and 1d4 rounds after leaving it. This effect stacks with itself, shaken creatures become frightened and frightened creatures become panicked for the same duration. This is a mind-affecting effect.</li>\n<li><strong>Overwhelming Mind:</strong> You may alter the target&#8217;s mind to be overwhelming in its power and alien structure. The first time a creature other than an outsider (excluding native outsiders) or aberration makes mental contact with a creature with this trait, it must succeed at a Will save equal to your Alteration DC or be stunned for 1 round. On a successful save, the creature is merely staggered for 1 round. This effect can occur whether the target initiates mental contact (such as via a demand, dream, nightmare, or sending spell, certain Mind sphere effects or spell-like abilities, or once per round merely by telepathic communication) or another creature attempts to do so (such as via detect thoughts or the Mind sphere). Once a creature is exposed to overwhelming mind, it is immune to this effect for 24 hours. This is a mind-affecting effect. (requires caster level 10th)</li>\n</ul>\n<p><strong>Starflight:</strong> You may grant the target the ability to survive in the void of outer space. It flies through space at an incredible speed. Although exact travel times vary, a trip within a single solar system should take 3d20 hours, while a trip beyond should take 3d20 days (or more, at the GM&#8217;s discretion). (requires fly speed, caster level 15th)</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891677,
+    "modifiedTime": 1663169293853,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

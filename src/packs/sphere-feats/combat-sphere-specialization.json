@@ -3,7 +3,11 @@
   "name": "Combat Sphere Specialization",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your knowledge of one particular combat sphere is without peer.</p>\n<p><strong>Prerequisite:</strong> 1 or more combat spheres.</p>\n<p><strong>Benefit:</strong> Select one combat sphere you possess, you treat your base attack bonus as 1 higher for the purposes of its effects, but not for attacks made with talents from that sphere. At 5th level and every 4 levels afterwards, the chosen sphere&#8217;s base attack bonus is treated as an additional 1 higher, although the sphere&#8217;s effective base attack bonus cannot be higher than your character level.</p>\n<p><strong>Special:</strong> You may select this feat multiple times, each time selecting a different sphere.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898218,
+    "modifiedTime": 1663169295928,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

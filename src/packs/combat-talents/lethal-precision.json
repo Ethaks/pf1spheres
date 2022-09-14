@@ -3,7 +3,15 @@
   "name": "Lethal Precision",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/sniper.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "sniper"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>After performing a deadly shot made while hiding, you may use the Stealth skill&#8217;s sniping function as a swift action. You may expend martial focus to reduce this to a free action. In addition, when making a deadly shot, you can deal Fencing sphere precision damage, sneak attack damage, or damage from other similar effects and abilities at any distance.</p>\n<p><strong>Normal:</strong> Using Stealth immediately after a ranged attack is a move action.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "sniper"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887911,
+    "modifiedTime": 1663169292318,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

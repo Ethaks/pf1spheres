@@ -3,7 +3,15 @@
   "name": "Mass Teleport",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to teleport multiple creatures, up to 1 additional target per 2 caster levels (minimum 1). You may choose whether or not to include yourself in the group to be teleported. Each creature must be touching you or someone else in the affected group to be teleported, unless you possess the Ranged Warp talent. If you possess the Unwilling Teleport talent, you only need to spend one spell point no matter how many unwilling targets are affected. If one unwilling target succeeds at their saving throw, other creatures are still affected as normal. All targets must be within the same distance from each other at their destination as they were required to be in order to be teleported (touching, unless you possess Ranged Warp).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891673,
+    "modifiedTime": 1663169293850,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

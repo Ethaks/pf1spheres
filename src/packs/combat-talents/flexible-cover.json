@@ -3,7 +3,15 @@
   "name": "Flexible Cover",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/shield.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "shield"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a move action to use a shield to grant you cover until the beginning of your next turn. Bucklers, heavy shields, and light shields provide partial cover while tower shields provide total cover. When using a shield in this way, you must choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain cover for attacks that pass through this edge. The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding. Cover granted this way is insufficient to enable you to make a Stealth check to hide and the shield may be targeted as an attended object.</p>\n<p>As an immediate action, you may change the selected edge of your space even when it is not your turn. If you expend martial focus, you may use this talent as an immediate action.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "shield"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888256,
+    "modifiedTime": 1663169292841,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

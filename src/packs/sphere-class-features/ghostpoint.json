@@ -3,7 +3,11 @@
   "name": "Ghostpoint",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 12th level, the soul weaver may, when using a spell, spell-like ability, sphere ability, or soul weaver ability, target the effect as if she were standing in the same square as one of her souls. If the magic effect requires a touch attack, the soul may make the touch attack for the soul weaver, using her bonuses. This expends the soul.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900761,
+    "modifiedTime": 1663169296851,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

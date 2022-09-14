@@ -3,7 +3,15 @@
   "name": "Traveling Weapon",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may enhance a melee weapon, granting it the throwing and returning weapon special abilities.</p>\n<p>When used on a ranged weapon, a throwing weapon, or a weapon that already possesses the throwing special ability, this instead gives the weapon or its ammunition the ability to curve slightly; ranged attacks with that weapon ignore 2 points of the AC bonus from cover less than total cover, +2 points per 7 caster levels.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "enhancement"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890559,
+    "modifiedTime": 1663169293387,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

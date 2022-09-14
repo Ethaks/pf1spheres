@@ -3,7 +3,15 @@
   "name": "Tenebrous Legerdemain",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You create an area of darkness or blot which you may manipulate to perform minor feats of legerdemain. Once per round as a free action you may make a pickpocket attempt or a Steal combat maneuver against a target that is within your darkness or blot. You may use your own Sleight of Hand modifier or Steal CMB or your caster level + your casting ability modifier, whichever is higher.</p>\n<p>You may instead retrieve one unattended item that is within your area of blot or darkness once per round as a free action. Whether the item is retrieved or stolen, it appears in your hands or in the nearest adjacent space if your hands are full. An item retrieved or stolen cannot weigh more than 5 lbs. per caster level.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891699,
+    "modifiedTime": 1663169293869,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

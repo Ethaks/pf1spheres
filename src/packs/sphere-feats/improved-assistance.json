@@ -3,7 +3,11 @@
   "name": "Improved Assistance",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You add a bit of extra aid when coordinating a technique.</p>\n<p><strong>Prerequisite:</strong> Knowledge of at least one technique.</p>\n<p><strong>Benefit:</strong> When you initiate a multi-character technique where you do not perform the action, you may attempt the aid another action on the character performing the action as part of the action to initiate the technique. So long as you are in range to initiate the technique, you do not need to be in the normal range to aid another.</p>\n<p>If you possess the Circle Casting feat, you may maintain that feat&#8217;s effects on the target so long as you are within range of the technique (rather than 30 feet).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897933,
+    "modifiedTime": 1663169295736,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

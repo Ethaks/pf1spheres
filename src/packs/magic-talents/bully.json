@@ -3,7 +3,15 @@
   "name": "Bully",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may add the following traits to your forms:</p>\n<p><strong>Powerful Charge:</strong> Choose one natural attack the target possesses. When charging, that attack deals damage as if it were one size larger and receives 1-1/2 times the target&#8217;s Strength bonus to damage instead of 1 times.</p>\n<p><strong>Push/Pull:</strong> Choose one natural attack the target possesses. On a successful attack against a creature of equal or smaller size, the target may attempt a bull rush, drag, or reposition check as a free action that does not provoke an attack of opportunity.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890547,
+    "modifiedTime": 1663169293373,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

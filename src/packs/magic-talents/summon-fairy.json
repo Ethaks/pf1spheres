@@ -3,7 +3,15 @@
   "name": "Summon Fairy",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallenFey"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to summon a creature of the fey type with a CR of no greater than your caster level/3 as a 1-round action. The creature appears within 30 feet of you and remains and serves you for as long as you concentrate or for the duration of your fey-link if you spend an additional spell point. The creature obeys your commands, but unless you speak the creature&#8217;s language, only basic communication is possible (attacking an enemy, defending the caster, etc.).</p>\n<p>The total Hit Dice of fey called at one time cannot exceed your caster level (temporary increases to caster level such as the thaumaturge&#8217;s forbidden lore ability or implements of the Fallen Fey sphere do not increase this capacity nor the highest CR creature you may summon). Attempting to summon an additional fey forces you to dismiss a number of existing fey to bring the total under this limit. If a summoned creature expends abilities with a limited use, those abilities are expended for all creatures of the same kind. Likewise, a creature that gains immunity to an ability of a summoned creature gains immunity to that ability originating from all creatures of that type that you summon.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fallenFey"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891185,
+    "modifiedTime": 1663169293668,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

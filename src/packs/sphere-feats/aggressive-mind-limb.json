@@ -3,7 +3,11 @@
   "name": "Aggressive Mind Limb",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere, Mind Limb, base attack bonus +5.</p>\n<p><strong>Benefit:</strong> As long as your telekinetic limb is not carrying anything you may make attacks with it, using your casting ability modifier in place of your Strength modifier on the attack roll. This counts as an unarmed attack, but does not provoke an attack of opportunity. It deals nonlethal damage equal to your unarmed damage plus your casting ability modifier. You may also make one additional attack of opportunity per round, but it must be with your telekinetic limb. You may not use this attack of opportunity to do anything other than attack.</p>\n<p><strong>Special:</strong> If you also have Telekinetic Fist, your telekinetic limb&#8217;s reach increases by 5 feet.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897900,
+    "modifiedTime": 1663169295709,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

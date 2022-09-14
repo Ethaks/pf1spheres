@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Tech)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Tech Specialization (Ex):</strong> Starting at 3rd level, increase the conscript&#8217;s maximum charge pool size by his practitioner ability modifier.</p>\n<p><strong>Masterful Machinery (Ex):</strong> From 8th level on, the conscript increases the number of crafted gadgets he can have prepared at any one time by his practitioner ability modifier.</p>\n<p><strong>Master Technician (Ex):</strong> At 20th level, the conscript may craft a gadget from the Tech sphere to be permanent. While unactivated, permanent devices gain charges at the rate of 1 per hour. The conscript may only have one permanent device at a time, if the conscript has already reached this limit and wishes to create a new permanent device, he must select one of his existing permanent devices to dismantle.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900698,
+    "modifiedTime": 1663169296796,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

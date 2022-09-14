@@ -3,7 +3,11 @@
   "name": "Push/Pull Mastery",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere (Directional Control drawback).</p>\n<p><strong>Benefit:</strong> You may use telekinesis to move objects both directly towards you and directly away from you. If you push or pull an object that does not move (for example, a building or the ground/an object pushed into the ground) you may instead apply the movement to yourself, using the stalled momentum of your telekinesis to push or pull yourself in the opposite direction. This means that, as a standard action, you can move yourself at a speed equal to double your telekinesis speed but only towards or away from a stationary object that you can affect with telekinesis (if you end in the air, you do not fall until the end of your next turn). You may grant yourself this ability as a sustained force, gaining a fly speed equal to twice your telekinesis speed, but may only move in a single direction per move action that is toward or away from an appropriate object for telekinesis.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897555,
+    "modifiedTime": 1663169295487,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

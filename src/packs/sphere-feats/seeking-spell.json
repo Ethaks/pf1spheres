@@ -3,7 +3,11 @@
   "name": "Seeking Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> A seeking talent&#8217;s range can bend around obstacles to reach the intended target. You can define the route yourself or unambiguously identify a target and allow the talent to determine its own path. However, the talent fails if it would have to travel farther than its maximum range to reach the identified target. A ranged attack roll made to deliver a seeking talent is not subject to cover or concealment. In order to benefit from this effect, the selected talent must have a range greater than touch and target one or more creatures, or it must require the caster to make a ranged touch attack.</p>\n<p><strong>Cost:</strong> +2 spell points</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897726,
+    "modifiedTime": 1663169295583,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

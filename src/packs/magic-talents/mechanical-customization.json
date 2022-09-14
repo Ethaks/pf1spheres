@@ -3,7 +3,15 @@
   "name": "Mechanical Customization",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may add the following additional traits to your form</p>\n<p><strong>Mechanical Upgrade:</strong> The target gains a single <a href=\"/mech-enhancement\">mech enhancement</a> of your choice. This trait can be applied multiple times.</p>\n<p><strong>Mechanical Downgrade:</strong> The target loses the benefit of a single mech enhancement of your choice. This trait can be applied multiple times.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892780,
+    "modifiedTime": 1663169294352,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

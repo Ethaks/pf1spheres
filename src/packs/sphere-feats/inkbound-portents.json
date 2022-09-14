@@ -3,7 +3,11 @@
   "name": "Inkbound Portents",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whether through acts of charlatanism or infusing your paints with latent magic, you&#8217;ve become skilled with using your paints to depict cryptic, almost prophetic imagery.</p>\n<p><strong>Prerequisites:</strong> Alchemy sphere (War Paint (formulae)).</p>\n<p><strong>Benefit:</strong> Instead of applying a prepared war paint to a creature, you may pour a prepared war paint over a blank piece of parchment, scroll, or other surface that can easily hold writing. You may then spend 10 minutes concentrating on a specific action or event in the near future, as the paint forms a short, cryptic phrase or abstract image. This acts as the Augury (divine) Divination talent, using your ranks in Craft (alchemy) as your caster level, except you always get a meaningful reply. You may use this ability a number of times per day equal to your casting or practitioner modifier, whichever is higher (minimum 1).</p>\n<p><strong>Special:</strong> If you possess another (divine) talent from the Divination sphere, you may benefit from that sphere effect instead of Augury.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897999,
+    "modifiedTime": 1663169295790,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

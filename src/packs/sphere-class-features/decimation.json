@@ -3,7 +3,11 @@
   "name": "Decimation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 7th level, the crimson dancer can concentrate her power, frenzy and might into a single overwhelming attack. She can expend her martial focus in order to make a special attack action with a melee weapon. If her target has less than half their maximum hit points remaining, this attack bypasses all damage reduction, hardness and energy resistance. If the creature struck by the attack is suffering from the crimson dancer&#8217;s bloodletting bleed, it deals an amount of bonus damage equal to 2d4 per point of bloodletting bleed damage the creature is suffering from, up to a maximum amount of dice equal to twice the crimson dancer&#8217;s level. The crimson dancer gains a bonus to her attack roll equal to her Charisma modifier if the target creature is currently exsanguinated. If a creature is slain from the attack, the crimson dancer regains her martial focus. If the creature survives the attack, the crimson dancer cannot attempt to decimate again for 1 minute. A decimation attack does not apply bloodletting.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900768,
+    "modifiedTime": 1663169296858,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

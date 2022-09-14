@@ -3,7 +3,11 @@
   "name": "Weird Defense",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Illusion sphere (Blur (glamer), Decoy (glamer)).</p>\n<p><strong>Benefit:</strong> As a swift action, you may grant yourself a miss chance equal to 10% + 5% per 2 caster levels (maximum 95%) until the start of your next turn or until an attack misses due to this feat. Effects that ignore concealment only reduce this miss chance by half (rounded down). This is a spell-like ability. For abilities that allow for re-rolls for attacks that miss due to concealment such as the Blind-Fight feat, instead calculate the miss chance as 10% + 5% per 3 caster levels and reroll on a miss as per normal for the ability.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897914,
+    "modifiedTime": 1663169295718,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

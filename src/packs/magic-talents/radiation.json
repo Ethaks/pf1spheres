@@ -3,7 +3,15 @@
   "name": "Radiation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Light sphere (Irradiance (light)), caster level 10th.</p>\n<p>When you spend a spell point to create bright light with the Irradiance talent, you may spend an additional spell point to create higher energy radiation. Creatures in the area who fail the Fortitude save against nausea also contract low radiation, as described in the Radiation Blast advanced Destruction talent. This cannot stack with itself to increase radiation to higher levels, but can stack with other sources of radiation.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894268,
+    "modifiedTime": 1663169294806,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

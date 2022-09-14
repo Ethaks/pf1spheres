@@ -3,7 +3,15 @@
   "name": "Charming Drunk",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "barroom"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As long as you have the drunk status when you make a Bluff or Diplomacy check, you gain a +1 competence bonus on it. This bonus increases by +1 for every 5 base attack bonus you have. You may also expend your drunk status as a free action to reroll a Bluff or Diplomacy check, but you must take the new result, even if it is worse. If you do so, you take a -5 on Bluff and Diplomacy checks for the next 10 minutes.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "barroom"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886446,
+    "modifiedTime": 1663169291827,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

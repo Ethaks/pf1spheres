@@ -3,7 +3,15 @@
   "name": "Close Quarters Training",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can move into the space of another creature. You may end your movement in, and make attacks from, that space. You must succeed at the Acrobatics check for moving through an occupied square to move into a space occupied by an enemy; if you fail, your movement stops in the previous space and you provoke an attack of opportunity. Attacks made against a creature sharing your space in this way take a -4 penalty unless they are made with light or natural weapons. If two creatures sharing a space in this way are of the same size, they grant each other soft cover from all attack made by creatures not sharing the space. If one creature is larger, the smaller creature gains concealment (20% miss chance) against attacks made by creatures not sharing the space. Should this concealment cause an attack to miss, resolve the attack against the larger creature.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885533,
+    "modifiedTime": 1663169291546,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Double Chug",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "barroom"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a move action, you can draw and drink two non-magical alcoholic drinks or one magical drink and one non-magical drink; doing so doubles the duration of the drunk status and grants you a +1 circumstance bonus on all saving throws while drunk. You must have two open hands in order to perform a double chug. At +10 base attack bonus, performing a double chug lets you expend your drunk status twice before actually losing it.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "barroom"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885430,
+    "modifiedTime": 1663169291480,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

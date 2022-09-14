@@ -3,7 +3,15 @@
   "name": "Extradimensional Torpor",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warp sphere (Extradimensional Storage (space)).</p>\n<p>You gain a permanent extradimensional space that can be used to store creatures in a state of a deep trance. This space may store up to 6 creatures at once, plus an additional 1 for every 4 caster levels.</p>\n<p>By spending a spell point you can place a creature carrying a light load or less into an extradimensional space which puts them into a sleep-like state (unwilling creatures gain a Will saving throw to prevent this).</p>\n<p>While in extradimensional torpor, the creature is helpless and unconscious (this ignores any immunity to sleep), but does not need to breathe. Time flows normally in the torpor meaning that continuous effects (such as poisons) don&#8217;t stop, and beings in torpor require sustenance as normal.</p>\n<p>As a free action, you may release a creature from torpor into an area within range of a space effect that's large enough to house it and would cause it no harm (any attempt to do otherwise fails automatically).</p>\n<p>Creatures willingly put into torpor can exit torpor at anytime to any location they desire within range (despite being unconscious, or being under any other modifications such as being under the effects of Stasis Storage).</p>\n<p>Unwilling creatures get an additional Will saving throw at the beginning of their turn to exit this torpor; if they succeed they can exit torpor similarly to willing creatures. If they fail their Will save for 3 turns in a row, they remain in torpor indefinitely until you release them. Creatures gain a +10 bonus to these Will saving throws if they have more than 50% of their hit points remaining, and receive a -5 penalty to these Will saving throws if they have 10% or less of their hit points remaining.</p>\n<p>Creatures stored in this extradimensional space are treated as if they were non-living objects stored in extradimensional storage for the purposes of effects that modify that space (such as the Stasis Storage dual sphere feat).</p>\n<p>If you select this talent a second time, there is no limit to the maximum amount of creatures you may store at once, and you may store creatures carrying a medium load or less.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894243,
+    "modifiedTime": 1663169294796,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

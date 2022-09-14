@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Barrage)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Always Ready (Ex):</strong> At 3rd level, the conscript gains a +2 bonus to his initiative rolls and the first damage roll he makes during combat. If his hands are open and he is aware of the enemy, he may draw a ranged weapon as part of making his initiative roll.</p>\n<p><strong>Startling Barrage (Ex):</strong> At 8th level, whenever a conscript successfully attacks an unaware creature with a ranged or thrown weapon, that creature remains flat-footed until the beginning of their next round.</p>\n<p><strong>Barrage Beast (Ex):</strong> At 20th level, whenever the conscript strikes a target at least twice during a barrage, he deals an additional +4d6 points of precision damage on each attack after the first; this stacks with precision damage from other sources, such as a rogue&#8217;s sneak attack.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900217,
+    "modifiedTime": 1663169296367,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

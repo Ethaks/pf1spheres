@@ -3,7 +3,15 @@
   "name": "Recondite Stimuli",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Mind sphere, caster level 1st.</p>\n<p>You can reach the minds of creatures thought, by some, to be untouchable by the mental arts. When you gain this talent, you may choose plants and oozes, or one creature type from the following list: constructs, vermin, or undead.</p>\n<p>Once selected, you may affect creatures of that creature type with your charms and other mind-affecting effects, bypassing any type-based immunity to mind-affecting effects these creatures may have, and treating mindless creatures as having an Intelligence score of 1 for the purposes of Mind sphere talents.</p>\n<p><strong>Special:</strong> This talent may be selected more than once. Each time, a different creature type must be selected.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mind"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893573,
+    "modifiedTime": 1663169294582,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Persistent Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> Whenever a creature targeted by a persistent talent or within its area succeeds at its saving throw against the talent, it must attempt another saving throw against the effect. If a creature fails this second saving throw, it suffers the full effects of the talent, as if it had failed its first saving throw. Talents that do not require a saving throw to resist or lessen the talent&#8217;s effect do not benefit from this feat.</p>\n<p><strong>Cost:</strong> +2 spell points</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898207,
+    "modifiedTime": 1663169295924,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

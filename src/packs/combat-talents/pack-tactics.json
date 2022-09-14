@@ -3,7 +3,15 @@
   "name": "Pack Tactics",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever one or more of your cohorts within close range (25 feet + 5 feet per 2 ranks in Diplomacy) of you flanks an enemy with you or another of your cohorts, you may increase the bonus from flanking by +2. This bonus increases by +1 for each cohort that threatens the enemy, to a maximum of +1 per 4 ranks in Diplomacy. <strong>Associated Feat:</strong> Outflank.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "leadership"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886390,
+    "modifiedTime": 1663169291782,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

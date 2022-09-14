@@ -3,7 +3,15 @@
   "name": "Melt Into Shadow",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Dark sphere (Animated Shadow (advanced, shadow), Flowing Darkness, Shadow Lurk (shadow)), caster level 10th.</p>\n<p>By spending 2 spell points as a standard action you may become an area of blot for one minute per caster level. You gain a climb speed equal to the land speed and may pass through small cracks and openings as if using the Flowing Darkness talent. You gain a bonus to your reach equal to the radius of your darkness.</p>\n<p>In blot form you can manipulate objects and use your items (which also take on blot form) as if using the Animated Shadow talent. In this form you lose AC bonuses from armor and natural armor, but gain DR/- equal to 1/2 your caster level. You cannot be tripped in blot form. Losing contact with a solid surface, either through your own actions or those of an ally or opponent, immediately ends Melt Into Shadow.</p>\n<p>You may imbue yourself with one (blot) talent at normal spell point cost. This talent affects all targets within the area of your reach. You may change your active (blot) talent as a standard action, though you must pay any spell point cost associated with the new talent. You may end Melt Into Shadow as a swift action, rematerializing in any unoccupied space within your reach.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892597,
+    "modifiedTime": 1663169294180,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

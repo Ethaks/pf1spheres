@@ -3,7 +3,15 @@
   "name": "Voidwatcher",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to grant a target a heightened awareness of things lurking in darkness for 1 hour per caster level. The target gains blindsense with a range of close, except only allowing the target to detect anything that casts a shadow. The target may also detect anything inside of or in contact with an area of your darkness as though it were within range of this blindsense. In addition, the target rolls twice and takes the highest roll on any Perception checks made to notice someone or something in an area of dim light or darkness.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892651,
+    "modifiedTime": 1663169294216,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

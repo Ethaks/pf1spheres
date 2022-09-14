@@ -3,7 +3,11 @@
   "name": "Rotten Hordes",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Blood sphere and 5th caster level; or Death sphere and 5th caster level; or Duelist sphere and base attack bonus +5; or Alchemy sphere and base attack bonus +5; Death sphere (Shroud), Virulent Ailment.</p>\n<p><strong>Benefit:</strong> You gain +1 spell point. Your diseases carry a trace of your necrotic magic. When you afflict a creature with a disease through the use of another plague feat, you may also mark that creature with necrotic energy as per the Shroud talent. Marked creatures suffering from your diseases do not count against the maximum amount of marks you may have at a time.</p>\n<p><strong>Four Necrosis Feats:</strong> When you reanimate a creature you marked through the use of this feat, the undead created is afflicted with a single disease made with your plague feats that it suffered from at the time of its death (if the creature suffered from multiple diseases, pick one). Whenever that undead strikes with a natural attack, the victim must succeed at a saving throw against the disease or suffer from it as normal. You may mark creatures afflicted with a disease this way, as per the Shroud talent.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897944,
+    "modifiedTime": 1663169295744,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

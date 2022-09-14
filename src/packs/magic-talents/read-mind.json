@@ -3,7 +3,15 @@
   "name": "Read Mind",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can pull information from a target&#8217;s mind.</p>\n<p><strong>Lesser Charm:</strong> You may detect a creature&#8217;s emotional state (Will negates if unwilling). Unlike other lesser charms, there is no limit to the number of times you may use this lesser charm on a target in a day.</p>\n<p><strong>Greater Charm:</strong> You may read the surface thoughts of a creature (Will negates if unwilling) for as long as you concentrate.</p>\n<p><strong>Powerful Charm:</strong> You may pull a specific piece of information out of a creature&#8217;s mind (Will negates). This is usually enough information to answer a single, specific question to the best of that creature&#8217;s knowledge, in no more than 25 words. A creature who successfully saves against this powerful charm may choose to provide no answer to your question or attempt to lie with their Bluff skill. If you use this powerful charm twice on the same creature to ask the same question, the same answer (correct, no answer or lie) is given again.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mind"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890794,
+    "modifiedTime": 1663169293577,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

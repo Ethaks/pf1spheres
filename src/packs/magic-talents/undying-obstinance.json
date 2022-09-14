@@ -3,7 +3,15 @@
   "name": "Undying Obstinance",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Fate sphere, Life sphere, caster level 15th.</p>\n<p>You may spend a spell point to create a consecration filled with positive energy that sustains the living beyond what their bodies can withstand. While this consecration is in effect, no living creature becomes disabled or dying within its area, nor do creatures die from loss of hit points. This does not protect creatures from these effects once this consecration ends or they leave the area, nor does it protect them from death from other causes. This counts as a Life talent for the purpose of talents, drawbacks, or other abilities that change who you can affect with Life talents or abilities.</p>\n<p>You must concentrate to maintain this consecration, but you may spend an additional spell point as a free action to allow this effect to continue for 1 round per two caster levels without concentration.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892734,
+    "modifiedTime": 1663169294315,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

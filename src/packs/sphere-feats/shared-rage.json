@@ -3,7 +3,11 @@
   "name": "Shared Rage",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Leadership sphere, (cohort) package, rage or bloodrage class feature.</p>\n<p>When you activate your rage, you may extend its benefits and penalties to one cohort within 30 feet as a swift action. The cohort spends rage rounds from your pool. The cohort may end its rage at will, suffering the normal penalties for doing so. The cohort need not remain within range to maintain this rage. You may share rage with more than one cohort; each requires a separate swift action and each spend one round from your rage rounds each round.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897502,
+    "modifiedTime": 1663169295464,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

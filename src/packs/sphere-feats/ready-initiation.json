@@ -3,7 +3,11 @@
   "name": "Ready Initiation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>When one of your allies primes a technique, you respond immediately.</p>\n<p><strong>Prerequisite:</strong> Knowledge of at least one technique.</p>\n<p><strong>Benefit:</strong> When multiple characters with this feat work together to initiate a multi-character technique, the technique is performed on the highest of the participants&#8217; initiative counts rather than the lowest. All participants have their actions for the turn moved up to the initiative count where the technique is performed.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897738,
+    "modifiedTime": 1663169295589,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Avert",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may bend space around yourself to avert attacks. When you bend space against an attack targeted at you, the originator of the attack must make a Will save or have their attack veer wide and miss. You must normally ready an action to make use of this ability since bending space requires a standard action, but you may spend a spell point to use it as an immediate action instead.</p>\n<p>When you take the total defense action, you may use this ability as an immediate action until the beginning of your next turn without paying a spell point.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892644,
+    "modifiedTime": 1663169294212,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Persistent Trap",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may increase the time required to set a trap to 1 minute to increase its duration to 10 minutes per point that your check exceed the placement DC. You may only place 1 trap at a time in this manner, +1 per 4 ranks in Craft (traps). If you take this talent a second time, you may increase the set time to 10 minutes to increase duration to 1 hour per point that your check exceed the placement DC.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "trap"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886428,
+    "modifiedTime": 1663169291817,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

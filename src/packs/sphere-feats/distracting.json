@@ -3,7 +3,11 @@
   "name": "Distracting",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Bluff 3 ranks.</p>\n<p><strong>Benefits:</strong> While using the distracting purr, you gain a +2 bonus on Bluff checks made to feint enemies within your purring aura. If an enemy within your purring aura would be denied their Dexterity bonus to their AC or you flank the enemy, you gain a +2 bonus on damage rolls against that enemy.</p>\n<p><strong>Powerful Purring:</strong> Allies within your purring aura also gain the benefits of your distracting purr against enemies.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897917,
+    "modifiedTime": 1663169295718,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

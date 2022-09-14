@@ -3,7 +3,15 @@
   "name": "Reanimated Warriors",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Choose a combat talent, combat feat, or teamwork feat you possess. Undead you reanimate and control gain the benefit of this talent or feat when they are within your dominion range. You cannot choose a feat that has another feat as a prerequisite nor feats that grant open-ended bonuses (such as Extra Combat Talent), but your undead do not otherwise need to meet the feat&#8217;s prerequisites.</p>\n<p>Whenever you rest and recover spell points, you may change the feat or talent chosen. You may take this talent multiple times; each time you do, you may grant an additional combat talent, combat feat, or teamwork feat to your undead. Feats granted by this talent can be used to meet the prerequisites of additional feats.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "death"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892713,
+    "modifiedTime": 1663169294298,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

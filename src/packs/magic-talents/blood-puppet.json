@@ -3,7 +3,15 @@
   "name": "Blood Puppet",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to use blood control to take control of the target&#8217;s body. For 1 round per caster level or until the blood control ends (whichever comes first), you can concentrate on the target, spending an action to force the target&#8217;s body to take the same type of action, acting on simultaneously.</p>\n<p>The puppetted creature&#8217;s body is under your control, but the creature&#8217;s mind is not. Creatures capable of taking purely mental actions can still do so. If you spend at least a standard action controlling the puppet, this counts as concentrating on the blood control. A creature under the effects of this ability cannot take physical action on its own; treat this as being dazed, though immunity to and bonuses on saving throws against the dazed condition does not apply. The target may be forced to take harmful actions. A target forced to hurt or kill itself deals its weapon damage + its Strength modifier to itself per round as a standard action. The target may still perform mental-only actions while under the effects of Blood Puppet (such as attempting to end the blood control). This ability does not grant access to the target&#8217;s memories, thoughts, casting, supernatural, or spelllike abilities, nor is your control fine enough to force the target to speak intelligibly.</p>\n<p>Effects such as the protection from evil spell or the Hallow word of the Fate sphere do not end this effect, since it is the result of a physical malady rather than a mind-affecting or possession effect.</p>\n<p>If you possess Mass Blood Magic, you may take control and command multiple puppets, but must divide a single round&#8217;s worth of actions between all puppets.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "blood"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892589,
+    "modifiedTime": 1663169294172,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

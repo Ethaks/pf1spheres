@@ -3,7 +3,15 @@
   "name": "Ooze Originator",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (Acidic Creation (material)), caster level 5th.</p>\n<p>You may create and animate an ooze creature. You must spend an additional spell point for every 4 Hit Dice of the desired ooze; you cannot create an ooze with more Hit Dice than your caster level or that is larger than you can create. The magic behind the ooze&#8217;s creation allows it to recognize you as its creator and obey basic commands such as &#8220;attack&#8221;, &#8220;defend&#8221;, or &#8220;move&#8221; and to follow them to the best of its ability, but it otherwise is a normal, mindless member of its kind and will act appropriately.</p>\n<p>This ooze may be any un-templated creature of the ooze type or a unique creation subject to GM discretion. You may not control more Hit Dice of ooze than your caster level; if you create more than this, the earliest-created oozes no longer recognize you as their creator until you are under this limit again. Oozes can be made permanent through the Create Materials advanced talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893236,
+    "modifiedTime": 1663169294570,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

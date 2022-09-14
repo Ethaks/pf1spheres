@@ -3,7 +3,11 @@
   "name": "Versed Student",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You have acquired many varied skills, enabling you to pick up more advanced tactics.</p>\n<p><strong>Prerequisite:</strong> Character level 5th.</p>\n<p><strong>Benefit:</strong> For the purpose of class features which are selected individually at advancing levels (such as alchemist discoveries, shifter bestial traits, striker arts, and witch hexes), you treat your character level as your class level for the purpose of determining which class features you can select (this includes advanced talents, grand hexes, and other such abilities which would normally only be selectable starting at higher levels). This feat does not grant any such abilities, but merely the ability to select them.</p>\n<p><strong>Special:</strong> You may select this feat multiple times. Each time, it applies to talents from a different class.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897930,
+    "modifiedTime": 1663169295735,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

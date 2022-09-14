@@ -3,7 +3,11 @@
   "name": "Virulent Ailment",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Blood sphere and 5th caster level; or Death sphere and 5th caster level; or Duelist sphere and base attack bonus +5; or Alchemy sphere and base attack bonus +5.</p>\n<p><strong>Benefit:</strong> You learn to create a terrible, contagious disease and learn to utilize it with your powers. As a standard action you may either spend a spell point or expend your martial focus to make a melee touch attack. If you hit, the target must succeed at a Fortitude save or suffer from the blight disease.</p>\n<p>You may also infuse your disease into your sphere effects or attack actions. When you target one or more creatures using a magic sphere effect, you may spend a spell point or increase the casting time by one step in order to force one of the targets to succeed at a Fortitude save or suffer from your blight disease.</p>\n<p>Alternatively, when making an attack action as a standard action, you may expend your martial focus as a move action to force the target of your attack action to attempt a Fortitude save as above. The effects of this feat resolve independently of, and after the results of, the sphere effect or attack action. This means that even if the sphere effect fails to affect the target, or the attack action misses, the target must still attempt a save against the disease.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897561,
+    "modifiedTime": 1663169295493,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

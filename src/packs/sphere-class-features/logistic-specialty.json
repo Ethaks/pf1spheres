@@ -3,7 +3,11 @@
   "name": "Logistic Specialty",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 7th level and every 6 levels thereafter, the commander learns a logistic specialty from the following list:</p>\n<hr>See also:<br><ul><li>@Compendium[pf1spheres.class-features.Xrkd48RqN8pobj0Q]{Call In A Specialist}</li><li>@Compendium[pf1spheres.class-features.PXIGHAR6ruRb5yPv]{Call In the Cavalry}</li><li>@Compendium[pf1spheres.class-features.ITlZdNjA70vf43ww]{Field Feeding}</li><li>@Compendium[pf1spheres.class-features.AjSTjQWIBZMmct4W]{Mercantile Connections}</li><li>@Compendium[pf1spheres.class-features.oTDdOY3jawOuBwil]{Overland March}</li><li>@Compendium[pf1spheres.class-features.hzBEIfzaguqUi9z2]{Secret Ways}</li></ul>",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900453,
+    "modifiedTime": 1663169296595,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

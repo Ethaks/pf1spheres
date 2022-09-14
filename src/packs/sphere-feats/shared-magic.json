@@ -3,7 +3,11 @@
   "name": "Shared Magic",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> When you use a sphere ability that has an ongoing effect, you may spend a free action to designate an ally within close range as the owner of the ability. That ally gains control of the ability at the beginning of their next turn. The new owner is considered the creator of the spell, and can do whatever the owner can with the spell, including concentrating to maintain it, dismissing it, moving it (if it can be moved), spending spell points on it, or any other effect that can take place after the ability has been created. The new owner must be a spherecaster with a caster level equal to a minimum of half the caster level of the sphere ability the are being given. They use their own concentration and magical skill bonus to maintain the spell, but the sphere ability still uses your caster level.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897684,
+    "modifiedTime": 1663169295555,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

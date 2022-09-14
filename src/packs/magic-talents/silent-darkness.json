@@ -3,7 +3,15 @@
   "name": "Silent Darkness",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to create an area of darkness that dims sound as well as light. Creatures within the area cannot speak or converse, and spells or magical sphere effects with verbal components suffer a 20% chance + 5% per caster level of spell failure. All Perception checks made to hear noises originating from within the area of your darkness suffer a penalty equal to your caster level. Creatures attempting to use sonic or language-based attacks, spells, or effects while within the area of this darkness or affecting creatures within the area of this darkness must attempt a magic skill check against this darkness as if the effect were a magical light effect; on a failure, the sonic or language-based effect fails.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893128,
+    "modifiedTime": 1663169294549,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

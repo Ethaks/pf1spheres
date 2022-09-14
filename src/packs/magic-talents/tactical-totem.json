@@ -3,7 +3,15 @@
   "name": "Tactical Totem",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/war.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "war"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you activate this totem, choose a teamwork feat you possess. Allies within the totem that qualify for that feat gain the benefits of that feat. In addition, all allies are considered to have that feat for the purpose of determining whether other allies benefit from that feat. For every 10 caster levels, choose an additional teamwork feat. When you create this totem, you may choose to spend a spell point. If you do, you may share any teamwork feats you qualify for, not just teamwork feats you possess.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "war"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891731,
+    "modifiedTime": 1663169293894,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

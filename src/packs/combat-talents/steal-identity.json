@@ -3,7 +3,15 @@
   "name": "Steal Identity",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Scoundrel sphere, Sleight of Hand 3 ranks.</p>\n<p>When performing a steal combat maneuver, rather than steal an item, you may expend your martial focus to harness an understanding of the creature&#8217;s appearance and behavior. You gain a +10 bonus on Disguise checks to disguise yourself as that creature for 1 hour. This bonus does not stack with the benefit to Disguise checks granted by polymorph effects. In addition, targets gain half the usual benefit to their Perception checks based on familiarity with the target. This is a supernatural effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887842,
+    "modifiedTime": 1663169292268,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

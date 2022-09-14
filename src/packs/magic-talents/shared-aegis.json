@@ -3,7 +3,15 @@
   "name": "Shared Aegis",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>In addition to providing an aura of protection, any aegis you create can be extended beyond the body of the creature bearing it. When a creature under the effects of an aegis you created has an allied creature within its natural reach, the ally also gains the benefit of the aegis. This requires active effort from the creature wearing the aegis, and they can not use their aegis to defend another creature if they would be denied their Dexterity bonus against the source of the effect they are protecting their ally from.</p>\n<p>While a creature is under the protection of your shared aegis this way, you may use (succor) talents that target them as if they were bearing the aegis. Only one creature may benefit from a succor this way.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891660,
+    "modifiedTime": 1663169293841,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

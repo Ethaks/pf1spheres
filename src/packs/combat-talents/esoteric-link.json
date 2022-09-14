@@ -3,7 +3,15 @@
   "name": "Esoteric Link",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/lancer.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "lancer"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Lancer sphere, base attack bonus +7.</p>\n<p>Whenever you control a weapon that is impaling a creature and either you or the impaled creature are targeted by a single-targeted magic sphere effect that requires a Fortitude or Will save, or any harmless effect, you can choose to redirect the effect to either yourself or the impaled creature as an immediate action (before any saving throw is made). The impaled creature must succeed at a Will saving throw to negate an effect being redirected this way. You may only redirect an effect using this talent if the impaled creature has at least half as much Hit Dice as your character level.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "lancer"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885552,
+    "modifiedTime": 1663169291558,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

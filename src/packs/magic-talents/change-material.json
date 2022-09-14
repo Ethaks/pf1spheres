@@ -3,7 +3,15 @@
   "name": "Change Material",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to alter an object, changing its composition from one material to another for 1 round per caster level. Both the material you are affecting and the material you are changing it into must be materials you can create (i.e., you must possess the Expanded Materials talent to work with objects other than vegetable matter) and the object cannot exceed your maximum creation size, although you may target part of an object (such as a section of wall). When the duration expires, the object returns to its normal material, although any damage sustained while altered remains after it returns to its original material.</p>\n<p><strong>Wiki Note:</strong> Change Material cannot change states of matter. The State Shift advanced talent is required to change solids into liquids, etc.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891959,
+    "modifiedTime": 1663169293928,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

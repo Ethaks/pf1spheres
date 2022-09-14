@@ -3,7 +3,11 @@
   "name": "Shift Effect",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Spell point pool or casting class feature.</p>\n<p><strong>Benefit:</strong> When you trigger a wild magic event (but not a major event), you may spend a spell point as an immediate action after the result is revealed to roll 1d20. On a result of 1-10, subtract the result from the result of your wild magic roll and take the new result, even if it is worse.</p>\n<p>On a result of 11-20, subtract ten from your roll, then add that number to your wild magic result, taking the new result even if it is worse. If you possess at least 6 wild magic feats, you may use this ability when triggering a major event (see Variant Rules).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898188,
+    "modifiedTime": 1663169295911,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

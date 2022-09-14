@@ -3,7 +3,15 @@
   "name": "Expert Reloading",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you reload a ranged weapon with which you are proficient, you may decrease the required time; hand and light crossbows become free actions, heavy crossbows and one-handed firearms become move actions, and two-handed firearms become standard actions. If you possess the Crossbow Mastery feat, you do not provoke attacks of opportunity when reloading any crossbow. <strong>Associated Feat:</strong> Rapid Reload.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887702,
+    "modifiedTime": 1663169292136,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

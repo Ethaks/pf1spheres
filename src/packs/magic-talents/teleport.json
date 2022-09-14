@@ -3,7 +3,15 @@
   "name": "Teleport",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can spend a standard action to teleport yourself and up to a heavy load to any place within close range. Alternatively, you may teleport a touched willing creature and their carried equipment instead of yourself. You may spend a spell point to increase your teleport range to medium instead of close. You must have line of sight to your destination.</p>\n<h3 id=\"toc1\"><span>Warp Talent Types</span></h3>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893604,
+    "modifiedTime": 1663169294612,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

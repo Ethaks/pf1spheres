@@ -3,7 +3,15 @@
   "name": "Icy Grip",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you use a ghost strike, instead of unleashing an attack yourself, you may have an undead you control within range deliver the attack as a melee touch attack sometime within the next round. This charge is &#8216;held&#8217; through the round; if the undead gets multiple attacks, it can attempt to deliver the touch attack additional times if the first attempt failed. If you spend an additional spell point, you may grant a use of this ghost strike to each undead you control, but multiple undead cannot affect the same target with the same ghost strike that round.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "death"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890412,
+    "modifiedTime": 1663169293258,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

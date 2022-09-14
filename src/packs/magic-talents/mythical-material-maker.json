@@ -3,7 +3,15 @@
   "name": "Mythical Material Maker",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (any (material) talent), caster level 15th.</p>\n<p>Add adamantine and any similarly incredibly rare material that is known to you, subject to GM discretion, to the list of materials you can create. Treat your caster level as 1/2 for determining both size and duration for effects involving adamantine and similar extremely rare materials. This can be done permanently with Costly Creation, though the penalty from both talents stacks when creating permanent incredibly rare materials.</p>\n<p><strong>Note:</strong> Metals and other materials similar to adamantine in rarity or power may not exist in all campaign settings. In these situations, the GM is encouraged to add any setting specific extremely rare materials not normally able to be affected by create/alter to the list of affected materials granted by this talent. The purpose of this talent is to allow access to even the rarest of materials, save for those that are divine in nature.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894379,
+    "modifiedTime": 1663169294932,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Assist",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/guardian.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "guardian"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When an ally within the area of your patrol makes an attack, is targeted by an attack, or attempts a saving throw, you may spend an attack of opportunity to move to put that ally within reach (with the normal limits for moving as part of your patrol) and use the aid another action to improve that ally&#8217;s attack roll, AC, or saving throw as appropriate to the triggering action. <strong>Associated Feat:</strong> Bodyguard.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "guardian"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886085,
+    "modifiedTime": 1663169291754,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

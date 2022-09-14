@@ -3,7 +3,11 @@
   "name": "Channeled Detonation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You can overcharge your connection with your undead using your channel energy ability.</p>\n<p><strong>Prerequisites:</strong> Death sphere, ability to channel negative energy, caster level 5th.</p>\n<p><strong>Benefit:</strong> You can spend a use of your channel energy ability as a standard action to detonate a mindless undead you control within 30 feet, destroying it, but causing your channel energy to burst outwards from its location; your channel deals (or heals, as appropriate) 1 additional point of damage per Hit Die of the undead sacrificed. You can activate this ability as an immediate action whenever a mindless undead you control within 30 feet is reduced to 0 hit points by spending a spell point (and a use of channel energy, as normal).</p>\n<p>If you possess the Master&#8217;s Presence (dominion) talent, you may use your dominion range when determining if an undead you control is within range for this feat.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897918,
+    "modifiedTime": 1663169295720,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

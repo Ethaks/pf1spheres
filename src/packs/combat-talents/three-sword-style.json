@@ -3,7 +3,15 @@
   "name": "Three-Sword Style",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dual_wielding.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dualWielding"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Dual Wielding sphere, base attack bonus +6.</p>\n<p>You gain the ability to wield a sword in your teeth, treating your mouth as an additional hand that can only be used to wield a one-handed or light weapon. While wielding a weapon in this manner, you suffer a 50% spell failure chance to cast any spell with a verbal component, or increase any existing spell failure chance for spells with verbal components by 50%. In addition, whenever you make a dual attack, you may make an additional off-hand attack with the weapon wielded in your mouth as an immediate action.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dualWielding"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885495,
+    "modifiedTime": 1663169291524,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

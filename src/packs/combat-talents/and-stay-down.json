@@ -3,7 +3,15 @@
   "name": "…And Stay Down!",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/duelist.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "duelist"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever a creature lands prone in a square you threaten, you may make an attack of opportunity against them, dealing 1 additional point of bleed damage (this stacks with other bleed damage granted by the base ability of the Duelist sphere); this attack of opportunity considers &#8220;whenever a creature lands prone&#8221; and &#8220;whenever you succeed on a trip combat maneuver&#8221; to be part of the same trigger, and you cannot take more than one attack of opportunity due to this circumstance. If successful, the target of this attack must make a successful Acrobatics check to stand up as their blood slicks the ground beneath them. If the target is suffering from your blooded strike&#8217;s bleed damage, they suffer a penalty to their Acrobatics check equal to the bleed damage. Targets immune to bleed damage do not need to make an Acrobatics check.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "duelist"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888245,
+    "modifiedTime": 1663169292832,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Illusion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/illusion.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "illusion"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a standard action, you may spend a spell point to create an illusion within close range. This illusion may be a figment or a glamer, and has a duration of concentration, to a maximum of 1 minute per caster level. By default, these illusions are visual only. You cannot move further away from the illusion than your illusion range while maintaining it through concentration, and the illusion is limited in size according to Table: Illusion Maximum Size.</p>\n<strong>Table: Illusion Maximum Size</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Caster Level</th>\n<th>Illusion Maximum Size</th>\n<th>Maximum Size in Cubes</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>Medium</td>\n<td>5-ft. cube</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>Large</td>\n<td>10-ft.cube</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>Huge</td>\n<td>15-ft. cube</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>Gargantuan</td>\n<td>20-ft. cube</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>Colossal</td>\n<td>30-ft. cube</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>Colossal+</td>\n<td>45-ft. cube</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>Colossal++</td>\n<td>70-ft. cube</td>\n</tr>\n<tr>\n<td>25th</td>\n<td>Colossal+++</td>\n<td>100-ft. cube</td>\n</tr>\n<tr>\n<td>30th</td>\n<td>Colossal++++</td>\n<td>150-ft. cube</td>\n</tr>\n<tr>\n<td>40th</td>\n<td>Colossal+++++</td>\n<td>225-ft. cube</td>\n</tr>\n<tr>\n<td>50th</td>\n<td>Colossal++++++</td>\n<td>340-ft. cube</td>\n</tr>\n<tr>\n<td>60th</td>\n<td>Colossal+++++++</td>\n<td>500-ft. cube</td>\n</tr>\n</table>\n<p><strong>Figments:</strong> You may create an illusion that is a figment of anything you may clearly imagine, which behaves according to your desires.</p>\n<p><strong>Glamers:</strong> You may create an illusion that is a glamer. The maximum size of creature you may apply this glamer to is determined by your illusion maximum size.</p>\n<p>When you gain this base sphere, you gain the following type of glamer:</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "illusion"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892307,
+    "modifiedTime": 1663169293987,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

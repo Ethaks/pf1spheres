@@ -3,7 +3,11 @@
   "name": "Advanced Tactician",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Commanders of at least 10th level may have two enhanced tactics active at a time, and may activate or switch both enhanced tactics using the largest same action, as long as it is the largest activation action from among the two (for example, the commander could activate two enhanced tactics that both require a move action as a move action, but an enhanced tactic that requires a standard action and an enhanced tactic that requires a move action would require a standard action to activate together).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900426,
+    "modifiedTime": 1663169296570,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

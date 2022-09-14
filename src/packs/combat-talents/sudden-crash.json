@@ -3,7 +3,15 @@
   "name": "Sudden Crash",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "barroom"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As part of making an attack, you may break a weapon. A creature damaged by this attack gains the battered condition until the end of your turn. If this attack was performed as an attack action, the damaged creature must also succeed at a Fortitude save or have all movement speeds they possessed reduced by half for 1 round plus 1 round per 5 base attack bonus (minimum 5 feet). A creature subject to an effect which removes the battered condition also removes this movement penalty.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "barroom"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885569,
+    "modifiedTime": 1663169291567,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

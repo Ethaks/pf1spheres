@@ -3,7 +3,15 @@
   "name": "Redirecting Shield",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/shield.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "shield"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever a weapon attack (not including siege weapons, or other massive weapons) misses a creature benefiting from your active defense, you may choose a new target for the attack within its original range (for ranged attacks) or reach (for melee attacks) as a free action that can be taken even when it&#8217;s not your turn, comparing the original attack roll, with a -2 penalty, to the new target&#8217;s AC and resolving the attack as normal on a successful hit.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "shield"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887671,
+    "modifiedTime": 1663169292101,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

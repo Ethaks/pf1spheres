@@ -3,7 +3,11 @@
   "name": "Unseen Terror",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The hunter stalks its prey. The prey knows, but can only run from the scraping, rattling, and growling noises which chase them.</p>\n<p><strong>Prerequisites:</strong> Intimidate 3 ranks, Stealth 3 ranks.</p>\n<p><strong>Benefit:</strong> You gain a +2 bonus on Intimidate and Stealth checks. Whenever your Stealth check to hide exceeds an opposing creature&#8217;s Perception check by 5 or more, you may attempt an Intimidate check as a swift action to demoralize one target creature within 30 feet who failed to notice you. The target does not need to be able to see you, but must be able to hear you. The target is not made aware of your location when you Intimidate them with this feat, and making an Intimidate check this way does not automatically reveal your location. If you are able to use the Intimidate skill to cause a target to become frightened or worse, and the target is unaware of your position, the frightened creature will attempt to flee to a location it feels is safe, treating the location it became frightened at as the source of its fear.</p>\n<p>If you possess the Dazzling Display feat or Gladiator sphere, whenever you could attempt an Intimidate check as a swift action from this feat, you may instead use the Dazzling Display feat or Gladiator sphere strike fear ability as a standard action to intimidate all creatures within range instead of a single creature, even if you could not normally use those abilities as a standard action.</p>\n<p><strong>Special:</strong> This feat counts as having the Skill Focus feat for either Intimidate or Stealth, chosen when you gain this feat, for the purposes of meeting prerequisites.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897996,
+    "modifiedTime": 1663169295787,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

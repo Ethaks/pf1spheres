@@ -3,7 +3,15 @@
   "name": "Temporal Snare",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Trap sphere, Craft (traps) 15 ranks.</p>\n<p>A creature that fails their save is forced into a state of suspended animation for a number of rounds equal to 1/2 your ranks in Craft (traps). For the target, time ceases to flow, and its condition becomes fixed. The creature does not grow older, its body functions virtually cease, and no force or effect can harm it. This trap is considered a spell-like ability, and the effects can be dispelled as normal, treating your ranks in Craft (traps) as your caster level.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "trap"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885902,
+    "modifiedTime": 1663169291730,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

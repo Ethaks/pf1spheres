@@ -3,7 +3,15 @@
   "name": "Shadow Slick",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your blot takes on a slick, nearly frictionless quality. Any creature attempting to move more than half their speed through the blot must attempt a Reflex save to avoid falling prone. If used as a (shadow) talent through Imbue Shadow, the target must also attempt a Reflex save to avoid dropping what is in its hands, and must spend a full-round action to retrieve stored or dropped items as they fumble with compromised grip, but gains a +10 bonus to CMD to avoid a grapple and on Escape Artist checks and CMB rolls made to escape a grapple.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890419,
+    "modifiedTime": 1663169293263,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

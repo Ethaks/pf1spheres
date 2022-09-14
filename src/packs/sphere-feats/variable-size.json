@@ -3,7 +3,11 @@
   "name": "Variable Size",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Conjuration sphere (Altered Size (form)).</p>\n<p><strong>Benefit:</strong> As a standard action, you may suppress your companion&#8217;s Altered Size talent and Greater Altered Size advanced talent. The talent remains suppressed until you end this effect as a free action. Your companion must be within close range to begin or end this effect.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897952,
+    "modifiedTime": 1663169295751,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

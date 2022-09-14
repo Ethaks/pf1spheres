@@ -3,7 +3,15 @@
   "name": "Arm Bears",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "bear"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Bear sphere, caster level 5.</p>\n<p>As a standard action you may touch a bear and spend 3 spell points, granting it the ability to handle weapons and shields with its front paws. The bear gains proficiency with all simple and martial weapons, as well as firearms. While this does not make the bear more intelligent, they do gain the necessary knowledge to fight efficiently with its new weapon skills.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "bear"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893100,
+    "modifiedTime": 1663169294529,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

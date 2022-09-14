@@ -3,7 +3,15 @@
   "name": "Threatening Momentum",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/war.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "war"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When an ally hits an enemy with a weapon attack with a natural roll of 16 or greater, they may spend a point of momentum to have the attack be considered a critical hit for the purpose of triggering critical feats. This does not make the hit an actual critical hit, and no confirmation roll is required. This can allow a critical feat to be triggered even if the target is immune to critical hits. The normal rules for critical feats apply. If the attack was already a threat, they may spend a point of momentum to confirm it instead. They must do this before rolling to confirm.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "war"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894675,
+    "modifiedTime": 1663169294989,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

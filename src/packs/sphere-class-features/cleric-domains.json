@@ -3,7 +3,11 @@
   "name": "Cleric Domains",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The incanter gains the powers and abilities associated with one cleric domain of his choice, using his incanter level as his cleric level. This stacks with levels from other classes that grant domains, but only if the domains chosen by both classes are the same. This does not grant domain spells. He uses his casting ability modifier in place of Wisdom when determining the power of his domains, and he may choose subdomains. He may take this specialization multiple times. Each time it is taken, he gains another domain.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900069,
+    "modifiedTime": 1663169296206,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

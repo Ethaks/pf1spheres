@@ -3,7 +3,11 @@
   "name": "Object Ride",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The wraith may spend a spell point to passively possess an object for up to 1 hour per level. Attended objects receive a Will save. The object can be no smaller than Tiny and no larger than Huge. At level 10, the minimum object size decreases to Diminutive and the maximum increases to Gargantuan. The wraith retains his normal senses while possessing an object.</p>\n<p>Additionally, the wraith may designate a single object within the normal limits as his refuge. Passively possessing the refuge does not require a spell point. Designating an object as a refuge requires a 1-hour ritual. Designating a new object causes any previous refuges to cease functioning as a refuge. The wraith may speak in his normal voice while in his refuge object.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900445,
+    "modifiedTime": 1663169296586,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

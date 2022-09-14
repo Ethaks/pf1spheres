@@ -3,7 +3,11 @@
   "name": "Arcane Combo",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Mixing up your spellcasting procedures makes them more potent.</p>\n<p><strong>Prerequisite:</strong> Caster level 1st or higher with at least two casting traditions.</p>\n<p><strong>Benefits:</strong> Whenever you create a magic effect using a specific casting tradition, you gain a +1 bonus to your caster level for any magic effect you create using a different casting tradition until the end of your next turn.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897548,
+    "modifiedTime": 1663169295484,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

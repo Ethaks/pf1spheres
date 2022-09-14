@@ -3,7 +3,11 @@
   "name": "Deadened Flesh",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your nerves fail, increasing your pain tolerance and general resilience.</p>\n<p><strong>Prerequisite:</strong> Death sphere.</p>\n<p><strong>Benefit:</strong> You gain +1 spell point. You can spend a spell point as an immediate action to gain a +1 bonus to natural armor and DR/- for 1 round. For each necrosis feat you possess beyond this one, the natural armor bonus and damage reduction increase by 1 and the duration increases by 1 round.</p>\n<p><strong>Four Necrosis Feats:</strong> You gain half the normal benefit of this feat at all times (increasing to the full benefit when you spend a spell point).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897712,
+    "modifiedTime": 1663169295575,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

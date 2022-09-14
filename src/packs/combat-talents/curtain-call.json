@@ -3,7 +3,15 @@
   "name": "Curtain Call",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/duelist.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "duelist"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Duelist sphere (Iai Slash (bleed)), base attack bonus +5.</p>\n<p>You may spend a move action and expend your martial focus to elaborately sheathe one held weapon without provoking attacks of opportunity and glare at nearby enemies. Each enemy within 30 feet of you currently suffering from bleed damage dealt by your blooded strike suddenly spasms and hemorrhages blood, suffering 1d6 bludgeoning, slashing and piercing damage, plus an additional 1d6 for every 3 points of base attack bonuses you possess. If you possess Perforating Wounds, the creature suffers an additional 2d6 damage for every stack of that talent applied to them. After suffering this damage, any bleed damage dealt due to your Duelist sphere abilities immediately end.</p>\n<p>If you possess Defiant Focus, you do not need to expend your martial focus to use this ability.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "duelist"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885650,
+    "modifiedTime": 1663169291592,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

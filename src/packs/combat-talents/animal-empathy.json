@@ -3,7 +3,15 @@
   "name": "Animal Empathy",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "beastmastery"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can improve the attitude of an animal. This ability functions just like a Diplomacy check made to improve the attitude of a person, using your Handle Animal skill in place of Diplomacy. If you possess the wild empathy class feature, you may add your Handle Animal ranks to your levels in the class that grants the class feature (with a maximum equal to your Hit Dice) to determine the result.</p>\n<p>The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.</p>\n<p>To use this ability, you and the animal must be able to study each other, which means that you must be within 30 ft. of one another under normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing people, it might take more or less time.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "beastmastery"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887501,
+    "modifiedTime": 1663169292068,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

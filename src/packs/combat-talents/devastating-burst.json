@@ -3,7 +3,15 @@
   "name": "Devastating Burst",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/barroom.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "barroom"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Barroom sphere (Barroom Expert), base attack bonus +10.</p>\n<p>As part of an attack action, you may expend your martial focus and break a weapon. Your attack is treated as a critical threat and you must roll to confirm the critical hit as normal. A critical hit made this way has a critical multiplier of x2, even if it would normally be higher. After using this talent, you cannot use this (smash) talent for 1 minute.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "barroom"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886685,
+    "modifiedTime": 1663169291852,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Pathology",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Blood sphere and 5th caster level; or Death sphere and 5th caster level; or Duelist sphere and base attack bonus +5; or Alchemy sphere and base attack bonus +5; Virulent Ailment.</p>\n<p><strong>Benefit:</strong> Your time spent analyzing mundane illnesses has allowed you to master them. You may choose two diseases from the following list: blinding sickness, bonechill, bubonic plague, cackle fever, cholera, filth fever, leprosy, mindfire, red ache, shakes, sleeping sickness, slimy doom.</p>\n<p>You may create these diseases and use them with your other plague feats. The onset period of any disease created this way becomes immediate, and the saving throw is changed as stated in the plague feat rules.</p>\n<p><strong>Special:</strong> This feat may be selected multiple times, selecting two more diseases each time.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898008,
+    "modifiedTime": 1663169295794,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

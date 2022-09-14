@@ -3,7 +3,11 @@
   "name": "Enhanced Customization",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 5th level, the armiger treats the enhancement bonus of her active weapon set as if it were 1 higher. This bonus increases by +1 every four levels thereafter, though it cannot cause the total enhancement of the weapon to exceed +5. This bonus applies even if the weapon is not masterwork or does not already have at least a +1 bonus.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900441,
+    "modifiedTime": 1663169296583,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

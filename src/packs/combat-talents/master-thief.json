@@ -3,7 +3,15 @@
   "name": "Master Thief",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Creatures no longer gain a +5 (or higher) bonus to their CMD when you attempt to steal secured items (such as cloaks, pouches, or sheathed weapons) and you may use a steal combat maneuver in place of a disarm combat maneuver (if you would receive a bonus to disarm checks, they apply to steal checks made with this talent). If you have at least 10 ranks in Sleight of Hand, you can attempt steal checks against closely worn items (except for armor) with a -10 penalty on your combat maneuver check.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886423,
+    "modifiedTime": 1663169291812,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

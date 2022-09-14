@@ -3,7 +3,15 @@
   "name": "Ground Team",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your followers can disperse into a settlement, talking, listening, and influencing. Your followers can perform the following actions:</p>\n<p><strong>Gather Crowd:</strong> Your followers can spend 1d4 hours gathering a crowd. Make a Diplomacy skill check; the number of intelligent creatures in the crowd is equal to 10 times the result of the check. This multiplier increases by 10 at 5 ranks of Diplomacy and again every 5 ranks after (so times 20 at 5 ranks, times 30 and 10 ranks, etc.).</p>\n<p><strong>Gather Information:</strong> Your followers spend 1d4 hours making a Gather Information check, using your modifiers. They may make an additional check simultaneously for every 5 ranks in Diplomacy you possess.</p>\n<p><strong>Influence Crowd:</strong> Your followers encourage a crowd to be swayed by your words. When you make a skill check to influence a crowd, you automatically gain a +2 bonus from your follower&#8217;s use of the aid another action. This bonus increases by +1 for every 8 ranks in Diplomacy that you possess.</p>\n<p><strong>Publicity:</strong> Your followers may spread good words about you, making a settlement more positively disposed toward you and your allies. The disposition of the average member of the settlement toward you increases by one step, to a maximum of friendly. This requires 1 day for a settlement of village size; double the time required for every size larger than village. For every 5 ranks in Diplomacy that you possess, the number of days required is reduced by 1, to a minimum of 1 day.</p>\n<p><strong>Whispers:</strong> If using the Rumors<sup>UI</sup> rules, you may have your followers participate in spreading a rumor, reducing the time required to start a rumor by 1 day, plus 1 day per 4 ranks in Diplomacy (to a minimum of 1 day). You automatically gain a +2 bonus from your follower&#8217;s use of the aid another action for all checks to start, spread, influence, or squash a rumor in a settlement where they are present.</p>\n<p>Additionally, if you possess the (cohort) package, your followers may aid in recruitment, reducing the time required to recruit a cohort to 1d4 hours, -1 hour for every 6 ranks of Diplomacy you possess (minimum 1 hour required).</p>\n<p>If using the Downtime rules from Ultimate Campaign, your followers reduce the influence cost of promoting your business or recruiting for an organization in a settlement that they are present in by 1, +1 per 4 ranks in Diplomacy.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "leadership"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887987,
+    "modifiedTime": 1663169292381,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

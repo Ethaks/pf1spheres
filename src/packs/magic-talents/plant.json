@@ -3,7 +3,15 @@
   "name": "Plant",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Entangle:</strong> Concentration, requires grass, weeds, vines, or underbrush. You cause plants to grow rapidly, wrapping themselves around everything in a 10-foot radius + 5 feet per 5 caster levels area centered within range. Creatures within this area must succeed at a Reflex save or gain the entangled condition and become unable to move. Creatures that succeed at their save can move as normal, but those that remain in the area must save again at the end of each turn you maintain the effect. Creatures that move into the area must save immediately.</p>\n<p>Those that fail end their movement and gain the entangled condition. Entangled creatures can break free as a move action, if they succeed at a Strength or Escape Artist check against a DC equal to the effect&#8217;s Reflex save DC. This area is also considered difficult terrain for the duration of the effect. If the area contained plants with thorns, all creatures suffer 1 point of piercing damage each round they are within this area.</p>\n<p><strong>Harvest:</strong> Instantaneous, requires fruit trees, berry bushes, or food crops. You may spend a spell point to cause plants to sprout food spontaneously. You may affect up to 1 plant per caster level within range. Each plant produces enough food to provide 3 Medium-sized creatures or 1 horse with food for a day.</p>\n<p><strong>Pummel:</strong> Concentration, requires a tree. You cause a tree branch to come alive and attack a foe you designate. The tree cannot move, but it makes one slam attack each round against the designated target until you spend a move action to designate another target or until the target dies or moves out of range. Slam attacks from the pummel deal damage as if it were a primary attack, may be enhanced as a natural weapon as if the tree branch were a creature, and are not subject to spell resistance. You cannot designate a target you cannot perceive.</p>\n<p>The branch has a Strength score equal to 10 + your caster level, and a to-hit modifier equal to your caster level + its Strength modifier + its size modifier. You may animate a Medium branch at 1st caster level, and your maximum size increases by 1 category per 5 caster levels. An entire tree can count as a branch, provided the tree is not larger than your maximum Pummel size.</p>\n<p>In place of animating a branch of Large-size or larger, you may animate a pair of branches that are two sizes or smaller on the same tree. You can only do this once per branch that you otherwise could animate with pummel. For example, at CL 20, when targeting a Colossal tree, they can choose to animate: 1 Colossal-sized branch, or 2 Huge-sized branches, or 2 Large-sized branches, or 2 Medium-sized branches, etc. Branches are still objects, and as such always fail saving throws, can gain the broken condition (suffering a -2 penalty to attack and damage rolls), and are destroyed when reduced to 0 hit points.</p>\n<p><strong>Note:</strong> There are very few worlds, even among fantasy, where trees exist that are Colossal+ or larger. However, a caster of particularly high caster level may still subdivide larger branches into smaller branches using Table: Number of Branches Per Size Category of Tree as a guide. For example, a Colossal++ tree would have 1d4 (avg 3) Colossal-sized branches, 3d4 (avg 8) Huge-sized branches, and 9d4 (avg 23) Large-sized branches. Regardless of your caster level, or the size of the tree, you cannot animate a branch that is larger than Colossal-sized.</p>\n<p><strong>Note:</strong> Primary natural attacks usually get a 1.5x Strength multiplier for their damage. See the rules on natural attacks in the CRB for more information on this.</p>\n<strong>Table: Branch Size</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Size</th>\n<th>Example</th>\n<th>Size Modifier</th>\n<th>Slam damage</th>\n<th>Reach</th>\n<th>Armor Class</th>\n<th>Hardness</th>\n<th>Hit Points</th>\n</tr>\n<tr>\n<td>Small</td>\n<td>Tertiary Branch or Sprout</td>\n<td>-1</td>\n<td>1d4</td>\n<td>5 ft.</td>\n<td>8</td>\n<td>5</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Medium</td>\n<td>Secondary Branch or Sapling</td>\n<td>0</td>\n<td>1d6</td>\n<td>5 ft.</td>\n<td>7</td>\n<td>5</td>\n<td>5</td>\n</tr>\n<tr>\n<td>Large</td>\n<td>Primary Branch or Young Tree</td>\n<td>+1</td>\n<td>1d8</td>\n<td>10 ft.</td>\n<td>6</td>\n<td>5</td>\n<td>15</td>\n</tr>\n<tr>\n<td>Huge</td>\n<td>Juvenile Tree</td>\n<td>+2</td>\n<td>2d6</td>\n<td>15 ft.</td>\n<td>5</td>\n<td>5</td>\n<td>50</td>\n</tr>\n<tr>\n<td>Gargantuan</td>\n<td>Typical Adult Tree</td>\n<td>+4</td>\n<td>3d6</td>\n<td>20 ft.</td>\n<td>4</td>\n<td>5</td>\n<td>150</td>\n</tr>\n<tr>\n<td>Colossal</td>\n<td>Massive Tree</td>\n<td>+8</td>\n<td>4d6</td>\n<td>30 ft.</td>\n<td>3</td>\n<td>5</td>\n<td>500</td>\n</tr>\n</table>\n<strong>Number of Branches Per Size Category of Tree</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Tree Size</th>\n<th>Number of Medium Branches</th>\n<th>Number of Large Branches</th>\n<th>Number of Huge Branches</th>\n</tr>\n<tr>\n<td>Huge</td>\n<td>1d4 (avg 3)</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Gargantuan</td>\n<td>3d4 (avg 8)</td>\n<td>1d4 (avg 3)</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Colossal</td>\n<td>9d4 (avg 23)</td>\n<td>3d4 (avg 8)</td>\n<td>1d4 (avg 3)</td>\n</tr>\n</table>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892647,
+    "modifiedTime": 1663169294213,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

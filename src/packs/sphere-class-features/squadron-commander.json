@@ -3,7 +3,11 @@
   "name": "Squadron Commander",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Starting at 1st level, and again at 10th and 18th level, the conscript gains 1 squadron feat for which he qualifies as a bonus feat. For the purpose of squadron feat abilities and effects, the conscript has a minimum War caster level equal to 1/2 his class level (minimum 1), using his practitioner modifier as his casting ability modifier. In place of spending a spell point when using squadron feat abilities and effects, he may expend his martial focus. After any rest of 8 hours or longer, the conscript may choose to retrain the squadron feats granted by this ability for any other squadron feat he qualifies for.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900107,
+    "modifiedTime": 1663169296250,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

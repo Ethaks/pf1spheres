@@ -3,7 +3,11 @@
   "name": "Insidious Magic",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your magic is subtle and difficult to detect.</p>\n<p><strong>Prerequisite:</strong> Incompatible Energies drawback.</p>\n<p><strong>Benefits:</strong> The divine ability of the Divination sphere has a 50% chance of not detecting any magic effects you create unless the Divination effect uses the same Alien Source that you do. Even if the effects are detected, their aura is one step weaker than it would normally be (meaning faint effects would have no aura).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898201,
+    "modifiedTime": 1663169295921,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Troop Subtype",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>The troop subtype represents an organized group of trained soldiers that act as a unit, rather than as individuals. A troop is something of an abstraction, in that the component creatures that make up the troop are mostly irrelevant; only the troop as a whole matters for the purposes of combat. A troop is similar to a swarm, but is normally composed of Small or Medium creatures. Large groups of Tiny or smaller creatures should use the normal swarm rules.</p>\n<p><strong>Traits:</strong> A troop is not subject to flanking, but it is subject to critical hits and sneak attacks if its component creatures are subject to such attacks. Reducing a troop to 0 hit points or fewer causes it to break up, effectively destroying the troop, though the damage taken until that point does not degrade its ability to attack or resist attack.</p>\n<p>All troops gain the following traits.</p>\n<p><strong>Troop Subtype:</strong> A troop is a collection of creatures that acts as a single creature, similar to a swarm, but typically as part of a military unit. A troop has the characteristics of its type, except as noted here. A troop has a single pool of Hit Dice and hit points, a single initiative modifier, a single speed, and a single armor class. A troop makes saving throws as a single creature. A single troop occupies a 20-foot-by-20-foot square, equal in size to a Gargantuan creature, though the actual size category of the troop is the same as that of the component creatures. The area occupied by a troop is completely shape-able, though the troop must remain in contiguous squares to accurately reflect the teamwork of trained military units. A troop has a reach equal to that of the component creatures based on size or armament. A troop can move through squares occupied by enemies and vice versa without impediment, although the troop provokes an attack of opportunity if it does so. A troop can move through any area large enough for its component creatures. The exact number of a troop&#8217;s component creatures varies, but in general, a troop of Small or Medium creatures consists of approximately 12 to 30 creatures. Larger creatures can form troops, but the area occupied by such a troop should increase proportionally according to the size of the component creatures.</p>\n<p>A troop is never staggered or reduced to a dying state by damage.</p>\n<p><strong>Immunity to being Tripped or Bull Rushed:</strong> A troop cannot be tripped, grappled, or bull rushed, except by area effects that include such effects. A troop can grapple an opponent.</p>\n<p><strong>Immunity to Single Target Spells:</strong> A troop is immune to any spell or effect that targets a specific number of creatures (including single-target spells such as disintegrate and multiple target spells such as haste), though it is affected by spells or effects that target an area or a nonspecific number of creatures (such as fireball or mass hold monster).</p>\n<p><strong>Vulnerable to Area Effect Spells:</strong> A troop takes half again as much damage (+50%) from spells or effects that affect an area. If a troop is rendered unconscious by means of nonlethal damage, it disperses and does not reform until its hit points exceed its nonlethal damage.</p>\n<p><strong>Troop Attack:</strong> Creatures with the troop subtype don&#8217;t make standard melee attacks. Instead, they deal automatic damage to any creature within reach or whose space they occupy at the end of their move, with no attack roll needed. A troop&#8217;s stat block has &#8220;troop&#8221; in its Melee entry with no attack bonus given. The amount of damage a troop deals is based on its Hit Dice. Unless stated otherwise, a troop&#8217;s attacks are non-magical. Damage reduction sufficient to reduce a troop attack&#8217;s damage to 0 or other special abilities can give a creature immunity (or at least resistance) to the troop&#8217;s attacks. Some troops also have other special attacks in addition to normal damage. Troops threaten all creatures within their reach or within their area, and attempt attacks of opportunity as normal with their troop attack.</p>\n<p><strong>Chaos of Combat:</strong> Because of the chaos of combat, spellcasting or concentrating on spells within the area of a troop or within its reach requires a caster level check (DC 20 + spell level). Using skills that involve patience and concentration requires a successful DC 20 Will save.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "leadership"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887723,
+    "modifiedTime": 1663169292156,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

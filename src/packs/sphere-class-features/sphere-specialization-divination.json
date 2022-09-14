@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Divination)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Forewarned (Su):</strong> At 3rd level, the incanter can always act in the surprise round even if he fails to attempt a Perception roll to notice a foe, but he is still considered flat-footed until he takes an action. In addition, he receives a bonus on initiative checks equal to 1/2 his incanter level (minimum +1).</p>\n<p><strong>Foretell (Su):</strong> At 8th level, the incanter can utter a prediction of the immediate future as a free action. For one round, he emits a 30-foot aura of fortune that aids his allies or hinders his enemies, as chosen by him at the time of prediction. If he chooses to aid, he and his allies gain a +2 luck bonus on ability checks, attack rolls, magic skill checks, saving throws, and skill checks. If he chooses to hinder, his enemies take a &#8211;2 penalty on those rolls instead. He can use this ability for a number of rounds per day equal to his incanter level. These rounds do not need to be consecutive.</p>\n<p><strong>Perfect Knowledge:</strong> At 20th level, anytime the incanter would roll for initiative or a Knowledge check, instead assume the roll would have resulted in a natural 20.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900447,
+    "modifiedTime": 1663169296588,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

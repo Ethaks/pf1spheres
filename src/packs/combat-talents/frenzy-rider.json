@@ -3,7 +3,15 @@
   "name": "Frenzy Rider",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "beastmastery"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can spur and encourage your mount to fight more ferociously. While mounted, as a free action at the start of each turn, you can choose to take a -1 penalty on all attack rolls and combat maneuver checks to grant your mount a +1 competence bonus on all attack rolls with natural weapons. This penalty and the bonus granted to your mount end at the start of your next turn. For every 4 ranks of Ride you possess, the penalty you take and the bonus granted to your mount increase by 1.</p>\n<p><strong>Associated Feat:</strong> Saddle Shrieker.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "beastmastery"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886408,
+    "modifiedTime": 1663169291797,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

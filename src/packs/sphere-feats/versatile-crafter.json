@@ -3,7 +3,11 @@
   "name": "Versatile Crafter",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Any item creation feat.</p>\n<p><strong>Benefit:</strong> When creating a magic item, you may create an item even if you lack the base sphere or do not have a high enough caster level or MSB. This increases the DC of the item creation check by +5 for each base sphere or individual caster level/point of MSB bypassed in this fashion.</p>\n<p><strong>Wiki Note:</strong> Versatile Crafter is on this page because it is about creating magic items. However, it is not a true item creation feat, and does not count as such for any purpose. This feat does not allow you to bypass talent prerequisites for creating compounds, spell completion items, or spell trigger items.</p>\n<div style=\"clear:both; height: 0px; font-size: 1px\"></div>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898223,
+    "modifiedTime": 1663169295931,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

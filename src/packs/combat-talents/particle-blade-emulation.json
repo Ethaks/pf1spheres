@@ -3,7 +3,15 @@
   "name": "Particle Blade Emulation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When unfolding any particle blade, you may treat it as though it was any other melee weapon of the same category (light, one-handed, or two-handed) that you are proficient with for the purpose of benefiting from feats, talents, or abilities. While treating the particle blade as another melee weapon, the particle blade also gains any special features that a weapon of its kind would normally gain. For example, if you were also proficient with the longspear, you could unfold a two-handed particle blade and treat it as if it were a longspear for the purposes of the Weapon Focus (longspear) feat, and grant the particle blade the brace and reach weapon specials. (See the <a href=\"/tech\">Tech</a> sphere for more information on particle weapons.)</p>\n<p><sup><strong>Author's Note:</strong> If emulating a two-handed melee weapon with the double special property, the damage of each of the weapon's ends are 3 sizes smaller than normal for the particle blade (1d6/1d6 Medium, 1d4/1d4 Small).</sup></p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888241,
+    "modifiedTime": 1663169292828,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

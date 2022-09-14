@@ -3,7 +3,15 @@
   "name": "Insinuate",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You are skilled at slipping your magic into the natural surroundings, subtly manipulating natural murk and shadows to fit your purpose. You may overlap an area of blot with the natural shadows in an area in such a way that it is indistinguishable without magically augmented senses. This ability functions in any lighting condition so long as there are shadows present, and does not change the prevailing lighting condition. This area of blot may be imbued with a Dark sphere talent as normal, though talents with obvious or harmful effects will immediately reveal the ruse. If the lighting in an area is such as to eliminate the casting of any shadows, then Insinuate cannot be used. Otherwise, a blot created using this talent covers its normal area of effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890412,
+    "modifiedTime": 1663169293258,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

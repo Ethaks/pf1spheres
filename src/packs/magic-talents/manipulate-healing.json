@@ -3,7 +3,15 @@
   "name": "Manipulate Healing",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Alteration sphere (Vitality), caster level 10th.</p>\n<p>You may spend an additional spell point to add the following trait options to your forms:</p>\n<p><strong>Block Healing:</strong> You may remove any fast healing or regeneration the target possesses. Additionally, any attempt to magically heal the target requires a magical skill check against your MSD.</p>\n<p><strong>Regenerate Flesh:</strong> In addition to the normal healing from the Fast Healing option of the Vitality talent, the target&#8217;s severed body members (fingers, toes, hands, feet, arms, legs, tails, or even heads of multi-headed creatures), broken bones, and ruined organs grow back. The physical regeneration is complete in 1 round if the severed members are present and touching the creature. It takes 2d10 rounds otherwise. This is an upgrade to, and does not stack with, the Fast Healing trait.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892169,
+    "modifiedTime": 1663169293967,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

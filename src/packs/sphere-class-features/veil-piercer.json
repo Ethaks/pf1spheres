@@ -3,7 +3,11 @@
   "name": "Veil Piercer",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The mageknight&#8217;s magic allows her to interact with other dimensions. She may choose to touch and interact with ethereal and incorporeal creatures and objects as if they were solid. She may choose to have her attacks and effects count as magical for the purpose of affecting incorporeal creatures. If she does, her damage is not halved against them, and effects that do not cause damage are not subject to the standard 50% chance of failure. In addition, she may inflict critical hits and precision damage on incorporeal creatures as if using a ghost touch weapon. This does not allow her to automatically perceive anything ethereal or invisible.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900558,
+    "modifiedTime": 1663169296672,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

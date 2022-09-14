@@ -3,7 +3,15 @@
   "name": "Steal Spells",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Scoundrel sphere, Sleight of Hand 9 ranks.</p>\n<p>When performing a steal combat maneuver, rather than steal an item, you may attempt to transfer an ongoing spell effect from that target to yourself for 1 round per rank in Sleight of Hand you possess. At the end of this duration, the effect ends on yourself and returns to the creature it was stolen from. Time spent stolen still counts against the effect&#8217;s duration, and if the effect&#8217;s duration expires while it is stolen, it ends as normal. At 10 ranks in Sleight of Hand, the duration increases to 1 minute per rank you possess.</p>\n<p>This functions with spell effects with a target of &#8216;self&#8217;, but does not otherwise function with spell effects that would consider you an invalid target (for example, if the effect only targets specific creature types). This is a supernatural effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886091,
+    "modifiedTime": 1663169291763,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

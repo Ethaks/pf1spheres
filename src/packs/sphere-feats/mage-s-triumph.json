@@ -3,7 +3,11 @@
   "name": "Mage’s Triumph",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Aristeia amplifies your magical abilities.</p>\n<p><strong>Prerequisite:</strong> Casting class feature.</p>\n<p><strong>Benefit:</strong> In any situation where you could use Aristeia, you gain a +1 bonus to your caster level. While you are in Aristeia, your Aristeia bonus also applies to your caster level (this stacks with the normal bonus from this feat) and you gain a number of temporary spell points equal to your Aristeia bonus while in Aristeia. These temporary spell points vanish when you leave Aristeia.</p>\n<p><strong>Special:</strong> This feat counts as Sphere Focus (any one) or Spell Focus (any one) for the purpose of meeting prerequisites.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898229,
+    "modifiedTime": 1663169295937,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

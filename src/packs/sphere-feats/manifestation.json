@@ -3,7 +3,11 @@
   "name": "Manifestation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Conjuration sphere (Shadow Creature (form)).</p>\n<p><strong>Benefit:</strong> Your companion may manifest itself as a move action. While manifested, your companion takes full damage from attacks and magic originating from corporeal creatures and deals full damage with its attacks and magic against corporeal creatures. This does not affect your companion&#8217;s ability to deal damage to and receive damage from incorporeal creatures. Your companion may end this effect as a move action.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897894,
+    "modifiedTime": 1663169295703,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

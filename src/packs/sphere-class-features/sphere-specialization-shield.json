@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Shield)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Shielded Adept (Ex):</strong> At 3rd level, a conscript may treat heavy and tower shields as light weapons, and decreases the armor check penalty of any shield he wields by 1. In addition, bucklers are treated as heavy shields when determining how much damage they deal.</p>\n<p><strong>Shield Striker (Ex):</strong> At 8th level, a conscript&#8217;s first use of active defense each round does not require him to expend an attack of opportunity, and he adds his shield bonus to his Reflex saves.</p>\n<p><strong>Shielded Defender (Ex):</strong> At 20th level, a conscript carrying a shield gains the benefits of heavy fortification, and the hardness of any shield he wields is increased by an amount equal to his practitioner modifier.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900094,
+    "modifiedTime": 1663169296241,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Heroic Senses",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>In your greatest moment, you are given increased clarity regarding your surroundings.</p>\n<p><strong>Benefit:</strong> You gain a +2 bonus on Perception checks which increases by an additional +2 for every 10 ranks you have in Perception (to a maximum of +6 at 20 ranks). When you enter Aristeia, you gain all-around vision and blindsense out to 60 feet while in Aristeia. This improves to blindsight if you enter Aristeia level 3 or higher. If you enter Aristeia level 4 or higher, you also gain the benefits of the True Seeing advanced Divination talent while in Aristeia.</p>\n<p><strong>Special:</strong> This feat counts as Skill Focus (Perception) for the purpose of meeting prerequisites.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898180,
+    "modifiedTime": 1663169295907,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

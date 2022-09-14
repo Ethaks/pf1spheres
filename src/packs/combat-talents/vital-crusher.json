@@ -3,7 +3,15 @@
   "name": "Vital Crusher",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/wrestling.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "wrestling"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Wrestling sphere (Limb Ripper (slam)), base attack bonus +15.</p>\n<p>When using the Limb Ripper talent, you can attempt to destroy the creature&#8217;s vitals instead of another limb. If the creature fails the initial Fortitude save, the creature is instantly reduced to -1 hit points and begins dying, in addition to suffering a -4 penalty to all saving throws and becoming exhausted for 24 hours.</p>\n<p>If you attempt to destroy the creature&#8217;s vitals a second time while the creature is suffering from these penalties, and the creature fails their Fortitude save, the creature&#8217;s vitals are destroyed, killing them. Some creatures, such as aberrations, oozes, and constructs do not usually possess vitals (and thus suffer no effects due to failing the saving throws against this effect), but most other creatures will die when their vitals are destroyed. This is a death effect.</p>\n<p>If the creature has a CR less than half your base attack bonus, the creature instead dies if they fail their first saving throw against this effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "wrestling"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887437,
+    "modifiedTime": 1663169292052,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

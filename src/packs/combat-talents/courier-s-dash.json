@@ -3,7 +3,15 @@
   "name": "Courier’s Dash",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warleader.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warleader"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>All allies that start their turn within the radius of this tactic gain a +5 ft enhancement bonus to their base land speed. An ally who begins or ends their turn outside of this tactic&#8217;s affected area loses its benefits until they once more start their turn within its radius. For every 5 ranks in Diplomacy you possess, this enhancement bonus is increased by an additional 5 ft.</p>\n<p><strong>Addendum [Conq. HB]:</strong> You may take this talent twice. If taken a second time, instead of granting an enhancement bonus to base land speed, you may allow allies benefiting from this tactic to move through 5 feet of difficult terrain as if it were normal terrain, increasing by 5 feet for every 10 ranks of Diplomacy you possess, and allows allies to take a 5-foot step into difficult terrain.</p>\n<p><strong>Associated Feat:</strong> Nimble Moves (if taken twice).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warleader"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886089,
+    "modifiedTime": 1663169291758,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

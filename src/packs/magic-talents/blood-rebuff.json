@@ -3,7 +3,15 @@
   "name": "Blood Rebuff",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As an immediate action, you briefly shield the target from harm using their own blood. The target suffers blood loss and gains a number of temporary hit points equal to the blood loss plus your casting ability modifier which lasts until the start of the target&#8217;s next turn. An unwilling creature may attempt a Fortitude saving throw to negate this effect. You may spend a spell point to increase the temporary hit points granted by an amount equal to your caster level and DR/&#8211; equal to the blood loss until the start of the target&#8217;s next turn.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "blood"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890788,
+    "modifiedTime": 1663169293574,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

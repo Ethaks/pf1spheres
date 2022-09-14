@@ -3,7 +3,15 @@
   "name": "Fey Companion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your companion has strong ties to the Faerie. The companion gains the fey creature type. The companion gains DR 2/ cold iron +1 per 5 Hit Dice, +1 saves vs. charms and sleep +1 per 5 Hit Dice.</p>\n<p>You may take this talent twice. If taken twice, your companion&#8217;s bonuses improve to DR 3/cold iron +1 per 3 Hit Dice, +1 saves vs. illusions and mind-affecting effects +1 per 3 Hit Dice.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892150,
+    "modifiedTime": 1663169293956,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

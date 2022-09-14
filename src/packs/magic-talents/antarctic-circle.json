@@ -3,7 +3,15 @@
   "name": "Antarctic Circle",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "bear"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Bear sphere, 5th caster level or higher.</p>\n<p>As a full-round action you may draw a 10-ft. diameter circle on the ground and spend a spell point. The area inside the circle becomes immune to bears; all targets therein gain a +2 to AC and saving throws made against attacks or effects created by bears, and bears cannot break the circle nor cross beyond its boundaries. When creating an antarctic circle, the creator can spend an additional spell point to increase the circle&#8217;s power, granting bonuses against and repelling all animals, rather than only bears. An antarctic circle lasts for up to 1 hour per caster level, but if broken (such as by someone scuffing the drawing), the effect ends early.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "bear"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891199,
+    "modifiedTime": 1663169293684,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

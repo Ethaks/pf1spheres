@@ -3,7 +3,11 @@
   "name": "Combat Form (Sage)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The sage gains the ability to manipulate his body and ki into a more powerful form. If the sage has the enhancer esoteric training package, whenever he uses its ability to grant himself a bonus to any of his physical ability scores, he also gains the Improved Unarmed Strike feat if he did not already possess it, deals unarmed strike damage as a monk of his class level, uses his class level in place of his base attack bonus when determining the saving throw DCs and effects of any combat talents he possesses, and gains DR/- equal to half his class level (this damage reduction stacks with damage reduction of the same type from different sources).</p>\n<p>If the sage has the infuser esoteric training package, he may spend a ki point as a swift action to grant himself a +1 deflection bonus to his armor class, +1 per 4 class levels he possesses, for 1 minute. As long as this ability is active, the DC for the saving throw to resist the sage&#8217;s infuser ability increases by +5 and the sage is treated as being 1 size category larger than he actually is when determining whether or not he can use a combat maneuver against a given creature and what, if any, bonuses it receives to its Reflex saving throw for being larger than the sage.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900140,
+    "modifiedTime": 1663169296289,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Field Feeding",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The commander can make a single DC 20 Survival check to move at full overland speed while foraging and supply enough food to feed himself and up to 10 Medium humanoids per class level for 1 day. If the commander is not traveling overland, he can instead scavenge the same amount of food with an hour&#8217;s time. For every 5 points by which the commander exceeds the DC for this check, each creature fed by this ability gains a +1 morale bonus to damage rolls and Fortitude saves (maximum +5) for the next 24 hours.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900403,
+    "modifiedTime": 1663169296542,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

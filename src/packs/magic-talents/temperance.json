@@ -3,7 +3,15 @@
   "name": "Temperance",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may grant a motif that protects against the whims of luck. When the target rolls a natural 1 on a saving throw or attack roll, they may reroll it. If the new roll is also a natural 1, this effect does not allow them to reroll again, though the motif &#8217;s discharge effect may allow them to.</p>\n<p>The target may discharge this effect to reroll a single saving throw they have just made but before the results of that roll are revealed. They must take the result of the reroll, even if it is worse than the original roll.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893097,
+    "modifiedTime": 1663169294526,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

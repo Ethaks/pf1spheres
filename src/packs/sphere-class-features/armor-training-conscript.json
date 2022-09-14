@@ -3,7 +3,11 @@
   "name": "Armor Training (Conscript)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Starting at 3rd level, the conscript learns to be more maneuverable while wearing armor. Whenever he is wearing armor, the conscript reduces the armor check penalty by 1 (to a minimum of 0) and increases the maximum Dexterity bonus allowed by his armor by 1. At 6th level and every four levels thereafter (10th, 14th, and 18th), these bonuses increase by +1 each time, to a maximum &#8211;5 reduction of the armor check penalty and a +5 increase of the maximum Dexterity bonus allowed.</p>\n<p>In addition, he can also move at his normal speed while wearing medium armor. At 8th level, he can move at his normal speed while wearing heavy armor.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900029,
+    "modifiedTime": 1663169296165,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

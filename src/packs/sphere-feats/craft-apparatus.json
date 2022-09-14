@@ -3,7 +3,11 @@
   "name": "Craft Apparatus",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Caster level 1st.</p>\n<p><strong>Benefits:</strong> This feat allows for the creation of talent-based magic items that require no activation except to hold, wear, or carry them.</p>\n<p>Creating an apparatus costs 2,000 gp x caster level x complexity. An item must have an effect measured in hours to be made into an apparatus. Thus, as an example, if making an apparatus of the War sphere totem talent-based item creation effect, which is measured in rounds, the effect would need to have its duration increased by 3 steps (+6 complexity) before it could be made into an apparatus.</p>\n<p><strong>Continual Life Sphere Effects:</strong> Creating an apparatus that grants what is normally an instantaneous effect, such as Life sphere effects, has a base complexity of 6. If crafting an apparatus that grants a continual cure, the effect becomes instead fast healing 1 (+1 per additional +1 in complexity). If an apparatus grants a continual restore, it instead grants immunity to one effect (+1 per additional +1 in complexity; a creature cannot gain immunity to effects that require a magic skill check to remove or are unaffected by the Life sphere). Temporary hit points cannot be made into a continual effect.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897580,
+    "modifiedTime": 1663169295503,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

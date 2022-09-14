@@ -3,7 +3,11 @@
   "name": "Banner",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>From 2nd level on, the conscript gains a banner that becomes a symbol of inspiration to his allies and companions. As long as the conscript&#8217;s banner is clearly visible, all allies within 60 ft. receive a +1 morale bonus on saving throws against fear and a +1 morale bonus on attack rolls made as part of a charge. At 6th level, and every four levels thereafter, these bonuses increase by +1. The banner must be at least Small or larger and must be carried or displayed by the conscript or a creature he is currently using as a mount.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900672,
+    "modifiedTime": 1663169296773,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

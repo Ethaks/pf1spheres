@@ -3,7 +3,11 @@
   "name": "Careful Packer",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The scholar knows that being prepared for any eventuality with a variety of useful tools is essential to success. Starting at 1st level, her talents for organization allow her to treat the storage space of any backpack, pouch, or similar container as though it were twice its normal size, and she uses her Intelligence score in place of her Strength score when determining her carrying capacity.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900129,
+    "modifiedTime": 1663169296284,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

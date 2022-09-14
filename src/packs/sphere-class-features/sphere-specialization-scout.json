@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Scout)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Analytical Gaze (Ex):</strong> At 3rd level, whenever a conscript uses his scout ability, he does not take a -5 penalty on the Perception check, and his successful use of the scout ability reveals any additional information which would be gained by making a successful Knowledge check. In addition, the conscript gains a +1 dodge bonus to his AC and Reflex saves against any attacks or abilities from a creature he has successfully scouted.</p>\n<p><strong>Stealth Surge (Ex):</strong> From 8th level on, creatures the conscript has successfully scouted take a penalty on all Perception checks against him equal to 1/2 the conscript&#8217;s base attack bonus. In addition, the first time the conscript attacks a scouted creature while it is unaware of his presence due to his use of Stealth or a similar ability, the conscript automatically treats the base damage dice for his weapon as though they had rolled the maximum amount.</p>\n<p><strong>Hidden Death (Ex):</strong> When the conscript reaches 20th level, the first time he attacks a scouted creature while it is unaware of his presence due to his use of Stealth or a similar ability, the creature must succeed on a Fortitude save (DC 10 + 1/2 the conscript&#8217;s base attack bonus + the ability modifier used for the triggering attack roll) or die. Regardless of whether or not the save is made, the target is immune to further uses of this ability for 24 hours.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900717,
+    "modifiedTime": 1663169296810,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

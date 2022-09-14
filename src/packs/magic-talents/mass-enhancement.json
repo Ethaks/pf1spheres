@@ -3,7 +3,15 @@
   "name": "Mass Enhancement",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When bestowing an enhancement, you may spend an additional spell point to enhance an additional 1 target per 2 caster levels (minimum 1) at the same time. Each target must be within range and must gain the same enhancement (thus, if using the Physical Enhancement talent to increase a target&#8217;s Strength, you could only target creatures, all of which would gain increased Strength). Once created, each enhancement is considered a separate sphere effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "enhancement"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891095,
+    "modifiedTime": 1663169293643,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

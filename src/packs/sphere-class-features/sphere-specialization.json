@@ -3,7 +3,11 @@
   "name": "Sphere Specialization",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The incanter specializes in a sphere of his choice. The incanter gains that sphere as a bonus sphere and gains a +1 bonus to his caster level with that sphere. In addition, he also gains a series of abilities associated with that sphere, as detailed below. Some specializations have optional sub-specializations which may be chosen when the sphere specialization is gained. Like archetypes, these sub-specializations trade out one or more of a sphere specialization&#8217;s benefits for new abilities.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900990,
+    "modifiedTime": 1663169297200,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

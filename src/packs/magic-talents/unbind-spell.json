@@ -3,7 +3,15 @@
   "name": "Unbind Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Mana sphere (Essentialize (manipulation)), caster level 10th.</p>\n<p>By spending an additional spell point, you may use Essentialize as an immediate action on a sphere effect as it is being cast with a -5 penalty to the attempt. If you possess the Counterspell Mastery feat, the penalty is reduced to 0. The targeted effect need not be harmless if you use Essentialize in this way, but this effect costs an additional spell point if the target is not harmless. You may treat instantaneous effects as if they had a duration of at least one minute for the purpose of how many temporary spell points are gained.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mana"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891733,
+    "modifiedTime": 1663169293896,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

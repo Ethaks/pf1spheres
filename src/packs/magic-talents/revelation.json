@@ -3,7 +3,15 @@
   "name": "Revelation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may place a glow on a source of written information, such as a book, to cause it to reveal any information deliberately recorded in it. Anyone who takes even a moment to examine the light (a free action) can read the entire body of work, regardless of length, damage to the text or language barriers - the observer does not even need to be able to read. Even erased text can be read.</p>\n<p>If information is recorded with a magical protection that prevents detection or understanding, the caster may attempt a magic skill check against the MSD of the caster to determine if the information can be detected or understood. Once absorbed, the information can be retained as reading any other book can, and for a period of 1 hour after reading, the information remains especially clear. During this time, any creature attempting a Knowledge check on a topic relevant to the written work receives a +2 circumstance bonus to the check, with +1 increase every 4 caster levels.</p>\n<p>This ability may be used on objects with no visible writing, in order to reveal hidden messages. The light can allow a person to read a magical scroll, but does not necessarily allow them to cast or copy it. Observing the light does not trigger magical effects that occur in response to an object being read.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894341,
+    "modifiedTime": 1663169294825,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

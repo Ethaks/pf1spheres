@@ -3,7 +3,11 @@
   "name": "Ki Weapon",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The sage gains the ability to channel the damage and other effects of chi gong through any melee weapon he is wielding rather than just unarmed or natural attacks. If the sage possesses the ki blaster esoteric training, he may apply the weapon&#8217;s enhancement bonus and any of its other special abilities (such as keen, flaming, or seeking) to the ki blast. When applying bonuses to a ki blast, the sage may only transfer special abilities which could be applied to a ranged attack which deals the same type of damage as the ki blast.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900050,
+    "modifiedTime": 1663169296192,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

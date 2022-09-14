@@ -3,7 +3,15 @@
   "name": "Martial Companion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>This archetype requires Spheres of Might. A martial companion may combine combat spheres and talents to create powerful martial techniques. Martial companions use the Proficient talent progression. When first summoned, they may choose either Charisma, Intelligence or Wisdom as their practitioner modifier. A martial companion does not gain the evasion, devotion, multiattack, and improved evasion special abilities. A martial companion may choose to give up the natural attacks granted by its base form to gain the Battle Creature (form) talent as a bonus talent.</p>\n<p><strong>Wiki Note:</strong> This does not inherently grant a martial tradition, although some companions may qualify to trade things for a martial tradition.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894089,
+    "modifiedTime": 1663169294651,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

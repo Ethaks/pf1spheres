@@ -3,7 +3,15 @@
   "name": "Haymaker",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/boxing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "boxing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you attack with a counter punch, you may aim for the target&#8217;s mouth or equivalent orifice impeding their ability to speak. If your attack is successful the target must succeed on a concentration check to cast any spell with a verbal or equivalent component, adding 1/4 your base attack bonus (minimum 1) to the DC of the check. This effect can be ended as a standard action by a Heal check with a DC equal to the concentration DC, or when the target receives at least 1 point of magical healing.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "boxing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886395,
+    "modifiedTime": 1663169291785,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

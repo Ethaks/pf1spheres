@@ -3,7 +3,15 @@
   "name": "Neutralizer",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Craft DC:</strong> 20</p>\n<p>You create a neutralizing paste that can be applied to yourself or a willing creature within your reach as a standard action.</p>\n<p>Neutralizers aid against one energy type of your choice (acid, cold, electricity, or fire), chosen at the time of creation, plus an additional damage type at 10 ranks in Craft (alchemy), and grants energy resistance 5 against the chosen damage type, plus 5 additional points of energy resistance per 5 ranks in Craft (alchemy) you possess. Neutralizers lose their effectiveness after suffering two attacks of the chosen energy type, or after 10 minutes, whichever comes first. A creature can only benefit from one neutralizer at a time, applying another neutralizer replaces the effects of the previous one.</p>\n<p>You can increase the Craft DC for this formulae in increments of 10; each time you do you may suffer one additional attack, and increase the duration of the neutralizer before it becomes ineffective by an additional 10 minutes.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alchemy"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887506,
+    "modifiedTime": 1663169292071,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

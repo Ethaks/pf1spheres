@@ -3,7 +3,15 @@
   "name": "Wraith",
   "type": "class",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": "mid"
+    }
+  },
+  "system": {
     "description": {
       "value": "Emulating powerful and perilous creatures such as ghosts and shadow demons, wraiths gain the power to fade into the ether. A diverse group, each wraith is attuned to certain types of creatures or states of mind. This attunement can be exploited to seize control, turning foes into puppets. Some gain their talents from exposure to possessing entities, others obtain their power as part of returning from death themselves, or via other, more esoteric, paths.\n<p><strong>Role:</strong> Eerie casters able to slip out of phase with reality and leap into susceptible minds, seizing control, making them perfect for infiltration and espionage.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> Bluff (Cha), Craft (Int), Disguise (Cha), Fly (Dex), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (history) (Int), Knowledge (nobility) (Int), Knowledge (religion) (Int), Linguistics (Int), Perception (Wis), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Stealth (Dex), Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier</p>\n",
       "chat": "",
@@ -26,8 +34,7 @@
           "name": "Weapon and Armor Proficiencies",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0,
-          "hiddenLinks": {}
+          "_index": 0
         },
         {
           "id": "pf1spheres.class-features.qjxhDJ6DHrQdMmxO",
@@ -35,8 +42,7 @@
           "name": "Casting (Wraith)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1,
-          "hiddenLinks": {}
+          "_index": 1
         },
         {
           "id": "pf1spheres.class-features.CCO6fnN9lnTRPeus",
@@ -44,8 +50,7 @@
           "name": "Spell Pool (Wraith)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2,
-          "hiddenLinks": {}
+          "_index": 2
         },
         {
           "id": "pf1spheres.class-features.qobC1BfGt3IZxVGJ",
@@ -53,8 +58,7 @@
           "name": "Magic Talents (Wraith)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 3,
-          "hiddenLinks": {}
+          "_index": 3
         },
         {
           "id": "pf1spheres.class-features.Rre7ofzGROCWag3d",
@@ -62,8 +66,7 @@
           "name": "Haunt Path",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 4,
-          "hiddenLinks": {}
+          "_index": 4
         },
         {
           "id": "pf1spheres.class-features.S5SxrTHPALZSASue",
@@ -71,8 +74,7 @@
           "name": "Wraith Form Mastery",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 5,
-          "hiddenLinks": {}
+          "_index": 5
         },
         {
           "id": "pf1spheres.class-features.jD36VABy9AbiyHrz",
@@ -80,8 +82,7 @@
           "name": "Possession",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 6,
-          "hiddenLinks": {}
+          "_index": 6
         },
         {
           "id": "pf1spheres.class-features.Fp75YxemiGRqXZBV",
@@ -89,8 +90,7 @@
           "name": "Wraith Haunts",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 7,
-          "hiddenLinks": {}
+          "_index": 7
         },
         {
           "id": "pf1spheres.class-features.nL5TIp4uVHHqOx5n",
@@ -98,8 +98,7 @@
           "name": "Greater Possession",
           "img": "icons/svg/item-bag.svg",
           "level": 10,
-          "_index": 8,
-          "hiddenLinks": {}
+          "_index": 8
         },
         {
           "id": "pf1spheres.class-features.S5SxrTHPALZSASue",
@@ -107,12 +106,11 @@
           "name": "Wraith Form Mastery",
           "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 9,
-          "hiddenLinks": {}
+          "_index": 9
         }
       ]
     },
-    "tag": "",
+    "tag": "wraith",
     "useCustomTag": false,
     "armorProf": {
       "value": [],
@@ -203,17 +201,18 @@
     "identifiedName": "Wraith",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "casterProgression": "mid"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168899465,
+    "modifiedTime": 1663169295996,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Eat Pain",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 14th level, when struck by an ability or attack that measures its damage in dice, the crimson dancer may maximize that damage to gain 2 points of vitae. This causes the damage to bypass any temporary hit points she may have, and the damage cannot be redirected or delayed. If the damage would be less than 1/4 of her maximum hit points, she increases it to that amount instead. This feature may be used to gain vitae multiple times each round.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900555,
+    "modifiedTime": 1663169296672,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

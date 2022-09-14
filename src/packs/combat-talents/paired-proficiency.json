@@ -3,7 +3,15 @@
   "name": "Paired Proficiency",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dual_wielding.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dualWielding"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Each combat feat, class feature, or combat talent which would apply to your main hand weapon also applies to your off-hand weapon, unless it would be an illegal choice (such as applying a talent to a melee attack that only may be used with ranged attacks or applying a feat that requires a specific type of weapon on a weapon that does not meet these prerequisites).</p>\n<p>At +10 base attack bonus, combat feats, class features, or combat talents which would apply to your off-hand weapon also applies to your main hand weapon, unless they would also be an illegal choice. The only exception to this is special attack actions, such as brutal strikes, barrages, and deadly shots, which are not applied to the off-hand weapon.</p>\n<p><strong>Author's Note:</strong> This talent is designed to make it viable to use different types of weapons when dual wielding, rather than two copies of the same weapon. It does not allow additional actions, allow you to vital strike with both weapons, etc.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dualWielding"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887967,
+    "modifiedTime": 1663169292363,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

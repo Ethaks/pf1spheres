@@ -3,7 +3,15 @@
   "name": "Launching Uppercut",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/boxing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "boxing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you successfully attack with your counter punch, you may expend your martial focus to attempt a bull rush against the creature as a free action even while it is not your turn without provoking an attack of opportunity. A successful bull rush forces the creature an additional 5 ft. further than normal, and you may choose to force the creature to move vertically rather than horizontally (this movement does not provoke attacks of opportunity). If you choose to force the creature vertically, that creature begins to descend on the end of their current turn (creatures that can fly may attempt to do so); upon landing, they must make a successful Reflex save or fall prone, taking falling damage as appropriate (on a successful Reflex save, they take 1/2 the total amount of falling damage and do not fall prone).</p>\n<p>You may use this talent on a willing ally other than yourself without expending your martial focus, dealing no damage to them and automatically hitting them. A willing ally treats their CMD as 10, adjusted for size. Willing allies can control their descent as though they could glide (until they reach the same elevation at which they started, falling as normal after that) and make an attack at any point during their descent; for every 10 ft. your ally descends before making this attack, they gain a +2 circumstance bonus to its damage roll. For every 4 points of base attack bonus you possess, you may launch a creature 10 ft. further into the air.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "boxing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885452,
+    "modifiedTime": 1663169291496,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

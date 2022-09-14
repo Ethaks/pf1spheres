@@ -3,7 +3,11 @@
   "name": "Curse of Chaos",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>As a swift action, you may spend a spell point to charge your next attack with disruptive energies. The next creature you deal damage to with a manufactured or natural weapon attack before the start of your next turn increases its wild magic chance by 100% for a number of rounds equal to your casting ability modifier. Affected creatures are unaware of this penalty.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900938,
+    "modifiedTime": 1663169297141,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

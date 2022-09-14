@@ -3,7 +3,15 @@
   "name": "Leopard’s Gambit",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>While in this stance, whenever a creature makes a melee attack against you, you may allow the creature to roll its attack twice, taking the better result. If you do, the creature provokes an attack of opportunity from you after the attack and damage is determined. You must make this attack of opportunity with an unarmed strike. If the creature attacking you is battered, you may resolve your attack of opportunity prior to their attack being resolved. This talent cannot be used in conjunction with the Bloody Counter talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888194,
+    "modifiedTime": 1663169292783,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

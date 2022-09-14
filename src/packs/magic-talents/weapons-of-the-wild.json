@@ -3,7 +3,15 @@
   "name": "Weapons Of The Wild",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fallenFey"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may activate the following abilities as fey-blessings:</p>\n<p><strong>Antlers of the Forest:</strong> You gain a gore attack (primary, 1d6 Medium, 1d4 Small). This gore attack does double damage on a charge as the powerful charge universal monster ability. At 7th caster level, this attack counts as chaotic for the purpose of overcoming damage reduction. At 14th caster level this attack gains the anarchic weapon special ability.</p>\n<p><strong>Gremlin&#8217;s Teeth:</strong> You gain a bite attack (primary, 1d8 Medium, 1d6 Small). At 7th caster level, this attack counts as evil for the purpose of overcoming damage reduction. At 14th caster level this attack gains the unholy weapon special ability.</p>\n<p><strong>Unicorn&#8217;s Blessing:</strong> You gain a gore attack (primary, 1d6 Medium, 1d4 Small). This gore attack does double damage on a charge as the powerful charge universal monster ability. At 7th caster level, this attack counts as good for the purpose of overcoming damage reduction. At 14th caster level this attack gains the holy weapon special ability.</p>\n<p>These are polymorph effects.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fallenFey"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893600,
+    "modifiedTime": 1663169294609,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

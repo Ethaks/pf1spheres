@@ -3,7 +3,11 @@
   "name": "Unbroken Sequence",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 4th level, when the prodigy&#8217;s sequence would be ended by the dazed, helpless, paralyzed, stunned, or unconscious conditions, she may expend martial focus to prevent the sequence from ending due to that condition for a number of rounds equal to her practitioner modifier.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900765,
+    "modifiedTime": 1663169296855,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

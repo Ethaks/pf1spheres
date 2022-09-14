@@ -3,7 +3,11 @@
   "name": "Distant Defiling",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You can draw magic beyond that which is around you.</p>\n<p><strong>Prerequisites:</strong> Terrain Casting drawback.</p>\n<p><strong>Benefits:</strong> Whenever you would blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may choose to center the blight effect on a space within close range of you rather than in your space.</p>\n<p><strong>Four Defiler Feats:</strong> You can create magic effects in blighted terrain so long as you blight an area within close range of you when casting. The area you blight cannot overlap with any already- blighted terrain.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897609,
+    "modifiedTime": 1663169295516,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

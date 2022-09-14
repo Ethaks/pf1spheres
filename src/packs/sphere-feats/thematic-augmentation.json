@@ -3,7 +3,11 @@
   "name": "Thematic Augmentation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Magical Signs drawback.</p>\n<p>By interweaving illusions with all of your spells and sphere effects you change their sensory manifestation.</p>\n<p>When you select this feat chose a theme such as weapons, cubes, demons, skulls, or slime. You may change the appearance but not any other effect of any spell or sphere ability you cast to manifest instead as the chosen theme.</p>\n<p>Magical Signs still breaks stealth, revealing you as the source of the magic, and your casting tradition. However, Magical Signs no longer automatically identifies altered spells, sphere abilities, or talents you use, but must be identifed gaining a +5 to the Spellcraft DC to identify them. Additionally, altered spells and sphere effects gain a +1 circumstance bonus against dispelling or counterspell attempts. Illusions you create within your theme gain a +1 competence bonus to their caster level.</p>\n<p>This feat can only alter spells or sphere effects that have an obvious auditory or visual manifestation.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898144,
+    "modifiedTime": 1663169295887,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

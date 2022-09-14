@@ -3,7 +3,15 @@
   "name": "Antimagic Aegis",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Enhancement sphere (Magic Sink (enhance)), Protection sphere (Spell Ward (aegis, ward)), caster level 1st.</p>\n<p>Whenever you use Magic Sink on a creature benefiting from your Spell Ward, or vice versa, you may spend an additional spell point. If you do so, any aegis or enhancement that that creature benefits from is not suppressed by any form of antimagic; the creature is otherwise affected normally by effects such as antimagic field or Spell Ward. This protection ends when either Magic Sink or Spell Ward end, whichever comes first.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "enhancement"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894692,
+    "modifiedTime": 1663169294998,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

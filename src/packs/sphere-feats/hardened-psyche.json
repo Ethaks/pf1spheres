@@ -3,7 +3,11 @@
   "name": "Hardened Psyche",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your experience with violence renders you resistant to mental stress.</p>\n<p><strong>Benefit:</strong> You may add your Constitution score to your sanity score and use your Constitution modifier to determine your sanity threshold. In addition, you may attempt a Fortitude save in place of Will save against a situation which would deal sanity damage.</p>\n<p><strong>Making Sanity More Manageable:</strong> The system of sanity and madness is somewhat notorious for its brutality, especially against martial characters. If a GM feels that the sanity mechanics are problematically punishing as they are written, they may grant characters the Hardened Psyche feat for free either to all characters or to non-spellcaster characters (the reasoning being that exposure to the unnatural makes your mind more vulnerable). Alternatively or perhaps in addition, all characters may be granted the Desensitized feat as a bonus feat, reflecting how trauma makes them less vulnerable to horrific events.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898197,
+    "modifiedTime": 1663169295918,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

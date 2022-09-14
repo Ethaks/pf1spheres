@@ -3,7 +3,11 @@
   "name": "Poison, Improved",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The shifter selects one natural attack augmented by the poison bestial trait. The effect of this poison improves to 1d2 Constitution and Strength damage, 2 saves. She may select this trait multiple times. The effects do not stack. Each time it is gained, select another natural attack augmented by the poison trait.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900455,
+    "modifiedTime": 1663169296597,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

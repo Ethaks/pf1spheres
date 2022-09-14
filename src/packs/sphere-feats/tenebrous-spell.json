@@ -3,7 +3,11 @@
   "name": "Tenebrous Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> When you cast a tenebrous talent in darkness or dim light, the spell&#8217;s effective caster level is increased by 2 and any associated save DCs are increased by 1. Any attempts at dispelling a tenebrous talent in darkness or dim light take a &#8211;2 penalty on the check. Casting a tenebrous talent in bright light is difficult, and requires a concentration check (DC 15 + the tenebrous talent&#8217;s effective caster level). Attempts to dispel a tenebrous talent in bright light gain a +4 bonus on the check. You cannot use this effect on talents with the light descriptor.</p>\n<p><strong>Cost:</strong> +1 spell point</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897905,
+    "modifiedTime": 1663169295712,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

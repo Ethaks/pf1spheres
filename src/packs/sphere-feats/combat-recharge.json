@@ -3,7 +3,11 @@
   "name": "Combat Recharge",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your expensive and painstaking miracles can be salvaged should the situation require.</p>\n<p><strong>Prerequisites:</strong> Charged Spells (drawback).</p>\n<p><strong>Benefit:</strong> Whenever you expend a charge as part of using a sphere effect, you may spend a number of spell points equal to 1 + the spell point cost of the charge. If you do, you regain the used charge at the start of your turn after 1d4 rounds.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898202,
+    "modifiedTime": 1663169295923,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

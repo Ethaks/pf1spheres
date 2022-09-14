@@ -3,7 +3,11 @@
   "name": "Arcane Grip",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Counterspell, Improved Grapple.</p>\n<p><strong>Benefit:</strong> When initiating a grapple, you may use the Counterspell feat as a free action. Resolve the counterspell attempt prior to applying the effects of freedom of movement, the Freedom word of the Fate sphere, and similar effects. Additionally, you are always entitled to attempt a Spellcraft check to identify such an effect on a creature within your reach as a free action.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897869,
+    "modifiedTime": 1663169295686,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

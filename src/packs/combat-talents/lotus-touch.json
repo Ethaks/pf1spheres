@@ -3,7 +3,15 @@
   "name": "Lotus Touch",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a standard action, you can make a melee touch attack against a creature, dealing damage equal to your Strength modifier (or whichever attribute was used to make the check). The next successful attack action, attack of opportunity, or additional attack granted by a class feature or talent an ally makes against that creature before the start of your next turn has its base critical threat range doubled; this does not stack with other abilities which would increase critical threat range, such as Improved Critical. A critical hit scored while a creature is affected by this ability has its critical multiplier reduced to x2 if it would normally be higher. For every 5 base attack bonus you possess, Lotus Touch applies to one more eligible attack made before the start of your next turn. <strong>Associated Feat:</strong> Butterfly&#8217;s Sting.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888226,
+    "modifiedTime": 1663169292811,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

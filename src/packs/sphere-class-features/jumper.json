@@ -3,7 +3,11 @@
   "name": "Jumper",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The shifter adds her shifter level as a bonus on all Acrobatics checks made to jump. When attempting a jump, she is always considered to have a running start. The shifter may attempt an Acrobatics check to jump as part of her charge. If her vertical height exceeds the height of her target, the target is flat-footed against the attacks granted by that charge and the critical threat range of her natural attacks is increased by 1. This increase stacks with and is applied after effects such as keen and Improved Critical.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900802,
+    "modifiedTime": 1663169296894,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

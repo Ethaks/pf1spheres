@@ -3,7 +3,11 @@
   "name": "Giantslayer",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your martial training and natural heartiness are the only tools you need to tackle even the mightiest foes.</p>\n<p><strong>Prerequisites:</strong> Con 13, base attack bonus +5.</p>\n<p><strong>Benefit:</strong> When performing or resisting a combat maneuver against a foe who is at least 1 size category larger than yourself, you gain a bonus to your CMB and CMD equal to +1 per size category larger than yourself the opponent is (for example, a Small character would gain a +4 bonus to resist or perform combat maneuvers against a Gargantuan opponent). In addition, you can use combat maneuvers against targets 1 size larger than would normally be allowed (e.g., although normally a creature cannot drag a target more than 1 size category larger than itself, a character with this feat could drag targets up to two size categories larger than itself).</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897743,
+    "modifiedTime": 1663169295590,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

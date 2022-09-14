@@ -3,7 +3,11 @@
   "name": "Method Acting",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Every non-base persona a troubadour possesses its own unique abilities, based upon what trope that persona falls into, and as the troubadour steps into those roles, he acquires those abilities. Each persona may possess only one trope. If the troubadour gains a skill rank, feat, or talent as part of his base persona that was also granted to him by a persona, he may immediately replace that skill rank, feat, or talent on the non-base persona.</p>\n<p>Each trope grants a trope benefit at 1st level, as well as access to a list of persona quirks. Each persona gains one persona quirk of the troubadour&#8217;s choice at 3rd level and every 2 levels thereafter from those granted by its trope or tropes. Unless specified otherwise, a persona quirk cannot be granted to the same persona more than once.</p>\n<p>Tropes are listed at the end of this page.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900218,
+    "modifiedTime": 1663169296367,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

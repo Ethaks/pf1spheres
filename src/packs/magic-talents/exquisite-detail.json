@@ -3,7 +3,15 @@
   "name": "Exquisite Detail",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Items you create are more intricate, and much harder to identify as fakes. The DC 15 limitation on how high skill checks can reach is removed, allowing you to attempt skill checks of any difficulty. When making skill checks to create especially expensive and difficult objects you may use your casting ability modifier in place of your Intelligence for the Craft check, and the DC becomes 10 + 1 per 5 gp in its cost to a maximum of 50 gp, or DC 20 + 1 per 200 gp in its cost if its cost is above 50 gp.</p>\n<p>Additionally, you may add your caster level to the Appraise DC required to detect objects you create as magical fakes. Those attempting to detect magic on your created objects must attempt a magic skill check to detect any lingering creation auras.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890419,
+    "modifiedTime": 1663169293262,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

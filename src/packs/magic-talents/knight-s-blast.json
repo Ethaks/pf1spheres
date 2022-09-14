@@ -3,7 +3,15 @@
   "name": "Knight’s Blast",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to create a destructive blast which sharply turns. You may create up to a close-range line emanating from yourself but excluding yourself which travels half the total distance again at the end of its length at a 90 degree angle. Creatures in the effect are allowed a Reflex saving throw for half damage.</p>\n<p>For example, you may fire a knight&#8217;s blast which travels 40 feet forward, then turns 90 degrees and travels 20 feet left, right, up, or down.</p>\n<p><strong>Special:</strong> If you possess the Energy Leap talent, when you use the Energy Leap blast shape, at the end of your movement, you may spend an additional spell point to move half the total distance traveled again at a 90 degree angle.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "destruction"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894636,
+    "modifiedTime": 1663169294959,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

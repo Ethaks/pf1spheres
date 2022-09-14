@@ -3,7 +3,11 @@
   "name": "Martial Tactics",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The mageknight may spend a spell point as a swift action to gain the benefits of one teamwork feat. She must meet all the feat&#8217;s prerequisites. All of her allies are treated as if they possessed the same teamwork feat for the purpose of determining whether she receives a bonus from the teamwork feat acquired. Her allies do not receive any bonuses from these feats unless they actually possess the feats themselves.</p>\n<p>Her allies&#8217; positioning and actions must still meet the prerequisites listed in the teamwork feat for her to receive the listed bonus. She keeps the feat for a number of minutes equal to her casting ability modifier, or until she spends another spell point to acquire another feat.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900501,
+    "modifiedTime": 1663169296629,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

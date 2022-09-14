@@ -3,7 +3,15 @@
   "name": "Energy Aura",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "destruction"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a move action, you may spend a spell point to surround yourself with an aura of elemental energies for a number of rounds equal to your casting ability modifier; any creature that ends its turn within 5 feet + 5 feet per 10 caster levels of you is affected by your destructive blast, though the damage is reduced to its minimum (so a 4d6 blast would deal 4 damage, or 12 with Crafted Blast). A Reflex save negates this damage. You may only have one aura active at a time; casting it again ends the previous instance.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "destruction"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892761,
+    "modifiedTime": 1663169294339,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Eliciter",
   "type": "class",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": "mid"
+    }
+  },
+  "system": {
     "description": {
       "value": "Eliciters are masters of emotion, using their control of others’ minds to accomplish their goals.\n<p><strong>Role:</strong> Eliciters are masters of mind magic, making them powerful negotiators and boons to their allies</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The eliciter&#8217;s class skills are Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Disguise (Cha), Handle Animal (Cha), Intimidate (Cha), Knowledge (local) (Int), Knowledge (nobility) (Int), Linguistics (Int), Perform (Cha), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Stealth (Dex), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n",
       "chat": "",
@@ -26,8 +34,7 @@
           "name": "Weapon and Armor Proficiency (Eliciter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0,
-          "hiddenLinks": {}
+          "_index": 0
         },
         {
           "id": "pf1spheres.class-features.UVpjCVGksXAYx5Ya",
@@ -35,8 +42,7 @@
           "name": "Casting (Eliciter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1,
-          "hiddenLinks": {}
+          "_index": 1
         },
         {
           "id": "pf1spheres.class-features.XuO8s4vYTjeA9o7c",
@@ -44,8 +50,7 @@
           "name": "Spell Pool (Eliciter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2,
-          "hiddenLinks": {}
+          "_index": 2
         },
         {
           "id": "pf1spheres.class-features.DNIZECin0qsNWCJU",
@@ -53,8 +58,7 @@
           "name": "Magic Talents (Eliciter)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 3,
-          "hiddenLinks": {}
+          "_index": 3
         },
         {
           "id": "pf1spheres.class-features.7ijdJ7jyEczlVGkA",
@@ -62,8 +66,7 @@
           "name": "Enchanter",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 4,
-          "hiddenLinks": {}
+          "_index": 4
         },
         {
           "id": "pf1spheres.class-features.OCN8LO2KYScQxpdC",
@@ -71,8 +74,7 @@
           "name": "Persuasive",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 5,
-          "hiddenLinks": {}
+          "_index": 5
         },
         {
           "id": "pf1spheres.class-features.ULO2a6VMiK1OLhh3",
@@ -80,8 +82,7 @@
           "name": "Hypnotism",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 6,
-          "hiddenLinks": {}
+          "_index": 6
         },
         {
           "id": "pf1spheres.class-features.YIQiUWYfVX2JVQMs",
@@ -89,8 +90,7 @@
           "name": "Emotions",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 7,
-          "hiddenLinks": {}
+          "_index": 7
         },
         {
           "id": "pf1spheres.class-features.bYErbcT57BRdwApn",
@@ -98,8 +98,7 @@
           "name": "Defensive Empathy",
           "img": "icons/svg/item-bag.svg",
           "level": 3,
-          "_index": 8,
-          "hiddenLinks": {}
+          "_index": 8
         },
         {
           "id": "pf1spheres.class-features.gxrYlTliHO53CmDa",
@@ -107,8 +106,7 @@
           "name": "Convincing",
           "img": "icons/svg/item-bag.svg",
           "level": 9,
-          "_index": 9,
-          "hiddenLinks": {}
+          "_index": 9
         },
         {
           "id": "pf1spheres.class-features.bzQGbVM27K0Q3UQg",
@@ -116,8 +114,7 @@
           "name": "Link",
           "img": "icons/svg/item-bag.svg",
           "level": 15,
-          "_index": 10,
-          "hiddenLinks": {}
+          "_index": 10
         },
         {
           "id": "pf1spheres.class-features.zFbVRVN7YLR1TN7g",
@@ -125,12 +122,11 @@
           "name": "Domination",
           "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 11,
-          "hiddenLinks": {}
+          "_index": 11
         }
       ]
     },
-    "tag": "",
+    "tag": "eliciter",
     "useCustomTag": false,
     "armorProf": {
       "value": [],
@@ -221,17 +217,18 @@
     "identifiedName": "Eliciter",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "casterProgression": "mid"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168899449,
+    "modifiedTime": 1663169295980,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

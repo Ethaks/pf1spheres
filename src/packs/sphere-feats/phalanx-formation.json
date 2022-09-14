@@ -3,7 +3,11 @@
   "name": "Phalanx Formation",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> War sphere, Squadron Commander; or Warleader sphere, Troop Commander.</p>\n<p><strong>Benefit:</strong> While a member of your squadron is adjacent to another member of your squadron, they receive a +2 circumstance bonus to AC and melee attack rolls. This bonus increases by +1 for every additional member adjacent after the first.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898225,
+    "modifiedTime": 1663169295934,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

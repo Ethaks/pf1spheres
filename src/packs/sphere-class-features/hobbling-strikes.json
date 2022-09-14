@@ -3,7 +3,11 @@
   "name": "Hobbling Strikes",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever the blacksmith successfully deals damage to a creature&#8217;s armor with the sunder combat maneuver or a similar ability while using the attack action, the creature&#8217;s base speed is lowered by 5 ft. + 5 ft. per 5 class levels the blacksmith possesses; this ability cannot lower a target&#8217;s speed below 5 ft. Restoring at least 1 hit point to the damaged armor removes this effect.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900510,
+    "modifiedTime": 1663169296633,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

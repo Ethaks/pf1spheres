@@ -3,7 +3,11 @@
   "name": "Warming",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefits:</strong> While using the warming purr, you and allies within your purring aura gain 5 cold resistance. In addition, each creature benefiting from the warming purr deals an additional +1d6 fire damage on their first successful attack made each round. This attack must be one made with a manufactured weapon, natural attack, or unarmed strike.</p>\n<p><strong>Powerful Purring:</strong> The cold resistance granted by the warming purring increases to 15 and the additional fire damage increases to +2d6.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897928,
+    "modifiedTime": 1663169295732,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

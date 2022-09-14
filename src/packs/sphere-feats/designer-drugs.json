@@ -3,7 +3,11 @@
   "name": "Designer Drugs",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You can fine tune your alchemical poisons to your own biology to get the most bang for your buck.</p>\n<p><strong>Prerequisites:</strong> Craft (alchemy) 7 ranks, Alchemy sphere (Pill Popper).</p>\n<p><strong>Benefit:</strong> Whenever you are subject to one of your Alchemy sphere poisons that has a benefit and a drawback (such as Performance Enhancer or Academic Enhancer), you can increase both the benefits and penalties by 2.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897637,
+    "modifiedTime": 1663169295531,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

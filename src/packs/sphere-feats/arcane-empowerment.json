@@ -3,7 +3,11 @@
   "name": "Arcane Empowerment",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Spell pool; the ability to cast arcane, divine, or psychic spells.</p>\n<p><strong>Benefit:</strong> When casting a spell, you may spend 1 spell point as a free action to either increase the caster level by 2 or increase the spell&#8217;s DC by 2. You cannot spend more than 1 spell point in this manner. This does not stack with an arcanist&#8217;s ability to increase a spell&#8217;s caster level or DC through the expenditure of points from their arcane reservoir.</p>\n<p><strong>Author's Note:</strong> This feat interacts with traditional spells and does not work with magic sphere effects.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897745,
+    "modifiedTime": 1663169295591,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

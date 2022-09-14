@@ -3,7 +3,11 @@
   "name": "Burn My Body",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You fuel your magic with your body with purpose, refining it more than ever before.</p>\n<p><strong>Prerequisites:</strong> Addictive Casting drawback or Decrepit Casting drawback, magic skill bonus 5 .</p>\n<p><strong>Benefit:</strong> When you create a sphere effect, you can choose to fail your saving throw from the drawback used to qualify for this feat in order to fuel the power behind the sphere effect.</p>\n<p>The sphere effect manifests with a +1 competence bonus to its caster level, and costs 1 less spell point (minimum 0). Sphere effects reduced to 0 spell points still count as if they cost at least 1 spell point when determining the effects of your drawbacks.</p>\n<p>You can utilize this feat three times per day, plus an additional use at 8th level and every 3 levels thereafter.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897615,
+    "modifiedTime": 1663169295519,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

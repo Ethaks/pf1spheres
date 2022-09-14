@@ -3,7 +3,11 @@
   "name": "Wraith Haunts",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 3rd level and every odd level thereafter, the wraith gains one haunt from the following list. Each haunt may only be selected once unless otherwise noted. If a haunt calls for a saving throw, the DC is 10 + 1/2 his wraith level + his casting ability modifier. All wraith haunts are considered supernatural abilities unless noted.</p>\n<hr>See also:<br><ul><li>@Compendium[pf1spheres.class-features.I8BZi9toilFRjbAJ]{Amnesiac Possession}</li><li>@Compendium[pf1spheres.class-features.BA76AZcilLUgG6Yq]{Benevolent Passenger}</li><li>@Compendium[pf1spheres.class-features.VsxokXA18QafrgKu]{Consume Host}</li><li>@Compendium[pf1spheres.class-features.bEM3mpp4o8BNfbFI]{Deep Phase}</li><li>@Compendium[pf1spheres.class-features.Mnsa9Br4u2FjSucj]{Disorienting Possession}</li><li>@Compendium[pf1spheres.class-features.HKbtRHTOBa77yLZq]{Dominate Ooze}</li><li>@Compendium[pf1spheres.class-features.GFcKHOyihQUUL3vL]{Expanded Path Possession}</li><li>@Compendium[pf1spheres.class-features.ALUxbbD6rZLeSAE4]{Expanded Path Possession, Improved}</li><li>@Compendium[pf1spheres.class-features.zSNbPBnwuvWNCG8e]{Extra Incorporeality}</li><li>@Compendium[pf1spheres.class-features.rYWFx35jh62aUCW8]{Forced Wraith Form}</li><li>@Compendium[pf1spheres.class-features.jZmQYLdm7xahoAgJ]{Ghostly Fade}</li><li>@Compendium[pf1spheres.class-features.NCY84v2DJYyqTIob]{Ghost Glide}</li><li>@Compendium[pf1spheres.class-features.43LU2kUYM2exNJkm]{Ghost Glide, Improved}</li><li>@Compendium[pf1spheres.class-features.FZTQbMUsyAXHSCSR]{Ghost in the Machine}</li><li>@Compendium[pf1spheres.class-features.ZJMdOoRKKEsP2RUu]{Ghostly Talent}</li><li>@Compendium[pf1spheres.class-features.PugzRyY5QWlkghFM]{Hidden Rider}</li><li>@Compendium[pf1spheres.class-features.HvIj3dKV5Wn5UcBX]{Hidden Possessor}</li><li>@Compendium[pf1spheres.class-features.enhr62jf5zsTrXM6]{Into Thin Air}</li><li>@Compendium[pf1spheres.class-features.EdUZnSkg2dqxEHh2]{Lengthened Control}</li><li>@Compendium[pf1spheres.class-features.HAoCyBx86h0vN6op]{Lingering Incorporeality}</li><li>@Compendium[pf1spheres.class-features.v6nEuGw3HuNH8MxT]{Moan}</li><li>@Compendium[pf1spheres.class-features.MHuS3qfalOOOnmau]{Object Ride}</li><li>@Compendium[pf1spheres.class-features.1Z7WidAsUFRXyjlF]{Possess Armaments}</li><li>@Compendium[pf1spheres.class-features.LC8z3IhMz3gSJAxd]{Ranged Possession}</li><li>@Compendium[pf1spheres.class-features.C8e0wwpanso06jxC]{Reactive Possession}</li><li>@Compendium[pf1spheres.class-features.sobqj25RUQ1tI3Xt]{Share Wraith Form}</li><li>@Compendium[pf1spheres.class-features.SEyMV4fpWSkhR58H]{Steal Thoughts}</li><li>@Compendium[pf1spheres.class-features.5LNS5d0LKxnvf6hy]{Wraith’s Blade}</li></ul>",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900366,
+    "modifiedTime": 1663169296488,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Shoulder Throw",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/wrestling.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "wrestling"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you succeed on a trip attempt against a grappled creature, you may throw your target, causing them to land prone in an unoccupied square within 10 ft. This immediately ends your grapple. You must have clear line of sight and effect to the target square. Enemies thrown more than 10 ft. take 1d6 bludgeoning damage per additional 5 ft. they are thrown, in addition to any damage they may take as a result of falling (such as if this ability is used against an aerial creature via the Aerial Trip feat). For every 5 points of base attack bonus you possess, you can cause the opponent to land 5 ft. further away from you with this talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "wrestling"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886677,
+    "modifiedTime": 1663169291845,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

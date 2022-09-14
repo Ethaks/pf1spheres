@@ -3,7 +3,15 @@
   "name": "Blood Tracking",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You are always aware of creatures under the effects of your blood control or an effect causing bleed damage, or at or below half hit points within blood control range and may pinpoint such a creature&#8217;s square as a free action. Creatures that would be immune to your blood control cannot be detected by this ability.</p>\n<p>This talent may be taken a second time; doing so grants you the benefits of blindsight, though this ability is still limited to the listed creatures.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "blood"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890816,
+    "modifiedTime": 1663169293594,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

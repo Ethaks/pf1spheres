@@ -3,7 +3,15 @@
   "name": "Cover Ally",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/shield.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "shield"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As long as you have martial focus, you may use active defense to benefit an ally when an ally within your shield&#8217;s reach is targeted by an attack.</p>\n<p><sup><strong>Note:</strong> This only provides the benefits of active defense, not the benefit of the base shield. (<a href=\"https://paizo.com/threads/rzs42esx?SoM-Cover-ally#4\">Source</a>)</sup></p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "shield"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887993,
+    "modifiedTime": 1663169292575,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

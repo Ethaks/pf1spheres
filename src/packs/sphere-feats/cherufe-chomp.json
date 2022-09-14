@@ -3,7 +3,11 @@
   "name": "Cherufe Chomp",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The strength of your jaws is uncanny and once you sink your teeth in you can hold on like a steel vice.</p>\n<p><strong>Prerequisites:</strong> Cherufe (zavr subtype), base attack bonus +9.</p>\n<p><strong>Benefit:</strong> You may make a free grapple combat maneuver check that does not provoke attacks of opportunity when you hit with your bite attack.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897736,
+    "modifiedTime": 1663169295589,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Plant Mastery",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your mastery of plantlife becomes even more pronounced. Increase the maximum radius of your Entangle by an additional 5 feet per 5 caster levels.</p>\n<p>When using Pummel, you may spend an additional spell point. If you do, you may affect an additional number of branches equal to 1 + 1 per 5 caster levels.</p>\n<p>When using Harvest, you may produce 2 magical berries per caster level, along with the usual food. Any creature who consumes one of these berries is healed 1 hit point. These berries lose their magical potency after 24 hours.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894650,
+    "modifiedTime": 1663169294969,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

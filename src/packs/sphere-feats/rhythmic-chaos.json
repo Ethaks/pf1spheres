@@ -3,7 +3,11 @@
   "name": "Rhythmic Chaos",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Mana sphere.</p>\n<p><strong>Benefit:</strong> Whenever you use an (expunge) talent on a creature that can use spells or sphere effects, you can spend an additional spell point to destabilize their magic, causing them to have a 20% chance to trigger a wild magic event every time they use magic. The target gets a Will save against your Mana sphere DC to resist this effect, and it lasts for a number of rounds equal to your casting ability modifier. The chance to trigger a wild magic event increases by 10% per additional wild magic feat you possess, to a maximum chance of 60%.</p>\n<p>For information regarding wild magic events and the wild magic system, see <a href=\"/wild-magic\">Wild Magic</a> by Drop Dead Studios.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897980,
+    "modifiedTime": 1663169295773,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

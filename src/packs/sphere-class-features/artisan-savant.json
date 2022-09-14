@@ -3,7 +3,11 @@
   "name": "Artisan Savant",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Starting at 3rd level, the blacksmith becomes proficient in creating powerful magic equipment, treating his class level as his caster level for crafting feats and abilities and using the appropriate Craft skill (weapons, armor, bows, etc.) for the check to complete the item. In addition, the blacksmith gains Craft Wondrous Item as a bonus feat at 3rd level, and Craft Magic Arms and Armor at 5th level.</p>\n<p><strong>Note:</strong> If using Spheres of Power, you may exchange these feats for Craft Marvelous Items and Smith Magical Weapons And Armor, respectively.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900032,
+    "modifiedTime": 1663169296169,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

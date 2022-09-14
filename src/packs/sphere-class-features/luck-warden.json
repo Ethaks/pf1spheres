@@ -3,7 +3,11 @@
   "name": "Luck (Warden)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>A warden of luck usually finds their allies stumbling into fortunate situations around them, subtly weaving chance and fate around them to benefit themselves and their allies. These wardens typically take great chances for great rewards, and usually meddle with fate just enough to ensure their allies&#8217; survival.</p>\n<p><strong>Vigil Sphere:</strong> Fate</p>\n<p><strong>Lucky Guard:</strong> A lucky warden&#8217;s guard makes individuals feel lucky and fortunate. At 3rd level, the warden&#8217;s guarded allies gain a bonus to a saving throw of his choice equal to his guard bonus - 1 (minimum 1). This choice is made when starting the guard.</p>\n<p><strong>Consecrated Patrol:</strong> At 7th level, the warden may spend a spell point when using his patrol ability to apply the effects of one (consecration) talent to the area of his patrol. He must pay the costs associated with the (consecration) talent used, and lasts until the end of his next turn. If the warden would reactivate his patrol before the end of his next turn, he can keep extending the duration of the consecration by one additional round without spending a spell point. The warden may only apply the effects of one (consecration) talent to his patrol this way.</p>\n<p><strong>Absorb Doom:</strong> At 11th level, whenever an ally within the warden&#8217;s guard range would roll a natural 1, 2, or 3 on any d20 roll, as an immediate action or by expending an attack of opportunity, the warden may allow the ally to instead reroll the attempt. The next time the warden would make a d20 roll, he must treat the result as being the natural result the ally first rolled.</p>\n<p><strong>Author's Note:</strong> This can occur more than once per round, if a warden has the actions for it. If so, the effects of this ability require the warden to use each absorbed roll on his subsequent d20 rolls in the order they were absorbed.</p>\n<p><strong>Fortuitous Presence:</strong> At 15th level, the warden may spend a spell point when using his patrol ability to provide all allies within his area of patrol a +2 luck bonus to all saving throws. This bonus increases by 1 at 18th level. If the warden would reactivate his patrol before the end of his next turn, he can keep extending the duration of the ability by one additional round without spending a spell point.</p>\n<p><strong>Weave Fate:</strong> At 19th level, whenever a guarded ally would suffer damage as a result of an attack, the warden may spend a spell point and expend an attack of opportunity to attempt to rewrite the weave of fate. Roll a d%. On a result of a 50 or higher, the ally suffers half as much damage. If the result is a 75 or higher, the ally suffers no damage. The warden may spend additional spell points to alter fate more intensely; for each additional spell point spent, reduce the required result by 10.</p>\n<h3 id=\"toc60\"><span><span style=\"color: #00c000\">Vigil Reinforcements</span></span></h3>\n<h4 id=\"toc61\"><span>Fortune Favours the Bold (requires luck, warden 6)</span></h4>\n<p>Whenever an ally within the warden&#8217;s threatened area would attempt a saving throw that has a partial effect on a successful save, as an immediate action, the warden can allow the ally to roll the saving throw twice and take the lowest result. If the result is a success, the ally suffers no effect from the effect.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900152,
+    "modifiedTime": 1663169296304,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

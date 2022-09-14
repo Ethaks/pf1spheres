@@ -3,7 +3,15 @@
   "name": "Reveal Alignment",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to create a consecration that reveals the alignment of all creatures inside it. While this consecration is in effect, the alignment of all creatures within the area is plain to any who observe them. How this manifests is unique to each observer&#8212;some might see a good creature with a halo and an evil creature with horns, while others might hear musical themes and chords evoking an alignment&#8212;but however it does the interpretation is unambiguous in the observer&#8217;s mind.</p>\n<p>An observer must still be able to sense a creature in order to discern its alignment. You must concentrate to maintain this consecration, but you may spend a spell point as a free action to allow this effect to continue for 1 round per caster level without concentration.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890489,
+    "modifiedTime": 1663169293323,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

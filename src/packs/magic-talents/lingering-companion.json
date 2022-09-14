@@ -3,7 +3,15 @@
   "name": "Lingering Companion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you spend a spell point to allow this companion to remain for 1 minute per caster level without concentration, you may spend an additional spell point to allow it to remain for 1 hour per level instead. If you also possess the Greater Summoning talent, your companion instead remains for 1 day or until you rest to regain spell points, whichever comes first. Once you have spent a spell point to summon such a creature for a full day, you may dismiss and re-summon this companion at will without having to spend any additional spell points that day.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893578,
+    "modifiedTime": 1663169294588,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

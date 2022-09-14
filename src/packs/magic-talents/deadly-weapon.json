@@ -3,7 +3,15 @@
   "name": "Deadly Weapon",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may enhance a weapon, granting it the keen special ability if it does not already possess it and a +1 bonus to critical hit confirmation rolls for every 3 caster levels possessed (minimum 0).</p>\n<p>Alternatively, you may instead alter the physical properties of a weapon, enabling it to bypass damage reduction of one the following types: bludgeoning, cold iron, piercing, silver, or slashing.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "enhancement"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894265,
+    "modifiedTime": 1663169294805,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

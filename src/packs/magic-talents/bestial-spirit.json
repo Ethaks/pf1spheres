@@ -3,7 +3,15 @@
   "name": "Bestial Spirit",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may add the following traits to your forms:</p>\n<p><strong>Ferocity:</strong> The target may stay conscious and continue to fight when at negative hit points, but loses 1 hit point per round they do so.</p>\n<p><strong>Rend:</strong> The target must possess claws. The target gains the rend universal monster ability, and no more than once per round, may deal damage equal to 1 claw + 1-1/2 times their Strength modifier when successfully striking a target with 2 or more claw attacks in the same round.</p>\n<p><strong>Roar:</strong> The target may roar, howl, growl, or make other threatening vocalizations as a standard action to attempt an Intimidate check to demoralize all foes within 30 feet that can hear the sound. This trait may be taken a second time to reduce this to a move action.</p>\n<p><strong>Speak with Animals:</strong> The target gains the ability to speak with and understand animals and vermin.</p>\n<p><strong>Trip:</strong> Choose one natural attack the target possesses. The target gains the trip universal monster ability, and may attempt a trip as a free action that does not provoke an attack of opportunity when they successfully hit with that attack. The creature is not tripped in return if the attempt fails by 10 or more. You may take this trait multiple times, but only once per natural attack.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893086,
+    "modifiedTime": 1663169294516,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

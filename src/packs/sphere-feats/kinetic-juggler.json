@@ -3,7 +3,11 @@
   "name": "Kinetic Juggler",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere, base attack bonus +1.</p>\n<p><strong>Benefit:</strong> You may cause a weapon to float in mid-air for a brief moment. This allows you to take your hands off it as a free action and then grab it again (including with your telekinetic limb, if you have one) as a free action, during which time you may use them to perform any other action. If you move, your weapon follows you, remaining floating in your square. While floating you cannot make attacks with them, but they count as attended and either wielded or sheathed by you (whichever is more beneficial).</p>\n<p><strong>Special:</strong> If you have the Quickdraw feat, as long as you have a free hand you may grab one of your floating weapons an immediate action.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898014,
+    "modifiedTime": 1663169295799,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

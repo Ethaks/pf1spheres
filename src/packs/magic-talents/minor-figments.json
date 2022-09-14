@@ -3,7 +3,15 @@
   "name": "Minor Figments",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/illusion.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "illusion"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create unconvincing figments. This is the same as creating an illusion and can include all senses you can affect through (sense) talents, except it is obviously fake (i.e., it is translucent, unrealistic, etc.), requiring no one to attempt a Will save to disbelieve. However, the effects can still be used to create distractions, display images, draw a map, or be used for entertainment. This counts as possessing the required tools to attempt any appropriate Perform check (such as creating a melody with the Illusionary Sound talent).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "illusion"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890507,
+    "modifiedTime": 1663169293337,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

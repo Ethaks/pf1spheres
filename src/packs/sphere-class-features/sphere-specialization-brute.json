@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Brute)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Mighty Flex (Ex):</strong> At 3rd level, whenever a conscript successfully executes a bull rush, drag, reposition, or overrun combat maneuver while he has martial focus, he may attempt a grapple or trip combat maneuver as an attack of opportunity (this attempt does not provoke an attack of opportunity itself). The conscript cannot attempt a grapple check in this manner unless the opponent is within his natural reach (for example, if the conscript triggered this ability by making a bull rush attempt against a target he chose not to move with, he could only use the trip option of this ability).</p>\n<p><strong>Never Outmatched (Ex):</strong> At 8th level, the conscript ignores the size bonus to a creature&#8217;s combat maneuver bonus and CMD when performing or resisting a bull rush, drag, reposition, or overrun combat maneuver.</p>\n<p><strong>Giant Physique (Ex):</strong> When the conscript reaches 20th level, he gains a +4 bonus to his CMB and CMD when performing or defending against a bull rush, pull, reposition, or overrun combat maneuver. In addition, the conscript doubles his critical threat range when performing a shove or a bull rush, pull, reposition, or overrun combat maneuver that deals damage.</p>\n<p><em>Author's Note:</em> Combat Maneuvers cannot critically hit normally (they \"succeed\" on a natural 20). The Giant Physique ability allows them to critically hit on a natural 20 (doubled to 19-20 by the ability), rolling to confirm the critical hit against the target's CMD. The critical threat range of a combat maneuver augmented with this ability is 20 and multiplier is x2. If you possess an ability that allows you to use a weapon to perform the action or maneuver, you may use that weapon's critical threat range and multiplier instead.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900746,
+    "modifiedTime": 1663169296837,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

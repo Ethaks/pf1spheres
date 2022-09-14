@@ -3,7 +3,11 @@
   "name": "Evasion (Conscript)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Starting at 3rd level, the conscript can avoid even magical and unusual attacks with great agility. If he succeeds at a Reflex saving throw against an attack that normally deals half damage on a successful save, he instead takes no damage. Evasion can be used only if the conscript is wearing light armor or no armor. At 10th level, the conscript gains improved evasion; this works like evasion except while the conscript still takes no damage on a successful Reflex saving throw against an attack, he also only takes half damage on a failed save. A helpless conscript does not gain the benefits of evasion or improved evasion.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900112,
+    "modifiedTime": 1663169296259,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

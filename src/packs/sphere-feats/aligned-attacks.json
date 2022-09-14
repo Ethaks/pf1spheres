@@ -3,7 +3,11 @@
   "name": "Aligned Attacks",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Non-neutral alignment, caster level 5th.</p>\n<p><strong>Benefit:</strong> Choose one alignment you possess. Your natural attacks count as that alignment for the purposes of overcoming damage reduction. If your alignment changes, you may select a new non-neutral alignment that you possess in place of the originally chosen alignment. If you cease to possess a non-neutral alignment, you lose the benefits of this feat until you gain a non-neutral alignment. This is an extraordinary (Ex) ability.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897476,
+    "modifiedTime": 1663169295449,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

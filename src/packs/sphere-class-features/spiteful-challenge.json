@@ -3,7 +3,11 @@
   "name": "Spiteful Challenge",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever one of the warden&#8217;s guarded allies would be dealt damage by an enemy, as long as the enemy can see or hear the warden, he may expend his martial focus and an attack of opportunity to challenge the enemy. If the warden possesses the Swift Guardian talent, he does not need to expend his martial focus as part of using this ability.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901035,
+    "modifiedTime": 1663169297238,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

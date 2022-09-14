@@ -3,7 +3,15 @@
   "name": "Rapid Processing",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/mind.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mind"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can analyze information with a glance. As a swift or move action you can read up to 500 words or analyze a complex work of art, value an item with Appraise, get a hunch or sense enchantment with Sense Motive, search for tracks with Survival, or intentionally search with Perception.</p>\n<p>By spending a spell point as a swift action you can make passive analysis effortless for 1 hour per caster level. You no longer need to spend an action for any of the following: reading up to 1000 words, analyzing complex art, rolling Appraise to value an item after handling or touching it, rolling Sense Motive to sense enchantment when an enchanted creature passes within close range (this check should be made in secret by the GM), and rolling Sense Motive to make a hunch after one round speaking to them. In addition, you may more rapidly perform tasks that require continual analysis, allowing you to follow tracks at any speed without penalty or perform research in half the usual time.</p>\n<p>At a GM&#8217;s discretion, other similar skill checks and uses can benefit from this talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mind"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891193,
+    "modifiedTime": 1663169293676,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

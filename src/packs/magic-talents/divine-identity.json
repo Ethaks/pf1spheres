@@ -3,7 +3,15 @@
   "name": "Divine Identity",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "divination"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Divination sphere (Discern Individual (sense)), caster level 1st.</p>\n<p>You may divine the presence of individual auras. When divining in a location, you sense which creatures have recently been in that area. This does not reveal any information about those creatures other than the strength of their aura, but each aura possesses a unique signature; if you sense the same creature more than once, you can easily connect that they are the same creature.</p>\n<strong>Table: Divine Identity</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Hit Dice</th>\n<th>Aura Strength</th>\n<th>Aura Duration</th>\n</tr>\n<tr>\n<td>1-4</td>\n<td>Dim</td>\n<td>1 round</td>\n</tr>\n<tr>\n<td>5-8</td>\n<td>Faint</td>\n<td>1d6 rounds</td>\n</tr>\n<tr>\n<td>9-12</td>\n<td>Moderate</td>\n<td>1d6 minutes</td>\n</tr>\n<tr>\n<td>13-16</td>\n<td>Strong</td>\n<td>1d6x10 minutes</td>\n</tr>\n<tr>\n<td>17+</td>\n<td>Overwhelming</td>\n<td>1d6 days</td>\n</tr>\n</table>\n<p>It is also possible for someone to adopt an alias, as the same aura is detected multiple places, but may be more difficult to identify as the same person. If you possess a secret identity, such as with the vigilante class or in another way with GM approval, your secret identity and primary identity will detect as different people.</p>\n<p><strong>Vigilantes, Fugitives, and Divine Identity:</strong> While it is very easy to identify lower level creatures individually, their auras do not last very long, which is why many petty thieves can go undetected, even in settlements that have access to this ability. However, thieves of great skill or renown can quickly become easy to spot, becoming celebrities in their own right as their deeds are easily identified, even if they themselves are difficult to capture.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "divination"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891683,
+    "modifiedTime": 1663169293858,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

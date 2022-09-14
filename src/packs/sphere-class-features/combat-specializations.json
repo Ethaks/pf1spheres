@@ -3,7 +3,11 @@
   "name": "Combat Specializations",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 1st level, a conscript may choose specializations, gaining additional abilities at the cost of some versatility. Every specialization costs a number of the conscripts bonus feats, as indicated on Table: Conscript Specializations. Each specialization costs either 1, 2, or 3 specialization points. A conscript cannot have more than 5 points worth of specializations.</p>\n<strong>Table: Conscript Specializations</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Specialization Points</th>\n<th>Lost Bonus Feats</th>\n</tr>\n<tr>\n<td>1</td>\n<td>1, 10, 20</td>\n</tr>\n<tr>\n<td>2</td>\n<td>1, 6, 10, 14, 20</td>\n</tr>\n<tr>\n<td>3</td>\n<td>1, 2, 6, 10, 14, 18, 20</td>\n</tr>\n<tr>\n<td>4</td>\n<td>1, 2, 6, 8, 10, 14, 16, 18, 20</td>\n</tr>\n<tr>\n<td>5</td>\n<td>All bonus feats lost</td>\n</tr>\n</table>\n<hr>See also:<br><ul><li>Armor Training</li><li>@Compendium[pf1spheres.class-features.VxPkpWyk7QP2rCuC]{Banner}</li><li>@Compendium[pf1spheres.class-features.LJFaDgxd0pMzG7HP]{Barbarian Training}</li><li>@Compendium[pf1spheres.class-features.XcJrIyIclvLUerD1]{Blackpowder Training}</li><li>@Compendium[pf1spheres.class-features.ETgwRark697ZS2RY]{Bloodhound}</li><li>@Compendium[pf1spheres.class-features.vB3ydYYL39xPm35h]{Cavalier Training}</li><li>@Compendium[pf1spheres.class-features.AHXa3Qln1xAiMDAw]{Conscript Weapon Training}</li><li>@Compendium[pf1spheres.class-features.KdakrqtAOSWfFzqx]{Coordinated Combatant}</li><li>@Compendium[pf1spheres.class-features.FebD6nRiPjtSvvNa]{Dual Identity}</li><li>Evasion</li><li>@Compendium[pf1spheres.class-features.6cLzEo6h7Tuk9ePW]{Fast Movement}</li><li>@Compendium[pf1spheres.class-features.4VQnqui5HtLpkJdo]{Favored Enemy}</li><li>@Compendium[pf1spheres.class-features.ADxWhzP4UtIhK4EM]{Favored Terrain}</li><li>@Compendium[pf1spheres.class-features.2nPpioSJst7o3dTJ]{Finesse Training}</li><li>@Compendium[pf1spheres.class-features.5SHz2Lfyz7kATxiY]{Gear Training}</li><li>@Compendium[pf1spheres.class-features.QlSPhkRFvnG4aY6s]{Indomitable Will}</li><li>@Compendium[pf1spheres.class-features.73v0sLe2ekfcKIfA]{Inspiration}</li><li>@Compendium[pf1spheres.class-features.k9rHpOpy1pOkdL89]{Invulnerability}</li><li>@Compendium[pf1spheres.class-features.Mk20Ui5gxtnlt4W9]{Ki Cultivator}</li><li>@Compendium[pf1spheres.class-features.u2vqf3NGoWJIL2rY]{Maneuver Training}</li><li>@Compendium[pf1spheres.class-features.RMc8nuYlIoLAeMT0]{Martial Flexibility}</li><li>@Compendium[pf1spheres.class-features.HjVL1HmuggBG8bZM]{Mount}</li><li>@Compendium[pf1spheres.class-features.GJkiVtHfVRKtnija]{Resolve}</li><li>@Compendium[pf1spheres.class-features.UHByijlkxLULzUWz]{Sneak Attack}</li><li>@Compendium[pf1spheres.class-features.Eub0ArUQ3XgrOnXz]{Sphere Specializations}</li><li>@Compendium[pf1spheres.class-features.7KwLfh8cvVQYYwnD]{Squadron Commander}</li><li>@Compendium[pf1spheres.class-features.cDYKe0z1Bh4OpUaz]{Studied Target}</li><li>@Compendium[pf1spheres.class-features.kBJBo498GBpLSF2K]{Swashbuckler Training}</li><li>@Compendium[pf1spheres.class-features.3Q4G8mzNzoEi8xn7]{Vindictive Smite}</li></ul>",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900219,
+    "modifiedTime": 1663169296368,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

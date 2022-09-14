@@ -3,7 +3,15 @@
   "name": "Piledriver",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/wrestling.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "wrestling"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you successfully maintain a grapple against a creature you have already pinned, instead of one of the options normally available when you maintain a grapple, you may lift them over your head and smash them into the ground, automatically threatening a critical hit with your unarmed strike and rolling to confirm as normal. If the critical threat confirms successfully, the creature must make a successful Fortitude save or be staggered for 1 round. Use of this talent breaks your grapple on the creature. At +10 base attack bonus, the target is dazed for 1 round instead.</p>\n<p>This talent is not a (slam) itself, and cannot be used together with a (slam).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "wrestling"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888220,
+    "modifiedTime": 1663169292806,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Deep Nature",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When you use a geomancing or spirit ability that requires concentration, the ability continues to maintain itself for 2 rounds after you stop concentrating. When you spend a spell point to make a geomancing or spirit ability endure without concentration, its duration increases by one step (1 round per caster level becomes 1 minute per caster level, while 1 minute per caster level becomes 10 minutes per caster level).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892167,
+    "modifiedTime": 1663169293964,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

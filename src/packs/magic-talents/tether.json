@@ -3,7 +3,15 @@
   "name": "Tether",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can create a telekinetic connection between two objects of any size, tethering them together. As a standard action you can tether two targets within 30 feet of each other, preventing them from moving further than 30 feet from each other without either breaking the tether or dragging the other target with them. An unwilling creature gets a Reflex save to avoid being tethered. A creature dragging an object follows the normal carrying capacity and encumbrance rules, but must use the drag combat maneuver to drag an unwilling creature. The tether may be broken as a move action with a Strength check equal to the tether&#8217;s save DC. A tether lasts as long as you concentrate and an additional number of rounds after that equal to your caster level. You may spend a spell point to maintain a tether with Sustained Force.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891511,
+    "modifiedTime": 1663169293694,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

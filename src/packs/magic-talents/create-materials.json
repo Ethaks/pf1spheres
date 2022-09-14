@@ -3,7 +3,15 @@
   "name": "Create Materials",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (Lengthened Creation), caster level 10th.</p>\n<p>You may spend 2 spell points to create raw materials. This is an instantaneous effect; you create the material as self-evident normal material, and thus it cannot be dispelled and has no duration. You cannot create complex items, i.e., you may create walls, battlements, ramps, or domes, but cannot create catapults, armor, or a complete building in this manner, although the material may be crafted as any other material after it is summoned.</p>\n<p>If you possess the Fabricate advanced talent, you may permanently create any object you could normally create, provided you succeed on an appropriate Craft check first.</p>\n<p>You can summon any material you may create, with the exception of gems, precious metals (such as gold or silver) or rare metals (such as cold iron or mithril), unless you possess Costly Creation (see above for further information).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894488,
+    "modifiedTime": 1663169294949,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

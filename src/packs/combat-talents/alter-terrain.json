@@ -3,7 +3,15 @@
   "name": "Alter Terrain",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "berserker"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Berserker sphere, Shatter Earth, base attack bonus +7.</p>\n<p>When using the Shatter Earth talent, if you deal enough damage to reduce the ground to 0 hp, you may create a 5 ft. deep hole in the ground in the affected squares. If you so choose, you may also raise the terrain by 5 ft. in all squares adjacent to the affected squares. Targets standing in spaces that become a 5 ft hole must pass a Reflex save or fall prone.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "berserker"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888189,
+    "modifiedTime": 1663169292777,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

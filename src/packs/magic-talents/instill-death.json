@@ -3,7 +3,15 @@
   "name": "Instill Death",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a standard action you may touch a small container of liquid and instill a reanimate inside it, which functions as an oil. This cannot be combined with Sustained Reanimation, and undead created through an instilled liquid still consider you their creator, counting against your totals and following your commands.</p>\n<p>Alternatively, you may spend a spell point to instill a ghost strike. As a standard action, this can be primed and thrown as a splash weapon. All targets affected by the splash (5-foot radius) must save against any ghost strike effect requiring a saving throw, but any target not affected by a direct hit treats any dice rolls from the effect as if they had rolled their minimum.</p>\n<p>An instilled liquid remains potent until you rest to regain spell points. If you have equipment on hand (such as an alchemy lab), the cost of bottles and water is considered negligible. You may target food but not an already-magical item, such as a potion. All spell points must be spent and all variables of the sphere effect must be chosen at the time the instilled liquid is created. You cannot instill multiple effects in a single liquid, nor create multiple instilled liquids with a single action.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "death"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894653,
+    "modifiedTime": 1663169294971,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

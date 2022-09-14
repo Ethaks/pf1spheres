@@ -3,7 +3,11 @@
   "name": "Disruptive Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> Targets affected by a disruptive spell must attempt concentration checks when using talents or sphere-like abilities (DC equals the save DC of the disruptive spell plus 1/2 the caster level of the talent being cast (minimum 1)) for 1 round. Targets that avoid the talent&#8217;s effects avoid the effect of this metamagic as well.</p>\n<p><strong>Cost:</strong> +1 spell point</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897655,
+    "modifiedTime": 1663169295543,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

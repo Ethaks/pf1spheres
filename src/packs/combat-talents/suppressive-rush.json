@@ -3,7 +3,15 @@
   "name": "Suppressive Rush",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a special attack action, you may expend your martial focus to make two attacks with your unarmed strike, targeting the creature&#8217;s touch AC and dealing 1/2 damage on a successful attack (making more than one successful attack with this talent still only counts as a single successful attack for the purpose of feats and class features which grant bonuses upon landing multiple successful attacks); each attack after the first is made as a free action. The creature may choose to automatically block all of these attacks, in which case your unarmed strikes automatically miss, but that creature then takes a -2 penalty to all attack and damage rolls until they take a Total Defense action or until they are not subject to any hostile actions for one round. For every 4 points of base attack bonus you possess, you may make an additional unarmed strike as part of this attack action, and the penalty that creature takes for blocking your Suppressive Rush increases by -2.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887018,
+    "modifiedTime": 1663169291999,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Weighted Dice",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> You may spend a kismet point to roll a d6 as a free action. At any time until you next regain kismet you may spend an immediate action to add the result of one of those die rolls to any attack roll, damage roll, or CMB, skill, or ability check. You may decide to use this after you roll but before you know the result. You may only have one use of Weighted Dice active at a time, and once you have used a die roll, it is expended.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897893,
+    "modifiedTime": 1663169295702,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

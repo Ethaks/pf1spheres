@@ -3,7 +3,15 @@
   "name": "Inescapable Grasp",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/wrestling.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "wrestling"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever a creature attempts to magically escape a grapple with a teleportation or Warp effect, you may make a special combat maneuver check against their CMD as an immediate action. If successful, the escape fails and they provoke an attack of opportunity from you. At +10 base attack bonus, if you make a grapple attempt against a creature under the effect of a freedom of movement spell or similar effect, that effect is suppressed for the duration of the grapple.</p>\n<p><strong>Author's Note:</strong> This talent only applies against teleportation effects originating from the grappled target, not from any source. At 10+ base attack bonus, this talent can suppress freedom of movement and other similar effects (like the Fate sphere's Freedom (word)), regardless of their source.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "wrestling"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887041,
+    "modifiedTime": 1663169292013,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Divine Pressure",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to fill an area with an enduring presence of an alignment you possess (chaotic, evil, good, or lawful).</p>\n<p>Any creature of that alignment&#8217;s opposite (good for evil, lawful for chaotic, etc.) who enters or begins their turn inside the consecration must succeed at a Fortitude saving throw or suffer one of the following conditions: deafened, exhausted, or sickened (chosen at the time of casting). Creatures who fail their saving throw remain under the effects of the condition until they leave the area of the consecration or the consecration ends.</p>\n<p>As this power is cosmic in origin, it can affect undead and constructs, even though they are usually immune to effects requiring a Fortitude saving throw. If you are true neutral, you may choose neutrality with this consecration, in which case all creatures at the extremes of the alignment spectrum (chaotic evil, chaotic good, lawful evil, and lawful good) suffer the ill effects.</p>\n<p>You must concentrate to maintain this consecration. You may always spend an additional spell point as a free action to allow this consecration to continue for 1 minute per caster level without concentration.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890518,
+    "modifiedTime": 1663169293348,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

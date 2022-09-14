@@ -3,7 +3,15 @@
   "name": "Run",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You move five times your normal speed while running if wearing medium, light, or no armor and carrying no more than a medium load, or four times your speed if wearing heavy armor or carrying a heavy load. If you make a jump after a running start (see Acrobatics), you gain a +4 bonus on your check. You retain your Dexterity bonus to your Armor Class while running. <strong>Associated Movement Mode:</strong> Ground. <strong>Associated Skill:</strong> Acrobatics. <strong>Associated Feat:</strong> Run.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888204,
+    "modifiedTime": 1663169292793,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Vassalize",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Mana sphere (Flow (manabond)), caster level 7th.</p>\n<p>When casting a sphere effect while having a creature linked to you with the Flow talent, you can attempt to utilize that creature&#8217;s spell pool to cast your own magic. The creature is granted a Will save. On failure, they must pay any spell point costs you would have incurred otherwise. If the creature does not have enough real spell points to do so, they take ability damage to their casting ability modifier equal to the amount of spell points they lacked to fully cast the sphere effect, and you must fuel the spellcasting with your own spell points. If you lack the spell points to cast the sphere effect, any spell points you have are wasted and the sphere effect fails. Willing creatures may automatically fail this save, and as with the Flow talent, this ability always drains real spell points, not temporary ones. The creature must be able to hold a spell pool naturally in order for this ability to be used on them.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mana"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890434,
+    "modifiedTime": 1663169293280,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

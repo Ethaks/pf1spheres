@@ -3,7 +3,15 @@
   "name": "Swords",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "fate"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You actualize the target&#8217;s power to bring about action. When granted as a motif, the target gains a +1 bonus on attack rolls. This bonus increases by +1 for every 10 caster levels.</p>\n<p>The target may discharge this effect as an immediate action and become unerring in purpose. For the next minute, the target ignores any miss chance due to concealment. Once during this effect&#8217;s duration, when the target threatens a critical hit, the target may choose to gain a bonus on their attack roll to confirm that critical hit equal to 1/2 your caster level (minimum 1). This effect may not be combined with any ability or effect that automatically threatens critical hits.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "fate"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894498,
+    "modifiedTime": 1663169294952,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

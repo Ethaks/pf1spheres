@@ -3,7 +3,11 @@
   "name": "Tangling Wreckage",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Whenever the blacksmith uses the sunder combat maneuver or a similar ability while using the attack action to cause a creature&#8217;s worn armor to gain the broken condition, he can damage the equipment in such a way that it causes the target to become entangled as long as they are wearing the equipment. Repairing the equipment so that it no longer has the broken condition removes this effect.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900441,
+    "modifiedTime": 1663169296584,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

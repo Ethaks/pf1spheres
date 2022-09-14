@@ -3,7 +3,15 @@
   "name": "Unwilling Teleport",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to teleport an unwilling creature as you can a willing creature. This requires a touch attack if done at touch range, the unwilling creature is allowed a Will saving throw to negate being teleported, and the effect is subject to spell resistance. An unwilling creature can only be teleported into open areas on solid surfaces (thus, they cannot be teleported into the air or into a solid object, and any such attempt instantly fails). In addition, they gain a +4 bonus to their saving throw if the location would be directly harmful to them (onto a bed of spikes, etc.).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893132,
+    "modifiedTime": 1663169294555,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Store Structure",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warp sphere (Extradimensional Storage (space)), caster level 1st.</p>\n<p>By spending a spell point you can touch an object to place it in your extradimensional storage, even if it would normally be too large or dense. Objects stored this way do not count against the weight limit of your storage, but are limited by size; you may store objects whose combined size is no larger than the maximum size listed on the structure table below. When you retrieve an object stored this way, it appears in an unoccupied, adjacent square. It must be placed on a suitably supportive surface; a boat could be placed on a relatively flat plain or a large body of water, but not midair.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891017,
+    "modifiedTime": 1663169293606,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Sentimentality",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>A warden of sentimentality is one of nostalgia and time, usually showing fragments of the future, present and past to their allies, allowing them to prepare accordingly. These wardens are just as focused on preparing their allies as they are hindering their enemies, dilating and hastening time when required.</p>\n<p><strong>Vigil Sphere:</strong> Time</p>\n<p><strong>Temporal Guard:</strong> A sentimental warden&#8217;s guard is made up of brief past images of the warden. At 3rd level, the warden&#8217;s guarded allies gain a bonus to initiative checks equal to the warden&#8217;s guard bonus. Additionally, spells, sphere effects, spelllike abilities and supernatural abilities that the warden casts on his guarded allies that have a duration measured in rounds last 1 additional round.</p>\n<p><strong>Fluctuating Patrol:</strong> At 7th level, the warden may spend a spell point when using his patrol ability to cause time to distort and shift. All enemies within the warden&#8217;s area of patrol must succeed a Will saving throw or have the duration of all beneficial effects affecting them reduced by 1 round, and the duration of all harmful effects affecting them increased by 1 round. If the warden would reactivate his patrol before the end of his next turn, he can keep extending the duration of the ability by one additional round without spending a spell point.</p>\n<p><strong>Deja Vu:</strong> At 11th level, whenever an ally within the warden&#8217;s guard range would fail a saving throw, attack roll or skill check, the next time that ally would attempt the same kind of roll within the next round, the ally gains a +4 bonus to that attempt.</p>\n<p><strong>Timeline Split:</strong> At 15th level, whenever one of the warden&#8217;s guarded allies would make an attack roll, they may choose two possible targets for the attack, and then roll the d20 for each target. The guarded ally may then choose which enemy they attack, using the d20 rolled for that enemy as their attack roll. Additionally, whenever a guarded ally would attempt a saving throw, as an immediate action, the warden can spend a spell point to allow the guarded ally to roll the saving throw twice and take the most favourable result.</p>\n<p><strong>Temporal Erosion:</strong> At 19th level, time begins to warp and shift around the warden, with occasional tears showing the previous, present, and future lives of his allies. As a standard action, the warden can spend 2 spell points to cause the area around him to buckle and tear, granting all allies (guarded or not) within 20 feet a collective ablation rate of 80%. Whenever an ally would be missed due to the miss chance granted by the ablation rate, all allies&#8217; ablation rates decrease by the same amount (5%). This ability lasts for 1 minute, or until the ablation rate becomes equal to or less than 0, whichever comes first.</p>\n<h3 id=\"toc73\"><span><span style=\"color: #00c000\">Vigil Reinforcements</span></span></h3>\n<h4 id=\"toc74\"><span>Grant Reaction (requires sentimentality)</span></h4>\n<p>Whenever an ally within the warden&#8217;s area of patrol would be unable to make an attack of opportunity due to having no more attacks of opportunities remaining, the warden may expend an attack of opportunity to grant the ally an additional attack of opportunity.</p>\n<h4 id=\"toc75\"><span>Suspended Guard (requires sentimentality, warden 6)</span></h4>\n<p>When using his guard ability, he may instead choose two creatures to benefit from a suspended guard. A suspended guard does not grant any benefits to the chosen creatures, however, as an immediate action, the warden may choose one of the chosen creatures to immediately gain the benefits of his guard ability.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900732,
+    "modifiedTime": 1663169296820,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

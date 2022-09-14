@@ -3,7 +3,15 @@
   "name": "Titan’s Fall",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Acrobatics 5 ranks, Athletics sphere (Armored Drop x2).</p>\n<p>Your armor&#8217;s hardness applies to, and is doubled against, the damage suffered from the Armored Drop talent.</p>\n<p>In addition, when using the Armored Drop talent you may expend your martial focus to increase the damage dealt to the amount of damage that would be dealt to your armor before hardness. In addition the damage now affects everything in a 5-foot radius + 5 feet per 5 ranks in Acrobatics you possess. The damage dealt by this talent is doubled vs. objects, and if the damage would be enough to destroy the surface underneath you, you continue to fall, subtracting the damage dealt to the surface from the damage dealt by this talent to later surfaces.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885434,
+    "modifiedTime": 1663169291484,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

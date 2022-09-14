@@ -3,7 +3,15 @@
   "name": "Manipulate Nature",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may manipulate the elements to take on different shapes. The types and forms you can create are determined by your Nature packages, as outlined below:</p>\n<p><strong>Air: Air Geyser:</strong> Instantaneous, requires air. You may, as a standard action, create a powerful blast of air capable of flinging a Medium-sized or smaller target within range upward into the air (Reflex negates). If the target fails its Reflex save, the force of air hurls the target upward a number of feet equal to 5 x your caster level (or 10 x your caster level if you spend an additional spell point). If a solid object (such as a ceiling) is encountered, the target strikes the object taking 1d6 damage per 10 feet that the target was not hurled upward. For example, if a creature would be hurled 20 feet into the air but hits a ceiling at 10 feet, the target would take 1d6 damage. After this blast of air ceases, the target falls down (unless it was flying), taking falling damage as normal. The maximum size of the target increases by 1 size category every 5 caster levels.</p>\n<p><strong>Earth: Forge Earth:</strong> Instantaneous, requires ground. You may spend a spell point to alter the ground within a 5-foot radius + 5 feet per 5 caster levels area centered within range. You may raise or lower the terrain up to 5 feet + 5 feet per 5 caster levels, and may create variants within the affected area such as summoning a small wall or creating gradients and stair effects. You cannot both raise and lower the terrain with the same use of this ability and cannot create variants in anything smaller than 5-foot squares (i.e., you cannot create 1-foot diameter holes or create a spike of earth). Targets within this area are not damaged by falling if you lower the terrain, and climbing up the edges of lowered terrain usually requires a DC 15 Climb check.</p>\n<p><strong>Fire: Move Fire:</strong> Concentration. You may move a fire within your Affect Fire size up to 10 feet per caster level per round in whatever manner and direction you desire. A fire moved in this way continues to burn, even without fuel (although it may be drowned or extinguished otherwise as normal), and dies as soon as the effect ends if not moved to a new fuel source. If you have spent a spell point to make this use of Affect Fire self-sustaining, directing the fire is still a move action. When moving fire to or through a space occupied by a creature, that creature suffers the fire&#8217;s damage and catches on fire (Reflex for half damage and to not catch on fire). A creature can only be affected once per round by a fire, no matter how many times the fire moves through their space.</p>\n<p>If you can Affect Fire or Create Fire, you may Move Fire as part of those geomancing effects.</p>\n<p><strong>Metal: Pin-ball:</strong> When using the Magnetize geomancing ability as a weapon, if the attack hits you may spend a spell point as a free action to Magnetize another creature within range and make a ranged attack at that creature. These additional attacks are not attack actions. The number of granted attacks increases by +1 per 5 caster levels, but if you miss once the pin-ball ability ends without any further attacks. You may not make ranged attacks with the pin-ball ability two or more times in a row against the same target.</p>\n<p><strong>Plant: Shelter:</strong> Instantaneous, requires tree or branch. You may spend a spell point to reshape a tree to create a shelter. Use the Pummel geomancing ability to determine the hit points and size of a shelter based on the tree used (the radius of the shelter is the reach of the tree or branch used). Creatures and equipment under the shelter suffer no harm from being in a hot or cold environment, and can exist comfortably in conditions between &#8211;50 and 140 degrees Fahrenheit (-45.5 and 60 degrees Celsius) without having to attempt Fortitude saves. In addition, the shelter provides protection against other environmental hazards such as smoke, lack of air, and so forth, however the vessel does not protect against any environmental damage such as cold or fire damage. The shelter also provides cover (+4 AC, +2 Reflex saves) to and from those inside, and hostile creatures cannot enter the shelter without first destroying the shelter. However, if the tree or branch used to create the shelter is destroyed, the effects of the shelter immediately end.</p>\n<p><span style=\"text-decoration: underline;\"><strong>Author's Note:</strong></span> The Shelter geomancing ability is intended to work similarly to the Secure Shelter spell. As such, incorporeal creatures should be able enter the shelter without forcing their way in. Similarly, the shelter should not inherently restrict creatures from teleporting into the structure provided that the teleporting creature meets all other requirements, such as line of sight, etc.</p>\n<p><strong>Water: Wave:</strong> Instantaneous, requires water. You may create a surge in water that pushes targets in its wake. This surge may be created anywhere within range and may face any direction, but once created it travels in a straight line for a distance of 30 feet + 5 feet per 2 caster levels. This area may extend out of the water and onto land to a maximum of 10 feet + 5 feet per 5 caster levels. The wave created is 5 feet wide. The width may be doubled by halving the length. This may be done multiple times, but the length cannot become smaller than 5 feet. A target cannot be pushed back further than the wave&#8217;s length.</p>\n<p>All creatures within the affected area are pushed as if by a bull rush combat maneuver, except it does not provoke an attack of opportunity. Use your caster level + your casting ability modifier in place of your CMB. If the target is on land and is successfully pushed by this ability, they must also succeed at a Reflex save or fall prone. If combined with Create Water, it may be created anywhere and may travel up to 30 feet + 5 feet per 2 caster levels over land.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890545,
+    "modifiedTime": 1663169293370,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

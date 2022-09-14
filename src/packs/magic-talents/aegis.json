@@ -3,7 +3,15 @@
   "name": "Aegis",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a standard action, you may touch a creature and spend a spell point, granting them an aegis for 1 hour per caster level. Unwilling targets are allowed a Will save to resist gaining an aegis, and aegis is subject to spell resistance.</p>\n<p>Multiple aegises of the same talent can be placed on a single creature, and the creature can benefit from them when they are providing different effects. This means Armored Magic can give a target both armor and shield, and Energy Resistance can grant resistance to multiple energy types to the same target.</p>\n<p>You gain the following aegis when you gain the Protection sphere:</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890771,
+    "modifiedTime": 1663169293554,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

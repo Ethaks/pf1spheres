@@ -3,7 +3,15 @@
   "name": "Absolute Determination",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "berserker"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>No doubt stops your onslaught. You gain a +1 bonus on saving throws against mind-affecting effects and the DC to Intimidate you, increasing by +1 for every 6 base attack bonus you possess. Whenever you would attempt a save against a mind-affecting effect, you may roll twice, taking the better result.</p>\n<p>In addition, you may expend martial focus as an immediate action to attempt a save against a mind-affecting effect (using the effect&#8217;s original DC) or reduce your current level of fear by 1 step (panicked to frightened, frightened to shaken, shaken to not affected by a fear effect). You may only attempt a new save against a specific mind-affecting effect (for example, a specific instance of charm) once per day.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "berserker"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887502,
+    "modifiedTime": 1663169292069,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

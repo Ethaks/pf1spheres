@@ -3,7 +3,11 @@
   "name": "Venomous Ichor",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Alteration sphere (Serpentine Transformation (transformation) or Vermin Transformation (transformation)), poison bestial trait, or racial poison ability.</p>\n<p><strong>Benefit:</strong> Any creature that confirms a critical hit against you with a piercing or slashing melee weapon is sprayed with your poison (treat the poison as a contact poison for this application). Melee weapons with reach do not endanger their users in this way. You cannot use this ability if you do not have poison.</p>\n<p>Additionally, you can apply your poison to a weapon or natural attack by dipping it in your own blood as a swift action. This requires dealing 1d4 damage to yourself as part of the swift action unless you suffer from an ongoing bleed effect or are below half your maximum hit points. This is an extraordinary (Ex) ability.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897519,
+    "modifiedTime": 1663169295473,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

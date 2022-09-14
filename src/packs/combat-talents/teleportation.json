@@ -3,7 +3,15 @@
   "name": "Teleportation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/leadership.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "leadership"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Leadership sphere, (followers) package, Diplomacy 13 ranks.</p>\n<p>Your followers are capable of performing rituals, borrowing spell-casting services, walking fairy-roads, and other methods of rapid, long-distance travel. Your caravan can meet you anywhere on the same plane within 1d4 days, regardless of distance. Once per day, you and your allies can be carried to another location on your current plane by your caravan, arriving 2d20 miles from a chosen destination. This requires 1d4 hours. This does not grant the caravan the ability to travel into dangerous places.</p>\n<p>If you possess the Messengers talent, your messengers can reach any location on the same plane and return within 1d4 days. If you possess both Messengers and Merchants, your messengers can be sent to obtain items from anywhere on the plane. You do not need to roll for availability; if it is available for purchase anywhere on the plane it will be bought and brought to you.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "leadership"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885459,
+    "modifiedTime": 1663169291500,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

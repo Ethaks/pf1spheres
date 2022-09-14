@@ -3,7 +3,15 @@
   "name": "Forgettable Theft",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you successfully steal an object from an opponent with the steal combat maneuver, the opponent must make a successful Will saving throw or forget that they owned the stolen object for 1 minute. If the opponent is presented with evidence of their previous ownership of the object (such as the object having their name on it or being reminded of their ownership), they immediately gain an additional saving throw. When you have at least 10 ranks in Sleight of Hand, this effect instead lasts for 1 hour, and the creature must make an additional saving throw at the end of its duration or completely forget that they owned the stolen object.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887991,
+    "modifiedTime": 1663169292573,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

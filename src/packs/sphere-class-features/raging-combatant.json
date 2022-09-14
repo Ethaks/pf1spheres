@@ -3,7 +3,11 @@
   "name": "Raging Combatant",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>As a swift action, the mageknight may spend a spell point to enter a rage for 1 round per mageknight level. This is similar to a barbarian&#8217;s rage, granting a +4 morale bonus to Strength and Constitution, a +2 morale bonus to Will saves, and suffering a -2 penalty to AC. She is under the same restrictions with skills, spells, and sphere abilities as a barbarian, but she may use mystic combat abilities as normal. She is fatigued afterward as a barbarian. She may end a rage prematurely as a free action.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900524,
+    "modifiedTime": 1663169296646,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

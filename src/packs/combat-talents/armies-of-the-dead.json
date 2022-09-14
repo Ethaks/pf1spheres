@@ -3,7 +3,15 @@
   "name": "Armies Of The Dead",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warleader.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warleader"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warleader sphere, Diplomacy 6 ranks.</p>\n<p>You may make Diplomacy checks to improve the attitude of undead, including mindless undead. Undead creatures with an attitude of friendly or better towards you can benefit from any morale bonuses, teamwork feats, or mind-affecting effects your shouts or tactics would bestow, and mindless undead whose attitude has been improved to friendly will follow your orders to the best of their ability, though undead who are not closely watched may quickly revert to their prior inclinations. If the undead is under the control of a creature (such as a spellcaster or cleric using the Command Undead feat), the orders of that creature still supercede your own.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warleader"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885459,
+    "modifiedTime": 1663169291500,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

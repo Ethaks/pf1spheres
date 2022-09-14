@@ -3,7 +3,15 @@
   "name": "Overwhelming Sensations",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/illusion.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "illusion"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a trick you may force a target to succeed at a Will save or suffer extreme sensation for one round per two caster levels (minimum 1). Select one of the effects on Table: Overwhelming Sensations based on what sensory talents you possess.</p>\n<strong>Table: Overwhelming Sensations</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Sense</th>\n<th>Effect</th>\n</tr>\n<tr>\n<td>Magic</td>\n<td>Treat your caster level as 5 higher when creating, but not concealing or modifying, auras using the Manipulate Aura trick.</td>\n</tr>\n<tr>\n<td>Odor</td>\n<td>Sickened</td>\n</tr>\n<tr>\n<td>Sight</td>\n<td>Dazzled, this becomes staggered for 1 round if the target is already dazzled.</td>\n</tr>\n<tr>\n<td>Sound</td>\n<td>Shaken, this becomes frightened for 1 round if the target is already shaken.</td>\n</tr>\n<tr>\n<td>Touch</td>\n<td>Fatigued</td>\n</tr>\n</table>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "illusion"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894709,
+    "modifiedTime": 1663169295013,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

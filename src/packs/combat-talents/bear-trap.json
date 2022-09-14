@@ -3,7 +3,15 @@
   "name": "Bear Trap",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>A creature that fails its Reflex save to avoid this snare may not move from its current location unless it succeeds on a Strength or Escape Artist check against the trap&#8217;s DC or destroys the trap via damage. The affected creature also takes 1 bleed damage for every 8 ranks in Craft (traps) you possess (minimum 1). Treat this as an attack action performed by you for the purposes of Duelist sphere talents, such as dealing extra bleed damage, or determining which creatures are affected by this bleed (including (bleed) talents when applicable).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "trap"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887912,
+    "modifiedTime": 1663169292319,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

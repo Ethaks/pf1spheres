@@ -3,7 +3,15 @@
   "name": "Blank Transformation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When a creature gains the Alteration sphere, they gain the ability to grant the Blank Transformation. Unlike other transformations, the Blank Transformation does not change the creature&#8217;s basic makeup. They do not gain the +10 bonus to Disguise checks, nor do they lose their abilities, equipment, natural attacks, or any other aspect of their unaltered form. The Blank Transformation allows a caster to add traits to a creature without fundamentally changing the target first.</p>\n<p>As a trait, you may change the target&#8217;s cosmetic appearance. This could include changing the target&#8217;s apparent age, making an elf into an orc, adding a purely cosmetic tail, disguising a large dog as a small pony, changing a male into a female, or some other such alteration. This grants the target a +10 bonus to Disguise checks. This trait may only be applied to the Blank Transformation, as such changes are assumed with other forms.</p>\n<h5 id=\"toc2\"><span>Note: Legs</span></h5>\n<p>Creatures without legs are immune to being tripped. Creatures with 4 or more legs gain a +4 bonus to their CMD vs. trip for each pair of legs beyond the first, and are treated as quadrupeds for the purpose of their carrying capacity.</p>\n<h3 id=\"toc3\"><span>Creature Types and Alteration Talents</span></h3>\n<p>While assuming a creature&#8217;s form with the Alteration sphere generally does not cause the transformed creature to change their creature type or subtype, sometimes various abilities require correlating creature types and subtypes to their respective talents. The table below connects various creature types to the appropriate talent. In the case of the animal and magical beast types, general descriptions of their forms are used to better match the available talents. Note that there may be specific cases where an unusual creature fits poorly with the form granted by the talent corresponding to its type. In these cases it is up to the GM to discern the most suitable talent.</p>\n<strong>Table: Creature Types</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Creature Type</th>\n<th>Alteration Sphere Talent(s)</th>\n</tr>\n<tr>\n<td>Aberration</td>\n<td>Aberrant Body, Tentacles</td>\n</tr>\n<tr>\n<td>Animal or magical beast (aquatic)</td>\n<td>Aquan Transformation</td>\n</tr>\n<tr>\n<td>Animal or magical beast (avian)</td>\n<td>Avian Transformation</td>\n</tr>\n<tr>\n<td>Animal or magical beast (burrowing)</td>\n<td>Subterranean Transformation</td>\n</tr>\n<tr>\n<td>Animal or magical beast (quadrupeds)</td>\n<td>Animalistic Transformation</td>\n</tr>\n<tr>\n<td>Animal or magical beast (serpentine)</td>\n<td>Serpentine Transformation</td>\n</tr>\n<tr>\n<td>(Any) swarms</td>\n<td>Swarm Shape</td>\n</tr>\n<tr>\n<td>Construct</td>\n<td>Object Transformation</td>\n</tr>\n<tr>\n<td>Dragon</td>\n<td>Dragon Transformation</td>\n</tr>\n<tr>\n<td>Humanoids</td>\n<td>Anthropomorphic Transformation</td>\n</tr>\n<tr>\n<td>Fey</td>\n<td>Fey Body</td>\n</tr>\n<tr>\n<td>Outsider (chaotic, evil, good, or lawful)</td>\n<td>Outsider Body</td>\n</tr>\n<tr>\n<td>Outsider (elemental)</td>\n<td>Elemental Transformation</td>\n</tr>\n<tr>\n<td>Ooze</td>\n<td>Ooze Transformation</td>\n</tr>\n<tr>\n<td>Plant</td>\n<td>Plant Transformation</td>\n</tr>\n<tr>\n<td>Undead</td>\n<td>Undead Body</td>\n</tr>\n<tr>\n<td>Vermin or vermin-like magical beasts</td>\n<td>Vermin Transformation</td>\n</tr>\n</table>\n<h3 id=\"toc4\"><span>Alteration Talent Types</span></h3>\n<p>Some Alteration talents are marked (transformation). These talents grant additional transformations. Some Alteration talents are marked (body). These talents grant themed sets of traits that mimic specific creature types.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890500,
+    "modifiedTime": 1663169293332,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

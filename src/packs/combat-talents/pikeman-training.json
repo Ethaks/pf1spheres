@@ -3,7 +3,15 @@
   "name": "Pikeman Training",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/equipment.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "equipment"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You gain proficiency with the bardiche, bec de corbin, bill, glaive, glaive-guisarme, guisarme, halberd, hooked lance, lance, mancatcher, and ranseur. Whenever you use a readied action to make an attack with a weapon with the brace weapon special feature against a target moving into your threatened area, that attack deals an additional +2 damage. At +10 base attack bonus, this bonus damage is instead increased to +4.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "equipment"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885427,
+    "modifiedTime": 1663169291477,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

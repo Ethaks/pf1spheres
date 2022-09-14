@@ -3,7 +3,15 @@
   "name": "Snap Kick",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Whenever you succeed on a trip combat maneuver against a creature, they provoke an attack of opportunity from you (you can choose to wait until the creature is prone before resolving this attack of opportunity), this attack of opportunity considers &#8220;whenever a creature lands prone&#8221; and &#8220;whenever you succeed on a trip combat maneuver&#8221; to be part of the same trigger, and you can not take more than one attack of opportunity due to this circumstance. If your attack of opportunity is successful, the creature must make a successful Reflex save or become staggered until the end of their next turn.</p>\n<p><strong>Note:</strong> This attack of opportunity from this ability must be made as an unarmed strike.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887988,
+    "modifiedTime": 1663169292382,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Dampening Field",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may use your telekinetic force to protect and stabilize creatures and objects that you are lifting.</p>\n<p>When lifting an object with your telekinesis, you may grant it a +1 bonus to hardness and a +1 deflection bonus to AC, +1 per 5 caster levels, and cause it to take no penalties from the broken condition.</p>\n<p>When lifting a creature with your telekinesis, you may grant it DR/piercing equal to 1/2 your caster level. When using a creature or object as a Bludgeon, you may choose for the object itself to not suffer damage from being used as a Bludgeon.</p>\n<p>You may grant these benefits as part of a Sustained Force, as part of or independent of any actual telekinetic movement.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890516,
+    "modifiedTime": 1663169293347,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Stabilize",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create an aegis that stabilizes the target against planar effects or effects that warp time and space. The target gains a +4 morale bonus to AC and saving throws against any teleportation effects, effects from the Time or Warp spheres, direct telekinesis (such as Hostile Lift, but not attacks from Bludgeons) as well as any other effects that alter time, such as the slow spell. This also applies to attacks and abilities from extraplanar creatures, such as summoned or conjured creatures.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893220,
+    "modifiedTime": 1663169294560,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

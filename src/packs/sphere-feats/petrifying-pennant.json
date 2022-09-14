@@ -3,7 +3,11 @@
   "name": "Petrifying Pennant",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Base attack bonus +8 or Diplomacy 8 ranks, banner class feature or Warleader sphere (Heraldry).</p>\n<p><strong>Benefit:</strong> As long as your banner or flag is clearly visible, all enemies within range of your banner (or tactics if you possess the Heraldry talent) take a -2 penalty on saving throws against fear effects.</p>\n<p><strong>Special:</strong> If you possess the Gladiator sphere Strike Fear ability or the Terrifying Pierce Lancer talent, when you attempt to demoralize a creature affected by your banner, you can lower the DC of the check by 2.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897906,
+    "modifiedTime": 1663169295713,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

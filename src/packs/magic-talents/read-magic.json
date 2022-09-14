@@ -3,7 +3,15 @@
   "name": "Read Magic",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "divination"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to gain a sense that allows you to decipher all magical writings, such as those found in books, scrolls, on weapons, or in other places intelligible to you. This does not invoke the magic contained in the writing, although it may do so in the case of a cursed or trapped scroll. Furthermore, once you have read a magical inscription through this ability, you are thereafter able to read that particular writing even without this sense. You can read at the rate of one page (250 words) per minute. You can identify glyphs, runes, and symbol spells with a Spellcraft check (DC 10 + 1/2 caster level).</p>\n<h3 id=\"toc26\"><span>Divination Talent Types</span></h3>\n<p>Some talents are marked (divine). These grant you different things you may divine for in place of magic.</p>\n<p>Some talents are marked (sense). These talents grant you additional senses you may grant.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "divination"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893593,
+    "modifiedTime": 1663169294605,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

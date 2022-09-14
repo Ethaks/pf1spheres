@@ -3,7 +3,15 @@
   "name": "Phantom Operatives",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warleader.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warleader"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Stealth 10 ranks, Scout sphere (Lurker, Walk Unseen, Vanish), Warleader sphere (Covert Operations (tactic)).</p>\n<p>Allies benefiting from your Covert Operations tactic can attempt Stealth checks to hide even when observed. When an ally breaks stealth (such as by attacking or not stealthing at the end of their turn), they gain concealment until the start of their next turn.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warleader"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887513,
+    "modifiedTime": 1663169292076,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

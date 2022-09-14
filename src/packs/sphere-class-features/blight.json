@@ -3,7 +3,11 @@
   "name": "Blight",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 2nd level, the soul weaver may touch a target and expend a use of channel energy to place a blight on them. The target is allowed a Fortitude save (DC 10 + 1/2 soul weaver level + casting ability modifier), and on a failure, grows a patch of festering undead flesh where it was touched (this patch may be hidden under the skin if the soul weaver chooses, so a target might not even know it has been infected). Blight is considered a magical disease and is permanent until removed by magic or with the Heal skill. A blessing counters and dispels a blight, leaving neither blessing nor blight in place.</p>\n<p>A creature with blight suffers a -2 penalty to all saves against necromancy spells, Death sphere abilities, bound nexus powers, or blight abilities. A soul weaver may concentrate at any time to discover what creatures within close range possess blight.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900776,
+    "modifiedTime": 1663169296869,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

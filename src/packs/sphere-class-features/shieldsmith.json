@@ -3,7 +3,11 @@
   "name": "Shieldsmith",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The blacksmith learns how to position the straps and clasps on a shield in such a way that he can wield it without hampering the use of an arm; the blacksmith may wear a light or heavy shield as a buckler, and does not suffer a penalty to attack rolls when using his shield arm to wield a weapon or when using a tower shield.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900980,
+    "modifiedTime": 1663169297189,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

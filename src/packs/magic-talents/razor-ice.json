@@ -3,7 +3,15 @@
   "name": "Razor Ice",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When a creature bearing your mantle is in an area of Cold of severity level 4 or higher, their unarmed strike deals 1 additional slashing damage and any creature striking them with an unarmed strike or natural weapon takes 1 slashing damage. This damage increases by 2 for each category above severity level 4.</p>\n<p><strong>Author's Note:</strong> The increased slashing damage applies to both unarmed strikes and natural attacks.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "weather"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894481,
+    "modifiedTime": 1663169294940,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

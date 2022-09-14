@@ -3,7 +3,15 @@
   "name": "Disorient",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As an expunge, you may damage the target creature&#8217;s control over their magic. The target must succeed at a successful Will save; on failure they suffer a -2 penalty to their caster level for the next sphere ability they use during the duration of this ability. If this reduces the ability to a caster level below 0, the manifested ability fails and any spell points used are lost. This penalty is increased by an additional 1 for every four caster levels you possess. This ability lasts for up to 1 minute per caster level, or until the target uses a sphere ability.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mana"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890505,
+    "modifiedTime": 1663169293334,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

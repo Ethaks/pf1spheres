@@ -3,7 +3,11 @@
   "name": "Surging Triumph",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your power enables you to achieve even greater effects while in Aristeia.</p>\n<p><strong>Benefit:</strong> The maximum number of hero points you may have at a time increases by 1. When you enter Aristeia, you gain a single hero point. This hero point is expended automatically when you leave Aristeia, and cannot be used with the Heroic Perseverance feat. When you enter Aristeia level 3 or higher, you instead gain two hero points which are expended when you leave.</p>\n<p><strong>Special:</strong> This feat counts as Hero&#8217;s Fortune for the purpose of meeting prerequisites.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897990,
+    "modifiedTime": 1663169295782,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

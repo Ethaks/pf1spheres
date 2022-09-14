@@ -3,7 +3,15 @@
   "name": "Soul Sunder",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Open Hand sphere, Mystic Fists, base attack bonus +15.</p>\n<p>When making an attack action with an unarmed strike, you may expend your martial focus. Any creature struck must make a Will save or become ethereal for 1 round per point of base attack bonus you possess. They may attempt a new Will save each round as a full-round action to end this effect early. Once a creature has become ethereal via this talent, you may not affect them with it again for 24 hours, though other creatures may use it on them normally. This is a supernatural effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885650,
+    "modifiedTime": 1663169291593,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

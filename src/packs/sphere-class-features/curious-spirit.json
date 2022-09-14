@@ -3,7 +3,11 @@
   "name": "Curious Spirit",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 4th level, the soul weaver may expend one soul to commune with the spirit world, allowing her to speak with and question the ancestral dead. This allows her to attempt a single Knowledge check, even if untrained, and with an insight bonus equal to her soul weaver level + her casting ability modifier. This may be used to reroll a Knowledge check the soul weaver had previously failed, but no more than once per question. If the soul weaver is touching a body that has been dead for no longer than 1 day per level, she may summon and speak with that body&#8217;s spirit for up to 1 minute per caster level, which retains all knowledge it had in life but is under no obligation to talk or answer any questions.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900991,
+    "modifiedTime": 1663169297201,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

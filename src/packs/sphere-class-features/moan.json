@@ -3,7 +3,11 @@
   "name": "Moan",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>As a standard action, the wraith may emit an unearthly moan, allowing the wraith to attempt an Intimidate check to demoralize all hostile creatures within 30 feet. If using Spheres of Might, the wraith instead may choose to gain the Gladiator sphere or a talent from that sphere if it is already possessed. If using this option, this wraith haunt may be taken more than once, granting an additional talent from the Gladiator sphere each time.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168901016,
+    "modifiedTime": 1663169297222,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

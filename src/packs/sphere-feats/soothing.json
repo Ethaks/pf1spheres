@@ -3,7 +3,11 @@
   "name": "Soothing",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefits:</strong> While using the soothing purr, you and allies within your purring aura gain a +2 bonus on saving throws made against pain effects. This bonus also applies on skill checks, saving throws, and ability checks made against an ongoing effect, but not the initial check to avoid the effect (such as a saving throw to stop being on fire or a Strength check to break out of an icy prison spell).</p>\n<p><strong>Powerful Purring:</strong> Whenever a creature benefiting from the soothing purr would receive healing, increase the healing received by half your character level. This increased healing has no effect on effects such as fast healing, regeneration, and other similar effects.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897974,
+    "modifiedTime": 1663169295769,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Possessive Companion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Conjuration sphere (Channel Companion), caster level 10th.</p>\n<p>You may spend 2 additional spell points to summon a companion such that it appears possessing a creature within range of your summon. This functions as if the companion were summoned into you, save that it is summoned into the creature of your choice. The possessed creature is allowed a Will save against your Conjuration sphere DC to prevent possession. On a successful saving throw, your companion is not summoned.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891730,
+    "modifiedTime": 1663169293893,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

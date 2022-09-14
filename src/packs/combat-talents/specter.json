@@ -3,7 +3,15 @@
   "name": "Specter",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "berserker"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You close in on foes with an unnerving alacrity. You must expend martial focus each round you start berserking to use this talent. At the start of your turn, you may designate one foe within 20 feet that is not adjacent to you, increasing by +5 feet for every 4 points of base attack bonus you possess. Your movement does not provoke attacks of opportunity from that foe as long as you end your movement adjacent to that foe. In addition, you gain a +2 dodge bonus to your AC against all attacks of opportunity that you provoke, not just against those that are caused when you move out of or within a threatened area, increasing by +1 for every 4 points of base attack bonus you possess.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "berserker"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887954,
+    "modifiedTime": 1663169292355,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

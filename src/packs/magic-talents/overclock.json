@@ -3,7 +3,15 @@
   "name": "Overclock",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Blood sphere (Control Oxygenation (quicken, still)), caster level 18th.</p>\n<p>When using the (quicken) option of Control Oxygenation, you may spend three additional spell points to grant the target an additional standard action each round for a number of rounds equal to its Constitution modifier (minimum 1 round) or until your blood control ends, whichever comes first. In any round the target uses this extra action it takes 1d4 Constitution burn. This damage increases to 1d6 if the target is fatigued and to 1d8 if the target is exhausted. The target is exhausted at the end of this effect. This additional standard action cannot be used to cast a spell or sphere effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "blood"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894354,
+    "modifiedTime": 1663169294838,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

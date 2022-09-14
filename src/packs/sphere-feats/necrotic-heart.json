@@ -3,7 +3,11 @@
   "name": "Necrotic Heart",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your body is sustained by necromantic power.</p>\n<p><strong>Prerequisite:</strong> Death sphere.</p>\n<p><strong>Benefit:</strong> As an immediate action, you may add your Charisma modifier as a bonus to a single Fortitude saving throw. If you would already add your Charisma modifier to the saving throw, you instead gain a bonus to the saving throw equal to the number of necrosis feats you possess.</p>\n<p><strong>Four Necrosis Feats:</strong> You always add your Charisma modifier (or number of necrosis feats) as a bonus to Fortitude saving throws. Once per day as an immediate action, when you would be reduced to 0 or fewer hit points, you may spend a spell point to gain temporary hit points equal to your Hit Dice times your Charisma modifier. These temporary hit points last for one minute.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897722,
+    "modifiedTime": 1663169295582,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,11 @@
   "name": "Improving",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Enhancement sphere.</p>\n<p><strong>Benefits:</strong> Whenever you begin using the improving purr, choose one enhance sphere effect you or your equipment are currently under the effects of. While using the improving purr, whenever an ally begins their turn within your purring aura, that ally gains the benefits of the chosen enhance sphere effect for 1 round.</p>\n<p>If the chosen enhance sphere effect would target a piece of equipment, that ally must choose which piece of equipment under their possession is enhanced; an enhance effect shared this way must be able to target that creature or held piece of equipment normally (such as sharing the Enhance Equipment (enhance) with an ally&#8217;s natural attack requires you to possess the Natural Enhancement talent). The chosen enhance sphere effect&#8217;s duration is not extended by this ability; you may not use the improving purr if you are not benefiting from an enhance sphere effect.</p>\n<p><strong>Powerful Purring:</strong> Whenever a creature benefits from the improving purr, that creature retains the benefits of the chosen enhance talent for an additional round.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897612,
+    "modifiedTime": 1663169295518,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

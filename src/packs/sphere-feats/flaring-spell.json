@@ -3,7 +3,11 @@
   "name": "Flaring Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> The electricity, fire, or light effects of the affected talent create a flaring light that dazzles creatures that take damage from the talent. A flaring talent causes a creature that takes fire or electricity damage from the affected talent to become dazzled for a number of rounds equal 1/2 the caster level of the spell (minimum 1 round). A flaring metamagic effect only affects talents with a fire, light, or electricity descriptor that deal damage.</p>\n<p><strong>Cost:</strong> +1 spell point</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897970,
+    "modifiedTime": 1663169295765,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

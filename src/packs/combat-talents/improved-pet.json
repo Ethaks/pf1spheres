@@ -3,7 +3,15 @@
   "name": "Improved Pet",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "beastmastery"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Beastmastery sphere; Beastmastery sphere (Pet) or ability to acquire a new familiar, compatible alignment, sufficiently high level (see details).</p>\n<p><strong>Benefit:</strong> You may grant your familiar all the normal benefits of being a familiar, as the wizard&#8217;s arcane bond option (including type, Intelligence bonus, and special abilities), but doing so incurs the normal replacement cost should your familiar die. In addition, when choosing a familiar, you may choose from the creatures available through the Improved Familiar feat (Pathfinder RPG Core Rulebook). Your effective arcane spellcaster level must be sufficiently high enough to choose a familiar with this talent. You may choose a familiar up to one step away on each alignment axis (lawful through chaotic, good through evil).</p>\n<p>An improved familiar is otherwise treated as a regular familiar and always counts as an animal ally, with two exceptions: if the creature&#8217;s type is something other than animal, its type does not change to magical beast, and improved familiars do not gain the ability to speak with other creatures of their kind (although many of them already have the ability to communicate).</p>\n<p><strong>Associated Feat:</strong> Improved Familiar.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "beastmastery"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887416,
+    "modifiedTime": 1663169292033,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Inspired Surge",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Casting class feature.</p>\n<p><strong>Benefit:</strong> When casting a sphere effect, you may increase the wild magic chance by 100% to add a single talent that you do not possess from one of the effect&#8217;s base spheres to the effect. For every 5 wild magic feats you possess, increase the number of talents gained this way by +1. You must still meet any prerequisites that the talents possesses. When gaining multiple talents with this feat, you may use a talent gained this way as a prerequisite for other gained talents.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897652,
+    "modifiedTime": 1663169295541,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

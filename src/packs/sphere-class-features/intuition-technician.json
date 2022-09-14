@@ -3,7 +3,11 @@
   "name": "Intuition (Technician)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The technician has learned to trust his gut as much as calculations, and to have faith in wisdom and meditation as well as science.</p>\n<p>He gains a pool of intuition points equal to 1 + his Wisdom modifier (minimum: 1). These intuition points refresh after roughly 8 hours of rest. A technician may spend 1 point of intuition as part of any skill check or ability check to add 1d6 to that roll. He may spend 2 points as part of an attack roll or saving throw to also gain this bonus. The decision to spend intuition must be made before the d20 is rolled. Intuition can only be used once on any individual roll.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900386,
+    "modifiedTime": 1663169296523,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

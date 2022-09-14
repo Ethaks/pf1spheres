@@ -3,7 +3,11 @@
   "name": "Iron Palm",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Shield sphere, Improved Unarmed Strike.</p>\n<p><strong>Benefit:</strong> As long as you have one hand free, your free hand is considered to be a shield for the purposes of using active defense and talents that augment active defense. Talents that require you to be wielding a shield or have a shield equipped such as Deflecting Shield, Hardened Shield and Shield Skate do not gain the benefits of this talent.</p>\n<p>Additionally, the talents you possess within the Shield sphere count towards your unarmed damage progression.</p>\n<p><strong>Author's Note:</strong> This feat does not allow you to perform shield bashes with a free hand or unarmed strike.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897695,
+    "modifiedTime": 1663169295565,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

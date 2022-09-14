@@ -3,7 +3,11 @@
   "name": "Channel Luck",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Channel energy.</p>\n<p><strong>Benefit:</strong> When you channel energy, you may spend a kismet point to grant all creatures affected a luck bonus (if they were healed) or a luck penalty (if they were harmed and failed their save) to their next saving throw equal to the number of dice of your channel energy ability. This bonus lasts at most 1 minute for each die of your channel energy ability.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898162,
+    "modifiedTime": 1663169295898,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

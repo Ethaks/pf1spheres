@@ -3,7 +3,15 @@
   "name": "Berserking",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "berserker"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a free action at the start of each turn, you may choose to take a -2 penalty to AC in exchange for 3 temporary hit points. The penalty and the temporary hit points end at the start of your next turn. For every point of base attack bonus you have, the granted temporary hit points increase by 1.</p>\n<p>See Adrenaline talents, below, for alternative benefits to gaining temporary hit points while berserking.</p>\n<p><sup><strong>Wiki Note:</strong> Temporary hit points from different sources stack. This means you can use Berserking and still benefit from other sources of temporary hit points.</sup></p>\n<h2 id=\"toc1\"><span><span style=\"color: #993300\">Brutal Strike</span></span></h2>\n<p>As a special attack action, you may make a melee attack against a target. Creatures damaged by a brutal strike gain the battered condition until the end of your next turn. You may expend martial focus to have the attack deal additional damage equal to twice your base attack bonus.</p>\n<p>Each brutal strike may be modified by a single (exertion) talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "berserker"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885568,
+    "modifiedTime": 1663169291566,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Realmwalker Adept",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Your experiences and travels help you gain new insights in terrains, surviving their natural dangers and navigating with greater ease.</p>\n<p><strong>Prerequisites:</strong> Knowledge (planes) 3 ranks, Survival 3 ranks.</p>\n<p><strong>Benefit:</strong> You always know what plane you are currently on as though you succeeded on a DC 15 Knowledge (planes) check to recognize the current plane.</p>\n<p>You may take 1 hour to attune to the current plane you are on, selecting it as your favored plane. Attuning to the current plane is a purely mental action. You gain a +2 bonus on initiative checks and Knowledge (planes), Perception, Stealth, and Survival checks made while on your favored plane. In addition, you gain a +2 bonus on ability checks, saving throws, and skill checks made against the planar traits and conditions of your favored plane (such as planar hazards, checks made against gravity, weather, etc.).</p>\n<p><strong>Special:</strong> If you possess favored terrain, as the ranger class ability, the bonuses from this feat stack with any favored terrain bonus you possess. While not on the material plane (or an equivalent), you may treat your favored plane as your favored terrain for any abilities or effects which require you to be in your favored terrain.</p>\n<p><strong>Note:</strong> This feat can be used to attune to an area with planar traits not native to the plane, such as attuning to a pocket of the material plane with fire-dominant traits.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897843,
+    "modifiedTime": 1663169295673,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

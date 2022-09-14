@@ -3,7 +3,15 @@
   "name": "Steal Capacity",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to apply an enhancement to a creature, rendering it incapable of performing some action it normally could. This can be used to rob the character of the power of speech, or some other form of communication it possesses, such as telepathy, writing, or performing sign language.</p>\n<p>This can also be used to rob a target of one of its special movement speeds, such as flight or burrow; if the creature in question has a natural flight speed, they glide safely to the ground. This cannot be used to rob a target of its base land speed, nor of its only movement speed (for example, robbing an air elemental of its fly speed).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "enhancement"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893098,
+    "modifiedTime": 1663169294526,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

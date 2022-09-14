@@ -3,7 +3,11 @@
   "name": "Mystic Choreography",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Enhancement sphere; at least one of the Skilled Casting, Somatic Casting, or Verbal Casting drawbacks; Circle Casting, Spell Proxy.</p>\n<p><strong>Benefit:</strong> Whenever you use a sphere ability, any creature currently under the effects of Create Proxy may take an immediate action to perform one of your required components for you. As long as that creature meets the criteria for the drawback in question, you may ignore it for the purposes of that sphere ability. Regardless of whether or not this attempt is successful, the Create Proxy effect ends immediately.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897982,
+    "modifiedTime": 1663169295775,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

@@ -3,7 +3,15 @@
   "name": "Specialized Venom",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alchemy"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You select 1 creature type (or subtype) from the ranger favored enemy list; your poisons may affect creatures of that type even if they would normally be immune to poison (or ignore any racial bonuses they may possess to saving throws against poison). For every 4 ranks in Craft (alchemy) you possess, you may select another creature type (or subtype).</p>\n<p><sup><strong>Clarification:</strong> This is intended to work on creature types that are normally immune to poison, such as constructs. That includes allowing Specialized Venoms to bypass constructs' immunity to effects requiring Fortitude saves on top of their immunity to poisons. This does not inherently bypass other immunities, such as immunity to fatigue.</sup></p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alchemy"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886072,
+    "modifiedTime": 1663169291747,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

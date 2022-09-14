@@ -3,7 +3,11 @@
   "name": "Totemic Stamina",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> War sphere, Combat Stamina.</p>\n<p><strong>Benefit:</strong> When you create a totem or mandate, you may spend a stamina point each round to maintain it as a free action. You are still considered concentrating and can have your concentration disrupted as usual. You may maintain multiple effects this way. You can not recover the stamina points spent while the totem or mandate maintained this way remains in effect.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897587,
+    "modifiedTime": 1663169295507,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

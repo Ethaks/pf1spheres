@@ -3,7 +3,11 @@
   "name": "Capture Spell",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Caster level 1st.</p>\n<p><strong>Benefits:</strong> A character who possesses this feat can create scrolls. In addition to ritual scrolls (which function the same as scrolls from the core Pathfinder Roleplaying Game), they can create scrolls using the talent-based item creation system. Scrolls have the same requirements for deciphering and activating as core Pathfinder scrolls, and a creature must possess a scroll&#8217;s base sphere, or else must activate the scroll through the Use Magic Device skill.</p>\n<p>A scroll has a base cost of 25 gp x caster level x complexity.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897641,
+    "modifiedTime": 1663169295535,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

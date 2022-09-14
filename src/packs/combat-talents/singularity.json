@@ -3,7 +3,15 @@
   "name": "Singularity",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/guardian.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "guardian"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Guardian sphere, base attack bonus +5.</p>\n<p>At the start of their turns, hostile creatures within the area of your patrol must succeed on a Fortitude save or be moved 5 ft. closer to you, though stop when they become adjacent. This movement does not provoke attacks of opportunity. Hostile creatures within the area of your patrol count every square of movement directed away from you as two squares when determining their movement for the round. This stacks with the effects of difficult terrain. At +10 base attack bonus, the distance moved toward you and the additional cost of movement away from you increases by 5 ft. This is a supernatural effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "guardian"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885919,
+    "modifiedTime": 1663169291743,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

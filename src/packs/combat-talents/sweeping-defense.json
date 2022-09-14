@@ -3,7 +3,15 @@
   "name": "Sweeping Defense",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/guardian.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "guardian"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When making an attack action, you may grant yourself a -2 penalty on all attack rolls until the beginning of your next turn to cause your attack action to deal damage to multiple targets. Choose one target that is adjacent to your primary target and also within your reach, and compare your attack roll to the AC of both targets. If your attack roll exceeds either target&#8217;s AC (including the primary target), that target suffers half damage from your attack. The additional target is not subject to non-damage parts of your attack action, such as additional effects granted by feats or talents. Additionally, all targets damaged by your Sweeping Defence suffer a -2 penalty to all attack rolls until the start of your next turn.</p>\n<p>At +10 base attack bonus, this penalty increases to -4 and you may target up to three adjacent targets with sweeping defense.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "guardian"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887922,
+    "modifiedTime": 1663169292326,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

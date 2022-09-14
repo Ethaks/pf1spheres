@@ -3,7 +3,15 @@
   "name": "Sensory Overload",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "divination"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point and target a creature you can see within range; instead of gaining information, you instead flood all of its senses (and temporarily granting senses that it does not normally have) to overload it with information. The target cannot take any actions, not even walking, and is considered flat-footed. When first casting Sensory Overload and at the end of each round that you continue to concentrate on the effect, the targeted creature takes your caster level in nonlethal damage (Fortitude negates), and may attempt to end Sensory Overload with a Will save. Creatures that are mindless are particularly vulnerable to this effect and take a -2 penalty on their saves.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "divination"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890520,
+    "modifiedTime": 1663169293350,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

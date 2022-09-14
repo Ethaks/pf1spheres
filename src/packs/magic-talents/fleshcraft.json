@@ -3,7 +3,15 @@
   "name": "Fleshcraft",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (any (material) talent), caster level 10th.</p>\n<p>You may create and alter flesh as you would other materials. While you may craft from flesh (hardness 0, 2 hit points per inch) and bone (hardness 5, 10 hit points per inch) as you might any other material, this also means you can create the body of a creature. Created bodies are not alive, and you must attempt a Disguise check if attempting to create a copy of a specific individual. You may also alter a body, although you must spend an additional spell point to alter a living creature (Fortitude negates). You may create a permanent body through the Create Materials talent.</p>\n<p>If used in conjunction with the Change Material talent to affect a living creature, this does not kill the target; however, they do not appear to be alive for effects that would detect such things, and they may be injured as any other object. When returned to normal the creature is still alive (provided they were not destroyed in this alternate form), but any injuries or deformities gained in their altered state carry over to their original forms.</p>\n<p>If you possess the Forge talent, you may sculpt a creature&#8217;s body in one of the following ways:</p>\n<ul>\n<li>You can remove or restore an arm, leg, or tail. While technically you can add a limb to a creature that was not missing one, these extra limbs are too weak to hold things or be used to attack.</li>\n<li>You may remove or restore a sense: sight, hearing, touch, taste, or smell.</li>\n<li>You may attack the target&#8217;s body, dealing 2d6 Constitution damage.</li>\n<li>If you possess the Fabricate advanced talent, you may change a creature&#8217;s appearance permanently. You attempt a Disguise check if mimicking a specific creature.</li>\n</ul>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892741,
+    "modifiedTime": 1663169294321,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

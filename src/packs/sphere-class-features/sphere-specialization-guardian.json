@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Guardian)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Increased Toughness (Ex):</strong> At 3rd level, a conscript gains 3 hit points. At every following level, he gains an additional hit point; these hit points stack with those granted by the Toughness feat.</p>\n<p><strong>Increase Defense (Ex):</strong> At 8th level, the amount of damage which can be redirected to his delayed damage pool increases to 4 x his base attack bonus. If the conscript also has the Greater Delayed Damage talent, these bonuses stack.</p>\n<p><strong>Calculated Resistance (Ex):</strong> At 20th level, a conscript can choose to not empty their pooled damage from the Guardian sphere for up to 5 rounds, although if the pooled damage reaches its maximum limit at any point, it immediately empties. Any healing the conscript receives also removes an equal amount of damage from their pooled damage.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900188,
+    "modifiedTime": 1663169296334,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

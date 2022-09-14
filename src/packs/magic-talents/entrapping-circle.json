@@ -3,7 +3,15 @@
   "name": "Entrapping Circle",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Conjuration sphere (Call Planar Creature (advanced)).</p>\n<p>By spending 2 spell points as a standard action, you may select a creature within close range which you could call using Call Planar Creature. That creature must succeed at a Will save or become trapped as if it had been called using Call Planar Creature. Creatures trapped in this way are always considered hostile and may be contained or bargained with as normal. If you possess the Diagram advanced talent, you may spend an additional spell point to apply its effects to a trap created using this talent without spending any additional time.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892153,
+    "modifiedTime": 1663169293957,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

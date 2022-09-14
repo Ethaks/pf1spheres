@@ -3,7 +3,15 @@
   "name": "Flash",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/light.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "light"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may choose to apply the effects of (light) talents at any point during your turn as a free action instead of only at the end of your turn. You may still only apply the effects of (light) talents once per round.</p>\n<p>As a swift action you may spend a spell point to apply the effects of a (light) talent an additional time in a single round. This additional application may be activated separately from any other application of your (light) talents. This allows your (light) talent to affect a different area if the glow has moved or the area of its light has changed, but does not let you affect any given area or creature more than once per round.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "light"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893089,
+    "modifiedTime": 1663169294519,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

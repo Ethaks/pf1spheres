@@ -3,7 +3,15 @@
   "name": "Mass Blood Magic",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When using a blood art, blood control, or a (quicken) or (still) ability, you may spend an additional spell point to affect an additional 1 creature per 2 caster levels (minimum 1) at the same time. Each target must be within range and must be affected by the same effect. For a casting that initiates blood control, this additional cost is only incurred once; it is not paid a second time for the free (quicken) or (still) ability. Once created, each blood control is considered a separate sphere effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "blood"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894482,
+    "modifiedTime": 1663169294940,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

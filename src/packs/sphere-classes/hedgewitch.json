@@ -3,7 +3,15 @@
   "name": "Hedgewitch",
   "type": "class",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "casterProgression": "mid"
+    }
+  },
+  "system": {
     "description": {
       "value": "The hedgewitch is a student dabbling in whatever arts interest them the most. Versatile and independent, they often have more tricks up their sleeves than opponents expect, and there’s few problems they cannot help resolve.\n<p><strong>Role:</strong> Hedgewitches can fill virtually any role, depending on their selection of spheres and paths.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The hedgewitch&#8217;s class skills are Appraise (Int), Bluff (Cha), Craft (Int), Diplomacy (Cha), Fly (Dex), Handle Animal (Cha), Heal (Wis), Knowledge (arcana) (Int), Linguistics (Int), Perform (Cha), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Stealth (Dex), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 6 + Int modifier</p>\n",
       "chat": "",
@@ -26,8 +34,7 @@
           "name": "Weapon and Armor Proficiency (Hedgewitch)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0,
-          "hiddenLinks": {}
+          "_index": 0
         },
         {
           "id": "pf1spheres.class-features.3ZDcZpn9FklYe2zT",
@@ -35,8 +42,7 @@
           "name": "Casting (Hedgewitch)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1,
-          "hiddenLinks": {}
+          "_index": 1
         },
         {
           "id": "pf1spheres.class-features.SXDjyi3rTiYprWZJ",
@@ -44,8 +50,7 @@
           "name": "Spell Pool (Hedgewitch)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2,
-          "hiddenLinks": {}
+          "_index": 2
         },
         {
           "id": "pf1spheres.class-features.dpLTPfGdO6vV4UMH",
@@ -53,8 +58,7 @@
           "name": "Magic Talents (Hedgewitch)",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 3,
-          "hiddenLinks": {}
+          "_index": 3
         },
         {
           "id": "pf1spheres.class-features.XXfvwx9IqUru7rYt",
@@ -62,8 +66,7 @@
           "name": "Paths",
           "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 4,
-          "hiddenLinks": {}
+          "_index": 4
         },
         {
           "id": "pf1spheres.class-features.3ImSP5BeFGTFYWWy",
@@ -71,8 +74,7 @@
           "name": "Secret",
           "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 5,
-          "hiddenLinks": {}
+          "_index": 5
         },
         {
           "id": "pf1spheres.class-features.GS7AJlV94uUJzgCH",
@@ -80,12 +82,11 @@
           "name": "Grand Secrets",
           "img": "icons/svg/item-bag.svg",
           "level": 10,
-          "_index": 6,
-          "hiddenLinks": {}
+          "_index": 6
         }
       ]
     },
-    "tag": "",
+    "tag": "hedgewitch",
     "useCustomTag": false,
     "armorProf": {
       "value": [],
@@ -176,17 +177,18 @@
     "identifiedName": "Hedgewitch",
     "range": {
       "maxIncrements": 1
-    }
+    },
+    "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "casterProgression": "mid"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168899456,
+    "modifiedTime": 1663169295985,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

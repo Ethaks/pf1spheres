@@ -3,7 +3,11 @@
   "name": "Magical Focus",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Enhancement sphere; Focus Casting drawback or Galvanized drawback.</p>\n<p><strong>Benefit:</strong> Whenever you enhance your focus or a weapon you are wielding with Galvanized Casting, you may choose to have the effect continue without concentration without spending a spell point. This feat only applies to the spell point spent to relinquish concentration. If another feat, talent, or class feature grants you the ability to spend more spell points when relinquishing concentration to improve the effects, you still need to spend the additional spell points to gain those benefits.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897943,
+    "modifiedTime": 1663169295744,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

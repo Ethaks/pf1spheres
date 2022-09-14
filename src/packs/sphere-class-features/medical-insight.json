@@ -3,7 +3,11 @@
   "name": "Medical Insight",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The technician may create a gadget that heals a target within his natural reach for a number of hit points equal to 1d8 + his technician level. At 5th level and every four levels thereafter, this gadget heals for an additional 1d8. The technician may also create a gadget that empowers a willing target within his natural reach. That target gains a +2 alchemical bonus to Strength, Dexterity, and Constitution for 1 minute per technician level.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900183,
+    "modifiedTime": 1663169296325,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

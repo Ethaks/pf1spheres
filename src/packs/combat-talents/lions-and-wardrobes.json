@@ -3,7 +3,15 @@
   "name": "Lions And Wardrobes",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/beastmastery.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "beastmastery"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Disguise 1 rank, Beastmastery sphere ((handle animal) package).</p>\n<p>You may use Handle Animal to teach an animal a unique trick:</p>\n<p><strong>Civilized (DC 20):</strong> The companion can commingle with humanoid society, and is able to behave autonomously and appropriately in complex social situations, such as bowing to a monarch when appropriate, attending a dinner party, or generally behaving like a polite person in any given scenario. This is not intelligence, it is simply learned mannerisms that conveniently allow an animal to react to both simple and complex social situations, and react appropriately to questions and conversations as though it understood languages the handler possessed at the time they taught the animal this trick.</p>\n<p>In addition, when attempting a Disguise check to alter an animal&#8217;s appearance, the Disguise check takes no penalties due to different gender, race, age, or size category. Disguising an animal in this way may be as simple as putting a hat on a bear to applying full makeup and costumery to a salamander. An animal disguised this way does not automatically draw attention to itself, though it may draw suspicion if it does not behave appropriately to a situation. You may substitute your Handle Animal bonus in place of your Disguise bonus when attempting this check.</p>\n<p><strong>Example:</strong> A bear disguised as a human noble and taught the Civilized trick could attend a nobleman&#8217;s dinner party, not draw suspicion to itself while disguised as a noble, and even engage in basic social etiquette.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "beastmastery"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885433,
+    "modifiedTime": 1663169291483,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

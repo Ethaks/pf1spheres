@@ -3,7 +3,15 @@
   "name": "Wildfire",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/nature.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "nature"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Nature sphere ((fire) package, Ranged Geomancy [range] x2), caster level 5th.</p>\n<p>When using affect fire, you may spend 3 spell points to send forth a burst of heat that targets everything within a radius of 1000 feet + 100 feet per caster level. Creatures and objects caught within the radius of effect are dealt fire damage equal to the largest fire you can create and catch fire (if they are flammable, such as trees or cloth). A successful Reflex save halves the damage and negates catching fire.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "nature"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893568,
+    "modifiedTime": 1663169294581,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

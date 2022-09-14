@@ -3,7 +3,15 @@
   "name": "Shadow Talents",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/dark.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "dark"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Talents with the (shadow) tag manipulate a target&#8217;s own shadow directly, without manifesting an area of darkness at all. Unless otherwise indicated, a (shadow) talent may be applied to a target within medium range as a standard action. Only one (shadow) talent may be applied to any one target at a time, and an unwilling target is allowed a Will save to negate a shadow. The duration of each shadow is specified in its description. If a shadow can be maintained through concentration, you must remain within your shadow range of the target to do so.</p>\n<p>Shadows function normally within areas of glows, neither suppressing nor being suppressed by areas of glows simply by entering them. If a glow and shadow are cast directly upon the same target, however, the caster of the second effect must attempt a magic skill check against the MSD of the first effect&#8217;s caster. If the check succeeds, the second effect functions normally and the first effect is suppressed. Time spent suppressed counts against the duration of the effect in either case.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "dark"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892650,
+    "modifiedTime": 1663169294215,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

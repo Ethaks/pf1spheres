@@ -3,7 +3,15 @@
   "name": "Repel Chaos/Evil/Good/Law",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may create a ward that repels creatures of one end of the alignment spectrum (chaotic, evil, good, lawful), chosen by you when this ward is created. All creatures of that alignment cannot cross the edge of this ward unless they succeed at a Will save. Once a creature has succeeded at this Will save, they may cross the barrier without trouble and are immune to your Repel ward for 24 hours. If a creature is already within this warded area when it is created, or if the ward is moved into their space, they instantly become immune to the ward, as if they had succeeded at their saving throw. You cannot repel an alignment that you yourself possess.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892300,
+    "modifiedTime": 1663169293979,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

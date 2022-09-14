@@ -3,7 +3,15 @@
   "name": "State Shift",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "creation"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (Change Material (alter)), caster level 10th.</p>\n<p>When using Change Material, you may turn gases, liquids, and solids into either of the other two states. If you have Plasma Production you may also convert matter into a plasma and vice versa. This is a magical effect and the change in form itself has no additional effect on the condition of the target object, dealing no damage to it. When turning a solid into a liquid or gas the resultant object disperses as normal, but recombines when the effect ends and in the same location unless its component parts have been collected and moved elsewhere. If all pieces of an object are not present, the object still regrows from the largest remaining piece.</p>\n<p>If a magical object is converted into a new form, its magical properties cannot be used unless they are still applicable to its new state of matter.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "creation"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892599,
+    "modifiedTime": 1663169294182,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

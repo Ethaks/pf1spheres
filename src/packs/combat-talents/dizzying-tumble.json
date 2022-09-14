@@ -3,7 +3,15 @@
   "name": "Dizzying Tumble",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/athletics.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "athletics"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your rapid spins and twists leave a creatures reeling. As long as you move no more than your base speed, when you exit a square adjacent to a hostile creature, that creature must succeed on a Will save or be sickened for one round. If you move no more than half your base speed, they are instead nauseated for 1 round on a failed save; this talent cannot be used with the 5-foot step action. You may not nauseate an individual creature with this talent more than once per hour.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "athletics"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168885417,
+    "modifiedTime": 1663169291465,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Tentacles",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "alteration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may add the following traits to your forms:</p>\n<p><strong>Constrict:</strong> The target gains the constrict universal monster ability, and deals 1d6 damage Medium (1d4 Small) + the target&#8217;s Strength modifier on every successful grapple check.</p>\n<p><strong>Grab:</strong> Choose one natural attack the target possesses. That natural attack gains the grab universal monster ability. You may grant this trait once per natural attack.</p>\n<p><strong>Tentacle Attack:</strong> (secondary 1d4 Medium, 1d3 Small) You may grant this trait multiple times. The effects stack.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "alteration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893118,
+    "modifiedTime": 1663169294544,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

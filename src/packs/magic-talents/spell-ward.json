@@ -3,7 +3,15 @@
   "name": "Spell Ward",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to create a ward that represses all magic within its area of effect. Attempt one magic skill check against each magical effect, magic item, or summoned creature within the area. Magic items have a MSD of 10 + their caster level. If your check exceeds the MSD of the magical effect, item, or caster who summoned the creature, the effect is suppressed, the magic item ceases to function, or the summoned creature temporarily disappears. Time spent suppressed counts toward a magical effect&#8217;s total duration. Any caster attempting to use a magical ability in or targeted within this area, or any summoned creature attempting to enter this area, must attempt a magic skill check against your MSD. On a success, the magical effect is unimpeded, and the summoned creature is not banished by that Spell Ward. This counts as an antimagic field for effects that interact with them.</p>\n<p>You may also spend 2 spell points instead of 1 to create an aegis that grants the target spell resistance equal to 10 + your caster level.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890372,
+    "modifiedTime": 1663169293238,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Guillotine",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/trap.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "trap"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Craft (traps) 10 ranks, Trap sphere.</p>\n<p>A creature that fails its Reflex save to avoid this snare suffers the effects of a called shot on a limb chosen when you create the snare (this excludes any body parts which would normally have a &#8220;challenging&#8221; penalty). If the creature failed their Reflex saving throw, that creature must also succeed at a Fortitude saving throw or suffer the critical called shot penalties on the determined limb in place of the normal penalties.</p>\n<p><strong>Note:</strong> This talent requires the called shot optional rule from Ultimate Combat.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "trap"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887896,
+    "modifiedTime": 1663169292309,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

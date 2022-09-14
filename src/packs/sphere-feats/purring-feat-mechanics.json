@@ -3,7 +3,11 @@
   "name": "Purring Feat Mechanics",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>A character with a purring feat gains the ability to purr, granting certain effects depending on the purring being used. Purring is an extraordinary ability which does not provoke attacks of opportunity.</p>\n<p>Purring is a physical action and may be performed so long as the character is not paralyzed or otherwise incapable of taking physical actions. Purring is conveyed by both touch and sound and is therefore not suppressed by silence and functions normally for a deafened creature. Purring does not interfere with a character&#8217;s normal capabilities (e.g. purring does not interfere with a character using Stealth to hide or the character&#8217;s ability to speak).</p>\n<p>A character with a purring feat may begin purring as a swift action, and may maintain their purring each round as a free action. Switching to a new purring requires a new swift action, including switching to the same purring but with a different selection. Only a single purring effect may be used at a time. There is no limit to how long a character can purr each day. While purring, the purring character gains an aura with a 5-foot radius, granting the benefits of each purring feat in use to each valid creature, including the purring character.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897871,
+    "modifiedTime": 1663169295689,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

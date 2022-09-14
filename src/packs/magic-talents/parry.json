@@ -3,7 +3,15 @@
   "name": "Parry",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may use the Catch function of telekinesis to block attacks with melee weapons, though they retain their hold on their weapon even if you successfully block their attack. However, if you possess the Steal talent as well, you may immediately use it on that weapon as part of a successful Catch. Your telekinesis must be specially tuned towards the task, so when you ready an action to Catch (or when you spend a spell point on the catch field option of the Quick Reactions talent, if you possess it) you must specify whether your telekinesis can intercept melee or ranged attacks.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168893088,
+    "modifiedTime": 1663169294517,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

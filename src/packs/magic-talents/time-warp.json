@@ -3,7 +3,15 @@
   "name": "Time Warp",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/warp.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "warp"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Time sphere, Warp sphere (Distant Teleport, True Teleport (advanced), Unseeing Teleport), caster level 20th.</p>\n<p>You may spend 5 spell points to teleport to a point backwards or forwards in time, up to 100 years per caster level, appearing at that point in time at a location of your choice within your teleport range, as though using True Teleport.</p>\n<p>To see how accurate the teleportation is, consult Table: Mishap found on True Teleport. Your familiarity with the destination time is relative, and knowledge of the destination time may be determined by succeeding on a DC 30 Knowledge (history) check. Succeeding on this check means the caster is treated as the destination time as having been &#8220;viewed once&#8221;, and for every 5 you exceed the DC, you are treated as having an additional step of familiarity with the destination time and location.</p>\n<p>A &#8220;false destination&#8221; result when using this talent would be teleporting to a nonexistent location at a specific point in time, such as a mythical city that does not exist. This talent is otherwise modified normally by Warp sphere talents. For example, possessing Mass Teleport allows you to teleport to a point in time with other creatures.</p>\n<p><strong>Note:</strong> Time travel is complex. For example, a caster who interacts with the past and returns to their own time may not return to their own original timeline, but instead a parallel universe branching from actions and changes which occurred when the caster interacts with the past. Such changes are ultimately up to GM discretion, and incorporating time travel, whether traveling into the past or future, should be done with caution.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "warp"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890524,
+    "modifiedTime": 1663169293353,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

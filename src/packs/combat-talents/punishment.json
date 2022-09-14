@@ -3,7 +3,15 @@
   "name": "Punishment",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/guardian.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "guardian"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Guardian sphere, base attack bonus +5.</p>\n<p>When you deal damage to a creature while you have damage in your delayed damage pool, you may spend an immediate action to expend your martial focus and deal damage equal to the damage in your delayed damage pool to the target creature. If you possess the Cold Iron Call or Durable talents, you may also inflict any effects you are postponing with those abilities. If the effect allowed a save, the target may make a save immediately at the original DC.</p>\n<p>A successful Fortitude save reduces the amount of damage inflicted by this talent by half and negates the infliction of any effects.</p>\n<p><strong>Wiki Note:</strong> Adjusted for clarity.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "guardian"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168886071,
+    "modifiedTime": 1663169291745,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

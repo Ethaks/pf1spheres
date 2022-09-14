@@ -3,7 +3,15 @@
   "name": "Blazing Skin",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "weather"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When a creature bearing your mantle is in an area of Heat of severity level 3 or higher, and is struck by a metal melee weapon, natural attack, unarmed strike, or touch attack, the attacker takes 1d4 fire damage. They may spend an immediate action to increase the damage by an additional die. For each category above hot, the die increases one step (from 1d4 to 1d6), to a maximum of 1d12 at boiling.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "weather"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890418,
+    "modifiedTime": 1663169293262,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

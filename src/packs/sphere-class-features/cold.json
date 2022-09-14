@@ -3,7 +3,11 @@
   "name": "Cold",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The commander is an expert at fighting and leading warriors on icy glaciers and across snowy tundras. When fighting or traveling in such terrain, the commander and any ally affected by one of his tactics or shouts are not impeded by ice effects (Pathfinder Core Rulebook, Cold Dangers), are immune to nonlethal damage caused by cold exposure, do not take a penalty to ranged attacks or Perception checks when fighting in snow, and take only the standard penalties for snow when fighting in heavy snow.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900211,
+    "modifiedTime": 1663169296357,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

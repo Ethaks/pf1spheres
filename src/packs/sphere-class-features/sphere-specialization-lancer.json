@@ -3,7 +3,11 @@
   "name": "Sphere Specialization (Lancer)",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Impaling Adept (Ex):</strong> At 3rd level, a conscript no longer takes an attack penalty when attempting to impale a creature.</p>\n<p><strong>Impaling Professional (Ex):</strong> At 8th level, as long as a conscript is impaling a creature, that creature cannot take a swift action.</p>\n<p><strong>Impaling Monster (Ex):</strong> At 20th level, a conscript can attempt to impale a creature with any attack he makes, and the impaled creature cannot take a move action or expend their martial focus.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900462,
+    "modifiedTime": 1663169296603,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

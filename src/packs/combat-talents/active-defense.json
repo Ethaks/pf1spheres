@@ -3,7 +3,15 @@
   "name": "Active Defense",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/shield.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "shield"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>If you are using a shield and you are attacked by a creature you are aware of while not flat-footed, you may spend an attack of opportunity to increase your shield bonus to AC against that attack by +2. This decision must be made before the roll is made. For every 4 points of base attack bonus you possess, the increase to your shield bonus provided by this talent increases by 1. Talents with the (deflect) tag grant additional effects to this ability. Each use of active defense may only benefit from one (deflect) talent. You may expend your martial focus to use active defense in place of spending an attack of opportunity.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "shield"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888190,
+    "modifiedTime": 1663169292779,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,15 @@
   "name": "Puppet (Telekinesis)",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere (Finesse, Telekinetic Maneuver), caster level 10th.</p>\n<p>When you lift a creature with your telekinesis you may spend a spell point to take precise control over their physical form. You can force them to run, jump, manipulate objects, and wield weapons, but you cannot force them to use special abilities such as spells that are not a function of bodily movement, and cannot take control of their vocal cords, though you can prevent them from making sounds. If you force the subject to engage in combat, use an attack bonus equal to your base attack plus your casting ability modifier, and substitute your casting ability modifier for any ability modifiers on damage rolls. In addition, substitute your casting ability modifier for the subject&#8217;s Dexterity modifier when determining armor class. When performing actions that would require a skill check, use your skill ranks plus your casting ability modifier for the check.</p>\n<p>Since the subject is only under your physical control, on their turn they can still take purely mental actions. You must use Hostile Lift to affect an unwilling creature, and they are allowed the normal Will saves to negate the effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894052,
+    "modifiedTime": 1663169294623,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Improved Blood Control",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 8th level, the crimson dancer&#8217;s magic becomes even stronger upon bleeding foes. When attempting to establish blood control with the Blood sphere, creatures with less than half their maximum hit points suffer a -6 penalty to their save, rather than a -4 penalty. Additionally, the crimson dancer can concentrate on blood control with only a move action, but still requires a standard action to establish it. Each round when she would concentrate on her blood control, she can spend 4 points of vitae to instead concentrate as a swift action, rather than a move action.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900212,
+    "modifiedTime": 1663169296358,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

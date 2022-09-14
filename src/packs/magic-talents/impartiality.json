@@ -3,7 +3,15 @@
   "name": "Impartiality",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "protection"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Creatures within this ward or bearing this aegis are treated as having no alignment for all magical effects. Effects that detect alignment (such as the Divine Alignment alternate divination from the Divination sphere) do not detect the creature or creatures protected, while those that affect certain alignments have no effect on protected creatures at all. This does not allow a creature to disguise their alignment - they appear as an absence of alignment.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "protection"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894074,
+    "modifiedTime": 1663169294640,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

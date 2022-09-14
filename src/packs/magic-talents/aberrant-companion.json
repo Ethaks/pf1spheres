@@ -3,7 +3,15 @@
   "name": "Aberrant Companion",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/conjuration.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "conjuration"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>Your companion is of this plane but not of this world. The companion gains the aberration creature type. The companion gains darkvision out to 60 feet and low-light vision. The companion gains a +1 bonus to saves vs. divination and compulsion effects, +1 per 5 Hit Dice as well as a +1 bonus to CMB and CMD +1 per 5 Hit Dice.</p>\n<p>You may take this talent twice. If taken twice, your companion&#8217;s bonuses improve to +1 saves vs. divination and compulsion effects +1 per 3 Hit Dice and +1 bonus to CMB and CMD +1 per 3 Hit Dice. In addition, the companion gains all-around vision.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "conjuration"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894882,
+    "modifiedTime": 1663169295157,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

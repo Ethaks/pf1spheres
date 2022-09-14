@@ -3,7 +3,11 @@
   "name": "Persuasive",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>An eliciter&#8217;s empathic abilities gives him greater insights into the workings of the mind and makes his words (both magical and mundane) harder to resist. An eliciter gains a +2 bonus to the DCs of his Mind sphere abilities and eliciter class features, as well as Bluff, Diplomacy, and Intimidate checks. These bonuses increase to +3 at 6th level, +4 at 12th level, and +5 at 18th level.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900464,
+    "modifiedTime": 1663169296604,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

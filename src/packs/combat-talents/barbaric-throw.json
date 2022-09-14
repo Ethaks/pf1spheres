@@ -3,7 +3,15 @@
   "name": "Barbaric Throw",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "berserker"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can use brutal strike with thrown weapons. Additionally, throwing two-handed weapons no longer takes a full-round action, instead taking the same time as any other thrown weapon attack. When you expend your martial focus as part of a brutal strike, you can treat any melee weapon wielded by you that you&#8217;re proficient with as a thrown weapon with a range increment of 10 feet for that action. <strong>Associated Feats:</strong> Throw Anything, Two-Handed Thrower</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "berserker"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887520,
+    "modifiedTime": 1663169292084,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

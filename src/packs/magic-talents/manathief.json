@@ -3,7 +3,15 @@
   "name": "Manathief",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "mana"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Mana sphere, caster level 1st.</p>\n<p>As an expunge, you may attempt to drain the target&#8217;s spell points rather than merely burn it, however doing so limits your destructive potential. On a successful magic skill check, the target loses a single spell point and you gain a real spell point. You may not gain more spellpoints than the target loses. For every 5 caster levels you possess, the number of spell points drained increases by 1. Attempting to drain the spell points of creatures with less than half your magic skill bonus results in no spell points being drained.</p>\n<p>Additionally, when using the Flow talent, you gain real spell points from a creature while using the sap ability rather than temporary spell points.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "mana"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892675,
+    "modifiedTime": 1663169294250,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -3,7 +3,11 @@
   "name": "Deathless Challenge",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 8th level, as long as the sentinel has an active challenge, whenever her hit points are 0 or lower but she is not dead, she automatically stabilizes and can act as though she was disabled instead of dying. While disabled, she is not staggered, although she still takes 1 damage for making a standard action. The sentinel adds her Wisdom score to her Constitution when determining her death threshold, even while not making a challenge.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "ex",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900668,
+    "modifiedTime": 1663169296770,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

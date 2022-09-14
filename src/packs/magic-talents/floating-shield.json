@@ -3,7 +3,15 @@
   "name": "Floating Shield",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/telekinesis.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "telekinesis"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>When using your telekinesis to lift a shield, you may apply its shield bonus to the armor class of anything in its square, though this does not stack with any shield bonus they already possess. A shield sustained with Sustained Force still grants its shield bonus, and may be directed to follow a given individual or target. If you possess the Orbit talent, you may choose a single shield in orbit of you and add its shield bonus to your armor class. If you possess the Dancing Weapon talent, you may apply shield related feats and combat talents (such as Shield Focus) to any shield you are lifting.</p>\n<p><strong>Author's Note:</strong> The floating shield talent does not count as wielding a shield for any purpose, positive or negative (including ACP, maximum Dexterity, etc, but also magical qualities). This means it can grant a shield bonus to someone benefiting from the monk's AC bonus class feature without penalizing them, but also cannot be used as a shield to perform shield bashes, utilize most abilities from the Shield sphere, etc.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "telekinesis"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168894377,
+    "modifiedTime": 1663169294930,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

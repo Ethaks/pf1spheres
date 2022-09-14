@@ -3,7 +3,15 @@
   "name": "Slick",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/blood.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "blood"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may choose to have creatures under the effects of your blood control and suffering from bleed damage take a penalty to CMD against bull rush, disarm, drag, reposition, overrun, and trip attempts equal to 2 + 1 per 5 caster levels. Starting and ending this effect is a free action.</p>\n<p>As a (quicken) ability, you may force a creature under the effects of your blood control and suffering from bleed damage to succeed at a Reflex save or fall prone any time they move more than half their speed until they are no longer under your blood control or stop taking bleed damage. If you spend a spell point, any creature that enters a space that the bleeding creature has exited in the last 1 round per caster level must also succeed at a Reflex save or fall prone.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "blood"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891105,
+    "modifiedTime": 1663169293648,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

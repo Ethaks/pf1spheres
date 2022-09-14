@@ -3,7 +3,11 @@
   "name": "Intense Defiling",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>You enlarge the area of your despoilation to amplify its effects.</p>\n<p><strong>Prerequisite:</strong> Terrain Casting drawback.</p>\n<p><strong>Benefit:</strong> Whenever you blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may extend the radius of area corrupted by 5 feet + 5 feet for every 5 caster levels you possess. If you do, increase the DC of the blighting effect by 1. If you possess any feats that force saving throws from creatures in the blighted area (such as Agonizing Defiling), you increase their DC by the same amount.</p>\n<p><strong>Four Defiler Feats:</strong> The DC is increased by 2 rather than 1.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897565,
+    "modifiedTime": 1663169295494,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

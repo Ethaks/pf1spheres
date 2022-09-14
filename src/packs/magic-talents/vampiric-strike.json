@@ -3,7 +3,15 @@
   "name": "Vampiric Strike",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You may spend a spell point to make a ghost strike that deals 1d6 damage per 2 caster levels to the target (minimum 1d6) and grants yourself an equal number of temporary hit points that last 1 minute per caster level (Fortitude half). You cannot gain more temporary hit points in this manner than the subject&#8217;s current hit points + their Constitution score. If you strike multiple targets at once with the same vampiric strike (for example, through the Mass Death Magic talent) you cannot gain more temporary hit points than 3 per caster level (minimum 6).</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "death"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168891129,
+    "modifiedTime": 1663169293661,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

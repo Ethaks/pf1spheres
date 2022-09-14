@@ -3,7 +3,11 @@
   "name": "Scatter Blast",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>The sage may spend a ki point when making a ki blast attack to treat his ki blast as a scatter weapon for 1 round; while this effect is active his ki blast attacks target all creatures within a 15 ft. cone, making a separate attack roll against each creature within the cone. Each attack roll takes a &#8211;2 penalty, and its attack damage cannot be modified by precision damage or damage-increasing feats. Effects that grant concealment, such as fog or smoke, or the blur, invisibility, or mirror image spells, do not foil a scatter attack. If any of the attack rolls threaten a critical, confirm the critical for that attack roll alone. At 6th level and every 6 levels thereafter, the size of the scatter cone increases by an additional 10 ft., though the sage may always choose to forego these increases when making a scatter attack.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900738,
+    "modifiedTime": 1663169296829,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

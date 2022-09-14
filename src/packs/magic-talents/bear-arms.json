@@ -3,7 +3,15 @@
   "name": "Bear Arms",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "bear"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a swift action, you may grow up to two bite attacks in place of up to two hands you possess, one per hand, until the end of your turn. This is a polymorph effect, but can be added on top of other polymorph effects and does not override them.</p>\n<p>These hands become incapable of holding objects or weapons while they are replaced with bite attacks. You are considered armed while in possession of these bite attacks. You may spend a spell point when activating this ability to cause the bite attacks to remain until the end of the bear spirit.</p>\n<p>The granted bite attacks count as both unarmed strikes and natural weapons, and deal 1d6 damage for a Medium creature. For every 5 caster levels you possess, increase the damage die size by 1 step.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "bear"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168890467,
+    "modifiedTime": 1663169293309,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

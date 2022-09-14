@@ -3,7 +3,15 @@
   "name": "Enhance",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "enhancement"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>As a standard action, you may enhance a creature or object within close range for as long as you concentrate. You may always spend a spell point to allow an enhancement to continue for 1 minute per caster level without concentration. If targeting a creature or intelligent item that does not want to be enhanced (or an item in a creature&#8217;s possession that does not want their item enhanced), the target is allowed a Will save (DC 10 + 1/2 caster level + casting ability modifier) to negate the effect. Enhancements are subject to spell resistance.</p>\n<p>Each time you use enhance, you choose one enhancement to bestow. When you gain the Enhancement sphere, you gain the following enhancement:</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "enhancement"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892716,
+    "modifiedTime": 1663169294303,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

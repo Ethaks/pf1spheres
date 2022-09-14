@@ -3,7 +3,15 @@
   "name": "Dreadnought",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "berserker"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You are inevitable. You gain a +1 bonus on saving throws and to your CMD against effects that would slow or impair your movement (such as entangled, grappled, paralyzed, staggered, or other similar effects), increasing by +1 for every 4 base attack bonus you possess. Whenever you would attempt a save against an effect that would slow or immobilize you, you may roll twice, taking the better result.</p>\n<p>In addition, once per round, you may expend martial focus as an immediate action to attempt a save against an effect which has slowed or impaired your movement, or make a combat maneuver or other appropriate check to escape a grapple, Lancer impale, or other similar effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "berserker"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887861,
+    "modifiedTime": 1663169292278,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

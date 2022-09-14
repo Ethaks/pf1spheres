@@ -3,7 +3,15 @@
   "name": "Final Judgement",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/open_hand.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "openHand"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Open Hand sphere, base attack bonus +20.</p>\n<p>Whenever you kill a creature with an unarmed strike, that creature&#8217;s soul is trapped inside of your fists for up to 1 week. While it is inside of your fists, you can communicate with it normally and can influence its nature, being able to change its alignment by 1 step two times unless it has an alignment subtype (you could change a creature from chaotic evil to neutral (chaotic to neutral and evil to neutral) or chaotic good (evil to neutral and neutral to good)). An unwilling soul may attempt a Will save to resist each attempt to change its alignment. You can also choose to resurrect that creature with a full-round action as though using the Resurrection Life sphere talent, inflicting 2 temporary negative levels onto the creature in the process. You cannot affect the same creature more than once a year with this talent.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "openHand"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888207,
+    "modifiedTime": 1663169292797,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

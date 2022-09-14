@@ -3,7 +3,11 @@
   "name": "Conscript Weapon Training",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>Starting at 6th level, the conscript gain a +1 bonus on weapon attack and damage rolls with all weapons from a single fighter weapon training group of his choice. This bonus increases by +1 at 10th level and every four levels thereafter. This counts as, and does not stack with, the fighter&#8217;s weapon training class feature.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900150,
+    "modifiedTime": 1663169296302,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

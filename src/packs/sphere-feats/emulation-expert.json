@@ -3,7 +3,11 @@
   "name": "Emulation Expert",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Illusion sphere (Manipulate Aura (sensory, magic)); Illusion sphere (Shadow Infusion) or shadow pool; Shadow Magic or create reality class feature.</p>\n<p><strong>Benefit:</strong> When using the Shadow Magic feat or create reality class feature to duplicate effects from another sphere, you may spend a shadow point to treat the effect as both from the Illusion sphere and the sphere it is mimicking. This allows you to apply bonuses from items, class features, talents or feats that benefit that sphere as well as the Illusion sphere.</p>\n<p>This feat does not allow you to apply the caster level bonus from staves for two different spheres. For example, when using create reality or Shadow Magic to produce a destructive blast, you may apply Destruction talents you possess and apply the caster level bonus from either a staff of Destruction or Illusion, apply bonus damage from elementalist energy specialization class feature and treat both your fey adept and elementalist levels as full caster levels for calculating the caster level.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168897981,
+    "modifiedTime": 1663169295773,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

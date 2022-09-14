@@ -3,7 +3,11 @@
   "name": "Imbued Weapon",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>As a swift action, the mageknight may spend a spell point to charge a weapon she is holding with magical energy for a number of minutes equal to her casting ability modifier. While the weapon is charged, the mageknight may add her casting ability modifier instead of her Dexterity or Strength modifier to attack rolls and damage rolls with this weapon.</p>\n<p>If the weapon is a melee weapon, she may use the weapon as a thrown weapon with an increment of 20 feet. The weapon keeps its own damage and critical hit characteristics, and is not considered an improvised weapon.</p>\n<p>When an imbued weapon is used as a thrown weapon, the weapon teleports back to her hand at the end of her turn, or the beginning of her next turn if used outside her turn. When an imbued weapon is a ranged weapon, then making ranged attacks with the weapon does not draw attacks of opportunity.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "su",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900715,
+    "modifiedTime": 1663169296808,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

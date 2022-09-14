@@ -3,7 +3,15 @@
   "name": "Corpse Manipulation",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "death"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You can alter a corpse in one of the following ways by touching it as a standard action:</p>\n<ul>\n<li>You grow flesh on a decomposed or skeletonized corpse, providing it with sufficient flesh that it can be animated as a zombie rather than a skeleton. The corpse looks as it did just before death. The new flesh is not fit for eating.</li>\n<li>You decompose the flesh from a corpse, leaving behind a perfectly cleaned skeleton.</li>\n<li>You can spend a spell point to touch a collapsed or destroyed undead corpse, mending it so it is a valid target to be reanimated again.</li>\n<li>You can spend a spell point to preserve the remains of a dead creature for 1 day per caster level so that they do not decay. Doing so effectively extends the time limit on raising that creature from the dead. Days spent under the influence of this spell do not count against the time limit. Additionally, this makes transporting a slain (and thus decaying) comrade less unpleasant. This ability also works on severed body parts and the like.</li>\n<li>You can reshape the dead body to look like another creature or even a specific person so long as you have firsthand knowledge of how that creature or person actually looks. You can make the corpse one size larger or smaller or change its apparent type, gender, or age. Attempt a Disguise check to determine how convincing the change is, though you may substitute your caster level for ranks in Disguise if desired.</li>\n</ul>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "death"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168892677,
+    "modifiedTime": 1663169294255,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

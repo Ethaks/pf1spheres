@@ -3,7 +3,11 @@
   "name": "Telekinetic Edge",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p>At 6th level, the symbiat may push their own body or the body of a single willing ally with their telekinetics, making it effectively stronger and faster than it otherwise could be. The symbiat may affect an additional target at 9th level and every 3 levels thereafter, to a maximum of 5 targets at 18th level. Affected targets gain a +2 bonus to attack rolls and damage rolls and a +2 dodge bonus to AC. All affected targets must remain within 60 feet of the symbiat to retain these benefits.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168900109,
+    "modifiedTime": 1663169296252,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

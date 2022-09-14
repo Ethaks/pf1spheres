@@ -3,7 +3,15 @@
   "name": "Steal Charm",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "scoundrel"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Scoundrel sphere.</p>\n<p>When performing a steal combat maneuver, rather than steal an item, you may expend your martial focus to steal their Charisma. If successful, the creature suffers a -4 penalty on all Charisma-based skill checks for 10 minutes. They are unaware of this penalty. For every 4 ranks in Sleight of Hand you possess, this penalty increases by -2. When you have at least 10 ranks in Sleight of Hand, this penalty lasts for one hour. This is a supernatural effect.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "scoundrel"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168887945,
+    "modifiedTime": 1663169292348,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }

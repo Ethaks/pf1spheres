@@ -3,7 +3,11 @@
   "name": "Prepared Diagram",
   "type": "feat",
   "img": "icons/svg/item-bag.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Diagram Magic.</p>\n<p><strong>Benefit:</strong> Choose one sphere of magic. For that sphere of magic you can prepare a reusable, portable diagram on a wearable or holdable items (such as a glove, tattoo, ring, or holy symbol) that you (and only you) can use to cast that sphere of magic without having to make a larger diagram for it beforehand. If the diagram is lost, torn, or disrupted, the caster must create a new diagram by spending 8 hours to jot it down on another re-usable item. You can instead create the portable diagram in a minute by making a concentration check (DC 20 + your magic skill bonus).</p>\n<p>When casting spells through your prepared diagram, you receive a +1 competence bonus to saving throw DCs for all abilities from that sphere. The bonus from this feat does not stack with Sphere Focus, but counts as possessing Sphere Focus with the selected sphere for the purpose of meeting prerequisites.</p>\n<p><strong>Special:</strong> You may select this feat multiple times. Each time you do select another sphere. You may create a separate prepared diagram for that sphere.</p>\n",
       "chat": "",
@@ -56,11 +60,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -128,11 +132,15 @@
     "soundEffect": "",
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {}
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168898199,
+    "modifiedTime": 1663169295919,
+    "lastModifiedBy": "pf1spheres-db"
+  }
 }

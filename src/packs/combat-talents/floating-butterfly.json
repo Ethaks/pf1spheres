@@ -3,7 +3,15 @@
   "name": "Floating Butterfly",
   "type": "feat",
   "img": "modules/pf1spheres/assets/icons/spheres/boxing.webp",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf1spheres": {
+      "sphere": "boxing"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>While in this stance, whenever you ready a counter punch, you may choose to forgo the competence bonus to your counter punch&#8217;s damage roll in order to gain a dodge bonus to AC equal to half the bonus damage until the beginning of your next turn. Additionally, whenever you are targeted with a melee attack while benefiting from this dodge bonus, you may expend an attack of opportunity to make a 5-foot step immediately after the attack resolves.</p>\n",
       "chat": "",
@@ -56,11 +64,11 @@
       "classes": []
     },
     "showInQuickbar": false,
-    "nonlethal": false,
     "abilityType": "none",
     "crOffset": "",
     "disabled": false,
     "classSkills": {},
+    "nonlethal": false,
     "activation": {
       "cost": 1,
       "type": ""
@@ -133,15 +141,15 @@
     },
     "size": "med"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
+  "ownership": {
     "default": 0
   },
-  "flags": {
-    "pf1spheres": {
-      "sphere": "boxing"
-    }
+  "_stats": {
+    "systemId": "pf1",
+    "systemVersion": "0.82.2",
+    "coreVersion": "10.285",
+    "createdTime": 1663168888168,
+    "modifiedTime": 1663169292755,
+    "lastModifiedBy": "pf1spheres-db"
   }
 }
