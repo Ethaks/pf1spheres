@@ -77,6 +77,7 @@ export function setup() {
       buffTargets: {},
       stackingBonusModifiers: [],
       abilities: { int: "Intelligence" },
+      bonusModifiers: {},
     },
   };
 

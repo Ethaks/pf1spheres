@@ -76,8 +76,14 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
       total: actor.system.spheres?.[attribute].total ?? 0,
       label: localize(attribute.toLocaleUpperCase() as Uppercase<typeof attribute>),
       path: `@spheres.${attribute}.total`,
-      sources: actor.sourceDetails[`system.spheres.${attribute}.total` as const],
-      cappedSources: actor.sourceDetails[`system.spheres.${attribute}.modCap` as const] ?? [],
+      sources: (actor.sourceDetails[`system.spheres.${attribute}.total` as const] ?? []).filter(
+        (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+      ),
+      cappedSources: (
+        actor.sourceDetails[`system.spheres.${attribute}.modCap` as const] ?? []
+      ).filter(
+        (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+      ),
       rollable: ["msb"].includes(attribute) ? "rollable" : "",
     })
   );
@@ -112,7 +118,9 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
     total: actor.system.attributes.bab.total,
     label: localize("PF1.BABAbbr"),
     path: `@attributes.bab.total`,
-    sources: actor.sourceDetails["system.attributes.bab.total"],
+    sources: (actor.sourceDetails["system.attributes.bab.total"] ?? []).filter(
+      (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+    ),
     cappedSources: [],
     rollable: "",
   });
@@ -296,8 +304,12 @@ const getSphereClSources =
     const sphereSources = actor.sourceDetails[`system.spheres.cl.${sphere}.total` as const] ?? [];
     const cappedSources = actor.sourceDetails[`system.spheres.cl.${sphere}.modCap` as const] ?? [];
     return {
-      sources: [...baseSources, ...sphereSources],
-      cappedSources: [...cappedBaseSources, ...cappedSources],
+      sources: [...baseSources, ...sphereSources].filter(
+        (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+      ),
+      cappedSources: [...cappedBaseSources, ...cappedSources].filter(
+        (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+      ),
     };
   };
 
@@ -306,8 +318,12 @@ const getSphereBabSources = (actor: ActorPF) => (sphere: CombatSphere) => {
   const sphereSources = actor.sourceDetails[`system.spheres.bab.${sphere}.total` as const] ?? [];
   const cappedSources = actor.sourceDetails[`system.spheres.bab.${sphere}.modCap` as const] ?? [];
   return {
-    sources: [...baseSources, ...sphereSources],
-    cappedSources,
+    sources: [...baseSources, ...sphereSources].filter(
+      (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+    ),
+    cappedSources: cappedSources.filter(
+      (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+    ),
   };
 };
 

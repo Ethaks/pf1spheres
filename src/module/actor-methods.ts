@@ -43,9 +43,9 @@ const rollMsb =
     const allowed = Hooks.call("actorRoll", actor, "msb", null, options);
     if (allowed === false) return;
 
-    const parts = actor.sourceDetails["system.spheres.msb.total"].map(
-      (info) => `${info.value}[${info.name}]`
-    );
+    const parts = actor.sourceDetails["system.spheres.msb.total"]
+      .filter((info) => !(info.name in CONFIG.PF1.bonusModifiers)) // TODO: Remove when Changes can opt out of sourceInfo
+      .map((info) => `${info.value}[${info.name}]`);
 
     const rollData = actor.getRollData();
     const noteObjects = getMsbNotes(actor)();
@@ -81,9 +81,9 @@ const rollConcentration =
     const allowed = Hooks.call("actorRoll", actor, "concentration", null, options);
     if (allowed === false) return;
 
-    const parts = actor.sourceDetails["system.spheres.concentration.total"].map(
-      (info) => `${info.value}[${info.name}]`
-    );
+    const parts = actor.sourceDetails["system.spheres.concentration.total"]
+      .filter((info) => !(info.name in CONFIG.PF1.bonusModifiers)) // TODO: Remove when Changes can opt out of sourceInfo
+      .map((info) => `${info.value}[${info.name}]`);
 
     const rollData = actor.getRollData();
     const noteObjects = getConcentrationNotes(actor)();
