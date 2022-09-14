@@ -38,15 +38,15 @@ describe("Actor#spheres#rollMsb", () => {
   test("with default parameters rolls a ChatMessage", async () => {
     actor.sourceDetails["system.spheres.msb.total"] = [{ value: 1, name: "Base" }];
 
-    const hookSpy = vi.spyOn(Hooks, "call").mockImplementation(() => true);
+    const callHookSpy = vi.spyOn(Hooks, "call").mockImplementation(() => true);
+    // @ts-expect-error Only for tests
+    // eslint-disable-next-line @typescript-eslint/no-empty-function
+    const callAllHookSpy = vi.spyOn(Hooks, "callAll").mockImplementation(() => {});
     const d20RollSpy = vi.spyOn(pf1.dice, "d20Roll");
 
-    await actor.spheres.rollMsb();
+    const result = await actor.spheres.rollMsb();
 
-    expect(hookSpy).toHaveBeenCalledOnce();
-    expect(hookSpy).toHaveBeenCalledWith("actorRoll", actor, "msb", null, {});
-    expect(d20RollSpy).toHaveBeenCalledOnce();
-    expect(d20RollSpy).toHaveBeenCalledWith({
+    const rollOptions = {
       skipDialog: undefined,
       parts: ["1[Base]"],
       rollData: actor.system,
@@ -54,7 +54,14 @@ describe("Actor#spheres#rollMsb", () => {
       speaker: {},
       subject: { pf1spheres: "msb" },
       chatTemplateData: { hasProperties: false, properties: [] },
-    });
+    };
+
+    expect(callHookSpy).toHaveBeenCalledOnce();
+    expect(callHookSpy).toHaveBeenCalledWith("pf1spheresPreActorRollMsb", actor, rollOptions);
+    expect(d20RollSpy).toHaveBeenCalledOnce();
+    expect(d20RollSpy).toHaveBeenCalledWith(rollOptions);
+    expect(callAllHookSpy).toHaveBeenCalledOnce();
+    expect(callAllHookSpy).toHaveBeenCalledWith("pf1spheresActorRollMsb", actor, result);
   });
 
   test("should not work without owner permissions", async () => {
@@ -83,15 +90,15 @@ describe("Actor#spheres#rollConcentration", () => {
       { value: 2, name: "Buff" },
     ];
 
-    const hookSpy = vi.spyOn(Hooks, "call").mockImplementation(() => true);
+    const callHookSpy = vi.spyOn(Hooks, "call").mockImplementation(() => true);
+    // @ts-expect-error Only for tests
+    // eslint-disable-next-line @typescript-eslint/no-empty-function
+    const callAllhookSpy = vi.spyOn(Hooks, "callAll").mockImplementation(() => {});
     const d20RollSpy = vi.spyOn(pf1.dice, "d20Roll");
 
-    await actor.spheres.rollConcentration();
+    const result = await actor.spheres.rollConcentration();
 
-    expect(hookSpy).toHaveBeenCalledOnce();
-    expect(hookSpy).toHaveBeenCalledWith("actorRoll", actor, "concentration", null, {});
-    expect(d20RollSpy).toHaveBeenCalledOnce();
-    expect(d20RollSpy).toHaveBeenCalledWith({
+    const rollOptions = {
       skipDialog: undefined,
       parts: ["1[Magic Skill Bonus]", "2[Buff]"],
       rollData: actor.system,
@@ -99,7 +106,18 @@ describe("Actor#spheres#rollConcentration", () => {
       speaker: {},
       subject: { pf1spheres: "concentration" },
       chatTemplateData: { hasProperties: false, properties: [] },
-    });
+    };
+
+    expect(callHookSpy).toHaveBeenCalledOnce();
+    expect(callHookSpy).toHaveBeenCalledWith(
+      "pf1spheresPreActorRollConcentration",
+      actor,
+      rollOptions
+    );
+    expect(d20RollSpy).toHaveBeenCalledOnce();
+    expect(d20RollSpy).toHaveBeenCalledWith(rollOptions);
+    expect(callAllhookSpy).toHaveBeenCalledOnce();
+    expect(callAllhookSpy).toHaveBeenCalledWith("pf1spheresActorRollConcentration", actor, result);
   });
 
   test("should not work without owner permissions", async () => {

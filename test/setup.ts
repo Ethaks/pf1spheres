@@ -62,6 +62,8 @@ export function setup() {
   (global as any).Hooks = class {
     // eslint-disable-next-line @typescript-eslint/no-empty-function
     static call() {}
+    // eslint-disable-next-line @typescript-eslint/no-empty-function
+    static callAll() {}
   };
 
   (global as any).ui = {};
