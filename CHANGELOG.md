@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.4.0...v0.5.0) (2022-09-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove `actorRoll` hooks provided by the module
+* increase minimum system version
+
+### Features
+
+* add `pf1spheresPreSetup` hook and deprecate `pf1spheres.preSetup` ([7a0a074](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/7a0a074f04330388b438170390894889013f9fdd))
+* update actor roll hooks to PF1 v0.82.2 format ([a4ef245](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/a4ef245ad1f678b64aaef2f0c1c7a1aba1d236ff))
+
+
+### Bug Fixes
+
+* remove duplicate sources for concentration and battered changes ([d50d0b0](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/d50d0b01ed48737326e968c4a6e2d45b1ad41881))
+* remove duplicated sources for concentration and MSB rolls ([0e1c4c3](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/0e1c4c36a973364ce645b93772b0d5ea0ab511e7))
+* respect user settings for dialog skipping ([91c4360](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/91c4360a935bef1240d0e9262b321b9119bf3bbb))
+
+
+* increase minimum system version ([74d2624](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/74d2624502716e978cc0ac5651045ea8f4591102))
+
 ## [0.4.0](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.3.1...v0.4.0) (2022-09-11)
 
 
