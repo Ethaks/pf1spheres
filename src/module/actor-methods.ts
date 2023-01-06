@@ -3,6 +3,17 @@
  *
  * SPDX-License-Identifier: EUPL-1.2
  */
+/**
+ * This namespace contains all functions added to an actor's `spheres` property,
+ * where they act like regular methods available on the actor.
+ *
+ * @example Rolling a Magic Skill Check
+ * ```js
+ * const actor = game.actors.get("some-actor-id");
+ * await actor.spheres.rollMsb();
+ * ```
+ * @module
+ */
 
 import type { ActorPF } from "./actor-data";
 import type { ItemPF } from "./item-data";
@@ -31,12 +42,9 @@ declare global {
        * @group Actor Rolls
        * @remarks Called by {@link Hooks.callAll}
        * @param actor - The actor that rolled the Magic Skill Check
-       * @param result - The resulting {@link ChatMessage} or it source data
+       * @param result - The resulting {@link ChatMessage} or its source data
        */
-      pf1spheresActorRollMsb(
-        actor: ActorPF,
-        result: ChatMessage | ChatMessageDataSource | void
-      ): void;
+      pf1spheresActorRollMsb(actor: ActorPF, result: ActorRollResult): void;
 
       /**
        * A hook event fired by the module when an actor rolls a Spheres Concentration check.
@@ -55,129 +63,137 @@ declare global {
        * @group Actor Rolls
        * @remarks Called by {@link Hooks.callAll}
        * @param actor - The actor that rolled the Spheres Concentration check
-       * @param result - The resulting {@link ChatMessage} or it source data
+       * @param result - The resulting {@link ChatMessage} or its source data
        */
-      pf1spheresActorRollConcentration(
-        actor: ActorPF,
-        result: ChatMessage | ChatMessageDataSource | void
-      ): void;
+      pf1spheresActorRollConcentration(actor: ActorPF, result: ActorRollResult): void;
     }
   }
 }
 
-type ActorRollMethod = (
-  options?: ActorRollOptions
-) => Promise<ChatMessage | ChatMessage["data"]["_source"] | void>;
+/**
+ * The result of calling one of an actor's roll functions.
+ * It can be a
+ *  - {@link ChatMessage} if the roll was executed, and `chatMessage` is `true`
+ *  - {@link ChatMessageDataSource} if the roll was executed, and `chatMessage` is `false`
+ *  - `void` if the roll was not executed
+ */
+export type ActorRollResult = ChatMessage | ChatMessageDataSource | void;
 
-/** Returns an object containing method-like functions scoped to work with an actor */
+/**
+ * Returns an object containing method-like functions scoped to work with an actor
+ *
+ * @ignore
+ */
 export const getActorMethods = (actor: ActorPF) => ({
-  /** Rolls a Magic Skill check */
-  rollMsb: rollMsb(actor),
-  /** Rolls a Concentration check */
-  rollConcentration: rollConcentration(actor),
-  /** Returns an array of objects containing an item and its Magic Skill Check Context Notes, if any */
-  getMsbNotes: getMsbNotes(actor),
-  /** Returns an array of objects containing an item and its Magic Skill/Concentration Check Context Notes, if any */
-  getConcentrationNotes: getConcentrationNotes(actor),
+  rollMsb: rollMsb.bind(actor),
+  rollConcentration: rollConcentration.bind(actor),
+  // TODO: Underscore or not?
+  _getMsbNotes: _getMsbNotes.bind(actor),
+  _getConcentrationNotes: _getConcentrationNotes.bind(actor),
 });
 
-/** Returns a function that rolls a Magic Skill Check for an actor */
-const rollMsb =
-  (actor: ActorPF): ActorRollMethod =>
-  /**
-   * Rolls a Magic Skill Check
-   *
-   * @param options - Additional options affecting the roll/chat message creation
-   */
-  async (options = {}) => {
-    if (!actor.isOwner) {
-      const msg = localize("PF1.ErrorNoActorPermissionAlt", { "0": actor.name });
-      console.warn(msg);
-      return ui.notifications?.warn(msg);
-    }
+/**
+ * Rolls a Magic Skill Check
+ *
+ * @param options - Additional options affecting the roll/chat message creation
+ */
+export async function rollMsb(
+  this: ActorPF,
+  options: ActorRollOptions = {}
+): Promise<ActorRollResult> {
+  if (!this.isOwner) {
+    const msg = localize("PF1.ErrorNoActorPermissionAlt", { "0": this.name });
+    console.warn(msg);
+    return ui.notifications?.warn(msg);
+  }
 
-    const parts = actor.sourceDetails["system.spheres.msb.total"]
-      .filter((info) => !(info.name in CONFIG.PF1.bonusModifiers)) // TODO: Remove when Changes can opt out of sourceInfo
-      .map((info) => `${info.value}[${info.name}]`);
+  const parts = this.sourceDetails["system.spheres.msb.total"]
+    .filter((info) => !(info.name in CONFIG.PF1.bonusModifiers)) // TODO: Remove when Changes can opt out of sourceInfo
+    .map((info) => `${info.value}[${info.name}]`);
 
-    const rollData = actor.getRollData();
-    const noteObjects = getMsbNotes(actor)();
-    const notes = actor.formatContextNotes(noteObjects, rollData);
-    const props = notes.length > 0 ? [{ header: localize("PF1.Notes"), value: notes }] : [];
+  const rollData = this.getRollData();
+  const noteObjects = this.spheres._getMsbNotes();
+  const notes = this.formatContextNotes(noteObjects, rollData);
+  const props = notes.length > 0 ? [{ header: localize("PF1.Notes"), value: notes }] : [];
 
-    const rollOptions = {
-      ...options,
-      parts,
-      subject: { pf1spheres: "msb" },
-      rollData: actor.getRollData(),
-      flavor: localize(`Checks.MSB`),
-      speaker: ChatMessage.getSpeaker({ actor }),
-      chatTemplateData: { hasProperties: props.length > 0, properties: props },
-    };
-    if (Hooks.call("pf1spheresPreActorRollMsb", actor, rollOptions) === false) return;
-    const result = await pf1.dice.d20Roll(rollOptions);
-    Hooks.callAll("pf1spheresActorRollMsb", actor, result);
-    return result;
+  const rollOptions = {
+    ...options,
+    parts,
+    subject: { pf1spheres: "msb" },
+    rollData: this.getRollData(),
+    flavor: localize(`Checks.MSB`),
+    speaker: ChatMessage.getSpeaker({ actor: this }),
+    chatTemplateData: { hasProperties: props.length > 0, properties: props },
   };
+  if (Hooks.call("pf1spheresPreActorRollMsb", this, rollOptions) === false) return;
+  const result = await pf1.dice.d20Roll(rollOptions);
+  Hooks.callAll("pf1spheresActorRollMsb", this, result);
+  return result;
+}
 
-/** Returns a function that rolls a Concentration check for an actor */
-const rollConcentration =
-  (actor: ActorPF): ActorRollMethod =>
-  /**
-   * Rolls a Concentration check
-   *
-   * @param options - Additional options affecting the roll/chat message creation
-   */
-  async (options = {}) => {
-    if (!actor.isOwner) {
-      const msg = localize("PF1.ErrorNoActorPermissionAlt", { "0": actor.name });
-      console.warn(msg);
-      return ui.notifications?.warn(msg);
-    }
+/**
+ * Rolls a Concentration check
+ *
+ * @param options - Additional options affecting the roll/chat message creation
+ */
+export async function rollConcentration(
+  this: ActorPF,
+  options: ActorRollOptions = {}
+): Promise<ActorRollResult> {
+  if (!this.isOwner) {
+    const msg = localize("PF1.ErrorNoActorPermissionAlt", { "0": this.name });
+    console.warn(msg);
+    return ui.notifications?.warn(msg);
+  }
 
-    const parts = actor.sourceDetails["system.spheres.concentration.total"]
-      .filter((info) => !(info.name in CONFIG.PF1.bonusModifiers)) // TODO: Remove when Changes can opt out of sourceInfo
-      .map((info) => `${info.value}[${info.name}]`);
+  const parts = this.sourceDetails["system.spheres.concentration.total"]
+    .filter((info) => !(info.name in CONFIG.PF1.bonusModifiers)) // TODO: Remove when Changes can opt out of sourceInfo
+    .map((info) => `${info.value}[${info.name}]`);
 
-    const rollData = actor.getRollData();
-    const noteObjects = getConcentrationNotes(actor)();
-    const notes = actor.formatContextNotes(noteObjects, rollData);
-    const props = notes.length > 0 ? [{ header: localize("PF1.Notes"), value: notes }] : [];
+  const rollData = this.getRollData();
+  const noteObjects = this.spheres._getConcentrationNotes();
+  const notes = this.formatContextNotes(noteObjects, rollData);
+  const props = notes.length > 0 ? [{ header: localize("PF1.Notes"), value: notes }] : [];
 
-    const rollOptions = {
-      ...options,
-      parts,
-      subject: { pf1spheres: "concentration" },
-      rollData: actor.getRollData(),
-      flavor: localize("PF1.ConcentrationCheck"),
-      speaker: ChatMessage.getSpeaker({ actor }),
-      chatTemplateData: { hasProperties: props.length > 0, properties: props },
-    };
-    if (Hooks.call("pf1spheresPreActorRollConcentration", actor, rollOptions) === false) return;
-    const result = await pf1.dice.d20Roll(rollOptions);
-    Hooks.callAll("pf1spheresActorRollConcentration", actor, result);
-    return result;
+  const rollOptions = {
+    ...options,
+    parts,
+    subject: { pf1spheres: "concentration" },
+    rollData: this.getRollData(),
+    flavor: localize("PF1.ConcentrationCheck"),
+    speaker: ChatMessage.getSpeaker({ actor: this }),
+    chatTemplateData: { hasProperties: props.length > 0, properties: props },
   };
-/** Returns a function that returns an actor's Magic Skill Check Context Notes */
-const getMsbNotes =
-  (actor: ActorPF) =>
-  /** Returns an array of objects containing an item and its Magic Skill Check Context Notes, if any */
-  (): ContextNoteObject[] =>
-    actor.allNotes
-      .map((no) => ({
-        item: no.item,
-        notes: no.notes.filter((n) => n.subTarget === "msb").map((n) => n.text),
-      }))
-      .filter((no) => no.notes.length > 0);
+  if (Hooks.call("pf1spheresPreActorRollConcentration", this, rollOptions) === false) return;
+  const result = await pf1.dice.d20Roll(rollOptions);
+  Hooks.callAll("pf1spheresActorRollConcentration", this, result);
+  return result;
+}
 
-const getConcentrationNotes = (actor: ActorPF) => (): ContextNoteObject[] =>
-  [
-    ...getMsbNotes(actor)(),
-    ...actor.allNotes.map((no) => ({
+/**
+ * Returns an array of objects containing an item and its Magic Skill Check Context Notes, if any
+ */
+export function _getMsbNotes(this: ActorPF): ContextNoteObject[] {
+  return this.allNotes
+    .map((no) => ({
+      item: no.item,
+      notes: no.notes.filter((n) => n.subTarget === "msb").map((n) => n.text),
+    }))
+    .filter((no) => no.notes.length > 0);
+}
+
+/**
+ * Returns an array of objects containing an item and its Concentration Context Notes, if any
+ */
+export function _getConcentrationNotes(this: ActorPF): ContextNoteObject[] {
+  return [
+    ...this.spheres._getMsbNotes(),
+    ...this.allNotes.map((no) => ({
       item: no.item,
       notes: no.notes.filter((n) => ["concentration"].includes(n.subTarget)).map((n) => n.text),
     })),
   ].filter((no) => no.notes.length > 0);
+}
 
 interface ContextNoteObject {
   item: ItemPF;

@@ -14,6 +14,14 @@ import type { D20ActorRollOptions } from "./pf1-types/d20roll";
 export {};
 
 declare global {
+  namespace foundry {
+    namespace utils {
+      const logCompatibilityWarning: (
+        message: string,
+        options: { from: string; until: string }
+      ) => void;
+    }
+  }
   interface CONFIG {
     PF1: PF1CONFIG & typeof PF1CONFIG_EXTRA;
     PF1SPHERES: typeof PF1S;

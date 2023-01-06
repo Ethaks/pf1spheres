@@ -4,6 +4,10 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
+export class D20RollPF extends RollPF {
+  DIALOG_TEMPLATE: string;
+}
+
 export interface D20RollConstructorOptions extends RollTerm.EvaluationOptions {
   /**
    * The number on the d20 that is considered a critical success.
@@ -144,7 +148,9 @@ export interface D20ActorRollOptions
   skipDialog?: boolean;
 }
 
-export type ActorRollOptions = Omit<
-  D20ActorRollOptions,
-  "rollData" | "parts" | "subject" | "flavor" | "chatTemplateData" | "compendium" | "speaker"
->;
+/* eslint-disable @typescript-eslint/no-empty-interface */
+export interface ActorRollOptions
+  extends Omit<
+    D20ActorRollOptions,
+    "rollData" | "parts" | "subject" | "flavor" | "chatTemplateData" | "compendium" | "speaker"
+  > {}

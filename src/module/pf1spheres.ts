@@ -26,30 +26,31 @@ if (import.meta.hot) {
   import("./hmr");
 }
 
-export {};
+export * as actor from "./actor-methods";
+export { PF1S as config } from "./config";
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace Hooks {
     interface StaticCallbacks {
       /**
-       * A hook event that fires at the beginning of `pf1spheres`'s {@link Hooks.StaticCallbacks.setup} hook.
+       * A hook event that fires at the beginning of `pf1spheres`'s {@link Hooks.StaticCallbacks.setup "setup"} hook.
        * Modules wishing to add spheres should do so here, as the modules registers its Changes with the
        * system afterwards.
        *
        * @group Initialization
-       * @param config - The {@link PF1S|config} object also available globally via `CONFIG.PF1SPHERES`
+       * @param config - The {@link PF1S config} object also available globally via `CONFIG.PF1SPHERES`
        * @deprecated
        * @remarks This is called by {@link Hooks.callAll}
        */
       "pf1spheres.preSetup": (config: typeof PF1S) => void;
       /**
-       * A hook event that fires at the beginning of `pf1spheres`'s {@link Hooks.StaticCallbacks.setup} hook.
+       * A hook event that fires at the beginning of `pf1spheres`'s {@link Hooks.StaticCallbacks.setup "setup"} hook.
        * Modules wishing to add spheres should do so here, as the modules registers its Changes with the
        * system afterwards.
        *
        * @group Initialization
-       * @param config - The {@link PF1S|config} object also available globally via `CONFIG.PF1SPHERES`
+       * @param config - The {@link PF1S config} object also available globally via `CONFIG.PF1SPHERES`
        * @remarks This is called by {@link Hooks.callAll}
        */
       pf1spheresPreSetup: (config: typeof PF1S) => void;
@@ -136,7 +137,6 @@ Hooks.once("setup", () => {
   // Call hook to allow modules to add spheres
   // @ts-expect-error v9 types do not include v10 Hooks property
   if (Hooks.events["pf1spheres.preSetup"]?.length) {
-    // @ts-expect-error v9 types do not include v10 function
     foundry.utils.logCompatibilityWarning(
       "The 'pf1spheres.preSetup' hook has been deprecated. Please use 'pf1spheresPreSetup' instead.",
       {
