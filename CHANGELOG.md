@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.1](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.5.0...v0.5.1) (2023-01-06)
+
+
+### Bug Fixes
+
+* fix spheres tab in actor sheets not being rendered ([5cead7e](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/5cead7e7d580f528aba95603fc4d41b0d6b50435))
+
 ## [0.5.0](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.4.0...v0.5.0) (2022-09-15)
 
 
