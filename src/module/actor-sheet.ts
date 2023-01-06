@@ -229,7 +229,7 @@ const getTalentTemplateData = (item: ItemPF): TalentTemplateData => ({
   name: item.name ?? "",
   tags: item.system.tags.flat(),
   hasAction: item.hasAction,
-  activationType: item.labels.activation,
+  activationType: item.getLabels().activation,
 });
 
 interface TalentTemplateData {

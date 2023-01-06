@@ -35,7 +35,7 @@ export declare class ItemPF extends Item {
   isActive: boolean;
   changes: Collection<ItemChange>;
   hasAction: boolean;
-  labels: {
+  getLabels(): {
     activation: string;
   };
 
