@@ -61,6 +61,19 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
 
   // Base Caster Level after fractional BAB check
   sphereData.cl.base = useFractionalBAB ? Math.floor(casterLevel) : casterLevel;
+
+  // Talent counts
+  for (const talent of actor.items.filter(
+    // @ts-expect-error type functions as type guard
+    (item) => item.type === "feat" && ["magicTalent", "combatTalent"].includes(item.system.featType)
+  )) {
+    if (talent.flags.pf1spheres?.sphere) {
+      const sphere = talent.flags.pf1spheres.sphere;
+      if (talent.flags.pf1spheres?.countExcluded === true) sphereData.talents[sphere].excluded++;
+      else sphereData.talents[sphere].value++;
+      sphereData.talents[sphere].total++;
+    }
+  }
 };
 
 /** Filters itemData by its type, narrowing available data to class data with a caster progression */
@@ -152,6 +165,15 @@ const getBlankSphereData = (): PF1ActorSpheresData => {
     msd: valueDataTemplate(),
     concentration: totalTemplate(),
     bab: fillSpheres(Object.keys(PF1S.combatSpheres) as CombatSphere[], totalModTemplate),
+    talents: {
+      ...fillSpheres(
+        [...Object.keys(PF1S.magicSpheres), ...Object.keys(PF1S.combatSpheres)] as (
+          | MagicSphere
+          | CombatSphere
+        )[],
+        () => ({ total: 0, value: 0, excluded: 0 })
+      ),
+    },
   };
 };
 

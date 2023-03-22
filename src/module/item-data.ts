@@ -26,6 +26,7 @@ declare global {
       pf1spheres?: {
         sphere?: Sphere;
         casterProgression?: CasterProgression;
+        countExcluded?: boolean;
       };
     };
   }

@@ -10,6 +10,7 @@ import { enforce, MODULE_ID } from "./util";
 export const templates = [
   "class-progression",
   "talent-details",
+  "talent-excluded",
   "apps/actor-settings",
   "actor-spheres-tab",
 ] as const;

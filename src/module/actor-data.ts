@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
-import type { ItemPF, RollData, SourceDetails, SourceInfo } from "./item-data";
+import type { ItemPF, RollData, SourceDetails, SourceInfo, Sphere } from "./item-data";
 import type { TotalData, TotalModData, ValueData } from "./common-data";
 import type { PF1S } from "./config";
 import type { PropPath } from "./ts-util";
@@ -70,6 +70,7 @@ export interface PF1ActorSpheresData {
   concentration: TotalData<number>;
   msd: ValueData<number>;
   bab: CombatSpheresRecord;
+  talents: SpheresTalentsRecord;
 }
 
 type MagicSpheresRecord = {
@@ -79,6 +80,11 @@ type MagicSpheresRecord = {
 type CombatSpheresRecord = {
   -readonly [Sphere in keyof typeof PF1S.combatSpheres]-?: TotalModData<number>;
 };
+
+export type SpheresTalentsRecord = Record<
+  Sphere,
+  { total: number; excluded: number; value: number }
+>;
 
 /* PF1 Source Data */
 interface PF1BasicActorData {

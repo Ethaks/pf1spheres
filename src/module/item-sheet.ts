@@ -40,6 +40,11 @@ export const onItemSheetRender = (
         ...sphereData,
       });
       html.find("div.tab.details > h3").next(".form-group.select").after(sphereDropdown);
+      const countExcluded = renderPf1sTemplate("talent-excluded", {
+        ...data,
+        ...sphereData,
+      });
+      html.find("h4.form-header").prev(".form-group.stacked").append(countExcluded);
     }
   }
   // Handle additions to class sheet

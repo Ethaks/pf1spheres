@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
-import type { ActorPF } from "./actor-data";
+import type { ActorPF, PF1ActorSpheresData, SpheresTalentsRecord } from "./actor-data";
 import { SpheresActorSettings } from "./apps/SpheresActorSettings";
 import { PF1S } from "./config";
 import type { CombatSphere, ItemPF, MagicSphere, SourceEntry, Sphere } from "./item-data";
@@ -70,10 +70,12 @@ const addNavTab = (app: ActorSheetPF, html: JQuery<HTMLElement>) => {
 
 const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData => {
   if (!actor.system.spheres) throw new Error("Spheres data missing!");
+  const spheres = actor.system.spheres as PF1ActorSpheresData;
+
   const attributeGrid = (["cl", "msb", "msd"] as const).map(
     (attribute): AttributeData => ({
       attribute,
-      total: actor.system.spheres?.[attribute].total ?? 0,
+      total: spheres[attribute].total ?? 0,
       label: localize(attribute.toLocaleUpperCase() as Uppercase<typeof attribute>),
       path: `@spheres.${attribute}.total`,
       sources: (actor.sourceDetails[`system.spheres.${attribute}.total` as const] ?? []).filter(
@@ -166,12 +168,13 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
       sphere,
       label: PF1S.magicSpheres[sphere],
       levelLabel: levelLabels.magic,
-      total: actor.system.spheres?.cl[sphere].total ?? 0,
+      total: spheres.cl[sphere].total ?? 0,
       path: `@spheres.cl.${sphere}.total`,
       icon:
         PF1S.sphereIcons[sphere as keyof typeof PF1S.sphereIcons] ??
         CONFIG.Item.documentClass.DEFAULT_ICON,
       talents: ownedTalents[sphere] ?? [],
+      talentCounts: spheres.talents[sphere],
       hasTalents: Boolean(ownedTalents[sphere]?.length),
       expandTalents: Boolean(app.spheresTab.expandedSpheres[sphere] ?? false),
       ...getSphereClSources(actor)(sphere),
@@ -186,6 +189,7 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
       path: `@spheres.bab.${sphere}.total`,
       icon: PF1S.sphereIcons[sphere],
       talents: ownedTalents[sphere] ?? [],
+      talentCounts: spheres.talents[sphere],
       hasTalents: Boolean(ownedTalents[sphere]?.length),
       expandTalents: Boolean(app.spheresTab.expandedSpheres[sphere] ?? false),
       ...getSphereBabSources(actor)(sphere),
@@ -361,6 +365,7 @@ interface SphereData {
   hasTalents: boolean;
   sources: SourceEntry[];
   expandTalents: boolean;
+  talentCounts: SpheresTalentsRecord[Sphere];
 }
 
 type TalentMap = {
