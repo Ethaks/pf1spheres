@@ -79,7 +79,7 @@ function getTalentData(entry: RawTalentData): DeepPartial<ItemDataSource> | unde
       entry.sphere in PF1S.sphereIcons
         ? PF1S.sphereIcons[entry.sphere as keyof typeof PF1S.sphereIcons]
         : undefined,
-    data: {
+    system: {
       featType: `${talentType}Talent`,
       description: { value: entry.text },
       tags: entry.tags.map((tag) => [tag]),
@@ -193,7 +193,7 @@ function getAbilityData(abil: RawAbilityData): DeepPartial<ItemDataSource> {
   return {
     name: abil.name,
     type: "feat",
-    data: {
+    system: {
       description: { value: abil.text },
       abilityType: abil.type,
       featType: "classFeat",
