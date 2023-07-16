@@ -12,12 +12,14 @@ declare global {
   namespace Hooks {
     interface StaticCallbacks {
       "little-helper.checks.hints": (tags: Tag[], options: LilHelperCheckHintsOptions) => void;
+      "little-helper.i18n": (i18n: { conditions: Record<string, string> }) => void;
     }
   }
 }
 
 export const registerLilHelperHooks = (): void => {
   Hooks.on("little-helper.checks.hints", onLilHelperCheckHints);
+  Hooks.on("little-helper.i18n", onLilHelperI18n);
 };
 
 /** A class used by Little Helper to ensure the presence of some properties */
@@ -100,4 +102,15 @@ export const onLilHelperCheckHints = (
       );
     }
   }
+};
+
+/**
+ * Adds a condition hint for the Battered condition.
+ *
+ * @param i18n - The i18n object from Little Helper
+ */
+export const onLilHelperI18n = (
+  i18n: Parameters<Hooks.StaticCallbacks["little-helper.i18n"]>[0]
+): void => {
+  i18n.conditions.battered = "PF1SPHERES.BatteredHint";
 };
