@@ -220,8 +220,9 @@ const activateListeners = (app: ActorSheetPF, html: JQuery<HTMLElement>, actor: 
 
   // TODO: Decide upon own solution for rolling – depends on how talents should be activated
   html
-    .find(".talent-use>img")
-    .on("click", pf1.applications.actor.ActorSheetPF.prototype._quickAction.bind(app));
+    .find(".talent-use>a")
+    .on("click", pf1.applications.actor.ActorSheetPF.prototype._itemActivationControl.bind(app));
+  html.find(".talent .talent-icon").on("click", (event) => app._onItemRoll(event));
 
   html.find(".sphere-label").on("click", _openSphereJournal);
 };
@@ -338,7 +339,8 @@ interface ActorSheetPFData {
 
 export declare class ActorSheetPF extends ActorSheet {
   _onItemEdit: (ev: JQuery.ClickEvent<HTMLElement>) => void;
-  _quickAction: (ev: JQuery.ClickEvent<HTMLElement>) => void;
+  _itemActivationControl: (ev: JQuery.ClickEvent<HTMLElement>) => void;
+  _onItemRoll: (ev: JQuery.ClickEvent<HTMLElement>) => void;
   spheresTab: {
     activateTab: string | false;
     expandedSpheres: Partial<Record<Sphere, boolean>>;

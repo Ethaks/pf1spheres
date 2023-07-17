@@ -82,7 +82,7 @@ SPDX-License-Identifier: EUPL-1.2
                         <li class="talent grid item" data-item-id="{{ talent.id }}">
                             <div class="talent-icon">
                                 <img src="{{ talent.img }}" alt="Sphere icon for {{ talent.name }}"/>
-                                <img src="../../icons/svg/d20-black.svg" />
+                                <i class="fas fa-comment"></i>
                             </div>
                             <div class="talent-name">
                                 <b>{{ talent.name }}</b>
@@ -93,7 +93,9 @@ SPDX-License-Identifier: EUPL-1.2
                             <div class="talent-activation">{{ talent.activationType }}</div>
                             <div class="talent-use">
                                 {{#if talent.hasAction }}
-                                    <img class="item-attack" src="../../systems/pf1/icons/actions/gladius.svg" />
+                                    <a class "item-control item-action action roll" data-tooltip="PF1.UseFeat">
+                                      <i class ="fas fa-dice-d20"></i>
+                                    </a>
                                 </img>
                             {{/if }}
                         </div>
