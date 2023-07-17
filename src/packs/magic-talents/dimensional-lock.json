@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warp sphere (Plane Manipulator (space)), caster level 15th.</p>\n<p>You may spend 2 spell points to designate a 20-foot radius area centered within medium range as being completely immune to extradimensional travel. For 1 day per caster level, any attempt within this area to cross space or planes (including all Warp sphere effects, summoning a companion from the Conjuration sphere, astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, and similar spell-like abilities) instantly fails. A dimensional lock does not interfere with the movement of creatures already in ethereal or astral form when it is created, nor does it block extradimensional perception or attack forms. Also, the effect does not prevent summoned creatures from disappearing at the end of a summoning spell.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Space"]],
+    "tags": ["Space"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892941,
-    "modifiedTime": 1663169294508,
+    "modifiedTime": 1689539974674,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

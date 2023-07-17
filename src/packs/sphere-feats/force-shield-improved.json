@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere, Force Shield, character level 5th.</p>\n<p><strong>Benefit:</strong> The shield bonus to armor class provided by your force shield increases to +3, +1 per 5 caster levels, and while benefiting from it you count as wielding a light shield when beneficial for the purposes of class features and other effects. It counts as having hardness equal to half your caster level and 10 hit points. If broken, you may reform it as a swift action (as if it had been dispelled). You may also make shield bash attacks with it as if it were a light shield.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"], ["Protokinesis"]],
+    "tags": ["Combat", "Protokinesis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897602,
-    "modifiedTime": 1663169295513,
+    "modifiedTime": 1689539976481,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

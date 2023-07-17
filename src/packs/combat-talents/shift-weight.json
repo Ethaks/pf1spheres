@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When a creature fails on an attack roll or combat maneuver check against you, you may expend your focus to perform a bull rush, drag, or reposition combat maneuver against that creature as an immediate action.</p>\n<p>Additionally, you may expend your focus to perform a bull rush or reposition combat maneuver in place of an attack of opportunity. You cannot move as part of this attack of opportunity.</p>\n<p>If this maneuver is made as a result of a creature&#8217;s movement, their movement ends for that round if your maneuver is successful. If this maneuver is successfully made as a result of a target using a spell, the creature must pass a concentration check equal to your combat maneuver check + the spell&#8217;s level or lose the spell.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885506,
-    "modifiedTime": 1663169291528,
+    "modifiedTime": 1689539971059,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

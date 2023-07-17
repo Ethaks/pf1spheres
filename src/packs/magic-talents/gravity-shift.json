@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>By concentrating your telekinetic powers on an area you may effectively increase or decrease the area&#8217;s gravity. As a standard action you may alter the gravity of a 10-foot radius + 5 feet per five caster levels sphere anywhere within range of your telekinesis. As long as you concentrate, the area becomes either an area of heavy gravity or an area of light gravity. You may also change the type of gravity in the area as a move action. This talent can be used to alter areas that are already heavy or light gravity, either altering them to normal gravity or doubling their effects, but cannot be used in areas of no gravity or subjective gravity. You may spend a spell point to sustain this effect with Sustained Force.</p>\n<p><strong>Heavy Gravity:</strong> In heavy gravity areas, Acrobatics, Climb, Ride, and Swim checks incur a -2 circumstance penalty, as do all attack rolls. All item weights are effectively doubled, which might affect a character&#8217;s speed. Weapon ranges are halved. A character&#8217;s Strength and Dexterity scores are not affected. Characters that fall in areas of heavy gravity take 1d10 points of damage for each 10 feet fallen, to a maximum of 20d10 points of damage.</p>\n<p><strong>Light Gravity:</strong> Characters in an area of light gravity gain a +2 circumstance bonus on attack rolls and on Acrobatics and Ride checks. All items weigh half as much, and weapon ranges double. Strength and Dexterity do not change as a result of light gravity, but what you can do with such scores does change. Falling characters in light gravity take 1d4 points of damage for each 10 feet fallen (maximum 20d4).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892637,
-    "modifiedTime": 1663169294207,
+    "modifiedTime": 1689539974662,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

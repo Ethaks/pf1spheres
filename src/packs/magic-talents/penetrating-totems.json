@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> War sphere, caster level 5th.</p>\n<p>Your totems do not require line of effect to function, expanding out to their normal range through any barriers. If creating the totem would cause it to go through another object, the totem cuts harmlessly through the material (without compromising the integrity of the object or creature).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891662,
-    "modifiedTime": 1663169293842,
+    "modifiedTime": 1689539974643,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Mobile Grappler (Ex):</strong> At 3rd level, whenever the conscript makes a successful grapple check to maintain a grapple, he may move himself and the grappled creature up to 5 ft. as a free action; this movement is in addition to the movement normally granted by using the move option available whenever he maintains a grapple. At 9th level and again at 15th level, he may move himself and that creature an additional 5 ft.</p>\n<p><strong>Bear Hug (Ex):</strong> At 8th level, whenever the conscript makes a successful grapple check to maintain a grapple, that creature must make a successful Fortitude save (DC 10 + 1/2 conscript level + conscript&#8217;s Strength or Dexterity modifier, whichever is higher) or become fatigued for 1 round and lose their martial focus if they possess it. At 15th level, they are instead exhausted for 1 round.</p>\n<p><strong>Fatal Clutch (Ex):</strong> At 20th level, whenever the conscript maintains a grapple against a creature, the grappled creature must make a Fortitude save (DC 10 + 1/2 conscript level + conscript&#8217;s Strength or Dexterity modifier, whichever is higher) or take damage equal to 1/4 of their maximum hit points (rounded down).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900050,
-    "modifiedTime": 1663169296192,
+    "modifiedTime": 1689539978532,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

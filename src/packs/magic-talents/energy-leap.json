@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point to move in a straight line up to your destructive blast&#8217;s range. This movement provokes attacks of opportunity as normal. You may pass through occupied spaces by making an overrun maneuver as a free action against the targets, using your caster level + your casting ability modifier in place of your base attack bonus + your Strength modifier for this check. If a target attempts to impede you during this overrun, they suffer the effects of your destructive blast (Reflex half), whether or not they succeed in stopping your movement. You may also attempt to crash through objects or barriers, dealing your destructive blast damage to them, and passing through unimpeded if this successfully destroys them. If, however, a target successfully stops you during an overrun or you are unable to destroy an object or barrier, your movement immediately stops at the nearest unoccupied space and you are staggered for one round.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Blast Shape"]],
+    "tags": ["Blast Shape"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890795,
-    "modifiedTime": 1663169293578,
+    "modifiedTime": 1689539974631,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

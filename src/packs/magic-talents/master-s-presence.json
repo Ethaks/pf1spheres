@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You can telepathically order and communicate with undead creatures you control within your dominion range. You do not need line of sight or effect to maintain this connection. Only targets completely under your control are valid; charmed undead are not truly under your control, and as such do not qualify.</p>\n<p>Giving basic commands to an undead is a free action, but your increased control allows you to master complex commands for your undead as well. Choose any 2 tricks + 1 per 5 caster levels that can be taught to an animal or the pose as scenery trick (see the Handle Animal skill). Mindless undead you control are able to perform these tricks when ordered to as a move action. This does not allow you to train undead for a purpose, &#8220;push&#8221; an undead to perform a task it normally would not be able to, or accomplish other effects of the Handle Animal skill.</p>\n<p>Additionally, so long as an undead you control is within your dominion range, you may, as a full-round action, concentrate on that undead to perceive that creature&#8217;s surroundings as if you were standing where that creature was. While you may use the creature&#8217;s special sense (i.e., darkvision, etc.), you must use your own Perception skill if attempting a check.</p>\n<p>You can select this talent multiple times; each time you do after the first, increase the number of tricks your undead can perform by 3.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Dominion"]],
+    "tags": ["Dominion"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890520,
-    "modifiedTime": 1663169293350,
+    "modifiedTime": 1689539974623,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

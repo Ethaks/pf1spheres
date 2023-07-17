@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>A warden of obscurity is one of misdirection and darkness, typically of the belief that threats are best avoided entirely. These wardens are focused on getting their allies out of a fight, that is, if they cannot avoid it in the first place.</p>\n<p><strong>Vigil Sphere:</strong> Dark</p>\n<p><strong>Tenebrous Guard:</strong> An obscuring warden&#8217;s guard shrouds a creature in darkness. At 3rd level, the warden&#8217;s guard may, as a free action, radiate a 5-foot radius of darkness, reducing bright light to dim light, and normal and dim light to darkness. This darkness can be dismissed as a free action. The guarded allies also gain a circumstance bonus to Bluff and Stealth checks equal to twice the warden&#8217;s guard bonus.</p>\n<p><strong>Shadow Switch:</strong> At 7th level, as long as the warden and his guarded allies are within an area of dim light or darkness, the warden or a guarded ally may, as a standard action, swap the current squares that they occupy, effectively swapping places. The warden and the ally must be within his guard range from one another, and both must be willing.</p>\n<p><strong>Nebulous Presence:</strong> At 11th level, whenever the warden would use his patrol ability, until the beginning of his next turn, creatures attempting to perceive all allies within his area of patrol using Perception suffer a penalty equal to twice the warden&#8217;s guard bonus. Additionally, allies within the warden&#8217;s area of patrol may spend an immediate action to attempt a Stealth check to hide, even when observed. If the ally is not within cover or concealment at the end of their next turn, they immediately lose the benefits of Stealth.</p>\n<p><strong>Misdirect:</strong> At 15th level, whenever an enemy would attack a creature benefiting from a miss chance, as an immediate action or by expending an attack of opportunity, the warden may force the enemy to roll the miss chance die twice and take the least favorable result. The warden may spend a spell point when using this ability to reduce the miss chance result by 20.</p>\n<p><strong>Out of Sight:</strong> At 19th level, the warden may spend a spell point when using his guard ability to make the guarded ally invisible, granting them a +20 bonus to Stealth checks (this increases to +40 if they are stationary), and granting them total concealment even when detected. This invisibility lasts for 10 minutes per caster level, or until the guarded ally would make a number of attack rolls equal to the warden&#8217;s casting ability modifier.</p>\n<h3 id=\"toc63\"><span><span style=\"color: #00c000\">Vigil Reinforcements</span></span></h3>\n<h4 id=\"toc64\"><span>Shrouded Morality (requires obscurity, warden 6)</span></h4>\n<p>As long as an ally is within dim light or darkness and is within the warden&#8217;s threatened area, the ally is considered to have no alignment for the purposes of harmful effects dependant on alignment, including divination attempts.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900424,
-    "modifiedTime": 1663169296569,
+    "modifiedTime": 1689539978550,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

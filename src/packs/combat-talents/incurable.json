@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Your poisons are resistant to any kind of cure. When subject to an alchemical or magical cure, the applicator of the effect (or the victim if there is no other relevant applicator) must succeed at a magic skill check against a DC of your ranks in Craft (alchemy) + 11 as part of the action to apply the cure. If the applicator lacks a MSB they can substitute a check of 1d20 + their ranks in Heal. A failed check means that the poison is not cured and another application of any kind of cure will not work until the victim of the poison attempts another save to resist the poison</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887658,
-    "modifiedTime": 1663169292088,
+    "modifiedTime": 1689539971096,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

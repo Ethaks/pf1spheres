@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You can move and reload at the same time, spending a move or standard action to move up to your movement speed, or a full-round action to move up to twice your movement speed. When you do so, you also reload a weapon whose reload time matches the action spent on this talent, so long as your movement leaves you with the appropriate number of free hands needed to reload. This action does not provoke an attack of opportunity for reloading a weapon, only for normal movement.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Motion"]],
+    "tags": ["Motion"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885914,
-    "modifiedTime": 1663169291739,
+    "modifiedTime": 1689539971072,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may spend 1 spell point to form your destructive blast into 1 satellite that orbits your body that lasts for one minute per caster level or until discharged. This cannot be combined with Gather Energy or spending a spell point to increase the destructive blast&#8217;s damage. You may maintain 1 satellite at a time + 1 additional satellite per 10 caster levels. You may increase the casting time when using this (blast shape) by 1 step in order to form multiple satellites (up to your normal maximum). You may select different (blast types) for each satellite formed this way, spending any additional spell points or costs required.</p>\n<p>As an immediate action, you may discharge a single satellite, targeting any creature within 5 feet + 5 feet per 2 caster levels to deal your destructive blast damage (Reflex half).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Blast Shape"]],
+    "tags": ["Blast Shape"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894054,
-    "modifiedTime": 1663169294624,
+    "modifiedTime": 1689539974684,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

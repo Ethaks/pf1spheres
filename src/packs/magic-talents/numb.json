@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may cut off flow to parts of a creature&#8217;s body, making fine manipulation difficult. The target takes a -2 penalty on Strength and Dexterity checks (including initiative) and Strength and Dexterity-based skill checks and gains an equal bonus on saves against pain effects for the duration of the blood control. This penalty increases by +1 at 5th caster level and again every 5 caster levels thereafter. This effect may change a creature&#8217;s place in the initiative count after combat has begun.</p>\n<p>You may spend a spell point to slow blood flow, staggering the target for the duration of the blood control.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Still"]],
+    "tags": ["Still"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890417,
-    "modifiedTime": 1663169293261,
+    "modifiedTime": 1689539974614,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

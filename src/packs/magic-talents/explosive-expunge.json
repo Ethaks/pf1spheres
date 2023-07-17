@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>By spending 2 additional spell points you may use your (expunge) talents in an area, targeting every creature within a 15-foot radius burst centered within your expunge range. If the ability requires a magic skill check or attack roll, make a single roll and compare it to the magic skill defense of every creature affected. Otherwise, they each roll their save as normal. The caster is unaffected by this ability if they are within the area of effect.</p>\n<p>If you possess the Magical Conduit talent, you can create a manabond with all creatures affected by this talent; otherwise, you may only create a manabond with one.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891022,
-    "modifiedTime": 1663169293610,
+    "modifiedTime": 1689539974633,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

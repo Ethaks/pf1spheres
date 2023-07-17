@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Coordination class feature, psionics class feature.</p>\n<p><strong>Benefit:</strong> When using the coordination class feature, you may receive the bonus to damage from a number of allies equal to your casting ability modifier. This expends 3 rounds of your daily uses of psionic effects for the day.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"]],
+    "tags": ["Combat"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897890,
-    "modifiedTime": 1663169295700,
+    "modifiedTime": 1689539976496,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

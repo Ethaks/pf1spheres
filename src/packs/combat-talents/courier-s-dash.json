@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>All allies that start their turn within the radius of this tactic gain a +5 ft enhancement bonus to their base land speed. An ally who begins or ends their turn outside of this tactic&#8217;s affected area loses its benefits until they once more start their turn within its radius. For every 5 ranks in Diplomacy you possess, this enhancement bonus is increased by an additional 5 ft.</p>\n<p><strong>Addendum [Conq. HB]:</strong> You may take this talent twice. If taken a second time, instead of granting an enhancement bonus to base land speed, you may allow allies benefiting from this tactic to move through 5 feet of difficult terrain as if it were normal terrain, increasing by 5 feet for every 10 ranks of Diplomacy you possess, and allows allies to take a 5-foot step into difficult terrain.</p>\n<p><strong>Associated Feat:</strong> Nimble Moves (if taken twice).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Tactic"]],
+    "tags": ["Tactic"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886089,
-    "modifiedTime": 1663169291758,
+    "modifiedTime": 1689539971074,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

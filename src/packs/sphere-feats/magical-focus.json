@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Enhancement sphere; Focus Casting drawback or Galvanized drawback.</p>\n<p><strong>Benefit:</strong> Whenever you enhance your focus or a weapon you are wielding with Galvanized Casting, you may choose to have the effect continue without concentration without spending a spell point. This feat only applies to the spell point spent to relinquish concentration. If another feat, talent, or class feature grants you the ability to spend more spell points when relinquishing concentration to improve the effects, you still need to spend the additional spell points to gain those benefits.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Drawback"]],
+    "tags": ["Drawback"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897943,
-    "modifiedTime": 1663169295744,
+    "modifiedTime": 1689539976502,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

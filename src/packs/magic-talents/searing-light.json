@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may create bright light that burns targets in its area. All creatures in the area suffer 1 point of fire damage per caster level per round they are within this area of bright light. Undead, oozes, and creatures harmed by daylight take 2 points of fire damage per caster level. This does not affect the target of the glow itself.</p>\n<p>Creatures who have a glow placed directly upon them (or their equipment) augmented by the Searing Light talent may as a full-round action attempt a Reflex save to extinguish the bright light, causing the glow to shed only normal light for the remainder of the effect and preventing further damage caused by Searing Light.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Light"]],
+    "tags": ["Light"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892706,
-    "modifiedTime": 1663169294287,
+    "modifiedTime": 1689539974666,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

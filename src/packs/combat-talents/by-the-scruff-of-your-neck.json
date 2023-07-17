@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Stealth 3 ranks or Perception 3 ranks; Scout sphere.</p>\n<p>Whenever a scouted target attacks you or includes you in an area of effect which deals hit point damage, as an immediate action, you may attempt a Stealth or Perception check with a DC equal to the scouted target&#8217;s attack roll or the ability&#8217;s saving throw DC. If your check is successful, you only suffer 1/2 the hit point damage dealt by the incoming attack and do not suffer any additional effects dealt by that attack (such as an additional saving throw against a negative condition).</p>\n<p>You may use this ability after the results of the attack roll are revealed or after you roll a saving throw to avoid or resist the area of effect.</p>\n<p>You may only use this ability once per day for each scouted target.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887031,
-    "modifiedTime": 1663169292008,
+    "modifiedTime": 1689539971090,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

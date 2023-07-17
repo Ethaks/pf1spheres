@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>Whenever the sage deals damage to an opponent using his chi gong ability, he may spend a ki point as an immediate action to attempt to destroy the bonds of any magic that is benefiting the creature. This otherwise acts as the Counterspell feat, as if attempting to dispel an existing magical effect upon the creature.</p>\n<p>If the dispel attempt is successful, the sage may spend an additional ki point to re-establish the magical bonds upon himself, treating himself as the effect&#8217;s target, and gaining the benefits of the effect for a number of rounds equal to the sage&#8217;s casting ability modifier.</p>\n<p>The sage must be at least 6th level to take this esotery.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900367,
-    "modifiedTime": 1663169296492,
+    "modifiedTime": 1689539978545,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Fallen Fey sphere, caster level 10th.</p>\n<p>You can flood the lungs of a willing, helpless, or fascinated creature by touching it (traditionally by kissing the creature on the lips) as a standard action. If the target cannot breathe water, it cannot hold its breath and immediately begins to drown.</p>\n<p>On its turn, the target can attempt a Fortitude save to cough up this water; otherwise it falls unconscious at 0 hit points. On the next round, the target must save again or drop to &#8211;1 hit points and be dying; on the third round it must save again or die. Succeeding at any of these Fortitude saves causes the target to cough up the water and no longer be drowning, ending the effect. Activating this fey-blessing costs an additional spell point.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Fey-Blessing"]],
+    "tags": ["Fey-Blessing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893108,
-    "modifiedTime": 1663169294536,
+    "modifiedTime": 1689539974677,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

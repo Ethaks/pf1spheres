@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The armorist&#8217;s bound and summoned armor gains the jousting and hosteling special abilities. Creatures contained within hosteling equipment are harmlessly ejected when the equipment is dismissed.</p>\n<p>Additionally, the armorist can summon or boost equipment for her mount (such as summoning or boosting barding) with the same speed which she may use for her own equipment. The armorist may even create bound equipment usable by her mount (such as barding), although the armorist dismounting counts as the item leaving her hands, causing it to disappear one round later if the armorist does not remount.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168901030,
-    "modifiedTime": 1663169297235,
+    "modifiedTime": 1689539978583,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

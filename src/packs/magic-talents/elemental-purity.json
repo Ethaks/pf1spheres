@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Your magic infuses the target&#8217;s new form with the speed of powerful elementals.</p>\n<p><strong>Prerequisites:</strong> Alteration sphere (Elemental Transformation (transformation)), caster level 7th.</p>\n<p>When granting the form of an elemental or the elemental movement trait from the Elemental Transformation (transformation) talent, the effects of the granted form or trait improves:</p>\n<ul>\n<li><strong>Air:</strong> A target granted a fly speed with the air elemental package or air elemental movement trait increases the granted fly speed to 100 feet with maneuverability (perfect).</li>\n<li><strong>Earth:</strong> A target granted a burrow speed with the earth elemental package or earth elemental movement trait increases the granted burrow speed to 100 feet and gains the earth glide universal monster ability, as an earth elemental (Pathfinder RPG Bestiary, Bestiary 6).</li>\n<li><strong>Fire:</strong> A target granted a land speed with the fire elemental package or fire elemental movement trait increases the granted land speed to 100 feet.</li>\n<li><strong>Water:</strong> A target granted a swim speed with the water elemental package or water elemental movement trait increases the granted swim speed to 100 feet and gains a bonus on Swim checks equal to 1/2 your caster level (minimum 1).</li>\n</ul>\n<p>Alternatively, when granting the elemental movement trait, instead of granting a movement type, you may choose to add half the elemental movement trait&#8217;s movement speed to a movement type of the same kind granted by that form (including the improvements from this talent).</p>\n<p><strong>Example:</strong> For example, when granting Avian Transformation as a form with the elemental movement trait for air, instead of granting a separate fly speed of 100 feet with maneuverability (perfect), you may instead grant an additional +50 feet fly speed to the Avian Transformation&#8217;s fly speed.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894251,
-    "modifiedTime": 1663169294801,
+    "modifiedTime": 1689539974687,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

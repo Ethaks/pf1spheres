@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>You gain Consumptive Intuition as a bonus feat. When you consume a creature&#8217;s brain, you may add that brain to a repository of knowledge known as your brain pool. The talents gained from Consumptive Intuition may be gained from any creature whose brain you have in your brain pool rather than the last creature whose brain you have consumed (for example, if you possess four instances of the Consumptive Intuition feat, you may use these feats to gain 2 talents from one brain, 1 talent from a second brain, and 1 talent from a third brain). The number of brains you may have in your brain pool is equal to your casting ability modifier + the number of times you have taken the Consumptive Intuition feat. You may select this bestial trait multiple times, each time gaining Consumptive Intuition as a bonus feat an additional time.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900166,
-    "modifiedTime": 1663169296311,
+    "modifiedTime": 1689539978541,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

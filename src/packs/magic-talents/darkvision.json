@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point to grant the target darkvision 60 feet for 1 hour per caster level. If the target already possesses darkvision, this instead increases the range of their darkvision by 30 feet.</p>\n<h3 id=\"toc4\"><span>Dark Talent Types</span></h3>\n<p>Some talents are marked (darkness). These talents add additional effects that can be added to a sphere of darkness. Only one such effect can be added to a single area of darkness, though areas of different darkness can overlap, provided they do not have the same (darkness) talent effect.</p>\n<p>Some talents are marked (meld). These talents grant you additional melds you can grant to targets.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Meld"]],
+    "tags": ["Meld"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890760,
-    "modifiedTime": 1663169293546,
+    "modifiedTime": 1689539974628,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

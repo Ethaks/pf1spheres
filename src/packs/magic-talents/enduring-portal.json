@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warp sphere (Mass Teleport [mass], Portal (advanced), Teleport Beacon (space), Unwilling Teleport, Wormhole (space)), caster level 15th.</p>\n<p>When using the Portal advanced talent, you may spend an additional spell point to cause the portal to remain without the need for concentration, and increase its maximum duration to 1 hour per caster level.</p>\n<p>If you instead spend 2 spell points, the portal has a permanent duration and dispelling attempts affect it as if it were a magic item. Effects that would destroy a magic item (such as Counterspell, Greater) can also destroy the portal.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892771,
-    "modifiedTime": 1663169294346,
+    "modifiedTime": 1689539974671,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

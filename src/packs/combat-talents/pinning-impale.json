@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Whenever you use the charge action, you can impale the target of your charge on a successful attack. If the creature is adjacent to a wall or other such structure, or they are within your melee reach of one, you can pin them to the wall with your weapon. Releasing the weapon does not end the impalement against the creature, forcing the creature to make a combat maneuver check against your CMD to release themselves. You may select this talent up to twice; if you select this talent a second time, you can instead pin a creature to the ground with this talent.</p>\n<p><strong>Author's Note:</strong> If you could make multiple attacks as part of a charge attack, only the first attack may be an impale (regardless of whether it is successful or not). An impale made this way is not treated as an attack action unless you could perform an attack action at the end of a charge normally.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885457,
-    "modifiedTime": 1663169291498,
+    "modifiedTime": 1689539971056,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

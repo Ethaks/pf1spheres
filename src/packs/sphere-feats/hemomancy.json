@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Death sphere.</p>\n<p><strong>Benefit:</strong> You gain +1 spell point. You gain blindsense 15 feet against bleeding creatures. If you pay 1 spell point as a swift action, you can afflict such creatures directly through their blood with ghost strikes for 1 round regardless of line of sight or effect. For each necrosis feat you possess beyond this one, increase the range of your blindsense against bleeding creatures by 15 feet and the duration when you spend a spell point by 1 round.</p>\n<p><strong>Four Necrosis Feats:</strong> When you spend 1 spell point as a swift action to activate this feat, you can affect bleeding creatures within the blindsense range granted by this feat with any talent that requires a touch attack, Fortitude save, or Will save regardless of distance, line of sight, or line of effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Necrosis"]],
+    "tags": ["Necrosis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897560,
-    "modifiedTime": 1663169295493,
+    "modifiedTime": 1689539976479,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

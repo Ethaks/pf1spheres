@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point to speak a word that frees the target from physical bondage. You must concentrate to maintain this ability, to a maximum of 1 round per caster level. You may spend an additional spell point as a free action to allow this ability to continue for 1 round per caster level without concentration. The target may move and attack normally, even when under the influence of magic and effects that would otherwise impede movement. This includes paralysis, slow effects, entanglement, Blood Puppet, Hostile Lifts, etc. All combat maneuver checks made to grapple the target automatically fail, and the subject automatically succeeds on any combat maneuver checks and Escape Artist checks made to escape a grapple or a pin. The subject may even move and attack normally while underwater, provided that the weapon is wielded in the hand rather than hurled. This does not, however, grant waterbreathing.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Word"]],
+    "tags": ["Word"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892147,
-    "modifiedTime": 1663169293953,
+    "modifiedTime": 1689539974653,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

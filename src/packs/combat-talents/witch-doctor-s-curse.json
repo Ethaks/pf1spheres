@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Craft (alchemy) 5 ranks, Alchemy sphere ((poison) package, Food Poisoning, Potent Poison).</p>\n<p>You may expend martial focus when creating a poison to create a curse poison. A curse poison is a magical effect and a curse: It is permanent and can only be cured by effects that specifically cure curses such as the Break Enchantment talent of the Life sphere or the remove curse spell.</p>\n<p><strong>Author's Note:</strong> This talent increases the duration of a (toxin)'s negative effects, not any effect of a (toxin).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886679,
-    "modifiedTime": 1663169291847,
+    "modifiedTime": 1689539971085,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

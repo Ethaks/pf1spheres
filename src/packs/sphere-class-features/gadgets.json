@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>Technicians are experts at building things, be they improvised tools or unique mechanical marvels. These items, called gadgets, are built out of components the technician has prepared in his spare time out of commonly-found items; so long as the technician has access to a trap bag, he is assumed to have access to all the parts he needs to build his gadgets, and to have already prepared components beforehand to quickly create whatever gadget he needs.</p>\n<p>Creating and activating a gadget is a standard action, but may be reduced to a move action by expending martial focus.</p>\n<p>A technician can create a total number of gadgets in a day equal to 1/2 his technician level + his Intelligence modifier (minimum: 1). If a gadget calls for a saving throw, that saving throw&#8217;s DC is equal to 10 + 1/2 his technician level + his Intelligence modifier. A gadget must be used the round it is created, or fall apart back into its component parts, which does not expend the gadget.</p>\n<hr>See also:<br><ul><li>@Compendium[pf1spheres.class-features.4x4X3ifRf67eJbK4]{Improvised Tools}</li><li>@Compendium[pf1spheres.class-features.9npjc1cB3YmbVl9Q]{Constructed Weapons}</li><li>@Compendium[pf1spheres.class-features.UddA1EBEfMDKNZtz]{Detonator}</li><li>@Compendium[pf1spheres.class-features.cyphx6ryDVgr28K4]{Hook and Pulley}</li><li>@Compendium[pf1spheres.class-features.VOXnxmgvptWZjDhq]{Launcher}</li></ul>",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900088,
-    "modifiedTime": 1663169296234,
+    "modifiedTime": 1689539978535,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

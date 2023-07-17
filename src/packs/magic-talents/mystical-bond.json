@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You can assist the recipient of your manabond in their spherecasting, or hamper their efforts. When creating this manabond, you can choose to apply either a penalty or a competence bonus to their caster level, but only for a single sphere, decided at the time of casting. This bonus or penalty begins at 1, and increases by 1 every eight caster levels you possess. The penalty cannot reduce a creature&#8217;s caster level below 1.</p>\n<h3 id=\"toc6\"><span>Mana Talent Types</span></h3>\n<p>Some talents are marked (expunge). These grant you additional ways to expunge energy.</p>\n<p>Some talents are marked (manipulation). These grant you additional ways of manipulating energy.</p>\n<p>Some talents are marked (manabond). These grant you additional ways of using your manabonds.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894660,
-    "modifiedTime": 1663169294976,
+    "modifiedTime": 1689539974701,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

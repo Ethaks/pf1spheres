@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Illusion sphere (Blur (glamer), Decoy (glamer)).</p>\n<p><strong>Benefit:</strong> As a swift action, you may grant yourself a miss chance equal to 10% + 5% per 2 caster levels (maximum 95%) until the start of your next turn or until an attack misses due to this feat. Effects that ignore concealment only reduce this miss chance by half (rounded down). This is a spell-like ability. For abilities that allow for re-rolls for attacks that miss due to concealment such as the Blind-Fight feat, instead calculate the miss chance as 10% + 5% per 3 caster levels and reroll on a miss as per normal for the ability.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"]],
+    "tags": ["Combat"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897914,
-    "modifiedTime": 1663169295718,
+    "modifiedTime": 1689539976499,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

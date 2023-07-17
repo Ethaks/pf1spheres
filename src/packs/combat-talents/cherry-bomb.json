@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Craft DC:</strong> 15</p>\n<p>Cherry bombs are alchemical bombs that make up for their lack of power with volume and easy maintenance. Crafting a cluster of cherry bombs counts as crafting a single alchemical formulae when determining the total number of formulae you can craft at a time and the total number you may have crafted at once. A cluster of cherry bombs has a number of bombs in it equal to your practitioner modifier (minimum 3). Cherry bombs are a splash weapon you can use as a ranged touch attack with a range increment of 10 feet, dealing 1d4 bludgeoning damage + 1d4 per 3 Craft (alchemy) ranks you possess to the target of a direct hit, and 1 point of bludgeoning splash damage per die of damage this weapon deals on a direct hit to targets 5 feet away from the point of contact (to a maximum of half the damage dealt to the primary target).</p>\n<p>An individual cherry bomb cannot be split apart from its cluster for more than 1 round without becoming inert. An individual cherry bomb may be modified (such as by being placed into a vial arrow) without being split from its cluster. An entire cluster of cherry bombs is required to make a coating if used with the Chemical Coating talent.</p>\n<p>If you can create formulae that inflict different types of damage (such as an alchemist&#8217;s fire dealing fire damage) when you create the cherry bombs you may have it deal that kind of damage instead. The damage can only be of one damage type at a time, but each separate bomb can deal a different type of damage. You can increase the Craft DC for this weapon in increments of 10; each time you do so, the Reflex save DC to avoid the splash damage increases by +1.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Formulae"]],
+    "tags": ["Formulae"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886097,
-    "modifiedTime": 1663169291767,
+    "modifiedTime": 1689539971074,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

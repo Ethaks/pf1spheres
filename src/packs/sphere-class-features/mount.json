@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The conscript gains Ride as a class skill.</p>\n<p>In addition, the conscript gains a mount. This functions as a druid&#8217;s animal companion, using the conscript&#8217;s level as his effective druid level. This grants the conscript the service of a loyal and trusty steed to carry him into battle. The creature must be one that he is capable of riding and is suitable as a mount. GMs should approve suitable mounts.</p>\n<p>The conscript does not take an armor check penalty on Ride checks while riding this mount. The conscript&#8217;s mount is always considered combat trained and gains Light Armor Proficiency as a bonus feat.</p>\n<p>If the conscript releases their mount or their mount dies, they may find a new mount after 1 week. If the conscript is in the environment where the new mount typically lives or is domesticated, the conscript may instead gain their new mount in 24 hours.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900388,
-    "modifiedTime": 1663169296530,
+    "modifiedTime": 1689539978547,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

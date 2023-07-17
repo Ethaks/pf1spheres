@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Guardian sphere, Defend Other.</p>\n<p>You may form a bond with a creature as a full-round action. A bonded creature can call your name as an immediate action; if you are within 1 mile per base attack bonus, you become immediately aware of the call and the direction to the creature. At +5 base attack bonus, this range increases to 10 miles per base attack bonus. At +10 base attack bonus, the range becomes unlimited as long as you are both on the same plane. At +15 base attack bonus, you may hear the call across the planes and gain knowledge of what plane the calling creature is on. You may maintain a number of these bonds equal to your base attack bonus.</p>\n<p><strong>Author's Note:</strong> To form a bond, a creature must be within your reach + 5 ft. + 5 ft. for every 4 points of base attack bonus you possess.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887017,
-    "modifiedTime": 1663169291998,
+    "modifiedTime": 1689539971089,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When creating a manabond, you may spend a spell point to allow your manabond to manifest as a physical cord connecting yourself and the target creature, although you must have line of effect to the target. These physical bonds are tough, durable chains made of raw energy that inhibit movement. The two creatures connected by such a manabond cannot move further than the maximum range for the manabond without either destroying the tether (hardness equal to your caster level, hit points equal to twice your caster level + 5, AC 10), or by making a Strength check to burst it with a DC equal to your Mana sphere DC. Destroying the tether does not end the manabond, but does cause it to lose its physicality, removing any effects granted by this talent. When moving past the maximum range of the manabond, a creature affected by this talent may make a drag attempt as a free action made as part of any movement they make, allowing them to pull the creature in the direction they move, up to a maximum amount of distance determined by the drag attempt. The host of a hardened bond may use their caster level + their casting ability modifier in place of their combat maneuver bonus, and gain a bonus equal to twice their caster level to their combat maneuver defense on drag attempts made against them using the hardened bond. In addition, you may create shorter manabonds than normal.</p>\n<p>When creating one, they can be as short as 5 feet, or as long as your normal maximum range, but they must be measured in 5 feet increments. You can shorten or lengthen them as part of the action made to concentrate on them, although if the cord is not long enough to reach the target creature after shrinking it will break and end the effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892946,
-    "modifiedTime": 1663169294512,
+    "modifiedTime": 1689539974675,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Your heroic ascension can occur even in moments of great adversity.</p>\n<p><strong>Benefit:</strong> You gain a +2 bonus on all saving throws against effects which would prevent you from being able to take actions. You may enter Aristeia even when you cannot otherwise take actions. When you do, you may immediately end whatever effect is stopping you from taking actions as part of entering Aristeia.</p>\n<p><strong>Special:</strong> This feat counts as Great Fortitude, Lightning Reflexes, and Iron Will for the purpose of meeting prerequisites.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aristeia"]],
+    "tags": ["Aristeia"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897659,
-    "modifiedTime": 1663169295546,
+    "modifiedTime": 1689539976485,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

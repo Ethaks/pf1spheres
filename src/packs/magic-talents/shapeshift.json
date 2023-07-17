@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a standard action you may shapeshift yourself or a touched creature, changing their form for as long as you concentrate. If the target is unwilling, this costs a spell point, and they are allowed a Fortitude save to negate. Shapeshifts are subject to spell resistance. You may spend a spell point to allow a shapeshift to remain for 1 minute per caster level without concentration. You may dismiss your shapeshift as a standard action.</p>\n<p>Shapeshift is a polymorph effect. A target may only be affected by one shapeshift at any one time. If a caster attempts to place a second shapeshift on a target, he must succeed at a magic skill check. If he succeeds, the second shapeshift is successfully placed on the target, dismissing and dispelling the first.</p>\n<p>When shapeshifting a target, the caster must choose a transformation and a series of traits for them. Transformations change a creature&#8217;s basic physical makeup (humanoids, dragons, land animals, birds, etc.) while traits are special characteristics or alterations (natural attacks, creature size, monster special abilities, etc.). A caster may grant up to 1 trait + 1 per 5 caster levels and cannot grant the same trait more than once unless the trait indicates it may be granted multiple times.</p>\n<p>With the exception of Blank Transformation (detailed below), placing a transformation on a creature causes that creature&#8217;s physical body to change into that of another creature. The target gains the listed number of limbs and loses all others. The target loses any extraordinary or supernatural abilities, natural attacks, and movement types dependent on their original form (darkvision, scent, wings, claws, etc.) and gains the listed benefits in their place.</p>\n<p>Alternate sources of physical traits (such as a dragon sorcerer&#8217;s ability to grow claws) still function. In addition, if the target changes their basic shape (for example, from humanoid to non-humanoid), the target&#8217;s equipment melds into their new form, causing them to lose their armor and shield bonuses and the ability to pull any item from a backpack or belt. They also cannot activate magic items (although constant bonuses from magic items still remain).</p>\n<p>This cannot be used to assume the guise of a specific individual creature, but otherwise adds a +10 circumstance bonus to Disguise checks made to appear as a different race, gender, or species. The caster may cause the target to cosmetically appear as whatever type of creature he desires, although if the target is not granted the right physical attributes (for example, granting the right size category or number of legs), the disguise may fail completely.</p>\n<p>When a caster first gains the Alteration sphere, they may grant creatures the Blank Transformation and the traits listed below. A target must possess the appropriate limb where listed, and cannot grant a natural attack to a limb that already possesses a natural attack.</p>\n<ul>\n<li>Darkvision 60 feet</li>\n<li>Low-light vision</li>\n<li>Two claw attacks (primary, 1d4 Medium, 1d3 Small, requires arms or the front pair of at least 4 legs). You may grant this trait multiple times.</li>\n<li>One bite attack (primary, 1d6 Medium, 1d4 Small, requires head). You may grant this trait multiple times.</li>\n<li>One gore attack (primary, 1d6 Medium, 1d4 Small, requires head). You may grant this trait multiple times.</li>\n<li>Two slam attacks (primary, 1d4 Medium, 1d3 Small, requires arms). You may grant this trait multiple times.</li>\n<li>Two pincers (secondary, 1d6 Medium, 1d4 Small, requires arms). You may grant this trait multiple times.</li>\n</ul>\n<p>Additional forms and traits may be gained by taking Alteration talents. Any trait may be granted to any form.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894673,
-    "modifiedTime": 1663169294987,
+    "modifiedTime": 1689539974702,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Protection sphere, caster level 10th.</p>\n<p>You may grant the target an aegis that makes them immune to ability damage and ability drain. This aegis does not remove ability damage or drain that the subject has already gained, but it does remove the penalties from ability damage or drain for the duration of this aegis. This aegis does not protect against self-inflicted ability damage or drain.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aegis"]],
+    "tags": ["Aegis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894057,
-    "modifiedTime": 1663169294627,
+    "modifiedTime": 1689539974684,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

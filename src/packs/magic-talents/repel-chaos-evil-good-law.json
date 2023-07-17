@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may create a ward that repels creatures of one end of the alignment spectrum (chaotic, evil, good, lawful), chosen by you when this ward is created. All creatures of that alignment cannot cross the edge of this ward unless they succeed at a Will save. Once a creature has succeeded at this Will save, they may cross the barrier without trouble and are immune to your Repel ward for 24 hours. If a creature is already within this warded area when it is created, or if the ward is moved into their space, they instantly become immune to the ward, as if they had succeeded at their saving throw. You cannot repel an alignment that you yourself possess.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Ward"]],
+    "tags": ["Ward"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892300,
-    "modifiedTime": 1663169293979,
+    "modifiedTime": 1689539974657,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

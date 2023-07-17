@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You do not take penalties for using weapons sized for smaller creatures. For example, a Medium creature could wield a two-handed weapon sized for smaller creatures in one hand without incurring the penalty for wielding inappropriately sized weapons.</p>\n<p>Additionally, you gain a cumulative +1 bonus to Sleight of Hand checks made to conceal a weapon on your person for each size smaller the weapon is sized for. For example, a Medium creature using a dagger sized for Tiny creatures would receive a +2 bonus to a Sleight of Hand check to conceal it on their person.</p>\n<p><strong>Normal:</strong> Using a weapon inappropriately sized for you incurs a -2 penalty on attack rolls for each size category difference. A weapon smaller than its wielder takes one step less effort to wield in combat for each step smaller they are than the wielder. A Small-sized two-handed weapon can be wielded by a Medium creature as a one-handed weapon. A Small-sized one-handed weapon can be wielded by a Medium creature as a light weapon. See the weapon rules for more details (Pathfinder Roleplaying Game Core Rulebook pg. 140).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888018,
-    "modifiedTime": 1663169292618,
+    "modifiedTime": 1689539971115,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

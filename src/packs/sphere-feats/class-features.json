@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Class</th>\n<th>Class Feature</th>\n</tr>\n<tr>\n<td>Alchemist</td>\n<td>Discovery</td>\n</tr>\n<tr>\n<td>Armorist</td>\n<td>Arsenal trick</td>\n</tr>\n<tr>\n<td>Hedgewitch</td>\n<td>Secret</td>\n</tr>\n<tr>\n<td>Investigator</td>\n<td>Investigator talent</td>\n</tr>\n<tr>\n<td>Mageknight</td>\n<td>Mystic combat</td>\n</tr>\n<tr>\n<td>Magus</td>\n<td>Arcana</td>\n</tr>\n<tr>\n<td>Ninja</td>\n<td>Ninja trick</td>\n</tr>\n<tr>\n<td>Reaper</td>\n<td>Reaper technique</td>\n</tr>\n<tr>\n<td>Rogue</td>\n<td>Rogue talent</td>\n</tr>\n<tr>\n<td>Sage</td>\n<td>Esotery</td>\n</tr>\n<tr>\n<td>Shaman</td>\n<td>Hex</td>\n</tr>\n<tr>\n<td>Slayer</td>\n<td>Slayer talent</td>\n</tr>\n<tr>\n<td>Vigilante</td>\n<td>Vigilante talent</td>\n</tr>\n<tr>\n<td>Witch</td>\n<td>Hex</td>\n</tr>\n<tr>\n<td>Wraith</td>\n<td>Wrath haunt</td>\n</tr>\n</table>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897851,
-    "modifiedTime": 1663169295678,
+    "modifiedTime": 1689539976492,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

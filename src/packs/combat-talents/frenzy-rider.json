@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You can spur and encourage your mount to fight more ferociously. While mounted, as a free action at the start of each turn, you can choose to take a -1 penalty on all attack rolls and combat maneuver checks to grant your mount a +1 competence bonus on all attack rolls with natural weapons. This penalty and the bonus granted to your mount end at the start of your next turn. For every 4 ranks of Ride you possess, the penalty you take and the bonus granted to your mount increase by 1.</p>\n<p><strong>Associated Feat:</strong> Saddle Shrieker.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Ride"]],
+    "tags": ["Ride"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886408,
-    "modifiedTime": 1663169291797,
+    "modifiedTime": 1689539971077,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

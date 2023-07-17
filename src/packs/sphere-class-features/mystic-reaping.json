@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The knight&#8217;s blade drinks in magic as it does life. Whenever the mageknight reduces a creature to 0 or fewer hit points, she gains 2 temporary spell points which last for 1 minute (see the Mana sphere for rules on temporary spell points). Creatures with fewer Hit Dice than half the mageknight&#8217;s character level do not grant temporary spell points.</p>\n<p>If the mageknight possesses the resist magic class feature, the bonus from her resist magic ability applies to all death and negative energy effects, even if they are not spells, spell-like abilities, or magic sphere effects.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900148,
-    "modifiedTime": 1663169296300,
+    "modifiedTime": 1689539978540,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

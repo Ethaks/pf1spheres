@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Brute sphere, Muscular Surge, Giant, base attack bonus +10.</p>\n<p>Your carrying capacity multiplier from the Giant talent increases from x2 to x10.</p>\n<p>You are always considered as being one size larger than you are for the purpose of who you may target with combat maneuvers and for talents that have effects dependent on size. If you have expended your martial focus with the Muscular Surge talent, you are considered two size categories larger for the duration.</p>\n<p>If you possess Strong Lungs from the Athletics sphere, you may add your bonus from Muscular Surge to your Constitution score when determining how many rounds you may run or hold your breath.</p>\n<p>If you possess the Oversized Weapons legendary talent from the Equipment sphere, you may wield weapons of any size without increasing the effort required (i.e., you do not increase the weapon&#8217;s category by 1 step from light to one-handed, one-handed to two-handed, etc.), though you still suffer a -2 penalty on attack rolls for each size category the weapon is larger than you.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888169,
-    "modifiedTime": 1663169292756,
+    "modifiedTime": 1689539971117,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

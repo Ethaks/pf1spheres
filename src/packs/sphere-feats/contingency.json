@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Casting class feature, caster level 10th.</p>\n<p><strong>Benefit:</strong> You may spend a spell point and ten minutes of preparation to use a sphere effect in such a way that it comes into effect under some later condition you have previously dictated. You must pay any spell point costs associated with the desired effect and must place the effect on yourself or onto a creature or location within close range. The creature or area selected must be the target of the sphere effect.</p>\n<p>The conditions needed to activate the effect must be clear, but they can be general. (If the caster is dropped below half hit points, if an elf enters the room, or if Madame Deflour comes within close range are all examples of contingency conditions.)</p>\n<p>In all cases, the contingency causes the sphere effect to manifest instantly when the prescribed circumstances occur. If complicated or convoluted conditions are prescribed, the effect may fail when triggered. The effect occurs based solely on the stated conditions, regardless of whether you want it to. You may only have one contingency active at a time; any previous unused contingency effect is dispelled when a new one is created.</p>\n<p>A caster always knows when their contingency is triggered, even if they are not present. If a contingency is placed on a creature or location, it can be detected and dispelled like any other sphere effect. For this purpose, a contingency is considered a magic trap with a Perception and Disable Device DC equal to 25 + 1/2 the caster level.</p>\n<p>If a contingency remains unused when a caster rests to regain spell points, they may choose to dispel the contingency or sustain it, in which case they do not recover the spell points used to create the contingency.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898144,
-    "modifiedTime": 1663169295887,
+    "modifiedTime": 1689539976511,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

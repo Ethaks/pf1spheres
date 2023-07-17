@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You gain the following abilities:</p>\n<p>As a (still) effect, whenever the target would move more than half its movement, it must attempt an Acrobatics check against your Blood sphere DC or immediately fall prone. Additionally, the target cannot take 5-foot steps, and suffers a -2 penalty to its CMD against trip, bull rush and reposition attempts.</p>\n<p>As a (quicken) effect, the target gains a +10 feet enhancement bonus to all movement speeds. This bonus increases by an additional 5 feet every 5 caster levels you possess. Anytime the target would use this additional movement, it also becomes fatigued for 1 round.</p>\n<p>As a (still) effect, the target takes a -2 penalty on Intelligence and Wisdom ability checks, concentration checks, and Intelligence- and Wisdom-based skill checks for the duration of the blood control. This penalty increases by 1 for every 5 caster levels you possess.</p>\n<p>As a (still) effect, the target takes a -2 penalty to its CMD against disarm attempts. This penalty increases by 1 for every 4 caster levels you possess. You may spend a spell point to also force the target to succeed a Fortitude saving throw at the end of each of its turns or immediately drop one item it is currently holding. If the target fails this saving throw by 5 or more, it instead drops all items it is currently holding.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Quicken"], ["Still"]],
+    "tags": ["Quicken", "Still"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892157,
-    "modifiedTime": 1663169293960,
+    "modifiedTime": 1689539974653,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

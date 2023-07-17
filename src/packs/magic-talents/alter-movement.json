@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may enhance creatures, increasing or decreasing their speed.</p>\n<p>When increasing, you grant the target a +10 feet enhancement bonus to one movement speed, as well as a +2 enhancement bonus to any Acrobatics, Climb, Fly, or Swim checks they might attempt while using that movement speed. These bonuses increase by +10 and +2, respectively, per 5 caster levels.</p>\n<p>When decreasing a target&#8217;s movement, you halve all of the target&#8217;s movement speeds (minimum 5 feet). In addition, the target provokes an attack of opportunity whenever it makes a 5-foot step unless it succeeds at an Acrobatics check against your MSD.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Enhance"]],
+    "tags": ["Enhance"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892168,
-    "modifiedTime": 1663169293965,
+    "modifiedTime": 1689539974656,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

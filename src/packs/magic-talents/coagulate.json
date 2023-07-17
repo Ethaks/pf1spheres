@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may end any bleed damage affecting the target of your blood control. For the duration of the blood control, the target reduces any bleed damage taken by 1 + 1 per 3 caster levels and any creature using an effect that would inflict bleed damage must succeed at a magic skill check or have the bleed damage negated. Creatures imposing bleed damage via non-magical abilities (such as an attack that deals bleed damage) may substitute their base attack bonus for their magic skill bonus on this check.</p>\n<h3 id=\"toc3\"><span>Blood Talent Types</span></h3>\n<p>Some Blood talents are marked (quicken) or (still). These talents grant you additional blood control abilities.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Still"]],
+    "tags": ["Still"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890455,
-    "modifiedTime": 1663169293293,
+    "modifiedTime": 1689539974619,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

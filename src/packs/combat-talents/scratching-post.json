@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When triggered, this trap erects a distracting, scratchable pole which occupies the nearest unoccupied square to the triggering square. The scratching post is an object which remains in that square for 1 minute per rank of Craft (traps) you possess and the square it occupies is treated as difficult terrain. The creature which triggered this trap must immediately attempt a saving throw or suffer the scratching post&#8217;s penalties.</p>\n<p>Whenever an enemy within close range (25 feet + 5 feet per 2 ranks of Craft (traps) you possess) who can see the scratching post makes an attack roll that does not include the scratching post, that creature must succeed at a Will saving throw or take a penalty on all attack rolls they make until the start of their next turn equal to -2 - 1 per 5 ranks in Craft (traps). If the creature successfully saves against the scratching post&#8217;s effect, they are immune until the start of their next turn. If there are multiple scratching posts, a creature only needs to succeed at a single saving throw to resist their allure (against the highest DC).</p>\n<p><strong>Scratching Post</strong><br>\nThe scratching post is a wooden object approximately 3 to 5 feet tall with the following statistics:<br>\n<strong>Hit Points</strong> 5 + 3 per rank in Craft (traps)<br>\n<strong>AC</strong> 5 + 1 per rank in Craft (traps)<br>\n<strong>CMD</strong> 15 + 1 per rank in Craft (traps)<br>\n<strong>Hardness</strong> 5<br>\nAs an object, the scratching post cannot succeed at saving throws and can otherwise be interacted with as a normal object. However, the scratching post is firmly grounded and difficult to move. The materials it is constructed from are scavenged and temporary, and cannot be salvaged from a broken trap or after the trap&#8217;s duration expires.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Snare"]],
+    "tags": ["Snare"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885393,
-    "modifiedTime": 1663169291442,
+    "modifiedTime": 1689539971050,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

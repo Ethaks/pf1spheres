@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point and make a melee or ranged touch attack against a target within range, causing them to experience a massive amount of time in a single instant, rendering them exhausted unless they succeed at a Fortitude saving throw. Targets who are already fatigued or exhausted fall asleep.</p>\n<p>Sleeping creatures are helpless. Slapping or wounding awakens a sleeping creature, but normal noise does not. Awakening a creature is a standard action (an application of the aid another action), and the target awaken exhausted if it got less than 1 hour of sleep, or fatigued if it got less than roughly 8 hours.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Time"]],
+    "tags": ["Time"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892574,
-    "modifiedTime": 1663169294147,
+    "modifiedTime": 1689539974659,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

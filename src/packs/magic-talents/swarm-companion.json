@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Conjuration sphere (Altered Size (form)).</p>\n<p>You may grant your companion the swarm subtype, with constituent members of Tiny size. Your companion&#8217;s swarm damage is 1d6 + 1d6 per 3 Hit Dice. At caster level 10th, you can reduce the swarm to Diminutive and at caster level 15th to Fine. The swarm possesses a hive mind with the mental abilities of the companion, so it may be targeted with mind affecting effects unless possessing another ability that would prevent it. The swarm loses all natural attacks, but counts its swarm damage as a natural attack for abilities that modify a natural attack, such as the poison option of the Monstrous Attacks (form) talent.</p>\n<p>This talent cannot be applied to a companion with the Troop Companion (form) talent.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Form"]],
+    "tags": ["Form"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890423,
-    "modifiedTime": 1663169293269,
+    "modifiedTime": 1689539974615,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

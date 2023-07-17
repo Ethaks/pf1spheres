@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point to accelerate time within a 10-foot radius burst, +5 feet per 5 caster levels. All effects that are in effect within this area or on a creature within this area have their duration decreased by 1 round per caster level. This affects magic (spells, sphere abilities, etc.), poisons, diseases, etc., but does not grant extra actions to the targets within this area or provide any other benefit. In the case of effects that target areas, only the effect contained within Fast Time&#8217;s area is accelerated. Unwilling targets (including allies if they choose) are allowed a Will save to negate this effect for themselves or area effects originating from them. You can choose whether or not to affect yourself with your own fast time.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Time"]],
+    "tags": ["Time"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894350,
-    "modifiedTime": 1663169294833,
+    "modifiedTime": 1689539974691,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When you place a glow effect on a creature, you may choose to deal it 1d4 nonlethal fire damage per 2 caster levels (minimum 1d4). The creature takes this damage each round the glow is in effect. A successful Fortitude save negates the damage for that round, while two consecutive Fortitude saves ends the effect.</p>\n<p>If you cause this glow to shed bright light, the target also becomes fatigued the next time they take nonlethal damage from this effect. If they are already fatigued, they instead become exhausted. This fatigue or exhaustion cannot be recovered from until the target has been healed of the nonlethal damage taken from this effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Light"]],
+    "tags": ["Light"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890414,
-    "modifiedTime": 1663169293259,
+    "modifiedTime": 1689539974614,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

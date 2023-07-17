@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Your uncannily strong legs can send you soaring through the air.</p>\n<p><strong>Prerequisites:</strong> Cherufe subtype.</p>\n<p><strong>Benefit:</strong> When calculating how high you can jump with your Acrobatics skill, divide your Acrobatics roll by 2 instead of 4. If you gain a similar ability from another source (such as the primordial leaper barbarian archetype), you may instead use your Acrobatics check to determine the height of your jump without dividing at all. This still does not allow you to exceed your movement for the round with the height or length of your jump.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["General"], ["Racial"]],
+    "tags": ["General", "Racial"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898174,
-    "modifiedTime": 1663169295903,
+    "modifiedTime": 1689539976514,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

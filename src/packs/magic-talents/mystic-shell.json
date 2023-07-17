@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may create an aegis that protects magical effects on the character. A mystic shell has 2 layers, + 1 layer per 10 caster levels. While the layers are in place, whenever a magical effect on the character would be dispelled, it remains and instead a layer of the shell is lost. Each layer is counterspelled as a separate magical effect. Layers of the shell can also be sacrificed to use (succor) talents or abilities. Layers from multiple castings of this aegis do not stack.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aegis"]],
+    "tags": ["Aegis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891094,
-    "modifiedTime": 1663169293642,
+    "modifiedTime": 1689539974638,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

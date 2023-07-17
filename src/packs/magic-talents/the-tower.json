@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may grant a motif that lets the target focus the vagaries of time on a creature or object. The target&#8217;s unarmed strikes, natural attacks, and manufactured weapons ignore a number of points of damage reduction and hardness up to 5 + 1 per 4 caster levels.</p>\n<p>The target may discharge this effect when struck by a manufactured weapon and after taking damage (if any). The weapon takes 1d4 untyped damage per caster level, ignoring hardness. A successful Reflex save halves the damage, but nonmagical items take the full damage regardless of the result. If the weapon&#8217;s wielder has evasion, that ability does not apply to this saving throw.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Motif"]],
+    "tags": ["Motif"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893610,
-    "modifiedTime": 1663169294618,
+    "modifiedTime": 1689539974683,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

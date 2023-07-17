@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Conjuration sphere (Natural Aspect (form) (fast healing option)), caster level 10th.</p>\n<p>Your companion&#8217;s fast healing becomes regeneration instead. Your companion is not dismissed if reduced to or below 0 hit points, nor are effects that trigger when the companion is reduced to 0 hit points (such as Explosive Companion) triggered, unless this regeneration is suppressed.</p>\n<p>This regeneration is overcome by two of the following damage types of your choice: acid, bludgeoning, cold, electricity, fire, negative energy, piercing, positive energy, or slashing. You cannot select a damage type that your companion possesses resistance or immunity to from a permanent ability, such as a (form) or (type) talent.</p>\n<p>Should your companion later gain resistance or immunity to the selected damage type from a permanent ability, you must select a new damage type.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Form"]],
+    "tags": ["Form"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893613,
-    "modifiedTime": 1663169294620,
+    "modifiedTime": 1689539974683,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

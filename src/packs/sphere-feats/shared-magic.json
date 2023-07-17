@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> When you use a sphere ability that has an ongoing effect, you may spend a free action to designate an ally within close range as the owner of the ability. That ally gains control of the ability at the beginning of their next turn. The new owner is considered the creator of the spell, and can do whatever the owner can with the spell, including concentrating to maintain it, dismissing it, moving it (if it can be moved), spending spell points on it, or any other effect that can take place after the ability has been created. The new owner must be a spherecaster with a caster level equal to a minimum of half the caster level of the sphere ability the are being given. They use their own concentration and magical skill bonus to maintain the spell, but the sphere ability still uses your caster level.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897684,
-    "modifiedTime": 1663169295555,
+    "modifiedTime": 1689539976485,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

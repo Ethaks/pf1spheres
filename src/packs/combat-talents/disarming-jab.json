@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Whenever you successfully attack with your counter punch, you can make a disarm attempt against the target as a free action which does not provoke attacks of opportunity. If you successfully disarm the target, you may automatically pick up the item dropped if you have an empty hand, even if you used a weapon to disarm the target.</p>\n<p>In addition, you gain the following new triggers to choose from when you ready a counter punch:</p>\n<ul>\n<li>A hostile creature uses a consumable item (e.g. a potion, Alchemy sphere formulae, etc.)</li>\n<li>A hostile creature activates a magic item (e.g. a wand, spell engine, etc.)</li>\n</ul>\n<p><strong>Normal:</strong> When you successfully disarm your opponent without using a weapon, you may automatically pick up the item dropped.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Counter"]],
+    "tags": ["Counter"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887929,
-    "modifiedTime": 1663169292334,
+    "modifiedTime": 1689539971109,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

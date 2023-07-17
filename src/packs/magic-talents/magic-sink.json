@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may enhance creatures or objects, protecting any other magic they might be subject to. Whenever a creature attempts to Counterspell or otherwise dispel a magical effect on the target, they must first roll their check against your magic sink, only rolling against the intended magical effect if this first check was a success. While Magic Sink can be countered when first cast, it is not considered its own magical effect once applied to a target and cannot be dispelled; instead, it is considered an augment to the other magical effects the target is affected by.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Enhance"]],
+    "tags": ["Enhance"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894689,
-    "modifiedTime": 1663169294994,
+    "modifiedTime": 1689539974703,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

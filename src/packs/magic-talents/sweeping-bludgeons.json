@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Whenever you perform a Bludgeon, instead of making an attack roll, you may choose to swing the Bludgeon in a sweeping arc at the target. The target must succeed at a Reflex save or both the target and the Bludgeon take damage depending on the Bludgeon&#8217;s size. If you possess the Dancing Weapon talent, you may use abilities which would apply additional damage or effects to a single attack action to the Bludgeon damage dealt to the target with this talent. If an effect would impose a penalty to an attack roll, such as Lancer sphere impale or the Power Attack feat, you instead reduce the DC of the Reflex saving throw by that amount.</p>\n<p><strong>Example:</strong> If you possess the Dancing Weapon talent, your Bludgeon damage could include additional damage from a Berserker sphere brutal strike, Duelist sphere blooded strike bleed damage, or the Vital Strike feat, but not other attack actions or effects which do not affect the Bludgeon&#8217;s damage, such as barrage or dual attack. Attack actions or effects which do not affect the Bludgeon's damage, such as barrage or dual attack, instead apply a penalty to the Bludgeon's saving throw.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894072,
-    "modifiedTime": 1663169294639,
+    "modifiedTime": 1689539974685,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

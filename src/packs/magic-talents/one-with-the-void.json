@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Dark sphere (Step Through Darkness (meld)), caster level 10th.</p>\n<p>By spending 2 spell points as a standard action you may become an area of your own darkness for one minute per caster level. You become incorporeal and gain a fly speed of 30 feet (good). You may share spaces freely with allies and enemies, without any benefit or penalties to either party from doing so. You cannot make attacks in this form and do not threaten, though you may still cast spells and use talents.</p>\n<p>You may adjust your size as a move action from a 5-foot radius sphere up to the maximum volume of your darkness, and you may imbue yourself with one (darkness) talent at its normal spell point cost. Changing your active (darkness) talent is a standard action, and you must pay any spell point cost associated with the new talent. You may not manipulate objects or use your own items in this form. Ending this effect is a swift action allowing you to rematerializing in any unoccupied space within your personal area of darkness.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891022,
-    "modifiedTime": 1663169293610,
+    "modifiedTime": 1689539974633,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

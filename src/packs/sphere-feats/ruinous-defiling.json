@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Your despoilation inflicts pain on those caught in your path.</p>\n<p><strong>Prerequisites:</strong> Terrain Casting drawback, non-good alignment.</p>\n<p><strong>Benefit:</strong> Whenever you blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may choose to damage all creatures caught inside the defiled area. Creatures other than yourself inside the corrupted area take 1 point of negative energy damage per caster level (Will save negates, DC 10 + 1/2 your character level + your casting ability modifier). This damage does not heal creatures which would be healed by negative energy.</p>\n<p><strong>Four Defiler Feats:</strong> The damage from this feat increases to 2 points of negative energy per caster level.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Defiler"], ["Drawback"]],
+    "tags": ["Defiler", "Drawback"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897929,
-    "modifiedTime": 1663169295733,
+    "modifiedTime": 1689539976501,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

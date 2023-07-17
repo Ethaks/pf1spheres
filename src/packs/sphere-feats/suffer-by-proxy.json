@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Enhancement sphere, Draining Casting drawback, Circle Casting, Spell Proxy.</p>\n<p><strong>Benefit:</strong> Whenever you use a sphere ability, you may choose to have a creature under the effects of Create Proxy suffer the nonlethal damage for you. The creature must be within the range of one of your Proxy feats, and must not be immune to nonlethal damage. You cannot choose to split up the nonlethal damage; all of it must be dealt to a single creature.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Drawback"], ["Proxy"]],
+    "tags": ["Drawback", "Proxy"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897987,
-    "modifiedTime": 1663169295780,
+    "modifiedTime": 1689539976505,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

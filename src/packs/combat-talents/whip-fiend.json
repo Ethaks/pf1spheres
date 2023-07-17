@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You can deal lethal damage with a whip and can also damage creatures regardless of their armor or natural armor bonus. In addition, you threaten all spaces within 5 ft. of yourself and do not provoke an attack of opportunity while making an attack with a whip.</p>\n<p>As a standard action, you may use your whip to manipulate an unattended object up to 15 ft. away as if you were adjacent to it. You are limited to manipulations you could accomplish in a single move action using only one hand.</p>\n<p>At +10 base attack bonus, you instead threaten all spaces within 10 ft. of yourself. <strong>Associated Feat:</strong> Whip Mastery, Improved Whip Mastery.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885507,
-    "modifiedTime": 1663169291528,
+    "modifiedTime": 1689539971059,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

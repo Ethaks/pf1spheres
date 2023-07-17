@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When causing a glow effect to shed normal or bright light, as a free action you may cause it to trail light behind it rather than radiate light normally. The glow sheds normal or bright light in any square it passes through during the round, and the light 20 feet away from any square of this area (or 30 feet + 5 feet per 2 caster levels away if shedding bright light) is increased by one step to a maximum of normal. If you return the light&#8217;s area to normal or change between (nimbus) talents, any trail left behind is removed.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Nimbus"]],
+    "tags": ["Nimbus"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892693,
-    "modifiedTime": 1663169294270,
+    "modifiedTime": 1689539974665,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

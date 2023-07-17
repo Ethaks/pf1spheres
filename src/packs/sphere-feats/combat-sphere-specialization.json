@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Your knowledge of one particular combat sphere is without peer.</p>\n<p><strong>Prerequisite:</strong> 1 or more combat spheres.</p>\n<p><strong>Benefit:</strong> Select one combat sphere you possess, you treat your base attack bonus as 1 higher for the purposes of its effects, but not for attacks made with talents from that sphere. At 5th level and every 4 levels afterwards, the chosen sphere&#8217;s base attack bonus is treated as an additional 1 higher, although the sphere&#8217;s effective base attack bonus cannot be higher than your character level.</p>\n<p><strong>Special:</strong> You may select this feat multiple times, each time selecting a different sphere.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["combat"]],
+    "tags": ["combat"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898218,
-    "modifiedTime": 1663169295928,
+    "modifiedTime": 1689539976517,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

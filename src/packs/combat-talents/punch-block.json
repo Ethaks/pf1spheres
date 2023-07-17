@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When you use your active defense, you may choose to make an attack roll as if making a shield bash and must use the result of this attack in place of your AC for resolving the attack, even if lower. You must be capable of making shield bash attacks with the shield to use this ability.</p>\n<p><strong>Note:</strong> Punch Block replaces your entire AC bonus with your attack roll; treat this as though using your active defense. This is not a shield bonus, and does not apply to attacks which would bypass your Shield bonus (such as the Improved Precise Shot feat). The Deflecting Shield talent does not allow Punch Block to apply against touch attacks.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887931,
-    "modifiedTime": 1663169292335,
+    "modifiedTime": 1689539971109,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

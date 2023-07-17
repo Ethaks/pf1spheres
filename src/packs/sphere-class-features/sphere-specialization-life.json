@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Bolstering Essence (Sp):</strong> At 3rd level, the incanter may grant himself temporary hit points equal to his incanter level as a free action. These hit points last for 1 round. He can use this ability a number of times per day equal to 3 + his casting ability modifier.</p>\n<p><strong>Life Sight (Su):</strong> At 8th level, the incanter can give himself blindsight to a range of 10 feet as a free action for 1 round. He may use this ability a number of times per day equal to his incanter level. This ability only allows him to detect living creatures and undead creatures. This sight also tells him whether a creature is living or undead. Constructs and other creatures that are neither living nor undead cannot be seen with this ability. The range of this ability increases by 10 feet at 12th level, and by an additional 10 feet for every four levels beyond 12th. These rounds do not need to be consecutive.</p>\n<p><strong>Life Essence (Su):</strong> At 20th level, the incanter becomes immune to death effects and gains fast healing 1.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900816,
-    "modifiedTime": 1663169296898,
+    "modifiedTime": 1689539978574,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

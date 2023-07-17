@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>You have extreme control over your bones and joints, allowing you to respond to a variety of physical threats.</p>\n<p><strong>Prerequisites:</strong> Death sphere, charmed life class feature.</p>\n<p><strong>Benefit:</strong> You can expend a daily use of charmed life as an immediate action to gain one of the following benefits:</p>\n<ul>\n<li>Reduce all damage taken from bludgeoning, piercing, and slashing damage until the start of your next turn by an amount equal to your casting ability modifier + 1/2 your character level.</li>\n<li>Add your casting ability modifier as an insight bonus to your CMB and CMD until the start of your next turn.</li>\n<li>Ignore all penalties to attack rolls, AC, and movement for being prone until the start of your next turn.</li>\n</ul>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"]],
+    "tags": ["Combat"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898188,
-    "modifiedTime": 1663169295911,
+    "modifiedTime": 1689539976515,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

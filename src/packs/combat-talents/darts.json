@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>A dart trap is constructed of spring, twine, and usually a needle or other blade. A dart targets a line originating from one corner of one of the squares it occupies determined when it is set. This line extends out to Close range (25 ft. + 5 ft. per 2 ranks of Craft (traps) you possess) and stops after one creature is hit. When triggered, make a ranged attack roll against each creature in the line until one is hit. You may substitute your ranks in Craft (traps) + your Intelligence modifier for your base attack bonus + Dexterity modifier on this roll. The dart deals 1d6 piercing damage, increasing by 1d6 when your Craft (traps) ranks reach 3 and every 2 ranks thereafter, and has a critical threat range of 20 with a x3 multiplier. Some talents allow you to modify your darts. Each trap may only benefit from one (dart) talent. Some trap talents allow you to forgo dealing damage for benefits as defined in that talent.</p>\n<p>You may forgo dart damage to expend an alchemical item (such as a tanglefoot bag), a thrown splash weapon (such as alchemist&#8217;s fire or acid flasks), or a dust (a potion containing a spell that affects an area) when making a dart trap to add the effects of that splash weapon to the dart. Resolve the attack versus touch AC. Items with an area of effect count their origin from the nearest corner of the struck creature&#8217;s space to the line of the dart&#8217;s effect.</p>\n<p>You may apply injury poison to a dart as if it were a weapon after it has been set. While setting the trap, you may choose to forgo dart damage, instead expending a dose of a contact or inhaled poison as part of setting the trap. The dart then resolves its attack vs. touch AC. An inhaled poison fills its area as normal, centered on the struck creature&#8217;s square (or the first square targeted by the line, if the creature occupies more than one space).</p>\n<h2 id=\"toc1\"><span><span style=\"color: #993300\">Snares</span></span></h2>\n<p>A snare trap is constructed from rope, wire, and similar materials. A snare targets the first creature to enter one of the squares it occupies. A creature may avoid triggering a snare with a successful Reflex save; doing so leaves the trap untriggered and makes the creature aware of the trap and able to pass through that trap&#8217;s space(s) without further risk of triggering it. Some talents grant additional types of snares. Each trap may only benefit from one (snare) talent.</p>\n<p>An alchemical item may be rigged to a snare trap. If a creature triggers the trap, the alchemical item is activated, targeting a grid intersection adjacent to the trap chosen when it is set. If the alchemical item is a thrown splash weapon, the triggering creature is affected by the item as if it were struck directly by it. Other small items such as dyes, dusts, vials of perfume, and other items with GM permission may also be attached to a snare trap as well.</p>\n<p>An inhaled poison may be rigged to a snare trap. If a creature triggers the trap, the first square entered (the creature&#8217;s choice if there is more than one entered simultaneously) becomes the centerpoint for the inhaled poison.</p>\n<p>When you first gain the Trap sphere, you gain the following snare:</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886419,
-    "modifiedTime": 1663169291808,
+    "modifiedTime": 1689539971078,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

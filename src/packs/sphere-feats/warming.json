@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Benefits:</strong> While using the warming purr, you and allies within your purring aura gain 5 cold resistance. In addition, each creature benefiting from the warming purr deals an additional +1d6 fire damage on their first successful attack made each round. This attack must be one made with a manufactured weapon, natural attack, or unarmed strike.</p>\n<p><strong>Powerful Purring:</strong> The cold resistance granted by the warming purring increases to 15 and the additional fire damage increases to +2d6.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Purring"]],
+    "tags": ["Purring"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897928,
-    "modifiedTime": 1663169295732,
+    "modifiedTime": 1689539976501,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

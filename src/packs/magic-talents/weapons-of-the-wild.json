@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may activate the following abilities as fey-blessings:</p>\n<p><strong>Antlers of the Forest:</strong> You gain a gore attack (primary, 1d6 Medium, 1d4 Small). This gore attack does double damage on a charge as the powerful charge universal monster ability. At 7th caster level, this attack counts as chaotic for the purpose of overcoming damage reduction. At 14th caster level this attack gains the anarchic weapon special ability.</p>\n<p><strong>Gremlin&#8217;s Teeth:</strong> You gain a bite attack (primary, 1d8 Medium, 1d6 Small). At 7th caster level, this attack counts as evil for the purpose of overcoming damage reduction. At 14th caster level this attack gains the unholy weapon special ability.</p>\n<p><strong>Unicorn&#8217;s Blessing:</strong> You gain a gore attack (primary, 1d6 Medium, 1d4 Small). This gore attack does double damage on a charge as the powerful charge universal monster ability. At 7th caster level, this attack counts as good for the purpose of overcoming damage reduction. At 14th caster level this attack gains the holy weapon special ability.</p>\n<p>These are polymorph effects.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Fey-Blessing"]],
+    "tags": ["Fey-Blessing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893600,
-    "modifiedTime": 1663169294609,
+    "modifiedTime": 1689539974682,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

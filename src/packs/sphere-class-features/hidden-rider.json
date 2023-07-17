@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>While possessing another creature or object, the wraith may hide from the divine ability of the Divination sphere and spells of the Divination school and pass through wards that would affect a possessing creature such as magic circle against evil or the effects of a forbiddance spell. The wraith must attempt a Will save against the spell or sphere ability (even if it does not normally allow a saving throw). If he succeeds, the spell treats him as if he were his host (for instance, Divine Alignment would reveal only the host&#8217;s alignment, and forbiddance keyed to the host&#8217;s alignment would not damage the wraith). If the wraith&#8217;s saving throw fails, the spell functions against him as normal.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900492,
-    "modifiedTime": 1663169296623,
+    "modifiedTime": 1689539978554,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

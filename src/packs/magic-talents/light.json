@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Some talents are designated (light), which add additional effects to your glow ability. You may only apply the benefits of one (light) talent to any individual glow effect. While you may only apply one such talent to an individual glow effect, areas of bright light from different glow effects overlap, provided they are augmented by different (light) effects; an area cannot be affected by the same (light) effect from multiple sources simultaneously.</p>\n<p>When augmenting a glow effect with a (light) talent, the effect is applied once per round, at the end of the caster&#8217;s turn. For example, if a glowing object is thrown into a large group of enemies, it would only affect those within the area where it landed, not those targets it passed by to arrive in that area.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890769,
-    "modifiedTime": 1663169293553,
+    "modifiedTime": 1689539974629,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

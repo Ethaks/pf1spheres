@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Your companion may climb virtually any surface, no matter how slick or sheer. It can climb and travel on vertical surfaces or even traverse ceilings as well as a spider does. The companion must have at least 3 limbs free to climb in this manner. The companion gains a climb speed of 20 feet, including the +8 racial bonus on Climb checks from having a climb speed; furthermore, it need not attempt Climb checks to traverse a vertical or horizontal surface (even upside down). A companion climbing this way retains its Dexterity bonus to Armor Class (if any) while climbing, and opponents get no special bonus to their attacks against it. It cannot, however, use the run action while climbing. If the companion already possesses a climb speed, it gains a +10 feet bonus to that climb speed.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Form"]],
+    "tags": ["Form"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893586,
-    "modifiedTime": 1663169294598,
+    "modifiedTime": 1689539974681,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

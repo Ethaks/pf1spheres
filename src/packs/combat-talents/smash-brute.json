@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Whenever you successfully perform a bull rush, drag, overrun, or reposition maneuver against a creature (other than with maneuvers performed as a free action), that creature suffers damage equal to your unarmed strike or a light weapon you are wielding. This qualifies your bull rush, drag, overrun, and reposition maneuvers for feats and talents such as Power Attack, suffering a penalty to your CMB in exchange for increased damage.</p>\n<p>You may use your unarmed strike or a light weapon you are holding to make these maneuvers, meaning you may add their enhancement bonus, as well as spells or feats which increase their attack bonus such as Weapon Focus, to your CMB when performing a bull rush, drag, overrun, or reposition maneuver.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886829,
-    "modifiedTime": 1663169291980,
+    "modifiedTime": 1689539971088,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

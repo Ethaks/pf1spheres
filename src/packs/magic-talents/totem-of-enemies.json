@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You must spend a spell point to create a totem of enemies. Choose an end of the alignment spectrum (chaotic, evil, good, or lawful) when you create the totem. Creatures within the area of this totem who possess that alignment suffer a -1 penalty to all saving throws and attack rolls. This penalty increases by 1 per 10 caster levels. You must select an alignment that you do not possess. If you are chaotic neutral, lawful neutral, neutral evil, or neutral good, you may select true neutral with this totem.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Totem"]],
+    "tags": ["Totem"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891726,
-    "modifiedTime": 1663169293889,
+    "modifiedTime": 1689539974647,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

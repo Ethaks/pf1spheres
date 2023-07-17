@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You fade from view while in a creature&#8217;s peripheral vision. You gain concealment from any creature that you are flanking. You may dismiss this fey-blessing as a standard action to attempt a Stealth check to hide. You may reduce this to a swift action by spending a spell point. You may attempt this check even if you are observed and have no concealment. Any creature that fails its Perception check cannot see you and treats you as having full concealment until the start of your next turn. Making an attack, casting a spell or sphere ability with verbal or somatic components or subject to the Magical Signs drawback, speaking, or other loud or distracting actions ends this effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Fey-Blessing"]],
+    "tags": ["Fey-Blessing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893595,
-    "modifiedTime": 1663169294606,
+    "modifiedTime": 1689539974682,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

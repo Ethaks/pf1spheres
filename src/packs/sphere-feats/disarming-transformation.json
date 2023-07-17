@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Alteration sphere (Transform Object).</p>\n<p><strong>Benefit:</strong> When targeted by an attack with a manufactured weapon within your shapeshift range, you may spend a spell point as an immediate action to briefly shapeshift the weapon into an animal, disarming your foe. You must be aware of the attack.</p>\n<p>The target is allowed a Will save to negate this effect. On a failed save, the weapon immediately transforms into a Small animal or a group of Tiny animals and moves a short distance away before returning to its original form in a square of your choosing within 30 feet of the target. The weapon&#8217;s movement does not provoke attacks of opportunity. The transformed weapon will not pass through dangerous squares such as an energy wall, instead stopping in the previous square.</p>\n<p>Alternatively, you may spend a spell point as a standard action to shapeshift a manufactured weapon in the range into a hostile serpent that whips around to attack its wielder. The weapon&#8217;s wielder must succeed at a Will save or the next time the weapon is used within 1 round per caster level for an attack, the damage of the attack is instead dealt to the wielder.</p>\n<p>The wielder cannot willingly reduce or deal nonlethal damage with this attack. Once the damage has been dealt, the effect is discharged. If you spend an additional spell point, the effect persists for 1 round per caster level, each attack after the first granting a Will save to end the effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"]],
+    "tags": ["Combat"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897549,
-    "modifiedTime": 1663169295485,
+    "modifiedTime": 1689539976478,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

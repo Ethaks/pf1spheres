@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You fire an additional piece of ammunition, striking the target twice as hard where they've already been damaged. When a target is struck by an additional attack modified by this (blitz), the target also takes an additional +1 precision damage for each attack that previously damaged that target as part of this barrage. This additional damage increases by +1 for every 7 base attack bonus you possess. A character with 14 BAB would deal +3 damage on the second successful attack, then +6, +9, and so on.</p>\n<p>You expend an additional piece of ammunition when using this (blitz).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Blitz"]],
+    "tags": ["Blitz"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885774,
-    "modifiedTime": 1663169291702,
+    "modifiedTime": 1689539971068,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

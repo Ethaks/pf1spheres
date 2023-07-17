@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Tactics are coordinated battle plans that require continuing direction from the practitioner to maintain. A creature must have line of sight to, and be able to see, the practitioner to benefit from a tactic. Beginning a tactic is a move action, and it can be maintained each round as a move or swift action. Once activated, you may switch between any tactics you know each time you use a swift action to maintain an ongoing tactic. Tactics affect all allied creatures within a radius of 10 ft. + 5ft. per rank in Diplomacy you possess, and may be centered on any square you have both line of sight and line of effect to. You may recenter an ongoing tactic at a new location as part of the swift action used to maintain it. The benefits of your tactics end immediately if you are helpless, killed, paralyzed, rendered unconscious, or stunned.</p>\n<p>When you first gain the Warleader sphere, you gain the following tactic:</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887950,
-    "modifiedTime": 1663169292350,
+    "modifiedTime": 1689539971110,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

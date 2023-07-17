@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You distract the target from the world around them.</p>\n<p><strong>Lesser Charm:</strong> The target suffers a -2 penalty to Perception checks for 1 round per caster level. This penalty increases by 1 per 5 caster levels you possess (Will negates).</p>\n<p><strong>Greater Charm:</strong> The target is fascinated for 1 round per caster level (Will negates). The fascinated creature does not immediately break from this condition if they see an obvious threat, but instead receives a new saving throw against this effect. If the creature is damaged while fascinated, the creature immediately breaks free from this effect.</p>\n<p><strong>Powerful Charm:</strong> This is the same as the greater charm, except that the target is instead fascinated for 1 minute per caster level (Will negates). Additionally, whenever the fascinated creature would receive a new saving throw due to hostile actions or threats directed towards them, the saving throw is made at a -4 penalty. If the creature would be damaged while fascinated, the creature instead receives a new saving throw against this effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Charm"]],
+    "tags": ["Charm"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894499,
-    "modifiedTime": 1663169294953,
+    "modifiedTime": 1689539974700,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

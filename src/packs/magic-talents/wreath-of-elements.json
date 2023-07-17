@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>As an immediate action, (or a free action usable even when it is not your turn by spending a spell point) you may reach out with one of your elements. This grants you the following abilities, depending on which packages you possess. You may only use Wreath Of Elements once per round.</p>\n<p><strong>Air:</strong> Make a check adding your caster level and casting ability modifier vs. the bull rush CMD of a target within your reach. On a success, the target is pushed 5 feet directly away from you.</p>\n<p><strong>Earth:</strong> You gain temporary hit points equal to your caster level against one attack.</p>\n<p><strong>Fire:</strong> You attack a target within your reach with fire, dealing fire damage equal to your caster level (Reflex half).</p>\n<p><strong>Metal:</strong> You reach out with a magnetic field, gaining a deflection bonus to AC and CMD equal to 2 +1 per 5 caster levels against one attack.</p>\n<p><strong>Plant:</strong> Make a check using your caster level + your casting ability modifier vs. the grapple CMD of a target within your reach. On a success, the target is entangled for 1 round.</p>\n<p><strong>Water:</strong> Make a check using your caster level + your casting ability modifier vs. the trip CMD of a target within your reach. On a success, the target is knocked prone.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Spirit"]],
+    "tags": ["Spirit"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890420,
-    "modifiedTime": 1663169293264,
+    "modifiedTime": 1689539974614,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

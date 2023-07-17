@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Whenever you create an illusion, you may empower it to be incredibly difficult to perceive and disbelieve.</p>\n<p><strong>Prerequisites:</strong> Illusion sphere (Manipulate Aura (sensory, magic)), caster level 10th.</p>\n<p>Whenever a creature would disbelieve an illusion you have created and declare or inform other creatures that the illusion is an illusion, other creatures informed of the illusion&#8217;s nature do not receive an automatic saving throw to disbelieve the illusion.</p>\n<p>In addition, if an effect would allow a creature to automatically disbelieve an illusion, that effect does not allow the creature to automatically see through or overcome the illusion (such as true seeing or the Divination sphere True Seeing (sense) advanced talent not automatically seeing through a visual illusion). The creature is instead automatically granted a saving throw to disbelieve the illusion as though they had properly interacted with the illusion. A creature benefiting from such an effect only receives a single, automatic saving throw to disbelieve for each illusion (such as only receiving a single, automatic saving throw against your illusion if observing it with true seeing, and must interact and disbelieve it normally should they fail their saving throw).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891974,
-    "modifiedTime": 1663169293944,
+    "modifiedTime": 1689539974652,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>Mystical tattoos ward you from harm and transform your skin into protective armor.</p>\n<p><strong>Prerequisites:</strong> Craft (tattoos) 5 ranks, Unarmored Training or AC Bonus class feature.</p>\n<p><strong>Benefit:</strong> Covering your body in these intricate tattoos etched by your own hand, you gain the ability to have your skin enchanted with armor special abilities as though it was a suit of +1 leather armor. You cannot have a total bonus of armor special abilities higher than +6. You cannot use this ability to add any armor special abilities that add a flat gp amount to their cost instead of a bonus equivalent.</p>\n<p><sup>* This feat is previously published, and is reprinted here for ease of use.</sup></p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898097,
-    "modifiedTime": 1663169295874,
+    "modifiedTime": 1689539976508,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Intense Magic (Su):</strong> At 3rd level, whenever the incanter creates a destructive blast that deals hit point damage, he adds 1/2 his incanter level to the damage dealt (minimum +1). This bonus damage is not increased by Empower Spell or similar effects. This damage is of the same type as the destructive blast.</p>\n<p><strong>Penetrating Blast (Sp):</strong> At 8th level, when the incanter uses a destructive blast and rolls to penetrate spell resistance, he may roll twice and take the higher result. He may use this ability once per day at 8th level, and one additional time per day for every 6 levels beyond 8th.</p>\n<p><strong>Indestructible:</strong> At 20th level, the incanter becomes immune to critical hits and precision damage. When below 0 hit points, he does not die until his negative total is in excess of twice his Constitution score.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900194,
-    "modifiedTime": 1663169296342,
+    "modifiedTime": 1689539978543,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

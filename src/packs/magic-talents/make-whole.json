@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Life sphere (Break Enchantment, Restore Senses (cure), Restore Spirit (cure)), caster level 10th.</p>\n<p>You may spend an additional spell point when restoring soul to remove one permanent negative level from the target in addition to the other effects. At caster level 15th, this removes all negative levels and spending an additional spell point also allows restoring soul to count as using a miracle or wish spell for those spells and abilities that specify they can only be removed by the use of these spells. This does not mimic any other benefits of a miracle or wish spell.</p>\n<p>Additionally, they are healed of all broken bones, severed body parts (fingers, toes, hands, feet, arms, legs, tails, or even heads of multi-headed creatures), and ruined organs. This also restores sight, hearing, and other permanent loss of senses. If body parts to be reattached are not present, they require 2d10 rounds to regrow.</p>\n<p>This cannot bring a creature back from the dead nor function on a creature that is already dead.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892668,
-    "modifiedTime": 1663169294234,
+    "modifiedTime": 1689539974664,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

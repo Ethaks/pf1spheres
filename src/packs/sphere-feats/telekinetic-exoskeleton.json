@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere, character level 3rd.</p>\n<p><strong>Benefit:</strong> With your telekinesis you can supplement your physical skills. As a swift action you can give yourself one of the following benefits:</p>\n<ul>\n<li><strong>Dampening Field:</strong> You gain temporary hit points equal to your casting ability modifier.</li>\n<li><strong>Propelling Force:</strong> You gain a +10 feet enhancement bonus to your movement speeds.</li>\n<li><strong>Tactile Telekinesis:</strong> You add your casting ability modifier as a bonus to Strength checks, and Climb and Swim checks.</li>\n</ul>\n<p>These benefits lasts indefinitely. If you activate one of these benefits while a previous benefit is still in effect, the first benefit ends immediately.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Protokinesis"]],
+    "tags": ["Protokinesis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898115,
-    "modifiedTime": 1663169295878,
+    "modifiedTime": 1689539976508,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

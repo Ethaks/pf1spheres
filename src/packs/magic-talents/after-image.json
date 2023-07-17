@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may cause a target to bleed through time, blurring their image so that they appear to be in multiple places at once. This grants the target concealment (20% miss chance) against attacks, +5% per 3 caster levels to a maximum of 50%. This is a blur effect, and may be counteracted by abilities that specify they can see through them. Opponents that cannot see the subject ignore this penalty, although fighting an unseen opponent carries penalties of its own.</p>\n<p>This effect lasts as long as you concentrate, although you may spend a spell point as a free action to allow this effect to remain for 1 minute per caster level without concentration.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Time"]],
+    "tags": ["Time"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892710,
-    "modifiedTime": 1663169294292,
+    "modifiedTime": 1689539974667,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

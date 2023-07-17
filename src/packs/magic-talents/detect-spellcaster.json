@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point to divine the spellcasting capabilities of a creature you can see within range, utilizing the chart below. Targeted individuals who only have extraordinary and supernatural abilities show up as having no spellcasting aura, whereas those who have spherecasting, spells, or spell-like abilities show an aura depending on the highest effective spell level of an ability they can use. As always, treat a spherecaster&#8217;s caster level divided by 2 as their effective spell level. You may also attempt a Spellcraft check to discover the caster&#8217;s casting tradition, even if they have not produced any magical effects for you to observe.</p>\n<p>Multiclass core spellcasting classes only reveal as the highest aura between the two. Spherecasters with varying caster levels depending on spheres show auras according to their current highest sphere casting ability. If you are participating in a setting with other forms of magic or spellcasting systems, they are detected as appropriate.</p>\n<strong>Chart: Detect Spellcaster</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Class Example</th>\n<th>Highest Effective Spell Level</th>\n<th>Aura Strength</th>\n</tr>\n<tr>\n<td>Core human fighter</td>\n<td>Only natural, (Ex), or (Su) abilities</td>\n<td>None</td>\n</tr>\n<tr>\n<td>Armorist (CL 1)</td>\n<td>Level 0-1 spells</td>\n<td>Dim</td>\n</tr>\n<tr>\n<td>Hedgewitch (CL 5)</td>\n<td>Level 2-3 spells</td>\n<td>Faint</td>\n</tr>\n<tr>\n<td>Mageknight (CL 10)</td>\n<td>Level 4-5 spells</td>\n<td>Moderate</td>\n</tr>\n<tr>\n<td>Eliciter (CL 14)</td>\n<td>Level 6-7 spells</td>\n<td>Strong</td>\n</tr>\n<tr>\n<td>Fey adept (CL 18)</td>\n<td>Level 8 or higher spells</td>\n<td>Overwhelming</td>\n</tr>\n</table>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Divine"]],
+    "tags": ["Divine"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892708,
-    "modifiedTime": 1663169294291,
+    "modifiedTime": 1689539974667,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

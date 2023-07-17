@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>At 1st level, a conscript gains the Finesse Fighting Equipment talent (if he already has or gains Finesse Fighting or an equivalent feat from another source, he may select another combat talent for which he qualifies). In addition, starting at 4th level, he can select any one type of weapon that can be used with Finesse Fighting (such as rapiers or daggers). Once this choice is made, it cannot be changed. Whenever he makes a successful melee attack with the selected weapon, he adds his Dexterity modifier instead of his Strength modifier to the damage roll. If any effect would prevent the conscript from adding his Strength modifier to the damage roll, he does not add his Dexterity modifier. The conscript can select a second weapon at 12th level and a third at 18th level.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900038,
-    "modifiedTime": 1663169296175,
+    "modifiedTime": 1689539978531,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

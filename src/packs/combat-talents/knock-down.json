@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>While mounted, whenever you or your mount succeed on a bull rush, drag, or reposition combat maneuver, you may make a free trip attempt against the target, using your or your mount&#8217;s original combat maneuver check as your trip combat maneuver check. Even if you fail this check by 10 or more, you do not fall prone. If the target was mounted, they fall off their mount in a space adjacent to their mount directly away from you. When a target falls prone this way, you may expend martial focus to deal 1d6 points of falling damage, plus an additional 1d6 for every 3 ranks of Ride you possess.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Ride"]],
+    "tags": ["Ride"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887933,
-    "modifiedTime": 1663169292337,
+    "modifiedTime": 1689539971110,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

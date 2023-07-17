@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Whenever you use the attack action or an attack of opportunity to attack or disarm a creature, you deal an additional 1 point of bleed damage to the target on a successful attempt, +1 for every 3 points of base attack bonus you possess; this stacks with any other bleed damage you are capable of dealing. Practitioners of the Duelist sphere never provoke attacks of opportunity when attempting combat maneuvers against a target currently taking bleed damage.</p>\n<p><strong>Bleed:</strong> Some talents have the (bleed) descriptor; these talents are triggered when you deal bleed damage to a creature using your blooded strike. You may only apply the effects of a single (bleed) talent to a given attack. A target that is immune to bleed damage is also immune to all other effects of talents with this descriptor. For the purpose of these talents, only bleed damage you deal with your blooded strike is considered when determining their effects.</p>\n<p><strong>Disarm:</strong> Some talents have the (disarm) descriptor; these talents trigger whenever you succeed at a disarm attempt against a creature. You may only apply the effects of a single (disarm) talent to a given disarm attempt. (Disarm) talents cannot be applied to maneuvers performed as a free action.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886830,
-    "modifiedTime": 1663169291981,
+    "modifiedTime": 1689539971088,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

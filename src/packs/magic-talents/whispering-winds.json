@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>All creatures bearing your mantle can talk with each other as if they were adjacent to each other, as long each conversation partner is in an area of Wind of severity level 2 or higher. This works regardless of distance or any weather between them, as long they are on the same plane. This allows them to speak and hear each other even if one of them is in an area of magical silence, though it does not allow them to speak verbal components.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Mantle"], ["Wind"]],
+    "tags": ["Mantle", "Wind"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892582,
-    "modifiedTime": 1663169294164,
+    "modifiedTime": 1689539974659,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

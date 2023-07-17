@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>Successfully performing a link component increases the length of the prodigy&#8217;s active sequence by 1 link. A given action may not add more than 1 link even if it fulfills the conditions of more than one link component, such as dealing damage to a hostile creature and that hostile creature failing a save granted by that same effect. Bonus attacks granted by or made as part of a given action (such as the Barrage or Dual Wielding spheres or the Armiger&#8217;s rapid assault ability) count as part of the original action for this purpose, though attacks of opportunity do not. All openers function as link components if performed after a sequence has been started. No link component may grant a link more than once per turn. The following are your basic link components:</p>\n<ul>\n<li><strong>Abandon Focus:</strong> As a free action, the prodigy may expend martial focus.</li>\n<li><strong>Adopt Form: [Youxia HB]</strong> Expend martial focus as part of activating a (stance) talent.</li>\n<li><strong>Close the Gap:</strong> As a move action, the prodigy may move up to her speed, ending the movement with a hostile creature within her threatened area. She may sheath one weapon and draw another as a free action as part of this movement.</li>\n<li><strong>Counting Coup:</strong> As a swift action, a prodigy may make a touch attack against a creature using a wielded weapon. If successful, this attack deals no damage but completes this (link). Weapons that require ammunition expend one attack&#8217;s worth of ammunition when used with this ability. Such an attack is too glancing to deliver a held touch spell, trigger ammunition properties that function on hit, utilize a thrown splash weapon, or similar effects.</li>\n<li><strong>Disengage:</strong> As a move action, the prodigy may move up to half her speed. She does not provoke attacks of opportunity for leaving her starting squares. She may sheath one weapon and draw another as a free action as part of this movement.</li>\n<li><strong>Preparation:</strong> Whenever the prodigy would be granted an attack of opportunity against a hostile creature, she may choose to expend an attack of opportunity without making an attack to complete this (link). She must be capable of making the attack to use this ability.</li>\n<li><strong>Save:</strong> Succeed on a save against a non-harmless effect originating from a hostile creature.</li>\n<li><strong>Swift Heal:</strong> Restore hit points to an ally or remove ability drain, ability damage, or the blinded, dazed, frightened, nauseated, shaken, sickened, or stunned conditions with an ability that requires at least an immediate action.</li>\n<li><strong>Steel Mind:</strong> Pass a concentration check to maintain concentration on a sphere effect when taking damage.</li>\n</ul>\n<p>Some abilities, such as possessing certain spheres, may grant additional link component options. Such options have the (link) tag.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900065,
-    "modifiedTime": 1663169296202,
+    "modifiedTime": 1689539978532,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

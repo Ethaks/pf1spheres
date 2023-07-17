@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point to apply your telekinesis as kinetic energy across an area instead of directly onto targets. This fills an area with a radius of up to 10 feet + 5 feet per five caster levels with kinetic energy, which manifests in one of the following ways, each of which may be made into a Sustained Force.</p>\n<p>An area cannot be affected by more than one field at a time:</p>\n<ul>\n<li>You may make all squares in the area, including the air, become difficult terrain. Moving through this area causes fire damage equal to 1/2 your caster level (minimum 1) per 5 feet of movement due to intense friction.</li>\n<li>You may cause any projectiles or thrown objects up to one size smaller than your telekinesis limit that pass through this area to be affected as if by Catch.</li>\n<li>You may cause creatures or objects up to one size smaller than your telekinesis limit that enter this area to move up to half your telekinesis speed in one direction, chosen when the field is created, to a maximum distance of the edge of the field. Unwilling targets may attempt a Will saving throw to resist, and if a creature fails this save and attempts to move against the direction of field they must first spend movement equal to half your telekinesis speed to overcome the effects of the field. Unattended objects move on your turn and are not fast enough to cause harm. Creatures do not move until their turn.</li>\n</ul>\n<p>You may take this talent a second time. If you do, you may form the kinetic field such that it occupies any of the following areas as an alternative to its normal shape. These areas carry the normal effect of the kinetic field that you dictate. [Alienist HB]</p>\n<ul>\n<li>A wall up to 20 feet wide per caster level in a straight line and up to 20 feet high.</li>\n<li>An area centered on you with a 10-foot radius + 5 feet per 5 caster level. This area moves with you.</li>\n<li>An area shaped as you choose made out of contiguous 5-foot cubes, up to a maximum of 5 cubes + 1 cube per 2 caster levels.</li>\n</ul>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894487,
-    "modifiedTime": 1663169294947,
+    "modifiedTime": 1689539974699,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere, base attack bonus +1.</p>\n<p><strong>Benefit:</strong> You may cause a weapon to float in mid-air for a brief moment. This allows you to take your hands off it as a free action and then grab it again (including with your telekinetic limb, if you have one) as a free action, during which time you may use them to perform any other action. If you move, your weapon follows you, remaining floating in your square. While floating you cannot make attacks with them, but they count as attended and either wielded or sheathed by you (whichever is more beneficial).</p>\n<p><strong>Special:</strong> If you have the Quickdraw feat, as long as you have a free hand you may grab one of your floating weapons an immediate action.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Protokinesis"]],
+    "tags": ["Protokinesis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898014,
-    "modifiedTime": 1663169295799,
+    "modifiedTime": 1689539976507,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

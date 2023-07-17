@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>In your heroic moment, your abilities expand.</p>\n<p><strong>Benefit:</strong> While in a situation where you could enter Aristeia, you gain a +1 insight bonus which you may add to any d20 roll once per round. When you enter Aristeia, choose a single feat that you meet the prerequisites for. So long as you remain in Aristeia, you gain the benefits of that feat. If entering Aristeia level 3 or higher, you may select two feats rather than one. You cannot select other Aristeia feats with this feat.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aristeia"]],
+    "tags": ["Aristeia"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898194,
-    "modifiedTime": 1663169295915,
+    "modifiedTime": 1689539976515,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

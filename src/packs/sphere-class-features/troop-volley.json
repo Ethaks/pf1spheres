@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>Whenever the commander uses an attack action to make a ranged attack, he may immediately spend a move action to allow each ally currently benefiting from one of his shouts or tactics to make a single ranged attack against the same creature as an immediate action.</p>\n<h2 id=\"toc19\"><span><span style=\"color: #993300\">Battlefield Specialist (Ex)</span></span></h2>\n<p>At 3rd level and every 6 levels thereafter, the commander may select a specific terrain he excels at coordinating battles in. The commander chooses one terrain and its associated benefits each time he gains this ability.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900953,
-    "modifiedTime": 1663169297160,
+    "modifiedTime": 1689539978578,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

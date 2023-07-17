@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Athletics sphere, Wall Stunt, Acrobatics 5 ranks.</p>\n<p>If you possess the (leap) package, you no longer require a solid surface to make your swift action jump with the Wall Stunt talent. While you have martial focus, the DC for Acrobatics checks to determine jump height have their DC reduced to 1 per 1 ft. of height. Additionally, you may reduce the effective height of any fall by an additional 10 ft. on a successful Acrobatics check.</p>\n<p>If you possess the (run) package, you may run over the air as if it were ground. You do not fall when moving, though if you are not supported at the end of your turn you fall as normal.</p>\n<p>You may ascend or descend up to 45 degrees as part of this movement, though ascending costs 2 squares of movement per 5 ft. of additional elevation. Additionally, you may balance on any solid surface, even those unable to support your weight, such as a taught string, a narrow tree branch, etc.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Leap"], ["Run"]],
+    "tags": ["Leap", "Run"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885397,
-    "modifiedTime": 1663169291445,
+    "modifiedTime": 1689539971050,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Whenever you successfully perform a dirty trick combat maneuver, you may also inflict the battered or fatigued conditions to a creature when selecting a condition to apply to the affected creature.</p>\nAt 5 ranks in Sleight of Hand, you may expend your martial focus as a free action whenever you successfully perform a dirty trick combat maneuver against an opponent. If you do, you may choose to inflict a greater condition than the original condition chosen, lasting for the normal duration.<br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Original Condition</th>\n<th>New Condition</th>\n</tr>\n<tr>\n<td>Battered</td>\n<td>Flat-footed</td>\n</tr>\n<tr>\n<td>Dazzled</td>\n<td>Treat all creatures as if they had concealment (20% miss chance)</td>\n</tr>\n<tr>\n<td>Entangled</td>\n<td>Suffers the penalties of being grappled (but is not actually grappled)</td>\n</tr>\n<tr>\n<td>Fatigued</td>\n<td>As fatigued, but -4 penalty to Strength and Dexterity.</td>\n</tr>\n<tr>\n<td>Shaken</td>\n<td>Frightened</td>\n</tr>\n<tr>\n<td>Sickened</td>\n<td>Staggered</td>\n</tr>\n</table>\n<p><strong>Associated Feat:</strong> Dirty Trick Master.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Trick"]],
+    "tags": ["Trick"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885412,
-    "modifiedTime": 1663169291459,
+    "modifiedTime": 1689539971052,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

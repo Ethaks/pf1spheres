@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may create a ward that represses all effects that alter reality, including sphere abilities that change the rate of time, teleportation, gravitational effects, transdimensional effects, distortion of space, and Warp and Time sphere abilities within its area of effect. When this ward is created, attempt one magic skill check against each effect in the area of the ward that it can repress. Magic items have a MSD of 11 + their caster level. If your check exceeds the MSD of the magical effect or item, the effect is suppressed or the magic item ceases to function, respectively. Time spent suppressed counts toward a magical effect&#8217;s total duration.</p>\n<p>Once inside the effect, any caster attempting to use an ability that can be repressed by this ward must attempt a magic skill check against your MSD. If they fail, the ability is negated completely (e.g., the creature never leaves its point of origin).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Ward"]],
+    "tags": ["Ward"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892674,
-    "modifiedTime": 1663169294247,
+    "modifiedTime": 1689539974664,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

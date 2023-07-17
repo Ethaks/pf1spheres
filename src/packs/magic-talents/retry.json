@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>As an immediate action, you may spend 2 spell points to force a target to redo their turn (Will negates if unwilling). The target is returned to where their turn began, and any skill checks, attack rolls, movement, attacks of opportunity, etc. that occurred during their turn become as if they never happened. The target may perform the same actions again (remaking any rolls required by such actions), or they may choose completely different actions. If you choose to redo your own turn in this manner, you do not recover the action or spell points spent using this ability.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Time"]],
+    "tags": ["Time"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890775,
-    "modifiedTime": 1663169293561,
+    "modifiedTime": 1689539974629,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Your companion has an animal intellect, with its starting Intelligence reduced to 2. A bestial companion may not have its Intelligence raised by any (form) talent (though may still receive other benefits from such talents). Bestial companions count as possessing the animal creature type in addition to the outsider creature type for all skills and effects and require the use of the Handle Animal skill to direct. Without direction, they are friendly to the creature that summoned them but otherwise act according to their nature. A bestial companion gains an additional free (form) talent. A companion that has this companion archetype may not also possess the mindless or puppet companion archetypes. A bestial companion begins play trained for one purpose (see the Handle Animal skill) plus gains 1 bonus trick, +1 at 3 Hit Dice and every 3 Hit Dice thereafter. If using Spheres of Might, your bestial companion counts as an animal ally, though is not a valid target for the tame ability (per the rules in the Beastmastery sphere).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890619,
-    "modifiedTime": 1663169293396,
+    "modifiedTime": 1689539974627,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

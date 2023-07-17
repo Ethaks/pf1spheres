@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Craft DC:</strong> 15</p>\n<p>You create a concoction you can draw and drink as a move action to restore your martial focus. You may also draw and administer this formulae to an ally within your reach as a standard action, granting them its benefits as though they had drunk it themselves. You can increase the Craft DC for this item in increments of 10; each time you do so, the focusing formula becomes more potent, allowing you to drink less for the same effects, giving you an additional use of the item before it is consumed.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Formulae"]],
+    "tags": ["Formulae"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885579,
-    "modifiedTime": 1663169291575,
+    "modifiedTime": 1689539971066,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

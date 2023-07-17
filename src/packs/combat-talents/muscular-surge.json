@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a move action, you gain a bonus equal to 1/2 your base attack bonus (minimum 1) on Acrobatics checks made to jump, to all Strength checks and Strength-based skill checks, as well as to your Strength for determining your carrying capacity, for a number of rounds equal to your Constitution modifier. This does not apply to combat maneuver checks nor attack and damage rolls. You are fatigued for 1d4 rounds after the duration ends, even if you would normally be immune to fatigue. If you are fatigued when you begin or end this effect, you are instead exhausted. If you are already exhausted, you cannot use this ability.</p>\n<p>If you expend your martial focus, this bonus increases to become equal to your full base attack bonus, but automatically leaves you exhausted for 1d4 rounds afterward.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887517,
-    "modifiedTime": 1663169292081,
+    "modifiedTime": 1689539971096,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

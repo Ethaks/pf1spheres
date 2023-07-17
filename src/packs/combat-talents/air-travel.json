@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Leadership sphere, (followers) package, Diplomacy 10 ranks.</p>\n<p>Your caravan is equipped with flying beasts, airships, arcane levitation, or other means of reliable overland flight. Terrain and ground obstacles do not hinder your caravan&#8217;s speed.</p>\n<p><strong>Special:</strong> The prerequisite ranks in Diplomacy may be reduced based on how common flight is in the setting. In the Skybourne setting, for example, flight is common and airships are ubiquitous, so the Diplomacy prerequisite can be ignored entirely.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Followers"]],
+    "tags": ["Followers"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887904,
-    "modifiedTime": 1663169292313,
+    "modifiedTime": 1689539971108,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

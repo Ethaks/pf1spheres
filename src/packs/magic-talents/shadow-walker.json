@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Dark sphere (Step Through Darkness (meld)), caster level 10th.</p>\n<p>A target must be within an area of dim light or darkness for you to apply this meld to them. When this talent is applied, the target temporarily steps out of the Material Plane and into the place where it borders the Plane of Shadow. While within this region of shadow, the target may move at a rate of 50 miles per hour, seeing their relative place in the Material Plane, although it appears blurry and lacking in details. At any time, the target may step back into the Material Plane, at which point the effects of this (meld) talent immediately end.</p>\n<p>Because of the blurring of reality between the Plane of Shadow and the Material Plane, the target cannot make out details of the terrain or areas you pass over during transit, nor can you predict perfectly where your travel will end. It is impossible to judge distances accurately, making this ability ill-suited for scouting or spying. Furthermore, when stepping back into the Material Plane, the target is shunted 1d10 x 100 feet in a random horizontal direction from the desired endpoint. If this would place the target within a solid object, they are shunted 1d10 x 1,000 feet in the same direction. If this would still place them within a solid object, they are shunted to the nearest empty space available, but the strain of this activity renders the creature fatigued (no save).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Meld"]],
+    "tags": ["Meld"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892777,
-    "modifiedTime": 1663169294349,
+    "modifiedTime": 1689539974671,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

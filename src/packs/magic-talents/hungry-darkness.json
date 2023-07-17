@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may create a darkness or blot effect that saps away the lifeforce of those inside. Any creature inside the darkness or blot must succeed at a Fortitude save or suffer 1 point of Constitution damage, +1 per 10 caster levels. Creatures who remain within this area of darkness or blot must save at the end of your subsequent turns or suffer another point of Constitution damage. If a creature enters this area of darkness or blot after it is created, they must immediately save or also suffer this damage. A creature may only be affected by Hungry Darkness once per round, regardless of how many times they enter or exit the area that turn.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Blot"], ["Darkness"]],
+    "tags": ["Blot", "Darkness"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893223,
-    "modifiedTime": 1663169294563,
+    "modifiedTime": 1689539974679,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

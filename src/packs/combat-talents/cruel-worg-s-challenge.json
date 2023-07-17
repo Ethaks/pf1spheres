@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You channel the wicked cruelty of the worg, demanding the attention of the mighty and cowing the meek.</p>\n<p><strong>Prerequisites:</strong> Guardian sphere ((challenge) package), base attack bonus +5.</p>\n<p>You may challenge creatures with no Intelligence score (Intelligence score of (&#8211;)).</p>\n<p>Whenever a creature affected by your challenge ends its turn and that creature did not make an attack roll or otherwise target you or include you in a non-harmless effect, you may move up to your speed as an immediate action, provided that you move into a space closer to the creature. If the creature is within your reach at the end of this movement, that creature must succeed at a Reflex save or be knocked prone. This movement does not provoke an attack of opportunity from the creature but does provoke from other creatures as normal.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887699,
-    "modifiedTime": 1663169292132,
+    "modifiedTime": 1689539971099,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

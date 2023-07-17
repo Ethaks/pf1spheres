@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Choose one of the following abilities. This talent may be taken more than once; each time a different ability may be gained:</p>\n<p><strong>Bleed:</strong> Choose one natural attack your companion possesses. That attack inflicts 1d2 bleed damage. This bleeding can be stopped by a successful DC 15 Heal check or through the application of any magical healing. The die size of this bleed damage increases by one size for every 4 Hit Dice the companion possesses (1d3, 1d4, 1d6, 1d8, etc.).</p>\n<p><strong>Blood Drain:</strong> Your companion drains blood at the end of its turn if it grapples a foe, inflicting 1 point of Constitution damage. This damage increases to 1d2 at 5 Hit Dice, then one die size for every 5 additional Hit Dice thereafter (1d3, 1d4, etc.).</p>\n<p><strong>Thirst:</strong> Your companion gains 1 temporary hit point per Hit Die of the grappled creature whenever it uses its blood drain ability. These temporary hit points last for 1 minute per Hit Die of the companion and do not stack with other uses of this ability. The companion must have the blood drain option of this talent to be eligible to gain this ability.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Form"]],
+    "tags": ["Form"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894086,
-    "modifiedTime": 1663169294648,
+    "modifiedTime": 1689539974685,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

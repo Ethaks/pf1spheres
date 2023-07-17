@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When spending a spell point to create an area of darkness or blot that persists without concentration, you may opt to create a darkness or blot effect that remains dormant until triggered by a creature entering the 10-foot square area at the center of your dormant darkness or blot effect.</p>\n<p>A sinister surprise can be spotted and disabled as a magical trap, with a Perception DC and Disable Device DC equal to the effect&#8217;s save DC. You may also trigger the sinister surprise as an immediate action as long as it is within medium range. You may have multiple sinister surprises active, but their trigger areas may not overlap. An untriggered sinister surprise persists for 10 minutes per caster level or until disabled or dismissed. A triggered sinister surprise has the duration of a typical area of darkness or blot.</p>\n<p>You may take this talent a second time to add extra conditions to the trigger of your sinister surprise. You may trigger it yourself from up to long range as an immediate action. Additionally, you may choose any of the following additional conditions: You may allow a number of specific individuals up to your caster level, designated at the time of the casting, to pass through the sinister surprise without setting it off. You may set it to be triggered only by a certain creature type or specific individual with whom you are familiar. You may set your sinister surprise to go off at a specified time within the effect&#8217;s duration.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890487,
-    "modifiedTime": 1663169293320,
+    "modifiedTime": 1689539974621,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

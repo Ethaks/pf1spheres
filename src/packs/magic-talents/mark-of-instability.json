@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>As an expunge, you may force the target to attempt a Fortitude save. If they fail this save, they become unable to voluntarily spend spell points on any effect for 1 round, plus an additional round at 5th caster level and every four caster levels thereafter. Creatures suffering from this ability may spend a standard action to attempt another Fortitude save against this effect to remove it. This does not stop the target from using magical abilities that do not require a spell point to use. This mark can be used on undead, constructs and other creatures normally immune to Fortitude saves.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Expunge"]],
+    "tags": ["Expunge"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891069,
-    "modifiedTime": 1663169293633,
+    "modifiedTime": 1689539974638,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You learn to manipulate the magic of a sphere effect that is currently affecting you. You may grant any amount of creatures the effects of any harmless sphere effect with a non-instantaneous duration currently active on you, ending the effect on yourself and dividing the duration of the effect across the creatures you touch (including yourself).</p>\n<p>The duration must be divided in the same increments the original ability&#8217;s duration is granted in (for example, an aegis must be divided in 1 hour increments). You may also use this ability to transfer non-harmless effects on creatures, but you must spend a spell point and succeed at a magic skill check on the effect, and your target gets a Will save to resist this if they are unwilling. This talent cannot be used on curse effects.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Manipulation"]],
+    "tags": ["Manipulation"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894369,
-    "modifiedTime": 1663169294914,
+    "modifiedTime": 1689539974695,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

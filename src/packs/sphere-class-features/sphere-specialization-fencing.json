@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Subtlety (Ex):</strong> At 3rd level, the conscript treats Bluff as a class skill. If he already has Bluff as a class skill, he may instead treat any one other skill of his choice as a class skill. In addition, the conscript gains a competence bonus on Bluff checks equal to 1/4 his base attack bonus (minimum +1).</p>\n<p><strong>Agile Defense (Ex):</strong> At 8th level, whenever a conscript successfully damages a creature with an attack that deals precision damage, he gains a +2 dodge bonus to his AC against all attacks from the damaged creature for 1 round.</p>\n<p><strong>Shadowed Defense (Ex):</strong> At 20th level, whenever the conscript succeeds at a feint attempt against a creature, he also gains concealment against all attacks made by that creature until the start of his next turn.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900472,
-    "modifiedTime": 1663169296615,
+    "modifiedTime": 1689539978554,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

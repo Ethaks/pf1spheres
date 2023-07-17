@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Fast (Su):</strong> At 3rd level, the incanter gains a +10 feet bonus to his base movement speed, +5 feet for every 5 incanter levels he possesses.</p>\n<p><strong>Retry (Su):</strong> At 8th level, as a non-action the incanter may force a target within 30 feet of him to reroll a dice roll they just made, taking the second result regardless of whether it is worse or better. He must decide to use this ability after the roll is made but before the results are revealed. He may use this ability once per day at 8th level, plus an additional time for every 6 levels beyond 8th.</p>\n<p><strong>Twist Time (Su):</strong> At 20th level, the incanter gains two swift actions per turn instead of one.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900953,
-    "modifiedTime": 1663169297161,
+    "modifiedTime": 1689539978578,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

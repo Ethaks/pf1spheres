@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may grant a motif that enhances a target&#8217;s might and will. The target gains a +2 insight bonus to CMB and CMD, as well as to Strength checks and Strength-based skill checks. This bonus increases by +1 for every 4 caster levels.</p>\n<p>When another creature attempts and fails to demoralize the target or targets them with a fear effect that they successfully resist, the target may discharge this effect to make the other creature frightened until the end of their next turn, or shaken for one round with a successful Will save.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Motif"]],
+    "tags": ["Motif"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890453,
-    "modifiedTime": 1663169293292,
+    "modifiedTime": 1689539974619,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

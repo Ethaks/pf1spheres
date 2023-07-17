@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may choose for your poison to not cause fatigue instantly, but instead to enhance the concentration of those subjected to it (this talent cannot be used with a contact or inhaled poison). Those who are under the effects of this poison gain a +3 alchemical bonus to their concentration checks, but suffer an equivalent penalty to Perception checks for 1 minute. At the end of this talent&#8217;s duration, the creature must succeed at a Fortitude save or be fatigued for 10 minutes. If you possess at least 10 ranks in Craft (alchemy), this bonus increases by +2. A creature cannot benefit from a concentration aid more than once per hour.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Toxin"]],
+    "tags": ["Toxin"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887950,
-    "modifiedTime": 1663169292351,
+    "modifiedTime": 1689539971111,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

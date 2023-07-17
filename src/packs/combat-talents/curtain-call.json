@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Duelist sphere (Iai Slash (bleed)), base attack bonus +5.</p>\n<p>You may spend a move action and expend your martial focus to elaborately sheathe one held weapon without provoking attacks of opportunity and glare at nearby enemies. Each enemy within 30 feet of you currently suffering from bleed damage dealt by your blooded strike suddenly spasms and hemorrhages blood, suffering 1d6 bludgeoning, slashing and piercing damage, plus an additional 1d6 for every 3 points of base attack bonuses you possess. If you possess Perforating Wounds, the creature suffers an additional 2d6 damage for every stack of that talent applied to them. After suffering this damage, any bleed damage dealt due to your Duelist sphere abilities immediately end.</p>\n<p>If you possess Defiant Focus, you do not need to expend your martial focus to use this ability.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885650,
-    "modifiedTime": 1663169291592,
+    "modifiedTime": 1689539971068,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

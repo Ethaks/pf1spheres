@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may grant a motif that empowers a target when near its allies. The target gains an insight bonus to saving throws equal to the number of allies adjacent to them, up to a maximum of 2 + 1 per 5 caster levels. The target may discharge this effect when they take damage to shift up to half the damage they take to a willing ally within close range.</p>\n<p>The target may discharge this effect even if the damage they take would normally reduce them below 1 hit point, and even if it would kill them outright. Damage is transferred after the effects of damage reduction, energy resistance, immunity and similar effects. The damage transferred is empathic in nature and cannot be further reduced, divided, or transferred.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Motif"]],
+    "tags": ["Motif"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892937,
-    "modifiedTime": 1663169294505,
+    "modifiedTime": 1689539974674,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

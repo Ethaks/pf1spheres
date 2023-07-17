@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Aristeia amplifies your magical abilities.</p>\n<p><strong>Prerequisite:</strong> Casting class feature.</p>\n<p><strong>Benefit:</strong> In any situation where you could use Aristeia, you gain a +1 bonus to your caster level. While you are in Aristeia, your Aristeia bonus also applies to your caster level (this stacks with the normal bonus from this feat) and you gain a number of temporary spell points equal to your Aristeia bonus while in Aristeia. These temporary spell points vanish when you leave Aristeia.</p>\n<p><strong>Special:</strong> This feat counts as Sphere Focus (any one) or Spell Focus (any one) for the purpose of meeting prerequisites.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aristeia"]],
+    "tags": ["Aristeia"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898229,
-    "modifiedTime": 1663169295937,
+    "modifiedTime": 1689539976517,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

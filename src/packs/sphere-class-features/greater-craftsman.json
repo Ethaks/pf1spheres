@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The technician may create permanent inventions. These inventions are still limited by the maximum number of improvements he is able to give them, but do not count against his usual maximum number of inventions. Just as with all inventions, permanent inventions still grant penalties to anyone other than the technician who uses them.</p>\n<p>In addition to any other costs, a permanent invention costs 500 gp x (the technician&#8217;s level x the number of improvements) to create. Crafting a permanent invention uses the same time crafting rules as magic items, and just as with magic items, the technician may decrease his effective technician level when creating a permanent invention. However, an item must still have an effective technician level high enough for its total number of improvements (thus, an item must be constructed with a minimum technician level of 5 to gain 2 improvements, etc.). The technician must be at least level 6 to gain this insight.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900210,
-    "modifiedTime": 1663169296356,
+    "modifiedTime": 1689539978544,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You must spend a spell point to place a totem of doom. All enemies in the area become shaken (no save). This effect lasts as long as they remain within the totem&#8217;s effect area. The effects of this totem are not cumulative with itself or other sources of fear.</p>\n<p>You may take this talent a total of three times. If taken twice, your totem of doom becomes cumulative; if a creature comes into contact with your totem of doom who is already shaken from another effect, the effect of your totem of doom is changed to frightened for that specific creature. If you gain this talent three times, a creature who comes into contact with your totem of doom who is already frightened from another effect becomes panicked. Multiple totems of doom do not stack with each other for this purpose.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Totem"]],
+    "tags": ["Totem"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890775,
-    "modifiedTime": 1663169293560,
+    "modifiedTime": 1689539974629,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

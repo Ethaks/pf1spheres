@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>The soft paws pace around their target, slowly analyzing and waiting for the moment to pounce.</p>\n<p><strong>Prerequisites:</strong> Perception 5 ranks, Scout sphere.</p>\n<p><strong>Benefits:</strong> The first attack of opportunity you make each round against a scouted target does not require you to expend an attack of opportunity.</p>\n<p>After a successful attack action or attack of opportunity against an unscouted target, you may scout that target as an immediate action. You may expend 1 attack of opportunity to use this ability instead of spending an immediate action. A scout attempt made this way is performed before damage is rolled (and may allow you to use effects or abilities which apply against a scouted target as part of this attack).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["combat"]],
+    "tags": ["combat"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898227,
-    "modifiedTime": 1663169295936,
+    "modifiedTime": 1689539976517,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

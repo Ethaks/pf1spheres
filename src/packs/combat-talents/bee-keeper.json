@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may tame creatures with the swarm subtype that are otherwise of a creature type that you can affect. When taming a creature in this way, they count as twice their Hit Dice against the total amount you may have tame at once. This increase does not stack with the increase for creatures not of the animal type from the Broad Skills talent. Additionally, you are immune to swarm damage from swarms that have a friendly or better disposition towards you.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Handle Animal"]],
+    "tags": ["Handle Animal"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886418,
-    "modifiedTime": 1663169291807,
+    "modifiedTime": 1689539971078,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

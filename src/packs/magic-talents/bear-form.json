@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When you channel a bear spirit, you may spend a spell point to increase the power of the bear spirit so that you transform into a bear for the duration of the effect. This is a polymorph effect.</p>\n<p>When transformed into a bear, you gain the usual +10 bonus from polymorph to Disguise checks to pass as a bear, and you also lose your normal power of speech, although you gain the ability to speak and understand bears. You gain a bite attack and two claw attacks (1d4 Medium), and you gain low-light vision, scent, a 40 ft. move speed, and the benefits of being a quadruped. You gain a +2 natural armor bonus which increases by 1 per 5 caster levels.</p>\n<p>At 5th caster level you gain a 30 ft. climb speed and a +2 size bonus to Strength.</p>\n<p>At 10th caster level your claw attacks gain the grab universal monster ability, and you may choose to become Large size, which gives you +4 size bonus to Strength but a -2 penalty to Dexterity.</p>\n<p>At 15th caster level, your bite and claw natural attacks increase their damage by one die size.</p>\n<p>At 20th caster level you may choose to become Huge size, which gives you a +6 size bonus to Strength, but a -2 penalty to Dexterity.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893117,
-    "modifiedTime": 1663169294543,
+    "modifiedTime": 1689539974677,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

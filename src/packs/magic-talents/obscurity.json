@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Creatures with this aegis or within this ward appear unremarkable and unimportant to those around them. Creatures must succeed at a Will save to be able to notice their presence, even if they succeeded on a relevant Perception check. A successful save allows them to see the obscured creatures normally (assuming they can see the creatures normally), until they have left the sight of the creature by either moving out of line-of-sight or succeeding at a Stealth check. Creatures who are specifically looking for the protected creatures and are aware of their identity (like those who have been told you are there by someone else), or who are engaged in combat with them automatically pass this saving throw. Creatures with this aegis do not leave behind tracks or other signs of their passage.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aegis"], ["Ward"]],
+    "tags": ["Aegis", "Ward"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890565,
-    "modifiedTime": 1663169293393,
+    "modifiedTime": 1689539974627,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

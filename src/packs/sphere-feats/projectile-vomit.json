@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Barroom sphere (Purge), base attack bonus +5.</p>\n<p><strong>Benefits:</strong> When you utilize your Purge talent, you can instead perform it as a standard action, vomiting on all squares in a close-ranged cone, instead of the normal area. All affected squares are treated affected as per the Purge talent, and creatures in the cone must succeed at a Fortitude save or become sickened for one round. At base attack bonus +10 or higher, creatures that fail their Fortitude save are instead nauseated for one round, and sickened for one minute afterwards. A success negates the nauseate and reduces the sickened duration to one round.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898234,
-    "modifiedTime": 1663169295942,
+    "modifiedTime": 1689539976518,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

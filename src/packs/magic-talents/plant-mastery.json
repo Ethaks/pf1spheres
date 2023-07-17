@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Your mastery of plantlife becomes even more pronounced. Increase the maximum radius of your Entangle by an additional 5 feet per 5 caster levels.</p>\n<p>When using Pummel, you may spend an additional spell point. If you do, you may affect an additional number of branches equal to 1 + 1 per 5 caster levels.</p>\n<p>When using Harvest, you may produce 2 magical berries per caster level, along with the usual food. Any creature who consumes one of these berries is healed 1 hit point. These berries lose their magical potency after 24 hours.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Plant"], ["Geomancing"]],
+    "tags": ["Plant", "Geomancing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894650,
-    "modifiedTime": 1663169294969,
+    "modifiedTime": 1689539974701,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>A creature that fails its Reflex save to avoid this snare is subject to a dirty trick maneuver as if the trap successfully beat their CMD. This counts as you performing the dirty trick for the purposes of Scoundrel sphere abilities that depend on you triggering the dirty trick. Creatures targeted by this trap get a +1 circumstance bonus on their saving throw for each size category they are larger than Medium.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Snare"]],
+    "tags": ["Snare"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886421,
-    "modifiedTime": 1663169291810,
+    "modifiedTime": 1689539971078,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

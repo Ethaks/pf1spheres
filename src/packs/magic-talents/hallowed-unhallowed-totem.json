@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may create either a hallowed or unhallowed totem. If creating a hallowed totem, all creatures within the area of this totem suffer a -1 penalty to saving throws made to resist channeled positive energy and positive energy effects such as cure spells and Life sphere effects. This penalty increases by 1 for every 10 caster levels. If creating an unhallowed totem, this penalty instead applies to channeled negative energy and negative energy effects, such as inflict spells and Death sphere effects. If you place a hallowed totem in a location that already has an unhallowed totem present or vice versa, you must succeed at a magic skill check to place your totem. On a success, the two totems cancel each other, leaving neither hallowed totem nor unhallowed totem in place.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Totem"]],
+    "tags": ["Totem"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891687,
-    "modifiedTime": 1663169293860,
+    "modifiedTime": 1689539974645,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

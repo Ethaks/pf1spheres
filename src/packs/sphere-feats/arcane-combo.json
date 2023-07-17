@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Mixing up your spellcasting procedures makes them more potent.</p>\n<p><strong>Prerequisite:</strong> Caster level 1st or higher with at least two casting traditions.</p>\n<p><strong>Benefits:</strong> Whenever you create a magic effect using a specific casting tradition, you gain a +1 bonus to your caster level for any magic effect you create using a different casting tradition until the end of your next turn.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Theurge"]],
+    "tags": ["Theurge"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897548,
-    "modifiedTime": 1663169295484,
+    "modifiedTime": 1689539976478,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Craft DC:</strong> 15</p>\n<p>You create a flask of acid that functions as a splash weapon you can use as a ranged touch attack with a range increment of 10 ft., dealing 1d6 acid damage +1d6 per two Craft (alchemy) ranks you possess to the target of a direct hit, half that damage to targets 5 ft. away from the point of contact, and 1 point of acid splash damage per die of damage this weapon deals on a direct hit to targets 10 ft. away from the point of contact (to a maximum of half the damage dealt to the primary target). Targets who take at least 2 points of acid damage from the initial attack take half the total damage again on the following round.</p>\n<p>You can increase the Craft DC for this weapon in increments of 10; each time you do so, the range for each damage increment increases by 5 ft. (for example, if you increase the Craft DC to 25, you would deal full damage to all targets within 5 ft. of the point of contact, half damage to all targets 10 ft. away from the point of contact, and 1 point of damage to all creatures within 15 ft.).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Formulae"]],
+    "tags": ["Formulae"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886827,
-    "modifiedTime": 1663169291978,
+    "modifiedTime": 1689539971087,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

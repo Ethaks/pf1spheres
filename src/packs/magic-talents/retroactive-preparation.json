@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a standard action, you may spend a spell point to edit the past, retroactively obtaining a generic object, such as a mundane item or a commonly-available magic item such as a healing potion, worth less than 100 gp per caster level. The object immediately appears on your person or in a container or extradimensional space attended by you. The cost of the item is immediately deducted from the wealth (usually coins, but can be nonmagical gemstones or other nonmagical objects used for trade) you currently carry.</p>\n<p>You cannot obtain an object worth more than you have the wealth to purchase. The object must be one that would have been available in a settlement you have visited within the past 1 week per caster level.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891018,
-    "modifiedTime": 1663169293606,
+    "modifiedTime": 1689539974633,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

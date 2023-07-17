@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Dark talents listed with the (blot) tag are treated the same as talents with the (darkness) tag, except in addition to adding an effect, they cause the darkness to manifest as a blot. A blot is a darkness effect created on a two-dimensional surface, such as the ground or a wall, appearing as an inky coating rather than a volume of decreased illumination. Blots do not affect the light level of the area.</p>\n<p>Only one (blot) talent may be applied to an individual blot, and a single darkness effect cannot be affected by both a (blot) and (darkness) talent at the same time, but blots and darknesses with different effects may overlap. Individual blots do not stack with themselves, nor do they stack with similar (darkness) talents.</p>\n<p>If a talent is labeled as (blot) and (darkness), the caster may decide which tag to use when applying the talent to an area of darkness.</p>\n<p>In order for a blot to affect a target, it must be in contact with the blot. Blots count as areas of darkness with respect to melds and interactions with Light sphere effects and talents.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894072,
-    "modifiedTime": 1663169294638,
+    "modifiedTime": 1689539974685,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

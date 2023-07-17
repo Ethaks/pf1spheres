@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When you create a barrier, you may spend a spell point or increase the casting time by one step (usually from a standard to a full-round action) to allow the barrier to react to damage.</p>\n<p>Upon creating a reactive barrier, you may choose one of the following effects to activate whenever the barrier would be reduced to 0 hit points. If you maintain your barrier through concentration, you may change the effect as part of the action used to concentrate:</p>\n<p><strong>Forceful Rebuke:</strong> You may attempt a bull-rush attempt against all enemies within 5 feet of your barrier, using your caster level + your casting ability modifier in place of your CMB. If this attempt would exceed a creature&#8217;s CMD by 5 or more, the creature must succeed a Reflex saving throw or immediately fall prone.</p>\n<p><strong>Explosive Burst:</strong> All enemies within 5 feet of your barrier suffer 1d6 points of force damage, plus an additional 1d6 damage per 5 caster levels you possess (Reflex halves).</p>\n<p><strong>Fortifying Surge:</strong> All allies within 10 feet of your barrier gain DR/- equal to half your caster level for 1 round.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894089,
-    "modifiedTime": 1663169294651,
+    "modifiedTime": 1689539974686,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

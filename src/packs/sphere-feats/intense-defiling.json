@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>You enlarge the area of your despoilation to amplify its effects.</p>\n<p><strong>Prerequisite:</strong> Terrain Casting drawback.</p>\n<p><strong>Benefit:</strong> Whenever you blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may extend the radius of area corrupted by 5 feet + 5 feet for every 5 caster levels you possess. If you do, increase the DC of the blighting effect by 1. If you possess any feats that force saving throws from creatures in the blighted area (such as Agonizing Defiling), you increase their DC by the same amount.</p>\n<p><strong>Four Defiler Feats:</strong> The DC is increased by 2 rather than 1.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Defiler"], ["Drawback"]],
+    "tags": ["Defiler", "Drawback"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897565,
-    "modifiedTime": 1663169295494,
+    "modifiedTime": 1689539976479,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

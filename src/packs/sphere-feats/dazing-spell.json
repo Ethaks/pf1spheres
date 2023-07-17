@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> You can modify a talent to daze a creature damaged by it. When a creature takes damage from this spell, they become dazed for a number of rounds equal to half the caster level of the talent (minimum 1). If the talent allows a saving throw, a successful save negates the daze effect.</p>\n<p>If the talent does not allow a save, the target can attempt a Will save to negate the daze effect. If the talent effect also causes the creature to become dazed, the duration of this metamagic effect is added to the duration of the spell.</p>\n<p><strong>Cost:</strong> +3 spell points</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Metamagic"]],
+    "tags": ["Metamagic"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897827,
-    "modifiedTime": 1663169295662,
+    "modifiedTime": 1689539976491,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

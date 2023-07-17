@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Your magics create refuge against the dangers of space and planes unknown.</p>\n<p><strong>Prerequisites:</strong> Protection sphere, caster level 5th.</p>\n<p>You may create a ward that protects against and grants immunity to harmful environmental effects, such as extreme temperatures, toxicity, and lack of air. This includes immunity and protection against planar traits (such as alignment, energy, magic, and time traits) which would harm or weaken a creature inside its radius, but does not negate any benefits of the planar trait. This does not protect against environmental effects not native to the plane and not caused by a planar trait, such as magical weather created with the Weather sphere.</p>\n<p>If you possess the Breathless (aegis) talent, when you grant an aegis with the Breathless (aegis) talent, the granted aegis also provides this talent&#8217;s immunities and protections against environmental and planar traits.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aegis"], ["Ward"]],
+    "tags": ["Aegis", "Ward"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892718,
-    "modifiedTime": 1663169294305,
+    "modifiedTime": 1689539974668,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

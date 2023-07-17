@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warleader sphere, bardic performance or raging song class feature.</p>\n<p><strong>Benefit:</strong> The character gains the ability to attach tactics they create to their songs. While using bardic performance or raging song, the character may maintain an active tactic as part of the song without spending additional actions, this has no effect on the area affected by the tactic. They still must pay any costs associated with the tactic, such as martial focus if required, to use the tactic.</p>\n<p>Once per round you may recenter an ongoing tactic maintained as part of using bardic performance or raging song at a new location. Whenever the character creates a new tactic, they may attach it to their song or create it normally. Tactics attached to songs can be ended as a free action. Finally, as long as the song continues, the character may shout once per round as a swift or move action.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["combat"]],
+    "tags": ["combat"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898014,
-    "modifiedTime": 1663169295798,
+    "modifiedTime": 1689539976507,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

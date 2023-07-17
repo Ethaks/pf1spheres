@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Each combat feat, class feature, or combat talent which would apply to your main hand weapon also applies to your off-hand weapon, unless it would be an illegal choice (such as applying a talent to a melee attack that only may be used with ranged attacks or applying a feat that requires a specific type of weapon on a weapon that does not meet these prerequisites).</p>\n<p>At +10 base attack bonus, combat feats, class features, or combat talents which would apply to your off-hand weapon also applies to your main hand weapon, unless they would also be an illegal choice. The only exception to this is special attack actions, such as brutal strikes, barrages, and deadly shots, which are not applied to the off-hand weapon.</p>\n<p><strong>Author's Note:</strong> This talent is designed to make it viable to use different types of weapons when dual wielding, rather than two copies of the same weapon. It does not allow additional actions, allow you to vital strike with both weapons, etc.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887967,
-    "modifiedTime": 1663169292363,
+    "modifiedTime": 1689539971112,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

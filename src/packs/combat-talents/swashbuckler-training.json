@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You gain proficiency with the butterfly knife, longsword, rapier, scimitar, spiral rapier, and sword cane, and may wield the estoc as a two-handed martial weapon. Whenever you make an attack using your Dexterity bonus on attack rolls and your Strength bonus on melee damage rolls, any creature you deal damage to suffers a -1 to CMB when attempting to disarm or sunder your weapon, and a -1 to CMD against disarm or sunder attempts you make against it. These penalties end at the start of your next turn. At +10 base attack bonus, these penalties increase to -2.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Discipline"]],
+    "tags": ["Discipline"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887440,
-    "modifiedTime": 1663169292054,
+    "modifiedTime": 1689539971094,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

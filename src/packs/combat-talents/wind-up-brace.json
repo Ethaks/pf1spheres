@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>As long as you move no more than half your base speed, when you succeed at an Acrobatics check to avoid provoking an attack of opportunity from an opponent when you move through its threatened area or its space, any damage the next attack that creature makes against you until the beginning of your next turn deals nonlethal damage. If you are damaged by the attack, you may immediately spend an attack of opportunity to move 5 feet without provoking an attack of opportunity using a movement mode associated with any Athletics package you possess. This talent cannot be used with the 5-foot step action, and you do not convert lethal damage to nonlethal damage with this talent if you are immune to nonlethal damage.</p>\n<p>For every 6 ranks in a skill granted by an Athletics package you possess, you may move an additional 5 feet when spending an attack of opportunity to move with this talent.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Motion"]],
+    "tags": ["Motion"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886837,
-    "modifiedTime": 1663169291986,
+    "modifiedTime": 1689539971088,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Protection sphere (Deathless (aegis)), caster level 7th.</p>\n<p>When you create a Deathless aegis, you may spend an additional spell point to create an Undying aegis instead. In addition to the effects of the Deathless aegis, the subject is immune to energy drain and any negative energy effects, including channeled negative energy.</p>\n<p>This aegis does not remove negative levels that the subject has already gained, but it does remove the penalties from negative levels for the duration of its effect.</p>\n<p>This aegis does not protect against other sorts of attacks, even if those attacks might be lethal.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aegis"]],
+    "tags": ["Aegis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890422,
-    "modifiedTime": 1663169293269,
+    "modifiedTime": 1689539974614,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

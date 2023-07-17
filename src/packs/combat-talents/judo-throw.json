@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As long as you have martial focus, you may make a trip attempt as a standard action which does not provoke an attack of opportunity. If this trip attempt is successful, you may choose for the creature to land in any square adjacent to you.</p>\n<p>This movement does not provoke attacks of opportunity, and you cannot throw the creature into a space occupied by other creatures. You may expend your martial focus as a free action when you trip a creature with this talent to deal damage equal to your unarmed strike. In addition, for every 5 points your trip attempt exceeds the target&#8217;s CMD, you deal +1d10 bludgeoning damage to them. At +10 base attack bonus, you may instead choose for the creature to land in any square within your natural reach.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885891,
-    "modifiedTime": 1663169291723,
+    "modifiedTime": 1689539971070,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Your soul begins to loosen its grip on your body, preparing itself to flee if threatened.</p>\n<p><strong>Prerequisite:</strong> Death sphere.</p>\n<p><strong>Benefit:</strong> You gain +1 spell point. By spending 8 hours creating an intense mystical connection between you and an object, you can designate it as your phylactery. When you would die/ be destroyed from hit point loss, you can spend a spell point as an immediate action to transfer your soul to your phylactery, as long as it is in close range. Your soul stays in its phylactery for 1 round. During this time, your body may be healed, as long as your phylactery remains unbroken.</p>\n<p>If your new hit point total is greater than a negative amount equal to your Constitution score (or greater than 0, if you are undead), then you come back to life and stabilizes at your new hit point total. You otherwise remain dead. If you are brought back to life in this manner, you gain a temporary negative level. For each necrosis feat you possess beyond this one, your soul remains in its phylactery for one additional round. Your phylactery has a number of hit points and break DC equal to 5 times the number of necrosis feats you possess, and a hardness equal to triple your necrosis feats.</p>\n<p><strong>Four Necrosis Feats:</strong> Your soul stays in its phylactery for up to 1 minute per necrosis feat, and your phylactery functions as long as it is within long range.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Necrosis"]],
+    "tags": ["Necrosis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897872,
-    "modifiedTime": 1663169295690,
+    "modifiedTime": 1689539976494,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

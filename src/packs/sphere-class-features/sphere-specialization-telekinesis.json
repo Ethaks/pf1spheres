@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Telekinetic Impediment (Sp):</strong> At 3rd level, the incanter may spend an immediate action to attempt to impede an attack made against a creature within 30 feet of him, including himself. He must declare he is using this ability before the attack roll is made. The attack suffers a -1 penalty, -1 per 5 incanter levels he possesses. He may use this ability a number of times per day equal to 3 + his casting ability modifier.</p>\n<p><strong>Great Flight (Su):</strong> Starting at 8th level, as a free action the incanter may grant himself a fly speed of 50 feet with perfect maneuverability for a number of minutes per day equal to his incanter level. This duration does not need to be consecutive, but it must be used in 1 minute increments.</p>\n<p><strong>Telekinetic Stability (Su):</strong> At 20th level, the incanter gains a circumstance bonus equal to his incanter level to Fly checks, Acrobatics checks, and his CMD.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900825,
-    "modifiedTime": 1663169296905,
+    "modifiedTime": 1689539978574,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

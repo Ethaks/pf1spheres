@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>At 1st level, the conscript gains the Guardian sphere (challenge) package as a bonus talent. If the conscript already has the Guardian sphere (challenge) package, he instead gains any talent he qualifies for from the Guardian sphere. In addition, the conscript chooses an order, as the cavalier class feature of the same name, and must follow the edicts of his order. The conscript does not gain his order&#8217;s additional class skills or skill bonuses, and does not gain his order&#8217;s challenge benefit until he receives the 3rd level benefit from this specialization.</p>\n<p>The conscript counts his conscript levels as cavalier levels, and is treated as having the cavalier&#8217;s challenge class feature for the purpose of qualifying for feats and prerequisites. The conscript treats the challenge ability from the Guardian sphere as his cavalier challenge class ability for feats and effects. The conscript may challenge a creature with more than one source of challenge, such as the cavalier challenge class feature, but benefits or penalties from order challenge abilities do not stack. If the conscript gains a cavalier order from another source, he must choose the same order, and levels of conscript stack with other class levels when determining the effects of your cavalier order abilities.</p>\n<p>At 3rd level, the conscript benefits from his order&#8217;s challenge ability when using the challenge ability provided by the Guardian sphere against the target of his challenge.</p>\n<p>At 6th level, the conscript gains the 2nd level ability of his chosen order.</p>\n<p>At 16th level, the conscript gains the 8th level ability of his chosen order.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168901017,
-    "modifiedTime": 1663169297223,
+    "modifiedTime": 1689539978582,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

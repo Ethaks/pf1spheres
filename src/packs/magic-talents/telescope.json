@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You give the target the ability to magnify incoming light, granting them a circumstance bonus to sight-based Perception checks equal to +2, +1 per 5 caster levels. In addition, the distance at which the DC for sight-based Perception checks increases improves by 10 feet per caster level (normally +1 per 10 feet).</p>\n<h3 id=\"toc4\"><span>Light Talent Types</span></h3>\n<p>Some talents are marked (lens). These give additional lenses.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Lens"]],
+    "tags": ["Lens"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892613,
-    "modifiedTime": 1663169294187,
+    "modifiedTime": 1689539974661,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

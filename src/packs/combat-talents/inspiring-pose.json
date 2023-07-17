@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>One allied creature within range may make a new saving throw against any ongoing effect they are currently suffering from that normally grants a saving throw using the original DC, even if they have already failed the initial save and would not normally be granted another. For every 4 ranks in Intimidate you possess, you may affect an additional ally. Failing this additional save does not progress the effects of poisons, diseases, or similar effects that are normally incurred on a failed save.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Boast"]],
+    "tags": ["Boast"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887681,
-    "modifiedTime": 1663169292115,
+    "modifiedTime": 1689539971098,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

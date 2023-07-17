@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>A creature that fails its Reflex save to avoid this snare is treated as if it was successfully affected by a feint. This counts as you performing the feint for the purposes of Fencing sphere talents that depend on feinting a target. Non-humanoids with an Intelligence score of 1 or 2 get a +4 bonus to Reflex saves against this trap and mindless creatures are still immune. If you possess the Unlikely Feint Fencing sphere talent, reduce the bonus to saves non-humanoids with an Intelligence score of 1 or 2 get to their saves to +2 and mindless creatures are vulnerable to this trap but gain a +4 bonus to their Reflex save.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Snare"]],
+    "tags": ["Snare"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885577,
-    "modifiedTime": 1663169291573,
+    "modifiedTime": 1689539971066,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

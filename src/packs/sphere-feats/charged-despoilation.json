@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>You are capable of keeping your ruinous powers hidden.</p>\n<p><strong>Prerequisites:</strong> Charged Spells drawback, Terrain Casting drawback.</p>\n<p><strong>Benefit:</strong> When you prepare a spell charge, you may choose to blight the area around you as if you had cast a spell with the Terrain Casting drawback. If you do, you do not blight the terrain around you when you cast the charged effect even if you do not spend additional spell points or increase the casting time.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Defiler"], ["Drawback"]],
+    "tags": ["Defiler", "Drawback"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897568,
-    "modifiedTime": 1663169295497,
+    "modifiedTime": 1689539976480,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

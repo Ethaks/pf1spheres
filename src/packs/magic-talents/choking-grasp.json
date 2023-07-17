@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere (Telekinetic Crush), caster level 15th.</p>\n<p>As either a stand-alone standard action or as part of maintaining a Hostile Lift, you may spend 2 spell points to suffocate a target within your telekinesis range. The target must succeed at a Fortitude save or have its hit points drop to 0 and fall unconscious on its next turn as if it had failed a Constitution check against suffocation. Next round, the target must succeed at a second Fortitude save or drop to -1 hit points begin dying.</p>\n<p>In the round following that they must succeed at another Fortitude save or suffocate and die. Succeeding on any of these saves prevents further saves and stops the effects from worsening, but does not negate the effects of any previously failed saves. This talent only affects living creatures that must breathe.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892670,
-    "modifiedTime": 1663169294236,
+    "modifiedTime": 1689539974664,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

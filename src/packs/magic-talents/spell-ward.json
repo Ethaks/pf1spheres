@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point to create a ward that represses all magic within its area of effect. Attempt one magic skill check against each magical effect, magic item, or summoned creature within the area. Magic items have a MSD of 10 + their caster level. If your check exceeds the MSD of the magical effect, item, or caster who summoned the creature, the effect is suppressed, the magic item ceases to function, or the summoned creature temporarily disappears. Time spent suppressed counts toward a magical effect&#8217;s total duration. Any caster attempting to use a magical ability in or targeted within this area, or any summoned creature attempting to enter this area, must attempt a magic skill check against your MSD. On a success, the magical effect is unimpeded, and the summoned creature is not banished by that Spell Ward. This counts as an antimagic field for effects that interact with them.</p>\n<p>You may also spend 2 spell points instead of 1 to create an aegis that grants the target spell resistance equal to 10 + your caster level.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aegis"], ["Ward"]],
+    "tags": ["Aegis", "Ward"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890372,
-    "modifiedTime": 1663169293238,
+    "modifiedTime": 1689539974612,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may add the following traits to your forms:</p>\n<p><strong>Dodge:</strong> The target gains a +2 dodge bonus to AC.</p>\n<p><strong>Evasion:</strong> The target gains incredible reflexes. When the target succeeds at a Reflex saving throw against an attack that normally deals half damage on a successful save, it instead takes no damage. This ability does not function when wearing medium or heavy armor.</p>\n<p><strong>Initiative:</strong> The target gains quickened reactions, granting a +4 competence bonus to initiative.</p>\n<p><strong>Uncanny Dodge:</strong> The target gains extraordinary reactions, granting uncanny dodge as the rogue ability. The target is no longer flat-footed at the start of combat nor loses Dexterity to AC against invisible attackers. If the target is granted this trait a second time or already has the uncanny dodge ability from another source, they instead gain improved uncanny dodge as the rogue ability. The target can no longer be flanked. This defense denies a rogue the ability to sneak attack the target by flanking, unless the attacker has at least four more rogue levels than the target has Hit Dice.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893585,
-    "modifiedTime": 1663169294597,
+    "modifiedTime": 1689539974681,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

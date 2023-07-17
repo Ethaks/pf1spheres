@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may add whatever sounds you desire to an illusion. You cannot make more sound than four normal humans per caster level could make. (A horde of rats running and squeaking is equal to eight humans running and shouting. A roaring lion is equal to the noise from 16 humans, while a roaring dragon is equal to the noise from 32 humans.)</p>\n<p>As a trick, you may create effects of non-specific noises (feet marching, laughing and muttering of a party) or throw your voice, making it appear as if it comes from somewhere else within your range. Targets are allowed a Will save as usual to disbelieve these sounds, or recognize your voice is not actually coming from where it appears to be.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Sensory"], ["Sound"]],
+    "tags": ["Sensory", "Sound"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892736,
-    "modifiedTime": 1663169294317,
+    "modifiedTime": 1689539974669,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

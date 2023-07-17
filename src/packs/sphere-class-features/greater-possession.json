@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>At 10th level, when the wraith succeeds in actively possessing a target, he may choose to maintain control of that target while moving on to another. The wraith may choose to exit the creature, appearing in an adjacent square or the nearest available square. The wraith may act normally, dividing his actions between the actively possessed creature and himself. Multiple creatures may be actively possessed; actions are divided between all possessed creatures and the wraith. For example, if the wraith possesses an orc, the wraith may spend his next standard action to possess the nearby goblin, then move the orc up to its speed (a move action), and cast a quickened sphere effect (a swift action). The following round, the goblin could reload a light crossbow (a move action), the orc could make an attack action (a standard action), and the wraith would still have a swift action. The number of creatures possessed at one time may not exceed the wraith&#8217;s casting ability modifier (minimum 2). The wraith may choose to end his control of any possessed creature as a free action.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900937,
-    "modifiedTime": 1663169297137,
+    "modifiedTime": 1689539978576,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

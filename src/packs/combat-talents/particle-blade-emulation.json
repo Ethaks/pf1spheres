@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When unfolding any particle blade, you may treat it as though it was any other melee weapon of the same category (light, one-handed, or two-handed) that you are proficient with for the purpose of benefiting from feats, talents, or abilities. While treating the particle blade as another melee weapon, the particle blade also gains any special features that a weapon of its kind would normally gain. For example, if you were also proficient with the longspear, you could unfold a two-handed particle blade and treat it as if it were a longspear for the purposes of the Weapon Focus (longspear) feat, and grant the particle blade the brace and reach weapon specials. (See the <a href=\"/tech\">Tech</a> sphere for more information on particle weapons.)</p>\n<p><sup><strong>Author's Note:</strong> If emulating a two-handed melee weapon with the double special property, the damage of each of the weapon's ends are 3 sizes smaller than normal for the particle blade (1d6/1d6 Medium, 1d4/1d4 Small).</sup></p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888241,
-    "modifiedTime": 1663169292828,
+    "modifiedTime": 1689539971125,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

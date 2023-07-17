@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> When you cast a tenebrous talent in darkness or dim light, the spell&#8217;s effective caster level is increased by 2 and any associated save DCs are increased by 1. Any attempts at dispelling a tenebrous talent in darkness or dim light take a &#8211;2 penalty on the check. Casting a tenebrous talent in bright light is difficult, and requires a concentration check (DC 15 + the tenebrous talent&#8217;s effective caster level). Attempts to dispel a tenebrous talent in bright light gain a +4 bonus on the check. You cannot use this effect on talents with the light descriptor.</p>\n<p><strong>Cost:</strong> +1 spell point</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Metamagic"]],
+    "tags": ["Metamagic"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897905,
-    "modifiedTime": 1663169295712,
+    "modifiedTime": 1689539976498,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

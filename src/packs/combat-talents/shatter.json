@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may break a weapon when attacking a creature to deal 1d4 points of additional damage on that attack. This damage is multiplied on a critical hit. This additional damage increases by an additional 1d4 for every 4 base attack bonus you possess.</p>\n<p>If you threaten a critical hit while using this talent, you gain a +4 bonus on the roll to confirm the critical hit, and if it is confirmed, the weapon is destroyed. If you apply a second effect that would give your weapon the broken condition, you forgo this additional benefit. <strong>Associated Feat:</strong> Chairbreaker.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Smash"]],
+    "tags": ["Smash"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886690,
-    "modifiedTime": 1663169291856,
+    "modifiedTime": 1689539971086,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

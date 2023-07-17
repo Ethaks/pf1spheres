@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When a creature within blood control range takes bleed damage to their hit points, as a free action that may be taken even when it is not your turn you may choose a different creature under the effects of your blood control to gain an amount of temporary hit points equal to the bleed damage taken by the first creature. These temporary hit points last for 1 minute per caster level. Each creature may only provide temporary hit points to one other creature.</p>\n<p>As a standard action, you may spend a spell point to inflict 1d2 points of Constitution damage to a creature under the effects of your blood control, then choose a different creature under the effects of your blood control to heal a number of hit points equal to the Hit Dice of the first creature times the amount of Constitution damage dealt. If you possess Mass Blood Magic, you may spend an additional spell point as per that talent to inflict the Constitution damage on multiple creatures and heal multiple creatures. The total number of affected creatures cannot exceed your Mass Blood Magic limit and no creature can be targeted by the Constitution damage more than once per round. A single creature can be healed multiple times.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894241,
-    "modifiedTime": 1663169294794,
+    "modifiedTime": 1689539974686,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

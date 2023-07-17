@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>The designs of your creators left your adrenal glands on overdrive, granting you incredible swiftness for a short period of time.</p>\n<p><strong>Prerequisites:</strong> Construct type or subtype, character level 3rd.</p>\n<p><strong>Benefit:</strong> Once per hour, you can take an extra swift action for two turns, but for the next three turns afterward you receive no swift actions. You cannot use any extra swift actions to cast spells.</p>\n<p><strong>Special:</strong> You may take this feat a total of twice. When taken a second time, once per hour you can take an extra standard action for two turns, but for the next three turns afterward you receive no standard actions. You cannot use any extra standard actions to cast spells.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"], ["Racial"]],
+    "tags": ["Combat", "Racial"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897921,
-    "modifiedTime": 1663169295723,
+    "modifiedTime": 1689539976500,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

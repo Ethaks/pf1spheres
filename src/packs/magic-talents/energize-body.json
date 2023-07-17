@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may enhance a target&#8217;s physical resilience. This suppresses the fatigued condition or reduces the exhausted condition to fatigued for the duration. You may spend a spell point to instead completely suppress the exhausted condition for the duration. The target is still considered to be suffering those conditions for the purposes of effects that would render them fatigued or exhausted. If the target is sleeping, this enhancement causes them to immediately wake up.</p>\n<p>Additionally, the target adds your caster level to their Constitution score for the purpose of how long it may hold its breath or run before attempting Constitution checks. The target also doubling their carrying capacity. This multiplier increases by 1 for every 5 caster levels possessed (thus becoming x3 at 5th caster level, x4 at 10th caster level, etc.).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Enhance"]],
+    "tags": ["Enhance"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890355,
-    "modifiedTime": 1663169293235,
+    "modifiedTime": 1689539974612,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Protection sphere (Enduring Protection), caster level 10th.</p>\n<p>When creating a ward, you may spend 2 spell points to increase its duration to permanent. A complex glyph can be made permanent as a normal glyph can, except for those complex glyphs that trigger non-magical traps.</p>\n<p>When a permanent glyph is triggered, it uses its ward or sphere ability. For abilities with a duration, the glyph activates the ability and then maintains it as if it were concentrating on it for as long as the trigger is satisfied. For an attack ability, the glyph attacks a randomly selected creature in range of both the ability and the glyph itself once per round until there are no longer any targets to attack.</p>\n<p>The glyph always has an initiative equal to its caster level and does not roll a d20 or add any modifiers to its initiative. To be turned into a permanent glyph, a ward or other sphere ability must be usable as a full-round action or shorter without costing any spell points to use. If the caster has abilities that allows them to reduce spell point cost by increasing casting time, they may apply them, provided the casting time stays at a fullround action or less.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892777,
-    "modifiedTime": 1663169294349,
+    "modifiedTime": 1689539974671,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

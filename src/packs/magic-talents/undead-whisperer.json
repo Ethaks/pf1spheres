@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Undead you reanimate and control gain one skill rank per caster level. These skill ranks cannot be spent on a Knowledge skill, but otherwise any skill is valid as long as either you or the creature (when it was alive) possess ranks in the chosen skill. Undead cannot possess more ranks in a skill than either you possess in that skill or that it possessed in life, whichever is greater. You may command these undead to use their skills as a basic command.</p>\n<p>If you possess the Master&#8217;s Presence (dominion) talent, your undead may use your skill ranks in place of their own for any valid skill check, so long as they are within your dominion range.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Dominion"]],
+    "tags": ["Dominion"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890408,
-    "modifiedTime": 1663169293255,
+    "modifiedTime": 1689539974614,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

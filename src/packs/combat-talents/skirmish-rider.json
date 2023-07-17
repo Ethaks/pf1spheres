@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>While mounted and moving with your mount, you and your mount may each make an attack action at any point during the movement and then complete the movement. This requires using your standard action as normal and cannot be used if you do not have a standard action available. You and your mount do not provoke attacks of opportunity from one creature of your choice that you make an attack or combat maneuver roll against as part of this attack action.</p>\n<p>Additionally, you may make an attack action at any point when you make a joint withdraw action while mounted. If you possess the Athletics sphere, you cannot regain focus on the same withdraw action as you use this option.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Ride"]],
+    "tags": ["Ride"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886445,
-    "modifiedTime": 1663169291826,
+    "modifiedTime": 1689539971082,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

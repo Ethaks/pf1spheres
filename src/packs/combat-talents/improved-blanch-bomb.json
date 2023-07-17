@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You create a single use bag of fine metallic powder you can throw as a ranged touch attack with a range increment of 10 feet that drastically deteriorates the defenses&#8212;both manufactured and natural&#8212;of those affected. Anyone standing on the square of impact or in adjacent squares must attempt a Fortitude save; targets 10 feet away must also succeed a Fortitude save but gain a +5 circumstance bonus. Creatures who are immune to any effect that requires a Fortitude save (such as constructs and undead) are not immune to the effects of this formulae.</p>\n<p>Creatures that fail the save have a specific form of damage reduction reduced by 2 + 1 per 5 ranks in Craft (alchemy) for 1 minute, or until they wash the powder off (which ends the effect). While a creature may have multiple types of damage resistance reduced with different blanch bombs, multiple applications of this formulae (even from multiple sources) to reduce a specific type of damage reduction do not stack, only the most potent applies. You can increase the Craft DC for this item in increments of 10; each time you do so, the area of effect increases by 5 ft., and all saving throw DCs increase by +2.</p>\n<p>The types of damage reduction that may be reduced are determined by the Craft DC used for its creation:</p>\n<ul>\n<li><strong>DC 20:</strong> damage reduction/magic</li>\n<li><strong>DC 25:</strong> damage reduction/cold iron or damage reduction/silver (chosen at the time of creation)</li>\n<li><strong>DC 30:</strong> damage reduction/adamantine</li>\n<li><strong>DC 35:</strong> damage reduction/alignment-based (chosen at the time of creation)</li>\n</ul>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Formulae"]],
+    "tags": ["Formulae"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887434,
-    "modifiedTime": 1663169292049,
+    "modifiedTime": 1689539971094,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

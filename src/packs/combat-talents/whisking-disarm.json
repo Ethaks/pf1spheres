@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Whenever you succeed at a disarm attempt against a creature, you may have the disarmed weapon or object land up to 10 feet away from its previous wielder in a direction of your choice. The distance you may have the weapon or object travel before landing increases by 5 feet for every 5 points of base attack bonus you possess.</p>\n<p>In addition, creatures you succeed at a disarm attempt against gain the battered condition until the end of your next turn. <strong>Associated Feat:</strong> Greater Disarm.</p>\n<p><strong>Normal:</strong> Disarmed weapons and gear land at the feet of the disarmed creature.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Disarm"]],
+    "tags": ["Disarm"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885493,
-    "modifiedTime": 1663169291522,
+    "modifiedTime": 1689539971058,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

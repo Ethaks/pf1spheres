@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>You can draw magic beyond that which is around you.</p>\n<p><strong>Prerequisites:</strong> Terrain Casting drawback.</p>\n<p><strong>Benefits:</strong> Whenever you would blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may choose to center the blight effect on a space within close range of you rather than in your space.</p>\n<p><strong>Four Defiler Feats:</strong> You can create magic effects in blighted terrain so long as you blight an area within close range of you when casting. The area you blight cannot overlap with any already- blighted terrain.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Defiler"], ["Drawback"]],
+    "tags": ["Defiler", "Drawback"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897609,
-    "modifiedTime": 1663169295516,
+    "modifiedTime": 1689539976481,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

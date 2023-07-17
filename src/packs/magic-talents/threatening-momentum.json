@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When an ally hits an enemy with a weapon attack with a natural roll of 16 or greater, they may spend a point of momentum to have the attack be considered a critical hit for the purpose of triggering critical feats. This does not make the hit an actual critical hit, and no confirmation roll is required. This can allow a critical feat to be triggered even if the target is immune to critical hits. The normal rules for critical feats apply. If the attack was already a threat, they may spend a point of momentum to confirm it instead. They must do this before rolling to confirm.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Momentum"]],
+    "tags": ["Momentum"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894675,
-    "modifiedTime": 1663169294989,
+    "modifiedTime": 1689539974702,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

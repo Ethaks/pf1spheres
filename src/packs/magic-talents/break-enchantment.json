@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a special application of restore, you may spend an additional spell point to remove all magic from the target that has a duration instead of restoring mind, body, or soul. This may be used against curses including cursed equipment, although it does not remove the curse from the equipment and instead suppresses the effect long enough for the item to be removed.</p>\n<p>Instead of a saving throw, you must succeed at a magic skill check against each magical effect in order to remove it. You may choose not to remove certain effects if you so desire (for example, you may target only harmful effects and not beneficial ones). This counts as using the break enchantment or remove curse spell against those spells and effects that specify they can only be removed through those spells. This has no effect on other instantaneous effects.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894248,
-    "modifiedTime": 1663169294799,
+    "modifiedTime": 1689539974686,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

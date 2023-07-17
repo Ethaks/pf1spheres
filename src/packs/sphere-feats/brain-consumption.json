@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> You may consume the brain of an unconscious creature or a creature who has died within the last 24 hours as a fullround action. A corpse preserved by the Corpse Manipulation talent may have its brain consumed in this way within a week of its death. This functions as a coup de grace against a living creature with a base damage of 4d8 + your Strength modifier and a critical multiplier of x2. Doing so grants you a +2 insight bonus to two skills that the creature whose brain you ate possessed ranks in. You may only benefit from having one brain eaten at a time, but these bonuses last until the next time you consume a creature&#8217;s brain. You are immune to any non-magical diseases you are exposed to as part of consuming a creature&#8217;s brain and do not suffer any mundane negative health effects from consuming a creature&#8217;s brain, even if it would not normally be part of your natural diet. You gain no benefit from consuming the brains of subordinates. The creature&#8217;s brain is not eaten if they are not killed by this effect and you cannot consume the brains of creatures that lack brains (at GM discretion).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897746,
-    "modifiedTime": 1663169295591,
+    "modifiedTime": 1689539976491,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

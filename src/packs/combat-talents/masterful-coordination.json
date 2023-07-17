@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Allies within range of this tactic can use the aid another action to provide a +3 bonus on attack rolls or to AC to any ally benefiting from this tactic against an opponent that ally threatens, increasing by +1 for every 10 ranks of Diplomacy you possess. The bonus from aid another lasts until the beginning of the aiding ally&#8217;s next turn. The bonus to aid another actions granted by Masterful Coordination does not stack with other feats, class features, or effects that improve the bonus provided by the aid another action.</p>\n<p>You may take this talent twice. If taken a second time, allies benefiting from this tactic may expend their martial focus as a swift action to perform the aid another action. In addition, allies may use the aid another action on any ally within range of this tactic and may aid them against any opponent also within range of this tactic, instead of only against opponents the targeted ally threatens.</p>\n<p><strong>Associated Feat:</strong> Harrying Partners.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Tactic"]],
+    "tags": ["Tactic"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888053,
-    "modifiedTime": 1663169292631,
+    "modifiedTime": 1689539971117,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

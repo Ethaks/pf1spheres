@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may throw your telekinetic power at an object, aiding or impeding its natural movement. As a readied action, you may push a projectile, creature, thrown object, or another caster&#8217;s Bludgeon up to one size larger than your telekinesis limit. If aiding, you may increase a weapon&#8217;s range increment by half your telekinesis speed and increase its effective size by 1 size category +1 per 5 caster levels for the purposes of dealing damage and determining if another caster may Catch the object with their own telekinesis. If aiding a creature, you may choose to instead grant it an enhancement bonus to its movement equal to 1/2 your telekinesis speed. You may also add 1d6 damage + 1d6 per 5 caster levels to the falling damage a target suffers. This ability may be used to cause damage to a target that was successfully tripped.</p>\n<p>Alternatively, you may slow down a creature or object, cutting its movement speed in half. If the target is falling, this decreases their falling speed to 60 feet per round, allowing them to fall great distances without being hurt.</p>\n<p>When you use the Catch function of your telekinesis, you may also choose to deflect an object instead of Catching it, causing it to simply miss instead of being lifted with telekinesis. Telekinetic Push still requires a spell point when used directly on hostile targets, but does not allow a Will save to negate, even when used with Catch, due to the briefer contact and more indirect force. Telekinetic Pushes cannot be sustained with Sustained Force.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891964,
-    "modifiedTime": 1663169293932,
+    "modifiedTime": 1689539974651,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may add the following traits to your forms:</p>\n<p><strong>Cheese Body:</strong> The target&#8217;s body becomes strengthened by artisanal aging techniques, gaining DR 5/slashing. This improves by 1 per 4 caster levels.</p>\n<p><strong>Dangerously Cheesy:</strong> Whenever a creature damages the target with a melee attack, they are overwhelmed by the pungent smell of cheese. That creature is sickened for a number of rounds equal to your casting ability modifier unless they succeed at a Fortitude save with a DC equal to the caster&#8217;s Alteration sphere DC. The target gains a +1 circumstance bonus to attack and damage rolls against creatures sickened by this trait.</p>\n<p><strong>Spray Fondue:</strong> Once per minute, as a standard action the target may spray thick, hot, sticky cheese in a 20-foot cone. Any creature in this cone takes 1d4 points of fire damage per 2 caster levels and is entangled for 1d6 rounds unless they succeed at a Reflex save with a DC equal to the caster&#8217;s Alteration sphere DC. A creature that succeeds at its save takes half damage and is not entangled.</p>\n<p><strong>Holey:</strong> At 11th caster level, choose either the holy or unholy special ability. Any weapon the target wields gains that special ability. This trait costs an additional spell point.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Body"]],
+    "tags": ["Body"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892294,
-    "modifiedTime": 1663169293971,
+    "modifiedTime": 1689539974656,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

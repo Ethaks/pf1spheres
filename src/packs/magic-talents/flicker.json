@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may create bright light that partially assimilates a glowing creature and its carried equipment, allowing them to momentarily shed their physical form. A creature under this effect can choose to move through solid objects as long as there are no factors that block normal sight (such as concealment from darkness or fog). This allows them to pass through transparent barriers like glass or through impossibly small gaps (such as a keyhole), but not objects affected by Fenestrate.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Light"]],
+    "tags": ["Light"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893590,
-    "modifiedTime": 1663169294602,
+    "modifiedTime": 1689539974681,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

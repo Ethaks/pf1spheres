@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (Created Momentum).</p>\n<p><strong>Benefit:</strong> When using create to drop objects on a target or attack them with Created Momentum and are doing so in a way that targets normal AC, you may treat the attack as a weapon attack roll for all purposes; you may apply feats to your attack as you could with any ranged weapon, and may treat creating and dropping a single object on a target as a standard action as an attack action. Dropping the object has its range increment increased to 40 feet just as when using it as a weapon. Additional damage from feats or talents such as Deadly Aim or Vital Strike is not multiplied based on hardness or falling distance.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"]],
+    "tags": ["Combat"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897737,
-    "modifiedTime": 1663169295589,
+    "modifiedTime": 1689539976490,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

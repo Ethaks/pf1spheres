@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a standard action, you can make a melee touch attack against a creature, dealing damage equal to your Strength modifier (or whichever attribute was used to make the check). The next successful attack action, attack of opportunity, or additional attack granted by a class feature or talent an ally makes against that creature before the start of your next turn has its base critical threat range doubled; this does not stack with other abilities which would increase critical threat range, such as Improved Critical. A critical hit scored while a creature is affected by this ability has its critical multiplier reduced to x2 if it would normally be higher. For every 5 base attack bonus you possess, Lotus Touch applies to one more eligible attack made before the start of your next turn. <strong>Associated Feat:</strong> Butterfly&#8217;s Sting.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888226,
-    "modifiedTime": 1663169292811,
+    "modifiedTime": 1689539971124,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

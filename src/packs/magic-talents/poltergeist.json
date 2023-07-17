@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may make a ghost strike that attaches a vengeful poltergeist to the target, disrupting their actions. Whenever the target makes a d20 roll within 1 round per caster level, you can choose for them take a -3 penalty to the roll, ending this effect. This penalty is increased by 1 for every 6 caster levels you have.</p>\n<p>If you spend a spell point when you use this ghost strike, you can impose the penalty on up to one d20 roll the target makes each round for the effect&#8217;s duration, and imposing the penalty does not end the effect. A creature can only be affected by one poltergeist at a time.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Ghost Strike"]],
+    "tags": ["Ghost Strike"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890464,
-    "modifiedTime": 1663169293305,
+    "modifiedTime": 1689539974620,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

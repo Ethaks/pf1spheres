@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>No doubt stops your onslaught. You gain a +1 bonus on saving throws against mind-affecting effects and the DC to Intimidate you, increasing by +1 for every 6 base attack bonus you possess. Whenever you would attempt a save against a mind-affecting effect, you may roll twice, taking the better result.</p>\n<p>In addition, you may expend martial focus as an immediate action to attempt a save against a mind-affecting effect (using the effect&#8217;s original DC) or reduce your current level of fear by 1 step (panicked to frightened, frightened to shaken, shaken to not affected by a fear effect). You may only attempt a new save against a specific mind-affecting effect (for example, a specific instance of charm) once per day.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Adrenaline"]],
+    "tags": ["Adrenaline"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887502,
-    "modifiedTime": 1663169292069,
+    "modifiedTime": 1689539971095,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

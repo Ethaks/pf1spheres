@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When creating an object and dropping it on a target at the same time, the falling object never deals half damage for distance, no matter how short the fall, and only needs to fall 75 feet to deal double damage. Additionally, you may create an object and hurl it sideways or even upwards, making attacks with it in a manner similar to a projectile ranged weapon. When used in this way the weapon does not deal increased damage for distance fallen, but has a range increment of 40 feet when determining range penalties, determined from the location where it is created. If it is created adjacent to yourself, you may use Dexterity instead of Intelligence as normal when calculating your ranged attack bonus.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894067,
-    "modifiedTime": 1663169294634,
+    "modifiedTime": 1689539974684,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

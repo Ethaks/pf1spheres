@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may add the following traits to your forms:</p>\n<p><strong>Altitude Immunity:</strong> The target is acclimated to living at high altitudes and additionally can treat its altitude zone as one lower, +1 lower per 10 caster levels.</p>\n<p><strong>Breathless:</strong> The target may survive without air. The target becomes immune to effects that require breathing (such as inhaled poison), can survive underwater, or even in a vacuum (though does not provide protection from extreme cold or other conditions that may be encountered in such an environment). This does not give immunity to cloud or gas attacks that do not require breathing. Granting this trait costs an additional spell point.</p>\n<p><strong>Endure Weather:</strong> The target suffers no harm from being in a hot or cold environment and can exist comfortably in conditions between -50 and 140 degrees Fahrenheit (-45 and 60 degrees Celsius) without having to attempt Fortitude saves. The creature&#8217;s equipment is likewise protected. This trait does not provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.</p>\n<p><strong>Pressure Immunity:</strong> The target is immune to the pressures of the ocean and takes no damage from water pressure.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892584,
-    "modifiedTime": 1663169294165,
+    "modifiedTime": 1689539974659,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

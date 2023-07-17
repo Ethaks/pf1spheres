@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Fallout of severity level 3 forces creatures inside the area to attempt a Fortitude save each hour (DC 15, +1 per previous check) or take 1 point of Constitution damage.</p>\n<p>Severity level 4 functions as severity level 3, save that checks must be made every 10 minutes rather than every hour.</p>\n<p>Severity level 5 functions as severity level 4, save that checks must be made every minute rather than every hour and Constitution damage improves to 1d2.</p>\n<p>Severity level 6 functions as severity level 5, save that checks must be made every round rather than every minute and the Constitution damage becomes 1d4 Constitution drain.</p>\n<p>Severity level 7 functions as severity level 6, save that it deals 2d4 points of Constitution drain.</p>\n<p>Damage from fallout is a poison effect.</p>\n<p>Fallout is a type of radioactive weather, and thus requires the Radiation Lord advanced talent to create.</p>\n<h2 id=\"toc10\"><span>Weather Talent Types</span></h2>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891680,
-    "modifiedTime": 1663169293855,
+    "modifiedTime": 1689539974644,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

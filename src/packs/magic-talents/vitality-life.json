@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>(Vitality) talents are benefits a caster may grant to any ally at the same time they use any other Life sphere ability on them. (Vitality) talents always have a duration of up to 1 minute starting at the time the effect was used, or until the target takes damage from either failing a saving throw or being hit with an attack roll.</p>\n<p>If a caster possesses multiple (vitality) talents, they may only grant one to the target of their Life sphere effect, but may choose to grant different benefits to each target of a particular Life sphere ability.</p>\n<p>A creature can benefit from a (vitality) talent attached to a Life ability, even if they do not actually gain anything from the Life ability (such as using cure on a creature at full hit points).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891052,
-    "modifiedTime": 1663169293626,
+    "modifiedTime": 1689539974637,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

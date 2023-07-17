@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The mageknight can track creatures by observing the omens and mystic signs that subtly mark their passing. She can use Spellcraft instead of Survival to both find and follow tracks, using the same DCs listed under the Survival skill. In addition, she can track creatures that leave no tracks, such as flying and swimming creatures, and creatures using trackless step or pass without trace, taking a -5 penalty to her check for each such effect they benefit from. Finally, if she finds or follows tracks where someone has teleported or moved between planes, she may attempt a Spellcraft or Survival check against a DC equal to their MSD to determine their destination.</p>\n<p>With a successful check she learns the direction of their destination and whether the distance to that destination is near (less than 1 mile), moderate (1 mile to 10 miles) or far (greater than 10 miles); if they moved between planes she instead learns what plane they moved to.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900119,
-    "modifiedTime": 1663169296270,
+    "modifiedTime": 1689539978536,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

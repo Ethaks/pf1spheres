@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a free action you may cause any glow placed on yourself or an item in your possession to shed bright light in a 5-foot radius, activating the effects of (light) talents and other abilities that require bright light. You do not need to concentrate to maintain this smaller area of bright light, nor do you need to spend a spell point. You may still follow the normal rules for causing your glow effects to shed bright light in order to shed bright light in a larger area. If you have multiple glow effects that could benefit from this talent, you may only cause one of them to shine bright light this way, but may switch which one Glory affects as a free action once per turn. An item that leaves your possession (such as by being thrown or disarmed) loses the benefits of this talent until you recover it.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893237,
-    "modifiedTime": 1663169294573,
+    "modifiedTime": 1689539974679,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

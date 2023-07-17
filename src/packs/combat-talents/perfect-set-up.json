@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As long as you have martial focus, as part of an attack action you may make a touch attack with your main-hand weapon which deals only the weapon&#8217;s damage die. If this attack is successful, the next attack you make with your off-hand weapon gains a +2 bonus to its damage roll and targets the creature&#8217;s flat-footed AC (the target is not actually flat-footed for this attack), ignoring cover or concealment as long as that attack is made before the end of your next round. For every 4 points of base attack bonus you possess, this bonus damage increases by +2.</p>\n<p><strong>Author's Note:</strong> Perfect Set-Up replaces the main-hand attack action with an attack which deals only your weapon's base damage dice. This attack is no longer treated as an attack action and cannot be modified by other effects such as Vital Strike or various attack action modifiers from other spheres (Duelist's blooded strike, Fencing's fatal thrust, etc.).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888195,
-    "modifiedTime": 1663169292785,
+    "modifiedTime": 1689539971120,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> Only talents that target only you and have a duration of at least 1 round can be cast as cascade spells; you must either spend spell points to let each cascading effect persist without concentration or have an effect that allows them to linger without concentration. You can prepare multiple talents as a single cascade talent (treat this as if you were casting multiple sphere effects with the same action), as long as all talents are CL 7th or lower, and the total caster level does not exceed CL 9th. The duration of all the cascade talents is equal to the shortest duration for all the talents. A cascade talent has a casting time equal to the longest casting time of all the talents in the cascade.</p>\n<p><strong>Cost:</strong> +2 spell points</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Metamagic"]],
+    "tags": ["Metamagic"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897618,
-    "modifiedTime": 1663169295519,
+    "modifiedTime": 1689539976482,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Time sphere, Warp sphere (Distant Teleport, True Teleport (advanced), Unseeing Teleport), caster level 20th.</p>\n<p>You may spend 5 spell points to teleport to a point backwards or forwards in time, up to 100 years per caster level, appearing at that point in time at a location of your choice within your teleport range, as though using True Teleport.</p>\n<p>To see how accurate the teleportation is, consult Table: Mishap found on True Teleport. Your familiarity with the destination time is relative, and knowledge of the destination time may be determined by succeeding on a DC 30 Knowledge (history) check. Succeeding on this check means the caster is treated as the destination time as having been &#8220;viewed once&#8221;, and for every 5 you exceed the DC, you are treated as having an additional step of familiarity with the destination time and location.</p>\n<p>A &#8220;false destination&#8221; result when using this talent would be teleporting to a nonexistent location at a specific point in time, such as a mythical city that does not exist. This talent is otherwise modified normally by Warp sphere talents. For example, possessing Mass Teleport allows you to teleport to a point in time with other creatures.</p>\n<p><strong>Note:</strong> Time travel is complex. For example, a caster who interacts with the past and returns to their own time may not return to their own original timeline, but instead a parallel universe branching from actions and changes which occurred when the caster interacts with the past. Such changes are ultimately up to GM discretion, and incorporating time travel, whether traveling into the past or future, should be done with caution.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890524,
-    "modifiedTime": 1663169293353,
+    "modifiedTime": 1689539974624,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Nature sphere (Deep Nature), caster level 10th.</p>\n<p>As an instantaneous effect you may spend 10 minutes and 3 spell points to target a portion of material within close range from one of your packages to create a correlating elemental. For these purposes, the Weather sphere counts as a Nature package. The (plant) package, rather than producing an elemental, instead creates a treant.</p>\n<p>The creature created is friendly toward you, and while you have no special empathy or connection with it, the creature serves you in specific tasks or endeavors if you communicate your desires to it. However, as it is a living, intelligent being, it will expect good treatment in return. If you use Zoetic Geomancy again, any previously created creatures remain friendly to you, but they no longer undertake tasks for you unless it is in their best interests.</p>\n<strong>Table: Zoetic Geomancy</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Geomancing Package Required</th>\n<th>Target</th>\n<th>Creature</th>\n</tr>\n<tr>\n<td>Air</td>\n<td>15-ft. cube of air</td>\n<td>Huge geomancy born air elemental</td>\n</tr>\n<tr>\n<td>Earth</td>\n<td>15-ft. cube of dirt, sand, or stone</td>\n<td>Huge geomancy born earth elemental</td>\n</tr>\n<tr>\n<td>Fire</td>\n<td>15-ft. cube of fire or lava</td>\n<td>Huge geomancy born fire elemental</td>\n</tr>\n<tr>\n<td>Metal</td>\n<td>Huge object of metal</td>\n<td>Huge geomancy born cold iron elemental</td>\n</tr>\n<tr>\n<td>Plant</td>\n<td>Huge vegetation</td>\n<td>Wyrgrove treant</td>\n</tr>\n<tr>\n<td>Water</td>\n<td>15-ft. cube of water</td>\n<td>Huge geomancy born water elemental</td>\n</tr>\n<tr>\n<td>Weather</td>\n<td>15-ft. cube of air</td>\n<td>Huge geomancy born air elemental</td>\n</tr>\n</table>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893116,
-    "modifiedTime": 1663169294541,
+    "modifiedTime": 1689539974677,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may make a ghost strike that emulates the power of a lich&#8217;s touch, incapacitating the target. The target is staggered for 1 round plus 1 round per 4 caster levels (Fortitude negates). If you spend 2 additional spell points, the target is instead paralyzed for 1 round per caster level (Fortitude negates). On a successful save to avoid paralysis, the target is instead staggered for 1 round. A target paralyzed by this ghost strike is allowed a new Fortitude save each round to end this effect early. This is a fullround action that does not provoke an attack of opportunity.</p>\n<p>A creature paralyzed by the Lich Strike talent seems dead, though a Perception check (DC 15 + caster level) or Heal check (DC 15 + 1/2 caster level) reveals that the creature is still alive.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Ghost Strike"]],
+    "tags": ["Ghost Strike"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894243,
-    "modifiedTime": 1663169294796,
+    "modifiedTime": 1689539974686,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

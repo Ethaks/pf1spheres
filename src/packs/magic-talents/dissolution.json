@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (Potent Alteration).</p>\n<p>You may spend a spell point when using Destroy on a non-magical, unattended object. The ability does not deal damage and instead simply disintegrates as much as a 10-foot cube of nonliving matter.</p>\n<p>When targeting an attended non-magical object, magical object, or creature (by spending an additional spell point via Potent Alteration), you may spend another spell point to reduce the target to its component parts. The target is entitled to a Fortitude saving throw. Failure results in the target taking 2d6 points of damage per caster level that bypasses all hardness, resistances, and damage reduction. A successful save reduces this damage to the normal damage of the Potent Alteration talent.</p>\n<p>If this damage reduces the creature or object to 0 or fewer hit points, it is entirely disintegrated.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Alter"]],
+    "tags": ["Alter"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890542,
-    "modifiedTime": 1663169293366,
+    "modifiedTime": 1689539974625,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

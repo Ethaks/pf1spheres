@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Your experience with violence renders you resistant to mental stress.</p>\n<p><strong>Benefit:</strong> You may add your Constitution score to your sanity score and use your Constitution modifier to determine your sanity threshold. In addition, you may attempt a Fortitude save in place of Will save against a situation which would deal sanity damage.</p>\n<p><strong>Making Sanity More Manageable:</strong> The system of sanity and madness is somewhat notorious for its brutality, especially against martial characters. If a GM feels that the sanity mechanics are problematically punishing as they are written, they may grant characters the Hardened Psyche feat for free either to all characters or to non-spellcaster characters (the reasoning being that exposure to the unnatural makes your mind more vulnerable). Alternatively or perhaps in addition, all characters may be granted the Desensitized feat as a bonus feat, reflecting how trauma makes them less vulnerable to horrific events.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"]],
+    "tags": ["Combat"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898197,
-    "modifiedTime": 1663169295918,
+    "modifiedTime": 1689539976515,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

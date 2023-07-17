@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Your companion gains poor base attack bonus progression (equal to 1/2 Hit Dice, rounded down) and uses a d6 for its Hit Dice. The companion must choose the Magical Companion (form) talent as its free (form) talent, but is not required to use natural casting, and may gain a casting tradition of your choice. The companion is considered a Mid-Caster, and gains spell points equal to its Hit Dice plus its casting ability modifier.</p>\n<p>A mage companion must still spend feats to gain additional magic talents, as usual, and does not gain the two free bonus talents a caster usually gains with the casting class feature. A mage companion loses Climb and Swim as class skills but gains Knowledge (arcana) and Spellcraft as class skills. A mage companion may choose to give up the natural attacks granted by its base form to gain the Implement Bearer (form) talent as a bonus talent. This archetype cannot be combined with the mindless companion archetype.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894280,
-    "modifiedTime": 1663169294818,
+    "modifiedTime": 1689539974688,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>The target of this lens fires with more precision. They treat targets of their ranged attacks as being one range increment closer for all effects, such as when determining penalties for firing at a longer range. In addition, they gain a +1 competence bonus to all ranged attack rolls.</p>\n<p>For every ten caster levels you possess, the target ignores an additional range increment and their competence bonus to ranged attack rolls increases by 1.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Lens"]],
+    "tags": ["Lens"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891013,
-    "modifiedTime": 1663169293599,
+    "modifiedTime": 1689539974633,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

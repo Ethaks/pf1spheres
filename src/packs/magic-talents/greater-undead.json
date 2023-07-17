@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Death sphere (Sustained Necromancy, Permanent Undead (advanced)), caster level 5th.</p>\n<p>You may spend 3 spell points and 1 hour to reanimate a body as a greater form of undead, including banshees, vampires, wights, and others. This is always an instantaneous effect, creating permanent undead that cannot be dispelled.</p>\n<p>The created undead cannot have a challenge rating above 1/2 your caster level, and the created undead are not automatically under your control; alternate means of control must be established. Many undead have specific requirements for their creation listed in their descriptions (banshees are the spirits of female elves who either betrayed a lover or were betrayed by one, bodaks are extraplanar undead created in the Abyss, allips are the spirits of insane suicides, etc.). These prerequisites must be met in order to create a specific kind of undead.</p>\n<p>At caster level 15th, you may create any form of undead, regardless of CR, provided you meet its additional prerequisites. GMs always have the final say over what prerequisites an undead might require.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893220,
-    "modifiedTime": 1663169294559,
+    "modifiedTime": 1689539974678,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

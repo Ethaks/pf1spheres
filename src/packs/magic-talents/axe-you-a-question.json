@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You utter an ominous question towards the target. The target takes damage as though hit by a greataxe appropriately sized to you (Medium 1d12) and is shaken for a number of rounds equal to half your caster level. This damage is not modified by your Strength or any other modifiers you may possess which would otherwise apply to a damage roll.</p>\n<p>If you spend an additional spell point when casting this sphere effect, for a number of rounds equal to half your caster level, whenever an effect other than this talent would cause the target to become shaken (such as being demoralized with the Intimidate skill), the target take damage as though hit by a greataxe appropriately sized to you. The target cannot take damage this way more than once per round.</p>\n<p>A successful Will saving throw negates this effect. This is a language- dependent fear effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Word"]],
+    "tags": ["Word"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892661,
-    "modifiedTime": 1663169294220,
+    "modifiedTime": 1689539974663,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

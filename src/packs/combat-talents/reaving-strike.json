@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Fencing sphere, base attack bonus +5.</p>\n<p>As long as you have martial focus, when you strike an opponent that has a chance of negating critical hits or precision damage, such as from the fortification armor special ability, reduce that chance by 5% per point of base attack bonus you possess.</p>\n<p>When you use this effect, you may expend martial focus to treat creatures that are normally immune to critical hits and precision damage as having a 150% chance to negate the critical hit or precision damage, reduced as normal by this talent&#8217;s effect. Treat creatures with a 100% fortification chance or greater as if they were immune to critical hits and precision damage (thus having an effective 150% chance to negate such effects) for the purposes of this talent. <strong>Associated Feat:</strong> Anatomical Savant.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888192,
-    "modifiedTime": 1663169292781,
+    "modifiedTime": 1689539971120,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

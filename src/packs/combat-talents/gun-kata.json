@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>While wielding a firearm, you can still make unarmed strikes with the hands used to wield it (these attacks do not provoke attacks of opportunity if you are not proficient with unarmed strikes); if you do, your unarmed strikes made with any hand wielding a firearm gain any enhancement bonuses to attack or damage rolls your firearm possesses (this bonus cannot exceed +5). When using the attack action to make a successful attack with your unarmed strike against a creature, or when you succeed at a melee attack with a double weapon that is part melee weapon and part firearm (such as the axe musket or dagger pistol) using the attack action, as a swift action you can make a ranged attack with a -2 penalty against the same creature with your firearm or the firearm portion of your weapon; this attack does not provoke an attack of opportunity.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888176,
-    "modifiedTime": 1663169292765,
+    "modifiedTime": 1689539971118,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

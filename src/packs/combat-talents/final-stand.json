@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Intimidate ranks 4, Gladiator sphere.</p>\n<p>While in this stance, whenever an ally that you can see would be reduced to 0 hit points or fewer, you can perform a boast once per round as a free action that can be taken outside of your normal turn. Additionally, allies who are unconscious can benefit from your boasts; a dying ally who is affected by your boast immediately becomes stabilized. When stabilized in this way, the ally still attempts stabilization checks; if they succeed, they regain 1 hit point, become conscious (if they were not already), and stop attempting stabilization checks.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Stance"]],
+    "tags": ["Stance"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888232,
-    "modifiedTime": 1663169292817,
+    "modifiedTime": 1689539971124,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

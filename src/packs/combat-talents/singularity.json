@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Guardian sphere, base attack bonus +5.</p>\n<p>At the start of their turns, hostile creatures within the area of your patrol must succeed on a Fortitude save or be moved 5 ft. closer to you, though stop when they become adjacent. This movement does not provoke attacks of opportunity. Hostile creatures within the area of your patrol count every square of movement directed away from you as two squares when determining their movement for the round. This stacks with the effects of difficult terrain. At +10 base attack bonus, the distance moved toward you and the additional cost of movement away from you increases by 5 ft. This is a supernatural effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Zone"]],
+    "tags": ["Zone"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885919,
-    "modifiedTime": 1663169291743,
+    "modifiedTime": 1689539971072,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

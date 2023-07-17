@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Life sphere (Restore Health (cure)), caster level 10th.</p>\n<p>As a full-round action, you spend two spell points to transform an adjacent creature into a more perfect version of itself, one step closer to divinity than before. The transfigured creature is superior to its old self spiritually, and is free of many of the burdens of mortality. Any penalties for old age are suspended, and it gains immunity to all diseases, including supernatural and magical diseases, and poisons of all kinds. Most importantly, its current and maximum hit points are raised by 5 hit points per caster level. This can not bring a creature&#8217;s maximum hit points to more than twice its normal maximum hit points.</p>\n<p>The transfiguration lasts a number of hours equal to your caster level, or until they drop below 0 hit points. When the transfiguration ends, if a creature&#8217;s current hit point total is greater than their original maximum total, their current hit point total becomes their original maximum hit point total, but they otherwise do not lose any hit points from the reduction in their maximum hit points.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893610,
-    "modifiedTime": 1663169294617,
+    "modifiedTime": 1689539974683,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

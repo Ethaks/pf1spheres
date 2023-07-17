@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a swift action made as part of successfully using an expunge or (manipulation) that targets a creature other than yourself, or as a move action made by spending a spell point to touch a creature other than yourself, you can create a manabond between yourself and the targeted creature for as long as you concentrate, to a maximum of 1 minute per caster level. Concentration on a manabond only requires a swift action, with the action required being unable to be lowered by any means other than the Magical Conduit talent. When creating a manabond, you may add a single (manabond) talent that you possess to the effect.</p>\n<p>A manabond is a direct, invisible and intangible line of energy that connects you and your target, and remains active up to close range, beyond which the manabond breaks, and the effect ends. As long as you have a manabond with a creature, you may always pinpoint their exact location (although this does not negate any concealment they may have).</p>\n<p>When creating a manabond, you are considered the host of the manabond, with the targeted creature considered the recipient. A creature can only be the host of a single manabond, and cannot be the recipient of multiple manabonds at the same time. If a second manabond would be cast on a creature, the caster must attempt a magic skill check against the MSD of the currently active manabond on the target. If the caster succeeds, the other manabond is suppressed, causing it to remain active and ongoing as long as it is maintained, but having no effect on the recipient until the suppressing manabond has ended.</p>\n<p>If the caster fails, their manabond becomes suppressed, with the original manabond remaining active. Even when suppressed, a host may still pinpoint the location of the recipient.</p>\n<p>When you gain the Mana sphere, you gain the following (manabond) talent:</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892169,
-    "modifiedTime": 1663169293966,
+    "modifiedTime": 1689539974656,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

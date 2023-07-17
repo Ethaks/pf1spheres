@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>You may bind yourself to an oncoming spell at great risk.</p>\n<p><strong>Prerequisites:</strong> Guardian sphere (Cold Iron Call, Defend Other), Counterspell, Counterspell Mastery, magic skill bonus +7.</p>\n<p><strong>Benefit:</strong> When counterspelling an effect that would affect you and only you, you may roll twice and take the higher result on the magic skill check to counterspell. If you fail, you take a -2 penalty on your AC, spell resistance, and saving throws against the effect. When using Defend Other to redirect a spell from an ally to yourself, you may spend 2 spell points to attempt to Counterspell the effect as part of the action to use Defend Other.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"], ["Counterspell"]],
+    "tags": ["Combat", "Counterspell"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897834,
-    "modifiedTime": 1663169295667,
+    "modifiedTime": 1689539976491,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

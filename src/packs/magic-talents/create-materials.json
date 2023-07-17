@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (Lengthened Creation), caster level 10th.</p>\n<p>You may spend 2 spell points to create raw materials. This is an instantaneous effect; you create the material as self-evident normal material, and thus it cannot be dispelled and has no duration. You cannot create complex items, i.e., you may create walls, battlements, ramps, or domes, but cannot create catapults, armor, or a complete building in this manner, although the material may be crafted as any other material after it is summoned.</p>\n<p>If you possess the Fabricate advanced talent, you may permanently create any object you could normally create, provided you succeed on an appropriate Craft check first.</p>\n<p>You can summon any material you may create, with the exception of gems, precious metals (such as gold or silver) or rare metals (such as cold iron or mithril), unless you possess Costly Creation (see above for further information).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894488,
-    "modifiedTime": 1663169294949,
+    "modifiedTime": 1689539974699,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

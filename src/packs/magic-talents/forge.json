@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point to shape material. This is an instantaneous effect, as you are literally changing the shape of the material in question (i.e., it has no duration, and cannot be dispelled once finished). You can only affect materials you can create (i.e., you must possess the Expanded Materials talent to work with materials other than vegetable matter), and you may only make crude changes such as forming walls, trenches, doors, coffers and other basic shapes. Detailed work (such as forging armor) is not possible, and there is a 30% chance that anything with moving parts simply does not work. You may affect targets up to your normal creation size, but when working with a mineral (stone, metals, gems, etc.) the size you may affect is reduced by half.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Alter"]],
+    "tags": ["Alter"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893224,
-    "modifiedTime": 1663169294564,
+    "modifiedTime": 1689539974679,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

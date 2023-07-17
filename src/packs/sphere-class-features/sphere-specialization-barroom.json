@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Broken Creativity (Ex):</strong> At 3rd level, a conscript can deal either bludgeoning, piercing, or slashing damage with an improvised weapon, and while drunk a conscript deals additional damage with an improvised weapon equal to 1/3 his base attack bonus (minimum 1).</p>\n<p><strong>Lasting Drunkenness (Ex):</strong> At 8th level, whenever a conscript expends his drunk status, he is still treated as though he had the drunk status for the purpose of talents which would grant him benefits for having it for 1 minute. In addition, he gains a +2 dodge bonus to his armor class and a +2 circumstance bonus to Reflex saving throws while drunk. At 16th level, these bonuses increase by +2.</p>\n<p><strong>Eternal Drunk (Ex):</strong> At 20th level, the conscript is always treated as though he had the &#8216;drunk&#8217; status for the purpose of talents which would grant benefits for having it, and all improvised weapons he wields are always treated as 2 size categories larger than they actually are for the purpose of determining how much damage they deal.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900515,
-    "modifiedTime": 1663169296637,
+    "modifiedTime": 1689539978555,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

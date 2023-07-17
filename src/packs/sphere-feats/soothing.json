@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Benefits:</strong> While using the soothing purr, you and allies within your purring aura gain a +2 bonus on saving throws made against pain effects. This bonus also applies on skill checks, saving throws, and ability checks made against an ongoing effect, but not the initial check to avoid the effect (such as a saving throw to stop being on fire or a Strength check to break out of an icy prison spell).</p>\n<p><strong>Powerful Purring:</strong> Whenever a creature benefiting from the soothing purr would receive healing, increase the healing received by half your character level. This increased healing has no effect on effects such as fast healing, regeneration, and other similar effects.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Purring"]],
+    "tags": ["Purring"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897974,
-    "modifiedTime": 1663169295769,
+    "modifiedTime": 1689539976504,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

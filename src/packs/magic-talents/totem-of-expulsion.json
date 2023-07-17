@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You must spend a spell point to create a totem of expulsion. The totem creates a field of energy that applies interdimensional pressure to creatures that do not belong on your plane, and weakens them. All non-native outsiders (including allies) within are sickened (no save) while they remain inside the area of the totem. In addition, they receive a penalty to any damage reduction, energy resistance, and spell resistance they possess equal to your caster level. Energy immunity is also affected: treat immune creatures as having a resistance equal to twice their total Hit Dice, then subtract your caster level as you would with normal resistance, to a minimum of 0. You can only create this totem on your home plane.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Totem"]],
+    "tags": ["Totem"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891052,
-    "modifiedTime": 1663169293626,
+    "modifiedTime": 1689539974637,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may enhance a creature, allowing it to attempt Escape Artist checks that normally require a full minute to perform as a full-round action, and that normally take a full-round action as a standard action. At 6th caster level, it ignores all penalties while squeezing through narrow spaces, and may move through such spaces at full speed. At 12th caster level, it may squeeze through tight spaces at its full speed, and does not lose its Dexterity bonus to AC when doing so. At 18th level, it may use Escape Artist to squeeze through any space large enough to fit one of its fists.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Enhance"]],
+    "tags": ["Enhance"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891739,
-    "modifiedTime": 1663169293904,
+    "modifiedTime": 1689539974648,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

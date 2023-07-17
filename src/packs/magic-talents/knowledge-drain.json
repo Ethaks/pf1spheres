@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Mana sphere (Manathief (advanced, expunge), Gift Of Knowledge (manipulation)), caster level 1st.</p>\n<p>Your knowledge and experience in stealing the mana from others has pushed you to a new discovery; stealing their prowess in the magical arts. Whenever you successfully drain spell points from a target using Manathief, the target must additionally attempt a Will save, with a penalty to this save equal to the amount of spell points they lost from the triggering effect. On a failure, you steal the use of a single magic talent you are aware they can cast (or base sphere, if they possess a sphere with no additional talents invested). The target cannot use that sphere or talent until they rest to regain spell points, and you gain access to the talent stolen. If you do not possess the base sphere when stealing a talent this way, you instead only gain access to the base sphere. You retain use of it for 24 hours, however you may spend a spell point to retain it for another 24 hours, but each extra 24 hours adds a cumulative extra spell point cost to retaining the ability. You may only gain knowledge of one talent or sphere this way at a time, although you may choose to replace the talent you have retained an additional use of this talent.</p>\n<p>At caster level 10th, you may retain up to two talents at a time, and an additional talent every ten caster levels thereafter.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890396,
-    "modifiedTime": 1663169293241,
+    "modifiedTime": 1689539974613,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

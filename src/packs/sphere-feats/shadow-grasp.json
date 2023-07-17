@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Tenebrous Spell, Umbral Spell.</p>\n<p><strong>Benefit:</strong> When you cast a talent with the darkness descriptor that affects an area, creatures in the area are entangled. If the talent allows a saving throw, a successful save negates the entangle effect. If the talent does not normally allow a save, a creature can attempt a Reflex save (DC = the talent&#8217;s DC if it had a saving throw) to negate the effect. If the talent allows spell resistance, failing to overcome a creature&#8217;s spell resistance means it is not entangled. An entangled creature remains so as long as it is in the area of the talent and for 1 round after it leaves. A creature that leaves and reenters the area must attempt a new saving throw to avoid becoming entangled. Creatures that succeed at a save to resist being entangled do not have to attempt additional saves if they stay within the darkened area. You are never impeded by the effects of your talents modified by this feat.</p>\n<p><strong>Cost:</strong> +1 spell point</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Metamagic"]],
+    "tags": ["Metamagic"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897997,
-    "modifiedTime": 1663169295789,
+    "modifiedTime": 1689539976506,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

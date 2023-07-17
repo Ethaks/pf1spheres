@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The sage can spend 1 hour in quiet contemplation to gather and reinforce his mental and spiritual energies in preparation for the task ahead. When the sage meditates in this manner, he gains a pool of bonus dice equal to 1/2 his class level (rounded down, minimum 1) that can be spent whenever he makes an ability check, skill check, or saving throw to add 1d6 to the roll. The sage can also use this ability whenever an opponent uses an ability which targets the sage&#8217;s CMD to add 1d6 to his CMD against the attempt. The sage cannot gain more bonus dice at one time than half his class level using this ability.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168901032,
-    "modifiedTime": 1663169297235,
+    "modifiedTime": 1689539978583,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

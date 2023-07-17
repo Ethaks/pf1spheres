@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Wards you create may be completely sealed spheres. If creating the ward would cause it to go through another object, the ward cuts harmlessly through the material and affecting targets on the far side (without compromising the integrity of the object, but preventing the object from being moved in the case of a barrier). If creating the ward would cause a physical manifestation such as a barrier to go through a creature or animated object, the ward shunts the creature just outside the effect of the sphere.</p>\n<p>These modifications to your wards make it so that ethereal creatures, or creatures with unusual movement modes such as burrow cannot pass through a barrier by going around the ward, but must instead destroy the barrier to enter or exit. This ability can be combined with Greater Barrier to allow your barrier wall to pass through objects.</p>\n<p>This talent replaces Continuous Barrier.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891727,
-    "modifiedTime": 1663169293890,
+    "modifiedTime": 1689539974647,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may grant a motif that protects the target&#8217;s subconscious and allows them to project their mind onto attackers. The target gains a +2 insight bonus to saving throws against mind-affecting effects. This bonus increases by +1 for every 10 caster levels.</p>\n<p>The target may discharge this effect when they are the target of a mind-affecting spell, spell-like ability, supernatural ability, or sphere effect to force the effect&#8217;s user to attempt a saving throw against the effect&#8217;s DC. On a failed save, the target is unaffected by the effect, while the effect&#8217;s user suffers the effects of a failed save. On a successful save, the target is affected by the effect as normal. (If the effect would not normally have a DC, calculate it as if it did using the normal rules for that type of effect.)</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Motif"]],
+    "tags": ["Motif"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891056,
-    "modifiedTime": 1663169293630,
+    "modifiedTime": 1689539974637,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

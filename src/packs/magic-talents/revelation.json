@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may place a glow on a source of written information, such as a book, to cause it to reveal any information deliberately recorded in it. Anyone who takes even a moment to examine the light (a free action) can read the entire body of work, regardless of length, damage to the text or language barriers - the observer does not even need to be able to read. Even erased text can be read.</p>\n<p>If information is recorded with a magical protection that prevents detection or understanding, the caster may attempt a magic skill check against the MSD of the caster to determine if the information can be detected or understood. Once absorbed, the information can be retained as reading any other book can, and for a period of 1 hour after reading, the information remains especially clear. During this time, any creature attempting a Knowledge check on a topic relevant to the written work receives a +2 circumstance bonus to the check, with +1 increase every 4 caster levels.</p>\n<p>This ability may be used on objects with no visible writing, in order to reveal hidden messages. The light can allow a person to read a magical scroll, but does not necessarily allow them to cast or copy it. Observing the light does not trigger magical effects that occur in response to an object being read.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Light"]],
+    "tags": ["Light"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894341,
-    "modifiedTime": 1663169294825,
+    "modifiedTime": 1689539974689,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

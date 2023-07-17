@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Your companion is of this plane but not of this world. The companion gains the aberration creature type. The companion gains darkvision out to 60 feet and low-light vision. The companion gains a +1 bonus to saves vs. divination and compulsion effects, +1 per 5 Hit Dice as well as a +1 bonus to CMB and CMD +1 per 5 Hit Dice.</p>\n<p>You may take this talent twice. If taken twice, your companion&#8217;s bonuses improve to +1 saves vs. divination and compulsion effects +1 per 3 Hit Dice and +1 bonus to CMB and CMD +1 per 3 Hit Dice. In addition, the companion gains all-around vision.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Type"]],
+    "tags": ["Type"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894882,
-    "modifiedTime": 1663169295157,
+    "modifiedTime": 1689539974704,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

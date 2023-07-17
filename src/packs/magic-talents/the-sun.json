@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may grant a motif that ensures a glorious dawn after the darkest night. Whenever the target is below 50% of their maximum hit points, they roll twice on all saving throws and take the better result.</p>\n<p>The target may discharge this effect when they are below 50% of their maximum hit points and succeed on a saving throw against a non-harmless effect to regain a number of hit points equal to the caster level + your casting ability modifier and gain an insight bonus to armor class and saving throws equal to your casting ability modifier for 1 round.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Motif"]],
+    "tags": ["Motif"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891667,
-    "modifiedTime": 1663169293846,
+    "modifiedTime": 1689539974643,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

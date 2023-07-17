@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Whenever you make a melee attack using the attack action, you may choose to take a -2 penalty on all attack rolls made that round. If your attack hits, you may make an additional attack as a free action against a creature that is adjacent to the first and also within your reach. If this additional attack hits, you may make another additional attack against a new target adjacent to the struck target. You may continue attacking targets adjacent to your most recent struck target as long as you still have a valid target for this ability, but you cannot attack the same creature twice. The number of additional attacks made with this ability cannot exceed 1/2 your base attack bonus (minimum 1).</p>\n<p>You can take this talent a second time, allowing you to take a single 5-ft. step as a free action after making an attack when using this ability. If doing so places a creature within your threatened area, that creature becomes a legal target for your additional attack(s) as long as it meets all the other prerequisites. Your movement with this talent cannot exceed your move speed. <strong>Associated Feats:</strong> Cleave, Great Cleave, Cleave Through when taken twice.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887968,
-    "modifiedTime": 1663169292364,
+    "modifiedTime": 1689539971112,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

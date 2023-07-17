@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Sleight of Hand 3 ranks, Telekinesis sphere, Mind Limb.</p>\n<p><strong>Benefit:</strong> You can use your telekinetic limb to perform steal combat maneuvers and make Sleight of Hand checks to hide an object, palm a weapon, or take something unnoticed. Perception checks to notice you doing so take a penalty equal to half your character level, and when you successfully perform a steal combat maneuver or take something unnoticed you may make a Sleight of Hand check to hide it as a free action.</p>\n<p><strong>Special:</strong> If you have the Aggressive Mind Limb feat, you may use your additional attack of opportunity with your mind limb to attempt a steal combat maneuver.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Protokinesis"]],
+    "tags": ["Protokinesis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897930,
-    "modifiedTime": 1663169295734,
+    "modifiedTime": 1689539976501,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

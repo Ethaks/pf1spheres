@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Your companion is learned in the ways of war. It gains proficiency with all simple weapons and when summoned, appears with up to 2 weapons it is proficient with (masterwork, but of unremarkable composition). These weapons gain a +1 enhancement bonus for every 3 Hit Dice possessed to a maximum of +5. A companion may gain this form talent twice. If gained a second time, it gains proficiency with all martial weapons and treats its Hit Dice as fighter levels when meeting the prerequisites for feats.</p>\n<p><strong>Note:</strong> If using Spheres of Might, companions with Battle Creature (form) may take <a href=\"/martial-traditions\">martial traditions</a> instead of proficiency with all martial weapons.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Form"]],
+    "tags": ["Form"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892740,
-    "modifiedTime": 1663169294320,
+    "modifiedTime": 1689539974669,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

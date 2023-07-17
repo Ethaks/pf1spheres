@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Equipment sphere, base attack bonus +6.</p>\n<p>You may treat lances, longswords, and spears as ammunition for longbows, shortbows, light crossbows, and heavy crossbows, being able to draw and load them as though they were ammunition (although they are not destroyed after hitting a target). Using these weapons as ammunition deals additional damage equal to the weapon&#8217;s damage die (this additional damage is not multiplied on a critical hit) and you take a -2 penalty on attack rolls made while using these weapons as ammunition. If you possess the Barroom sphere, you may use this talent with improvised weapons (you may not use an improvised weapon which would require more than one hand for you to wield). The penalty is doubled when making a full attack action while using these weapons as ammunition.</p>\n<p>If you possess the Ceaseless Ammo talent, you may use it with the listed weapons, although the same limitations apply, and if you possess the Ranged Impale talent, you may use it with this talent.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888256,
-    "modifiedTime": 1663169292841,
+    "modifiedTime": 1689539971126,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

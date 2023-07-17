@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When you attack an unattended object with a brutal strike, if you destroy the object, you may send fragments of it flying in a cone dealing damage to any creature in an area based on its size. Small or smaller objects create a 10 ft. cone and the size of the cone increases by 5 ft. for every size category above Small. This shrapnel does 1d6 points of bludgeoning, piercing, and slashing damage dealt by the same material or materials that the object was primarily composed of. This damage increases by 1d6 at +3 base attack bonus and every 2 points of base attack bonus thereafter. The damage also increases by 1d6 for every 5 points of hardness the object possessed, to a maximum increase of 10d6 additional damage. Creatures that take damage are also battered. A Reflex save halves this damage and prevents the battered condition. A battered creature must roll twice and take the worse result on their Reflex save.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Exertion"]],
+    "tags": ["Exertion"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887842,
-    "modifiedTime": 1663169292267,
+    "modifiedTime": 1689539971104,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

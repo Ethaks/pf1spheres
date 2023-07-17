@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>While this consecration is in effect, any creature in the area that attacks any other creature (whether in the area or not) takes untyped damage equal to your caster level. For purposes of this effect, an attack includes any non-harmless spell, spell-like ability, sphere effect, or supernatural ability targeting a hostile creature or whose area of effect includes a hostile creature. This consecration can affect a target once per round, +1 time per 5 caster levels.</p>\n<p>You must concentrate to maintain this consecration. You may always spend an additional spell point as a free action to allow this consecration to continue for 1 minute per caster level without concentration.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Consecration"]],
+    "tags": ["Consecration"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894370,
-    "modifiedTime": 1663169294916,
+    "modifiedTime": 1689539974696,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

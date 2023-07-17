@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You cause a creature to regard you as its friend. If you or your allies are attacking or threatening the creature, they gain a +5 bonus to their saving throw against this charm. A DC 25 Sense Motive check reveals the target of this charm has been enchanted. This is an enchantment (charm) effect instead of an enchantment (compulsion) effect.</p>\n<p><strong>Lesser Charm:</strong> You increase the target&#8217;s disposition toward you by 1 step to a maximum of friendly for 1 minute per caster level (Will negates).</p>\n<p><strong>Greater Charm:</strong> You increase the target&#8217;s disposition toward you to friendly for 1 minute per caster level (Will negates). You may make requests of the target, but asking it to do anything it would not normally do requires an opposed Charisma check, and it never obeys requests that are obviously fatal or against its nature, although the target may be convinced dangerous things are worth doing.</p>\n<p><strong>Powerful Charm:</strong> This functions as the greater charm, except the duration increases to 1 hour per caster level.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Charm"]],
+    "tags": ["Charm"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894670,
-    "modifiedTime": 1663169294986,
+    "modifiedTime": 1689539974702,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

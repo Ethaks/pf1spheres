@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When an ally within the area of your patrol makes an attack, is targeted by an attack, or attempts a saving throw, you may spend an attack of opportunity to move to put that ally within reach (with the normal limits for moving as part of your patrol) and use the aid another action to improve that ally&#8217;s attack roll, AC, or saving throw as appropriate to the triggering action. <strong>Associated Feat:</strong> Bodyguard.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Zone"]],
+    "tags": ["Zone"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886085,
-    "modifiedTime": 1663169291754,
+    "modifiedTime": 1689539971073,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Telekinesis sphere.</p>\n<p><strong>Benefit:</strong> As a swift action you may push a creature within close range (25 feet + 5 feet per 2 caster levels) off balance. If you succeed on a ranged touch attack they become battered (see Chapter 1 of Spheres of Might) and suffer one of the following effects, chosen when you use the ability, until the end of your next turn:</p>\n<ul>\n<li>They take a -1 penalty to the next saving throw they make against a Telekinesis sphere ability.</li>\n<li>They take a -1 penalty on Acrobatics checks. For every 4 caster levels, this penalty increases by 1.</li>\n<li>They must make a Reflex saving throw (DC 10 + 1/2 your caster level + your casting ability modifier) or lose one attack of opportunity. If they can only make one attack of opportunity per round, they cannot make an attack of opportunity until the end of your next turn.</li>\n</ul>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"], ["Protokinesis"]],
+    "tags": ["Combat", "Protokinesis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897913,
-    "modifiedTime": 1663169295717,
+    "modifiedTime": 1689539976499,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

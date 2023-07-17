@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Nature sphere, Mind sphere.</p>\n<p>You learn to manipulate the most elusive natural element, the heart. You project a 30-foot aura which penalizes hostile actions. All enemies within this aura take a -1 penalty on any attack rolls they make. You may suppress or resume this ability as a free action. This ability ceases to function if you are stunned, paralyzed, unconscious, dead, or otherwise incapacitated. This is a mind-affecting compulsion effect. At caster level 10, and every 10 thereafter, the radius of this aura increases by 30 feet.</p>\n<p>If you spend a spell point as a free action, you may empower this aura to punish those with wicked hearts for 1 round per caster level. While the aura is empowered, whenever a creature taking a penalty from this aura deals damage to you or an ally inside this effect&#8217;s radius, that creature must make a Will saving throw or take 1d6 nonlethal damage per 4 caster levels (minimum 1d6). A creature can only take damage from this effect once per round; a creature that is immune to nonlethal damage takes lethal damage instead.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Spirit"]],
+    "tags": ["Spirit"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890554,
-    "modifiedTime": 1663169293383,
+    "modifiedTime": 1689539974626,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

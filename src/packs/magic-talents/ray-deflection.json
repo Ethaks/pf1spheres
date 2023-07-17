@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Whenever a ray attack is used against a creature with this aegis, there is a 20% chance the ray will be deflected back at the caster. This increases by 5% for every 5 caster levels to a maximum of 50%. This aegis does not offer protection against rays that automatically hit, such as those with a natural 20 on the attack roll. A deflected ray makes an attack against the attacker using the same attack roll and all of the applicable modifiers of the original attack and if it hits, the attacker takes the attack&#8217;s damage and suffers all the other consequences of getting struck with that attack.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aegis"]],
+    "tags": ["Aegis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890766,
-    "modifiedTime": 1663169293551,
+    "modifiedTime": 1689539974628,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

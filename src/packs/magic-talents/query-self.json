@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Time sphere, caster level 10th.</p>\n<p>You may spend 2 spell points to reach through time to contact a possible future self. This future self can be up to 1 hour per caster level into the future. You may ask a future self a single short question, receiving a short, concise answer if your future self is able. You may concentrate on this effect, asking a different future self a different question each round. If the answer must be longer than a few words, your future self may reply over multiple rounds as long as you maintain concentration.</p>\n<p>While your future self usually gives honest and accurate information, your new knowledge of events may change the outcome, and therefore render the advice of your future self obsolete at the GMs judgement (such as the case of outcomes tied to random chance, in which case the GM should roll a dice to roughly approximate the chance of success when determining whether a successful or not version of yourself was contacted).</p>\n<p>Any given question has a 10% chance that no future self will respond. This result is identical to if you try to contact a version of yourself that is dead as a result of the course of action you specified.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893105,
-    "modifiedTime": 1663169294534,
+    "modifiedTime": 1689539974676,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

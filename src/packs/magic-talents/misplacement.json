@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>For the duration of the fey-link, you gain an uncanny ability to meddle with the possessions of other creatures. You may perform the Steal combat maneuver without provoking attacks of opportunity and may use your ranks in the Sleight of Hand skill in place of your base attack bonus when determining your combat maneuver check for the Steal combat maneuver. Any time you attempt a Sleight of Hand check or Steal combat maneuver against a creature within your natural reach, you may also rearrange its possessions.</p>\n<p>The next time that creature attempts to produce a weapon or item it finds its possessions misplaced or disarranged, thus requiring a standard action to retrieve a stored item or draw a weapon (unless you have stolen the item in question). After spending this standard action, the creature takes mental inventory and is no longer affected by this ability. You may choose to replace items you have stolen with worthless material (twigs, sand, etc.) that you have in your possession (but not something that has an effect like a primed grenade or cursed object) with an equal or lesser weight to the stolen object. This does not increase the difficulty of your Sleight of Hand checks.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Fey-Blessing"]],
+    "tags": ["Fey-Blessing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892941,
-    "modifiedTime": 1663169294508,
+    "modifiedTime": 1689539974675,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

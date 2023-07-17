@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>Thaumaturges control power in its purest form; whether through bargains with outsiders, the summoning of primal spirits, or simply an untamable spark in their soul, a thaumaturge can invoke a limited amount of truly wondrous power.</p>\n<p>A thaumaturge may use invocations a number of times per day equal to his casting ability modifier + 1/2 his class level, which refreshes when he rests to regain spell points. Whenever an invocation calls for a saving throw, the DC is equal to 10 + 1/2 his thaumaturge&#8217;s level + his thaumaturge&#8217;s casting ability modifier. A thaumaturge may only use invocations of his level or lower. Using an invocation is a free action that may be taken even when it is not the thaumaturge&#8217;s turn, but the thaumaturge cannot use multiple invocations as part of the same saving throw, check, or use of forbidden lore.</p>\n<hr>See also:<br><ul><li>@Compendium[pf1spheres.class-features.Jgrx4FApYsCks21e]{Lingering Blessing}</li><li>Lingering Pain</li><li>Meditation</li><li>@Compendium[pf1spheres.class-features.dBXRqlb9oWEYrhmf]{Empowered Attack}</li><li>@Compendium[pf1spheres.class-features.sek7oGXP5SkFgNl0]{Empowered Defense}</li><li>@Compendium[pf1spheres.class-features.f76Wqk7Z3wEBALTe]{Channel Punishment}</li><li>@Compendium[pf1spheres.class-features.1RlSeOOqaWPNn2Mv]{Defensive Invocation}</li><li>@Compendium[pf1spheres.class-features.lO8efZGiLfFuMg4E]{Item Lore}</li><li>@Compendium[pf1spheres.class-features.ofE6dPi1VUAFnb4v]{Soulfire}</li><li>@Compendium[pf1spheres.class-features.0X35cfXXEguyuoPv]{Empowered Resistance}</li><li>@Compendium[pf1spheres.class-features.eztDk3l5FJbPufAA]{Flexible Caster}</li><li>@Compendium[pf1spheres.class-features.LHyYRg6NWlQoYp6S]{Rebuke Death}</li></ul>",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900692,
-    "modifiedTime": 1663169296791,
+    "modifiedTime": 1689539978563,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

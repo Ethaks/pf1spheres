@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When making an attack action, attack of opportunity, or additional attack granted by a class feature or talent with an unarmed strike, you may add 1.5x your Strength bonus on the damage roll rather than just your Strength bonus (this talent does not apply to off-hand attacks or other attacks where a half Strength modifier is specified). On attacks targeting prone creatures, you instead deal 2x your Strength modifier on the damage roll for your unarmed strikes.</p>\n<p><strong>Author's Note:</strong> This only applies to attacks where you use your Strength modifier. Axe Kick does not work if you use a different ability modifier for damage.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887956,
-    "modifiedTime": 1663169292355,
+    "modifiedTime": 1689539971111,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

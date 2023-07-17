@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>While control weather deals in manipulating large weather patterns, a shroud is an expression of extremely localized weather, usually only large enough to effect a single target.</p>\n<p>You may activate a (shroud) talent as a standard action, placing that shroud on a single creature within your control weather range. Placing a shroud on a target is subject to spell resistance, but a target does not get a saving throw to resist the application of a shroud. Shroud effects persist as long as the caster concentrates. The caster may always spend a spell point as a free action to allow the effect to continue for 1 round per caster level without the need for concentration.</p>\n<p>Unlike control weather, shrouds produce no lasting effects; any rain evaporates immediately ice disappears when it leaves the target, etc. Shrouds do not counter the prevailing effects of the local weather (for example, Karakaze does not protect against the effects of Heat), but are also not affected by them (for example, Glare functions even in complete darkness and Heat Stroke works even in arctic levels of Cold).</p>\n<p>When a creature is affected by two or more shrouds of the same weather type (such as Aridity or Heat) or is affected by a shroud and is in an area of the shroud&#8217;s weather type of severity level 3 or above, it suffers an additional effect depending on the shroud&#8217;s type. If a shroud has more than one weather type, it can trigger the added effect of any of its types. Regardless of the number of shrouds affecting a target, any additional effect only affects them once per round. The saving throw DC and the caster level for any additional effect are equal to that of the shroud affecting them. If a target is affected by multiple shrouds with different DCs and caster levels, use the highest DC and caster level for the additional effect (even if the highest caster level and highest DC are from different shrouds).</p>\n<h5 id=\"toc13\"><span>Shroud Additional Effects</span></h5>\n<p><strong>Aridity:</strong> The target takes a -4 penalty to its Constitution score, which may not reduce its Constitution score below 1. It may attempt a Fortitude save (at its unpenalized Fortitude save bonus) at the beginning of each turn to negate this penalty for one round.</p>\n<p><strong>Cold:</strong> The target takes a -2 penalty to attack rolls, concentration checks, and AC. It may attempt a Will save at the beginning of each turn to ignore this penalty for one round.</p>\n<p><strong>Fallout:</strong> The target takes 1 point of bleed damage for every 5 caster levels you possess.</p>\n<p><strong>Heat:</strong> The target takes a -4 penalty to its Strength score, which may not reduce its Strength score below 1. It may attempt a Fortitude save at the beginning of each turn to negate this penalty for one round.</p>\n<p><strong>Precipitation:</strong> Each round at the beginning of its turn the target must succeed at a Reflex save or treat the square it starts in as difficult terrain. They also take a -4 penalty to Acrobatics and Climb checks, and to CMB and CMD.</p>\n<p><strong>Wind:</strong> Each round at the beginning of its turn the target must succeed at a Fortitude save or be moved 1d6 x 5 feet in a random direction. This movement provokes attacks of opportunity. If the target cannot move this far (such as if a wall or other creature is in the way) it takes 1d6 damage per 10 feet not traveled (minimum 1d6) and falls prone.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891681,
-    "modifiedTime": 1663169293855,
+    "modifiedTime": 1689539974644,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

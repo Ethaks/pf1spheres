@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>As a (quicken) ability, you can bolster a creature&#8217;s body and allow them to move swiftly. The target selects one of their movement speeds and gains a +10-foot enhancement bonus to it, +5 feet per 5 caster levels you possess. As a free action, the target can change the selected movement speed once during their turn. If you spend an additional spell point when using this ability, you also grant the creature a fly speed of 20 feet and average maneuverability for one minute. While this form of flight does not necessarily manifest as wings, it is considered winged flight for all purposes.</p>\n<p>As a (blood art), as a standard action or as a swift action if using this effect on a willing creature, you can cause a creature within range to suffer blood loss and move 10 feet in any one direction. This movement does not provoke attacks of opportunity.</p>\n<p>An unwilling creature may attempt a Fortitude save to negate this effect, suffering no blood loss. The target gains a +4 bonus to their saving throw if they would be moved somewhere intrinsically harmful (onto a bed of spikes, into the air, etc.).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Blood Art"], ["Quicken"]],
+    "tags": ["Blood Art", "Quicken"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892576,
-    "modifiedTime": 1663169294152,
+    "modifiedTime": 1689539974659,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

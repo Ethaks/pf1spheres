@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Athletics sphere.</p>\n<p>While swimming, you move at your full base speed as a move action rather than half speed, or double your base speed as a full-round action. You may perform the run action while swimming, may take 10 on Swim checks even when threatened or endangered, and do not need to make swim checks each hour to avoid taking damage from fatigue. Making standard or full-round actions no longer reduces how long you can hold your breath.</p>\n<p>If you possess the Strong Lungs talent, you can replace its usual bonus to holding breath and instead hold your breath for a number of hours equal to your Constitution modifier.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Swim"]],
+    "tags": ["Swim"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885889,
-    "modifiedTime": 1663169291722,
+    "modifiedTime": 1689539971070,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

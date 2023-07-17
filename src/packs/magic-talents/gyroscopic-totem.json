@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You must spend a spell point to create a gyroscopic totem. Gravitational fluctuations keep enemies within this totem unbalanced while they remain within. An unbalanced creature can still move, but entering squares draws attacks of opportunity as if they had left the square, and the creature can not take 5-foot steps.</p>\n<p>In addition, at the end of any movement with a total distance greater than 5 feet, the creature must succeed at a Reflex save or fall prone. If the creature has more than 2 legs, it gains a +1 bonus to this saving throw for each additional leg, and creatures that are flying, crawling, swimming, or burrowing are unaffected, as are creatures that are not affected by gravity such as incorporeal creatures. Teleporting creatures do not draw attacks of opportunity because of this totem.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Totem"]],
+    "tags": ["Totem"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890799,
-    "modifiedTime": 1663169293581,
+    "modifiedTime": 1689539974631,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You channel the shark, harnessing your bloodlust.</p>\n<p>You gain a limited scent ability (which functions both inside and outside of water) that can only be used to detect creatures that are suffering bleed damage or are badly wounded (50% or fewer hit points).</p>\n<p>Whenever you detect a creature using the scent ability granted by this talent, you may expend your martial focus as a free action to enter a blood frenzy for a number of rounds equal to your practitioner modifier (minimum 1). During a blood frenzy, you gain a +1 morale bonus on attack and damage rolls against bleeding or badly wounded creatures but suffer an equal penalty on attack and damage rolls against all other creatures. This bonus and penalty increases by 1 for every 6 points of base attack bonus you possess.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888167,
-    "modifiedTime": 1663169292754,
+    "modifiedTime": 1689539971117,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

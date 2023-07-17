@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may place this word on a creature, who then designates a victim within range that is entitled to a Will save to negate the effect. This is a curse effect only on the victim, while it is harmless to the attacker. Once per round when the attacker deals damage to or succeeds on a combat maneuver check against the victim the attacker gains a +1 bonus on attack rolls, damage rolls, and saving throws for a number of rounds equal to your casting ability modifier. This bonus increases by +1 for every 10 caster levels. Multiple bonuses from a single instance of this word stack with each other, up to your casting ability modifier, but not from other instances of the same word.</p>\n<p>Only direct damage gives the attacker this bonus; ongoing damage such as from acid arrow does not. As a swift action the attacker may change victims; this resets the bonus, and if the new victim succeeds on their Will save the effect ends.</p>\n<p>You may choose to instead place this word on a single creature, in which case it gains the bonus once per round when any other creature deals damage to or succeeds on a combat maneuver check against them.</p>\n<p>This effect lasts as long as you concentrate, but you may always spend a spell point to allow the effect to endure for 1 minute per caster level without concentration.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Word"]],
+    "tags": ["Word"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890397,
-    "modifiedTime": 1663169293242,
+    "modifiedTime": 1689539974613,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

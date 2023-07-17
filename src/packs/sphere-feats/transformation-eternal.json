@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> This functions as the Transformation feat, save that you may not return to your original form and must always remain in a form selected with the Transformation feat or a hybrid form from the Hybrid Transformation feat (the form selected at the time you take this feat, although you may change this form whenever you select a feat or talent that affects your transformation). Your transformation is not considered a magical effect and cannot be suppressed or removed by any effects which could suppress, remove, or override polymorph effects or magical effects (such as an antimagic field or the true form spell).</p>\n<p><strong>Special:</strong> This counts as Transformation for the purpose of meeting prerequisites. Abilities that modify the Transformation feat (such as Improved Transformation) may also affect this feat. Whenever you would receive Transformation as a bonus feat, you may instead select Eternal Transformation.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897692,
-    "modifiedTime": 1663169295563,
+    "modifiedTime": 1689539976486,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

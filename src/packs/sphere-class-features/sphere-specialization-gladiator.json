@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Armed Intimidator (Ex):</strong> At 3rd level, whenever the conscript is wielding a weapon with the performance special feature, or any weapon from the Gladiator Training discipline, he may add its enhancement bonus (if any) to his Intimidate checks.</p>\n<p><strong>Celebrity Combatant (Ex):</strong> From 8th level on, the conscript treats every battle as a performance combat as long as he is wielding a weapon with the performance special feature or a weapon from the Gladiator Training discipline, treating his allies and other creatures participating in the combat as a small, indifferent crowd for the purposes of determining what benefits he receives. In addition, whenever he begins a performance combat, he starts with a number of victory points equal to half his practitioner modifier (rounded down, minimum 1).</p>\n<p><strong>Gladiatorial Weapon Master (Ex):</strong> Once the conscript reaches 20th level, whenever he threatens a critical hit with a weapon with the performance special feature or any weapon from the Gladiator Training discipline, he automatically confirms the critical threat. In addition, he is always treated as having the Improved Critical feat for any of these weapons.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900982,
-    "modifiedTime": 1663169297190,
+    "modifiedTime": 1689539978580,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

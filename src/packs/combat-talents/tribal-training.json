@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You gain proficiency with the atlatl dart, battle poi, boomerang, greatclub, hunga munga, klar, knobkerrie, rhomphaia, tepoztopilli, terbutje, and the wahaika. You may treat each of these weapons as if they possessed the fragile weapon special feature for the purpose of feats or talents you possess. Whenever you roll a critical hit with a fragile weapon, you may give it the broken condition to automatically confirm the critical hit. <strong>Associated Feat:</strong> Disposable Weapon.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Discipline"]],
+    "tags": ["Discipline"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886427,
-    "modifiedTime": 1663169291816,
+    "modifiedTime": 1689539971079,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

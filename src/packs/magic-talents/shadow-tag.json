@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may create an area of darkness or blot that seeps into the shadows of anyone who enters their area. This lets you know their relative direction and status (alive, unconscious, dead) for 1 hour per caster level. If used as a (shadow) talent, you cast this ability directly upon a creature instead, gaining the same benefits.</p>\n<p>You may track up to 1 creature per caster level in this way. If you are at this limit, you may choose to cease tracking an old target in order to begin tracking a new one. The effect immediately ends for a target that moves more than one mile away from you.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Blot"], ["Darkness"], ["Shadow"]],
+    "tags": ["Blot", "Darkness", "Shadow"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890563,
-    "modifiedTime": 1663169293390,
+    "modifiedTime": 1689539974627,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

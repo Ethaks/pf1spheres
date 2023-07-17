@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The mageknight gains an animal companion, treating her mageknight level -3 as her effective druid level. This stacks normally with other druid levels.</p>\n<p>Additionally, the mageknight may take a lesser c&#249;-s&#236;th as their companion. This functions as a wolf animal companion, except that it has an Intelligence score of 10 and the mageknight may spend a spell point as an immediate action on her lesser c&#249;-s&#236;th&#8217;s turn to allow it to use its baleful howl special attack as a standard action, with a DC equal to 10 + 1/2 its Hit Dice + her casting ability modifier.</p>\n<p><strong>Baleful Howl (Su)</strong> As a standard action, the c&#249;-s&#236;th can release a howl of ill omen. All enemies within 60 feet take a -4 penalty to saves against curse and death effects and against the c&#249;-s&#236;th&#8217;s soul shepherd ability, as well as a -4 penalty to AC. These penalties last for 5 rounds. These penalties are reduced to -1 and last only a single round with a successful Will save. This is a sonic curse effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168901039,
-    "modifiedTime": 1663169297244,
+    "modifiedTime": 1689539978584,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

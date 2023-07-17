@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You can create a ward that prevents entry of a common material or element chosen when you create the ward. You may choose an element based on their physical material (such as stone, metal, water, or acid), form of energy (such as fire or light) or based on their physical properties (such as poisonous materials or living materials). Magical and non-magical materials excluded have great difficulty entering the ward, but are unaffected once inside.</p>\n<p>Creatures made of or carrying the material with them must succeed at a Strength check against a DC equal to your Protection sphere DC to cross the threshold of the ward, or they can simply drop any of the warded material they are carrying. An attack from outside the ward that crosses into the ward and is composed of the offending material receives a penalty to attack equal to your caster level.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Ward"]],
+    "tags": ["Ward"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890760,
-    "modifiedTime": 1663169293546,
+    "modifiedTime": 1689539974628,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

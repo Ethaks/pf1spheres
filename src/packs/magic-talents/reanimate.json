@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a standard action, you may touch an intact dead body and spend a spell point to reanimate it as a zombie or skeleton (depending on the composition of the body in question) for 1 minute per caster level. This creature gains the zombie or skeleton template and obeys your commands, although only basic commands such as &#8220;go&#8221;, &#8220;stay&#8221;, &#8220;follow me&#8221;, &#8220;attack&#8221;, or &#8220;guard&#8221; are understandable. While specifics can be given (&#8220;guard this area against humans but let goblins pass&#8221;), undead are unintelligent and easily fooled.</p>\n<p>A reanimated body cannot speak and has no knowledge or ability to think and so cannot answer questions or reveal anything it knew in life. When the duration expires, the body collapses until reanimated again. It does not regain hit points between reanimations. If reduced to 0 hit points, the body collapses and is destroyed; it cannot be reanimated again.</p>\n<p>You may have a total number of reanimated creatures active at any one time whose combined Hit Dice does not exceed twice your caster level. If you attempt to reanimate a creature that would push your total beyond this limit, you must choose which creatures cease to be reanimated or are released from your control. You cannot reanimate a creature with more Hit Dice than twice your caster level. Temporary increases to caster level (such as from implements or the thaumaturge&#8217;s forbidden lore class feature) do not increase the statistics, maximums, or number of undead the caster controls.</p>\n<p><strong>Animate Dead:</strong><br>\nUndead created through the Death sphere count against the total number of undead that can be controlled by the <em>animate dead</em> spell, if using both spells and spheres in the same game.</p>\n<h3 id=\"toc3\"><span>Death Talents Types</span></h3>\n<p>Some Death talents are designated (ghost strike), which provide you with additional types of ghost strikes.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890502,
-    "modifiedTime": 1663169293334,
+    "modifiedTime": 1689539974622,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

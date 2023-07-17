@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere (Acceleration, Greater Speed), caster level 10th.</p>\n<p>You may spend 2 spell points as a standard action to fling an object you are currently lifting at immense speeds, tying it to a target or location within line of sight, causing it to immediately pass out of your control as it races towards that target, to a maximum distance of 5 miles. This cannot be used to hurl objects into the air nor to attempt to hurl them in an arc for greater distance; the targeted creature, object, or location must be within direct line of sight and line of effect.</p>\n<p>By making a successful ranged touch attack, using your casting ability modifier in place of your Dexterity modifier, against the target you deal double the normal Bludgeon damage to it. If the attack misses, the object strikes the center of the target&#8217;s space. The object&#8217;s impact into the target or their space releases a powerful shockwave and everyone in a 30-foot radius + 5 feet per five caster levels, including the initial target, takes 1d6 damage per 2 caster levels and is dazed for one round. A Fortitude save negates the dazed condition, though the initial target is not allowed a saving throw if the touch attack succeeded. Objects fired using Linear Acceleration suffer the full initial and secondary damage of the attack.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893098,
-    "modifiedTime": 1663169294527,
+    "modifiedTime": 1689539974676,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

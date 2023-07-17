@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>At 3rd level, a conscript gains a pool of ki points, supernatural energy they can use to accomplish amazing feats. The number of points in a conscript&#8217;s ki pool is equal to 1/2 their conscript level + their practitioner modifier. As long as they have at least 1 point in their ki pool, they can make a ki strike.</p>\n<p>At 3rd level, ki strike allows their unarmed attacks to be treated as magic weapons for the purpose of overcoming damage reduction.</p>\n<p>At 7th level, their unarmed attacks are also treated as cold iron and silver for the purpose of overcoming damage reduction.</p>\n<p>At 10th level, their unarmed attacks are also treated as weapons of an alignment (chaotic, evil, good, or lawful) that the conscript has for the purpose of overcoming damage reduction. The alignment is chosen when this ability is gained.</p>\n<p>At 16th level, their unarmed attacks are treated as adamantine weapons for the purpose of overcoming damage reduction and bypassing hardness.</p>\n<p>The ki pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive. Starting at 3rd level and every odd level thereafter, the conscript may select a ki power from the unchained monk&#8217;s list of ki powers in place of the bonus talent they gain at that level, treating their conscript level as their unchained monk level and using their practitioner modifier in place of their Wisdom modifier when determining the effects of ki powers the conscript gains. Some ki powers require the conscript to be of a specific level or higher before they can be chosen.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900449,
-    "modifiedTime": 1663169296591,
+    "modifiedTime": 1689539978552,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

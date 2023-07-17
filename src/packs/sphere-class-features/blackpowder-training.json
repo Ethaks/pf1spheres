@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>At 1st level, the conscript gains the Firearm Proficiency Equipment sphere talent as a bonus talent.</p>\n<p>At 3rd level, the conscript gains the gunslinger&#8217;s grit class feature, using his practitioner modifier in place of Wisdom for his grit pool and to determine the effects of deeds. If the conscript would gain another grit, panache, or other similar pool from other conscript specializations, they stack. The conscript gains the following gunslinger deeds: gunslinger initiative, quick clear, and utility shot. In addition, the conscript may spend 1 grit point as a free action whenever he damages an opponent with a melee attack action using his firearm, such as with the Gun Kata or Archery Bash talents. If he does, the conscript can make a trip combat maneuver against that opponent as a free action.</p>\n<p>At 6th level, while the conscript has at least 1 grit point, the conscript deals additional damage with firearms, adding half his practitioner modifier (minimum 1) on damage rolls when firing a firearm.</p>\n<p>At 16th level, the conscript gains the following gunslinger deeds: expert loading, menacing shot, and startling shot.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900682,
-    "modifiedTime": 1663169296785,
+    "modifiedTime": 1689539978562,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When using the bear strength bearacteristic and successfully striking a corporeal target, you may spend an additional spell point to compare the result of your attack roll to your opponent&#8217;s CMD. If your attack roll is higher, the target is knocked flying 10 ft. in a single direction of your choice and falls prone. The target cannot move closer to you than its starting square, and if an obstacle prevents the completion of the target&#8217;s move, it strikes the obstacle and each take 1d6 points of damage before the target falls prone in an adjacent space.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Bearacteristic"]],
+    "tags": ["Bearacteristic"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892426,
-    "modifiedTime": 1663169293998,
+    "modifiedTime": 1689539974658,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

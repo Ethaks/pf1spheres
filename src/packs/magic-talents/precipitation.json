@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Precipitation has the most severe interaction with the other weather categories, as the conditions change depending on the temperature and wind.</p>\n<p>When combined with Cold severity 4 or higher, snow effects are added to rain effects. When combined with Wind severity 4 or higher, storm effects are added to the rain effects. When combined with both Cold severity 4 and Wind severity 4, this results in rain, snow, and storm effects. Mist and fog are the exceptions to this, as they only appear when rain is not combined with either snow nor storm.</p>\n<p>Severity of the snow or storm effects depends on the severity of the Precipitation, not the severity of the Wind or Cold.</p>\n<p><strong>Note:</strong> While water freezes at Cold severity 3, magic cannot cause rain to instantly become snow as it falls until severity level 4, since the magical water/cold is only augmenting the natural process, not replacing it.</p>\n<strong>Table: Precipitation Severity</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Level</th>\n<th>Rain Effects</th>\n<th>Combined with Cold 4 and higher (Snow Effects)</th>\n<th>Combined with Winds 4 and higher (Storm Effects)</th>\n</tr>\n<tr>\n<td>1</td>\n<td>None</td>\n<td>None</td>\n<td>None</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Mist</td>\n<td>Light frost</td>\n<td>Mist</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Light/fog</td>\n<td>Snow</td>\n<td>Light storm</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Moderate</td>\n<td>Heavy snow</td>\n<td>Storm</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Heavy</td>\n<td>Blizzard</td>\n<td>Powerful storm</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Flash flood</td>\n<td>Great blizzard</td>\n<td>Monsoon</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Great flood</td>\n<td>Avalanche</td>\n<td>Typhoon</td>\n</tr>\n</table>\n<p><strong>Rain Effects</strong><br>\n<strong>Mist:</strong> Mist grants all creatures concealment from any creatures over 100 feet away (all attacks suffer a 20% miss chance).</p>\n<p><strong>Fog:</strong> The caster may create light rain or fog. If fog is chosen, it obscures all sight beyond 5 feet, including darkvision. Creatures 5 feet away have concealment.</p>\n<p><strong>Other rain effects:</strong> Beginning at severity level 4, rain has the same effect on fires, ranged attacks, and Perception checks as wind of equal severity level. This does not stack with the penalties provided by wind. The rain also cuts visibility ranges by half, resulting in an additional &#8211;4 penalty on Perception checks due to poor visibility. It rains about 1 inch per hour at severity 4, 2 inches per hour at severity level 5, 5 inches per hour at severity level 6, and 10 inches per hour at severity level 7.</p>\n<p><strong>Snow Effects</strong><br>\nSnow causes squares to count as difficult terrain. This requires 24 hours of snow at severity level 1, 8 hours at severity level 2, 1 hour at severity level 3, and happens immediately at severity level 4. At severity level 5, snow obscures vision as fog does. It costs 4 squares of movement to enter a square covered with heavy snow (about 2 feet). This requires 24 hours at severity level 4, 8 hours at severity level 5, 1 hour at severity level 6, and happens immediately at severity level 7. Heavy snow accompanied by strong or severe winds might also result in snowdrifts 1d4 &#215; 5 feet deep, especially in and around objects big enough to deflect the wind&#8212;a cabin or a large tent, for instance.</p>\n<p><strong>Storm Effects</strong><br>\nBeginning at severity level 4, storms will randomly strike a square with lightning, dealing 4d8 electricity damage (Reflex half) to everything in or above that square. This happens once per minute. This damage increases by 2d8 for every severity level above 4, to a maximum of 10d8 at severity level 7.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890435,
-    "modifiedTime": 1663169293283,
+    "modifiedTime": 1689539974616,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You wrap the weary kittens in a soft and warm blanket so they might drift off to sleep.</p>\n<p><strong>Prerequisites:</strong> Mind sphere (Powerful Charm, Sleep (charm)), caster level 10th.</p>\n<p>Whenever you use the Sleep (charm) powerful charm, you may spend an additional spell point. If you do, the duration of this (charm) effect becomes permanent. Whenever the sleeping target would receive a new Will saving throw to wake up, they roll twice on their saving throw, taking the worse result. A target put to sleep this way does not receive a +4 on their saving throw to wake up.</p>\n<p>If your permanent Mind sphere caster level is 15th or higher, a creature who fails their saving throw against a Sleep (charm) powerful charm modified with this advanced talent may only receive a single new Will saving throw to wake up every 24 hours (such as through an attempt to rouse or from taking damage).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893087,
-    "modifiedTime": 1663169294517,
+    "modifiedTime": 1689539974675,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

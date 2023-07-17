@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>At 16th level, the symbiat may use telekinesis to grant a target unparalleled strength and speed. The symbiat may affect one creature within 60 feet, plus an additional creature for every 2 levels beyond 16th. The targets gain a +6 enhancement bonus to Strength and Dexterity, as well as a +30 feet enhancement bonus to their movement speed as long as this ability is in effect. When making an attack action or full attack action, the creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature&#8217;s full base attack bonus, plus any modifiers appropriate to the situation. This extra attack is not cumulative with similar effects, such as that provided by a speed weapon or the Improved Haste Time talent.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900771,
-    "modifiedTime": 1663169296862,
+    "modifiedTime": 1689539978571,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

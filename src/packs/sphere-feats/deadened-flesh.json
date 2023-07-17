@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Your nerves fail, increasing your pain tolerance and general resilience.</p>\n<p><strong>Prerequisite:</strong> Death sphere.</p>\n<p><strong>Benefit:</strong> You gain +1 spell point. You can spend a spell point as an immediate action to gain a +1 bonus to natural armor and DR/- for 1 round. For each necrosis feat you possess beyond this one, the natural armor bonus and damage reduction increase by 1 and the duration increases by 1 round.</p>\n<p><strong>Four Necrosis Feats:</strong> You gain half the normal benefit of this feat at all times (increasing to the full benefit when you spend a spell point).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Necrosis"]],
+    "tags": ["Necrosis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897712,
-    "modifiedTime": 1663169295575,
+    "modifiedTime": 1689539976489,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

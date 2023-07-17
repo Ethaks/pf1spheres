@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>At 2nd level, the crimson dancer learns to pull forth the blood of a bleeding opponent. As a move action (or as a swift action by spending two points of vitae), she may target a creature she can see that is suffering from her bloodletting, forcing them to succeed at a Fortitude save (DC 10 + 1/2 her crimson dancer level + her Charisma modifier) or suffer 1d8 points of bludgeoning, piercing, and slashing damage + 1 damage per point of bleed damage they are suffering from (bleed damage rolled with dice is treated as its minimum result). After this damage, all bleed damage currently affecting her target ends. Starting at 5th level, if the creature is exsanguinated, the damage dealt becomes untyped damage.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900929,
-    "modifiedTime": 1663169297019,
+    "modifiedTime": 1689539978575,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

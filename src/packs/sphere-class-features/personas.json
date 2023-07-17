@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>A troubadour is an expert actor, who not only can appear to become someone different, but with practice and dedication can begin to think and act like them as well. For all intents and purposes, when the troubadour adapts a persona, he becomes another person entirely. A troubadour can only adopt one persona at a time.</p>\n<p>Along with his true self (his &#8216;base persona&#8217;, which may never be changed), the troubadour begins play with two additional personas of his own creation. These alternate personas can have the same characteristics as his base persona, but may also have a different name, a different appearance, a different alignment (but only within 1 step of the troubadour&#8217;s true alignment), and may even be of a different race (although the troubadour does not gain that race&#8217;s size, racial abilities, etc.). These changes can qualify the troubadour for feats and other abilities that would normally be outside his ability to gain, but for the purpose of all feats, talents, and abilities, the troubadour only gains the benefits while in a persona that meets all the prerequisites.</p>\n<p>A troubadour gains an additional persona for every 5 troubadour levels he possesses, and gains these personas instantly when he gains the appropriate level, as it is assumed he has been working on these new personalities in his spare time during his adventures.</p>\n<p>Although a persona may possess any number of traits, adopting a persona is not the same as appearing as that persona. If a persona possesses the same race and appearance as the troubadour, no disguise is required (however, any creature familiar with two or more personas with the same face will immediately recognize they are the same person). However, the troubadour may choose to mix a persona with a disguise, allowing the persona to appear as a completely different person. In this case, a Disguise check is required, but only when the troubadour encounters people familiar with two or more of his personas, when the troubadour suffers a penalty to his Disguise check (for example, when the troubadour is attempting to pass himself off as a different race, size, or gender) or in other situations where the troubadour is attempting to derive a specific benefit from his disguise or otherwise hide his true identity (for example, when using an orc persona to gain access to an orc stronghold).</p>\n<p>It takes 10 minutes for a troubadour to prepare a persona, during which time the troubadour usually applies makeup and costume, recites lines, or performs other mental exercises to shift themselves into the character. This change is as much mental as physical, and while the troubadour can don a Disguise as part of this change, items that apply quick disguises (such as a hat of disguise) do not reduce this required time. A troubadour can change his prepared persona at any time, provided he can spend 10 minutes preparing the new persona. Once a persona has been prepared, the troubadour can switch between his base persona and his prepared persona as a free action, usable once per round. Switching to his base persona does not remove any disguise, but breaking character in any way (reverting to a base persona or switching to a different persona without changing appearance) immediately reveals the truth about the troubadour&#8217;s multiple personas (although with GM permission, some fast Disguise and Bluff checks might manage to hide the truth).</p>\n<p>It is possible for a troubadour to permanently change one of his personas into a completely different persona, but doing so requires 5 days of work. This follows the rules for creating a magic item (8 hours of work per day, this work may be divided up over multiple days, and development may be done while traveling on foot or mounts, but doing so reduces the amount of time that may be dedicated per day in half (4 hours), and such work on the move is only half as effective (netting only 2 hours of development)).</p>\n<p>While working to create a new persona, the troubadour must choose an old persona for it to replace, other than his base persona. This persona is removed from the troubadour&#8217;s list of personas at the time he begins work on the new persona. The troubadour may cease work on one persona to begin creating a different persona, but all work on the previous persona is lost when the change is made. If the troubadour is attempting to recreate a persona he used in the past (same name, same alignment, same abilities as far as were available at the level it was last used), development takes half the usual time.</p>\n<p>Although a troubadour does not need to hide his true face to adopt a persona, if the people the troubadour is interacting with are not aware that the troubadour possesses other personas, he gains a number of special benefits.</p>\n<p>So long as knowledge about his multiple personas is unknown, Knowledge checks about one of the troubadour&#8217;s personas do not reveal information about the other personas.</p>\n<p>Any attempts to scry or otherwise locate the troubadour only work if the troubadour is currently in the persona the creature is attempting to locate (or if the creature knows that the two personas are the same individual). Otherwise, the spell or ability has no effect, revealing nothing but darkness, as if the target were invalid or did not exist.</p>\n<p>Beyond these, there may be other benefits, as determined by the GM. For example, so long as two personas are not connected to the same individual, criminal activity and other actions taken by one persona do not affect the social standing of the other personas.</p>\n<p><em>Note:</em> If the troubadour possesses the dual identity class feature (such as from vigilante class levels), he may choose to make his vigilante identity a persona, gaining the benefits of the method acting class feature while in his vigilante identity. The troubadour uses the lesser time required when changing into a vigilante persona.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900138,
-    "modifiedTime": 1663169296287,
+    "modifiedTime": 1689539978540,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>A creature affected by this ability interacts with physical objects erratically. You may choose to apply this effect as a benefit or penalty. As a benefit this grants the target an effect similar to concealment (20% miss chance + 5% per 3 caster levels, maximum 50%) against attacks against them. As a penalty, the target always attacks as if into concealment (suffering a 20% miss chance + 5% per 3 caster levels on all attacks, maximum 50%), but may attempt a Will save to negate the effect. Miss chance from either version is not applied to force effects or effects that pass between coterminous planes (such as attacks from weapons with the ghost touch special ability). Miss chance from this effect does not stack with miss chance from other blink effects, being incorporeal, or similar effects; only the highest applies. This effect lasts as long as you concentrate, though you may spend a spell point to sustain it for one minute per caster level without the need for concentration.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Space"]],
+    "tags": ["Space"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891957,
-    "modifiedTime": 1663169293926,
+    "modifiedTime": 1689539974651,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

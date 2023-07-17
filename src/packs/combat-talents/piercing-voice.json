@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warleader sphere.</p>\n<p>Whenever you would be affected by a magic effect that would make you unable to speak (such as the silence option of the Suppression Illusion talent), the caster must first attempt a magic skill check against a DC equal to 10 + 1/2 your Diplomacy ranks + your practitioner modifier (minimum 1). If the caster fails, your voice is not affected by the magic effect, allowing you to speak, use shouts, tactics with verbal components, etc. If the caster succeeds, your voice is completely silenced and affected by the effect normally. If the effect would suppress other forms of noise (such as moving), they still remain suppressed even if the caster fails.</p>\n<p>Additionally, whenever the effects of your shouts would be either reduced in range or completely negated with a solid barrier or wall, they instead carry through the obstruction without interruption.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886424,
-    "modifiedTime": 1663169291813,
+    "modifiedTime": 1689539971079,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

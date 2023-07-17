@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When the target is shrouded in an area of your darkness, their natural coolness is tastefully amplified. They gain a +1 bonus to Intimidate checks +1 per 5 caster levels, and may make Intimidate checks to demoralize an opponent as a move action instead of a standard action. At 10 caster levels, the target may make an Intimidate check to demoralize as a swift action instead. This meld lasts for 1 hour per caster level and costs 1 spell point.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Meld"]],
+    "tags": ["Meld"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893109,
-    "modifiedTime": 1663169294537,
+    "modifiedTime": 1689539974677,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

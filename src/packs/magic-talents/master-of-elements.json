@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You count as possessing three additional Nature packages of your choice when determining what (spirit) talents you can gain and use. You may take this talent twice, which allows you to count as possessing every package. If you later gain all Nature packages except one per time you&#8217;ve gained this talent, you immediately retrain this talent into Expanded Geomancing.</p>\n<p>Abilities from (spirit) talents that scale off of geomancing abilities (such as an ability that deals damage or determines size by referencing a particular ability ability) function normally according to the statistics that ability would have if you possessed it. For retraining purposes, possessing any Nature package counts as having Master Of Elements.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Spirit"]],
+    "tags": ["Spirit"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892633,
-    "modifiedTime": 1663169294204,
+    "modifiedTime": 1689539974662,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

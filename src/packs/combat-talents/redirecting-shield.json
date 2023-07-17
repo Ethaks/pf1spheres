@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Whenever a weapon attack (not including siege weapons, or other massive weapons) misses a creature benefiting from your active defense, you may choose a new target for the attack within its original range (for ranged attacks) or reach (for melee attacks) as a free action that can be taken even when it&#8217;s not your turn, comparing the original attack roll, with a -2 penalty, to the new target&#8217;s AC and resolving the attack as normal on a successful hit.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Deflect"]],
+    "tags": ["Deflect"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887671,
-    "modifiedTime": 1663169292101,
+    "modifiedTime": 1689539971097,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

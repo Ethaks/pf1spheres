@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>While in this stance, whenever you damage a creature with an attack action, you may remove an amount of damage from your delayed damage pool equal to the damage dealt by your attack, up to a maximum of your base attack bonus.</p>\n<p><sup><strong>Wiki Note:</strong> This ability only removes hit point damage from your delayed pool. It cannot automatically cure conditions, spell effects, ability damage, and other things you may be storing in it.</sup></p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Stance"]],
+    "tags": ["Stance"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886432,
-    "modifiedTime": 1663169291820,
+    "modifiedTime": 1689539971079,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

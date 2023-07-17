@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Treat your caster level as 5 higher when determining the maximum area radius and height you can affect with your geomancing abilities that affect an area (such as Bury, Dust Storm, Entangle, Fog, Gust Of Wind, Purify Air, Tremor, or Vortex).</p>\n<p>When using a geomancing ability dependent on size (such as Affect Fire, Create Fire, Magnetize, Pummel, or Recover Ore), increase the maximum size object you can create or target by 1 size category.</p>\n<p>When using Freeze, you may affect twice as many equivalent Medium-sized creatures without affecting the thickness of the ice.</p>\n<p><strong>Author's Note:</strong> You can apply this effect to each applicable effect. For example, if using the Create Nature talent to both Create Fire and Affect Fire, both abilities will receive the size increases from the Nature Lord talent</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Geomancing"]],
+    "tags": ["Geomancing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893222,
-    "modifiedTime": 1663169294562,
+    "modifiedTime": 1689539974679,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

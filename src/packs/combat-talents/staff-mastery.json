@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You can wield a quarterstaff as a one-handed weapon or as a reach weapon. At the start of your turn, you decide whether or not you are going to wield the quarterstaff as a one-handed weapon, two-handed weapon, double weapon, or two-handed reach weapon. When you wield it as a one-handed weapon, your other hand is free. You cannot use a staff as a double weapon if you are wielding it as a reach weapon or a one-handed weapon. In your hands, a quarterstaff is treated as a trip weapon.</p>\n<p>If you possess the Spear Dancer talent as well, a quarterstaff is treated as a finesse weapon in your hand, and you may wield a quarterstaff as a one-handed reach weapon. Additionally, spears and polearms gain the trip weapon special feature in your hands. <strong>Associated Feat:</strong> Quarterstaff Master.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888194,
-    "modifiedTime": 1663169292783,
+    "modifiedTime": 1689539971120,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

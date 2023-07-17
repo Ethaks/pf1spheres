@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere, Mind Limb, base attack bonus +5.</p>\n<p><strong>Benefit:</strong> As long as your telekinetic limb is not carrying anything you may make attacks with it, using your casting ability modifier in place of your Strength modifier on the attack roll. This counts as an unarmed attack, but does not provoke an attack of opportunity. It deals nonlethal damage equal to your unarmed damage plus your casting ability modifier. You may also make one additional attack of opportunity per round, but it must be with your telekinetic limb. You may not use this attack of opportunity to do anything other than attack.</p>\n<p><strong>Special:</strong> If you also have Telekinetic Fist, your telekinetic limb&#8217;s reach increases by 5 feet.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["combat"], ["Protokinesis"]],
+    "tags": ["combat", "Protokinesis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897900,
-    "modifiedTime": 1663169295709,
+    "modifiedTime": 1689539976498,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

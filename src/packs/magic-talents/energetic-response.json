@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You can make attacks of opportunity with your destructive blast, as if it were a melee weapon. You are considered armed with your destructive blast, and if you possess the ability to make attacks of opportunity with ranged weapons, you may do so with a destructive blast. Using a destructive blast to make an attack of opportunity is considered a (blast shape), and you cannot use any effects that would increase its casting time, nor spend a spell point to increase its damage. Using your destructive blast this way does not provoke an attack of opportunity for the casting, though it may still provoke if used to make ranged attacks.</p>\n<p><strong>Wiki Note:</strong> Absent other effects, Energetic Response does not allow you to use your destructive blast as part of an attack action, and broadly does not work with talents from Spheres of Might (including the Sentinel's Opportunistic Offense ability).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892929,
-    "modifiedTime": 1663169294497,
+    "modifiedTime": 1689539974672,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

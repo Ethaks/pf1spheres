@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "“All men must follow, except for those who lead.”\n<p>Commanders are an essential component of any army, coordinating and organizing their troops. Oftentimes, the same skills that serve when leading an army are directly relevant to leading an adventuring group. Whether commanding legions or a handful of intrepid explorers, commanders are at their best when they have a stout-hearted group of comrades whose strengths they can leverage towards victory.</p>\n<p><strong>Starting Wealth:</strong> 5d6 x 10 gp (average 175 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Starting Age:</strong> Self-taught</p>\n<p><strong>Role:</strong> Commanders are leaders who inspire and coordinate their allies, exhorting them to greater achievements.</p>\n<p><strong>Alignment:</strong> Commanders can be of any alignment, but are typically lawful as their use of tactics and coordination favor an ordered mind.</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Class Skills:</strong> The commander&#8217;s class skills are Appraise (Int), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Intimidate (Cha), Knowledge (engineering) (Int), Knowledge (geography) (Int), Knowledge (history) (Int), Knowledge (local) (Int), Knowledge (nobility) (Int), Linguistics (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Survival (Wis), and Swim (Str).</p>\n<p><strong>Skill Ranks Per Level:</strong> 6 + Int modifier.</p>\n<p><strong>Proficiencies:</strong> Commanders are proficient with simple weapons, as well as light armor and bucklers. In addition, if this is this character&#8217;s first level in any class, they may select a martial tradition of their choice.</p>\n\n<h2>Combat Training</h2>\n<p>A commander may combine combat spheres and talents to create powerful martial techniques. Commanders are considered Adept combatants and use the higher of their Charisma or Intelligence as their practitioner modifier.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -29,68 +28,52 @@
       "children": [],
       "classAssociations": [
         {
-          "id": "pf1spheres.class-features.SLbMAPfi0blTTO42",
-          "dataType": "compendium",
           "name": "Commander",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0
+          "_index": 0,
+          "uuid": "Compendium.pf1spheres.class-features.SLbMAPfi0blTTO42"
         },
         {
-          "id": "pf1spheres.class-features.7Od7kdDNK1aQuQn7",
-          "dataType": "compendium",
           "name": "Lingering Commands",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1
+          "_index": 1,
+          "uuid": "Compendium.pf1spheres.class-features.7Od7kdDNK1aQuQn7"
         },
         {
-          "id": "pf1spheres.class-features.yMCIjkDNBdoOSZ3j",
-          "dataType": "compendium",
           "name": "Enhanced Tactics",
-          "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 2
+          "_index": 2,
+          "uuid": "Compendium.pf1spheres.class-features.yMCIjkDNBdoOSZ3j"
         },
         {
-          "id": "pf1spheres.class-features.Ej17kfQYYzzm0PJ8",
-          "dataType": "compendium",
           "name": "Battlefield Specialist",
-          "img": "icons/svg/item-bag.svg",
           "level": 3,
-          "_index": 3
+          "_index": 3,
+          "uuid": "Compendium.pf1spheres.class-features.Ej17kfQYYzzm0PJ8"
         },
         {
-          "id": "pf1spheres.class-features.h6zF3AyUAVak9uAo",
-          "dataType": "compendium",
           "name": "Group Focus",
-          "img": "icons/svg/item-bag.svg",
           "level": 5,
-          "_index": 4
+          "_index": 4,
+          "uuid": "Compendium.pf1spheres.class-features.h6zF3AyUAVak9uAo"
         },
         {
-          "id": "pf1spheres.class-features.N4fDlTl0BmBfSlhy",
-          "dataType": "compendium",
           "name": "Logistic Specialty",
-          "img": "icons/svg/item-bag.svg",
           "level": 7,
-          "_index": 5
+          "_index": 5,
+          "uuid": "Compendium.pf1spheres.class-features.N4fDlTl0BmBfSlhy"
         },
         {
-          "id": "pf1spheres.class-features.KcXlVHOIy2FmOtXk",
-          "dataType": "compendium",
           "name": "Advanced Tactician",
-          "img": "icons/svg/item-bag.svg",
           "level": 10,
-          "_index": 6
+          "_index": 6,
+          "uuid": "Compendium.pf1spheres.class-features.KcXlVHOIy2FmOtXk"
         },
         {
-          "id": "pf1spheres.class-features.kFaf6oY4ULiS7lcT",
-          "dataType": "compendium",
           "name": "Expert Tactician",
-          "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 7
+          "_index": 7,
+          "uuid": "Compendium.pf1spheres.class-features.kFaf6oY4ULiS7lcT"
         }
       ]
     },
@@ -109,11 +92,11 @@
       "custom": ""
     },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
-    "classType": "base",
+    "subType": "base",
     "level": 1,
     "hd": 8,
     "hp": 8,
@@ -181,22 +164,17 @@
       "swm": true,
       "umd": false
     },
-    "customHD": "",
-    "identifiedName": "Commander",
-    "range": {
-      "maxIncrements": 1
-    },
-    "size": "med"
+    "customHD": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168899464,
-    "modifiedTime": 1663169295995,
+    "modifiedTime": 1689539976857,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

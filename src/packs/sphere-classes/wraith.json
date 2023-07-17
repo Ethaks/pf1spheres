@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "Emulating powerful and perilous creatures such as ghosts and shadow demons, wraiths gain the power to fade into the ether. A diverse group, each wraith is attuned to certain types of creatures or states of mind. This attunement can be exploited to seize control, turning foes into puppets. Some gain their talents from exposure to possessing entities, others obtain their power as part of returning from death themselves, or via other, more esoteric, paths.\n<p><strong>Role:</strong> Eerie casters able to slip out of phase with reality and leap into susceptible minds, seizing control, making them perfect for infiltration and espionage.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> Bluff (Cha), Craft (Int), Disguise (Cha), Fly (Dex), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (history) (Int), Knowledge (nobility) (Int), Knowledge (religion) (Int), Linguistics (Int), Perception (Wis), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Stealth (Dex), Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -29,84 +28,64 @@
       "children": [],
       "classAssociations": [
         {
-          "id": "pf1spheres.class-features.wu8LKUnWbIOEfOz5",
-          "dataType": "compendium",
           "name": "Weapon and Armor Proficiencies",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0
+          "_index": 0,
+          "uuid": "Compendium.pf1spheres.class-features.wu8LKUnWbIOEfOz5"
         },
         {
-          "id": "pf1spheres.class-features.qjxhDJ6DHrQdMmxO",
-          "dataType": "compendium",
           "name": "Casting (Wraith)",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1
+          "_index": 1,
+          "uuid": "Compendium.pf1spheres.class-features.qjxhDJ6DHrQdMmxO"
         },
         {
-          "id": "pf1spheres.class-features.CCO6fnN9lnTRPeus",
-          "dataType": "compendium",
           "name": "Spell Pool (Wraith)",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2
+          "_index": 2,
+          "uuid": "Compendium.pf1spheres.class-features.CCO6fnN9lnTRPeus"
         },
         {
-          "id": "pf1spheres.class-features.qobC1BfGt3IZxVGJ",
-          "dataType": "compendium",
           "name": "Magic Talents (Wraith)",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 3
+          "_index": 3,
+          "uuid": "Compendium.pf1spheres.class-features.qobC1BfGt3IZxVGJ"
         },
         {
-          "id": "pf1spheres.class-features.Rre7ofzGROCWag3d",
-          "dataType": "compendium",
           "name": "Haunt Path",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 4
+          "_index": 4,
+          "uuid": "Compendium.pf1spheres.class-features.Rre7ofzGROCWag3d"
         },
         {
-          "id": "pf1spheres.class-features.S5SxrTHPALZSASue",
-          "dataType": "compendium",
           "name": "Wraith Form Mastery",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 5
+          "_index": 5,
+          "uuid": "Compendium.pf1spheres.class-features.S5SxrTHPALZSASue"
         },
         {
-          "id": "pf1spheres.class-features.jD36VABy9AbiyHrz",
-          "dataType": "compendium",
           "name": "Possession",
-          "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 6
+          "_index": 6,
+          "uuid": "Compendium.pf1spheres.class-features.jD36VABy9AbiyHrz"
         },
         {
-          "id": "pf1spheres.class-features.Fp75YxemiGRqXZBV",
-          "dataType": "compendium",
           "name": "Wraith Haunts",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 7
+          "_index": 7,
+          "uuid": "Compendium.pf1spheres.class-features.Fp75YxemiGRqXZBV"
         },
         {
-          "id": "pf1spheres.class-features.nL5TIp4uVHHqOx5n",
-          "dataType": "compendium",
           "name": "Greater Possession",
-          "img": "icons/svg/item-bag.svg",
           "level": 10,
-          "_index": 8
+          "_index": 8,
+          "uuid": "Compendium.pf1spheres.class-features.nL5TIp4uVHHqOx5n"
         },
         {
-          "id": "pf1spheres.class-features.S5SxrTHPALZSASue",
-          "dataType": "compendium",
           "name": "Wraith Form Mastery",
-          "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 9
+          "_index": 9,
+          "uuid": "Compendium.pf1spheres.class-features.S5SxrTHPALZSASue"
         }
       ]
     },
@@ -125,11 +104,11 @@
       "custom": ""
     },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
-    "classType": "base",
+    "subType": "base",
     "level": 1,
     "hd": 8,
     "hp": 8,
@@ -197,22 +176,17 @@
       "swm": false,
       "umd": true
     },
-    "customHD": "",
-    "identifiedName": "Wraith",
-    "range": {
-      "maxIncrements": 1
-    },
-    "size": "med"
+    "customHD": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168899465,
-    "modifiedTime": 1663169295996,
+    "modifiedTime": 1689539976857,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Alchemy sphere, Barroom sphere.</p>\n<p>You may choose to imbibe any liquid alchemical weapon you are currently holding (such as alchemist&#8217;s fire or liquid ice), treating it as though it was an alcoholic beverage. When you do, you may spit it out in a 10-ft. cone as a standard action as long as you do so within a number of rounds equal to your practitioner modifier (if you do not, the alchemical weapon is wasted), forcing all creatures within that cone to make a successful Reflex save or take damage as though they were directly hit by the alchemical item, taking 1/2 damage on a successful save. If you imbibe a new liquid alchemical weapon before spitting a previously imbibed one, the previously imbibed liquid alchemical weapon is wasted. For every 5 base attack bonus you possess, the area of this cone increases by 5 ft.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887394,
-    "modifiedTime": 1663169292017,
+    "modifiedTime": 1689539971091,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

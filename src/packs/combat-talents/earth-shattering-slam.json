@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Berserker sphere, Shatter Earth, Wrestling sphere, base attack bonus +6.</p>\n<p>When you successfully maintain a grapple against a creature as a standard action and choose to deal your unarmed strike damage to that target, you may expend your martial focus to also deal that damage to the ground as if using Shatter Earth from the Berserker sphere. If you successfully deal more damage to the ground than its hardness, not only is the ground broken as described by the Shatter Earth talent, but the target of your slam is also stuck into the ground, becoming entangled and unable to move from that spot.</p>\n<p>In order to end the entangled condition and move from that spot, the creature must succeed at a grapple, Escape Artist, or Strength check against your CMD. After using Earth-Shattering Slam on a target, your grapple with them immediately ends and they cannot be grappled again so long as they are entangled; in essence, they are being grappled by the ground.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Slam"]],
+    "tags": ["Slam"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885404,
-    "modifiedTime": 1663169291454,
+    "modifiedTime": 1689539971051,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Whenever you remove a condition completely from a creature using your restore ability, they are completely immune to that condition for 2 rounds. Being immune to a condition does not provide any additional defense against more severe versions of a condition, and they can not be made immune to a condition they did not have. This may not provide immunity to ability damage, ability drain, death, or negative levels.</p>\n<p>Whenever an ally regains hit points from you using your cure ability, they gain DR X/- equal to 1/2 your caster level or the number of hit points regained (whichever is less) for 2 rounds. This is not compatible with any form of fast healing you may grant.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892725,
-    "modifiedTime": 1663169294310,
+    "modifiedTime": 1689539974668,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

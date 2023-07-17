@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Duelist sphere(Long Cuts), base attack bonus +5.</p>\n<p>When you deal bleed damage to a creature, your attack curses their body. Any creature that attempts a Heal check or applies healing or grants temporary hit points to a creature affected by this talent (including themselves) is sickened for 1 round (Fortitude negates). If the creature was already sickened, they are instead nauseated for 1 round. This is a supernatural curse effect.</p>\n<p>If you have at least 10 points of base attack bonus, if you apply this talent to a creature with fast healing or regeneration, those abilities are suppressed if the total amount of bleed damage they are suffering from your Duelist sphere abilities exceeds their fast healing or regeneration (bleed damage in form of dice are treated as their minimum value for this purpose).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Bleed"]],
+    "tags": ["Bleed"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887882,
-    "modifiedTime": 1663169292294,
+    "modifiedTime": 1689539971106,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

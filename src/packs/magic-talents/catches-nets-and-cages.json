@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>A catch is any wall or covering larger than the target underneath it that is dropped on a target and then rests on top of them to impede their movement. A net is a catch made from cloth, rope, chains, or other pliable materials that is the same size as the target underneath it. A cage is a wall or covering that is wrapped around a target so as to impede their movement without dealing falling damage first.</p>\n<p>A net functions the same as the exotic weapon of the same name. A catch is similar to a net in that targets underneath it are entangled, but escaping a catch is as easy as moving out from underneath it, in addition to breaking it through dealing damage or making a Strength check.</p>\n<p>Cages, on the other hand, do not deal damage, but are also much harder to escape. While it is possible to box someone in with walls and a ceiling, if those walls are not at least 10 feet away from the target on all sides, the target is allowed a Reflex save to immediately move to the nearest unoccupied space on the outside of the cages. Creating a cage 1-inch thick that occupies the same space as a creature is considered the same as creating an object one size larger than the target creature. No matter how small a cage might be, a target may always make attack rolls and Strength checks unimpeded against any cage created around them (with the usual DC of 10 + the object&#8217;s Hardness +1 per inch in the item&#8217;s thickness), though the inside may be covered in spikes as a wall at the usual cost of increasing its effective size (or be coated in acid or other harmful materials if you possess the appropriate talents) to discourage such attacks and checks. Targets are not damaged by the material unless they make such attacks or checks.</p>\n<h3 id=\"toc11\"><span>Creation Talent Types</span></h3>\n<p>Some Creation talents are designated (alter) talents. These grant you new ways to alter objects.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892684,
-    "modifiedTime": 1663169294262,
+    "modifiedTime": 1689539974665,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

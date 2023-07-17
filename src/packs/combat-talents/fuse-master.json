@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When you light any kind of alchemical grenades with a randomized timer (such as a fuse grenade, pellet grenade, or the improved fuse grenade formulae), you may select how many rounds later the grenade explodes (within the normal maximum the grenade can explode), even having it explode at the end of the turn that you lit the grenade. This works even with grenades not made by the Alchemy sphere. In addition, improved fuse grenade formulae you create deal an additional 1d6 fire and bludgeoning damage for every 10 ranks in Craft (alchemy) you possess (this is in addition to the regular damage increases every 3 ranks).</p>\n<p>If two improved fuse grenades explode during the same round, creatures in the overlapped area suffer diminished results from every fuse grenade after the first one, dealing only 1d6 bludgeoning damage, +1d6 per 5 ranks in Craft (alchemy) for each overlapping grenade. <strong>Associated Feat:</strong> Grenade Expert.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885413,
-    "modifiedTime": 1663169291461,
+    "modifiedTime": 1689539971052,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

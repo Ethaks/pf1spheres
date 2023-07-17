@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may use a shield or a weapon held in two hands to perform an overrun maneuver. If using a shield, you may add the shield&#8217;s AC bonus to your CMB. If using a weapon held in two hands, you may add the weapon&#8217;s enhancement bonus, as well as bonuses to attack from spells or feats such as Weapon Focus, to your CMB. You may choose to use a shield bash as your weapon for this purpose, in which case the shield&#8217;s attack bonus, rather than its AC bonus, is used.</p>\n<p>In addition, you may use one of the above to perform a shove, adding their bonuses to your shove&#8217;s attack roll. If using a weapon in this fashion, you may also add its enhancement bonus to your shove&#8217;s damage, as well as damage from appropriate special abilities such as flaming, holy, etc.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885566,
-    "modifiedTime": 1663169291564,
+    "modifiedTime": 1689539971065,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

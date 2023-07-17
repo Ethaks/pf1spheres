@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>You can unleash your unbridled fury on those who harm your allies. Once per day as a swift action, you can smite one target within sight who has dealt hit point damage to you or an ally within the last 24 hours or who has ever killed you or an ally.</p>\n<p>You add your practitioner modifier to your AC (to a maximum of your conscript level) and add your conscript level to damage rolls against the target of this smite. If the target of vindictive smite has rendered an ally of yours unconscious or dead within the last 24 hours, the bonus on damage rolls on the first attack that hits increases to 2 for every conscript level you have.</p>\n<p>The vindictive smite effect remains until the target of the smite is dead or the next time you rest and regain your uses of this ability. At 4th level and every 3 levels thereafter, you can invoke vindictive smite one additional time per day, to a maximum of seven times per day at 19th level.</p>\n<p>At 11th level, you may spend a move action and two uses of vindictive smite to grant half your vindictive smite bonus against a single target to all allies within 30 feet who can see and hear you. This bonus lasts for a number of rounds equal to your practitioner modifier (minimum 1).</p>\n<p>At 20th level, the first time each round you strike a target when using vindictive smite, the target must succeed at a Fortitude save (DC 10 + 1/2 your conscript level + your practitioner modifier) or become dazed for 1 round.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900045,
-    "modifiedTime": 1663169296188,
+    "modifiedTime": 1689539978532,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

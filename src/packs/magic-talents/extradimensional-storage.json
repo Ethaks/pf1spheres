@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You gain a permanent extradimensional space that may hold up to 10 pounds per caster level of non-living material. You can create a portal to this extradimensional space within arm&#8217;s reach at will. Placing an object in this space or calling an object from this space requires a full-round action, but may be done as a swift action by spending a spell point. Living things and attended objects cannot be placed in your extradimensional storage. If you die (or are destroyed, if you lack a Constitution score), all contents of your extradimensional space appear in your square or the nearest unoccupied space.</p>\n<p>You may take this talent two times; when taken a second time your extradimensional space may hold an additional 15 pounds per caster level, for a total of 25 pounds per caster level. In addition, you may place or withdraw an object from your extradimensional space as a move action instead of a full-round action, which counts as drawing the equipment normally. If the object would normally be worn or have to be donned in some way (such as armor or a magic ring), you may remove or don it as part of the same action as placing or withdrawing it from storage.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Space"]],
+    "tags": ["Space"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891058,
-    "modifiedTime": 1663169293631,
+    "modifiedTime": 1689539974637,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

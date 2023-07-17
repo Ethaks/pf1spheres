@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Battleshaping (Su):</strong> At 3rd level, the incanter may grant himself or a creature under the effects of his shapeshift one trait as a swift action. This trait cannot cost a spell point and must be one that he can grant through his shapeshift. This trait lasts for 1 round per 2 incanter levels and if the target so chooses they may resist this effect without the need for a saving throw. This trait stacks with polymorph effects, including shapeshift.</p>\n<p>At 11th level, the incanter can grant two traits in this fashion. A target can only be under the effects of one use of battleshaping at any time. The incanter can use this ability a number of times per day equal to 3 + his casting ability modifier.</p>\n<p><strong>Change Shape (Sp):</strong> At 8th level, once per day as a free action the incanter can grant himself one Alteration talent he does not possess for a number of rounds equal to his incanter level. Every time this ability is used, he may change this bonus talent to another Alteration talent he does not possess. He may use this ability an additional time per day for every 6 levels beyond 8th.</p>\n<p><strong>Shapeshifter&#8217;s Renewal (Su):</strong> At 20th level, whenever the incanter places a shapeshift on a target and spends a spell point to maintain it without concentration, he may choose to remove any poison and non-magical disease from the target and heal the target 2 hit points per incanter level.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900423,
-    "modifiedTime": 1663169296565,
+    "modifiedTime": 1689539978550,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

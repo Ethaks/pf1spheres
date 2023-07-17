@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Talents marked (mandate) grant you ways of creating mandates. Mandates are effects that exist between a pair of allies, each of whom benefits from the actions of the other. As a standard action, you can create a mandate between two allies within medium range, one of whom may be yourself. You may concentrate to maintain a mandate, or can spend a spell point to make it last 1 minute per level without concentration. A mandate only works while the two sharing the mandate are within medium range of each other, and both are conscious and able to act.</p>\n<p>A creature can be part of multiple mandates with the same or different creatures, but cannot be a member of the same mandate type talent multiple times. Bonuses granted last until the end of the next turn of the ally who received the bonus. The advantage of a mandate can be triggered over and over again, though it does not stack with itself.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890521,
-    "modifiedTime": 1663169293351,
+    "modifiedTime": 1689539974623,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

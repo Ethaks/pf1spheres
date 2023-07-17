@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You place this shroud on a target creature, creating a cold, dry mountain wind to numb them. The target takes a 1d6 penalty to Dexterity, which increases by 1 at the beginning of each of its turns, to a maximum increase equal to half your caster level. This penalty cannot reduce a creature&#8217;s Dexterity below 1 and ends when this shroud does.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Shroud"], ["Cold"]],
+    "tags": ["Shroud", "Cold"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891507,
-    "modifiedTime": 1663169293690,
+    "modifiedTime": 1689539974642,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

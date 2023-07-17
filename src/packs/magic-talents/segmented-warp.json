@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point to split a teleport in two. You cast a single teleport on yourself and pay any spell point costs once, but may teleport yourself twice in quick succession.</p>\n<p>Between these two teleports you may only take one action of any kind you have remaining. Casting the second teleport does not require a second action, but provokes an attack of opportunity regardless (though you may cast defensively or use other methods to protect yourself from such attacks). The total distance covered by both teleports cannot be longer than the maximum range of the initial teleport. If your second teleport is disrupted by an attack of opportunity or other means, it is lost.</p>\n<p>If used in conjunction with Pouncing Teleport you do not get extra attacks, but may make your attack after either half of the split teleport. Attacking this way counts as your single action for the purposes of Segmented Warp. If you choose to full attack, you may instead use any number of your attacks as a single action, and use any remaining attacks after your second teleport. Other abilities that would create additional effects with your teleport (such as dual sphere feats) only apply to one of the split teleports.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893607,
-    "modifiedTime": 1663169294613,
+    "modifiedTime": 1689539974682,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

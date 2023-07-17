@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When creating an area of darkness you can choose to have your darkness cling to anyone who passes through it and trail from them like smoke. Anyone who leaves the area of your darkness treats areas of bright light as areas of dim light and all other light levels as total darkness for the purposes of determining concealment when it would not be beneficial to them. In addition, they continue to be affected by any (darkness) talents as if they were still in an area of your darkness. These lingering effects last for one round after a creature leaves an area of your darkness.</p>\n<p>In addition, you may increase the effects of this talent by spending a spell point when you create an area of darkness. If you do so, the effects of this talent linger for an additional round per two caster levels, though a creature can attempt a Reflex save at the end of each of these turns as a move action to remove the clinging shadows.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892681,
-    "modifiedTime": 1663169294258,
+    "modifiedTime": 1689539974665,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

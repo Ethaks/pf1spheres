@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Destruction sphere, caster level 10th.</p>\n<p>You may spend three spell points to make your destructive blast into a roiling cloud of destruction. The cloud covers a 10-foot + 5 feet per 5 caster levels radius, is 10-foot + 5 feet per 5 caster levels tall, and is stationary unless directed by the caster to move as a move action, which it does at a rate of 20-foot + 5 feet per 2 caster levels and persists for 1 minute per caster level. The cloud obscures vision as the fog cloud spell. Any creatures who begin their turn inside the cloud suffers your destructive blast damage. Affected creatures are allowed a Fortitude saving throw for half damage. You are immune to damage from your own cloud.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Blast Shape"]],
+    "tags": ["Blast Shape"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890400,
-    "modifiedTime": 1663169293246,
+    "modifiedTime": 1689539974613,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

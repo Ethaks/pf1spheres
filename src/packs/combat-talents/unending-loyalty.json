@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warleader sphere, Recall Spirit, Rousing Claxon, Legion Unending, Diplomacy 15 ranks.</p>\n<p>You may use your recall spirit shout on a target that has been dead within 1 minute rather than 1 round. Rather than healing the target for a specific amount, the target is returned to life with a number of hit points equal to twice your ranks in Diplomacy + your Charisma modifier, and no negative level (if this would grant them more hit points than they would normally have, they gain any excess as temporary hit points). At the end of the shout&#8217;s duration, the creature dies regardless of its hit points, and may not be affected with this talent a second time unless they are returned to life by other means. This is a supernatural effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Shout"]],
+    "tags": ["Shout"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885458,
-    "modifiedTime": 1663169291499,
+    "modifiedTime": 1689539971056,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

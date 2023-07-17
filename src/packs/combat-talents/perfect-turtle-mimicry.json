@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Shield sphere (Flexible Cover), base attack bonus +10.</p>\n<p>While in this stance, choose one edge of your space. That edge is treated as cover as though using the Flexible Cover talent. This cover applies along the edge of your space even while moving, but the cover is always along the edge of your space you chose when assuming this stance. You must be wielding a shield to benefit from this stance.</p>\n<p>While in this stance, you may expend martial focus as an immediate action to gain improved cover against attacks from every direction until the start of your next turn (improved cover provides a +8 AC bonus and +4 Reflex save bonus as well as improved evasion against attacks which this Reflex save bonus applies). When you lose the benefits of improved cover granted by this talent, you immediately exit this stance.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Stance"]],
+    "tags": ["Stance"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885527,
-    "modifiedTime": 1663169291540,
+    "modifiedTime": 1689539971062,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

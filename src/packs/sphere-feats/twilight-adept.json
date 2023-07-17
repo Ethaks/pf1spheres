@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Dark sphere or Light sphere.</p>\n<p><strong>Benefit:</strong> Your Dark sphere talents or abilities continue to function in areas where you or someone else with the Twilight Adept feat cast a Light sphere talent or ability. Your Light sphere talents or abilities continue to function in areas where you or someone else with the Twilight Adept feat cast a Dark sphere talent or ability. The MSD to dispel a Light or Dark sphere effect overlapping in this way is increased by +2. You may choose to have your Dark and Light sphere talents or abilities interact normally if you wish. The light level in overlapping areas defaults to the ambient lighting conditions.</p>\n<p><strong>Normal:</strong> If a Light sphere effect interacts with a darkness effect (such as from the Dark sphere) or vice versa, the creator of the second effect must succeed at a magic skill check against the creator of the first effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Teamwork"]],
+    "tags": ["Teamwork"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897945,
-    "modifiedTime": 1663169295747,
+    "modifiedTime": 1689539976502,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Wrestling sphere (Limb Ripper (slam)), base attack bonus +15.</p>\n<p>When using the Limb Ripper talent, you can attempt to destroy the creature&#8217;s vitals instead of another limb. If the creature fails the initial Fortitude save, the creature is instantly reduced to -1 hit points and begins dying, in addition to suffering a -4 penalty to all saving throws and becoming exhausted for 24 hours.</p>\n<p>If you attempt to destroy the creature&#8217;s vitals a second time while the creature is suffering from these penalties, and the creature fails their Fortitude save, the creature&#8217;s vitals are destroyed, killing them. Some creatures, such as aberrations, oozes, and constructs do not usually possess vitals (and thus suffer no effects due to failing the saving throws against this effect), but most other creatures will die when their vitals are destroyed. This is a death effect.</p>\n<p>If the creature has a CR less than half your base attack bonus, the creature instead dies if they fail their first saving throw against this effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887437,
-    "modifiedTime": 1663169292052,
+    "modifiedTime": 1689539971094,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

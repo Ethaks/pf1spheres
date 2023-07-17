@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Nature sphere ((metal) package, (plant) package), caster level 5th.</p>\n<p>As an instantaneous effect, you may as a standard action spend 2 spell points to permanently grant the effects of living steel to a metal creature or object whose size is no larger than the ore that you may recover. Living steel repairs damage to itself at a rate of 2 hit points per day, or 1 hit point per day if it has the broken condition. In addition whenever the wielder of a metal weapon rolls a natural 1 on an attack roll against a creature wearing living steel armor or wielding a living steel shield, the item must succeed at a DC 20 Fortitude save or gain the broken condition. If the weapon already has the broken condition, it is instead destroyed. Living steel cannot damage adamantine weapons in this way.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Metal And Plant"], ["Geomancing"]],
+    "tags": ["Metal And Plant", "Geomancing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894059,
-    "modifiedTime": 1663169294632,
+    "modifiedTime": 1689539974684,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

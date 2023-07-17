@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> While using stalking purr, you and your allies gain the benefits of partial cover while adjacent to another creature. In addition, while using the stalking purr, an ally who begins their turn in your purring aura may move at full speed using the Stealth skill without penalty.</p>\n<p><strong>Powerful Purring:</strong> While using the stalking purr, an ally who begins their turn in your purring aura gains concealment (20% miss chance) for 1 round. This concealment is lost after an attack misses due to this concealment. Concealment granted by this ability is not sufficient enough to allow a creature to use the Stealth skill to hide while observed.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Purring"]],
+    "tags": ["Purring"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898217,
-    "modifiedTime": 1663169295928,
+    "modifiedTime": 1689539976517,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

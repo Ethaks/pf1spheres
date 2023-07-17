@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When used with a dart trap, a creature that is struck by your dart must make a Reflex save or become entangled. You may forgo damage to resolve this attack against touch AC. This condition lasts until the creature succeeds on a Strength or Escape Artist check against the trap&#8217;s DC or destroys the trap via damage.</p>\n<p>When used with a snare trap, the target is entangled and unable to move from the triggering square until it succeeds on a Strength or Escape Artist check against the trap&#8217;s DC or destroys the trap via damage.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Dart"], ["Snare"]],
+    "tags": ["Dart", "Snare"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885475,
-    "modifiedTime": 1663169291510,
+    "modifiedTime": 1689539971057,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

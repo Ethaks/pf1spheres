@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may grant a motif that allows its bearer to better project their power. Whenever the target suffers from penalties to attack rolls, damage rolls, saving throws, skill checks, or ability checks, they reduce their total penalty by 1, to a minimum penalty of -1. For every 10 caster levels, they reduce the penalty by an additional 1.</p>\n<p>The target may discharge this effect to ignore any one penalty effect to an attack roll, damage roll, saving throw, skill check, or ability check and gain an insight bonus to any rolls that would be affected by that penalty equal to the penalty for 1 round per caster level. If they choose to ignore a penalty from the target&#8217;s own abilities, actions, or choices (such as backlash from a thaumaturge&#8217;s forbidden lore, the attack penalty from Power Attack, or The Hanged Man motif), they do not gain this insight bonus.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Motif"]],
+    "tags": ["Motif"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894371,
-    "modifiedTime": 1663169294916,
+    "modifiedTime": 1689539974696,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

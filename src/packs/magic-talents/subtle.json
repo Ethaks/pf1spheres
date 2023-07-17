@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Protection sphere, caster level 5th.</p>\n<p>A creature with this aegis is surrounded by a field of magical energy that interferes with other forms of magic. Rather than producing an obvious spell resistance effect, however, the creature with the aegis becomes hidden from sphere abilities and supernatural abilities.</p>\n<p>The effect is such that these abilities can not target the character properly without assistance from a creature. If a supernatural or sphere ability discerns between allies and enemies (as many totems of the War sphere do), or acts in a way that its effects only affect certain creatures (such as creatures of a creature type or a specific alignment), the creature with the aegis is unaffected or considered to be an ally. Similarly, magic traps and contingency effects (like glyphs) are not triggered by the creature&#8217;s presence, and any effect relying on a magical trigger is also not triggered, as if the creature were invisible to the trap or effect. Traps may still be sprung by physical triggers, however.</p>\n<p>Abilities that rely on the caster choosing targets are not affected by this aegis, even if that ability only works on certain targets (such as a paladin&#8217;s smite evil ability), and this does not give the bearer any special concealment from creatures using magical senses. Area effect abilities are also still effective against the creature, provided the effect affects every creature, or affects every creature save for those specifically made invulnerable by the caster.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aegis"]],
+    "tags": ["Aegis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891827,
-    "modifiedTime": 1663169293911,
+    "modifiedTime": 1689539974649,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

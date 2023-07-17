@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a standard action, you may place a totem. A totem is an effect on a 50-foot + 5 feet per 2 caster level radius area centered on you, but does not move as you do (if a totem is created entirely on top of a vehicle, it will move with that vehicle but only extend to the edge of the vehicle&#8217;s space). Creatures who leave this area lose the effects of your totem. You must concentrate to maintain a totem, but may always spend a spell point as a free action to allow a totem to remain for 1 minute per caster level without concentration.</p>\n<p>You must remain within long range of the center of your totems when maintaining them through concentration. If you move beyond this range, the totem ends. The effects of a totem are subject to spell resistance.</p>\n<p>When you gain the War sphere, you gain the following totem:</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891686,
-    "modifiedTime": 1663169293859,
+    "modifiedTime": 1689539974645,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

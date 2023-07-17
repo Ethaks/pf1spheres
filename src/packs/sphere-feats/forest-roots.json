@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Focusing deeply and setting yourself down into the dirt, you can use the woods around you to sense the world at range.</p>\n<p><strong>Prerequisites:</strong> Plant type or subtype, Vegetalker.</p>\n<p><strong>Benefit:</strong> While on a ground with soil such as the forest floor or swamp terrains, you can spend a full-round action that provokes attacks of opportunity to designate a 50 ft. radius area centered within Medium range (100 ft. + 10 ft. per level). You may detect objects within this area, as if using tremorsense. The point you designate must be within the same forest or swamp terrain. While using Forest Roots, you are denied your Dexterity bonus to armor class and cannot take a 5-foot step.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Racial"]],
+    "tags": ["Racial"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897947,
-    "modifiedTime": 1663169295748,
+    "modifiedTime": 1689539976502,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Whenever you successfully perform a dirty trick combat maneuver, you may expend your martial focus as a free action to select two different conditions to apply to a creature instead of just one, although both conditions may be removed with the same action. When you have at least 10 ranks in Sleight of Hand, you can instead apply up to three conditions. You cannot use this talent to apply conditions that could not normally be applied by a dirty trick (such as with the savage dirty trick rage power).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Trick"]],
+    "tags": ["Trick"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886094,
-    "modifiedTime": 1663169291765,
+    "modifiedTime": 1689539971074,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

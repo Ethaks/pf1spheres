@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Within the area of this ward, attempts to conceal, obfuscate, or disguise oneself are hindered. Any creature within the ward must succeed at a Will save or they become unable to use any abilities to disguise or conceal themselves. Likewise, any spell, spell-like ability, or sphere ability that creates illusions or makes it difficult to sense physical phenomena is more difficult to use. When the ward is first created, the user attempts a single magical skill check against every illusion or concealing effect created with a spell, spell-like ability, or sphere ability. Magic items have a MSD of 11 + their caster level and creatures using spell-like abilities have an MSD equal to 11 + their Hit Dice.</p>\n<p>If your check succeeds, the effect is suppressed or the magic item ceases to function, respectively. Time spent suppressed counts toward a magical effect&#8217;s total duration. Any additional attempt to create an illusion or concealment effect requires the caster to beat your MSD with a magical skill check. They must do this even if they passed their Will saving throw.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Ward"]],
+    "tags": ["Ward"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890410,
-    "modifiedTime": 1663169293257,
+    "modifiedTime": 1689539974614,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

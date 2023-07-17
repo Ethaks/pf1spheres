@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You place this shroud on a target creature, causing ice to form under its feet or on its wings. The target can only walk at half speed, and only by succeeding at a DC 10 Acrobatics check. If the target flies using wings, it can only fly at half speed, and only by succeeding at a DC 10 Fly check. If it fails it cannot move that round and must succeed at a Reflex save or fall. If it fails by 5 or more it immediately falls, with no Reflex save. If the target does not move on its turn, it does not need to attempt this check and is not considered flat-footed for using Acrobatics to move over uneven ground.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Shroud"], ["Cold"]],
+    "tags": ["Shroud", "Cold"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891084,
-    "modifiedTime": 1663169293641,
+    "modifiedTime": 1689539974638,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

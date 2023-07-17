@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may drop prone as a free action, even when it is not your turn. Whenever you are knocked prone or drop prone, you may spend an immediate action to move up to 10 ft. in any direction. If used to avoid an attack or area effect, this talent grants you a dodge bonus to AC and Reflex saves equal to half your ranks in Acrobatics (minimum 1). You may expend your martial focus to perform this movement without provoking attacks of opportunity. For every 5 ranks in Acrobatics you possess, you may move an additional 5 ft. with this talent.</p>\n<p>Additionally, at any time you may expend your martial focus to stand up from prone as an immediate action that does not provoke attacks of opportunity.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Run"]],
+    "tags": ["Run"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885558,
-    "modifiedTime": 1663169291562,
+    "modifiedTime": 1689539971065,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

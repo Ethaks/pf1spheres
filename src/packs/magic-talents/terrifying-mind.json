@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Whenever you succeed a saving throw against a mind-affecting effect, you may spend 1 spell point as a free action that can be taken outside of your turn to terrify the source of that effect, provided you can identify and see the effect&#8217;s source.</p>\n<p>This causes the creature to be shakened for 1 round per caster level. A successful Will save negates this effect. At 10th caster level, the creature is instead frightened for 1 round per caster level, and on a successful save the creature is still shaken for one round per caster level. This is a mind-affecting fear effect.</p>\n<p>Additionally, you may spend 1 spell point as a standard action to ready your mind, and grant yourself a +2 morale bonus to all saving throws made against mind-affecting effects for the next 24 hours. This bonus is doubled against fear effects. This bonus increases by +1 at 8th caster level and every 8 levels thereafter.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Cognition"]],
+    "tags": ["Cognition"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891051,
-    "modifiedTime": 1663169293625,
+    "modifiedTime": 1689539974637,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

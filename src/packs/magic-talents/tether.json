@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You can create a telekinetic connection between two objects of any size, tethering them together. As a standard action you can tether two targets within 30 feet of each other, preventing them from moving further than 30 feet from each other without either breaking the tether or dragging the other target with them. An unwilling creature gets a Reflex save to avoid being tethered. A creature dragging an object follows the normal carrying capacity and encumbrance rules, but must use the drag combat maneuver to drag an unwilling creature. The tether may be broken as a move action with a Strength check equal to the tether&#8217;s save DC. A tether lasts as long as you concentrate and an additional number of rounds after that equal to your caster level. You may spend a spell point to maintain a tether with Sustained Force.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891511,
-    "modifiedTime": 1663169293694,
+    "modifiedTime": 1689539974642,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

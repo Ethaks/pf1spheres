@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>This archetype requires Spheres of Might. A martial companion may combine combat spheres and talents to create powerful martial techniques. Martial companions use the Proficient talent progression. When first summoned, they may choose either Charisma, Intelligence or Wisdom as their practitioner modifier. A martial companion does not gain the evasion, devotion, multiattack, and improved evasion special abilities. A martial companion may choose to give up the natural attacks granted by its base form to gain the Battle Creature (form) talent as a bonus talent.</p>\n<p><strong>Wiki Note:</strong> This does not inherently grant a martial tradition, although some companions may qualify to trade things for a martial tradition.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894089,
-    "modifiedTime": 1663169294651,
+    "modifiedTime": 1689539974686,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

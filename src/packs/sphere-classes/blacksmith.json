@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "“The only joy greater than winning a prize with your own two hands is forging it.”\n<p>Blacksmiths are craftsman who forge the tools they need by hand. Blacksmiths are masters of equipment, both in its use on the battlefield as well as destroying the tools of their foes. While not all blacksmiths will go adventuring, those who do find their allies are more than grateful to have someone on board who can help them make the most of the tools of their trade.</p>\n<p><strong>Starting Wealth:</strong> 4d6 x 10 gp (average 140 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Starting Age:</strong> Trained</p>\n<p><strong>Role:</strong> Blacksmiths support their party by crafting and maintaining potent weapons and armor, and wade into battle leveling powerful blows.</p>\n<p><strong>Alignment:</strong> Any.</p>\n<p><strong>Hit Die:</strong> d10</p>\n<p><strong>Class Skills:</strong> The blacksmith&#8217;s class skills are Appraise (Int), Climb (Str), Craft (Int), Disable Device (Dex), Intimidate (Cha), Knowledge (engineering) (Int), Knowledge (local) (Int), Perception (Wis), Profession (Wis), Survival (Wis), Swim (Str), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n<p><strong>Proficiencies:</strong> Blacksmiths are proficient with simple weapons, as well as light armor and bucklers. In addition, if this is this character&#8217;s first level in any class, they may select a martial tradition of their choice.</p>\n\n<h2>Combat Training</h2>\n<p>A blacksmith may combine combat spheres and talents to create powerful martial techniques. Blacksmiths are considered Expert combatants and use Constitution as their practitioner modifier.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -29,76 +28,58 @@
       "children": [],
       "classAssociations": [
         {
-          "id": "pf1spheres.class-features.4kOD4nLafybAAvGZ",
-          "dataType": "compendium",
           "name": "Equipment Specialist",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0
+          "_index": 0,
+          "uuid": "Compendium.pf1spheres.class-features.4kOD4nLafybAAvGZ"
         },
         {
-          "id": "pf1spheres.class-features.BIzf5Aezm3UsOtad",
-          "dataType": "compendium",
           "name": "Maintenance",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1
+          "_index": 1,
+          "uuid": "Compendium.pf1spheres.class-features.BIzf5Aezm3UsOtad"
         },
         {
-          "id": "pf1spheres.class-features.kinPbTnxq9YCoYmV",
-          "dataType": "compendium",
           "name": "Thunderous Blows",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2
+          "_index": 2,
+          "uuid": "Compendium.pf1spheres.class-features.kinPbTnxq9YCoYmV"
         },
         {
-          "id": "pf1spheres.class-features.ByVSRN126r3H8POi",
-          "dataType": "compendium",
           "name": "Skilled Craftsman",
-          "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 3
+          "_index": 3,
+          "uuid": "Compendium.pf1spheres.class-features.ByVSRN126r3H8POi"
         },
         {
-          "id": "pf1spheres.class-features.AATP7sUpN26hMiNm",
-          "dataType": "compendium",
           "name": "Smithing Insight",
-          "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 4
+          "_index": 4,
+          "uuid": "Compendium.pf1spheres.class-features.AATP7sUpN26hMiNm"
         },
         {
-          "id": "pf1spheres.class-features.2LakUd7GERIoDLvx",
-          "dataType": "compendium",
           "name": "Artisan Savant",
-          "img": "icons/svg/item-bag.svg",
           "level": 3,
-          "_index": 5
+          "_index": 5,
+          "uuid": "Compendium.pf1spheres.class-features.2LakUd7GERIoDLvx"
         },
         {
-          "id": "pf1spheres.class-features.4i0sMvGiflILKdWu",
-          "dataType": "compendium",
           "name": "Reforge",
-          "img": "icons/svg/item-bag.svg",
           "level": 3,
-          "_index": 6
+          "_index": 6,
+          "uuid": "Compendium.pf1spheres.class-features.4i0sMvGiflILKdWu"
         },
         {
-          "id": "pf1spheres.class-features.fhtYHOS6oSwCxBOe",
-          "dataType": "compendium",
           "name": "Rapid Maintenance",
-          "img": "icons/svg/item-bag.svg",
           "level": 9,
-          "_index": 7
+          "_index": 7,
+          "uuid": "Compendium.pf1spheres.class-features.fhtYHOS6oSwCxBOe"
         },
         {
-          "id": "pf1spheres.class-features.7JrTGQsQB4HiTMeh",
-          "dataType": "compendium",
           "name": "Smith’s Masterpiece",
-          "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 8
+          "_index": 8,
+          "uuid": "Compendium.pf1spheres.class-features.7JrTGQsQB4HiTMeh"
         }
       ]
     },
@@ -117,11 +98,11 @@
       "custom": ""
     },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
-    "classType": "base",
+    "subType": "base",
     "level": 1,
     "hd": 10,
     "hp": 8,
@@ -189,22 +170,17 @@
       "swm": true,
       "umd": true
     },
-    "customHD": "",
-    "identifiedName": "Blacksmith",
-    "range": {
-      "maxIncrements": 1
-    },
-    "size": "med"
+    "customHD": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168899461,
-    "modifiedTime": 1663169295993,
+    "modifiedTime": 1689539976857,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

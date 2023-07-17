@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You channel the weasel, darting and slipping just out of grasp before striking.</p>\n<p>Whenever you succeed at an Acrobatics check to move through an opponent&#8217;s threatened area or space without provoking an attack of opportunity from that opponent, you may move 5 feet into another space inside that opponent&#8217;s natural reach or threatened area. You must make this movement using a movement mode corresponding to a package you possess. For every 10 ranks in a skill granted by an Athletics package you possess, you may move an additional 5 feet when moving with this talent. This movement does not provoke attacks of opportunity or count against your total movement for the turn. You may use this talent to move a number of times each round equal to your practitioner modifier.</p>\n<p>Whenever you succeed at an Acrobatics check to move through an opponent&#8217;s threatened area or space without provoking an attack of opportunity from that opponent, you gain a +1 circumstance bonus on attack rolls made against that opponent until the start of your next turn. This bonus increases by +1 for every 7 ranks in a skill granted by an Athletics package you possess. If you moved through multiple opponents&#8217; threatened areas, choose one opponent to gain these bonuses against. <strong>Associated Feat:</strong> Canny Tumble.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887401,
-    "modifiedTime": 1663169292024,
+    "modifiedTime": 1689539971091,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

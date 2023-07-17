@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>As a manabond, you can create a connection between yourself and another creature that confounds targeted magical effects. As long as the manabond holds, any time you or the recipient is targeted by a single-targeted sphere effect that requires a Fortitude or Will save, or any harmless effect, you may redirect such an effect to yourself or the recipient as an immediate action. If the recipient is unwilling to have the magical effect redirected to or away from them, they may attempt a Will save to stop the effect from being redirected. In addition, when you or a willing recipient is targeted by a single-targeted harmless effect, you may instead have it affect the other creature as a free action that can be taken outside of your turn. The redirected sphere effect can be redirected multiple times across multiple willing recipients, so long as all creatures affected have a manabond of this type linking them.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Manabond"]],
+    "tags": ["Manabond"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892685,
-    "modifiedTime": 1663169294264,
+    "modifiedTime": 1689539974665,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

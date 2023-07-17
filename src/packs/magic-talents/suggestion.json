@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may plant thoughts into a target&#8217;s mind.</p>\n<p><strong>Lesser Charm:</strong> You may plant a suggestion in a target&#8217;s mind, which they obey as if the thought had been their own (Will negates). The suggested course of activity must be limited to a sentence or two and must be a very simple request. The creature performs the suggested action until it finishes, or for 1 hour per caster level, whichever comes first. If you choose, you can instead specify conditions the creature should look for, (i.e., &#8220;you should search the next person who enters this room, looking for weapons.&#8221;) If the condition is not met before this duration expires, the activity is not performed.</p>\n<p><strong>Greater Charm:</strong> This works as the lesser charm, but may be up to a basic request. Very simple requests cause the save to be made with a -2 penalty. The target cannot be asked to do anything it would not normally do.</p>\n<p><strong>Powerful Charm:</strong> This works as the lesser charm, but the creature obeys any course of action given, so long as the suggestion is not obviously fatal or against the target&#8217;s nature. Basic requests cause the save to be made with a -2 penalty, while very simple requests cause the save to be made with a -4 penalty.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891968,
-    "modifiedTime": 1663169293939,
+    "modifiedTime": 1689539974652,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

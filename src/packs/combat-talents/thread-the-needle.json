@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>On a successful deadly shot, you aim for the target&#8217;s eyes, seeking to take away their vision. The first time you hit a target while using this ability, they are dazzled for 1d4 rounds; if you successfully use this ability against a target already suffering from the dazzled condition, they are instead blinded for 1 minute. The blind condition can be removed with a DC 20 Heal check, or when the target receives at least 1 hit point of healing. If your base attack bonus is +10 or higher, you may use the blinding option of this ability even if the target is not dazzled.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Snipe"]],
+    "tags": ["Snipe"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887662,
-    "modifiedTime": 1663169292091,
+    "modifiedTime": 1689539971097,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

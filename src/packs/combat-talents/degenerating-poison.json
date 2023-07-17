@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may choose for your poison to inflict a penalty of -2 to one ability score of the target (except Constitution) instead of making the target fatigued. The penalties from multiple applications of Degenerating Poison stack. For every 5 Craft (alchemy) ranks you possess, you may increase the penalty of this poison by -2. You may apply all of this penalty to a single ability score, or divide it in units of -2 between multiple ability scores. You choose which ability scores receive penalties, and how the penalty is divided, when creating this poison.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Toxin"]],
+    "tags": ["Toxin"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887399,
-    "modifiedTime": 1663169292019,
+    "modifiedTime": 1689539971091,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

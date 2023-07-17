@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may suppress emotions in hostile creatures or provide ease to excitement and confidence. You may deny raging creatures their battles or joyous creatures their revelry.</p>\n<p><strong>Lesser Charm:</strong> The target loses the benefit of any spell or effect with the emotion descriptor, as well as any morale bonus from magical or extraordinary effects (Will negates). This includes a paladin&#8217;s auras, the good hope spell, the effects of an eliciter&#8217;s emotions, bardic music, or a barbarian&#8217;s rage. The effects are suppressed, but not dispelled. This effect lasts a number of rounds equal to your caster level. Any aggressive action toward or damage dealt to a creature under the effect of this ability automatically ends the effect.</p>\n<p><strong>Greater Charm:</strong> In addition to the effects of the lesser charm, this charm removes any desire to fight or engage in revelrous behavior. No violent actions or destructive actions may be taken by the creature, but the target may still defend itself normally. In addition, effects related to emotion that grant effects beyond simple bonuses (such as a bard&#8217;s fascinate ability or certain eliciter emotions) cannot be initiated (Will negates).</p>\n<p><strong>Powerful Charm:</strong> In addition to the effects of the greater charm, the target of this ability simply loses any desire to act. The target is overwhelmed with soothing peace and calm and as such may take no actions, but the target may still defend itself normally (Will negates).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Charm"]],
+    "tags": ["Charm"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893106,
-    "modifiedTime": 1663169294535,
+    "modifiedTime": 1689539974676,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>At 1st level, the incanter may choose a series of specializations, gaining additional abilities at the cost of some versatility. Every specialization costs a number of the incanter&#8217;s bonus feats, as indicated by the chart below. Each specialization costs either 1, 2, or 3 specialization points. The incanter cannot have more than 5 points worth of specializations.</p>\n<p>He uses his incanter level as their effective cleric, sorcerer, or wizard level when determining the power of these abilities.</p>\n<p>Most specializations come into effect beginning at 1st level. However, if the incanter possesses multiple specializations, he may only gain the benefits of one at 1st level, plus another at every odd level after 1st. Two specializations that both only cost 1 specialization point count as a single specialization for this purpose.</p>\n<strong>Example:</strong> An incanter who possesses both a sphere specialization and the channel energy specialization would need to choose either sphere specialization or channel energy to come into effect at 1st level. Whichever specialization was not chosen will then be gained beginning at 3rd level.<br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Specialization Points</th>\n<th>Lost Bonus Feats</th>\n</tr>\n<tr>\n<td>1</td>\n<td>1, 10, 20</td>\n</tr>\n<tr>\n<td>2</td>\n<td>1, 6, 10, 14, 20</td>\n</tr>\n<tr>\n<td>3</td>\n<td>1, 2, 6, 10, 14, 18, 20</td>\n</tr>\n<tr>\n<td>4</td>\n<td>1, 2, 6, 8, 10, 14, 16, 18, 20</td>\n</tr>\n<tr>\n<td>5</td>\n<td>All bonus feats lost</td>\n</tr>\n</table>\n<hr>See also:<br><ul><li>@Compendium[pf1spheres.class-features.mnUS454G35gWq7dJ]{Admixture Adept}</li><li>Channel Energy</li><li>@Compendium[pf1spheres.class-features.4m9oQ5e5IokgIBwp]{Cleric Domains}</li><li>Familiar</li><li>@Compendium[pf1spheres.class-features.y72QH0bO4ID5ooiG]{Lay on Hands}</li><li>@Compendium[pf1spheres.class-features.7BxjxMqjOmthNO1H]{Master of Mysteries}</li><li>@Compendium[pf1spheres.class-features.pANmikLk1ZYRIdvY]{Merciful Healer}</li><li>@Compendium[pf1spheres.class-features.Pjkku9dviLOrlMQY]{Sorcerer Bloodline}</li><li>@Compendium[pf1spheres.class-features.sFJObts0uaZcGeqR]{Sphere Specialization}</li><li>@Compendium[pf1spheres.class-features.SIWifsCPXOP8CRm6]{Sword Birth}</li></ul>",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900693,
-    "modifiedTime": 1663169296792,
+    "modifiedTime": 1689539978563,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

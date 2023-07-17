@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>By focusing and unleashing your innate electrical powers, you can charge the remains of your kin with lightning.</p>\n<p><strong>Prerequisites:</strong> Draconic subtype, Constitution 13+.</p>\n<p><strong>Benefit:</strong> You can naturally charge a cuazite weapon with electricity as a swift action a number of times per day equal to your Constitution modifier.</p>\n<p><strong>Special:</strong> If you have the cuazaj assault racial ability, you can instead increase the additional damage of a cuazite weapon to +1d8 electricity damage a number of times per day equal to your Constitution modifier.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"], ["Racial"]],
+    "tags": ["Combat", "Racial"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897965,
-    "modifiedTime": 1663169295759,
+    "modifiedTime": 1689539976504,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

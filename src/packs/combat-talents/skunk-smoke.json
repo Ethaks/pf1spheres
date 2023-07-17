@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When this trap is triggered, a 5-ft. radius from a corner of your choice of the triggering square is filled with noxious smoke. The smoke obscures all sight, including darkvision, beyond 5 ft. A creature within 5 ft. has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker can&#8217;t use sight to locate the target). Any creature that is in the fog must make a Fortitude save or be sickened until 1d4 rounds after they leave the smoke. A creature that saves successfully must save again on any turn they remain in the smoke. If you have at least 10 ranks in Craft (traps), creatures that fail their save are instead nauseated.</p>\n<p>For every 4 ranks in Craft (traps) you possess, the smoke remains for 1 additional minute. A moderate wind (11+ mph) disperses the smoke in 4 rounds; a strong wind (21+ mph) disperses the smoke in 1 round.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Snare"]],
+    "tags": ["Snare"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887879,
-    "modifiedTime": 1663169292291,
+    "modifiedTime": 1689539971106,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

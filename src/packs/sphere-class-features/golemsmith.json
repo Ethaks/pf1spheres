@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>You gain the Craft Construct feat. You may use your ranks in any relevant Craft or Profession skills as your caster level with this feat and for the required check to create the construct, but you may only use it to create animated objects. These animated objects cannot possess the haunted drawback.</p>\n<p>If you have chemical insight, you may create any &#8216;alchemical&#8217; constructs from official bestiaries, as well any construct so long as you give it the alchemical subtype.</p>\n<p>If you have electrical insight, you may create any &#8216;robot&#8217; constructs from official bestiaries, as well any construct so long as you give it the robot subtype.</p>\n<p>If you have mechanical insight, you may create any &#8216;clockwork&#8217; constructs from official bestiaries, as well any construct so long as you give it the clockwork subtype.</p>\n<p>If you have steampowered insight, you may create any &#8216;steam&#8217; constructs from official bestiaries, as well any construct so long as you give it the steampowered subtype.</p>\n<p>If you possess the Craft Wondrous Items and Craft Magical Arms and Armor feats, these restrictions are lifted and you may craft any constructs you meet the prerequisites for. A technician must be at least level 8 and possess Greater Craftsman to gain this insight.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900210,
-    "modifiedTime": 1663169296356,
+    "modifiedTime": 1689539978544,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

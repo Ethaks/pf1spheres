@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may charge an enemy by rapidly descending from above them (such as when jumping out of a tree or deliberately entering a fall while flying or gliding). You may fly above the target or use the Acrobatics skill to leap as part of this charge.</p>\n<p>If the attack at the end of your charge hits, the attack deals damage as normal and also adds the appropriate amount of falling damage (1d6 points for a 10-ft. fall, 2d6 points for a 20-ft. fall, and so on), to your damage roll, to a maximum of 1d6 per rank in Acrobatics or Fly (whichever is higher) you possess. This falling damage is not multiplied on a critical hit. After the attack is resolved, you land in an unoccupied square of your choosing adjacent to the target, and you take falling damage as if you had fallen 10 fewer ft.</p>\n<p>You can attempt an Acrobatics check as normal to treat the fall as being shorter for the purpose of determining the damage you take from the fall, and you treat the first 1d6 points of damage you take from the fall as nonlethal damage. If your attack misses, you land prone in a random square adjacent to the target and automatically take the full amount of falling damage. If you are subject to an ability or effect that negates or reduces falling damage (other than the normal Acrobatics check to reduce fall height), such as the feather fall spell or the boots of the cat, your bonus damage dice from this talent are also negated or reduced in a similar fashion. <strong>Associated Feat:</strong> Branch Pounce.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Leap Or Fly"]],
+    "tags": ["Leap Or Fly"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885537,
-    "modifiedTime": 1663169291549,
+    "modifiedTime": 1689539971063,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When you use Perception to intentionally search for stimuli (typically a move action), you may measure a single aspect of whatever you perceive. You may calculate this aspect with perfect accuracy depending on how your Perception check compares to the DC to perceive it, requiring higher results to estimate from vague or incomplete information (see the table below).</p>\nAlternately, you may focus on a target you wish to attack as a standard action. This allows you to roll twice on the first attack roll you make against them within the next minute and take the better result. If you focus again before making such an attack, you lose the benefits of any previous focus attempts.<br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Perception Check &#8805;</th>\n<th>Examples</th>\n</tr>\n<tr>\n<td>DC</td>\n<td>Number of seen objects, weight of a held object</td>\n</tr>\n<tr>\n<td>DC + 1</td>\n<td>Speed of something seen, exact time based on the sun&#8217;s position</td>\n</tr>\n<tr>\n<td>DC + 5</td>\n<td>Number of people from their footsteps, distance from a singing bird</td>\n</tr>\n<tr>\n<td>DC + 10</td>\n<td>Distance from smelled food, number of soldiers milling in an army</td>\n</tr>\n</table>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Cognition"]],
+    "tags": ["Cognition"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893091,
-    "modifiedTime": 1663169294522,
+    "modifiedTime": 1689539974675,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

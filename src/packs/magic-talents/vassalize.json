@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Mana sphere (Flow (manabond)), caster level 7th.</p>\n<p>When casting a sphere effect while having a creature linked to you with the Flow talent, you can attempt to utilize that creature&#8217;s spell pool to cast your own magic. The creature is granted a Will save. On failure, they must pay any spell point costs you would have incurred otherwise. If the creature does not have enough real spell points to do so, they take ability damage to their casting ability modifier equal to the amount of spell points they lacked to fully cast the sphere effect, and you must fuel the spellcasting with your own spell points. If you lack the spell points to cast the sphere effect, any spell points you have are wasted and the sphere effect fails. Willing creatures may automatically fail this save, and as with the Flow talent, this ability always drains real spell points, not temporary ones. The creature must be able to hold a spell pool naturally in order for this ability to be used on them.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890434,
-    "modifiedTime": 1663169293280,
+    "modifiedTime": 1689539974615,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

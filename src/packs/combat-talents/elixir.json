@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Craft DC:</strong> 20</p>\n<p>You create a vial of potent liquid that can be used as a potion, removing 1d4 points of ability damage to one ability score of your choice (chosen when used). You can only affect a particular creature with this ability a number of times per day equal to 1/2 the number of ranks you possess in Craft (alchemy) (minimum 1) plus your practitioner modifier.</p>\n<p>You can increase the Craft DC for this item in increments of 5, each time you do so, you may apply one of the following benefits:</p>\n<ul>\n<li>You may affect an additional ability score of your choice to benefit from this formulae.</li>\n<li>You remove 2 points of ability drain to the affected ability score(s).</li>\n<li>The amount healed increases by one die size (1d6, 1d8, 1d10, 1d12).</li>\n</ul>\n<p>If a chosen benefit is chosen more than once, its effects stack.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Formulae"]],
+    "tags": ["Formulae"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885560,
-    "modifiedTime": 1663169291563,
+    "modifiedTime": 1689539971065,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

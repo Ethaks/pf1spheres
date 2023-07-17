@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may create totems attached to objects. A totem attached to an object is called a totemic emblem. This functions as a regular totem, except that it has a radius of 30 feet, it moves with the object it is attached to, and is dispelled if the object is destroyed. totemic emblems continue to function if they go beyond long range of their creator, but the creator can only rally those within that totem if they are within long range.</p>\n<p>The recipient object must be within range (adjacent to you, or in close range if you possess the Ranged Totem talent). An unwilling creature can have a totem attached to its equipment as a touch attack; no saving throw is allowed, but the Break Enchantment talent from the Life sphere or a similar effect can dispel the totem before its natural duration expires.</p>\n<p>An object with a totem attached to it still receives any saving throws the totem allows to avoid being affected. A successful save means it is unaffected by the totem, but it remains attached to it and it still affects those within range of the totem.</p>\n<p>Spell resistance can prevent a totemic emblem from being attached to an object. Failing to bypass the intended target&#8217;s spell resistance in attempting to attach the totem dispels the totem.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890512,
-    "modifiedTime": 1663169293343,
+    "modifiedTime": 1689539974623,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Talents with the (shadow) tag manipulate a target&#8217;s own shadow directly, without manifesting an area of darkness at all. Unless otherwise indicated, a (shadow) talent may be applied to a target within medium range as a standard action. Only one (shadow) talent may be applied to any one target at a time, and an unwilling target is allowed a Will save to negate a shadow. The duration of each shadow is specified in its description. If a shadow can be maintained through concentration, you must remain within your shadow range of the target to do so.</p>\n<p>Shadows function normally within areas of glows, neither suppressing nor being suppressed by areas of glows simply by entering them. If a glow and shadow are cast directly upon the same target, however, the caster of the second effect must attempt a magic skill check against the MSD of the first effect&#8217;s caster. If the check succeeds, the second effect functions normally and the first effect is suppressed. Time spent suppressed counts against the duration of the effect in either case.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892650,
-    "modifiedTime": 1663169294215,
+    "modifiedTime": 1689539974663,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

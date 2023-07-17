@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Alteration sphere.</p>\n<p><strong>Benefit:</strong> You gain a +1 bonus on concentration checks for Alteration sphere effects for every Aristeia feat you possess. When you enter aristeia, you gain a single Alteration sphere trait that you may select for the duration of your aristeia. If you possess 4 or more aristeia feats, you gain an additional trait when in aristeia. These traits are chosen when you enter aristeia and do not count towards the maximum number of traits you may gain from the Alteration sphere.</p>\n<p><strong>Special:</strong> This feat counts as Combat Casting for the purpose of meeting prerequisites.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aristeia"]],
+    "tags": ["Aristeia"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897690,
-    "modifiedTime": 1663169295562,
+    "modifiedTime": 1689539976486,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

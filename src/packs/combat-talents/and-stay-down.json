@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Whenever a creature lands prone in a square you threaten, you may make an attack of opportunity against them, dealing 1 additional point of bleed damage (this stacks with other bleed damage granted by the base ability of the Duelist sphere); this attack of opportunity considers &#8220;whenever a creature lands prone&#8221; and &#8220;whenever you succeed on a trip combat maneuver&#8221; to be part of the same trigger, and you cannot take more than one attack of opportunity due to this circumstance. If successful, the target of this attack must make a successful Acrobatics check to stand up as their blood slicks the ground beneath them. If the target is suffering from your blooded strike&#8217;s bleed damage, they suffer a penalty to their Acrobatics check equal to the bleed damage. Targets immune to bleed damage do not need to make an Acrobatics check.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888245,
-    "modifiedTime": 1663169292832,
+    "modifiedTime": 1689539971126,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

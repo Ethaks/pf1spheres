@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When you lift an object with your telekinesis and move it into your square or drop an item you are holding, you may place it in a passive orbit around you. An object in orbit drifts slowly around you, moving with you when you move as if you carried it, and does not require concentration to remain in orbit, though it does nothing except drift passively. At any point you may begin concentrating on it again, directing it and using it normally with your telekinesis, or you may pick up an item in orbit as a free action. You may have multiple objects around you at one time so long as their total size does not exceed the size limit of your telekinesis. If you possess the Dancing Weapon talent, you are considered to be wielding any object in your orbit and may use them to make attacks, though they are still made through the Dancing Weapon talent. Items caught with Catch may immediately be placed into orbit. You may not use Hostile Lift in conjunction with Orbit.</p>\n<p><strong>Note:</strong> Dancing Weapon specifies only 'wielding' in the context of a weapon; you can bash someone over the head with that implement, but no it does not mean you get its implement bonuses while in your orbit.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890356,
-    "modifiedTime": 1663169293235,
+    "modifiedTime": 1689539974612,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

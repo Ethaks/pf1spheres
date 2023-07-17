@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>You can overcharge your connection with your undead using your channel energy ability.</p>\n<p><strong>Prerequisites:</strong> Death sphere, ability to channel negative energy, caster level 5th.</p>\n<p><strong>Benefit:</strong> You can spend a use of your channel energy ability as a standard action to detonate a mindless undead you control within 30 feet, destroying it, but causing your channel energy to burst outwards from its location; your channel deals (or heals, as appropriate) 1 additional point of damage per Hit Die of the undead sacrificed. You can activate this ability as an immediate action whenever a mindless undead you control within 30 feet is reduced to 0 hit points by spending a spell point (and a use of channel energy, as normal).</p>\n<p>If you possess the Master&#8217;s Presence (dominion) talent, you may use your dominion range when determining if an undead you control is within range for this feat.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Channeling"]],
+    "tags": ["Channeling"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897918,
-    "modifiedTime": 1663169295720,
+    "modifiedTime": 1689539976500,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

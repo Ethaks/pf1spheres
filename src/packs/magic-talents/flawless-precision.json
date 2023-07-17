@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Mind sphere (Arcane Calculation (cognition), Rapid Processing (cognition)), caster level 10th.</p>\n<p>By spending 2 spell points as a standard action you may enter a heightened state of mind. In this state you can analyze and measure all aspects of your surroundings effortlessly, allowing you to use the benefits of Rapid Processing as if you had spent a spell point on it. Further, once per round as a free action you may use Arcane Calculation as if you had used Perception to intentionally search for stimuli. Finally, you gain a pool of rerolls equal to your casting ability modifier; you may spend a reroll once per failed attack roll, ability check, skill check, or saving throw to reroll it, always keeping the second result. The effect of this talent last for 1 minute per caster level.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Cognition"]],
+    "tags": ["Cognition"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892148,
-    "modifiedTime": 1663169293953,
+    "modifiedTime": 1689539974653,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

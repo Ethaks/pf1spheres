@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>From 1st level on, a conscript can study a creature he can see as a move action. The conscript then gains a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks attempted against that creature, and a +1 bonus on weapon attack and damage rolls against it. The DCs of conscript class abilities and combat sphere effects against that creature increase by 1. A conscript can only maintain these bonuses against one creature at a time; these bonuses remain in effect until either the creature is dead or the conscript studies a new target.</p>\n<p>At 8th level and again at 16th level, the bonuses on weapon attack rolls, damage rolls, and skill checks and to conscript DCs against a studied target increase by 1. In addition, at each such interval, the conscript is able to maintain these bonuses against an additional studied target at the same time. The conscript may discard this connection to a studied target as a free action, allowing him to study another target in its place.</p>\n<p>At 10th level, a conscript can study a creature as a move or swift action. If the conscript possesses the sneak attack combat specialization, whenever a conscript deals sneak attack damage to a target, he can study that target as an immediate action, allowing him to apply his studied target bonuses against that target (including to the normal weapon damage roll).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900725,
-    "modifiedTime": 1663169296815,
+    "modifiedTime": 1689539978567,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

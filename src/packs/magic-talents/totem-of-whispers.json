@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>The area of your totem is filled with quiet voices that distract and unnerve your enemies. Enemies take a -1 penalty to their concentration checks and Perception checks involving listening. This increases by -1 for every 2 caster levels you possess.</p>\n<p>This does not work against deaf enemies, or enemies in an environment where it is difficult to hear. The whispers also interfere with using abilities that require speaking - such an ability has a 10% chance of failing when used plus 5% per 5 caster levels, even if the user is deaf. Whenever a creature uses such an ability, they can attempt a Perform (oratory) as part of the action required to activate the ability with a DC of 10 + your caster level to negate this effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Totem"]],
+    "tags": ["Totem"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890787,
-    "modifiedTime": 1663169293572,
+    "modifiedTime": 1689539974630,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>A rally is a magical effect you may enact as an immediate action, targeting a creature within the area of effect of one of your totems (or with whom you share a mandate, as detailed below), granting the target bonuses or allowing them to take certain actions. You must be within long range of a target to rally that target. If a rally targets a specific creature, it is subject to spell resistance.</p>\n<p>Some rallies can be used in response to other events, in which case the rally occurs before the triggering event completes, unless noted otherwise. Rallies that work from triggers can only be used when that trigger occurs, and can only affect those allies that the trigger applies to.</p>\n<p>When you gain the War sphere, you gain the following rally:</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891507,
-    "modifiedTime": 1663169293691,
+    "modifiedTime": 1689539974642,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

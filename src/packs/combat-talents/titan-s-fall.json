@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Acrobatics 5 ranks, Athletics sphere (Armored Drop x2).</p>\n<p>Your armor&#8217;s hardness applies to, and is doubled against, the damage suffered from the Armored Drop talent.</p>\n<p>In addition, when using the Armored Drop talent you may expend your martial focus to increase the damage dealt to the amount of damage that would be dealt to your armor before hardness. In addition the damage now affects everything in a 5-foot radius + 5 feet per 5 ranks in Acrobatics you possess. The damage dealt by this talent is doubled vs. objects, and if the damage would be enough to destroy the surface underneath you, you continue to fall, subtracting the damage dealt to the surface from the damage dealt by this talent to later surfaces.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885434,
-    "modifiedTime": 1663169291484,
+    "modifiedTime": 1689539971054,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

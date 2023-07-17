@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The technician has learned to trust his gut as much as calculations, and to have faith in wisdom and meditation as well as science.</p>\n<p>He gains a pool of intuition points equal to 1 + his Wisdom modifier (minimum: 1). These intuition points refresh after roughly 8 hours of rest. A technician may spend 1 point of intuition as part of any skill check or ability check to add 1d6 to that roll. He may spend 2 points as part of an attack roll or saving throw to also gain this bonus. The decision to spend intuition must be made before the d20 is rolled. Intuition can only be used once on any individual roll.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900386,
-    "modifiedTime": 1663169296523,
+    "modifiedTime": 1689539978546,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

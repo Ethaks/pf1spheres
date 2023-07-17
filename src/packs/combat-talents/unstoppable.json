@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When making a charge, you can push your way through obstacles blocking your path, be they creatures, objects, or others.</p>\n<p>You may charge over difficult terrain. This movement still costs twice as much as normal. Additionally, when making a charge, you may attempt to overrun a creature in the path of the charge, or to make a Strength check to break an unattended object such as a door or wall that is in your way, as a free action that does not provoke an attack of opportunity. If the check is successful, you may complete the charge. If the check is unsuccessful, the charge ends in the space directly in front of that creature or object.</p>\n<p>For every 5 base attack bonus you possess you may attempt to break or overrun an additional target, but suffer a cumulative -2 penalty on each additional check made.</p>\n<p>This can allow you to initiate a charge through squares that you do not have line of sight to. You may resolve your charge attack against any valid target within reach of the charge&#8217;s path after passing through the barriers (creature or object) blocking your line of sight. <strong>Associated Feat:</strong> Charge Through.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887943,
-    "modifiedTime": 1663169292346,
+    "modifiedTime": 1689539971110,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

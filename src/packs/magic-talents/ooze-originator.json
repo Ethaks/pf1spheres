@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Creation sphere (Acidic Creation (material)), caster level 5th.</p>\n<p>You may create and animate an ooze creature. You must spend an additional spell point for every 4 Hit Dice of the desired ooze; you cannot create an ooze with more Hit Dice than your caster level or that is larger than you can create. The magic behind the ooze&#8217;s creation allows it to recognize you as its creator and obey basic commands such as &#8220;attack&#8221;, &#8220;defend&#8221;, or &#8220;move&#8221; and to follow them to the best of its ability, but it otherwise is a normal, mindless member of its kind and will act appropriately.</p>\n<p>This ooze may be any un-templated creature of the ooze type or a unique creation subject to GM discretion. You may not control more Hit Dice of ooze than your caster level; if you create more than this, the earliest-created oozes no longer recognize you as their creator until you are under this limit again. Oozes can be made permanent through the Create Materials advanced talent.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Create"]],
+    "tags": ["Create"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893236,
-    "modifiedTime": 1663169294570,
+    "modifiedTime": 1689539974679,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

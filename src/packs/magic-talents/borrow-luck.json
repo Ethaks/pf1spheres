@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When a creature within range fails a saving throw, skill check, or ability check, or misses with an attack, you may spend a spell point as an immediate action to allow them to reroll the saving throw, skill check, ability check, or attack roll. However, starting after the reroll, they take a -4 penalty to that category of roll until they fail another such saving throw or check or, if they reroll an attack roll, until they miss with another attack.</p>\n<p>Failing the rerolled saving throw or check or missing with the rerolled attack does not end this effect, nor does deliberately failing a saving throw, failing a saving throw against a harmless effect, or attacking an object or ally.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Word"]],
+    "tags": ["Word"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893218,
-    "modifiedTime": 1663169294557,
+    "modifiedTime": 1689539974678,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

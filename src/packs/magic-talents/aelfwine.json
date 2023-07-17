@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You summon a flask, gourd, stein, or wineskin filled with fairy liquor, which replenishes itself after each drink. The flask is weightless and has hardness 5 and 5 hit points per caster level. If the flask is destroyed, this fey-blessing ends immediately. You may determine the quality of the brew with a Craft (alcohol) or Profession (brewer) check made as part of activating this fey-blessing, but the result has no impact on its efficacy. You may drink from it as a move action; you may allow a creature whom you are within the natural reach of to drink from it as a standard action on their turn with no action required on your part. This counts as consuming an alcoholic beverage. Choose one of the following effects when the flask is created:</p>\n<p><strong>Bolstering Brew:</strong> The imbiber gains temporary hit points equal to your caster level that last for 1 minute.</p>\n<p><strong>Brawling Booze:</strong> The imbiber gains the Barroom sphere or a (drunk) talent of your choice from that sphere for 1 minute.</p>\n<p><strong>Calming Sip:</strong> You may attempt a magic skill check against any ongoing effects with the emotion descriptor currently affecting the imbiber. If successful, that effect is suppressed for 1 round per caster level. If you spend a spell point as part of the drink (no action required), the effect is instead dispelled.</p>\n<p><strong>Liquid Courage:</strong> The imbiber gains a +2 (+1 per 7 caster levels) circumstance bonus on saves vs. fear effects for 1 minute.</p>\n<p>If the flask is not in your possession at the start of your turn, you may summon it into your possession as a move action as long as you have line of sight to it. You may have multiple instances of this fey-blessing active at one time; select a different effect for each. Creatures that are immune to the effects of alcohol cannot benefit from this effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Fey-Blessing"]],
+    "tags": ["Fey-Blessing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891833,
-    "modifiedTime": 1663169293916,
+    "modifiedTime": 1689539974650,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

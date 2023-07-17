@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Any one teamwork feat.</p>\n<p><strong>Benefits:</strong> Whenever you begin using the cooperating purr, choose one teamwork feat you possess. While using the cooperating purr, whenever an ally begins their turn within your purring aura, that ally gains the chosen teamwork feat for 1 round. You may share a teamwork feat this way even if your allies could not normally qualify for it.</p>\n<p><strong>Powerful Purring:</strong> Whenever you begin using the cooperating purr, instead of choosing a teamwork feat you possess, you may instead use any teamwork feat you meet the prerequisites for, temporarily gaining that teamwork feat as a bonus feat and granting it to allies which begin their turn within your purring aura. You may choose a different teamwork feat to temporarily gain each time you begin using the cooperating purr.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Purring"]],
+    "tags": ["Purring"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897875,
-    "modifiedTime": 1663169295693,
+    "modifiedTime": 1689539976494,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

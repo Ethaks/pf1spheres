@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You put the target to sleep.</p>\n<p><strong>Lesser Charm:</strong> You make the target lethargic, making it staggered for 1d4 rounds (Will negates).</p>\n<p><strong>Greater Charm:</strong> You put the target to sleep for 1 minute per caster level (Will negates). Targets who take damage automatically wake up, and other creatures may wake a sleeping creature as a standard action (an application of the aid another action).</p>\n<p><strong>Powerful Charm:</strong> The target is placed into a deeper slumber. Whenever the sleeping target takes damage or another creature attempts to wake it as a standard action, the target does not automatically awaken, but instead attempts a new Will save to wake up with a +4 bonus.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Charm"]],
+    "tags": ["Charm"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893124,
-    "modifiedTime": 1663169294547,
+    "modifiedTime": 1689539974678,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Diplomacy 5 ranks, Warleader sphere.</p>\n<p>You may release a shout that causes nearby metal weapons to suddenly resonate with sound. For the shout&#8217;s duration, you and your affected allies&#8217; weapon attacks made with metal weapons deal an additional 1d6 points of sonic damage. This damage increases by 1d6 at 10 ranks in Diplomacy and every 5 ranks beyond.</p>\n<p>You may expend your martial focus when using this shout to allow the shout to benefit all kinds of weapons. Additionally, at 10 ranks in Diplomacy, the damage die size is also increased to d8s instead of d6s.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Shout"]],
+    "tags": ["Shout"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886838,
-    "modifiedTime": 1663169291987,
+    "modifiedTime": 1689539971088,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

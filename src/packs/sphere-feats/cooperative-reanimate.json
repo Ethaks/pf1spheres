@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Undead you and your allies create resonate with each of your souls.</p>\n<p><strong>Prerequisite:</strong> Death sphere.</p>\n<p><strong>Benefit:</strong> You may give simple commands to undead under the control of an ally who also possesses this feat; if they receive conflicting orders, they act under their controller&#8217;s orders.</p>\n<p>In addition, if at any time you would fall unconscious or be dropped to 0 hit points or less, you may choose to transfer any undead you have control over to another ally with this teamwork feat for 1 minute (or their normal maximum duration, whichever is shorter). Transferred undead may be returned to their owner during this time period as a move action, but can never be transferred to a third ally. After the duration expires, they are considered under your ally&#8217;s control and count towards your ally&#8217;s maximum Hit Dice total of undead they can have reanimated at once.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Teamwork"]],
+    "tags": ["Teamwork"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897838,
-    "modifiedTime": 1663169295669,
+    "modifiedTime": 1689539976492,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

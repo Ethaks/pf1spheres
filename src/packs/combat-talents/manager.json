@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Your followers can supply a manager for one business you own. This manager requires no additional pay and may make any required skill checks using your Diplomacy bonus in place of the normal check. At 5 ranks in Diplomacy and every 5 ranks thereafter, you can provide a manager for 1 additional business.</p>\n<p>If you possess the Messengers talent, the manager can contact you via messengers.</p>\n<p>This talent uses the downtime rules found in Ultimate Campaign.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Followers"]],
+    "tags": ["Followers"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885406,
-    "modifiedTime": 1663169291456,
+    "modifiedTime": 1689539971052,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

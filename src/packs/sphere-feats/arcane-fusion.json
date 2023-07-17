@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>You integrate multiple traditions to unleash a potent form of magic.</p>\n<p><strong>Prerequisites:</strong> Caster level 1st or higher with at least two casting traditions, able to create the same effect using multiple casting traditions.</p>\n<p><strong>Benefits:</strong> When you create a magical effect which could be created with multiple casting traditions, you may apply the boons and drawbacks of multiple casting traditions you are capable of creating the spell effect with. Spell points to power the effect can be drawn from any casting tradition which can be used to create the effect. For example, a character capable of using destructive blast using both the Blood Magic tradition and the Cholmic Traditionalist tradition could cast destructive blast in such a way that the Addictive Casting, Draining Casting, Extended Casting, Magical Signs, Painful Magic, Somatic Casting x2, and Verbal Casting drawbacks all take effect, but the Deathful Magic, Fortified Magic, Overcharge, and Overwhelming Power boons all take effect on the spell as well.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Theurge"]],
+    "tags": ["Theurge"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897926,
-    "modifiedTime": 1663169295730,
+    "modifiedTime": 1689539976501,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

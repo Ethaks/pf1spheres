@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You can direct your followers to fortify a campsite. Doing so takes 1 hour. Your followers may use your ranks in Diplomacy plus your practitioner ability modifier in place of Perception checks to keep watch over the camp and any intruders must contend with a 5 foot wide by 5 foot deep ditch and 5 foot wide by 5 foot high berm surrounding the camp. At 5 ranks in Diplomacy and every 5 ranks thereafter, the width and depth of the ditch and the width and height of the berm may be increased by 5 feet.</p>\n<p>If using the Kingdom Building rules from Ultimate Campaign, your followers reduce the cost of constructing one improvement or building or demolishing one building by one build point each kingdom turn. This cannot reduce the cost below 0 build points. At 5 ranks in Diplomacy and every 5 ranks thereafter, they may reduce the cost by another one build point. This reduction may be applied to the same or different buildings and improvements.</p>\n<p>If using the Downtime rules from Ultimate Campaign, your followers may reduce the Labor capital cost of one downtime activity by 1 each day, to a minimum of 0. For every 4 ranks in Diplomacy, this reduction is increased by 1. This reduction may be applied to one activity or spread across several.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Followers"]],
+    "tags": ["Followers"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888051,
-    "modifiedTime": 1663169292631,
+    "modifiedTime": 1689539971117,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

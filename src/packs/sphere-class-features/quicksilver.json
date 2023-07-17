@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>Also known as mercury, this strange, mercurial liquid is commonly drawn from cinnabar. Quite toxic, this shifting liquid can act as quite a slippery surface. This functions as a splash weapon the scholar can use as a ranged touch attack with a range increment of 10 feet, creating a puddle of quicksilver with a radius of 15 feet, plus 5 feet per 5 scholar levels she possesses; causing all creatures that attempt to enter or move through the area to attempt at a Reflex saving throw or immediately fall prone. This puddle lasts for 1d4 rounds.</p>\n<ul>\n<li><strong>Mercurial Bursts [explosive]:</strong> The scholar may enhance her flashbangs with mercury, causing targets who fail their save to take 1d4 points of Wisdom damage, plus an additional 1d4 points of Wisdom damage at 8th and 16th level, in addition to the normal effects. This is a poison effect, and creatures with resistance to poison apply that resistance to their save against the flashbang&#8217;s effects.</li>\n</ul>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900806,
-    "modifiedTime": 1663169296898,
+    "modifiedTime": 1689539978574,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

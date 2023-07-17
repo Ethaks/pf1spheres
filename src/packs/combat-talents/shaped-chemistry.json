@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Your splash and burst weapon formulae can be shaped into cones or lines by increasing the Craft (alchemy) DC to create them by 10. Splash weapon formulae modified this way are not considered splash weapons.</p>\n<p>If used as a cone, the length is 3 times the area of effect radius (splash weapons are treated as possessing a 5-foot burst radius, +5 feet for every time their difficulty has been increased to increase the area of effect). If used as a line, the length is 6 times the burst radius. Creatures in the area of effect take full damage (Reflex half).</p>\n<p>You may choose which direction this cone or line extends when holding, throwing or placing the formulae (if used as part of the Trap sphere). The cone or line starts at the edge of your own square, or the square where it was thrown or placed at. If a formulae that was modified by this talent is imbibed as part of the Alchemical Dragon Barroom sphere legendary talent, use the formulae&#8217;s base area and shape but increase it by an additional 5 feet for every 5 points of base attack bonus the imbiber possesses.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888033,
-    "modifiedTime": 1663169292620,
+    "modifiedTime": 1689539971115,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

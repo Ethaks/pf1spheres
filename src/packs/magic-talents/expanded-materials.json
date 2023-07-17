@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When you create an object, you may work with any non-harmful material with a hardness of 5 or less, including glass, ice, or leather. You may create water (3 cubic feet equals a Small creature), but not gases or flesh. As you gain caster levels, you also gain the ability to steadily make more materials, as detailed in the table below. When creating objects made from stone, gems, or metal, double the maximum weight per size category of the objects you can create.</p>\n<p><strong>Note:</strong> Objects of stone or harder materials deal double damage when dropped on a target.</p>\n<p><strong>Slippery Ice:</strong> You may create hazardous ground made from slick ice, as detailed under the Freeze ability from the <a href=\"/nature\">Nature</a> sphere.</p>\n<strong>Table: Rare Materials</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Caster Level</th>\n<th>Materials</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>Stone</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>Basic metals (copper, iron, steel)</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>Precious metals (gold, silver)</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>Gems, specialty metals (cold iron, mithril)</td>\n</tr>\n</table>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Material"]],
+    "tags": ["Material"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890780,
-    "modifiedTime": 1663169293564,
+    "modifiedTime": 1689539974630,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>All ensouled creatures are under a soul weaver&#8217;s power, and a soul weaver can cause incredible effects to befall both allies and enemies.</p>\n<p>At 2nd level, a soul weaver who chose to channel positive energy may grant blessings to targets, while a soul weaver who chose to channel negative energy may give blights. All blessings and blights may only be granted to living targets with souls. A target may only be under one blessing or blight at a time. Applying a blessing to a target with blight or vice-versa dispels both effects, leaving neither.</p>\n<h3 id=\"toc24\"><span>List of Blights</span></h3>\n<p>The blight list of abilities is as follows:</p>\n<hr>See also:<br><ul><li>@Compendium[pf1spheres.class-features.hL1BwmYpuc24MryB]{Blight}</li><li>@Compendium[pf1spheres.class-features.xwPF6cKYu7wmBcp3]{Lesion}</li><li>@Compendium[pf1spheres.class-features.8fuOmHZTBb0M1opK]{Mind Blight}</li><li>@Compendium[pf1spheres.class-features.HSK21OoWdErQlTXG]{Consume}</li><li>@Compendium[pf1spheres.class-features.ExZhpzKwy5VzkUva]{Detonate}</li><li>@Compendium[pf1spheres.class-features.877pjlEuZMpRnAbT]{Blessing}</li><li>@Compendium[pf1spheres.class-features.IAD54MzzV6JdR46I]{Heal}</li><li>@Compendium[pf1spheres.class-features.ZteRmF398VyJLNrN]{Restore}</li><li>@Compendium[pf1spheres.class-features.Cr0dlZ7nEVoV07xx]{Revive}</li><li>@Compendium[pf1spheres.class-features.hzZAakpgrKBrUDQp]{Renew}</li></ul>",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900425,
-    "modifiedTime": 1663169296570,
+    "modifiedTime": 1689539978550,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

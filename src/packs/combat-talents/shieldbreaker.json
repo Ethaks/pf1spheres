@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When you make a sunder attempt against a piece of armor, a shield, or a manufactured weapon with a brutal strike, you may ignore a number of points of the item&#8217;s hardness equal to your base attack bonus. If the item is destroyed, any excess damage is applied to the item&#8217;s wielder. No damage is transferred if you decide to leave the item with 1 hit point. When targeting a battered creature, you may roll the sunder check twice and take the best result.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Exertion"]],
+    "tags": ["Exertion"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886391,
-    "modifiedTime": 1663169291782,
+    "modifiedTime": 1689539971076,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

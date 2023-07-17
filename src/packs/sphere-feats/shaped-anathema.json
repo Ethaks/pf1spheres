@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Anathema.</p>\n<p><strong>Benefit:</strong> You may form your anathema in different shapes, affecting all creatures within the area. You may make a line with a length equal to the range of your anathema, a cone with a length equal to 1/2 the range of your anathema, or a burst around yourself with a radius equal to 1/3 the range of your anathema. Any creature within other than yourself takes damage, with a Reflex save for half damage with a DC equal to 10 + the number of dice of damage your anathema does (not including extra dice from focused anathema) + your highest mental attribute modifier.</p>\n<p>If you possess the Extended Anathema feat, the size of these shapes increases as your range does.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Anathema"]],
+    "tags": ["Anathema"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897993,
-    "modifiedTime": 1663169295785,
+    "modifiedTime": 1689539976506,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

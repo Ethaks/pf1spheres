@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may activate the following abilities as fey-blessings:</p>\n<p><strong>Vermin Empathy:</strong> You gain wild empathy as the druid class feature (and treating your caster levels as druid levels for this purpose), but only affecting creatures of the vermin type and bypassing the immunity to mind-affecting effects granted by the vermin type. This ability treats swarms of the vermin type as if they were one creature possessing a single mind.</p>\n<p><strong>Wild Empathy:</strong> You gain wild empathy as the druid class feature, treating your caster levels as druid levels for this purpose. This ability treats swarms of the animal type as if they were one creature possessing a single mind.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Fey-Blessing"]],
+    "tags": ["Fey-Blessing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892757,
-    "modifiedTime": 1663169294334,
+    "modifiedTime": 1689539974670,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

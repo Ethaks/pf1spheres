@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Caster level 1st.</p>\n<p><strong>Benefits:</strong> This feat allows a creature to create spell-trigger items which casters can use as if they were their own sphere abilities. A creature must possess a spell engine&#8217;s base sphere, or else must activate the spell engine through the Use Magic Device skill.</p>\n<p>The most common form of spell engine is a wand; a handheld stick usually between 5 and 12 inches long that the caster points to direct the magic. However, a spell engine can take any form.</p>\n<p>A spell engine contains a limited amount of casting ability, which can be activated by the one wielding the spell engine as a standard action, as if the magic were their own. A spell engine possesses a base sphere, a caster level, and a small pool of spell points. The spell engine uses its own caster level and spell points to fuel its casting ability; under normal circumstances, a caster cannot spend their own spell points or use their own caster level when activating a spell engine. If a spell engine&#8217;s effects call for a saving throw, the DC is equal to 10 + 1/2 the item&#8217;s caster level.</p>\n<p>Once per day, a caster whose caster level is at least equal to the spell engine&#8217;s caster level may spend one of their spell points to restore 1 spell point to the spell engine. A spell engine may only have one spell point per day restored in this fashion, regardless of how many casters attempt to do so.</p>\n<p>The simplest spell engine a crafter may create contains a base sphere, 1 spell point, and a caster level of 2. This spell engine has a base price of 1,000 gp. When a crafter increases a spell engine&#8217;s caster level (to a maximum of their own), for every 2 caster levels a spell engine gains, the crafter may place an additional magic talent into the spell engine, or may increase the spell engine&#8217;s maximum spell point pool by 1. A crafter must possess each talent to be placed in the spell engine, or else must have access to that talent through another caster. Likewise, if a crafter possesses a sphere-specific drawback for the spell engine&#8217;s base sphere (or simply wants to create a focused spell engine), that spell engine also possesses that sphere-specific drawback, and gains either a bonus magic talent or a spell point in exchange.</p>\n<p>A spell engine may contain an advanced talent, but must possess that talent&#8217;s minimum caster level, as well as all of its prerequisite talents. A spell engine may be used to meet the prerequisites for creating other magic items.</p>\n<p>A spell engine&#8217;s pricing is determined by comparing it to Table: Spell Engine Pricing.</p>\n<strong>Table: Spell Engine Pricing</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Caster Level</th>\n<th># of Additional Magic Talents/Spell Points</th>\n<th>Price (gp)</th>\n</tr>\n<tr>\n<td>2 (base wand)</td>\n<td>0</td>\n<td>1,000</td>\n</tr>\n<tr>\n<td>4</td>\n<td>1</td>\n<td>4,000</td>\n</tr>\n<tr>\n<td>6</td>\n<td>2</td>\n<td>9,000</td>\n</tr>\n<tr>\n<td>8</td>\n<td>3</td>\n<td>16,000</td>\n</tr>\n<tr>\n<td>10</td>\n<td>4</td>\n<td>25,000</td>\n</tr>\n<tr>\n<td>12</td>\n<td>5</td>\n<td>36,000</td>\n</tr>\n<tr>\n<td>14</td>\n<td>6</td>\n<td>49,000</td>\n</tr>\n<tr>\n<td>16</td>\n<td>7</td>\n<td>64,000</td>\n</tr>\n<tr>\n<td>18</td>\n<td>8</td>\n<td>81,000</td>\n</tr>\n<tr>\n<td>20</td>\n<td>9</td>\n<td>100,000</td>\n</tr>\n</table>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["replaces Craft Wand"]],
+    "tags": ["replaces Craft Wand"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897874,
-    "modifiedTime": 1663169295691,
+    "modifiedTime": 1689539976494,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

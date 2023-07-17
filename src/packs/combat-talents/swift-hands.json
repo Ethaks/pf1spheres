@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may use your Dexterity in place of your Strength when attempting a dirty trick or steal maneuver and may use your ranks in the Sleight of Hand skill in place of your base attack bonus when determining your combat maneuver bonus to perform a dirty trick or steal maneuver. In addition, you may apply any enhancement bonuses to your unarmed strikes to your dirty trick and steal combat maneuvers.</p>\n<h2 id=\"toc1\"><span><span style=\"color: #993300\">Marked Target</span></span></h2>\n<p>You may make a melee touch attack against a creature as a swift action; if this attack is successful, the creature is battered and takes a -1 penalty on Perception checks for 1 round. For every 4 ranks in Sleight of Hand you possess, this penalty is increased by 1.</p>\n<p><strong>Trick:</strong> Whenever you perform a steal or dirty trick combat maneuver, or make a Sleight of Hand check to take an object from a target unnoticed, you may apply one (trick) talent to it. (Trick) talents cannot be applied to maneuvers performed as a free action.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887970,
-    "modifiedTime": 1663169292365,
+    "modifiedTime": 1689539971112,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

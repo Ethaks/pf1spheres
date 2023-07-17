@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You gain proficiency with the boarding axe, boarding gaff, boarding pike, cat-o&#8217;-nine-tails, cutlass, Duelist sword, grappling hook, pistol, rapier, and sea-knife. Additionally, you gain a +2 competence bonus to Profession (sailor) checks made to sail a ship. At +10 base attack bonus, this bonus increases to +4.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Discipline"]],
+    "tags": ["Discipline"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886389,
-    "modifiedTime": 1663169291781,
+    "modifiedTime": 1689539971076,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

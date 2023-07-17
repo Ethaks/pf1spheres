@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The technician may create a gadget that explodes in 1 round, at the end of his turn. As part of the standard action used to create this detonator, he may throw the detonator (with a range increment of 10 ft.), place it, or hide it in a space within his natural reach. After one round (at the end of his turn), the detonator explodes, dealing 1d6 damage per technician level to everything within 5 ft. of the square in which the detonator sits, half fire damage and half bludgeoning/piercing/slashing damage. Targets within this area may make a Reflex save for half damage.</p>\n<p>A detonator counts as a trap from the Trap sphere for the purpose of determining its hardness, armor class, hit points, Disable Device DC, and its Perception DC if hidden, as well as for things such as the Opportunist or Trapper&#8217;s Recovery talents. A detonator cannot be placed in the same space as a trap, or another detonator.</p>\n<p>If a detonator is destroyed (including by another detonator), it does not explode. If two detonators explode at the exact same time, creatures in the overlapped area suffer diminished results from every detonator but 1, suffering instead 1d6, +1d6 per 5 technician levels for each overlapping detonator after the first.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900658,
-    "modifiedTime": 1663169296765,
+    "modifiedTime": 1689539978560,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

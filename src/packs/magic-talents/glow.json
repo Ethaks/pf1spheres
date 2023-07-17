@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a standard action, you may cause an object or creature in medium range to glow for 1 minute per caster level, outlining it with light as a candle, which may be of any color you wish. This requires a touch attack or ranged touch attack, and is subject to spell resistance. The object or creature becomes outlined with light, giving it a -20 penalty on Stealth checks and negating all bonuses usually bestowed by invisibility, blink effects, darkness, or similar effects.</p>\n<p>As a free action, you may cause any creature or object you have caused to glow that is within medium range to shed light as a torch, shedding normal light to 20 feet and increasing the light level by one step to a maximum of normal for 20 feet beyond this. Reducing this light is also a free action.</p>\n<p>Whenever a glow effect interacts with a magical darkness effect (such as from the Dark sphere) the caster of the glow effect must succeed at a magic skill check against the MSD of the darkness effect&#8217;s caster. If he succeeds, the Light effect functions normally. If he fails, the Dark effect functions normally (outlines are swallowed, light sources are hampered, etc.). An area filled with normal or bright light from a glow effect is no longer considered an area of darkness for Dark sphere abilities.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893235,
-    "modifiedTime": 1663169294570,
+    "modifiedTime": 1689539974679,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

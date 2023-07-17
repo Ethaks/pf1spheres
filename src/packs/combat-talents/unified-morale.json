@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Allies who are benefiting from a spell or effect that grants a morale bonus on a particular type of roll may also grant that morale bonus with other allies within range of this tactic. Once during that effect&#8217;s duration, each ally can apply that morale bonus on a roll they attempt of that type. For instance, if an ally benefiting from this tactic is also benefiting from heroism, once during the duration of the spell another ally could gain a +2 morale bonus on one saving throw, attack roll, or skill check. An individual ally can borrow someone&#8217;s morale bonus once per round, and only once per spell or effect. Changing in and out of this tactic does not allow for a bonus from the same spell or effect to be used additional times.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Tactic"]],
+    "tags": ["Tactic"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886669,
-    "modifiedTime": 1663169291839,
+    "modifiedTime": 1689539971084,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

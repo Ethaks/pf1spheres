@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When you reanimate a corpse or corpses, they remain for 1 hour per caster level instead of 1 minute per caster level. You may reanimate a single corpse as a sustained undead without spending a spell point, but the duration of the reanimate effect is changed to &#8216;concentration&#8217;. A sustained undead only counts as half their Hit Dice (rounded up, minimum 1) against the total amount you may have reanimated at once. You can never have more than 1 sustained undead.</p>\n<p><strong>Wiki Note:</strong> Formerly Lingering Necromancy and Sustained Reanimation; any references to those refer to this talent.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891506,
-    "modifiedTime": 1663169293689,
+    "modifiedTime": 1689539974642,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

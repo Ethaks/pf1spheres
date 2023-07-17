@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Choose a combat talent, combat feat, or teamwork feat you possess. Undead you reanimate and control gain the benefit of this talent or feat when they are within your dominion range. You cannot choose a feat that has another feat as a prerequisite nor feats that grant open-ended bonuses (such as Extra Combat Talent), but your undead do not otherwise need to meet the feat&#8217;s prerequisites.</p>\n<p>Whenever you rest and recover spell points, you may change the feat or talent chosen. You may take this talent multiple times; each time you do, you may grant an additional combat talent, combat feat, or teamwork feat to your undead. Feats granted by this talent can be used to meet the prerequisites of additional feats.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Dominion"]],
+    "tags": ["Dominion"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892713,
-    "modifiedTime": 1663169294298,
+    "modifiedTime": 1689539974667,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The sage&#8217;s natural reach with his unarmed strikes and melee touch attacks increases by 5 ft., plus an additional 5 ft. for every 4 class levels he possesses. Whenever the sage succeeds at a combat maneuver check against an opponent, or when the opponent fails a Reflex save against the sage&#8217;s infuser ability, the sage may move that opponent up to 10 ft. in any direction (including directly up), though the opponent must end their movement within the sage&#8217;s unarmed strike reach. Opponents moved by this ability provoke attacks of opportunity from creatures other than the sage for moving through threatened spaces.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900081,
-    "modifiedTime": 1663169296224,
+    "modifiedTime": 1689539978534,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

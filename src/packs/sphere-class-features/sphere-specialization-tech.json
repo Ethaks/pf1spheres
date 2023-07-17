@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Tech Specialization (Ex):</strong> Starting at 3rd level, increase the conscript&#8217;s maximum charge pool size by his practitioner ability modifier.</p>\n<p><strong>Masterful Machinery (Ex):</strong> From 8th level on, the conscript increases the number of crafted gadgets he can have prepared at any one time by his practitioner ability modifier.</p>\n<p><strong>Master Technician (Ex):</strong> At 20th level, the conscript may craft a gadget from the Tech sphere to be permanent. While unactivated, permanent devices gain charges at the rate of 1 per hour. The conscript may only have one permanent device at a time, if the conscript has already reached this limit and wishes to create a new permanent device, he must select one of his existing permanent devices to dismantle.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900698,
-    "modifiedTime": 1663169296796,
+    "modifiedTime": 1689539978564,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may add your casting ability modifier to all damage rolls made with a Bludgeon. Additionally, your Bludgeons count as either a ranged, thrown, or melee weapon under your control, as determined by the caster. A caster may change a Bludgeon from one to the other once per round but a single Bludgeon cannot count as more than one at the same time. You may make attack actions with your Bludgeon, though doing so is not combinable with making a full attack, unless using Divided Mind or Mobile Bludgeon. You may apply appropriate feats and combat talents such as Power Attack to your actions with that Bludgeon, and if treating an object as a melee weapon, the Bludgeon has a reach and threatens the area around it as if wielded by a creature of the same size as the Bludgeon.</p>\n<p>You are considered to be wielding the weapon for the purpose of making attacks of opportunity or flanking, but do not suffer penalties for oversized or undersized weapons.</p>\n<p><sup><strong>Author's Note:</strong> You cannot use attack actions with a full attack using Dancing Weapon. You have the option of one or the other.</sup></p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892301,
-    "modifiedTime": 1663169293980,
+    "modifiedTime": 1689539974657,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

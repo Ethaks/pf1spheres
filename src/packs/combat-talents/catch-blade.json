@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Whenever an attack misses a creature benefiting from your active defense, if the attack was made with a piercing or slashing melee weapon, you can allow the weapon to strike your shield. If you do, the attack hits your shield, dealing damage to the shield as normal, and the weapon becomes bound. As long as the creature&#8217;s weapon is bound, they cannot move from the square they currently occupy. A creature whose weapon is bound may release the weapon as a free action or attempt to break the bind as a standard action by making a successful combat maneuver check against your disarm CMD. If the bound weapon is a natural attack or unarmed strike, the creature must succeed at a successful combat maneuver check to break the bind. You cannot attack with, receive any shield bonus from, nor use active defense with the shield used to bind a creature as long as the bind is in effect. If any effect, including this attack, renders the shield broken or destroyed, this effect ends immediately.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Deflect"]],
+    "tags": ["Deflect"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885776,
-    "modifiedTime": 1663169291704,
+    "modifiedTime": 1689539971069,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

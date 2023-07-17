@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Dark sphere (Animated Shadow (advanced, shadow), Flowing Darkness, Shadow Lurk (shadow)), caster level 10th.</p>\n<p>By spending 2 spell points as a standard action you may become an area of blot for one minute per caster level. You gain a climb speed equal to the land speed and may pass through small cracks and openings as if using the Flowing Darkness talent. You gain a bonus to your reach equal to the radius of your darkness.</p>\n<p>In blot form you can manipulate objects and use your items (which also take on blot form) as if using the Animated Shadow talent. In this form you lose AC bonuses from armor and natural armor, but gain DR/- equal to 1/2 your caster level. You cannot be tripped in blot form. Losing contact with a solid surface, either through your own actions or those of an ally or opponent, immediately ends Melt Into Shadow.</p>\n<p>You may imbue yourself with one (blot) talent at normal spell point cost. This talent affects all targets within the area of your reach. You may change your active (blot) talent as a standard action, though you must pay any spell point cost associated with the new talent. You may end Melt Into Shadow as a swift action, rematerializing in any unoccupied space within your reach.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892597,
-    "modifiedTime": 1663169294180,
+    "modifiedTime": 1689539974661,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

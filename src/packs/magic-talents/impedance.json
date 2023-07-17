@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may create a ward that makes it difficult for creatures to approach the center of the ward. At the beginning of their turn, or when they try to enter the ward, a creature must succeed at a Will save or they are unable to enter or move any closer to the center of the ward. If applied as an aegis, this functions the same except the range is reduced to 5 feet + 5 feet per 10 caster levels.</p>\n<p>This talent does not interfere with attacks; only movement.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aegis"], ["Ward"]],
+    "tags": ["Aegis", "Ward"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894500,
-    "modifiedTime": 1663169294955,
+    "modifiedTime": 1689539974700,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

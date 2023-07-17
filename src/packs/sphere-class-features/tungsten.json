@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The scholar has learned how to work with tungsten metal, an incredibly dense and heavy material that is incredibly intensive to work with. When the scholar first gains this imposition she learns how to craft tungsten plates, which cost 1 hour to create per plate. The scholar may only have a number of plates created at a time equal to 1 + her practitioner modifier. A creature may put a tungsten plate under any armor or clothing for additional protection, at the cost of their maneuverability, granting them both DR 1/adamantine and a -1 armor check penalty for every tungsten plate a creature has equipped.</p>\n<ul>\n<li><strong>Burdening Blast [explosive]:</strong> The scholar may add tungsten to her flashbangs, causing targets who fail their save to also have a large chunk of tungsten lodged within them, making them take a -2 penalty to attack rolls, AC, and CMD; multiple uses of this ability stack, increasing the penalty by an additional -2 per chunk lodged within the target. The target may remove a single chunk as a standard action, or may remove multiple as a full-round action.</li>\n</ul>\n<h2 id=\"toc60\"><span><span style=\"color: #993300\">Advanced Medical Training (Ex)</span></span></h2>\n<p>From 5th level on, the scholar&#8217;s research has taught her advanced medical techniques for treating certain ailments; the scholar may expend 5 uses of a healer&#8217;s kit as a standard action that provokes attacks of opportunity and make a DC 20 Heal check to cure any one of the following conditions affecting a creature: blindness, deafness, paralysis, or poison. For each 10 points by which the scholar exceeds the DC of this check, she may cure an additional condition from the list that the target is suffering as part of the same check. If the scholar has at least 8 ranks in the Heal skill, she may instead use this ability to restore 1 point of ability drain +1 point for every 5 points by which she exceeds this ability&#8217;s DC.</p>\n<p>The scholar can only attempt to heal a particular creature with this ability a number of times per day equal to her Intelligence bonus (minimum 1). Attempting to heal a creature but failing to meet the DC of this ability still counts towards this daily total. In addition, the scholar increases healing done by the hit point healing option of the medical training class feature to 2 hit points +2 for each point by which the scholar exceeds the DC, and may activate it as a move action.</p>\n<h2 id=\"toc61\"><span><span style=\"color: #993300\">Expert Medical Training (Ex)</span></span></h2>\n<p>At 9th level, the scholar&#8217;s research has taught her rare and little known techniques for treating even the most virulent and uncommon ailments; the scholar may expend 10 uses of a healer&#8217;s kit as a standard action that provokes attacks of opportunity and make a DC 25 Heal check to cure any one of the following conditions affecting a creature: confusion, cursed, or disease (including magical diseases).</p>\n<p>If the scholar has at least 11 ranks in the Heal skill, she may instead use this ability to attempt to heal an ally who has died within a number of rounds equal to her Intelligence bonus (minimum 1). If her check is successful, the ally is restored to life and consciousness at 0 hit points, +1 hit point for each point by which she exceeds this check&#8217;s DC. The scholar can only attempt to heal a particular creature with this ability a number of times per day equal to her Intelligence bonus (minimum 1). Attempting to heal a creature but failing to meet the DC of this ability still counts towards this daily total. In addition, the scholar increases healing done by the hit point healing option of the medical training class feature to 3 hit points +3 for each point by which the scholar exceeds the DC, may activate it as a swift action, and no longer provokes an attack of opportunity for using any of her medical training abilities.</p>\n<h2 id=\"toc62\"><span><span style=\"color: #993300\">Mastered Imposition</span></span></h2>\n<p>At 20th level, the scholar chooses any one material imposition she knows; the scholar no longer needs to expend her martial focus for uses of this imposition, never provokes an attack of opportunity for activating it, and may activate it as a swift action. If the scholar chooses a material imposition that grants an explosive option, any bonus damage it deals and the save DC for flashbangs modified by it are determined as though the scholar&#8217;s class level were 4 levels higher than it actually is.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168901021,
-    "modifiedTime": 1663169297226,
+    "modifiedTime": 1689539978582,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

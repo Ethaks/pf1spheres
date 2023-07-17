@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Athletics sphere, Acrobatics 3 ranks.</p>\n<p>Whenever you are affected by an area attack that allows a Reflex save, you may use the force of the effect to make an Acrobatics check to jump as a free action. This movement provokes attacks of opportunity as normal. If you attack your own space with such an area effect, you may use your Acrobatics check as your Reflex saving throw against that effect. You may target your own space even if you are in the air to use this talent.</p>\n<p>If you are carrying an &#8216;improved&#8217; splash weapon created via the Alchemy sphere, you may treat it as an appropriate effect for this talent when affecting your own space. You may make an Acrobatics check to jump even if the item does not ask for a Reflex save, and do not suffer the effects of the item so long as your Acrobatics check is enough to remove you from the item&#8217;s area of effect.</p>\n<p><sup><strong>Wiki Note:</strong> This ability can entirely remove you from an area of effect, before you need to make a Reflex save, if you move far enough.</sup></p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Leap"]],
+    "tags": ["Leap"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887999,
-    "modifiedTime": 1663169292601,
+    "modifiedTime": 1689539971114,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

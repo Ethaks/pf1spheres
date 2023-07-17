@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You can move into the space of another creature. You may end your movement in, and make attacks from, that space. You must succeed at the Acrobatics check for moving through an occupied square to move into a space occupied by an enemy; if you fail, your movement stops in the previous space and you provoke an attack of opportunity. Attacks made against a creature sharing your space in this way take a -4 penalty unless they are made with light or natural weapons. If two creatures sharing a space in this way are of the same size, they grant each other soft cover from all attack made by creatures not sharing the space. If one creature is larger, the smaller creature gains concealment (20% miss chance) against attacks made by creatures not sharing the space. Should this concealment cause an attack to miss, resolve the attack against the larger creature.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885533,
-    "modifiedTime": 1663169291546,
+    "modifiedTime": 1689539971063,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

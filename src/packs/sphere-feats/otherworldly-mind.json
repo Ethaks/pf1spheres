@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> Due to some quirk of your consciousness or oddity in your background, your heart and mind are like that of another realm entirely. Scrying to locate your Dreamscape now treats your Dreamscape as if it is on another Plane rather than on the same Plane as your physical form, granting a +5 bonus to your Will save to avoid the scrying attempt. In addition, any effect that numerically boosts the difficulty of getting into your Dreamscape or moving within it is increased by 1.</p>\n<p><strong>Note:</strong> There will usually be some actual world or realm in a campaign&#8217;s cosmology connected to this feat when it is taken. People within that world or realm, or others who also have the Otherworldly Mind feat connected to that realm, ignore your Dreamscape&#8217;s extra +5 bonus.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898149,
-    "modifiedTime": 1663169295889,
+    "modifiedTime": 1689539976511,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

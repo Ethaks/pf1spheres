@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Channel positive energy class feature, fervor, or lay on hands class feature.</p>\n<p><strong>Benefit:</strong> As a standard action, you can create a blast of positive energy, called an anathema. The anathema requires either a melee touch attack or it can be used as a ray with a range of 30 feet. The anathema does d6 damage per level of the class that grants the ability used to meet the prerequisites, and can harm any living or undead target with the evil descriptor or with an evil alignment, even if positive energy would not normally damage the target. The target does not receive a saving throw against damage done by this ability.</p>\n<p>Using the anathema uses one use of your channel positive energy class feature, fervor, or lay on hands class ability. This is a supernatural ability.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Anathema"]],
+    "tags": ["Anathema"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897924,
-    "modifiedTime": 1663169295729,
+    "modifiedTime": 1689539976501,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>With further refinement of her senses, the crimson dancer learns to view a creature&#8217;s blood in the same way others identify a creature by their faces. Starting 5th level, the crimson dancer is able to taste a creature&#8217;s blood in order to identify them (including being entitled to attempt a Knowledge check as if she had seen the creature directly). She is also capable of remembering the identities of various creatures by their blood, and can identify if she has encountered that blood in the past, including information such as the identity of that creature, or the type of creature it is. When attempting any Knowledge checks to identify creatures by their blood, she gains a +2 bonus on that check. A crimson dancer can use this ability only on freshly spilled blood, up to 24 hours after the blood was shed.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900974,
-    "modifiedTime": 1663169297180,
+    "modifiedTime": 1689539978579,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

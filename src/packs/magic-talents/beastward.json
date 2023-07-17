@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may activate the following abilities as fey-blessings:</p>\n<p><strong>Animal Affinity:</strong> Wild animals have a default disposition toward you of neutral and domestic animals have a default disposition of friendly. Creatures of the animal type will not attack you unless compelled to do so by a Handle Animal check or a compulsion effect.</p>\n<p><strong>Repel Beast:</strong> Creatures of the animal type will not approach closer to you than than 30 feet unless compelled to do so by a Handle Animal check or a compulsion effect. Creatures of the animal type within this range are shaken as long as they remain within it. This does not apply to animal allies such as animal companions, summoned creatures of the animal type, or creatures that are tame per the <a href=\"/beastmastery\">Beastmastery</a> sphere (see Spheres of Might).</p>\n<p><strong>Repel Vermin:</strong> Creatures of the vermin type will not approach closer to you than than 30 feet unless compelled to do so by a Handle Animal check or a compulsion effect. Creatures of the vermin type within this range are shaken as long as they remain within it. This ignores the immunity to the shaken condition granted by the vermin type. This does not apply to vermin under your control such as vermin companions, summoned vermin, or creatures that are tame per the <a href=\"/beastmastery\">Beastmastery</a> sphere (see Spheres of Might).</p>\n<p><strong>Vermin Affinity:</strong> Vermin have a default disposition toward you of neutral. Creatures of the vermin type will not attack you unless compelled to do so by a Handle Animal check or a compulsion effect.</p>\n<p>If you spend an additional spell point, the chosen effect extends to all allied creatures within 30 feet. You may not have the affinity and repel options for the same creature type active at the same time; attempting to do so ends the previous effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Fey-Blessing"]],
+    "tags": ["Fey-Blessing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891517,
-    "modifiedTime": 1663169293698,
+    "modifiedTime": 1689539974643,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

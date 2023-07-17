@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Destiny&#8217;s hand prevents you from faltering after your grand display.</p>\n<p><strong>Benefit:</strong> Add the number of Aristeia feats you possess to the number of times per day you can use any combat feats you have that allows a limited number of daily uses, such as the Stunning Fist feat. If you still have Aristeia points remaining when you end your Aristeia, you may choose to expend them in place of suffering negative levels from Aristeia. For every point expended, you negate one permanent negative level from Aristeia.</p>\n<p>This feat counts as the weapon training and armor training class features for all weapons and armor for the purpose of meeting prerequisites, with your effective weapon training or armor training bonus being equal to the number of Aristeia feats you possess.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Aristeia"]],
+    "tags": ["Aristeia"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898236,
-    "modifiedTime": 1663169295944,
+    "modifiedTime": 1689539976518,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

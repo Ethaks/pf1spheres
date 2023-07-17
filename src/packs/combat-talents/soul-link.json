@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Lancer sphere, impale ability, base attack bonus +5.</p>\n<p>Whenever you control a weapon that is impaling a creature, whenever you take damage, that creature must make a successful Fortitude save or suffer 1/4 of the damage dealt to you; this damage is typeless and cannot be reduced. If the impaled creature would regain hit points from a non-extraordinary source, they must make a successful Will save or gain only 1/2 of the hit points they normally would, granting you temporary hit points equal to 1/2 of the healing they would receive. These hit points last for 1 minute.</p>\n<p>At +10 base attack bonus, the target instead suffers 1/2 the damage you would on a failed save, taking 1/4 of the damage on a successful save. This is a supernatural ability.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887939,
-    "modifiedTime": 1663169292344,
+    "modifiedTime": 1689539971110,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

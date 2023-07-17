@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Craft DC:</strong> 25</p>\n<p>Improved bottled lightning unleashes a small bolt of lightning toward an enemy within 20 ft. of you. This is a ranged touch attack that deals 1d8 points of electricity damage, plus 1d8 per 2 Craft (alchemy) ranks you possess. Any creature in a line between you and the target (including the target) takes 1 point of sonic damage plus 1 point per rank in Craft (alchemy) you possess from the terrific clap of thunder the bolt generates.</p>\n<p>You can increase the Craft DC for this weapon in increments of 10; each time you do so, the range increases by 10 ft. and the sonic damage dealt to creatures in the line of effect increases by 1d6.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Formulae"]],
+    "tags": ["Formulae"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887500,
-    "modifiedTime": 1663169292066,
+    "modifiedTime": 1689539971095,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

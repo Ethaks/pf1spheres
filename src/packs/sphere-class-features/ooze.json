@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The scholar&#8217;s alchemical studies branch out into learning how to cultivate, manipulate, and establish mastery over the strange creatures known as oozes. The scholar may grow a simple garden ooze<sup>B3</sup> in a specially prepared vial during an 8 hour rest; at 5th level and every five levels thereafter she learns to cultivate a powerful ooze in the following order- ochre jelly<sup>B1</sup>, living mirage<sup>B5</sup>, gunpowder ooze<sup>B5</sup>, immortal ichor<sup>B4</sup>. The scholar may activate this imposition to release the ooze from the vial, allowing it to quickly reconstitute and aid her on the battlefield. The ooze understands basic commands such as &#8220;attack&#8221;, &#8220;defend&#8221;, or &#8220;move&#8221; from the scholar and follows them to the best of its ability. If the ooze moves more than 100 ft. away from the scholar, it begins to lose cohesion and dissolves 1d4 rounds later, regardless of whether or not it returns to the scholar&#8217;s side during that time. The scholar cannot have more than one ooze active with this ability at a time, and activating another imposition dismisses the ooze, causing it to return to its vial. The scholar can only have a total number of prepared or captured oozes equal to 1 + her Intelligence bonus. If an ooze is split by an attack, the scholar retains control of one of the oozes (chosen at the time the split occurs), but the other ooze becomes its own creature and acts according to its own impulses, as do any future oozes split off such an independent ooze. As long as the ooze is not destroyed, banished, or dispersed, it can be reclaimed into its vial as a swift action. Oozes conjured in this way are treated as summoned creatures for spells and effects.</p>\n<ul>\n<li><strong>Alchemical Solvent [explosive]:</strong> The scholar mixes special solvents into her flashbangs that dissolve the flesh of non-ooze creatures. In addition to the flashbang&#8217;s normal effects, the target takes 1d4 acid damage per class level the scholar possesses; creatures who succeed on their saving throw take half damage from this effect. When a flashbang modified with this explosive is used against a creature of the ooze type, instead of dealing additional acid damage the target takes a -5 penalty to its saving throw and is stunned for 1d4 rounds if it fails its saving throw. If the scholar does not have an ooze currently active through this imposition, she may spend a full-round action to attempt to capture the ooze inside an alchemical vial, though the ooze is entitled to a Fortitude saving throw (DC 10 + 1/2 scholar level + Intelligence modifier) to resist this effect; oozes whose CR is greater than the scholar&#8217;s class level are immune to this effect. Oozes who fail their saving throw are captured and may be used as though they were cultivated through the primary use of this imposition.</li>\n</ul>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900680,
-    "modifiedTime": 1663169296782,
+    "modifiedTime": 1689539978562,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

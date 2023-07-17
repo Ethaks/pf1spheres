@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may choose for your cure to grant the target fast healing instead of directly healing damage. This grants the target fast healing 1 for 1 minute per caster level. Increase the amount of fast healing granted by the number of (cure) talents you possess. This no longer counts as cure for talents such as Fount Of Life or others.</p>\n<p>You may take this talent a second time to increase the duration of the revitalize effect to 1 hour per caster level, but the effect ends early if the target is healed a total number of hit points equal to 10 x your caster level x (1 + the number of (cure) talents you possess). If a creature gains fast healing from another source (such as another caster using this ability), they may choose each round which they benefit from.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894488,
-    "modifiedTime": 1663169294948,
+    "modifiedTime": 1689539974699,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

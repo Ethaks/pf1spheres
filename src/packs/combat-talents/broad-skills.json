@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may tame creatures of animal intelligence (Intelligence scores of 1 or 2) of any type, though you take a -4 penalty on the check on creatures not of the animal type. Only permanent Intelligence counts for determining if a creature can be affected; ability drain, damage, or other penalties or effects that reduce Intelligence to not allow a creature to be affected. You may also tame mindless creatures of the ooze, plant, or vermin type, bypassing any immunity to mind-affecting effects granted by the their type. Mindless creatures serving you as a mount count as animal allies. Creatures not of the animal type count as twice their Hit Dice against the total amount you may have tame at once. This increase does not stack with the increase for creatures with the swarm subtype from the Beekeeper talent.</p>\n<p>If you possess the Animal Empathy talent, it is likewise expanded with the same penalty.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Handle Animal"]],
+    "tags": ["Handle Animal"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887855,
-    "modifiedTime": 1663169292274,
+    "modifiedTime": 1689539971104,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

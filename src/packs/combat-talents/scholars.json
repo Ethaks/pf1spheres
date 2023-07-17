@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Some of your followers are well-versed in lore and arcane studies. Any allied creature may treat the followers as an extensive library for the purpose of researching knowledge checks (normally requiring 1d4 hours).</p>\n<p>Scholars can identify magic items with a Spellcraft check of 15 + your ranks in Diplomacy.</p>\n<p>Any Knowledge, Linguistics, Spellcraft, or Use Magic Device checks made while with the followers automatically gain a +2 circumstance bonus from the scholars&#8217; aid. This bonus increases by +1 for every 8 ranks in Diplomacy that you possess.</p>\n<p>If you possess the Merchants talent, you gain a 25% discount on scrolls purchased from the caravan.</p>\n<p>If using the Downtime rules from Ultimate Campaign, your followers may generate Magic capital in place of earning gold, with 50 gp equaling 1 Magic. Use your Diplomacy modifier for making the earnings checks. This stacks with capital gains from other talents.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Followers"]],
+    "tags": ["Followers"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885543,
-    "modifiedTime": 1663169291553,
+    "modifiedTime": 1689539971064,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When collecting non-firearm ammunition after it has been used in combat, you have a 85% chance of retrieving the ammo in good condition such that it can be used again, rather than 50%. You may draw a thrown weapon or a piece of non-firearm ammunition from the environment or a dead creature as part of the same action used to make a ranged attack with it.</p>\n<p>You may attempt to extract thrown weapons or non-firearm ammunition from a living creature as well, but doing so requires you to make a steal combat maneuver. If successful, you may extract as many thrown weapons or pieces of non-firearm ammunition as you desire from the target creature, up to the total amount present. If the steal was performed as a standard action, you may use the ammunition to make an attack action as part of the same standard action used to perform the steal combat maneuver.</p>\n<p>When extracting weapons or ammunition from a target in this fashion, that target suffers 1 point of bleed damage per piece of ammunition extracted. This bleed damage stacks with itself.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887404,
-    "modifiedTime": 1663169292026,
+    "modifiedTime": 1689539971091,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

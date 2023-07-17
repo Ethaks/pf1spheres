@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere (Finesse, Telekinetic Maneuver), caster level 10th.</p>\n<p>When you lift a creature with your telekinesis you may spend a spell point to take precise control over their physical form. You can force them to run, jump, manipulate objects, and wield weapons, but you cannot force them to use special abilities such as spells that are not a function of bodily movement, and cannot take control of their vocal cords, though you can prevent them from making sounds. If you force the subject to engage in combat, use an attack bonus equal to your base attack plus your casting ability modifier, and substitute your casting ability modifier for any ability modifiers on damage rolls. In addition, substitute your casting ability modifier for the subject&#8217;s Dexterity modifier when determining armor class. When performing actions that would require a skill check, use your skill ranks plus your casting ability modifier for the check.</p>\n<p>Since the subject is only under your physical control, on their turn they can still take purely mental actions. You must use Hostile Lift to affect an unwilling creature, and they are allowed the normal Will saves to negate the effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894052,
-    "modifiedTime": 1663169294623,
+    "modifiedTime": 1689539974684,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

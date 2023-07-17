@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Sometimes the heat of battle does not allow one to properly set and camouflage a trap. Instead of placing a trap, you may attempt to immediately apply it to a creature. Doing so requires the normal action for placing the trap. As the trap is never set, creatures do not gain any bonus to AC or saves for seeing you set the trap. You may poison a trap used in this way by spending the required action to poison a weapon no more than 1 round prior to using this talent.</p>\n<p>A dart trap may be immediately triggered, originating its line from any corner of your square. This provokes attacks of opportunity as a ranged attack.</p>\n<p>A snare trap may be employed against any creature within your natural reach and does not provoke an attack of opportunity.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887863,
-    "modifiedTime": 1663169292280,
+    "modifiedTime": 1689539971105,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

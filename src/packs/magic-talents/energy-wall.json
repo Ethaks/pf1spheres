@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may craft your destructive blast into a 5-foot-by-5-foot cubic wall with a duration of concentration, so long as it is fully contained within your destructive blast range. You may spend a spell point to increase this effect and create a wall up to 20 feet high and up to 20 feet wide per caster level in a straight line, or a hemisphere with a radius up to 5 feet per 2 caster levels (minimum 5 feet). If used in either way, the duration increases to 1 round per caster level.</p>\n<p>The wall does not block line of effect, line of sight, projectiles, or thrown objects. Creatures passing through your wall suffer your destructive blast&#8217;s damage and effects as normal. Creatures standing in the wall&#8217;s space when it is created are allowed a Reflex save to avoid damage.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Blast Shape"]],
+    "tags": ["Blast Shape"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891129,
-    "modifiedTime": 1663169293662,
+    "modifiedTime": 1689539974640,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

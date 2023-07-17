@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When using an Illusion sphere effect you may spend an additional spell point to render the illusion quasi-real, granting it the shadow descriptor. If you have a shadow pool you may use a shadow point instead of a spell point. Illusions that you grant the (shadow) descriptor to with the Shadow Infusion talent are modified in the following ways:</p>\n<p>If you possess Illusionary Touch x2, you may transform the damage dealt by the illusion to either acid, bludgeoning, cold, fire, electricity, piercing, or slashing (chosen when the illusion is created but can be altered with the illusion), and may make it either lethal or nonlethal. If you also possess Illusionary Sound you may create shadow effects that deal sonic damage. If you also possess Manipulate Aura you may spend an additional spell point each round to create shadow effects that deal force, positive energy, or negative energy damage.</p>\n<p>If an illusion would have a negated effect if disbelieved, a shadow version of that illusion instead has its effectiveness reduced by half (rounded down). For saving throws, this changes the saves to Fort (partial) or Will (partial) instead of Fort (negates) or Will (negates) as applicable. Creatures with the Stalwart ability (or similar) features may choose to treat shadow illusions as normal illusions upon successfully disbelieving the illusion.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890357,
-    "modifiedTime": 1663169293236,
+    "modifiedTime": 1689539974612,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

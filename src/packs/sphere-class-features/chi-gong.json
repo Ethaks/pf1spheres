@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>At 1st level, the sage learns the chi gong technique, which allows him to wield his ki as a precise instrument, thrusting it into an opponent and disrupting their physiology or reinforcing a wounded ally. A sage&#8217;s chi gong is measured in d6&#8217;s: the sage begins with 1d6 chi gong, which increases by 1d6 at 3rd level and every 2 levels thereafter. The sage gains a melee touch attack that is treated as a light weapon and can be used whenever the sage could make an attack (such as during an attack action or attack of opportunity) dealing piercing damage to the opponent equal to his chi gong dice; the sage may also apply this bonus damage to his unarmed strikes or natural attacks. In addition, the sage can use this ability to heal a creature instead of damaging them by sealing their wounds together with ki as a move action, but this patchwork healing cannot restore a creature&#8217;s hit points above half their normal maximum.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900502,
-    "modifiedTime": 1663169296629,
+    "modifiedTime": 1689539978555,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

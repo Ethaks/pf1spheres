@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Open Hand sphere, base attack bonus +20.</p>\n<p>Whenever you kill a creature with an unarmed strike, that creature&#8217;s soul is trapped inside of your fists for up to 1 week. While it is inside of your fists, you can communicate with it normally and can influence its nature, being able to change its alignment by 1 step two times unless it has an alignment subtype (you could change a creature from chaotic evil to neutral (chaotic to neutral and evil to neutral) or chaotic good (evil to neutral and neutral to good)). An unwilling soul may attempt a Will save to resist each attempt to change its alignment. You can also choose to resurrect that creature with a full-round action as though using the Resurrection Life sphere talent, inflicting 2 temporary negative levels onto the creature in the process. You cannot affect the same creature more than once a year with this talent.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888207,
-    "modifiedTime": 1663169292797,
+    "modifiedTime": 1689539971123,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Some talents possess the (smash) tag, allowing you to grant an improvised weapon or weapon with the fragile special feature the broken condition in exchange for a benefit, known as a break. If you would apply such a benefit to a weapon that has the broken condition, it is destroyed. If you would use a (smash) talent in conjunction with a ranged weapon, the ranged weapon gains the broken quality and not its ammunition. You can only break an improvised weapon that is made of a material with a hardness of 5 or lower (wood, glass, etc.). You cannot break magic items or creatures being used as improvised weapons.</p>\n<p>You may only use one (smash) talent as part of a given action (such as part of an attack or in response to another effect); if you would use a (smash) talent as part of an action that would involve multiple attack rolls (such as a full-round attack or a barrage), the (smash) talent only applies to the first attack. If a (smash) talent would have you break a weapon as part of an attack, you must break the weapon being used to attack.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885580,
-    "modifiedTime": 1663169291578,
+    "modifiedTime": 1689539971066,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

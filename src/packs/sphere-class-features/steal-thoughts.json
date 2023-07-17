@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The wraith is intuitively aware of what actions are against his host&#8217;s nature. When possessing a creature, the wraith may spend a spell point as a standard action to read its mind, allowing him to attempt a single Knowledge check using its skill modifiers (even if the wraith has previously failed the same check using his own modifiers) or receive the answer to a single question that the creature would know (such as &#8216;Where did I leave my key?&#8217; or &#8216;What is my mother&#8217;s maiden name?&#8217;).</p>\n<p>A successful Will save negates this effect. A creature is aware of succeeding on this save, sensing the mental probing of the wraith, though not the details of the information sought. Additional uses of this ability while possessing the same creature do not allow Knowledge checks to be retried if they would not otherwise be possible to retry.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900526,
-    "modifiedTime": 1663169296648,
+    "modifiedTime": 1689539978558,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

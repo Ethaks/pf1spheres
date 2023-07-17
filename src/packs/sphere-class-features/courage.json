@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>A warden of courage is a fearless and brave leader, always standing to attention and ensuring their allies follow suit. These wardens make great warriors and leaders, and tend to prefer offense over the typical defense.</p>\n<p><strong>Vigil Sphere:</strong> War</p>\n<p><strong>Courageous Guard:</strong> A courageous warden&#8217;s guard feels exhilarating. At 3rd level, the warden&#8217;s guarded ally gains a morale bonus to weapon attack rolls equal to his guard bonus. Additionally, as long as the warden can see his guarded allies, they are treated as being within his totem radius for the purposes of using his War sphere abilities.</p>\n<p><strong>Trained Strike:</strong> At 7th level, the warden&#8217;s guarded allies may change all rolled 1s and 2s to 3s when rolling weapon damage rolls, and may treat their first attack roll made in a round as being 1 higher for the purposes of determining whether the attack threatens a critical hit.</p>\n<p><strong>Aided Devastation:</strong> At 11th level, whenever the warden or an ally within his guard range would threaten a critical hit, the warden may expend his martial focus and a spell point as an immediate action to immediately confirm the critical hit.</p>\n<p><strong>Fearless:</strong> At 15th level, the warden&#8217;s guarded allies are immune to fear effects. Additionally, whenever the warden would have a patrol active, allies within his area of patrol gain a +4 bonus on saving throws against fear effects.</p>\n<p><strong>Relentless Determination (Su):</strong> At 19th level, whenever an ally within the warden&#8217;s threatened area would be reduced to 0 or fewer hit points, the ally immediately becomes stable and conscious for 1 round. Additionally, if an ally would instead die within the warden&#8217;s threatened area, they may instead act as if they were conscious and staggered for 1 round, after this round has passed, the ally dies. The ally is still considered to be dead for this round, and cannot be healed unless the caster can target dead creatures (such as the Resuscitate talent from the Life sphere).</p>\n<h3 id=\"toc52\"><span><span style=\"color: #00c000\">Vigil Reinforcements</span></span></h3>\n<h4 id=\"toc53\"><span>Focusing Guard (requires courage)</span></h4>\n<p>As a move action, the warden&#8217;s guarded allies may suspend the benefits of his guard until the end of their next turn to regain their martial focus.</p>\n<h4 id=\"toc54\"><span>Grasping Guard (requires courage)</span></h4>\n<p>The warden&#8217;s guarded allies gains a bonus to CMB equal to his guard bonus.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900530,
-    "modifiedTime": 1663169296652,
+    "modifiedTime": 1689539978558,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

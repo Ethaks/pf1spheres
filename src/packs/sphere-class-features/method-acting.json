@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>Every non-base persona a troubadour possesses its own unique abilities, based upon what trope that persona falls into, and as the troubadour steps into those roles, he acquires those abilities. Each persona may possess only one trope. If the troubadour gains a skill rank, feat, or talent as part of his base persona that was also granted to him by a persona, he may immediately replace that skill rank, feat, or talent on the non-base persona.</p>\n<p>Each trope grants a trope benefit at 1st level, as well as access to a list of persona quirks. Each persona gains one persona quirk of the troubadour&#8217;s choice at 3rd level and every 2 levels thereafter from those granted by its trope or tropes. Unless specified otherwise, a persona quirk cannot be granted to the same persona more than once.</p>\n<p>Tropes are listed at the end of this page.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900218,
-    "modifiedTime": 1663169296367,
+    "modifiedTime": 1689539978544,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>When all the pieces come together to make something amazing.</p>\n<p><strong>Prerequisites:</strong> Warleader sphere, ability to share teamwork feats, challenge class feature, character level 11th.</p>\n<p><strong>Benefit:</strong> When using your challenge class ability to challenge a target, allies you have shared a teamwork feat with (such as with the Cavalier&#8217;s tactician ability, Warleader conscript specialization&#8217;s born leader ability, the Cavalry Officer Cavalier&#8217;s officer ability, or any other similar ability subject to GM discretion) and are benefiting from a Warleader tactic you created also receive half the benefits of your challenge class ability, including half the benefits from your order if applicable (minimum +1). Allies benefit from your challenge&#8217;s bonuses until the target of your talent is dead or unconscious or until the combat ends.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["combat"]],
+    "tags": ["combat"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898141,
-    "modifiedTime": 1663169295884,
+    "modifiedTime": 1689539976508,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

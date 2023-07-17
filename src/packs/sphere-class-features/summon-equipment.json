@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>An armorist may spend a spell point as a swift action or move action to conjure a weapon, shield, or suit of armor into her hands or directly onto her body, which stays for 1 minute per class level before disappearing.</p>\n<p>The armorist must be proficient with the weapon or type of shield or armor to summon it, and in the case of exotic weapons, she must have studied a pre-existing version of the weapon for at least 1 week. This weapon, shield, or suit of armor is masterwork quality, and while antimagic barriers may prevent the armorist from summoning these items, the items themselves are not considered magical creations and so may not be dispelled. Ranged weapons come with 50 pieces of basic ammunition.</p>\n<p>When summoning armor, the armorist may also summon the suit directly onto a willing touched target&#8217;s body as a standard action. When summoning armor onto her own or another target&#8217;s body directly, their current armor disappears in favor of the new armor until the duration is over and the old armor returns. Dismissing a piece of summoned equipment is a free action.</p>\n<p>Summoned equipment is always considered masterwork quality and gains a +1 enhancement bonus for every 3 armorist levels the creator possesses, to a maximum of +6 at 18th level. These bonuses may be traded for special abilities according to Table: Bound Equipment. A piece of summoned equipment cannot have higher than a +5 enhancement bonus; enhancement bonuses beyond this amount must be traded for special abilities.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900090,
-    "modifiedTime": 1663169296237,
+    "modifiedTime": 1689539978535,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

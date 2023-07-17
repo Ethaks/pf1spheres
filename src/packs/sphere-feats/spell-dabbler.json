@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>You have learned to hold rituals in your memory to a minor degree.</p>\n<p><strong>Prerequisites:</strong> Spherecaster (Spheres of Power).</p>\n<p><strong>Benefit:</strong> You may choose one ritual per day you may use up to the highest level you may cast. By spending 15 minutes preparing beforehand, you may cast this ritual once as a spellcaster at any point during that day. This may also be a lower-level ritual augmented by any metamagic feats you possess, so long as its effective level does not exceed that which you can cast. All drawbacks of your tradition still apply, and the spell may be augmented by any tradition boons you possess. Rather than a material cost, (unless the spell has costly material components already listed), you must spend a number of spell points at the time you prepare the ritual dependent on the level of the ritual in question: 0-2: 1 spell point, 3-5: 2 spell points, 6-8: 3 spell points, 9: 4 spell points.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["General"]],
+    "tags": ["General"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897698,
-    "modifiedTime": 1663169295570,
+    "modifiedTime": 1689539976487,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

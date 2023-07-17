@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Light sphere (Flicker (light), Incarnate Glow (advanced)), caster level 15th.</p>\n<p>While a target is under the effects of Incarnate Glow, they can take advantage of their near-light state to move at much greater speeds. Whenever the target takes a move, run, withdraw or 5-foot step action, as long as they move in a straight line and there are no factors that block normal sight (such as concealment from darkness or fog), they may move five times the normal distance they would travel.</p>\n<p>In addition, the target may briefly move at light speed. This functions as a single run action, following the normal rules for run and movement, except the target may not pass through factors that block normal sight (such as concealment from darkness or fog), but may otherwise run 100 miles per caster level in a line as part of a single action. After taking this action, the glow and all its effects (including the effects of Flicker, Incarnate Glow, and Light Speed) immediately end.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891972,
-    "modifiedTime": 1663169293944,
+    "modifiedTime": 1689539974652,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

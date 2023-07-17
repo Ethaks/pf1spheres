@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>If your companion is reduced to 0 hit points and disappears, you may re-summon it by increasing the spell point cost of summon by one. The companion reappears at one quarter of its maximum hit points with 1 temporary negative level. Any other conditions or ongoing effects on the companion are removed.</p>\n<p>This negative level lasts until you rest to regain spell points but otherwise may not be removed. After using this talent you may re-summon the companion as normal without an increased cost, but if the target is reduced to 0 hit points and this talent is used on them again, the negative temporary levels stack. If the companion accumulates negative levels equal to its Hit Dice, it may not be summoned again until the negative levels are removed by resting to regain spell points. 1 Hit Die companions may be summoned by this ability once per day, but take a -1 penalty on all d20 checks in place of the negative level.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893592,
-    "modifiedTime": 1663169294604,
+    "modifiedTime": 1689539974682,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

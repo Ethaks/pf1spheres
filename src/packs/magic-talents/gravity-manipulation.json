@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Telekinesis sphere (Gravity Shift), caster level 15th.</p>\n<p>When you use Gravity Shift, you may spend two spell points (instead of one, if you are already spending a spell point for Gravity Shift, otherwise you must spend both) to have greater control over gravity. You may create or manipulate areas of no gravity or objective gravity, and may apply any gravity trait to any area. Creatures in the area may attempt a Reflex save to hang onto an adjacent surface whenever you change gravity.</p>\n<p><strong>No Gravity:</strong> Individuals in an area of no gravity merely float in space, unless other resources are available to provide a direction for gravity&#8217;s pull.</p>\n<p><strong>Objective Gravity:</strong> The strength of objective gravity is the same as normal, but the direction is not the traditional &#8220;down&#8221; toward the ground. It may be down towards any solid object, at an angle to the surface of the ground itself, or even upward.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892701,
-    "modifiedTime": 1663169294278,
+    "modifiedTime": 1689539974666,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

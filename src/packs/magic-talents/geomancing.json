@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a standard action, you may command terrain and natural effects to act on your behalf. The effect produced depends on the environmental aspect targeted. Each effect must be centered or targeted within close range. Because geomancing manipulates natural elements, it is not subject to spell resistance, even if a geomancing ability targets a creature directly.</p>\n<p>Geomancing effects come in two forms: instantaneous and concentration. Instantaneous effects have no duration, while concentration effects persist as long as the caster concentrates or they may spend a spell point as a free action to allow the effect to continue for 1 round per caster level without the need for concentration.</p>\n<p>When a caster gains the Nature sphere, he chooses and gains one of the following Nature packages, with its included abilities. A caster may gain the Expanded Geomancing talent to gain additional packages.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892298,
-    "modifiedTime": 1663169293977,
+    "modifiedTime": 1689539974657,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

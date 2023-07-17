@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Allies within range of this tactic are granted a +1 morale bonus on Reflex saves to avoid damage from attacks and effects that target an area, such as a fireball spell or the splash damage from an alchemist&#8217;s bombs. For every 4 ranks in Diplomacy you possess, this bonus increases by +1. Once per round when an ally affected by this tactic fails their Reflex save against such an effect, you may spend an immediate action to allow them to reroll the save.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Tactic"]],
+    "tags": ["Tactic"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885547,
-    "modifiedTime": 1663169291556,
+    "modifiedTime": 1689539971064,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a standard action, you may create a sphere of darkness with a radius of up to 10 feet + 5 feet per 2 caster levels, centered anywhere within medium range. This darkness radiates from a central point, and cannot extend through walls. You must concentrate to maintain this sphere, but you may always spend 1 spell point as a free action to make the darkness last for 1 minute per level without concentration. You must remain within medium range of the darkness to sustain it through concentration.</p>\n<p>In this darkness, bright light (including daylight) becomes dim light, imposing a 20% miss chance to attacks. Normal light and dim light become absolute darkness. Sources of normal light only produce dim light in a 5-foot radius, and sources of dim light disappear. This is not subject to spell resistance, but creatures with darkvision may see in this darkness as normal. You may always dismiss one of your darkness effects as a free action.</p>\n<p>Talents designated as (darkness) add additional effects to a sphere of darkness. Only one such talent may be applied to an individual sphere of darkness, but areas of darkness with different effects may overlap. Individual darkness effects do not stack with themselves.</p>\n<p>If an effect that creates light is created inside a darkness effect, the creator of the light effect must attempt a magic skill check against the creator of the darkness effect. If the check succeeds, the light effect functions normally. Otherwise, it functions as any other light source, as described above.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890478,
-    "modifiedTime": 1663169293316,
+    "modifiedTime": 1689539974621,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point to trap the target in a box made of telekinetic force. On a failed Reflex save, the target becomes trapped for 1 round per caster level, effectively sealing the target off from all other creatures. The trapped target cannot move from their space except by means of dimensional travel, such as teleport from the Warp sphere, but is still trapped even if moved by such an effect. The target treats all other creatures as though they had total cover against it, and all other creatures treat the target as though it has total cover against them.</p>\n<p>A trapped target may attempt a Reflex saving throw or Escape Artist check as a full-round action with a DC equal to this effect&#8217;s DC to escape and end this effect. If the target takes damage while trapped, they may attempt a check to escape as a free action which can be taken even if it is not their turn.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893583,
-    "modifiedTime": 1663169294596,
+    "modifiedTime": 1689539974681,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

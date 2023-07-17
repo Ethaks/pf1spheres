@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You have achieved mastery over opening magical windows between yourself and others. You can now create new manabonds as a free action as part of casting your other Mana sphere abilities, rather than a swift action.</p>\n<p>In addition, you can now become the host for multiple manabonds (but not benefit from being the recipient to multiple). When you spend a swift action to concentrate on a manabond, you count it as if you were concentrating on all currently active manabonds you have created and linked to yourself. You may also spend a spell point as part of creating a manabond to allow it to remain for 1 minute per caster level without concentration, although you may still activate effects that otherwise require concentrating on the manabond as a swift action.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894279,
-    "modifiedTime": 1663169294817,
+    "modifiedTime": 1689539974688,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

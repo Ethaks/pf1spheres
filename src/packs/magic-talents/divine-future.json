@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may divine for a glimpse of the future, giving yourself insight into the happenings of that day. At any time during that day, you may add an insight bonus equal to 1d4 + 1 per 5 caster levels to one attack roll, skill check, saving throw, ability check, initiative roll, or combat maneuver roll you are about to make.</p>\n<p>As an immediate action, you may instead grant this benefit to an ally who can both see and hear you. You may take this talent multiple times, to a maximum of 5 times. You can only have one use of this ability waiting to be used at a time per time you have taken this talent. Every time you divine for the future, you regain all your uses of this ability for that day.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Divine"]],
+    "tags": ["Divine"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894641,
-    "modifiedTime": 1663169294964,
+    "modifiedTime": 1689539974700,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

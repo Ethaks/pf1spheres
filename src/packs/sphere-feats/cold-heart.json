@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Your blood flow slows and heartbeat grows erratic without significant harm to you, increasing your ability to survive freezing temperatures and electric shocks.</p>\n<p><strong>Prerequisite:</strong> Death sphere.</p>\n<p><strong>Benefit:</strong> You gain +1 spell point. You can spend a spell point as an immediate action to gain cold resistance 5 and electricity resistance 5 for 1 round. For each necrosis feat you possess beyond this one, the cold and electricity resistances increase by 5 and the duration increases by 1 round.</p>\n<p><strong>Four Necrosis Feats:</strong> You always have cold resistance 10 and electricity resistance 10, and when you spend a spell point, you gain immunity to cold and electricity for a number of rounds equal to the number of necrosis feats you possess.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Necrosis"]],
+    "tags": ["Necrosis"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897625,
-    "modifiedTime": 1663169295524,
+    "modifiedTime": 1689539976482,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

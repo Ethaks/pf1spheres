@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may imbue a target&#8217;s shadow with the power of your darkness magic. As shadow ability, you may spend a spell point to cause a target&#8217;s shadow to wrap itself around the target, creating a band of supernatural darkness across their eyes, rendering the target blinded. The blindfold lasts as long as you concentrate to a total of 1 round per caster level, but you may spend an additional spell point as a free action to allow the effect to endure for this duration without concentration. Darkvision has no effect on this blindfold, but creatures with the see in darkness ability are immune.</p>\n<p>Additionally, if a talent is usable as both a (darkness) and (blot), you may now use it as if it also possessed the (shadow) tag. Talents used in this fashion cost an additional spell point to use and have a duration of 1 round per caster level.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Shadow"]],
+    "tags": ["Shadow"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890431,
-    "modifiedTime": 1663169293278,
+    "modifiedTime": 1689539974615,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

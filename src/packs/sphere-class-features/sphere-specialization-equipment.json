@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Well Equipped (Ex):</strong> At 3rd level, a conscript gains a +1 competence bonus to attack and damage rolls with any weapon with which he is proficient; at 10th level, this bonus increases by +1.</p>\n<p><strong>Guarding Gear (Ex):</strong> From 8th level on, the conscript gains a competence bonus to his CMD equal to his practitioner modifier.</p>\n<p><strong>Well Studied (Ex):</strong> At 20th level, whenever a conscript rolls to confirm a critical hit with a manufactured weapon, he can roll twice and select the better result. While wearing any armor or carrying a shield, the conscript is treated as though they had the heavy fortification armor special ability.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900387,
-    "modifiedTime": 1663169296528,
+    "modifiedTime": 1689539978546,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

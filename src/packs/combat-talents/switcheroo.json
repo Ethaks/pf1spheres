@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Whenever you successfully perform a steal combat maneuver, you may replace what you stole with a different item, placing it in either an empty hand or pocket of the creature. If the item you placed on their person is somehow volatile (such as a vial of alchemist&#8217;s fire, a thunderstone, or an alchemist&#8217;s bomb), you can rig that item to explode as an immediate action (you must choose when to make the item explode within a number of rounds equal to your ranks in Sleight of Hand); you are immune to any damage or effects of explosions triggered in this manner. When you have at least 10 ranks in Sleight of Hand, you may choose when to make the item explode within a number of minutes equal to your ranks in Sleight of Hand.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888230,
-    "modifiedTime": 1663169292815,
+    "modifiedTime": 1689539971124,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

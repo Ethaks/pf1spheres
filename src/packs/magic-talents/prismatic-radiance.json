@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Light sphere (Searing Light (light), Style), caster level 15th.</p>\n<p>By spending three spell points to create bright light, you cause your glow to shed a dazzling array of beautiful and deadly colors. Each round a creature is within the area of this bright light, roll 1d8 to determine what effect the light has on them.</p>\n<strong>Table: Prismatic Radiance</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>1d8</th>\n<th>Color</th>\n<th>Effect</th>\n</tr>\n<tr>\n<td>1</td>\n<td>Red</td>\n<td>1d4 fire damage per caster level (Reflex half)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Orange</td>\n<td>1d6 acid damage per caster level (Reflex half)</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Yellow</td>\n<td>1d8 untyped damage per caster level (Reflex half)</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Green</td>\n<td>Poison (Frequency 1/round for 4 rounds; effect 1d2 Constitution damage; cure 2 consecutive Fortitude saves)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Blue</td>\n<td>Dazed for 1d2 rounds (Fortitude negates)</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Indigo</td>\n<td>Confused for 1d4 rounds (Will negates)</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Violet</td>\n<td>Each round for one minute, 50% chance to take no actions (Will negates)</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Multicolor</td>\n<td>Roll twice more, rerolling any further results of 8</td>\n</tr>\n</table>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Light"]],
+    "tags": ["Light"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894360,
-    "modifiedTime": 1663169294847,
+    "modifiedTime": 1689539974694,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

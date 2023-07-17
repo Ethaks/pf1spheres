@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>As a standard action you can divide your mental attention to gain two sets of actions each turn, one physical and one mental.</p>\n<p>Your physical actions are limited to a simple, repetitive task (such as following a road, loading a cart, or digging a hole) or a task that exactly follows detailed instructions (such as playing from sheet music or cooking from a recipe). You cannot effectively engage in combat: you lose your Dexterity bonus to armor class and automatically miss against targets with an AC greater than 10. Your mental actions can be any purely mental actions, such as using magic without verbal or somatic components, attempting Perception, Knowledge, Sense Motive, or similar skill checks. As a standard mental action you can change what task your physical body is assigned to or end this effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Cognition"]],
+    "tags": ["Cognition"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890469,
-    "modifiedTime": 1663169293310,
+    "modifiedTime": 1689539974620,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

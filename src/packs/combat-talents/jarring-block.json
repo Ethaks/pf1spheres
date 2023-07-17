@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Whenever a melee attack misses a creature benefiting from your active defense, you may initiate a disarm combat maneuver against the attacking creature as a free action that does not provoke an attack of opportunity and that can be taken even when it is not your turn. This must target the weapon used for the triggering attack, and must be accomplished with your shield, rather than a weapon you are wielding. You may add your shield&#8217;s enhancement bonus to AC to your disarm check.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Deflect"]],
+    "tags": ["Deflect"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888166,
-    "modifiedTime": 1663169292752,
+    "modifiedTime": 1689539971117,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

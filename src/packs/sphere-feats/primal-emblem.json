@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Banner class feature.</p>\n<p><strong>Benefit:</strong> Choose a totem from the War sphere that does not require spell points to be spent when it is created. Your banner can also create the effects of that totem, using your class level as your caster level and your Charisma modifier (or practitioner modifier, if using Spheres of Might) as your casting ability modifier, if you do not already possess a casting tradition. If the totem produces the same type of bonus as your banner, these bonuses stack and are considered a single bonus. You can create the effects of the totem for a maximum number of rounds per day equal to your casting ability modifier + 1/2 your base attack bonus (minimum 1). Activating this ability is a free action, and a free action must be spent each round to maintain it.</p>\n<p>You may purchase this feat multiple times. Each time choose another totem. Rounds of use of one totem can not be used to fuel a different totem. You may only have one totem active at a time.</p>\n<p>This is an extraordinary ability.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897582,
-    "modifiedTime": 1663169295505,
+    "modifiedTime": 1689539976480,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

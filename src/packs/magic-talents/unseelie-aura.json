@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may activate the following abilities as fey-blessings:</p>\n<p><strong>Aura of Shattered Loyalties:</strong> Any hostile creature within 30 feet of you that is shaken, frightened, panicked or cowering is unable to benefit from aid another bonuses, flanking, or teamwork feats and does not count as a willing target of its allies&#8217; spells. This lasts for as long as the creature remains within this aura. You may suppress or resume this effect as a free action. This is a mind-affecting fear effect.</p>\n<p><strong>Fear Aura:</strong> Any hostile creature entering within 30 feet of you must succeed on a Will save or be shaken for as long as they remain in the aura and for 1d4 rounds afterwards. Once a creature succeeds on the save against this effect, it is immune to any instance of it originating from you for 24 hours. You may suppress or resume this effect as a free action. This is a mind-affecting fear effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Fey-Blessing"]],
+    "tags": ["Fey-Blessing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892765,
-    "modifiedTime": 1663169294340,
+    "modifiedTime": 1689539974670,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

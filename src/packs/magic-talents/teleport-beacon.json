@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point to designate a touched spot, object, or creature as a personal dimensional beacon, which lasts for one hour per caster level. You may spend a spell point to teleport yourself to your teleport beacon regardless of how far away it is, so long as it is on the same plane. If your teleport beacon is a creature or object, you may instead teleport your teleport beacon to you. You must use the Unwilling Teleport talent to do this with an unwilling creature, and they are allowed a saving throw as normal.</p>\n<p>There is no limit to the number of teleport beacons you can have active at one time. If you possess multiple teleport beacons and the Mass Teleport talent, you may use the Mass Teleport talent to teleport multiple teleport beacons at once, as if you were touching all affected targets. All affected teleport beacons must be teleported to the same location (you, or an unaffected teleport beacon of your choice).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Space"]],
+    "tags": ["Space"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892673,
-    "modifiedTime": 1663169294246,
+    "modifiedTime": 1689539974664,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

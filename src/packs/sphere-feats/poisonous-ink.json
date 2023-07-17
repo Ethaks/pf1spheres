@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>The ink you produce in quantity can do more than blind opponents, sometimes sickening or even killing foes.</p>\n<p><strong>Prerequisites:</strong> Cecaelia subtype, Improved Ink Jet.</p>\n<p><strong>Benefit:</strong> In addition to causing blindness for 1 minute, your ink jet becomes poisonous.</p>\n<p><strong>Ink jet</strong>&#8212;contact; <strong>save</strong> Fort DC 10 + 1/2 cecaelia&#8217;s hit dice + cecaelia&#8217;s Constitution modifier; <strong>frequency</strong> 1/round for 6 rounds; <strong>effect</strong> 1d2 Con, <strong>cure</strong> 2 saves.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Racial"]],
+    "tags": ["Racial"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897648,
-    "modifiedTime": 1663169295540,
+    "modifiedTime": 1689539976484,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

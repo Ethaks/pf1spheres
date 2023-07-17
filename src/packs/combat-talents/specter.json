@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You close in on foes with an unnerving alacrity. You must expend martial focus each round you start berserking to use this talent. At the start of your turn, you may designate one foe within 20 feet that is not adjacent to you, increasing by +5 feet for every 4 points of base attack bonus you possess. Your movement does not provoke attacks of opportunity from that foe as long as you end your movement adjacent to that foe. In addition, you gain a +2 dodge bonus to your AC against all attacks of opportunity that you provoke, not just against those that are caused when you move out of or within a threatened area, increasing by +1 for every 4 points of base attack bonus you possess.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Adrenaline"]],
+    "tags": ["Adrenaline"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887954,
-    "modifiedTime": 1663169292355,
+    "modifiedTime": 1689539971111,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

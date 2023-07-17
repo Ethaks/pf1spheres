@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Whenever you destroy a magic wand, staff, rod, scroll, or similar magic item held by an enemy with a sunder attempt as part of a brutal strike, if the item is destroyed, any excess damage is applied to the item&#8217;s wielder. No damage is transferred if you decide to leave the item with 1 hit point. When targeting a battered creature, you may roll the sunder check twice and take the best result. In addition, you gain a competence bonus equal to 1/2 your base attack bonus on any Reflex saving throws made as a result of the item&#8217;s destruction (such as when destroying a staff of power).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Exertion"]],
+    "tags": ["Exertion"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887660,
-    "modifiedTime": 1663169292089,
+    "modifiedTime": 1689539971096,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

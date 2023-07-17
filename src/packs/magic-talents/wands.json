@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You actualize the target&#8217;s abundant energy and passion. When granted as a motif, the target gains a +2 bonus on initiative checks. This bonus increases by +1 for every 10 caster levels.</p>\n<p>The target may discharge this effect as an immediate action to cling to momentary advantages and make the most of them. For the next minute per caster level, whenever a circumstance, competence, insight, or luck bonus or bonus due to battlefield positioning, such as flanking, higher ground, or cover, would end, the target retains the benefits of that bonus until the end of their next turn.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Motif"], ["Arcana"]],
+    "tags": ["Motif", "Arcana"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890785,
-    "modifiedTime": 1663169293569,
+    "modifiedTime": 1689539974630,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

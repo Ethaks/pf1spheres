@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Craft DC:</strong> 25</p>\n<p>You create a single use bag of coarse yellowish-red powder that can be used as a range touch attack with a range increment of 10 ft. Anyone standing in the square of impact or an adjacent squares must make Fortitude saves; creatures within 10 ft. of the point of impact must also make Fortitude saves, but gain a +5 competence bonus on the save. Creatures who fail their initial save are staggered for 1 round as they succumb to uncontrollable sneezing, and must make a Fortitude save each round for 1d4+1 rounds thereafter or continue to be staggered.</p>\n<p>A successful save ends the effect. This is a poison effect. You can increase the Craft DC for this item in increments of 10; each time you do so, the area of effect improves by 5 ft., and all saving throw DCs increase by +2.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Formulae"]],
+    "tags": ["Formulae"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886385,
-    "modifiedTime": 1663169291775,
+    "modifiedTime": 1689539971075,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

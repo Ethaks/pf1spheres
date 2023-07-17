@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Benefits:</strong> While using the calming purr, you and allies within your purring aura gain a +2 bonus on saving throws against mind-affecting effects and to the DC to Intimidate them. Each creature benefiting from the calming purr may spend a move action to lessen the severity of any fear effect they are subject to (panicked to frightened to shaken to unaffected). Each creature may only benefit from this feat to lessen a fear effect once per round; a creature may take an action to lessen a fear effect even if they would be required to run from the source of their fear first.</p>\n<p><strong>Powerful Purring:</strong> Creatures benefiting from the calming purring may lessen the severity of a fear effect as a free action and may reduce cowering to panicked. A creature benefiting from the calming purring rolls twice and takes the better result when attempting a saving throw which the calming purr grants a bonus against.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Purring"]],
+    "tags": ["Purring"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897656,
-    "modifiedTime": 1663169295544,
+    "modifiedTime": 1689539976484,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You can use the hand wielding a light shield to also wield a light or one-handed weapon, as if it were a buckler, but you take a -2 penalty on attack rolls (instead of -1). If the hand wielding the light shield is wielding a weapon from the close or light blades fighter weapon group, you only take a -1 penalty on attack rolls. Whenever you would attempt a melee attack with a shield bash, you may instead attempt a melee attack with a light or one-handed weapon from the close or light blades fighter weapon groups wielded in your shield hand.</p>\n<p>You may take this talent a total of twice. If taken a second time, whenever you would attempt a melee attack with a shield bash, you may instead attempt a melee attack with any light or one-handed weapon (not just those from the close or light blades fighter weapon groups) wielded in your shield hand.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886688,
-    "modifiedTime": 1663169291854,
+    "modifiedTime": 1689539971086,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Enchanting Smile (Su):</strong> At 3rd level, the incanter gains Bluff, Diplomacy, and Intimidate as class skills and gains a +2 insight bonus to checks with those skills. This bonus increases by +1 for every five incanter levels he possesses, up to a maximum of +6 at 20th level.</p>\n<p><strong>Aura of Despair (Su):</strong> At 8th level, the incanter can spend a free action to emit a 30-foot aura of despair for one round, for a maximum number of rounds per day equal to his incanter level. Enemies within this aura take a &#8211;2 penalty on ability checks, attack rolls, damage rolls, saving throws, and skill checks. These rounds do not need to be consecutive. This is a mind-affecting effect.</p>\n<p><strong>Reflective Mind:</strong> At 20th level, whenever the incanter succeeds at a saving throw against a mind-affecting effect, a spell of the enchantment school, or an effect from the Mind sphere, that spell or effect does not affect him and is instead reflected back at its caster, treating the incanter as if they had cast the spell (such as for the purpose of charm or domination effects).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168901014,
-    "modifiedTime": 1663169297220,
+    "modifiedTime": 1689539978582,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

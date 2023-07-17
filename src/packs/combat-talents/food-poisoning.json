@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>The effects of your ingested poisons last for 24 hours in addition to its normal duration (this extra duration is still doubled by the Potent Poison talent). For every 4 ranks in Craft (alchemy) you possess, your ingested poisons last for another 24 hours (also doubled by the Potent Poison talent). In addition, if a target is affected by an ingested poison with further effects on consecutive failed saves, it must attempt an additional save against that poison at the beginning of each 24 hour period in which its affected by the poison: A successful save does not end the poison&#8217;s effect, but a failed save causes a new effect as normal for that poison which lasts for the remaining duration of this poison. The first of these additional saves happens after the unmodified duration of the poison (normally 1 minute).</p>\n<p><strong>Author's Note:</strong> This talent increases the duration of a (toxin)'s negative effects, not any effect of a (toxin).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888240,
-    "modifiedTime": 1663169292826,
+    "modifiedTime": 1689539971125,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

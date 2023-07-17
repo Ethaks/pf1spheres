@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Leadership sphere, Diplomacy 5 ranks.</p>\n<p>You may expend martial focus as a standard action to force a creature which you can recruit within close range (25 feet + 5 feet per 2 base attack bonus) to make a Will save or have its attitude improved to helpful and serve you as a cohort for 1 minute per rank in Diplomacy you possess. Creatures not of the humanoid type gain a +2 bonus on their Will saves. Once a creature saves successfully against your use of this ability, it is immune to further uses of this ability by you for 24 hours. When the duration of the recruit effect ends, the creature returns to its previous disposition, modified by any other effects that would have altered it in the meantime.</p>\n<p>Attempting to make the creature perform an obviously suicidal action automatically releases it, even if you possess the Brainwash legendary talent. This is a supernatural, mind-affecting ability.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885401,
-    "modifiedTime": 1663169291451,
+    "modifiedTime": 1689539971051,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

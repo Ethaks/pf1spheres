@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>You are adept at anticipating and interrupting spellcasters.</p>\n<p><strong>Prerequisites:</strong> Extra Combat Talent or combat training class feature, base attack bonus +5.</p>\n<p><strong>Benefit:</strong> You may expend your martial focus to ready an attack action to disrupt a spell caster&#8217;s casting as a move action. The spellcaster must be within reach or range of your wielded weapon. A single casting attempt cannot trigger more than one readied action to interrupt from you.</p>\n<p><strong>Special:</strong> You may take this feat a second time. If you do, you may instead use this ability as a swift action.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["combat"]],
+    "tags": ["combat"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897841,
-    "modifiedTime": 1663169295671,
+    "modifiedTime": 1689539976492,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

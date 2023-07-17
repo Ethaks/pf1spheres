@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You can dampen light in an area. This functions similarly to creating darkness, using the same range and area, but it lasts for 1 minute per caster level without the need for concentration and only lowers light levels by one step within the area.</p>\n<p>In addition, you cannot apply (darkness) talents to these areas, though (meld) talents function within them as if they were an area of darkness. You may also apply talents that would change the area or duration of your darkness (such as Greater Darkness or Eternal Darkness) to use of this talent.</p>\n<p>You may take this talent twice; when taken a second time, you may choose to lower light levels by two steps when you use this talent.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891191,
-    "modifiedTime": 1663169293674,
+    "modifiedTime": 1689539974641,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

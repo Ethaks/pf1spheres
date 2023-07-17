@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>After causing a creature to begin bleeding, you may spend a move action to regain your martial focus. As part of this move action, you may make a melee touch attack as a free action against a non-bleeding creature within reach. This attack deals no damage, but causes that creature to begin bleeding as per your blooded strike. (This does not allow you to apply a (bleed) talent.) Additionally, when an enemy causes you to begin bleeding, you may spend an immediate action to regain your martial focus.</p>\n<p><strong>Author's Note:</strong> For the intents of this talent, \"begin bleeding\" refers to any application of a new source of bleed damage that the creature did not already suffer from, rather than causing a creature to begin bleeding for the first time.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887860,
-    "modifiedTime": 1663169292277,
+    "modifiedTime": 1689539971105,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Seize the Initiative (Su):</strong> At 3rd level, whenever the incanter and his allies roll for initiative, he can grant one ally within 30 feet the ability to roll twice and take either result. This decision is made before the initiative roll is made. He can use this ability a number of times per day equal to 3 + his casting ability modifier.</p>\n<p><strong>Cooperative Defense:</strong> At 8th level, whenever a spell or effect targets the incanter and one or more allies within 30 feet, he can use this ability to allow his allies to use his saving throw against the effect in place of their own. Each ally must make this choice individually before the rolls are made. Using this ability is an immediate action. He can use this ability once per day at 8th level, and one additional time per day for every four incanter levels beyond 8th.</p>\n<p><strong>War Mage (Ex):</strong> At 20th level, the incanter and all allies within 60 feet gain a +2 circumstance bonus to attack rolls and damage rolls.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900391,
-    "modifiedTime": 1663169296531,
+    "modifiedTime": 1689539978547,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

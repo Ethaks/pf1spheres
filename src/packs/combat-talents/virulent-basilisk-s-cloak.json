@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You channel the basilisk, wrapping yourself in virulent toxins.</p>\n<p>As part of entering this stance, you must expend one Alchemy sphere poison. If you expend your martial focus as part of activating this stance to extend this stance&#8217;s duration, you may create one Alchemy sphere poison as part of the same action used to activate this stance (expending the poison for the stance&#8217;s normal effects). A poison expended to enter this stance lasts for the stance&#8217;s duration.</p>\n<p>While in this stance, any other creature that begins its turn within your natural reach or attacks you with a melee attack must attempt a saving throw against the expended poison used to enter this stance. In addition, whenever you successfully attack a creature you have poisoned with the Alchemy sphere, that creature takes a -2 penalty on their next saving throw against your Alchemy sphere poisons made within the next minute.</p>\n<p><strong>Author's Note:</strong> The penalty from this talent does not stack with itself, as it is a penalty from the same source.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Stance"]],
+    "tags": ["Stance"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888192,
-    "modifiedTime": 1663169292780,
+    "modifiedTime": 1689539971119,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

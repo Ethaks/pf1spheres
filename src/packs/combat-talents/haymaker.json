@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Whenever you attack with a counter punch, you may aim for the target&#8217;s mouth or equivalent orifice impeding their ability to speak. If your attack is successful the target must succeed on a concentration check to cast any spell with a verbal or equivalent component, adding 1/4 your base attack bonus (minimum 1) to the DC of the check. This effect can be ended as a standard action by a Heal check with a DC equal to the concentration DC, or when the target receives at least 1 point of magical healing.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Counter"]],
+    "tags": ["Counter"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886395,
-    "modifiedTime": 1663169291785,
+    "modifiedTime": 1689539971076,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

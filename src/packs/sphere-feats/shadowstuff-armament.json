@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Benefit:</strong> As a move action or a free action with the expenditure of a shadow point, you may create and instantaneously equip a non-magical version of a weapon, piece of ammunition, light armor, or light shield you are proficient with out of stable shadowstuff. In the case of exotic weapons, you must have studied a pre-existing version of the weapon for at least 1 week. This object dissipates one round after you are no longer in contact with it or if you use this feat a second time. Creating ammunition using this feat may be done as part of the same action required to load a weapon instead of a move action without having to spend a shadow point.</p>\n<p><strong>Special:</strong> You may create an additional simultaneous object with a single use of this feat per 5 character levels.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Surreal"]],
+    "tags": ["Surreal"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897923,
-    "modifiedTime": 1663169295727,
+    "modifiedTime": 1689539976500,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

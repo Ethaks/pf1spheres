@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may grant a motif that enhances the target&#8217;s ability to succeed in all their endeavors whenever they commit their efforts. Whenever they take 10 or take 20 on a skill check, they gain a +2 insight bonus to the result. This bonus increases by +1 for every 5 caster levels.</p>\n<p>The target may discharge this effect to take 15 (as if they were taking 20) on any skill check without spending additional time, so long as they could normally take 20 with that skill and are trained in it. At 10th caster level, when the target discharges the effect they may take 15 on a skill check without spending additional time even if they are not trained in the skill. At 20th caster level, when the target discharges the effect they attempt the check as though they had ranks in the skill equal to their Hit Dice (to a maximum of your caster level). The insight bonus from this motif applies to this skill check.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Motif"]],
+    "tags": ["Motif"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894664,
-    "modifiedTime": 1663169294980,
+    "modifiedTime": 1689539974701,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

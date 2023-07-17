@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>If the target of your grapple has been pinned and is no larger than you are, you may wield the creature as if they were a melee weapon you are proficient with until the end of your next turn, or until they successfully break your grapple, whichever comes first. If you do not spend the necessary action to maintain the grapple on your next turn, the grapple ends with your turn. You may make a single attack action with the grappled creature in place of the options normally available when maintaining a grapple.</p>\n<p>Creatures wielded in this manner use the improvised weapon charts when determining their damage and required hands and difficulty of use, and 1/2 of any damage dealt with the wielded creature is dealt to the wielded creature itself. If you possess the Shoulder Throw talent, you may use the wielded creature as a thrown weapon, to a maximum range as outlined in the Shoulder Throw talent. If the pinned opponent is unable to resist being pinned for any reason, you can use that opponent as a weapon without grappling or pinning them, until the creature is reduced to 0 or fewer hit points, at which point the creature cannot be grappled and only counts as an improvised weapon.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Slam"]],
+    "tags": ["Slam"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887938,
-    "modifiedTime": 1663169292343,
+    "modifiedTime": 1689539971110,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>As a swift or move action, you may grant yourself one of the following benefits for 1 round, depending on what packages you possess. You may spend a spell point to gain one of these benefits for 1 minute per caster level, or to gain it for one round as an immediate action.</p>\n<p>Whenever you activate this ability, you may spend an additional spell point to absorb damage instead of resisting it. Whenever damage is negated by one of these benefits, you are healed an amount equal to the negated damage.</p>\n<p><strong>Air:</strong> Sonic resistance equal to 10 + your caster level.</p>\n<p><strong>Earth:</strong> DR 1/adamantine, +1 per 5 caster levels. This stacks with other forms of damage resistance.</p>\n<p><strong>Fire:</strong> Fire resistance equal to 10 + your caster level.</p>\n<p><strong>Metal:</strong> Electricity resistance equal to 10 + your caster level.</p>\n<p><strong>Plant:</strong> Acid resistance equal to 10 + your caster level.</p>\n<p><strong>Water:</strong> Cold resistance equal to 10 + your caster level.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Spirit"]],
+    "tags": ["Spirit"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893585,
-    "modifiedTime": 1663169294597,
+    "modifiedTime": 1689539974681,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

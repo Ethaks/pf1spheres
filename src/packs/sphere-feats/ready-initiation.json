@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>When one of your allies primes a technique, you respond immediately.</p>\n<p><strong>Prerequisite:</strong> Knowledge of at least one technique.</p>\n<p><strong>Benefit:</strong> When multiple characters with this feat work together to initiate a multi-character technique, the technique is performed on the highest of the participants&#8217; initiative counts rather than the lowest. All participants have their actions for the turn moved up to the initiative count where the technique is performed.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Champion"], ["Combat"], ["Teamwork"]],
+    "tags": ["Champion", "Combat", "Teamwork"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897738,
-    "modifiedTime": 1663169295589,
+    "modifiedTime": 1689539976490,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

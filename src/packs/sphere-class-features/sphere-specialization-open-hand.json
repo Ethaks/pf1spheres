@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Empty Hand (Ex):</strong> At 3rd level, as long as a conscript has nothing in any of his hands, he gains a +2 shield bonus to his armor class and CMD. At 7th level and every four levels afterwards, this bonus increases by +1.</p>\n<p><strong>Empty Fist (Ex):</strong> At 8th level, as long as a conscript has nothing in any of his hands, his unarmed strikes are treated as 1 size larger to a maximum size of Large. If they would normally be treated as Large, he instead gains a +1 circumstance bonus to damage for every 4 base attack bonus he possesses.</p>\n<p><strong>Empty Soul (Ex):</strong> At 20th level, as long as a conscript has nothing in any of his hands, he can add the shield bonus from his empty hand class feature to one of his saving throws as a circumstance bonus (he can change the saving throw to which this bonus is applied as a swift action).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900027,
-    "modifiedTime": 1663169296163,
+    "modifiedTime": 1689539978530,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

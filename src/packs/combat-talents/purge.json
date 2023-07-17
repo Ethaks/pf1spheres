@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>As a move action, you can cause yourself to throw up, granting yourself a new save against any ingested poison from which you are currently suffering with a circumstance bonus to your Fortitude save equal to your practitioner modifier. In addition, select one adjacent square to yourself, causing it to be treated as difficult terrain for 1 minute. If a creature enters that square, it must make a Reflex saving throw or fall prone. For every 5 points of base attack bonus you possess, you can select an additional adjacent square to be treated as difficult terrain. Clearing a square of difficult terrain is a standard action.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Drunk"]],
+    "tags": ["Drunk"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886675,
-    "modifiedTime": 1663169291843,
+    "modifiedTime": 1689539971085,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

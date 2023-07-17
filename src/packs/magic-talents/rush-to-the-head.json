@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When using a blood art that allows a Fortitude save, you may replace all Fortitude saves that effect allows for with Will saves.</p>\n<p>In addition, as a standard action, you rush the target&#8217;s blood to their head and away from their vital organs, disorienting them. On a failed Fortitude save, the target suffers blood loss and falls prone. If you spend an additional spell point when casting this effect, the target also becomes confused for 1 round per caster level. While confused by this effect, whenever the target rolls to determine behavior in a given round, add twice the blood loss to the result (maximum 100).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Blood Art"]],
+    "tags": ["Blood Art"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892292,
-    "modifiedTime": 1663169293970,
+    "modifiedTime": 1689539974656,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

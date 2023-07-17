@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Summoner&#8217;s Charm (Su):</strong> At 3rd level, whenever the incanter summons a companion from the Conjuration sphere and maintain its presence through concentration, the companion remains for a number of rounds after he ceases concentrating equal to 1/2 his incanter level (minimum 1) before disappearing.</p>\n<p><strong>Aura of Banishment (Su):</strong> At 8th level, as a free action the incanter can emit a 30-foot aura of banishment for one round. He may emit this aura for a total number of rounds per day equal to his incanter level. These rounds do not need to be consecutive. Any summoned or called creature in the area (except those he specifies) must attempt a Will save each round. Once the creature fails a Will saving throw, it is staggered as long as it remains inside the aura. If it fails a second Will saving throw, it is immediately sent back to its home plane and the spell or effect that summoned it immediately ends. If that spell or effect summoned more than one creature, only the creature that failed its saving throws is affected. If the summoned creature was a companion, it cannot be summoned again for 1 minute.</p>\n<p><strong>Mirrored Summoning:</strong> At 20th level, once per day when the incanter summons a companion, he may summon a duplicate of that companion with the same action. He must spend all required spell points to summon this duplicate companion, just as with the original.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900537,
-    "modifiedTime": 1663169296663,
+    "modifiedTime": 1689539978559,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

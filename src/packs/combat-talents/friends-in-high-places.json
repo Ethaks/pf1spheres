@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Leadership sphere.</p>\n<p>You can recruit cohorts from the outer planes themselves. Such cohorts are built like a normal cohort, but are Small or Medium creatures with the outsider (extraplanar) type, and benefits from the Conjuration sphere Planar Creature (type) talent as if it were a Conjuration companion. As you recruit by calling on creatures from other planes, you don&#8217;t actually have to be at a settlement in order to recruit cohorts this way. You treat this as if recruiting from a metropolis and the population is always at least 50% of the particular race you are seeking.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Cohort"]],
+    "tags": ["Cohort"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886840,
-    "modifiedTime": 1663169291988,
+    "modifiedTime": 1689539971088,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

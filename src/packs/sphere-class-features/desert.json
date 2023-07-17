@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>Whether over sandy dunes or through blasted wastelands, the commander learns to excel and lead his allies to thrive where others wither. When fighting or traveling in desert terrain, the commander and any ally affected by one of his tactics or shouts can ignore the effects of non-magical difficult terrain, double the distance at which they can make Perception checks to detect the presence of other creatures, gain a bonus on Perception checks to notice natural hazards equal to the higher of the commander&#8217;s Charisma or Intelligence modifiers (minimum 1), and are immune to nonlethal damage caused by exposure to heat or sandstorms.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900082,
-    "modifiedTime": 1663169296226,
+    "modifiedTime": 1689539978534,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

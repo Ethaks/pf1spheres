@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>As part of performing an attack action, you may break a weapon. If your attack is successful, you may move into any square the target threatens (to a maximum of half your movement speed). This movement does not provoke attacks of opportunity from that creature, but otherwise provokes attacks of opportunity as normal. If you were not within the creature&#8217;s threatened area (such as by breaking and throwing an improvised thrown weapon at range or because the creature does not threaten the square you made the attack from), you may instead take a 5-foot step and subtract 5 feet from your total movement during your next turn.</p>\n<p>In addition, whenever you move, you can pick up an unattended item as part of that movement. You must have a free hand to pick up an item this way. Picking up an item this way does not provoke attacks of opportunity. Whenever you would use this ability, you may attempt to instead pick up multiple, smaller and closely gathered items that could be held in one hand (such as a stack of plates or a fistful of nails) this way equal to your practitioner modifier (minimum 1). Smaller items are generally two sizes smaller (or smaller) than the practitioner. <strong>Associated Feat:</strong> Grab and Go.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Smash"]],
+    "tags": ["Smash"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887866,
-    "modifiedTime": 1663169292282,
+    "modifiedTime": 1689539971105,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

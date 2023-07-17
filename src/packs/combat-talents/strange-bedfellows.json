@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisite:</strong> Leadership sphere.</p>\n<p>When recruiting for a cohort you can seek more exotic creatures types which are determined by form instead of race. In place of a race, the cohort is created using the base statistics and body type of a Conjuration sphere companion form of Small or Medium size, and has 1 (form) talent (excluding the Battle Creature, Boon Companion, Lingering Companion, or Staff Wielding Companion/Implement Bearer talent) as if they were a summoned companion. You substitute your rank in Diplomacy for any effect that depends on caster level. These type of cohorts may possess any kind of creature type and subtype appropriate to their concept (although they do not gain the immunities or other qualities of its creature type). When recruiting for the creature, modifiers based on race are instead based upon creature type and subtype. When the GM creates the cohort, they may choose to grant the creature an additional Conjuration sphere (form) talent in place of a feat.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Cohort"]],
+    "tags": ["Cohort"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885900,
-    "modifiedTime": 1663169291729,
+    "modifiedTime": 1689539971071,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

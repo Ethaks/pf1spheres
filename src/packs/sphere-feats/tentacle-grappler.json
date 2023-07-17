@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>Enemies quickly learn to fear your tentacles&#8212; even being grazed by your many appendages can lead to a quick death.</p>\n<p><strong>Prerequisites:</strong> Tentacle Master, Tentacle Adept, Tentacle Novice, Improved Unarmed Strike.</p>\n<p><strong>Benefit:</strong> Once per round when you successfully attack a target with your tentacles, you may make a grapple combat maneuver against that target as a free action. This does not provoke an attack of opportunity.</p>\n<p><strong>Normal:</strong> Making a grapple combat maneuver check is a standard action.</p>\n<p><strong>Special:</strong> Though this has a stance feat as a requirement, Tentacle Grappler is not a stance feat.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"]],
+    "tags": ["Combat"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897842,
-    "modifiedTime": 1663169295673,
+    "modifiedTime": 1689539976492,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

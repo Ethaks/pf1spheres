@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Choose either animals or vermin. You may spend a spell point to gain the ability to speak with your chosen creature type for 1 minute per caster level. You can ask questions of and receive answers from them, but this does not make them any more friendly than normal. Mindless vermin cannot understand or answer with more than basic information, wary and cunning animals are likely to be terse and evasive, and stupid creatures make inane comments. If a creature is friendly toward you, it may do some favor or service for you. You may take this talent twice, gaining both options.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Spirit"]],
+    "tags": ["Spirit"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893568,
-    "modifiedTime": 1663169294580,
+    "modifiedTime": 1689539974680,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

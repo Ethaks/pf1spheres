@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Talents marked (momentum) grant you a momentum pool, as well as a method of using it.</p>\n<p>If you have at least one (momentum) talent, you can spend a spell point as a standard action to gain a momentum pool. This pool lasts 1 hour per caster level, and holds a number of points of momentum equal to the War caster&#8217;s caster level plus their casting ability modifier. Using this ability again refills your momentum pool; it does not create additional pools.</p>\n<p>Allies within 30 feet of you can spend points of momentum from this pool to activate any ability from any of your (momentum) talents (using a (momentum) talent spends momentum points, not spell points). All of your (momentum) talents draw from the same pool, and using momentum is not considered a sphere ability and does not provoke attacks of opportunity.</p>\n<p>The caster level associated with the momentum pools is that of the caster when they last filled their pool. Being knocked unconscious or made helpless makes the momentum pool inaccessible until you are conscious again.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891967,
-    "modifiedTime": 1663169293935,
+    "modifiedTime": 1689539974651,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You compel words of honesty in your subject, bringing truth to their voice.</p>\n<p><strong>Lesser Charm:</strong> The target is compelled to speak only what they believe to be true. This does not compel them to speak, but it does prevent any words they do say from being intentionally dishonest (Will negates). A target may not realize they are magically compelled to speak the truth if the caster has the Subtlety talent, but even if unaware they may receive a Reflex save to stop themselves from talking when they attempt to tell a lie and realize that their words are changing. This lasts for a number of rounds equal to your caster level.</p>\n<p><strong>Greater Charm:</strong> This functions as the lesser charm, but the duration of the Candor is increased to a number of hours equal to your caster level (Will negates).</p>\n<p><strong>Powerful Charm:</strong> The target is compelled to answer a single question directly put to it. A successful save allows the target to ignore any similar questions asked with this talent for a number of minutes equal to its Wisdom score. (Ultimately the definition of &#8220;similar&#8221; is up to the GM, but generally the question &#8220;Who stole the queen&#8217;s jewels?&#8221; is considered similar to &#8220;Did you steal the queen&#8217;s jewels?&#8221; but is not considered similar to &#8220;What were you doing on the night the jewels were stolen?&#8221; because the focus shifts from identifying a culprit to stating an activity.)</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Charm"]],
+    "tags": ["Charm"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894380,
-    "modifiedTime": 1663169294933,
+    "modifiedTime": 1689539974697,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

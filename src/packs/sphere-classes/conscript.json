@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "“You know what they say, a spear in the hand is… Well, it’s a spear. Figure it out.”\n<p>Conscripts don&#8217;t choose a life of battle, they have it thrust upon by them by fate or circumstance. Regardless of how they come to the battlefield, all conscripts who leave it alive do so because of the same two reasons: they have a natural gift for battle, and they figured out how to make do with the tools they had.</p>\n<p><strong>Starting Wealth:</strong> 1d6 x 10 gp (average 35 gp) In addition, each character begins play with an outfit worth 10 gp or less. <strong>Alternatively</strong>, a Conscript may start with 15 GP, an outfit worth 10 GP or less, a melee weapon, a ranged weapon, and a suit of armor (the Conscript must be proficient with the weapons and armor chosen). (<a href=\"https://paizo.com/threads/rzs42bi5?Rules-Clarification-Scholar#14\">Developer Suggestion</a>)</p>\n<p><strong>Starting Age:</strong> Self-taught</p>\n<p><strong>Role:</strong> Conscripts learn all of their combat training on the battlefield, and typically learn to fill whatever role best suits the equipment they have to work with.</p>\n<p><strong>Alignment:</strong> Any.</p>\n<p><strong>Hit Die:</strong> d10</p>\n<p><strong>Class Skills:</strong> The conscript&#8217;s class skills are Climb (Str), Craft (Int), Handle Animal (Cha), Knowledge (local) (Int), Perception (Wis), Profession (Wis), Survival (Wis), Swim (Str), and three other class skills of the conscript&#8217;s choice, chosen at character creation.</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n<p><strong>Proficiencies:</strong> Conscripts are proficient with simple weapons, as well as light armor and bucklers. In addition, if this is this character&#8217;s first level in any class, they may select a martial tradition of their choice.</p>\n\n<h2>Combat Training</h2>\n<p>A conscript may combine combat spheres and talents to create powerful martial techniques. Conscripts are considered Expert combatants. When they gain their first level in the conscript class, conscripts may choose either Charisma, Intelligence or Wisdom as their practitioner modifier.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -29,36 +28,28 @@
       "children": [],
       "classAssociations": [
         {
-          "id": "pf1spheres.class-features.P8fBZGvHXfA4zbDe",
-          "dataType": "compendium",
           "name": "Bonus Feat (Conscript)",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0
+          "_index": 0,
+          "uuid": "Compendium.pf1spheres.class-features.P8fBZGvHXfA4zbDe"
         },
         {
-          "id": "pf1spheres.class-features.zrVvHiqgjfBiKGC3",
-          "dataType": "compendium",
           "name": "Bonus Talent",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1
+          "_index": 1,
+          "uuid": "Compendium.pf1spheres.class-features.zrVvHiqgjfBiKGC3"
         },
         {
-          "id": "pf1spheres.class-features.FGWg7dEr0SkbLgDK",
-          "dataType": "compendium",
           "name": "Combat Specializations",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2
+          "_index": 2,
+          "uuid": "Compendium.pf1spheres.class-features.FGWg7dEr0SkbLgDK"
         },
         {
-          "id": "pf1spheres.class-features.jUqIq0LR01Wi8vEQ",
-          "dataType": "compendium",
           "name": "List of Sphere Specializations (Conscript)",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 3
+          "_index": 3,
+          "uuid": "Compendium.pf1spheres.class-features.jUqIq0LR01Wi8vEQ"
         }
       ]
     },
@@ -77,11 +68,11 @@
       "custom": ""
     },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
-    "classType": "base",
+    "subType": "base",
     "level": 1,
     "hd": 10,
     "hp": 8,
@@ -149,22 +140,17 @@
       "swm": true,
       "umd": false
     },
-    "customHD": "",
-    "identifiedName": "Conscript",
-    "range": {
-      "maxIncrements": 1
-    },
-    "size": "med"
+    "customHD": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168899463,
-    "modifiedTime": 1663169295994,
+    "modifiedTime": 1689539976857,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

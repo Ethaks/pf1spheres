@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may make an illusion that feels real to the touch, including temperature and texture. Your illusion still cannot hold weight (thus while touching the wall would only grant a new saving throw, being thrown into the wall would still cause the creature to pass through).</p>\n<p>You may take this talent a total of twice; when taken a second time, your illusions may also cause pain. When coming into contact with an appropriate illusion (stepping into fire, being hit by an illusionary enemy, etc.), if the subject fails their Will save to disbelieve they take nonlethal damage equal to your caster level + your casting ability modifier. A target can only be damaged by your illusions once in a round, no matter how many times it thinks the illusion has hurt it.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Sensory"], ["Touch"]],
+    "tags": ["Sensory", "Touch"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168890458,
-    "modifiedTime": 1663169293296,
+    "modifiedTime": 1689539974619,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

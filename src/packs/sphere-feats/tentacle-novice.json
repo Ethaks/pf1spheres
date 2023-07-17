@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p>You&#8217;ve developed greater control over your tentacles, allowing you to move your center of gravity around to overturn opponents.</p>\n<p><strong>Prerequisites:</strong> Two or more tentacles, base attack bonus +2 or monk 1, Improved Unarmed Strike.</p>\n<p><strong>Benefit:</strong> You gain a +2 racial bonus to CMD to resist grapple checks and gain a +1 racial bonus to CMB when making a grapple or trip check. You may use your tentacles to make unarmed strikes.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Combat"], ["Style"]],
+    "tags": ["Combat", "Style"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897631,
-    "modifiedTime": 1663169295528,
+    "modifiedTime": 1689539976482,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Any creature you are mounted on is considered proficient with all armors you are proficient with. If you fail the Ride check granted by the Defensive Rider talent by 5 or less while your mount is wearing barding that it is proficient with, the attack damages your mount&#8217;s barding instead of your mount. Any damage in excess of the barding&#8217;s hit points is dealt to the mount.</p>\n<p>In addition, your mount may fly in medium or heavy barding.</p>\n<p><strong>Normal:</strong> A mount wearing medium or heavy barding cannot fly.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Ride"]],
+    "tags": ["Ride"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886381,
-    "modifiedTime": 1663169291772,
+    "modifiedTime": 1689539971075,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

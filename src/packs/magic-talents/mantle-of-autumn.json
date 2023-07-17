@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may activate the following abilities as fey-blessings:</p>\n<p><strong>Cloak of Leaves:</strong> You may surround yourself in swirling leaves in a 10-foot radius as a move action. This radius increases by 5 feet at 5th caster level and every 5 caster levels thereafter. All allied creatures fully within this area gain concealment (attacks against them have a 20% miss chance). If hostile creatures within this area attack creatures outside this area, the targets also have concealment. You may end this effect as a free action. Doing so removes the leaves at the end of your turn but does not end the fey-blessing; you may create and dismiss the cloak of leaves for the duration of the fey-blessing.</p>\n<p><strong>Touch of the Harvest:</strong> You may touch food-producing plants, causing them to sprout food spontaneously. You may touch a plant within your natural reach as a move action. Each plant produces enough food to provide 3 Medium-sized creatures or 1 horse with food for a day. This fey-blessing ends after you touch a number of plants equal to your caster level. This ability requires requires fruit trees, berry bushes, or food crops.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Fey-Blessing"]],
+    "tags": ["Fey-Blessing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892780,
-    "modifiedTime": 1663169294353,
+    "modifiedTime": 1689539974671,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

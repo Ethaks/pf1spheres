@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You gain a number of ways of expressing mastery over fire. You gain the following geomancing abilities:</p>\n<p><strong>Alter Light:</strong> Concentration. You may alter the light produced by a fire within your Affect Fire maximum. You may halve or double the radius of its light, as well as change its granted light from an emanation to a cone of double its light radius. You may also increase its granted light by 1 level (usually to bright light) or decrease its granted light by 1 level (to dim light).</p>\n<p><strong>Extinguish:</strong> Instantaneous. You may spend a spell point to extinguish any and all fires within your geomancing range that are within your Affect Fire maximum, as you desire.</p>\n<p><strong>Reflash:</strong> Instantaneous. If a non-magical fire within range would become extinguished (through magical or mundane means), you may, as an immediate action, cause the fire to relight in up to a 15-foot radius burst of flame dealing fire damage equal to the largest sized fire you can create. This can be used to reignite a character who has caught on fire and extinguished the flames. If so, a successful Reflex save halves the damage and negates catching fire.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Fire"], ["Geomancing"]],
+    "tags": ["Fire", "Geomancing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894698,
-    "modifiedTime": 1663169295002,
+    "modifiedTime": 1689539974703,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

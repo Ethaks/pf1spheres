@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Warp sphere, Counterspell.</p>\n<p><strong>Benefit:</strong> When you successfully counterspell a non-instantaneous magical effect which is not targeting a creature or object (such as a Protection sphere barrier, a Warp sphere looped space, or a Destruction sphere energy sphere), instead of ending the effect, you may spend a spell point to teleport the effect to another location within the range of your teleport (this includes extensions to that range from talents or spent spell points, so long as you spend those extra spell points). This does not alter what creatures can or cannot be affected by the effect (for example, if you use this feat on a destructive blast created by a creature with the Epicenter talent, the creator still cannot be affected by the effect). You may spend a spell point when you dismiss a sphere effect to affect it with this feat as if you had successfully counterspelled it.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Counterspell"]],
+    "tags": ["Counterspell"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168897973,
-    "modifiedTime": 1663169295768,
+    "modifiedTime": 1689539976504,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

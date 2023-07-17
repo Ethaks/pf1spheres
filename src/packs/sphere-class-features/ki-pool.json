@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>At 1st level, a sage gains a pool of ki points, supernatural energy he can use to accomplish amazing feats. The number of points in a sage&#8217;s ki pool is equal to his sage level + his Wisdom modifier. By spending 1 point from his ki pool, a sage can increase his speed by 20 ft. for 1 round. Alternatively, he can spend 1 point from his ki pool to give himself a +4 dodge bonus to AC for 1 round. Each of these powers is activated as a swift action.</p>\n<p>Many esoteries and esoteric training packages require the sage to spend ki points to modify an effect; unless specifically stated otherwise, the sage cannot spend more ki points on an esotery or esoteric training ability than 1 + 1 per 5 class levels he possesses.</p>\n<p>The ki pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.</p>\n<p><strong>Errata:</strong> This counts as both the casting and spell pool class features; a sage who gains a spell pool from another source calculates their total from both sources into a single pool as normal for a multiclass sphere caster. Sages gain two bonus talents if this is their first level in a casting class and qualify for a unified tradition, applying any appropriate casting limitations to their ki powers (so a sage with a casting tradition that includes the Verbal Casting drawback would apply that limitation to all of their ki powers, not just those that use magic talents).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900673,
-    "modifiedTime": 1663169296774,
+    "modifiedTime": 1689539978561,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

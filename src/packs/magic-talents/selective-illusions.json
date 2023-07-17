@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>By spending an additional spell point at the time you create an illusion, you may designate any number of targets to be immune to the illusion. This allows you to, once per round per illusion as a free action, allow any number of targets to be treated as automatically disbelieving the illusion or completely suppress the effect without ending it (but must still concentrate if the effect is being maintained via concentration). While this allows the creature to be treated as if they disbelieved the illusion, this does not actually force them to gain knowledge of the illusion.</p>\n<p><em>Example 1:</em> When under the effects of Suppression or an Illusionary Disguise, you may allow your allies to see you as if you had no concealment or disguise while still maintaining the effect against everyone else.</p>\n<p><em>Example 2:</em> When creating a figment of a tree, you could designate a creature with greensight to &#8216;disbelieve&#8217; the illusion, allowing them to see through the tree just as they normally would be able to.</p>\n<p>Anyone you designate as unaffected is still aware of the effect just as if they had disbelieved it, allowing them to appropriately react in the case of a ruse or the need to make tactical decisions. Illusions that have effects regardless of belief or disbelief, such as a shadow illusion, still have their effects unless you opt to suppress them. Suppressing and reactivating an illusion does not force those whom already successfully disbelieved the illusion to re-roll their saves.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894087,
-    "modifiedTime": 1663169294649,
+    "modifiedTime": 1689539974686,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

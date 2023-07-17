@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may activate the following abilities as fey-blessings:</p>\n<p><strong>Collateral Damage:</strong> Whenever a creature misses you with a melee attack, you may redirect the attack to another creature within the attacking creature&#8217;s reach as an immediate action. Make a new attack roll with the original bonus to determine the result.</p>\n<p><strong>Jinx:</strong> As a standard action, you can place a curse on a single creature within close range. A Will save negates the effect. On a failed save, the target is cursed for the duration of your fey-link. The victim of the curse takes a -2 penalty on all attack rolls, saving throws, and skill and ability checks until the curse is removed. This penalty increases by +1 for every 5 caster levels you possess. A creature can only be affected by a single jinx at one time. This is a curse effect. A creature that succeeds on the save against this effect is immune to that caster&#8217;s use of it for 24 hours.</p>\n<p><strong>Pugwampi&#8217;s Aura:</strong> All hostile creatures within 30 feet of you take a -1 penalty to all saving throws. This penalty increases by -1 for every 5 caster levels you possess. A creature benefiting from any luck bonus ignores this penalty.</p>\n<p><strong>Stymie Channeling:</strong> Any hostile creature that attempts to channel energy within 30 feet of you must succeed on a Will save or be unable to channel for that round. The use is not lost, but the action is wasted.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Fey-Blessing"]],
+    "tags": ["Fey-Blessing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168893612,
-    "modifiedTime": 1663169294619,
+    "modifiedTime": 1689539974683,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Fate sphere, Life sphere, caster level 15th.</p>\n<p>You may spend a spell point to create a consecration filled with positive energy that sustains the living beyond what their bodies can withstand. While this consecration is in effect, no living creature becomes disabled or dying within its area, nor do creatures die from loss of hit points. This does not protect creatures from these effects once this consecration ends or they leave the area, nor does it protect them from death from other causes. This counts as a Life talent for the purpose of talents, drawbacks, or other abilities that change who you can affect with Life talents or abilities.</p>\n<p>You must concentrate to maintain this consecration, but you may spend an additional spell point as a free action to allow this effect to continue for 1 round per two caster levels without concentration.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Consecration"]],
+    "tags": ["Consecration"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892734,
-    "modifiedTime": 1663169294315,
+    "modifiedTime": 1689539974669,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>At 3rd level, the crimson dancer forms her view upon her powers, and chooses a path to walk that will form her abilities. She immediately learns the initiation ability under her path, and learns new abilities as she levels. Each path grants a different ability earned at their respective level.</p>\n<p>At 7th level, she learns the understanding ability.</p>\n<p>At 10th level, she learns the revelation ability.</p>\n<p>At 13th level, she learns the secret of blood ability.</p>\n<p>At 16th level, she learns the secret of heart ability.</p>\n<p>At 19th level, she learns the secret of soul ability.</p>\n<p>At 20th level, she learns the realization ability.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900364,
-    "modifiedTime": 1663169296485,
+    "modifiedTime": 1689539978545,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

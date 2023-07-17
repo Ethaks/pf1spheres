@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "Soul weavers focus on controlling the powers of life and death. While they tend to make townsfolk a bit nervous - especially if the shambling horde of undead follows them into town - those who face great danger tend to appreciate having such a powerful ally at their side.\n<p><strong>Role:</strong> Soul Weavers are usually either masters of healing or masters of many small minions, though sometimes they can be masters of both at once.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d6</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The soul weaver&#8217;s class skills are Craft (Int), Diplomacy (Cha), Fly (Dex), Heal (Wis), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (history) (Int), Knowledge (planes) (Int), Knowledge (religion) (Int), Linguistics (Int), Perform (Cha), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -29,76 +28,58 @@
       "children": [],
       "classAssociations": [
         {
-          "id": "pf1spheres.class-features.SSmimc0fFfdBN5i1",
-          "dataType": "compendium",
           "name": "Weapon and Armor Proficiency (Soul Weaver)",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 0
+          "_index": 0,
+          "uuid": "Compendium.pf1spheres.class-features.SSmimc0fFfdBN5i1"
         },
         {
-          "id": "pf1spheres.class-features.koX5jJk7rlGVVs8u",
-          "dataType": "compendium",
           "name": "Casting (Soul Weaver)",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 1
+          "_index": 1,
+          "uuid": "Compendium.pf1spheres.class-features.koX5jJk7rlGVVs8u"
         },
         {
-          "id": "pf1spheres.class-features.jCHMsQkbB9scZrM1",
-          "dataType": "compendium",
           "name": "Spell Pool (Soul Weaver)",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 2
+          "_index": 2,
+          "uuid": "Compendium.pf1spheres.class-features.jCHMsQkbB9scZrM1"
         },
         {
-          "id": "pf1spheres.class-features.goeaG2i6ohzRxxLt",
-          "dataType": "compendium",
           "name": "Magic Talents (Soul Weaver)",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 3
+          "_index": 3,
+          "uuid": "Compendium.pf1spheres.class-features.goeaG2i6ohzRxxLt"
         },
         {
-          "id": "pf1spheres.class-features.tyPmigohMnQa7l17",
-          "dataType": "compendium",
           "name": "Channel Energy (Soul Weaver)",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 4
+          "_index": 4,
+          "uuid": "Compendium.pf1spheres.class-features.tyPmigohMnQa7l17"
         },
         {
-          "id": "pf1spheres.class-features.pkl8kfXnOQSSIjuc",
-          "dataType": "compendium",
           "name": "Master of Life and Death",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 5
+          "_index": 5,
+          "uuid": "Compendium.pf1spheres.class-features.pkl8kfXnOQSSIjuc"
         },
         {
-          "id": "pf1spheres.class-features.5oPDuSCHx9SkPFoO",
-          "dataType": "compendium",
           "name": "Bound Nexus",
-          "img": "icons/svg/item-bag.svg",
           "level": 1,
-          "_index": 6
+          "_index": 6,
+          "uuid": "Compendium.pf1spheres.class-features.5oPDuSCHx9SkPFoO"
         },
         {
-          "id": "pf1spheres.class-features.Kau1TycjWVeEEws2",
-          "dataType": "compendium",
           "name": "Blessing/Blight",
-          "img": "icons/svg/item-bag.svg",
           "level": 2,
-          "_index": 7
+          "_index": 7,
+          "uuid": "Compendium.pf1spheres.class-features.Kau1TycjWVeEEws2"
         },
         {
-          "id": "pf1spheres.class-features.NU3Fwgc19RALWBHw",
-          "dataType": "compendium",
           "name": "Gravewalker",
-          "img": "icons/svg/item-bag.svg",
           "level": 20,
-          "_index": 8
+          "_index": 8,
+          "uuid": "Compendium.pf1spheres.class-features.NU3Fwgc19RALWBHw"
         }
       ]
     },
@@ -117,11 +98,11 @@
       "custom": ""
     },
     "flags": {
-      "boolean": [],
-      "dictionary": []
+      "boolean": {},
+      "dictionary": {}
     },
     "scriptCalls": [],
-    "classType": "base",
+    "subType": "base",
     "level": 1,
     "hd": 6,
     "hp": 8,
@@ -189,22 +170,17 @@
       "swm": false,
       "umd": false
     },
-    "customHD": "",
-    "identifiedName": "Soul Weaver",
-    "range": {
-      "maxIncrements": 1
-    },
-    "size": "med"
+    "customHD": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168899453,
-    "modifiedTime": 1663169295982,
+    "modifiedTime": 1689539976857,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

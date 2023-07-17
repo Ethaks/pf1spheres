@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You inspire competence in the target.</p>\n<p><strong>Lesser Charm:</strong> As an immediate action, you may add a +2 competence bonus to a skill check or attack roll the target has just made. This can change a failure into a success. You must choose to use this charm after the roll has been made, but before the results are revealed.</p>\n<p><strong>Greater Charm:</strong> This is the same as the lesser charm, except it adds +2d4 to the attack roll or skill check instead of +2.</p>\n<p><strong>Powerful Charm:</strong> This is the same as the greater charm, except it adds +2d4 + 1 per 2 caster levels (minimum 1) to the roll instead of only +2d4.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Charm"]],
+    "tags": ["Charm"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892301,
-    "modifiedTime": 1663169293979,
+    "modifiedTime": 1689539974657,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

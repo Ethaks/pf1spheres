@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may increase the action required to handle or push an animal ally by one step to affect 1 additional animal ally creature plus 1 additional animal ally for every 2 ranks in Handle Animal you possess. You may expend martial focus instead of increasing the action required.</p>\n<p>When handling or pushing multiple animal allies with this talent, determine the action required based on the longest action required. When handling or pushing multiple animal allies, each animal ally can be commanded to perform a different trick (such as a wolf being told to guard and an eagle being told to attack).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Handle Animal"]],
+    "tags": ["Handle Animal"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887687,
-    "modifiedTime": 1663169292119,
+    "modifiedTime": 1689539971098,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The blacksmith gains the ability to inscribe divine runewords and symbols onto equipment when performing maintenance, bestowing power to equipment. He learns two runes from the forgemaster<sup>ARG</sup> cleric&#8217;s runeforger ability, treating his blacksmith level as his cleric level when determining the effects of runes, and may choose to apply one rune as a maintenance. The duration of a rune applied as a maintenance is the same as a regular maintenance, lasting 24 hours or until their next 8 hour or longer rest, whichever comes first. The blacksmith must still meet any level prerequisites to apply a rune with maintenance. Unlike other maintenance options, runes are supernatural and are suppressed by antimagic fields or other similar effects, and may be removed by an erase spell or other similar effect. Equipment inscribed with runes by the blacksmith bear symbols of the blacksmith&#8217;s faith or ideology. At 8th level, the blacksmith can apply two runes as part of the same maintenance.</p>\n<p>The blacksmith may take this insight multiple times, each time learning two new runes.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168901067,
-    "modifiedTime": 1663169297266,
+    "modifiedTime": 1689539978586,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

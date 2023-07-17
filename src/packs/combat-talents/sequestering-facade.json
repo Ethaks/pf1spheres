@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Bluff 10 ranks, Fencing sphere (Expert Feint, Master Of Deception), base attack bonus +10.</p>\n<p>You can bend reality with your deceptions. When you successfully feint a hostile creature using Master Of Deception, you may have the creature become sequestered for 1 round instead of being confused. If you feint multiple creatures, choose a single feinted creature to sequester.</p>\n<p>While sequestered, the feinted creature can only see you, as their reality becomes warped and shifted to believing you and themselves are the only creatures to exist. During this time, the target cannot be interacted with in any way by other creatures, (except you) and vice versa.</p>\n<p>Alternatively, when you successfully sequester a creature using this talent, you may enter a stance, allowing the creature to remain sequestered for as long as you remain within the stance. The creature may attempt a Will saving throw at the end of each of their turns as a free action to no longer be sequestered, ending the stance and its effects on a successful save.</p>\n<p>This is a supernatural mind-affecting effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Stance"]],
+    "tags": ["Stance"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885451,
-    "modifiedTime": 1663169291494,
+    "modifiedTime": 1689539971056,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

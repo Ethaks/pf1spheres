@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When striking a target twice with the same barrage, that creature must make a successful Reflex save or have all movement speeds they possess reduced to 0. This only works when using arrows, bolts, or other similar ammunition, and does not affect creatures that are not adjacent to the floor, a wall, or another solid object which they could be pinned to. The creature cannot move while affected in this way, unless they spend a standard action to remove the arrows first, or else break them through sundering or in some other fashion. The creature may attempt to simply rip themselves free as part of a move action made to move by passing a Strength or Escape Artist check with a DC equal to your Barrage DC, and the target gains 1d6 bleed.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Blitz"]],
+    "tags": ["Blitz"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885444,
-    "modifiedTime": 1663169291492,
+    "modifiedTime": 1689539971055,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

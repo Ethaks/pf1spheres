@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>When a creature with an aegis you created becomes the target of a spell or sphere ability that affects only them, you may spend a spell point and sacrifice an aegis they are bearing as an immediate action to attempt to counterspell the ability and redirect the effect. You attempt a magical skill check against the magical skill defense of the caster, and if successful, the sphere effect affects the caster as if they had been the original target. Any bonuses you or the other sphere caster have to counterspelling apply to this roll. The decision to do this must be made before any attack roll or saving throw is made.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Succor"]],
+    "tags": ["Succor"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892590,
-    "modifiedTime": 1663169294173,
+    "modifiedTime": 1689539974660,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

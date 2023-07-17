@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Illusion sphere (Lingering Illusion, Programmed Illusion), caster level 8th.</p>\n<p>By spending an additional spell point, you no longer need to have line of sight or spend a standard action to direct, move, or alter your figments. This allows your figments to somewhat automatically adapt to situations without having to be given new orders or modifying appearances to fit the situation.</p>\n<p>Your illusions, when behaving autonomously, act and react more or less realistically depending upon your caster level. Use the following table as a guideline for what may at most be expected from an illusion acting independently.</p>\n<strong>Table: Phantom Mind Illusion Realism</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>CL</th>\n<th>Maximum Expected Realistic Effect</th>\n</tr>\n<tr>\n<td>8-10</td>\n<td>Simple communication (as a human toddler).</td>\n</tr>\n<tr>\n<td>11-12</td>\n<td>Decent problem solving, moderate communication (as a very young human).</td>\n</tr>\n<tr>\n<td>13-14</td>\n<td>Decent communication (as a young human).</td>\n</tr>\n<tr>\n<td>15-16</td>\n<td>Advanced problem solving and simple planning (as an adolescent human).</td>\n</tr>\n<tr>\n<td>17-18</td>\n<td>Advanced communication and moderate planning (as a dumb human).</td>\n</tr>\n<tr>\n<td>19-20</td>\n<td>Advanced planning (as an average human).</td>\n</tr>\n</table>\n<p>Phantom Mind illusions resist casual testing, as they know when they should respond and how, and can outsmart less intelligent creatures without direction from you. Creatures with an Intelligence score lower than half the caster level of the illusion gain no benefits from obvious signs of trickery and cannot outsmart them with causal testing.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894368,
-    "modifiedTime": 1663169294851,
+    "modifiedTime": 1689539974695,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

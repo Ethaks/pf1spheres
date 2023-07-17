@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Your geomancing abilities can now affect greater depths and heights; rocks fly, vines reach, and fire blazes in such a way as to affect creatures at much higher or lower elevations than normal.</p>\n<p>When using Entangle or Tremor, you may affect flying creatures up to 10 feet per caster level over the effect. Affected creatures must succeed at a Fly check (DC 15 + caster level) or fall; Entangle pulls targets harmlessly to the ground and entangles them as normal, while Tremor causes targets to suffer falling damage.</p>\n<p>When creating a Vortex, increase the height to 10 feet + 10 feet per caster level. The top of the vortex is 10 feet + 5 feet per 5 caster levels wide, though the base of the vortex is still 5 feet.</p>\n<p>When using Affect Fire, you may cause the fire to manifest as a pillar, reaching 10 feet per caster level into the air.</p>\n<p>When using Gust Of Wind you may create the gust as a column with a radius of 5 feet + 5 feet per 5 caster levels and a height of 10 feet per caster level, centered anywhere within your geomancing range.</p>\n<p>When using Magnetize, double the range you can target.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Geomancing"]],
+    "tags": ["Geomancing"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892695,
-    "modifiedTime": 1663169294271,
+    "modifiedTime": 1689539974666,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

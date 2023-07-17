@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When making a melee attack with the attack action that deals lethal damage, you can take a -2 penalty on the attack roll; if the attack is successful, your weapon impales the creature, forcing it into a square within your reach if it was not already. An impaled creature cannot move and is battered for as long as it remains impaled. An impaled creature who attempts to cast a spell or use a spell-like ability must make a concentration check (DC 10 + your CMB + spell level), or lose the spell. Weapons used to impale a creature cannot be used for attacks except for those against the impaled creature (you cannot impale more than a single creature with your unarmed strikes), ignoring armor, natural armor, and shield bonuses to AC. A creature can only be impaled by a single weapon; attempting to impale an already impaled creature automatically fails. Controlling an impaling weapon requires the same amount of hands as wielding the weapon does.</p>\n<p>This impalement may be broken when you lose control of the weapon used for the attack (such as by being disarmed), or by the impaled creature making a combat maneuver check as a standard action with a DC equal to your CMD. If you control the weapon being used to impale a creature, you may choose to automatically remove the weapon as a move action. When the impaled creature loses the impaled condition, they take bleed damage equal to the damage dice of the weapon used to impale the creature. If a creature is impaled by a weapon that is not controlled by another creature, they are able to move, but all movement speeds they possess are reduced by 1/2 (minimum 5 ft.).</p>\n<p>You must make an opposed Strength check against the impaled creature to move as a part of the move action (this Strength check is made by your mount if you are mounted), moving up to half of your base speed while the impaled creature is dragged along with you (this movement does not provoke attacks of opportunity).</p>\n<p>If you are impaling two or more creatures, you must make an opposed Strength check against all currently impaled creatures in order to move, and if you are subjected to forced movement, you must make an opposed Strength check against all impaled creature; failing this check against any impaled creature forces you to release any weapons you&#8217;re using to impale a creature (or to end impaling a creature with your unarmed strikes or natural attacks) immediately, while success drags any impaled creatures with you during this forced movement.</p>\n<p>You can also choose to release the weapon as a free action without dealing damage (although you cannot release natural weapons). A creature may attempt a grapple check against an impaled creature&#8217;s CMD to assume control of the weapon impaling that creature as long as another creature is not controlling it. If so, the creature making the attempt receives a +4 bonus on the grapple check.</p>\n<p>Talents with the (impale) tag can only be used against creatures who are impaled by this ability when you are controlling the impaling weapon.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887936,
-    "modifiedTime": 1663169292340,
+    "modifiedTime": 1689539971110,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

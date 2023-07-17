@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Craft DC:</strong> 20</p>\n<p>You create a vial of aligned liquid, imbuing it with the powers of its associated alignment (chaotic, evil, good, or lawful) chosen at the time the formulae is crafted. You may attack a creature with this liquid as a ranged touch attack with a range increment of 10 ft. A flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, you must open the flask and pour the liquid out onto the target. Thus, you can douse an incorporeal creature with aligned liquid only if you are adjacent to it. Doing so is a ranged touch attack that does not provoke attacks of opportunity. Aligned liquids have the following effects based on their associated alignment:</p>\n<p><strong>Good:</strong> A direct hit by a flask of good aligned liquid deals 2d4 points of damage +1d4 per two ranks in Craft (alchemy) you possess to undead creatures or evil outsiders. Each such creature within 5 ft. of the point where the flask hits takes 1 point of damage from the splash.</p>\n<p><strong>Evil:</strong> A direct hit by a flask of evil aligned liquid deals 2d4 points of damage +1d4 per two ranks in Craft (alchemy) you possess to living creatures or good outsiders. Each such creature within 5 ft. of the point where the flask hits takes 1 point of damage from the splash.</p>\n<p><strong>Chaotic:</strong> A direct hit by a flask of chaotic aligned liquid deals 2d4 points of damage +1d4 per two ranks in Craft (alchemy) you possess to constructs or lawful outsiders. Each such creature within 5 ft. of the point where the flask hits takes 1 point of damage from the splash.</p>\n<p><strong>Lawful:</strong> A direct hit by a flask of lawful aligned liquid deals 2d4 points of damage +1d4 per two ranks in Craft (alchemy) you possess to elementals or chaotic outsiders. Each such creature within 5 ft. of the point where the flask hits takes 1 point of damage from the splash.</p>\n<p>You can increase the Craft DC for this weapon in increments of 10; each time you do so, the range for each damage increment increases by 5 ft. (for example, if you increase the Craft DC to 30, you would deal full damage to all affected targets within 5 ft. of the point of contact and 1 point of damage to all other affected creatures within 10 ft.).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Formulae"]],
+    "tags": ["Formulae"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168886674,
-    "modifiedTime": 1663169291842,
+    "modifiedTime": 1689539971084,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

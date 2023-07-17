@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Cold environments can deal either lethal or nonlethal cold damage to a creature. A creature dealt damage in this manner becomes fatigued (frostbitten), and cannot recover from fatigue or damage until warmed up. If a character takes an amount of nonlethal cold damage equal to her total hit points, any further damage from a cold environment is lethal cold damage.</p>\n<p>Characters wearing a cold weather suit treat the Cold as if it were 1 level lower in severity, and may use the Survival skill to gain bonuses to saving throws against Cold. A large fire can be used to create an area of warmth in a cold environment. Cold deals damage according to Table: Cold.</p>\n<strong>Table: Cold</strong><br>\n<table class=\"wiki-content-table\">\n<tr>\n<th>Severity Level</th>\n<th>Effects</th>\n</tr>\n<tr>\n<td>3 (below 40&#176; F)</td>\n<td>Fortitude save each hour (DC 15, +1 per previous check) or take 1d6 points of nonlethal cold damage.</td>\n</tr>\n<tr>\n<td>4 (below 0&#176; F)</td>\n<td>Same as level 3, but a check every 10 minutes.</td>\n</tr>\n<tr>\n<td>5 (below &#8211;20&#176; F)</td>\n<td>1d6 lethal cold damage every minute (no save) and a Fortitude save (DC 15, +1 per previous check) or take 1d4 nonlethal cold damage.</td>\n</tr>\n<tr>\n<td>6 (below -60&#176; F)</td>\n<td>Same as severity level 5, but damage and Fortitude saves happen each round.</td>\n</tr>\n<tr>\n<td>7 (below -120&#176; F)</td>\n<td>3d6 lethal cold damage each round (no save). Being encased in ice increases this to 10d6.</td>\n</tr>\n</table>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892636,
-    "modifiedTime": 1663169294207,
+    "modifiedTime": 1689539974662,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

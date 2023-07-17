@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Bear sphere, Antarctic Circle, 10th caster level or higher.</p>\n<p>When creating an antarctic circle, you may spend 2 spell points instead of 1 to transform it into an arctic circle instead of an antarctic circle. An arctic circle attracts bears, both natural (if any are nearby) and summoned (if there aren&#8217;t). It takes 1 minute for bears to arrive if natural bears are attracted, but summoned bears can take up to an hour to arrive.</p>\n<p>When the bears do arrive, they form a troop that obeys the caster. The bear troop lasts for 1 minute per caster level before dissipating as the bears either disappear or go back to their normal homes.</p>\n<p>At 10th caster level, you may summon a black bear troop.</p>\n<p>At 15th caster level you may summon a grizzly bear troop.</p>\n<p>At 20th caster level you may summon a dire bear troop.</p>\n<p>Statistics for bear troops are found under the Bestiary section below.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891735,
-    "modifiedTime": 1663169293898,
+    "modifiedTime": 1689539974648,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

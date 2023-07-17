@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Destruction sphere (Admixture, Blast Salvo (blast shape), Greater Admixture (advanced), Split Blast (advanced)), caster level 10th.</p>\n<p>When you use Admixture or Greater Admixture in conjunction with this talent to fire a blast salvo, you may spend 1 additional spell point to cause each surge fired as part of the blast salvo to use a different blast type or Admixture feat for the purpose of determining its effects (as with the Split Blast talent, any surge which applies the effect of a sphere besides the Destruction sphere may deal no damage at the caster&#8217;s discretion). A target is only affected by non-damage effects and non-destruction sphere-effects on the first three surges to strike them as part of a blast salvo (for example, if a ghost strike admixture surge and a Frost Blast surge were both to strike the same target which has already been struck by two surges, said target would only have to save against either the stagger effect of Frost Blast or the effects of the ghost strike).</p>\n<p>When using this talent, you do not need to pay additional spell points for using Admixture feats beyond the cost of the effect that they are applying (such as a ghost strike which may cost 1 or more spell points on its own).</p>\n<p>When using Greater Admixture in conjunction with this talent to fire a blast salvo in which each surge only carries a single blast type, you may spend 2 spell points to fire one additional surge plus another per two caster levels rather than per six caster levels.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894244,
-    "modifiedTime": 1663169294797,
+    "modifiedTime": 1689539974686,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When creating walls, coverings, or other objects that are particularly thin but cover a large area, a section of 20-foot-by-20-foot cloth is considered a Small object (1 hit point), while a wall 10-foot-by-10-foot and 1 inch thick counts as a Small object. Adding spikes or other such decorations to a 10-foot-by-10-foot wall makes it count as a Medium object, and doubling the thickness of a wall or covering counts as doubling its size. When dropping a wall or covering onto an area, damage is dealt to all spaces the wall or covering strikes, but damage is determined by the thickness, rather than the overall size, of the object (dropping a spikeless wall 1-inch thick onto a target counts as striking them with a Small object, no matter how large the wall may actually be in total). Additionally, you cannot target specific creatures with a wall or covering; only splash damage can be dealt over the affected area. Coverings made of soft materials such as cloth dropped less than 30 feet do not deal damage.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892776,
-    "modifiedTime": 1663169294348,
+    "modifiedTime": 1689539974671,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

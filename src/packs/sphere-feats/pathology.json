@@ -10,16 +10,14 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Blood sphere and 5th caster level; or Death sphere and 5th caster level; or Duelist sphere and base attack bonus +5; or Alchemy sphere and base attack bonus +5; Virulent Ailment.</p>\n<p><strong>Benefit:</strong> Your time spent analyzing mundane illnesses has allowed you to master them. You may choose two diseases from the following list: blinding sickness, bonechill, bubonic plague, cackle fever, cholera, filth fever, leprosy, mindfire, red ache, shakes, sleeping sickness, slimy doom.</p>\n<p>You may create these diseases and use them with your other plague feats. The onset period of any disease created this way becomes immediate, and the saving throw is changed as stated in the plague feat rules.</p>\n<p><strong>Special:</strong> This feat may be selected multiple times, selecting two more diseases each time.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Plague"]],
+    "tags": ["Plague"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "feat",
+    "subType": "feat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168898008,
-    "modifiedTime": 1663169295794,
+    "modifiedTime": 1689539976507,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

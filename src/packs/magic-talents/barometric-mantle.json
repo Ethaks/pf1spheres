@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Creatures bearing your mantle immediately know when weather within your control weather range is being manipulated, such as with the control weather ability. Although they do not automatically know who or what is changing the weather, they do learn in what way the weather is being manipulated (such as what weather conditions are being affected, and whether the severity levels are being raised or lowered). They may also predict the natural weather within medium range for the next 48 hours and gain a +2 bonus to saving throws against the effect of weather (natural or magically manipulated). If you possess the Climate advanced talent they recognize altered weather and predict natural weather at a range of 2 miles.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Mantle"], ["All"]],
+    "tags": ["Mantle", "All"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894078,
-    "modifiedTime": 1663169294644,
+    "modifiedTime": 1689539974685,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

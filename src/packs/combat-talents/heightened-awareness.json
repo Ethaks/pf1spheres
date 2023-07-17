@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When actively searching with the Perception skill (a move action), you may detect the presence of ongoing magical auras, such as those left by spells such as alarm or invisibility. If the target does not normally have a Perception DC, the DC is equal to the original spell DC as determined by the spell&#8217;s caster (DC 10 + spell level + caster&#8217;s casting ability modifier), or DC 25 if the effect does not originate from a source that would make it possible to determine a spell DC. This does not give you any information about the exact nature of magical effects detected in this manner, you are merely aware that a magical effect is active and the general area it is active in.</p>\n<p>So long as you have martial focus, you may make a Perception check to notice the presence of traps or ongoing magical effects (as described above) whenever you pass within 10 ft. of them, whether or not you are actively looking.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887920,
-    "modifiedTime": 1663169292326,
+    "modifiedTime": 1689539971109,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>While you have a patrol in place, when a foe provokes an attack of opportunity due to moving through your threatened area, you can make a reposition attempt against the creature as your attack of opportunity. This reposition attempt may be made using any weapon you are wielding. If successful, the creature cannot move for the rest of its turn. The creature can still take the rest of its action, but cannot move out of the square the reposition maneuver leaves it in. <strong>Associated Feat:</strong> Stand Still.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Zone"]],
+    "tags": ["Zone"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168885570,
-    "modifiedTime": 1663169291568,
+    "modifiedTime": 1689539971065,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>Whenever you would have damage dealt to you that is completely negated through damage reduction, energy resistance, or energy immunity, you may use a Life sphere ability as an immediate action on any willing creature within range. This sphere ability costs spell points as normal. You cannot benefit from this talent as a result of an effect dealing damage to you if you have previously used that effect to trigger this talent within the last minute (for example, if you negated fire damage from alchemist&#8217;s fire, you would only activate this ability the first time that particular instance of alchemist&#8217;s fire damaged you. You could activate this talent again if you negated damage from another vial of alchemist&#8217;s fire or a breath weapon that deals fire damage next turn).</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894499,
-    "modifiedTime": 1663169294953,
+    "modifiedTime": 1689539974699,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>As a standard action, you may pretend to cast an Illusion sphere effect and attempt a Bluff check. Making a Bluff check in this manner does not provoke attacks of opportunity and does not count as casting a spell. Any creature observing you must attempt a Sense Motive or Spellcraft check (whichever skill that target has a higher bonus with) against a DC equal to your Bluff check or be convinced you cast an illusion. For the next 10 minutes, the next time a creature who failed its check would make a saving throw against one of your illusions, they must roll twice and take the lower result. For every 8 caster levels you possess, creatures must roll twice on an additional saving throw against your illusions during this duration. Creatures who succeed at their check know you were bluffing and are unaffected.</p>\n<p>This is an extraordinary effect; you can only attempt to deceive the same creature with this talent once every 24 hours.</p>\n<p><strong>Note:</strong> If it would be impossible for the caster to cast magic, such as while in an anti-magic field, creatures automatically succeed their Sense Motive or Spellcraft check to see through your deception.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892721,
-    "modifiedTime": 1663169294306,
+    "modifiedTime": 1689539974668,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

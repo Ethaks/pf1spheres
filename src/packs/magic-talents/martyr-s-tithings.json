@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>Whenever you cause another creature to suffer blood loss, you gain an amount of temporary hit points equal to the blood loss for a number of rounds equal to your casting ability modifier. Whenever you would take blood loss damage, these temporary hit points are lost first.</p>\n<p>In addition, you may infuse another creature with a portion of your vitality. As a standard action, you suffer blood loss and grant another creature within range temporary hit points equal to twice the blood loss plus your casting ability modifier. These temporary hit points last for 1 minute per caster level. If you spend an additional spell point when casting this effect, the target is also healed for an amount of damage equal to the number of temporary hit points they receive.</p>\n<p><strong>Special:</strong> If you possess a Life sphere (vitality) talent, granting temporary hit points to another creature with this talent is treated as though it were a Life sphere effect for the purposes of granting the benefits of a (vitality) talent.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Blood Art"]],
+    "tags": ["Blood Art"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894085,
-    "modifiedTime": 1663169294647,
+    "modifiedTime": 1689539974685,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

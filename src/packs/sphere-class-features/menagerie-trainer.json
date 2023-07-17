@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>The armiger gains the Beastmastery sphere as a bonus talent. The armiger can attune her customized weapons to her animal allies by training and working with her animal allies. As part of customizing a weapon, the armiger can attune that customized weapon to one animal ally. Each customized weapon can only be attuned to a single animal ally, but an animal ally can be attuned to more than one customized weapon.</p>\n<p>While the armiger has the animal-attuned customized weapon as her active weapon, the attuned animal ally also counts as possessing the animal-attuned customized weapon&#8217;s combat talents for all purposes, including skill ranks, and is aware of how to use these talents. The animal ally must be able to see or hear the armiger in order to use the animal-attuned customized weapon&#8217;s combat talents. The animal ally uses Wisdom as their practitioner modifier if it does not already possess a practitioner modifier. The animal ally cannot gain or benefit from combat talents it could not ordinarily possess (such as the Beastmastery or Leadership spheres) or any combat spheres the creature could not perform normally (such as using Alchemy (formulae) talents or the Trap sphere).</p>\n<p>If the animal ally would benefit from a sphere or talent that allows them to maintain or perform an action for a period of time, such as readying a Boxing sphere counter punch, Guardian sphere patrol, or sustaining a Warleader tactic, the animal ally can continue to use those talents even if the animal-attuned customized weapon is not the armiger&#8217;s active weapon. The animal ally loses access to those talents at the start of the armiger&#8217;s next turn.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900038,
-    "modifiedTime": 1663169296175,
+    "modifiedTime": 1689539978531,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

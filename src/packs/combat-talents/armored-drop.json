@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>While wearing medium or heavy armor, you may divert any damage taken from falling to your armor. Damage you redirect this way ignores your armor&#8217;s hardness, and you are still knocked prone if you would have taken fall damage without this talent. You suffer any damage in excess of your armor&#8217;s hit points. <strong>Associated Feat:</strong> Cushioning Armor</p>\n<p><strong>Addendum:</strong> You may select this talent a second time. When you use this talent, creatures within 5 feet of where you land suffer bludgeoning damage equal to half the damage that would be dealt to your armor. [Apoc: Armor Talents 2]</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Leap"]],
+    "tags": ["Leap"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168888264,
-    "modifiedTime": 1663169292851,
+    "modifiedTime": 1689539971127,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When activating one of your spirit Nature abilities, you may touch a willing target and grant them the benefit of your (spirit) talent, rather than gaining it yourself. This can only be done with (spirit) talents that have a non-concentration duration, and requires a minimum of a standard action when granting an effect to another.</p>\n<p>You may take this talent twice. When taken twice, you may spend an additional spell point to affect up to 1 additional creature per 2 caster levels (minimum 1). Each target must be within range and must be affected by the same (spirit) talent and ability. Once created, each spirit is considered a separate sphere effect. Taking this talent twice is considered a mass talent.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894654,
-    "modifiedTime": 1663169294971,
+    "modifiedTime": 1689539974701,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

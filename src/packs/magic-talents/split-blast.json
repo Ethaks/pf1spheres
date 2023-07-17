@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Prerequisites:</strong> Destruction sphere (Admixture, Blast Salvo (blast shape)).</p>\n<p>When you use Admixture in conjunction with the Blast Salvo blast shape, you may cause some of the surges to use one blast type used in the Admixture while other surges use the other blast type. For example, a character who uses Admixture with Fire Blast and Numbing Blast talents could fire one surge that deals fire damage and causes a target to catch on fire as well as a second surge that deals cold damage and causes the target to take a penalty on Fortitude saves.</p>\n<p>This talent may be used in conjunction with Admixture feats, in which case any surge which applies the effect of a sphere besides the Destruction sphere may either deal bludgeoning damage as a basic destructive blast with no blast type or deal no damage but count as a surge of 1 die (chosen when the surge is fired).</p>\n<p>When using Admixture in conjunction with this talent to fire a blast salvo in which each surge only carries a single blast type, you may spend 2 spell points to fire one additional surge plus another per three caster levels rather than per six caster levels.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892722,
-    "modifiedTime": 1663169294307,
+    "modifiedTime": 1689539974668,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

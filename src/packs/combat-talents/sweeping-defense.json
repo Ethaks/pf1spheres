@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>When making an attack action, you may grant yourself a -2 penalty on all attack rolls until the beginning of your next turn to cause your attack action to deal damage to multiple targets. Choose one target that is adjacent to your primary target and also within your reach, and compare your attack roll to the AC of both targets. If your attack roll exceeds either target&#8217;s AC (including the primary target), that target suffers half damage from your attack. The additional target is not subject to non-damage parts of your attack action, such as additional effects granted by feats or talents. Additionally, all targets damaged by your Sweeping Defence suffer a -2 penalty to all attack rolls until the start of your next turn.</p>\n<p>At +10 base attack bonus, this penalty increases to -4 and you may target up to three adjacent targets with sweeping defense.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887922,
-    "modifiedTime": 1663169292326,
+    "modifiedTime": 1689539971109,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,7 +14,6 @@
   "system": {
     "description": {
       "value": "<p>You may add the following traits to your forms:</p>\n<p><strong>Inured:</strong> The target gains a +2 competence bonus on any save to resist the sickened and nauseated conditions and against poison effects. This bonus increases by +1 per 4 caster levels.</p>\n<p><strong>Nauseating Spray:</strong> Once per minute, as a standard action the target may spray noxious chemicals in a 15-foot cone. Any creature in this cone must succeed at a Fortitude save with a DC of 10 + 1/2 Hit Dice + Constitution modifier or be sickened for 1d6 rounds. If you spend an additional spell point when granting this trait, the affected creatures are nauseated for 1d6 rounds on a failed save and sickened for 1 round on a successful save. The size of the cone increases by 5 feet per 5 caster levels. This counts as a poison effect.</p>\n<p><strong>Stench:</strong> The target secretes a stinking chemical offensive to most living things. Any creature adjacent to the target must succeed at a Fortitude save or be sickened until 1d6 rounds after they are no longer adjacent. A creature that saves against this effect is immune to any instance of it from the same caster for 24 hours. This is a poison effect.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -23,7 +22,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168891014,
-    "modifiedTime": 1663169293601,
+    "modifiedTime": 1689539974633,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

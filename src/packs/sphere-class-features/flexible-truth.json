@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>At 3rd level, the troubadour has become so adept at living multiple &#8216;truths&#8217; through his personas that he can make himself temporarily believe anything, making it possible for him to fool truth-detecting magic or magic that detects his thoughts. A creature using this sort of magic against the troubadour must succeed on a caster level check (MSB check) against a DC of 15 + 1/2 the troubadour&#8217;s class level to succeed; failure means the magic doesn&#8217;t detect the troubadour&#8217;s lies or force him to speak only the truth, and if the magic is reading his mind, this lets the troubadour choose what thoughts to display. If the troubadour possesses a similar ability (such as through skill unlocks), only use the higher DC; do not roll the check twice.</p>\n<p>This ability does not protect against mental attacks or mind-reading that delves deeper than surface thoughts.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900020,
-    "modifiedTime": 1663169296151,
+    "modifiedTime": 1689539978529,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may bend space around yourself to avert attacks. When you bend space against an attack targeted at you, the originator of the attack must make a Will save or have their attack veer wide and miss. You must normally ready an action to make use of this ability since bending space requires a standard action, but you may spend a spell point to use it as an immediate action instead.</p>\n<p>When you take the total defense action, you may use this ability as an immediate action until the beginning of your next turn without paying a spell point.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Space"]],
+    "tags": ["Space"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168892644,
-    "modifiedTime": 1663169294212,
+    "modifiedTime": 1689539974663,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

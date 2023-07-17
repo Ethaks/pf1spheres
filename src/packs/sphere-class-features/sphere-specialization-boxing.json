@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p><strong>Raw Knuckle (Ex):</strong> At 3rd level, whenever a conscript uses his counter punch ability, he deals an additional +2 damage. At 6th level and every six levels afterwards, this additional damage increases by +2.</p>\n<p><strong>Lights Out (Ex):</strong> At 8th level, whenever a conscript makes a successful attack using his counter punch ability, the creature he damaged with it treats the conscript as though he had concealment for 1 round. At 16th level, he is instead treated as though he had total concealment.</p>\n<p><strong>Impossible Preparation (Ex):</strong> At 20th level, as long as a conscript has an action readied, he is immune to being moved or teleported (he may choose to allow himself to be moved or teleported if he wishes) and may roll two times whenever he is required to make a Will saving throw, taking the most favorable result.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168900969,
-    "modifiedTime": 1663169297175,
+    "modifiedTime": 1689539978579,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

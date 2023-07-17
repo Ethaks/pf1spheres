@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may spend a spell point to create a consecration that dictates the actions of all creatures within its area of effect. When you create this consecration, you must declare a course of action that is at most one sentence long and whether this action is to be avoided or emulated. Example strictures include &#8220;No one can attack&#8221;, &#8220;everyone must trade fairly&#8221;, etc. If your stricture would cause a creature to attack itself or perform another obviously suicidal action, they are immune to that stricture. For as long as you maintain this consecration, all creatures within this area must obey this stricture. Each individual creature is allowed a Will save to negate this requirement and allow itself to act normally. If a creature succeeds at their saving throw, they become immune to that stricture for the rest of its duration.</p>\n<p>You must always follow your own stricture. You must concentrate to maintain this consecration, to a maximum of 1 minute per caster level. You may always spend a spell point as a free action to allow this consecration to continue for 1 minute per caster level without concentration.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Consecration"]],
+    "tags": ["Consecration"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "magicTalent",
+    "subType": "magicTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168894077,
-    "modifiedTime": 1663169294643,
+    "modifiedTime": 1689539974685,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

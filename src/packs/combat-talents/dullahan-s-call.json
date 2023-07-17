@@ -14,16 +14,14 @@
   "system": {
     "description": {
       "value": "<p>You may expend your martial focus as a swift action and designate one creature suffering from a fear effect who can see and hear you, declaring their imminent doom. That creature must succeed at a Will save or become staggered for 1 round plus 1 round for every 4 ranks in Intimidate you possess.</p>\n<p>You gain a circumstance bonus on attack rolls made to confirm critical hits equal to your practitioner modifier against creatures staggered by this effect. You may perform a boast even if you do not have martial focus after confirming a critical hit against a target staggered by this effect. <strong>Associated Feat:</strong> Critical Focus.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
-    "tags": [["Demoralization"]],
+    "tags": ["Demoralization"],
     "actions": [],
     "uses": {
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -59,7 +57,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "combatTalent",
+    "subType": "combatTalent",
     "associations": {
       "classes": []
     },
@@ -69,37 +67,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -138,18 +111,17 @@
       "multiplier": "",
       "damageBonus": 2,
       "critMultiplier": 1
-    },
-    "size": "med"
+    }
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168887513,
-    "modifiedTime": 1663169292080,
+    "modifiedTime": 1689539971096,
     "lastModifiedBy": "pf1spheres-db"
   }
 }

@@ -10,7 +10,6 @@
   "system": {
     "description": {
       "value": "<p>You know how to work a town to gain fame or notoriety. You gain the Renown vigilante social talent, treating your base persona as your social identity and any one persona you choose as your vigilante identity for this purpose. Establishing your renown in a community makes your face recognizable; when within the area of your renown, any persona you adopt that has the same face is instantly recognized by all as belonging to your base persona.</p>\n<p>Alternately, when you gain this actor training you may choose one of your personas to be your social identity for this purpose, but beginning a reputation from nothing is much more difficult; it takes twice as long the first time you establish the persona&#8217;s renown within a community. If you dissolve this persona, you may choose a new persona to be your social identity.</p>\n<p>You may select this actor training multiple times. Each time it is gained, you may choose and gain a new vigilante social talent, so long as it possesses Renown as a prerequisite.</p>\n<p>You must meet the prerequisites for this talent, and may treat your troubadour levels as vigilante levels when doing so.</p>\n",
-      "chat": "",
       "unidentified": ""
     },
     "tags": [],
@@ -19,7 +18,6 @@
       "per": null,
       "value": 0,
       "maxFormula": "",
-      "autoDeductCharges": true,
       "autoDeductChargesCost": "1"
     },
     "attackNotes": [],
@@ -55,7 +53,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "featType": "classFeat",
+    "subType": "classFeat",
     "associations": {
       "classes": []
     },
@@ -65,37 +63,12 @@
     "disabled": false,
     "classSkills": {},
     "nonlethal": false,
-    "activation": {
-      "cost": 1,
-      "type": ""
-    },
-    "unchainedAction": {
-      "activation": {
-        "cost": 1,
-        "type": ""
-      }
-    },
     "duration": {
       "value": null,
       "units": ""
     },
     "target": {
       "value": ""
-    },
-    "range": {
-      "value": null,
-      "units": "",
-      "maxIncrements": 1,
-      "minValue": null,
-      "minUnits": ""
-    },
-    "measureTemplate": {
-      "type": "",
-      "size": "",
-      "overrideColor": false,
-      "customColor": "",
-      "overrideTexture": false,
-      "customTexture": ""
     },
     "attackName": "",
     "actionType": null,
@@ -129,18 +102,17 @@
       "type": "",
       "description": ""
     },
-    "soundEffect": "",
-    "size": "med"
+    "soundEffect": ""
   },
   "ownership": {
     "default": 0
   },
   "_stats": {
     "systemId": "pf1",
-    "systemVersion": "0.82.2",
-    "coreVersion": "10.285",
+    "systemVersion": "0.82.5",
+    "coreVersion": "10.291",
     "createdTime": 1663168901069,
-    "modifiedTime": 1663169297267,
+    "modifiedTime": 1689539978586,
     "lastModifiedBy": "pf1spheres-db"
   }
 }
