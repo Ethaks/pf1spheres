@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.5.1...v0.6.0) (2023-07-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* increase required system version to 9.0
+
+### Features
+
+* add battered description ([1aaae65](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/1aaae650d4363bc0b0aa73fd5535c56543d4aff6)), closes [#23](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/issues/23)
+* add skill talent subtype and skill sphere field ([3cbc039](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/3cbc03970b9d31d88653a763910bd6cef46cbe31)), closes [#27](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/issues/27)
+* track number of talents ([3f5ef1e](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/3f5ef1e5d300525490b0ca7436f6f8f2a6d792cb)), closes [#3](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/issues/3)
+
+
+### Bug Fixes
+
+* restore ability to roll talents from actor tab ([117f3a1](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/117f3a1bfedfcac98751ab09b13c3cd989bedb6f))
+
+
+* increase required system version to 9.0 ([e030750](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/e030750733736a4c84d6add52bb7cdb5547fdedb))
+
 ### [0.5.1](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.5.0...v0.5.1) (2023-01-06)
 
 
