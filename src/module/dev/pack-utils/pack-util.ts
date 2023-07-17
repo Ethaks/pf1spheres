@@ -34,10 +34,10 @@ import * as E from "fp-ts/Either";
 export async function importData<
   T extends RawData,
   DT extends AllowedImportDocumentNames,
-  D extends AllowedImportConstructorData
+  D extends AllowedImportConstructorData,
 >(
   config: BasePackConfig<T, DT, D>,
-  options: DataImportOptions = {}
+  options: DataImportOptions = {},
 ): Promise<ImportReturnValue<DT>[]> {
   const { create = true, update = true, reset = false } = options;
 
@@ -60,10 +60,13 @@ export async function importData<
     .filter(nonNullable);
 
   // Record in which each evential pack gets its own index
-  const sortedData = Object.values(packs).reduce((acc, pack) => {
-    acc[pack.metadata.name] = { pack, data: [] };
-    return acc;
-  }, {} as Record<string, { pack: typeof packs[number]; data: DeepPartial<D>[] }>);
+  const sortedData = Object.values(packs).reduce(
+    (acc, pack) => {
+      acc[pack.metadata.name] = { pack, data: [] };
+      return acc;
+    },
+    {} as Record<string, { pack: (typeof packs)[number]; data: DeepPartial<D>[] }>,
+  );
 
   // There's only one pack to create, so no sorting to determine target pack necessary
   if (packs.length < 2) sortedData[packs[0].metadata.name].data = transformedData;
@@ -87,7 +90,7 @@ export async function importData<
     if (reset) {
       await packData.pack.documentClass.deleteDocuments(
         docs.map((d) => d.id),
-        { pack: packName }
+        { pack: packName },
       );
       docs = [];
     }
@@ -143,7 +146,7 @@ export async function importData<
  * @returns An array of packs
  */
 async function ensurePacks(
-  packLabels: string[]
+  packLabels: string[],
 ): Promise<CompendiumCollection<CompendiumCollection.Metadata>[]> {
   const packs = [];
   for (const packName of packLabels) {
@@ -199,7 +202,7 @@ const decode =
       E.getOrElse<t.Errors, A | undefined>((errors) => {
         console.error(failure(errors).join("\n"));
         return undefined;
-      })
+      }),
     );
 
 /**
@@ -217,15 +220,18 @@ export const deduplicateData =
    */
   (dataJson: T[]) => {
     const unhandledData: T[] = [];
-    const itemArraysByName = [...dataJson].reduce((acc, item) => {
-      const dedupeData = dataGetter(item);
-      if (dedupeData === undefined) {
-        unhandledData.push(item);
-      } else {
-        (acc[dedupeData.shortId] || (acc[dedupeData.shortId] = [])).push({ item, dedupeData });
-      }
-      return acc;
-    }, {} as Record<string, Array<{ item: T; dedupeData: DeduplicationData }>>);
+    const itemArraysByName = [...dataJson].reduce(
+      (acc, item) => {
+        const dedupeData = dataGetter(item);
+        if (dedupeData === undefined) {
+          unhandledData.push(item);
+        } else {
+          (acc[dedupeData.shortId] || (acc[dedupeData.shortId] = [])).push({ item, dedupeData });
+        }
+        return acc;
+      },
+      {} as Record<string, Array<{ item: T; dedupeData: DeduplicationData }>>,
+    );
 
     // Save dupes for logging
     const dupes: unknown[] = [];
@@ -238,7 +244,7 @@ export const deduplicateData =
           dataArray.map((itemData) => [
             itemData.dedupeData.longId ?? itemData.dedupeData.shortId,
             itemData,
-          ])
+          ]),
         );
         if (map.size !== dataArray.length) {
           // Actual duplicates found, return the winner of the Map creation process

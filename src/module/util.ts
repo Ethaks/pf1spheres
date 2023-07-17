@@ -28,7 +28,7 @@ const allowedPrefixes = [
 export type LocalizationKey =
   | StripPrefix<"PF1SPHERES", SafePropPath<LangEn>>
   | SafePropPath<LangEn>
-  | `${Exclude<typeof allowedPrefixes[number], Uppercase<typeof MODULE_ID>>}.${string}`;
+  | `${Exclude<(typeof allowedPrefixes)[number], Uppercase<typeof MODULE_ID>>}.${string}`;
 
 /**
  * Returns a localised string from a localisation key.
@@ -44,7 +44,7 @@ export type LocalizationKey =
 export const localize = (
   key: LocalizationKey,
   data?: Record<string, unknown>,
-  debug = false
+  debug = false,
 ): string => {
   const startsWithPrefix = allowedPrefixes.some((prefix) => key.startsWith(prefix));
   const result = startsWithPrefix

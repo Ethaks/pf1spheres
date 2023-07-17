@@ -36,8 +36,8 @@ describe("Test default changes handling", () => {
     expect(
       newChanges.find(
         (c) =>
-          c.data.formula === "-2" && c.data.subTarget === "cmd" && c.data.modifier === "untyped"
-      )
+          c.data.formula === "-2" && c.data.subTarget === "cmd" && c.data.modifier === "untyped",
+      ),
     ).toBeUndefined();
   });
 

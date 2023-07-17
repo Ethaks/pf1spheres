@@ -24,7 +24,7 @@ const classData = (progression: CasterProgression, level: number): ItemPF & PF1C
     type: "class",
     flags: { pf1spheres: { casterProgression: progression } },
     system: { level: level },
-  } as ItemPF & PF1ClassDataSource);
+  }) as ItemPF & PF1ClassDataSource;
 
 describe("Actor snapshot data", () => {
   // Initialise actor
@@ -36,21 +36,21 @@ describe("Actor snapshot data", () => {
         name: "Mageknight",
         type: "class",
         flags: { pf1spheres: { casterProgression: "low" } },
-      })
+      }),
     );
     expect(actor.toObject().items).toContainEqual(
       expect.objectContaining({
         name: "Wraith",
         type: "class",
         flags: { pf1spheres: { casterProgression: "mid" } },
-      })
+      }),
     );
     expect(actor.toObject().items).toContainEqual(
       expect.objectContaining({
         name: "Incanter",
         type: "class",
         flags: { pf1spheres: { casterProgression: "high" } },
-      })
+      }),
     );
   });
 });
@@ -153,7 +153,7 @@ describe("Item level data calculation", () => {
 });
 
 describe("Source tracking for Sphere CL, MSB/D", () => {
-  const getFakeActor = (): ActorPF => ({ sourceInfo: {} } as ActorPF);
+  const getFakeActor = (): ActorPF => ({ sourceInfo: {} }) as ActorPF;
   const itemSphereData = (level: number, cl: number): ItemSphereClData => ({
     baseLevel: level,
     clPart: cl,

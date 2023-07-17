@@ -44,7 +44,7 @@ interface LilHelperCheckHintsOptions {
 
 export const onLilHelperCheckHints = (
   tags: Tag[],
-  { subject, cm, result, cls }: LilHelperCheckHintsOptions
+  { subject, cm, result, cls }: LilHelperCheckHintsOptions,
 ): void => {
   if (typeof subject === "object" && "pf1spheres" in subject) {
     if (subject.pf1spheres === "concentration") {
@@ -56,12 +56,12 @@ export const onLilHelperCheckHints = (
       const enrichedDefensiveRoll = enrichRoll(
         defensiveRoll,
         formulaDefensiveCasting,
-        defensiveRoll.total ?? ""
+        defensiveRoll.total ?? "",
       ).outerHTML;
       const enrichedEntangledRoll = enrichRoll(
         entangledRoll,
         formulaEntangledCasting,
-        entangledRoll.total ?? ""
+        entangledRoll.total ?? "",
       ).outerHTML;
       let defensiveSuccess = false,
         entangleSuccess = false;
@@ -98,7 +98,7 @@ export const onLilHelperCheckHints = (
           failure: check < 15,
           possible: check >= 15,
           success: entangleSuccess,
-        })
+        }),
       );
     }
   }
@@ -110,7 +110,7 @@ export const onLilHelperCheckHints = (
  * @param i18n - The i18n object from Little Helper
  */
 export const onLilHelperI18n = (
-  i18n: Parameters<Hooks.StaticCallbacks["little-helper.i18n"]>[0]
+  i18n: Parameters<Hooks.StaticCallbacks["little-helper.i18n"]>[0],
 ): void => {
   i18n.conditions.battered = "PF1SPHERES.BatteredHint";
 };

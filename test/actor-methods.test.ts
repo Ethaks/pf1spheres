@@ -16,7 +16,7 @@ beforeAll(() => {
       static getSpeaker() {
         return {};
       }
-    }
+    },
   );
 });
 
@@ -112,7 +112,7 @@ describe("Actor#spheres#rollConcentration", () => {
     expect(callHookSpy).toHaveBeenCalledWith(
       "pf1spheresPreActorRollConcentration",
       actor,
-      rollOptions
+      rollOptions,
     );
     expect(d20RollSpy).toHaveBeenCalledOnce();
     expect(d20RollSpy).toHaveBeenCalledWith(rollOptions);

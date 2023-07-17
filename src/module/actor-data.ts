@@ -55,7 +55,7 @@ export declare class ActorPF extends Actor {
   formatContextNotes(
     notes: Array<{ item: Item; notes: string[] }>,
     rollData: RollData,
-    options?: { roll: boolean }
+    options?: { roll: boolean },
   ): string[];
 
   // TODO: v10 hack, check with updated types

@@ -98,7 +98,7 @@ Hooks.once("i18nInit", () => {
 
   const localizeObject = (
     obj: Record<string, string | { label: string }>,
-    sort = false
+    sort = false,
   ): Record<string, string | { label: string }> => {
     const localized = Object.entries(obj).map(([key, value]) => {
       let newValue;
@@ -142,7 +142,7 @@ Hooks.once("setup", () => {
       {
         from: "PF1Spheres 0.5",
         until: "PF1Spheres 0.7",
-      }
+      },
     );
     Hooks.callAll("pf1spheres.preSetup", PF1S);
   }

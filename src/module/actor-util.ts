@@ -78,7 +78,7 @@ export const getHighestCl =
       .map(([sphere, data]): [MagicSphere, number] => [sphere, data.total])
       .reduce(
         (acc: [MagicSphere | "total", number], [sphere, cl]) => (cl > acc[1] ? [sphere, cl] : acc),
-        ["total", clData.total]
+        ["total", clData.total],
       );
     return {
       sphere: highest[0],

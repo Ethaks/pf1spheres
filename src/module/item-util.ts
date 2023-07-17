@@ -30,7 +30,7 @@ export const getSphereType = (sphere: Sphere): "magic" | "combat" | undefined =>
  * Returns a Record containing all Spheres and their translations
  */
 export const getAllSpheres = () =>
-  ({ ...PF1S.magicSpheres, ...PF1S.combatSpheres } as Record<Sphere, string>);
+  ({ ...PF1S.magicSpheres, ...PF1S.combatSpheres }) as Record<Sphere, string>;
 
 /**
  * Returns a given Sphere's display name

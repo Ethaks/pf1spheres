@@ -77,5 +77,5 @@ export const nonNullable = <T>(value: T): value is NonNullable<T> =>
  */
 export type StripPrefix<
   TPrefix extends string,
-  T extends string // changed this constraint to string
+  T extends string, // changed this constraint to string
 > = T extends `${TPrefix}.${infer R}` ? R : never;

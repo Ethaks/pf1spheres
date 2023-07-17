@@ -23,7 +23,7 @@ import * as t from "io-ts";
 export interface BasePackConfig<
   T extends RawData,
   DT extends AllowedImportDocumentNames,
-  D extends AllowedImportConstructorData
+  D extends AllowedImportConstructorData,
 > {
   /** The {@link DocumentType} of the documents to be created */
   docType: DT;
@@ -104,7 +104,7 @@ const SphereFromString = new t.Type(
       else return t.failure(sphere, c);
     }
   },
-  t.identity
+  t.identity,
 );
 
 export type RawTalentData = t.TypeOf<typeof RawTalentData>;
@@ -128,7 +128,7 @@ const BabProgressionFromString = new t.Type(
     if (guess) return t.success(guess as BABProgression);
     return t.failure(s, c);
   },
-  t.identity
+  t.identity,
 );
 
 const guessProgressionFromLetter = (progressions: string[], value: string) =>
@@ -142,7 +142,7 @@ export const SaveProgressionFromString = new t.Type(
     typeof p === "string" && ["high", "low"].includes(p)
       ? t.success(p as SaveProgression)
       : t.failure(p, c),
-  t.identity
+  t.identity,
 );
 
 export type SaveDataRecord = t.TypeOf<typeof SaveDataRecord>;

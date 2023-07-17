@@ -133,7 +133,7 @@ async function extractPack(filename, options) {
           .map(async (f) => {
             await fs.remove(f);
             return f;
-          })
+          }),
       )
     : [];
 
@@ -150,7 +150,7 @@ async function extractAllPacks(options) {
   return Promise.all(
     packs
       .filter((p) => p.isFile() && path.extname(p.name) === ".db")
-      .map((p) => extractPack(p.name, options))
+      .map((p) => extractPack(p.name, options)),
   );
 }
 
@@ -173,7 +173,7 @@ async function compilePack(name) {
       } catch (error) {
         console.error(`Could not insert entry ${json.name} with id ${json.id}\n`, error);
       }
-    })
+    }),
   );
   db.compactDatafile();
 }
@@ -184,10 +184,10 @@ async function compilePack(name) {
 async function compileAllPacks() {
   await fs.ensureDir(resolveCache());
   await Promise.all(
-    (await fs.readdir(resolveCache())).map(async (f) => fs.remove(resolveCache(f)))
+    (await fs.readdir(resolveCache())).map(async (f) => fs.remove(resolveCache(f))),
   );
   const dirs = (await fs.readdir(resolveSource(), { withFileTypes: true })).filter((f) =>
-    f.isDirectory()
+    f.isDirectory(),
   );
   return Promise.all(dirs.map((d) => d.name).map((d) => compilePack(d)));
 }

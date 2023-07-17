@@ -61,7 +61,7 @@ interface PF1ItemDataSourceDescription {
 }
 
 interface PF1ItemDataSourceTags {
-  tags: string[][];
+  tags: string[];
 }
 
 interface PF1ItemDataSourceChanges {
@@ -96,7 +96,7 @@ interface PF1FeatDataSourceData
     PF1ItemDataSourceChanges,
     PF1ItemDataSourceUses,
     PF1ItemDataSourceTagged {
-  featType:
+  subType:
     | "feat"
     | "classFeat"
     | "trait"
@@ -104,7 +104,6 @@ interface PF1FeatDataSourceData
     | "misc"
     | "template"
     | keyof typeof PF1CONFIG_EXTRA.featTypes;
-  abilityType: "classFeat";
 }
 
 export interface PF1ClassDataSource {
@@ -121,7 +120,7 @@ interface PF1ClassDataSourceData
   level: number;
   bab: BABProgression;
   hd: number;
-  classType: "base";
+  subType: "base";
   savingThrows: Record<SaveType, { value: "high" | "low" }>;
   classSkills: Record<string, boolean>;
   skillsPerLevel: number;

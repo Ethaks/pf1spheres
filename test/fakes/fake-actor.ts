@@ -38,7 +38,7 @@ export class FakeActor {
       } else {
         this.items.set(
           source._id,
-          new FakeItem(source, { parent: this as unknown as ActorPF }) as unknown as ItemPF
+          new FakeItem(source, { parent: this as unknown as ActorPF }) as unknown as ItemPF,
         );
       }
     }

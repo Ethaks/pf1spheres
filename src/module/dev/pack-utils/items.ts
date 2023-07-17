@@ -82,7 +82,7 @@ function getTalentData(entry: RawTalentData): DeepPartial<ItemDataSource> | unde
     system: {
       featType: `${talentType}Talent`,
       description: { value: entry.text },
-      tags: entry.tags.map((tag) => [tag]),
+      tags: entry.tags,
     },
     flags: { pf1spheres: { sphere: entry.sphere } },
   } as DeepPartial<ItemDataSource>;
@@ -136,13 +136,16 @@ function getClassData(c: RawClassData): DeepPartial<ItemDataSource> {
     data: {
       bab: c.bab,
       hd: c.hd,
-      savingThrows: Object.entries(c.savingThrows).reduce((acc, [save, val]) => {
-        acc[save as SaveType] = { value: val };
-        return acc;
-      }, {} as Partial<PF1ClassDataSource["system"]["savingThrows"]>),
-      classType: "base",
+      savingThrows: Object.entries(c.savingThrows).reduce(
+        (acc, [save, val]) => {
+          acc[save as SaveType] = { value: val };
+          return acc;
+        },
+        {} as Partial<PF1ClassDataSource["system"]["savingThrows"]>,
+      ),
+      subType: "base",
       classSkills: Object.fromEntries(
-        Object.keys(CONFIG.PF1.skills).map((sk) => [sk, c.classSkills.includes(sk)])
+        Object.keys(CONFIG.PF1.skills).map((sk) => [sk, c.classSkills.includes(sk)]),
       ),
       skillsPerLevel: c.skillsPerLevel,
       armorProf: {
@@ -195,8 +198,8 @@ function getAbilityData(abil: RawAbilityData): DeepPartial<ItemDataSource> {
     type: "feat",
     system: {
       description: { value: abil.text },
-      abilityType: abil.type,
-      featType: "classFeat",
+      // abilityType: abil.type,
+      subType: "classFeat",
     },
     flags: {
       world: {
@@ -214,7 +217,7 @@ const endText = "</ul>";
 
 /** Appends links to sub abilities to their parent ability's text */
 export async function linkAbilitiesToAbilities(
-  packName = "pf1spheres.class-features"
+  packName = "pf1spheres.class-features",
 ): Promise<ItemPF[] | undefined> {
   const pack = getGame().packs.get(packName);
   if (!pack) return;
@@ -231,7 +234,7 @@ export async function linkAbilitiesToAbilities(
       (abil.data.flags.world.pf1s.subAbilities as string[])
         .map((sub: string) => ({ name: sub, id: pack.getName(sub)?.id ?? undefined }))
         .map(
-          (s) => `<li>${s.id ? `@Compendium[${pack.collection}.${s.id}]{${s.name}}` : s.name}</li>`
+          (s) => `<li>${s.id ? `@Compendium[${pack.collection}.${s.id}]{${s.name}}` : s.name}</li>`,
         )
         .join("") +
       endText,
@@ -242,7 +245,7 @@ export async function linkAbilitiesToAbilities(
 /** Creates PF1 Item Links from classes to their features */
 export async function linkAbilitiesToClass(
   classPackName = "pf1spheres.classes",
-  abilityPackName: "pf1spheres.class-features"
+  abilityPackName: "pf1spheres.class-features",
 ): Promise<ItemPF[] | undefined> {
   const classPack = getGame().packs.get(classPackName);
   const abilityPack = getGame().packs.get(abilityPackName);
@@ -255,7 +258,7 @@ export async function linkAbilitiesToClass(
     "data.links.classAssociations": cl.data.flags.world?.pf1s?.classFeatures.map((feat, index) => {
       const item = abilities.find(
         // @ts-expect-error Only available for imports
-        (a) => a.name?.startsWith(feat.name) && a.data.flags.world?.pf1s?.class === cl.name
+        (a) => a.name?.startsWith(feat.name) && a.data.flags.world?.pf1s?.class === cl.name,
       );
       return {
         id: item?.uuid.split("Compendium.")[1],

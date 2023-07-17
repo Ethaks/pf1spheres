@@ -99,7 +99,7 @@ export const getActorMethods = (actor: ActorPF) => ({
  */
 export async function rollMsb(
   this: ActorPF,
-  options: ActorRollOptions = {}
+  options: ActorRollOptions = {},
 ): Promise<ActorRollResult> {
   if (!this.isOwner) {
     const msg = localize("PF1.ErrorNoActorPermissionAlt", { "0": this.name });
@@ -138,7 +138,7 @@ export async function rollMsb(
  */
 export async function rollConcentration(
   this: ActorPF,
-  options: ActorRollOptions = {}
+  options: ActorRollOptions = {},
 ): Promise<ActorRollResult> {
   if (!this.isOwner) {
     const msg = localize("PF1.ErrorNoActorPermissionAlt", { "0": this.name });

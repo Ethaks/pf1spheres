@@ -14,7 +14,7 @@ import { renderPf1sTemplate } from "./preloadTemplates";
 
 export const onActorSheetHeaderButtons = (
   sheet: ActorSheetPF,
-  buttons: Application.HeaderButton[]
+  buttons: Application.HeaderButton[],
 ) => {
   if (sheet.isEditable) {
     const actor = sheet.actor;
@@ -30,7 +30,7 @@ export const onActorSheetHeaderButtons = (
 export const onActorSheetRender: (
   app: ActorSheetPF,
   html: JQuery,
-  options: ActorSheetPFData
+  options: ActorSheetPFData,
 ) => boolean = (app, html, _options) => {
   if (app.spheresTab == null) {
     app.spheresTab = { activateTab: false, expandedSpheres: {} };
@@ -79,15 +79,15 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
       label: localize(attribute.toLocaleUpperCase() as Uppercase<typeof attribute>),
       path: `@spheres.${attribute}.total`,
       sources: (actor.sourceDetails[`system.spheres.${attribute}.total` as const] ?? []).filter(
-        (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+        (info) => !(info.name in CONFIG.PF1.bonusModifiers), // TODO: Remove when Changes can opt out of sourceInfo
       ),
       cappedSources: (
         actor.sourceDetails[`system.spheres.${attribute}.modCap` as const] ?? []
       ).filter(
-        (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+        (info) => !(info.name in CONFIG.PF1.bonusModifiers), // TODO: Remove when Changes can opt out of sourceInfo
       ),
       rollable: ["msb"].includes(attribute) ? "rollable" : "",
-    })
+    }),
   );
   // Insert Concentration element between MSB and MSD
   attributeGrid.splice(2, 0, {
@@ -121,7 +121,7 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
     label: localize("PF1.BABAbbr"),
     path: `@attributes.bab.total`,
     sources: (actor.sourceDetails["system.attributes.bab.total"] ?? []).filter(
-      (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+      (info) => !(info.name in CONFIG.PF1.bonusModifiers), // TODO: Remove when Changes can opt out of sourceInfo
     ),
     cappedSources: [],
     rollable: "",
@@ -154,8 +154,7 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
     const sphere = item.flags.pf1spheres?.sphere;
     if (
       item.type === "feat" &&
-      // @ts-expect-error v10 types, above check now acts as typeguard
-      ["combatTalent", "magicTalent"].includes(item.system.featType) &&
+      ["combatTalent", "magicTalent"].includes(item.system.subType) &&
       sphere
     ) {
       talents[sphere] ??= [];
@@ -178,7 +177,7 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
       hasTalents: Boolean(ownedTalents[sphere]?.length),
       expandTalents: Boolean(app.spheresTab.expandedSpheres[sphere] ?? false),
       ...getSphereClSources(actor)(sphere),
-    })
+    }),
   );
   const sphereBabs = Object.keys(PF1S.combatSpheres).map(
     (sphere): SphereData => ({
@@ -193,7 +192,7 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
       hasTalents: Boolean(ownedTalents[sphere]?.length),
       expandTalents: Boolean(app.spheresTab.expandedSpheres[sphere] ?? false),
       ...getSphereBabSources(actor)(sphere),
-    })
+    }),
   );
 
   return {
@@ -222,14 +221,14 @@ const activateListeners = (app: ActorSheetPF, html: JQuery<HTMLElement>, actor: 
   // TODO: Decide upon own solution for rolling – depends on how talents should be activated
   html
     .find(".talent-use>img")
-    .on("click", pf1.applications.actor.ActorSheetPF.prototype._quickItemActionControl.bind(app));
+    .on("click", pf1.applications.actor.ActorSheetPF.prototype._quickAction.bind(app));
 
   html.find(".sphere-label").on("click", _openSphereJournal);
 };
 
 const getTalentTemplateData = (item: ItemPF): TalentTemplateData => ({
   id: item.id ?? "",
-  img: item.img ?? CONFIG.Item.documentClass.DEFAULT_ICON,
+  img: item.img ?? pf1.config.defaultIcons.items.feat,
   name: item.name ?? "",
   tags: item.system.tags.flat(),
   hasAction: item.hasAction,
@@ -311,10 +310,10 @@ const getSphereClSources =
     const cappedSources = actor.sourceDetails[`system.spheres.cl.${sphere}.modCap` as const] ?? [];
     return {
       sources: [...baseSources, ...sphereSources].filter(
-        (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+        (info) => !(info.name in CONFIG.PF1.bonusModifiers), // TODO: Remove when Changes can opt out of sourceInfo
       ),
       cappedSources: [...cappedBaseSources, ...cappedSources].filter(
-        (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+        (info) => !(info.name in CONFIG.PF1.bonusModifiers), // TODO: Remove when Changes can opt out of sourceInfo
       ),
     };
   };
@@ -325,10 +324,10 @@ const getSphereBabSources = (actor: ActorPF) => (sphere: CombatSphere) => {
   const cappedSources = actor.sourceDetails[`system.spheres.bab.${sphere}.modCap` as const] ?? [];
   return {
     sources: [...baseSources, ...sphereSources].filter(
-      (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+      (info) => !(info.name in CONFIG.PF1.bonusModifiers), // TODO: Remove when Changes can opt out of sourceInfo
     ),
     cappedSources: cappedSources.filter(
-      (info) => !(info.name in CONFIG.PF1.bonusModifiers) // TODO: Remove when Changes can opt out of sourceInfo
+      (info) => !(info.name in CONFIG.PF1.bonusModifiers), // TODO: Remove when Changes can opt out of sourceInfo
     ),
   };
 };
@@ -339,7 +338,7 @@ interface ActorSheetPFData {
 
 export declare class ActorSheetPF extends ActorSheet {
   _onItemEdit: (ev: JQuery.ClickEvent<HTMLElement>) => void;
-  _quickItemActionControl: (ev: JQuery.ClickEvent<HTMLElement>) => void;
+  _quickAction: (ev: JQuery.ClickEvent<HTMLElement>) => void;
   spheresTab: {
     activateTab: string | false;
     expandedSpheres: Partial<Record<Sphere, boolean>>;

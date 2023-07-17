@@ -5,7 +5,7 @@
  */
 
 import type { Ability } from "./actor-data";
-import type { BonusModifier } from "./item-data";
+import type { BonusModifier, ItemType } from "./item-data";
 import type { _AssertExtends } from "./ts-util";
 
 /**
@@ -247,6 +247,7 @@ export interface PF1CONFIG {
   weaponProficiencies: Record<"sim" | "mar", string>;
   skills: Record<string, string>;
   abilities: Record<Ability, string>;
+  defaultIcons: Record<"actor" | "items", Record<ItemType, string>>;
 }
 
 /* eslint-disable @typescript-eslint/no-unused-vars */ // Presence alone is sufficient to allow type checking

@@ -7,7 +7,7 @@
 export class FakeRoll {
   _data: Partial<ReturnType<Roll["toJSON"]>>;
 
-  constructor(data: Partial<typeof FakeRoll["prototype"]["_data"]>) {
+  constructor(data: Partial<(typeof FakeRoll)["prototype"]["_data"]>) {
     this._data = data;
   }
 

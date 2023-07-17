@@ -27,6 +27,7 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
   if (actor.type === "basic") return;
 
   // Add Spheres actor methods if not already present
+  // @ts-expect-error - This adds the spheres property to the actor
   if (!("spheres" in actor)) actor.spheres = getActorMethods(actor);
 
   // Populate/reset spheres data
@@ -42,6 +43,7 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
   });
 
   // Determine MSB and Caster Level from classes
+  // @ts-expect-error - Hack for outdated types
   const { casterLevel, baseMSB } = actor.items
     .filter(filterClasses)
     .map(getItemLevelData(useFractionalBAB))
@@ -52,7 +54,7 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
         levels.baseMSB += data.baseLevel;
         return levels;
       },
-      { casterLevel: 0, baseMSB: 0 }
+      { casterLevel: 0, baseMSB: 0 },
     );
 
   // Set base MSB and MSD
@@ -64,8 +66,7 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
 
   // Talent counts
   for (const talent of actor.items.filter(
-    // @ts-expect-error type functions as type guard
-    (item) => item.type === "feat" && ["magicTalent", "combatTalent"].includes(item.system.featType)
+    (item) => item.type === "feat" && ["magicTalent", "combatTalent"].includes(item.system.subType),
   )) {
     if (talent.flags.pf1spheres?.sphere) {
       const sphere = talent.flags.pf1spheres.sphere;
@@ -77,7 +78,6 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
 };
 
 /** Filters itemData by its type, narrowing available data to class data with a caster progression */
-// @ts-expect-error - Wait for v10 types
 export const filterClasses = (item: ItemPF): item is ItemPF & PF1ClassDataSource =>
   item.type === "class" && Boolean(item.flags.pf1spheres?.casterProgression);
 
@@ -108,7 +108,7 @@ export const getItemLevelData =
  * and returns the itemData unchanged.
  */
 export const pushLevelSources = (
-  actor: ActorPF
+  actor: ActorPF,
 ): ((data: ItemSphereClData) => ItemSphereClData) => {
   // Get curried function to add to sourceInfo
   const { pushPSourceInfo } = getActorHelpers(actor);
@@ -171,7 +171,7 @@ const getBlankSphereData = (): PF1ActorSpheresData => {
           | MagicSphere
           | CombatSphere
         )[],
-        () => ({ total: 0, value: 0, excluded: 0 })
+        () => ({ total: 0, value: 0, excluded: 0 }),
       ),
     },
   };

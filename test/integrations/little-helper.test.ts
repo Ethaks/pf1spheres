@@ -23,7 +23,7 @@ beforeAll(() => {
     return actor;
   });
   vi.spyOn(RollPF, "safeRoll").mockImplementation(
-    () => new FakeRoll({ total: 1 }) as unknown as Roll
+    () => new FakeRoll({ total: 1 }) as unknown as Roll,
   );
 });
 
@@ -42,7 +42,7 @@ class Tag {
       success = false,
       possible = false,
       failure = false,
-    }: Omit<Partial<Tag>, "content"> = {}
+    }: Omit<Partial<Tag>, "content"> = {},
   ) {
     this.check = check;
     this.content = label;

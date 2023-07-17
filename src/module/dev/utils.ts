@@ -120,7 +120,7 @@ const getClassData = async (
     level?: number | undefined;
     changes?: undefined | ItemChangeCreateData[];
     notes?: { text: string; subTarget: string }[];
-  } = {}
+  } = {},
 ) => {
   const classData = await fetchPackEntryData("pf1spheres.classes", className);
   enforce("level" in classData.system);

@@ -57,15 +57,15 @@ export const registerChanges = (): void => {
  * @param result - Data determining the data path to adjust
  */
 export const onGetChangeFlat = (
+  result: ActorDataPath[],
   target: SphereChangeTarget,
   modifier: BonusModifier,
-  result: ActorDataPath[]
 ): number => {
   // Cache change targets on first call
   if (changeFlatTargets === undefined) changeFlatTargets = getChangeFlatTargets();
 
   return result.push(
-    ...(changeFlatTargets[target]?.[modifier] ?? changeFlatTargets[target]?.default ?? [])
+    ...(changeFlatTargets[target]?.[modifier] ?? changeFlatTargets[target]?.default ?? []),
   );
 };
 
@@ -79,7 +79,7 @@ export const getChangeFlatTargets = (): Record<SphereChangeTarget, ChangeFlatTar
     default: [
       "system.spheres.cl.total",
       ...Object.keys(PF1S.magicSpheres).map(
-        (sphere): ActorDataPath => `system.spheres.cl.${sphere}.total`
+        (sphere): ActorDataPath => `system.spheres.cl.${sphere}.total`,
       ),
     ],
     sphereCLCap: ["system.spheres.cl.modCap"],
@@ -114,12 +114,12 @@ export const getChangeFlatTargets = (): Record<SphereChangeTarget, ChangeFlatTar
         default: [`system.spheres.cl.${sphere}.total`],
         sphereCLCap: [`system.spheres.cl.${sphere}.modCap`],
       },
-    ])
+    ]),
   ),
   // BAB to sphere BABs
   "~spherebabBase": {
     default: Object.keys(PF1S.combatSpheres).map(
-      (sphere): ActorDataPath => `system.spheres.bab.${sphere}.total`
+      (sphere): ActorDataPath => `system.spheres.bab.${sphere}.total`,
     ),
   },
   // Sphere specific BAB
@@ -127,7 +127,7 @@ export const getChangeFlatTargets = (): Record<SphereChangeTarget, ChangeFlatTar
     Object.keys(PF1S.combatSpheres).map((sphere): [SphereBABChangeTarget, ChangeFlatTargetData] => [
       `spherebab${sphere.capitalize()}`,
       { default: [`system.spheres.bab.${sphere}.total`] },
-    ])
+    ]),
   ),
 });
 
@@ -165,8 +165,8 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
   // Actually add Changes to the system's process
   changes.push(
     ...changeData.flatMap(
-      (data) => data.changes?.map((changeData) => new ItemChange(changeData)) ?? []
-    )
+      (data) => data.changes?.map((changeData) => new ItemChange(changeData)) ?? [],
+    ),
   );
   // Push source info into actor
   changeData.forEach((cd) => {
@@ -193,7 +193,7 @@ const getDefaultChanges = (): DefaultChangeData => ({
         formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap)`,
         subTarget: `spherecl${sphere.capitalize()}`,
         modifier: "untyped",
-      })
+      }),
     ),
     // Add a change to add total BAB to sphere BABs
     {
@@ -235,7 +235,7 @@ const getMsbToConcentrationChange = (): DefaultChangeData => ({
 });
 
 const getCastingAbilityChange = (
-  ability: Ability | "" | undefined
+  ability: Ability | "" | undefined,
 ): DefaultChangeData | undefined =>
   ability !== undefined && ability !== ""
     ? {

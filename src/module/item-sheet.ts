@@ -19,7 +19,7 @@ import { renderPf1sTemplate } from "./preloadTemplates";
 export const onItemSheetRender = (
   app: ItemSheet,
   html: JQuery<HTMLElement>,
-  data: ItemSheet.Data
+  data: ItemSheet.Data,
 ): void => {
   const item = app.item;
 
@@ -29,10 +29,8 @@ export const onItemSheetRender = (
 
   // Handle additions to feature sheet
   if (item.type === "feat") {
-    // @ts-expect-error v10 types, above type check acts as type guard
-    if (item.system.featType === "combatTalent") sphereData.spheres = PF1S.combatSpheres;
-    // @ts-expect-error v10 types, above type check acts as type guard
-    else if (item.system.featType === "magicTalent") sphereData.spheres = PF1S.magicSpheres;
+    if (item.system.subType === "combatTalent") sphereData.spheres = PF1S.combatSpheres;
+    else if (item.system.subType === "magicTalent") sphereData.spheres = PF1S.magicSpheres;
 
     if (sphereData.spheres != null) {
       const sphereDropdown = renderPf1sTemplate("talent-details", {

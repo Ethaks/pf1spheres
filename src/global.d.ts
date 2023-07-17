@@ -18,7 +18,7 @@ declare global {
     namespace utils {
       const logCompatibilityWarning: (
         message: string,
-        options: { from: string; until: string }
+        options: { from: string; until: string },
       ) => void;
     }
   }
@@ -33,12 +33,13 @@ declare global {
   }
 
   const pf1: {
+    config: typeof CONFIG.PF1;
     documents: {
       actor: {
         changes: {
           getSourceInfo(
             sourceInfo: SourceInfo,
-            key: ActorDataPath
+            key: ActorDataPath,
           ): { positive: SourceEntry[]; negative: SourceEntry[] };
         };
       };
@@ -56,7 +57,7 @@ declare global {
     };
     dice: {
       d20Roll: (
-        options: D20ActorRollOptions
+        options: D20ActorRollOptions,
       ) => Promise<ChatMessage | ChatMessage["data"]["_source"] | void>;
     };
   };
