@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2023 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 import { minify } from "terser";
 
 // NOTE: Remove in case https://github.com/vitejs/vite/issues/6585 or an equivalent is ever merged.
