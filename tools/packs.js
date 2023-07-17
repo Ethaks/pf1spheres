@@ -69,7 +69,7 @@ function sanitizePack(entry) {
   entry.ownership = { default: 0 };
 
   if (entry._stats) {
-    entry._stats.lastModifiedBy = "pf1spheres-db";
+    entry._stats.lastModifiedBy = "pf1spheres-db000";
   }
   // Remove non-system/non-core flags
   for (const key of Object.keys(entry.flags)) {

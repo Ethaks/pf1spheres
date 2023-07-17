@@ -2,13 +2,16 @@
 //
 // SPDX-License-Identifier: EUPL-1.2
 
+import path from "node:path";
+
 import { defineConfig } from "vite";
 import { visualizer } from "rollup-plugin-visualizer";
 import checker from "vite-plugin-checker";
-import path from "path";
 import { copy } from "@guanghechen/rollup-plugin-copy";
+
 import handlebarsReload from "./tools/handlebars-reload.js";
 import langReload from "./tools/lang-reload";
+import forceMinifyEsm from "./tools/minify.mjs";
 import { FOUNDRY_CONFIG, resolveUrl } from "./tools/foundry-config";
 
 function resolve(relativePath: string) {
@@ -32,18 +35,19 @@ const config = defineConfig({
       },
     },
   },
-  esbuild: {
-    minifySyntax: true,
-    minifyWhitespace: true,
-    keepNames: true,
-  },
   build: {
     outDir: resolve("dist"),
     emptyOutDir: true,
     sourcemap: true,
+    target: "es2022",
+    minify: false,
     rollupOptions: {
       output: {
-        sourcemapPathTransform: (relative) => path.join("/modules/pf1spheres/src", relative),
+        sourcemapPathTransform: (relative) => {
+          // Relative paths start with a `../`, which moves the path out of the module's directory.
+          if (relative.startsWith("../")) relative = relative.replace("../", "");
+          return relative;
+        },
       },
     },
     reportCompressedSize: true,
@@ -58,6 +62,7 @@ const config = defineConfig({
     checker({
       typescript: true,
     }),
+    forceMinifyEsm(),
     visualizer({
       gzipSize: true,
       template: "treemap",
