@@ -42,7 +42,11 @@ SPDX-License-Identifier: EUPL-1.2
                     <img class="sphere-icon" alt="{{ sphere.label }}" src="{{ sphere.icon }}" />
                     <div class="block-header sphere-label flexrow">{{ sphere.label }}</div>
                     <span class="sphere-info">
-                        <b>{{ localize "PF1SPHERES.TalentPlural" }}</b>: {{ sphere.talentCounts.value }}
+                        <b>{{ localize "PF1SPHERES.TalentPlural" }}</b>:
+                        {{ sphere.talentCounts.total }}
+                        {{#if sphere.talentCounts.excluded}}
+                           ({{ sphere.talentCounts.excluded }})
+                        {{/if }}
                 </span>
                 <span class="sphere-level-label">{{ sphere.levelLabel }}</span>
                 <div class="sphere-level-value tooltip">
