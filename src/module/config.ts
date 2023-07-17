@@ -91,6 +91,25 @@ export const PF1S = {
     wrestling: "PF1SPHERES.Spheres.Wrestling",
   },
 
+  /** A dictionary of all skill Spheres from Spheres of Guile */
+  skillSpheres: {
+    artifice: "PF1SPHERES.Spheres.Artifice",
+    bluster: "PF1SPHERES.Spheres.Bluster",
+    bodyControl: "PF1SPHERES.Spheres.BodyControl",
+    communication: "PF1SPHERES.Spheres.Communication",
+    faction: "PF1SPHERES.Spheres.Faction",
+    herbalism: "PF1SPHERES.Spheres.Herbalism",
+    infiltration: "PF1SPHERES.Spheres.Infiltration",
+    investigation: "PF1SPHERES.Spheres.Investigation",
+    navigation: "PF1SPHERES.Spheres.Navigation",
+    performance: "PF1SPHERES.Spheres.Performance",
+    spellhacking: "PF1SPHERES.Spheres.Spellhacking",
+    study: "PF1SPHERES.Spheres.Study",
+    subterfuge: "PF1SPHERES.Spheres.Subterfuge",
+    survivalism: "PF1SPHERES.Spheres.Survivalism",
+    vocation: "PF1SPHERES.Spheres.Vocation",
+  },
+
   /** A dictionary of spheres and their respective icon */
   sphereIcons: {
     alteration: "modules/pf1spheres/assets/icons/spheres/alteration.webp",
@@ -115,6 +134,7 @@ export const PF1S = {
     war: "modules/pf1spheres/assets/icons/spheres/war.webp",
     warp: "modules/pf1spheres/assets/icons/spheres/warp.webp",
     weather: "modules/pf1spheres/assets/icons/spheres/weather.webp",
+
     alchemy: "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
     athletics: "modules/pf1spheres/assets/icons/spheres/athletics.webp",
     barrage: "modules/pf1spheres/assets/icons/spheres/barrage.webp",
@@ -150,10 +170,12 @@ export const PF1CONFIG_EXTRA = {
   featTypes: {
     combatTalent: "PF1SPHERES.CombatTalent",
     magicTalent: "PF1SPHERES.MagicTalent",
+    skillTalent: "PF1SPHERES.SkillTalent",
   },
   featTypesPlurals: {
     combatTalent: "PF1SPHERES.CombatTalentPlural",
     magicTalent: "PF1SPHERES.MagicTalentPlural",
+    skillTalent: "PF1SPHERES.SkillTalentPlural",
   },
   buffTargetCategories: {
     sphereValues: {

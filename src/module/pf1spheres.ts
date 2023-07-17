@@ -83,7 +83,7 @@ Hooks.once("init", () => {
 // Setup module
 Hooks.once("i18nInit", () => {
   // Localise config
-  const toLocalize = ["progression", "magicSpheres", "combatSpheres"] as const;
+  const toLocalize = ["progression", "magicSpheres", "combatSpheres", "skillSpheres"] as const;
   const toLocalizePF = [
     "featTypes",
     "featTypesPlurals",
@@ -94,7 +94,7 @@ Hooks.once("i18nInit", () => {
     "conditionTypes",
     "conditions",
   ] as const;
-  const toSort = ["magicSpheres", "combatSpheres"] as const;
+  const toSort = ["magicSpheres", "combatSpheres", "skillSpheres"] as const;
 
   const localizeObject = (
     obj: Record<string, string | { label: string }>,

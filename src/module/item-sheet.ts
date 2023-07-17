@@ -31,6 +31,7 @@ export const onItemSheetRender = (
   if (item.type === "feat") {
     if (item.system.subType === "combatTalent") sphereData.spheres = PF1S.combatSpheres;
     else if (item.system.subType === "magicTalent") sphereData.spheres = PF1S.magicSpheres;
+    else if (item.system.subType === "skillTalent") sphereData.spheres = PF1S.skillSpheres;
 
     if (sphereData.spheres != null) {
       const sphereDropdown = renderPf1sTemplate("talent-details", {
@@ -67,5 +68,5 @@ export const onItemSheetRender = (
 
 interface PF1SItemSheetData {
   pf1sconfig: typeof PF1S;
-  spheres?: typeof PF1S.combatSpheres | typeof PF1S.magicSpheres;
+  spheres?: typeof PF1S.combatSpheres | typeof PF1S.magicSpheres | typeof PF1S.skillSpheres;
 }
