@@ -11,6 +11,7 @@ if (!config.test) throw new Error("No test config found!");
 config.test.reporters = ["default", "junit"];
 config.test.outputFile = { junit: "junit.xml" };
 config.test.coverage = {
+  provider: "v8",
   reporter: ["cobertura", "lcov", "text"],
   all: true,
   include: ["src/module"],
