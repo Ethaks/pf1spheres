@@ -175,9 +175,8 @@
         background: rgba(0, 0, 0, 0.05);
       }
 
-      > .talent-name:hover b,
-      > .talent-use:hover {
-        filter: drop-shadow(0px 0px 5px red);
+      > .talent-name:hover b {
+        text-shadow: 0 0 8px var(--color-shadow-primary);
         cursor: pointer;
       }
     }
