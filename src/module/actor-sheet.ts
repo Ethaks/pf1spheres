@@ -230,7 +230,7 @@ const getTalentTemplateData = (item: ItemPF): TalentTemplateData => ({
   id: item.id ?? "",
   img: item.img ?? pf1.config.defaultIcons.items.feat,
   name: item.name ?? "",
-  tags: item.system.tags.flat(),
+  tags: item.system.tags,
   hasAction: item.hasAction,
   activationType: item.getLabels().activation,
 });
