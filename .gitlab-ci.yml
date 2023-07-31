@@ -110,7 +110,6 @@ pages:
     <<: *global_cache
   before_script:
     - *npm-ci
-    - npm run link jsconfig
   script:
     - mv public vite-public
     - npm run docs
