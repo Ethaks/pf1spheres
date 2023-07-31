@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2023 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 import type { Ability } from "./actor-data";
 import type { BonusModifier, ItemType } from "./item-data";
 import type { _AssertExtends } from "./ts-util";

@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2023 Ethaks <ethaks@pm.me>
+ *
+ * SPDX-License-Identifier: EUPL-1.2
+ */
+
 /**
  * Hooks
  *
