@@ -5,7 +5,7 @@
  */
 
 import { onGetChangeFlat } from "../src/module/changes";
-import { PF1S } from "../src/module/config";
+import * as PF1S from "../src/module/config";
 import type { CombatSphere, SphereChangeTarget } from "../src/module/item-data";
 import type { ActorDataPath } from "../src/module/actor-data";
 

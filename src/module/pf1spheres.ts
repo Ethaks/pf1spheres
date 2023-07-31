@@ -3,11 +3,16 @@
  *
  * SPDX-License-Identifier: EUPL-1.2
  */
+/**
+ * The main entry point for the PF1 Spheres module.
+ * The exports of this module are available globally under the `pf1s` namespace, e.g. `pf1s.config`.
+ *
+ * @module pf1s
+ */
 
 // Import TypeScript modules
 import { registerSettings } from "./settings";
 import { preloadTemplates } from "./preloadTemplates";
-import { PF1S, PF1CONFIG_EXTRA } from "./config";
 import { onItemSheetRender } from "./item-sheet";
 import { onActorBasePreparation } from "./actor";
 import { onAddDefaultChanges, onGetChangeFlat, registerChanges } from "./changes";
@@ -16,6 +21,7 @@ import { getGame, localize } from "./util";
 import type { PF1ModuleData } from "./common-data";
 import { onActorSheetHeaderButtons, onActorSheetRender } from "./actor-sheet";
 import { initializeModuleIntegrations } from "./integrations";
+import { PF1CONFIG_EXTRA } from "./config-extra";
 
 // Vite specific imports
 import "../styles/pf1spheres.scss";
@@ -26,8 +32,10 @@ if (import.meta.hot) {
   import("./hmr");
 }
 
-export * as actor from "./actor-methods";
-export { PF1S as config } from "./config";
+// API
+import * as PF1S from "./config";
+
+export { PF1S as config };
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
@@ -39,24 +47,33 @@ declare global {
        * system afterwards.
        *
        * @group Initialization
-       * @param config - The {@link PF1S config} object also available globally via `CONFIG.PF1SPHERES`
+       * @param config - The {@link pf1s.config config} object also available globally via `CONFIG.PF1SPHERES`
        * @deprecated
        * @remarks This is called by {@link Hooks.callAll}
        */
-      "pf1spheres.preSetup": (config: typeof PF1S) => void;
+      "pf1spheres.preSetup": (config: typeof pf1s.config) => void;
       /**
        * A hook event that fires at the beginning of `pf1spheres`'s {@link Hooks.StaticCallbacks.setup "setup"} hook.
        * Modules wishing to add spheres should do so here, as the modules registers its Changes with the
        * system afterwards.
        *
        * @group Initialization
-       * @param config - The {@link PF1S config} object also available globally via `CONFIG.PF1SPHERES`
+       * @param config - The {@link pf1s.config config} object also available globally via `CONFIG.PF1SPHERES`
        * @remarks This is called by {@link Hooks.callAll}
        */
-      pf1spheresPreSetup: (config: typeof PF1S) => void;
+      pf1spheresPreSetup: (config: typeof pf1s.config) => void;
     }
   }
+
+  // eslint-disable-next-line
+  var pf1s: {
+    config: typeof PF1S;
+  };
 }
+
+globalThis.pf1s = {
+  config: PF1S,
+};
 
 // Initialize module
 Hooks.once("init", () => {
@@ -77,7 +94,7 @@ Hooks.once("init", () => {
   initializeModuleIntegrations();
 
   // Make own config available via shortcut
-  CONFIG.PF1SPHERES = PF1S;
+  CONFIG.PF1SPHERES = pf1s.config;
 });
 
 // Setup module
@@ -121,7 +138,7 @@ Hooks.once("i18nInit", () => {
   // Replace every localisable object with a localised version
   for (const o of toLocalize) {
     // @ts-expect-error Ignore as const definition of config, strings get replaced in-place
-    PF1S[o] = localizeObject(PF1S[o], toSort.includes(o));
+    pf1s.config[o] = localizeObject(pf1s.config[o], toSort.includes(o));
   }
 
   for (const o of toLocalizePF) {
@@ -144,9 +161,9 @@ Hooks.once("setup", () => {
         until: "PF1Spheres 0.7",
       },
     );
-    Hooks.callAll("pf1spheres.preSetup", PF1S);
+    Hooks.callAll("pf1spheres.preSetup", pf1s.config);
   }
-  Hooks.callAll("pf1spheresPreSetup", PF1S);
+  Hooks.callAll("pf1spheresPreSetup", pf1s.config);
 
   // Register changes
   registerChanges();
@@ -155,7 +172,7 @@ Hooks.once("setup", () => {
   const moduleData: PF1ModuleData | undefined = getGame().modules?.get("pf1spheres");
   if (moduleData) {
     moduleData.api = {
-      config: PF1S,
+      config: pf1s.config,
       _internal: {
         packUtils: undefined,
         devUtils: undefined,

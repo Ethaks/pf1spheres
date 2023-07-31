@@ -101,6 +101,24 @@ build:
     - if: '$CI_COMMIT_TAG =~ /^v[0-9]+\.[0-9]+\.[0-9]+$/'
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
 
+# Build docs from master branch
+pages:
+  stage: build
+  rules:
+    - if: $CI_COMMIT_BRANCH == "master"
+  cache:
+    <<: *global_cache
+  before_script:
+    - *npm-ci
+    - npm run link jsconfig
+  script:
+    - mv public vite-public
+    - npm run docs
+    - mv docs public
+  artifacts:
+    paths:
+      - public
+
 # Publish artifacts to package registry and generate release notes from changelog
 # Link for regex: https://regex101.com/r/BIWIYr/1, has to be verified manually in ripgrep
 publish_artifacts:

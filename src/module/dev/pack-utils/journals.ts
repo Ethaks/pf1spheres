@@ -5,7 +5,6 @@
  */
 
 import type { JournalEntryDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/journalEntryData";
-import { PF1S } from "../../config";
 import type { Sphere } from "../../item-data";
 import { getAllSpheres, getSphereType } from "../../item-util";
 import { getGame } from "../../util";
@@ -45,7 +44,7 @@ const getSphereJournalDataWithContext =
     const { name: sphere, text, toc } = entry;
     const name = getAllSpheres()[sphere];
     const icon =
-      PF1S.sphereIcons[sphere as keyof typeof PF1S.sphereIcons] ??
+      pf1s.config.sphereIcons[sphere as keyof typeof pf1s.config.sphereIcons] ??
       foundry.data.ItemData.DEFAULT_ICON;
 
     const cleanToc = toc.replace(stripTocRegex, "");

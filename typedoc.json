@@ -1,0 +1,15 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "out": "docs",
+  "name": "Spheres for Pathfinder 1e for Foundry VTT",
+  "logLevel": "Error",
+  "emit": "docs",
+  "basePath": "./src/module/",
+  "externalPattern": ["@foundry/**/*.mjs", "node_modules/**/*"],
+  "excludeExternals": true,
+  "entryPoints": [
+    "./src/module/hooks.d.ts",
+    "./src/module/actor-methods.ts",
+    "./src/module/pf1spheres.ts"
+  ]
+}

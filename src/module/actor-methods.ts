@@ -7,19 +7,25 @@
  * This namespace contains all functions added to an actor's `spheres` property,
  * where they act like regular methods available on the actor.
  *
+ * Additionally, the namespace contains types related to an actor's `system.spheres` property,
+ * documenting which properties are available and their types.
+ * For a list of all paths the module is aware of, see {@link SpheresActorDataPaths}.
+ *
  * @example Rolling a Magic Skill Check
  * ```js
  * const actor = game.actors.get("some-actor-id");
  * await actor.spheres.rollMsb();
  * ```
- * @module
+ * @module actor
  */
 
-import type { ActorPF } from "./actor-data";
+import type { ActorPF, PF1ActorSpheresData } from "./actor-data";
 import type { ItemPF } from "./item-data";
 import { localize } from "./util";
 import type { ActorRollOptions } from "../pf1-types/d20roll";
 import type { ChatMessageDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/chatMessageData";
+import type { PropPath } from "./ts-util";
+import type { ExpandRecursively, PropType } from "./ts-util";
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
@@ -95,6 +101,7 @@ export const getActorMethods = (actor: ActorPF) => ({
 /**
  * Rolls a Magic Skill Check
  *
+ * @group Actor Methods
  * @param options - Additional options affecting the roll/chat message creation
  */
 export async function rollMsb(
@@ -134,6 +141,7 @@ export async function rollMsb(
 /**
  * Rolls a Concentration check
  *
+ * @group Actor Methods
  * @param options - Additional options affecting the roll/chat message creation
  */
 export async function rollConcentration(
@@ -172,6 +180,8 @@ export async function rollConcentration(
 
 /**
  * Returns an array of objects containing an item and its Magic Skill Check Context Notes, if any
+ *
+ * @ignore
  */
 export function _getMsbNotes(this: ActorPF): ContextNoteObject[] {
   return this.allNotes
@@ -184,6 +194,8 @@ export function _getMsbNotes(this: ActorPF): ContextNoteObject[] {
 
 /**
  * Returns an array of objects containing an item and its Concentration Context Notes, if any
+ *
+ * @ignore
  */
 export function _getConcentrationNotes(this: ActorPF): ContextNoteObject[] {
   return [
@@ -199,3 +211,10 @@ interface ContextNoteObject {
   item: ItemPF;
   notes: string[];
 }
+
+interface SpheresActorData extends ExpandRecursively<PF1ActorSpheresData> {}
+type _SpheresActorDataPaths = {
+  [Key in PropPath<PF1ActorSpheresData>]: PropType<PF1ActorSpheresData, `${Key}`>;
+};
+interface SpheresActorDataPaths extends ExpandRecursively<_SpheresActorDataPaths> {}
+export { SpheresActorData, SpheresActorDataPaths };

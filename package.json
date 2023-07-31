@@ -39,7 +39,8 @@
     "release": "standard-version -a",
     "postinstall": "husky install",
     "extractPacks": "node ./tools/packs.js extract",
-    "compilePacks": "node ./tools/packs.js compile"
+    "compilePacks": "node ./tools/packs.js compile",
+    "docs": "typedoc"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",

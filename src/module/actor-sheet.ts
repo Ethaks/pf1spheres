@@ -6,7 +6,6 @@
 
 import type { ActorPF, PF1ActorSpheresData, SpheresTalentsRecord } from "./actor-data";
 import { SpheresActorSettings } from "./apps/SpheresActorSettings";
-import { PF1S } from "./config";
 import type { CombatSphere, ItemPF, MagicSphere, SourceEntry, Sphere } from "./item-data";
 import { getSphereType } from "./item-util";
 import { enforce, getGame, localize } from "./util";
@@ -162,15 +161,15 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
     }
     return talents;
   }, {});
-  const sphereCLs = Object.keys(PF1S.magicSpheres).map(
+  const sphereCLs = Object.keys(pf1s.config.magicSpheres).map(
     (sphere): SphereData => ({
       sphere,
-      label: PF1S.magicSpheres[sphere],
+      label: pf1s.config.magicSpheres[sphere],
       levelLabel: levelLabels.magic,
       total: spheres.cl[sphere].total ?? 0,
       path: `@spheres.cl.${sphere}.total`,
       icon:
-        PF1S.sphereIcons[sphere as keyof typeof PF1S.sphereIcons] ??
+        pf1s.config.sphereIcons[sphere as keyof typeof pf1s.config.sphereIcons] ??
         CONFIG.Item.documentClass.DEFAULT_ICON,
       talents: ownedTalents[sphere] ?? [],
       talentCounts: spheres.talents[sphere],
@@ -179,14 +178,14 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
       ...getSphereClSources(actor)(sphere),
     }),
   );
-  const sphereBabs = Object.keys(PF1S.combatSpheres).map(
+  const sphereBabs = Object.keys(pf1s.config.combatSpheres).map(
     (sphere): SphereData => ({
       sphere,
-      label: PF1S.combatSpheres[sphere],
+      label: pf1s.config.combatSpheres[sphere],
       levelLabel: levelLabels.combat,
       total: actor.system.spheres?.bab[sphere].total ?? 0,
       path: `@spheres.bab.${sphere}.total`,
-      icon: PF1S.sphereIcons[sphere],
+      icon: pf1s.config.sphereIcons[sphere],
       talents: ownedTalents[sphere] ?? [],
       talentCounts: spheres.talents[sphere],
       hasTalents: Boolean(ownedTalents[sphere]?.length),

@@ -9,7 +9,6 @@ import type { ActorPF, PF1ActorSpheresData } from "./actor-data";
 import type { CombatSphere, MagicSphere, PF1ClassDataSource } from "./item-data";
 import { getActorMethods } from "./actor-methods";
 import { getActorHelpers } from "./actor-util";
-import { PF1S } from "./config";
 import { getGame, localize } from "./util";
 import type { ItemPF } from "./item-data";
 
@@ -93,8 +92,8 @@ export const getItemLevelData =
     // Determine progression for actual CL contribution
     const progression = item.flags.pf1spheres?.casterProgression;
     const rawLevel =
-      progression && progression in PF1S.progressionFormula
-        ? PF1S.progressionFormula[progression] * baseLevel
+      progression && progression in pf1s.config.progressionFormula
+        ? pf1s.config.progressionFormula[progression] * baseLevel
         : 0;
 
     // The actual number of levels contributed by this class
@@ -157,17 +156,17 @@ const getBlankSphereData = (): PF1ActorSpheresData => {
 
   return {
     cl: {
-      ...fillSpheres(Object.keys(PF1S.magicSpheres) as MagicSphere[], totalModTemplate),
+      ...fillSpheres(Object.keys(pf1s.config.magicSpheres) as MagicSphere[], totalModTemplate),
       ...valueDataTemplate(),
     },
     cam: 0,
     msb: valueDataTemplate(),
     msd: valueDataTemplate(),
     concentration: totalTemplate(),
-    bab: fillSpheres(Object.keys(PF1S.combatSpheres) as CombatSphere[], totalModTemplate),
+    bab: fillSpheres(Object.keys(pf1s.config.combatSpheres) as CombatSphere[], totalModTemplate),
     talents: {
       ...fillSpheres(
-        [...Object.keys(PF1S.magicSpheres), ...Object.keys(PF1S.combatSpheres)] as (
+        [...Object.keys(pf1s.config.magicSpheres), ...Object.keys(pf1s.config.combatSpheres)] as (
           | MagicSphere
           | CombatSphere
         )[],

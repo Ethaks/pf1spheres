@@ -10,7 +10,7 @@ import {
   getSphereType,
   getSphereDisplayName,
 } from "../src/module/item-util";
-import { PF1S } from "../src/module/config";
+import * as PF1S from "../src/module/config";
 import { localize } from "../src/module/util";
 
 describe("isMagicSphere", () => {

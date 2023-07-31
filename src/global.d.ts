@@ -6,7 +6,8 @@
 
 import type { ActorDataPath } from "./module/actor-data";
 import type { ActorSheetPF } from "./module/actor-sheet";
-import type { PF1CONFIG_EXTRA, PF1CONFIG, PF1S } from "./module/config";
+import type { PF1CONFIG_EXTRA, PF1CONFIG } from "./module/config-extra";
+import type * as PF1S from "./module/config";
 import type { ItemChange, RollData, SourceEntry, SourceInfo, Sphere } from "./module/item-data";
 import type { FromEntriesWithReadOnly } from "./module/ts-util";
 import type { D20ActorRollOptions } from "./pf1-types/d20roll";

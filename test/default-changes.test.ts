@@ -6,7 +6,7 @@
 
 import type { ActorPF } from "../src/module/actor-data";
 import { onAddDefaultChanges } from "../src/module/changes";
-import { PF1S } from "../src/module/config";
+import * as PF1S from "../src/module/config";
 import type { ItemChange } from "../src/module/item-data";
 import { getFakeActor } from "./fakes/fake-actor";
 

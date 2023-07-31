@@ -4,7 +4,6 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
-import type { PF1S } from "./config";
 import type { DevUtils } from "./dev/utils";
 import type { PackUtils } from "./dev";
 
@@ -32,7 +31,7 @@ export interface PF1ModuleData extends Game.ModuleData<foundry.packages.ModuleDa
   api?: PF1SpheresApi;
 }
 export interface PF1SpheresApi {
-  config: typeof PF1S;
+  config: typeof pf1s.config;
   _internal: {
     packUtils: PackUtils | undefined;
     devUtils: DevUtils | undefined;

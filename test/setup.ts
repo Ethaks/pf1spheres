@@ -13,6 +13,7 @@ import { FakeItem } from "./fakes/fake-item";
 import { FakeRoll } from "./fakes/fake-roll";
 import { FakeChatMessage } from "./fakes/fake-message";
 import type { D20ActorRollOptions } from "../src/pf1-types/d20roll";
+import * as PF1S from "../src/module/config";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */ // any will be used a lot in lieu of proper types
 
@@ -102,6 +103,10 @@ export function setup() {
         },
       },
     },
+  };
+
+  (global as any).pf1s = {
+    config: PF1S,
   };
 
   (global as any).setProperty = setProperty;

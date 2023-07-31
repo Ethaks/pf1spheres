@@ -16,7 +16,7 @@ import type {
   SphereChangeTarget,
   SphereCLChangeTarget,
 } from "./item-data";
-import { PF1CONFIG_EXTRA, PF1S } from "./config";
+import { PF1CONFIG_EXTRA } from "./config-extra";
 import { localize } from "./util";
 import { getActorHelpers } from "./actor-util";
 import { nonNullable } from "./ts-util";
@@ -28,7 +28,7 @@ import { nonNullable } from "./ts-util";
 export const registerChanges = (): void => {
   const baseSort = PF1CONFIG_EXTRA.buffTargets["~spherecl"].sort;
   // Register sphere specific CL change targets
-  Object.entries(PF1S.magicSpheres).forEach(([sphere, value], index) => {
+  Object.entries(pf1s.config.magicSpheres).forEach(([sphere, value], index) => {
     CONFIG.PF1.buffTargets[`spherecl${(sphere as MagicSphere).capitalize()}`] = {
       label: `${value} ${localize("CasterLevel")}`,
       category: "sphereCasterLevel",
@@ -37,7 +37,7 @@ export const registerChanges = (): void => {
   });
 
   // Register sphere specific BAB change targets
-  Object.entries(PF1S.combatSpheres).forEach(([sphere, value], index) => {
+  Object.entries(pf1s.config.combatSpheres).forEach(([sphere, value], index) => {
     CONFIG.PF1.buffTargets[`spherebab${(sphere as CombatSphere).capitalize()}`] = {
       label: `${value} ${localize("PF1.BAB")}`,
       category: "sphereBAB",
@@ -78,7 +78,7 @@ export const getChangeFlatTargets = (): Record<SphereChangeTarget, ChangeFlatTar
   spherecl: {
     default: [
       "system.spheres.cl.total",
-      ...Object.keys(PF1S.magicSpheres).map(
+      ...Object.keys(pf1s.config.magicSpheres).map(
         (sphere): ActorDataPath => `system.spheres.cl.${sphere}.total`,
       ),
     ],
@@ -108,26 +108,30 @@ export const getChangeFlatTargets = (): Record<SphereChangeTarget, ChangeFlatTar
   },
   // Sphere specific CL
   ...Object.fromEntries(
-    Object.keys(PF1S.magicSpheres).map((sphere): [SphereCLChangeTarget, ChangeFlatTargetData] => [
-      `spherecl${sphere.capitalize()}`,
-      {
-        default: [`system.spheres.cl.${sphere}.total`],
-        sphereCLCap: [`system.spheres.cl.${sphere}.modCap`],
-      },
-    ]),
+    Object.keys(pf1s.config.magicSpheres).map(
+      (sphere): [SphereCLChangeTarget, ChangeFlatTargetData] => [
+        `spherecl${sphere.capitalize()}`,
+        {
+          default: [`system.spheres.cl.${sphere}.total`],
+          sphereCLCap: [`system.spheres.cl.${sphere}.modCap`],
+        },
+      ],
+    ),
   ),
   // BAB to sphere BABs
   "~spherebabBase": {
-    default: Object.keys(PF1S.combatSpheres).map(
+    default: Object.keys(pf1s.config.combatSpheres).map(
       (sphere): ActorDataPath => `system.spheres.bab.${sphere}.total`,
     ),
   },
   // Sphere specific BAB
   ...Object.fromEntries(
-    Object.keys(PF1S.combatSpheres).map((sphere): [SphereBABChangeTarget, ChangeFlatTargetData] => [
-      `spherebab${sphere.capitalize()}`,
-      { default: [`system.spheres.bab.${sphere}.total`] },
-    ]),
+    Object.keys(pf1s.config.combatSpheres).map(
+      (sphere): [SphereBABChangeTarget, ChangeFlatTargetData] => [
+        `spherebab${sphere.capitalize()}`,
+        { default: [`system.spheres.bab.${sphere}.total`] },
+      ],
+    ),
   ),
 });
 
@@ -188,7 +192,7 @@ const getDefaultChanges = (): DefaultChangeData => ({
       modifier: "untyped",
     },
     // For every magic sphere, determine CL from base + general HD capped + sphere specific HD capped
-    ...Object.keys(PF1S.magicSpheres).map(
+    ...Object.keys(pf1s.config.magicSpheres).map(
       (sphere): ItemChangeCreateData => ({
         formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap)`,
         subTarget: `spherecl${sphere.capitalize()}`,

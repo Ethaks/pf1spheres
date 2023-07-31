@@ -5,7 +5,6 @@
  */
 
 import type { ItemDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
-import { PF1S } from "../../config";
 import type { ItemPF, PF1ClassDataSource, SaveType } from "../../item-data";
 import { getAllSpheres, getSphereType } from "../../item-util";
 import { getGame } from "../../util";
@@ -76,8 +75,8 @@ function getTalentData(entry: RawTalentData): DeepPartial<ItemDataSource> | unde
     name: entry.name,
     type: "feat",
     img:
-      entry.sphere in PF1S.sphereIcons
-        ? PF1S.sphereIcons[entry.sphere as keyof typeof PF1S.sphereIcons]
+      entry.sphere in pf1s.config.sphereIcons
+        ? pf1s.config.sphereIcons[entry.sphere as keyof typeof pf1s.config.sphereIcons]
         : undefined,
     system: {
       featType: `${talentType}Talent`,

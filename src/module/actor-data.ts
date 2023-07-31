@@ -6,7 +6,6 @@
 
 import type { ItemPF, RollData, SourceDetails, SourceInfo, Sphere } from "./item-data";
 import type { TotalData, TotalModData, ValueData } from "./common-data";
-import type { PF1S } from "./config";
 import type { PropPath } from "./ts-util";
 import type { getActorMethods } from "./actor-methods";
 
@@ -74,11 +73,11 @@ export interface PF1ActorSpheresData {
 }
 
 type MagicSpheresRecord = {
-  -readonly [Sphere in keyof typeof PF1S.magicSpheres]-?: TotalModData<number>;
+  -readonly [Sphere in keyof typeof pf1s.config.magicSpheres]-?: TotalModData<number>;
 };
 
 type CombatSpheresRecord = {
-  -readonly [Sphere in keyof typeof PF1S.combatSpheres]-?: TotalModData<number>;
+  -readonly [Sphere in keyof typeof pf1s.config.combatSpheres]-?: TotalModData<number>;
 };
 
 export type SpheresTalentsRecord = Record<

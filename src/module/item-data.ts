@@ -5,7 +5,7 @@
  */
 
 import type { ActorDataPath, ActorPF } from "./actor-data";
-import type { PF1S, PF1CONFIG_EXTRA } from "./config";
+import type { PF1CONFIG_EXTRA } from "./config-extra";
 
 declare global {
   interface DocumentClassConfig {
@@ -128,12 +128,12 @@ interface PF1ClassDataSourceData
   weaponProf: { value: Array<keyof typeof CONFIG.PF1.weaponProficiencies>; custom: string };
 }
 
-export type CasterProgression = keyof typeof PF1S.progression | "";
+export type CasterProgression = keyof typeof pf1s.config.progression | "";
 
 export type Sphere = CombatSphere | MagicSphere;
 
-export type CombatSphere = keyof typeof PF1S.combatSpheres;
-export type MagicSphere = keyof typeof PF1S.magicSpheres;
+export type CombatSphere = keyof typeof pf1s.config.combatSpheres;
+export type MagicSphere = keyof typeof pf1s.config.magicSpheres;
 
 export type ChangeTarget = SphereChangeTarget | PFBuffTarget;
 

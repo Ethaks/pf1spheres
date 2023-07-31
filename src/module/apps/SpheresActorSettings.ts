@@ -4,7 +4,6 @@
 
 import type { ActorDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
 import type { SpheresActorFlags } from "../actor-data";
-import { PF1S } from "../config";
 import { getGame, localize } from "../util";
 
 /**
@@ -45,7 +44,7 @@ export class SpheresActorSettings extends FormApplication<
   override getData() {
     const pf1sFlags = this.object.toObject().flags.pf1spheres ?? {};
 
-    return { pf1sFlags, PF1CONFIG: CONFIG.PF1, PF1S: PF1S };
+    return { pf1sFlags, PF1CONFIG: CONFIG.PF1, PF1S: pf1s.config };
   }
 
   override _updateObject(_event: Event, formData: DeepPartial<ActorDataSource>) {
@@ -62,5 +61,5 @@ export class SpheresActorSettings extends FormApplication<
 interface SettingsRenderData {
   pf1sFlags: SpheresActorFlags;
   PF1CONFIG: typeof CONFIG.PF1;
-  PF1S: typeof PF1S;
+  PF1S: typeof pf1s.config;
 }

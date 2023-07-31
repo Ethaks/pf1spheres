@@ -12,7 +12,7 @@ import {
   pushLevelSources,
 } from "../src/module/actor";
 import type { ActorPF } from "../src/module/actor-data";
-import { PF1S } from "../src/module/config";
+import * as PF1S from "../src/module/config";
 import type { CasterProgression, ItemPF, PF1ClassDataSource } from "../src/module/item-data";
 import { getFakeActor } from "./fakes/fake-actor";
 import type { FakeSettings } from "./setup";

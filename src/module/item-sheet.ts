@@ -4,7 +4,6 @@
  * SPDX-License-Identifier: EUPL-1.2
  */
 
-import { PF1S } from "./config";
 import { renderPf1sTemplate } from "./preloadTemplates";
 
 /**
@@ -24,14 +23,14 @@ export const onItemSheetRender = (
   const item = app.item;
 
   const sphereData: PF1SItemSheetData = {
-    pf1sconfig: PF1S,
+    pf1sconfig: pf1s.config,
   };
 
   // Handle additions to feature sheet
   if (item.type === "feat") {
-    if (item.system.subType === "combatTalent") sphereData.spheres = PF1S.combatSpheres;
-    else if (item.system.subType === "magicTalent") sphereData.spheres = PF1S.magicSpheres;
-    else if (item.system.subType === "skillTalent") sphereData.spheres = PF1S.skillSpheres;
+    if (item.system.subType === "combatTalent") sphereData.spheres = pf1s.config.combatSpheres;
+    else if (item.system.subType === "magicTalent") sphereData.spheres = pf1s.config.magicSpheres;
+    else if (item.system.subType === "skillTalent") sphereData.spheres = pf1s.config.skillSpheres;
 
     if (sphereData.spheres != null) {
       const sphereDropdown = renderPf1sTemplate("talent-details", {
@@ -67,6 +66,9 @@ export const onItemSheetRender = (
 };
 
 interface PF1SItemSheetData {
-  pf1sconfig: typeof PF1S;
-  spheres?: typeof PF1S.combatSpheres | typeof PF1S.magicSpheres | typeof PF1S.skillSpheres;
+  pf1sconfig: typeof pf1s.config;
+  spheres?:
+    | typeof pf1s.config.combatSpheres
+    | typeof pf1s.config.magicSpheres
+    | typeof pf1s.config.skillSpheres;
 }
