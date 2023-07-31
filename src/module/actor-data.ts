@@ -63,9 +63,13 @@ export declare class ActorPF extends Actor {
 }
 
 export interface PF1ActorSpheresData {
+  /** Caster Level data for Spheres of Power */
   cl: ValueData<number> & MagicSpheresRecord;
+  /** Convenience shortcut for the actor's configured Casting Ability Modifier */
   cam: number;
+  /** Magic Skill Bonus data for Spheres of Power */
   msb: ValueData<number>;
+  /** Concentration data for Spheres of Power */
   concentration: TotalData<number>;
   msd: ValueData<number>;
   bab: CombatSpheresRecord;
@@ -166,3 +170,4 @@ type SphereCondition = "battered";
 
 /** A path pointing towards a property of an actor's data */
 export type ActorDataPath = PropPath<PF1ActorDataProperties>;
+export type ActorSpheresDataPath = PropPath<PF1ActorSpheresData>;

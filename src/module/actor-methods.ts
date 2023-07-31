@@ -9,7 +9,7 @@
  *
  * Additionally, the namespace contains types related to an actor's `system.spheres` property,
  * documenting which properties are available and their types.
- * For a list of all paths the module is aware of, see {@link SpheresActorDataPaths}.
+ * For a list of all paths the module is aware of, see {@link SpheresRollDataPaths}.
  *
  * @example Rolling a Magic Skill Check
  * ```js
@@ -19,12 +19,11 @@
  * @module actor
  */
 
-import type { ActorPF, PF1ActorSpheresData } from "./actor-data";
+import type { ActorPF, ActorSpheresDataPath, PF1ActorSpheresData } from "./actor-data";
 import type { ItemPF } from "./item-data";
 import { localize } from "./util";
 import type { ActorRollOptions } from "../pf1-types/d20roll";
 import type { ChatMessageDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/chatMessageData";
-import type { PropPath } from "./ts-util";
 import type { ExpandRecursively, PropType } from "./ts-util";
 
 declare global {
@@ -212,9 +211,22 @@ interface ContextNoteObject {
   notes: string[];
 }
 
-interface SpheresActorData extends ExpandRecursively<PF1ActorSpheresData> {}
-type _SpheresActorDataPaths = {
-  [Key in PropPath<PF1ActorSpheresData>]: PropType<PF1ActorSpheresData, `${Key}`>;
+type SpheresFormulaPaths = {
+  [Key in ActorSpheresDataPath as PropType<PF1ActorSpheresData, Key> extends number | string
+    ? `@spheres.${Key}`
+    : never]-?: PropType<PF1ActorSpheresData, `${Key}`> extends number
+    ? PropType<PF1ActorSpheresData, `${Key}`>
+    : never;
 };
-interface SpheresActorDataPaths extends ExpandRecursively<_SpheresActorDataPaths> {}
-export { SpheresActorData, SpheresActorDataPaths };
+/**
+ * These are the data paths available made available by the Spheres module in roll data.
+ * Their values can be used in formulae.
+ *
+ * @group Roll Data
+ * @example Accessing an actor's total MSB in a roll formula
+ * ```markdown
+ * @spheres.msb.total
+ * ```
+ */
+interface SpheresRollDataPaths extends ExpandRecursively<SpheresFormulaPaths> {}
+export { SpheresRollDataPaths };
