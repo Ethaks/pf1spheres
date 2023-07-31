@@ -111,8 +111,8 @@ pages:
   before_script:
     - *npm-ci
   script:
-    - mv public vite-public
     - npm run docs
+    - mv public vite-public
     - mv docs public
   artifacts:
     paths:
