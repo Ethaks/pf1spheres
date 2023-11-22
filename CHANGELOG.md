@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.1](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.6.0...v0.6.1) (2023-11-22)
+
+
+### Bug Fixes
+
+* allow modifying pf1s.config ([ed0dac9](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/ed0dac92e66ab699454cf1a2be8b7dcd4148c5a7))
+
 ## [0.6.0](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.5.1...v0.6.0) (2023-07-17)
 
 
