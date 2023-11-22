@@ -36,6 +36,7 @@
     "test:watch": "vitest watch --ui",
     "test:ci": "vitest run -c vitest.ci.config.ts --coverage",
     "typecheck": "tsc",
+    "postbump": "prettier --write ./public/module.json",
     "release": "standard-version -a",
     "postinstall": "husky install",
     "extractPacks": "node ./tools/packs.js extract",
