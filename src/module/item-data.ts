@@ -130,10 +130,11 @@ interface PF1ClassDataSourceData
 
 export type CasterProgression = keyof typeof pf1s.config.progression | "";
 
-export type Sphere = CombatSphere | MagicSphere;
+export type Sphere = CombatSphere | MagicSphere | SkillSphere;
 
 export type CombatSphere = keyof typeof pf1s.config.combatSpheres;
 export type MagicSphere = keyof typeof pf1s.config.magicSpheres;
+export type SkillSphere = keyof typeof pf1s.config.skillSpheres;
 
 export type ChangeTarget = SphereChangeTarget | PFBuffTarget;
 

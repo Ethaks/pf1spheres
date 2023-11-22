@@ -6,7 +6,7 @@
 
 import type { TotalData, TotalModData, ValueData } from "./common-data";
 import type { ActorPF, PF1ActorSpheresData } from "./actor-data";
-import type { CombatSphere, MagicSphere, PF1ClassDataSource } from "./item-data";
+import type { CombatSphere, MagicSphere, PF1ClassDataSource, SkillSphere } from "./item-data";
 import { getActorMethods } from "./actor-methods";
 import { getActorHelpers } from "./actor-util";
 import { getGame, localize } from "./util";
@@ -166,10 +166,11 @@ const getBlankSphereData = (): PF1ActorSpheresData => {
     bab: fillSpheres(Object.keys(pf1s.config.combatSpheres) as CombatSphere[], totalModTemplate),
     talents: {
       ...fillSpheres(
-        [...Object.keys(pf1s.config.magicSpheres), ...Object.keys(pf1s.config.combatSpheres)] as (
-          | MagicSphere
-          | CombatSphere
-        )[],
+        [
+          ...Object.keys(pf1s.config.magicSpheres),
+          ...Object.keys(pf1s.config.combatSpheres),
+          ...Object.keys(pf1s.config.skillSpheres),
+        ] as (MagicSphere | CombatSphere | SkillSphere)[],
         () => ({ total: 0, value: 0, excluded: 0 }),
       ),
     },

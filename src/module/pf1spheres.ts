@@ -72,7 +72,7 @@ declare global {
 }
 
 globalThis.pf1s = {
-  config: PF1S,
+  config: { ...PF1S },
 };
 
 // Initialize module
