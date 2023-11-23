@@ -69,9 +69,11 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
   )) {
     if (talent.flags.pf1spheres?.sphere) {
       const sphere = talent.flags.pf1spheres.sphere;
-      if (talent.flags.pf1spheres?.countExcluded === true) sphereData.talents[sphere].excluded++;
-      else sphereData.talents[sphere].value++;
-      sphereData.talents[sphere].total++;
+      const sphereTalentsData = sphereData.talents[sphere];
+      if (!sphereTalentsData) continue; // Skip talents with invalid spheres
+      if (talent.flags.pf1spheres?.countExcluded === true) sphereTalentsData.excluded++;
+      else sphereTalentsData.value++;
+      sphereTalentsData.total++;
     }
   }
 };
