@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.7.0](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.6.1...v0.7.0) (2023-11-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* replace `pf1spheresPreSetup` hook with `pf1spheresConfig`
+
+### Bug Fixes
+
+* actually allow modules to register custom spheres again ([ec0dfbb](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/ec0dfbbb166eeda009a582c69b02214f7adadb28))
+* ignore invalid spheres' talent counts in data preparation ([799ec72](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/commit/799ec727d2964bdebf1b8f886f3908ff550bd99e))
+
 ### [0.6.1](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.6.0...v0.6.1) (2023-11-22)
 
 
