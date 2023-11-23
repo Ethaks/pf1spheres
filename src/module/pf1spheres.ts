@@ -15,9 +15,8 @@ import { registerSettings } from "./settings";
 import { preloadTemplates } from "./preloadTemplates";
 import { onItemSheetRender } from "./item-sheet";
 import { onActorBasePreparation } from "./actor";
-import { onAddDefaultChanges, onGetChangeFlat, registerChanges } from "./changes";
-import type { LocalizationKey } from "./util";
-import { getGame, localize } from "./util";
+import { localizeChanges, onAddDefaultChanges, onGetChangeFlat, registerChanges } from "./changes";
+import { getGame } from "./util";
 import type { PF1ModuleData } from "./common-data";
 import { onActorSheetHeaderButtons, onActorSheetRender } from "./actor-sheet";
 import { initializeModuleIntegrations } from "./integrations";
@@ -42,26 +41,25 @@ declare global {
   namespace Hooks {
     interface StaticCallbacks {
       /**
-       * A hook event that fires at the beginning of `pf1spheres`'s {@link Hooks.StaticCallbacks.setup "setup"} hook.
-       * Modules wishing to add spheres should do so here, as the modules registers its Changes with the
-       * system afterwards.
+       * A hook event that fires after the module's base config has been initialised.
+       * This does _not_ include derived config values (i.e. sphere-specific CL/BAB change targets).
+       * Modules wishing to add spheres should do so here,
+       * as the modules registers its Changes with the system _afterwards_.
        *
        * @group Initialization
        * @param config - The {@link pf1s.config config} object also available globally via `CONFIG.PF1SPHERES`
-       * @deprecated
        * @remarks This is called by {@link Hooks.callAll}
        */
-      "pf1spheres.preSetup": (config: typeof pf1s.config) => void;
+      pf1spheresConfig: (config: typeof pf1s.config) => void;
+
       /**
-       * A hook event that fires at the beginning of `pf1spheres`'s {@link Hooks.StaticCallbacks.setup "setup"} hook.
-       * Modules wishing to add spheres should do so here, as the modules registers its Changes with the
-       * system afterwards.
+       * A hook event that fires after the module's {@link Hooks.StaticCallbacks["init"] init} hook has been called.
+       * At this point, all of the module's config is available.
        *
        * @group Initialization
-       * @param config - The {@link pf1s.config config} object also available globally via `CONFIG.PF1SPHERES`
        * @remarks This is called by {@link Hooks.callAll}
        */
-      pf1spheresPreSetup: (config: typeof pf1s.config) => void;
+      pf1spheresPostInit: () => void;
     }
   }
 
@@ -95,24 +93,27 @@ Hooks.once("init", () => {
 
   // Make own config available via shortcut
   CONFIG.PF1SPHERES = pf1s.config;
+
+  // Merge additions to the system's config
+  mergeObject(CONFIG.PF1, PF1CONFIG_EXTRA);
+
+  // Call hooks once base config has been initialised
+  Hooks.callAll("pf1spheresConfig", pf1s.config);
+
+  // Register changes
+  registerChanges();
+
+  // Call hooks after derived config has been initialised
+  Hooks.callAll("pf1spheresPostInit");
 });
 
 // Setup module
 Hooks.once("i18nInit", () => {
   // Localise config
   const toLocalize = ["progression", "magicSpheres", "combatSpheres", "skillSpheres"] as const;
-  const toLocalizePF = [
-    "featTypes",
-    "featTypesPlurals",
-    "buffTargetCategories",
-    "buffTargets",
-    "contextNoteCategories",
-    "contextNoteTargets",
-    "conditionTypes",
-    "conditions",
-  ] as const;
   const toSort = ["magicSpheres", "combatSpheres", "skillSpheres"] as const;
 
+  const game = getGame();
   const localizeObject = (
     obj: Record<string, string | { label: string }>,
     sort = false,
@@ -120,8 +121,8 @@ Hooks.once("i18nInit", () => {
     const localized = Object.entries(obj).map(([key, value]) => {
       let newValue;
       if (typeof value === "object" && value.label != null)
-        newValue = { ...value, label: localize(value.label as LocalizationKey) };
-      else if (typeof value === "string") newValue = localize(value as LocalizationKey);
+        newValue = { ...value, label: game.i18n.localize(value.label) };
+      else if (typeof value === "string") newValue = game.i18n.localize(value);
       return [key, newValue];
     });
     if (sort)
@@ -141,33 +142,11 @@ Hooks.once("i18nInit", () => {
     pf1s.config[o] = localizeObject(pf1s.config[o], toSort.includes(o));
   }
 
-  for (const o of toLocalizePF) {
-    // @ts-expect-error Ignore as const definition of config, strings get replaced in-place
-    PF1CONFIG_EXTRA[o] = localizeObject(PF1CONFIG_EXTRA[o]);
-  }
-
-  // Add to PF1 config
-  mergeObject(CONFIG.PF1, PF1CONFIG_EXTRA);
+  // Apply special localisation to cl/bab buff targets
+  localizeChanges();
 });
 
 Hooks.once("setup", () => {
-  // Call hook to allow modules to add spheres
-  // @ts-expect-error v9 types do not include v10 Hooks property
-  if (Hooks.events["pf1spheres.preSetup"]?.length) {
-    foundry.utils.logCompatibilityWarning(
-      "The 'pf1spheres.preSetup' hook has been deprecated. Please use 'pf1spheresPreSetup' instead.",
-      {
-        from: "PF1Spheres 0.5",
-        until: "PF1Spheres 0.7",
-      },
-    );
-    Hooks.callAll("pf1spheres.preSetup", pf1s.config);
-  }
-  Hooks.callAll("pf1spheresPreSetup", pf1s.config);
-
-  // Register changes
-  registerChanges();
-
   // Enable API
   const moduleData: PF1ModuleData | undefined = getGame().modules?.get("pf1spheres");
   if (moduleData) {

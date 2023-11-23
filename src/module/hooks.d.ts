@@ -17,7 +17,8 @@
  */
 
 // Init
-export declare const pf1spheresPreSetup: Hooks.StaticCallbacks["pf1spheresPreSetup"];
+export declare const pf1spheresConfig: Hooks.StaticCallbacks["pf1spheresConfig"];
+export declare const pf1spheresPostInit: Hooks.StaticCallbacks["pf1spheresPostInit"];
 
 // Actor Rolls
 export declare const pf1spheresPreActorRollMsb: Hooks.StaticCallbacks["pf1spheresPreActorRollMsb"];

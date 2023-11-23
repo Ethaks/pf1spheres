@@ -29,8 +29,9 @@ export const registerChanges = (): void => {
   const baseSort = PF1CONFIG_EXTRA.buffTargets["~spherecl"].sort;
   // Register sphere specific CL change targets
   Object.entries(pf1s.config.magicSpheres).forEach(([sphere, value], index) => {
-    CONFIG.PF1.buffTargets[`spherecl${(sphere as MagicSphere).capitalize()}`] = {
-      label: `${value} ${localize("CasterLevel")}`,
+    const key = `spherecl${(sphere as MagicSphere).capitalize()}`;
+    CONFIG.PF1.buffTargets[key] = {
+      label: value,
       category: "sphereCasterLevel",
       sort: baseSort + 100 + index * 5,
     };
@@ -39,7 +40,7 @@ export const registerChanges = (): void => {
   // Register sphere specific BAB change targets
   Object.entries(pf1s.config.combatSpheres).forEach(([sphere, value], index) => {
     CONFIG.PF1.buffTargets[`spherebab${(sphere as CombatSphere).capitalize()}`] = {
-      label: `${value} ${localize("PF1.BAB")}`,
+      label: value,
       category: "sphereBAB",
       sort: baseSort + 300 + index * 5,
     };
@@ -47,6 +48,27 @@ export const registerChanges = (): void => {
 
   // Allow stacking of multiple sphere caster level modifiers capped at HD
   CONFIG.PF1.stackingBonusModifiers?.push("sphereCLCap");
+};
+
+/**
+ * Localises change targets for caster levels and BABs, adding the respective
+ * label suffixes to the base sphere's name.
+ */
+export const localizeChanges = (): void => {
+  for (const buffTarget of Object.values(pf1.config.buffTargets)) {
+    switch (buffTarget.category) {
+      case "sphereCasterLevel": {
+        buffTarget.label = `${buffTarget.label} ${localize("CasterLevel")}`;
+        break;
+      }
+      case "sphereBAB": {
+        buffTarget.label = `${buffTarget.label} ${localize("PF1.BAB")}`;
+        break;
+      }
+      default:
+        break;
+    }
+  }
 };
 
 /**
