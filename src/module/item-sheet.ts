@@ -58,7 +58,7 @@ export const onItemSheetRender = (
       const change = item.changes.get(changeID);
       if (change == null) return;
 
-      if (!change.data.subTarget.startsWith("spherecl")) {
+      if (!change.data.target.startsWith("spherecl")) {
         $(element).find('option[value="sphereCLCap"]').remove();
       }
     });

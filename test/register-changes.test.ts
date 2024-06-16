@@ -18,6 +18,6 @@ describe("Sphere-specific change registration", () => {
   });
 
   it("should register sphereCLCap as stacking modifier", () => {
-    expect(CONFIG.PF1.stackingBonusModifiers).toContain("sphereCLCap");
+    expect(CONFIG.PF1.stackingBonusTypes).toContain("sphereCLCap");
   });
 });

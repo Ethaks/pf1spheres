@@ -48,7 +48,7 @@ export declare class ActorPF extends Actor {
   /** All active Items with Context Notes */
   get allNotes(): Array<{
     item: ItemPF;
-    notes: Array<{ text: string; subTarget: keyof typeof CONFIG.PF1.contextNoteTargets }>;
+    notes: Array<{ text: string; target: keyof typeof CONFIG.PF1.contextNoteTargets }>;
   }>;
 
   formatContextNotes(
@@ -103,12 +103,7 @@ export type PF1ActorDataSource = {
 };
 
 export interface PF1ActorDataSourceData {
-  attributes: AttributesSourceData;
   abilities: AbilitiesSourceData;
-}
-
-interface AttributesSourceData {
-  conditions: Record<Condition, boolean>;
 }
 
 /** A union of strings containing valid ability score abbreviations */
@@ -138,12 +133,13 @@ export interface PF1ActorDataPropertiesData extends PF1ActorDataSourceData {
   attributes: AttributesPropertiesData;
   /** An actor's abilities data after preparation */
   abilities: AbilitiesPropertiesData;
+  conditions: Record<Condition, boolean>;
 
   /** Guaranteed to be complete after base data preparation */
   spheres: PF1ActorSpheresData | undefined;
 }
 
-interface AttributesPropertiesData extends AttributesSourceData {
+interface AttributesPropertiesData {
   cmd: {
     total: number;
   };

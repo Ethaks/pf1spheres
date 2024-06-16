@@ -114,7 +114,7 @@ export async function rollMsb(
   }
 
   const parts = this.sourceDetails["system.spheres.msb.total"]
-    .filter((info) => !(info.name in CONFIG.PF1.bonusModifiers)) // TODO: Remove when Changes can opt out of sourceInfo
+    .filter((info) => !(info.name in CONFIG.PF1.bonusTypes)) // TODO: Remove when Changes can opt out of sourceInfo
     .map((info) => `${info.value}[${info.name}]`);
 
   const rollData = this.getRollData();
@@ -154,7 +154,7 @@ export async function rollConcentration(
   }
 
   const parts = this.sourceDetails["system.spheres.concentration.total"]
-    .filter((info) => !(info.name in CONFIG.PF1.bonusModifiers)) // TODO: Remove when Changes can opt out of sourceInfo
+    .filter((info) => !(info.name in CONFIG.PF1.bonusTypes)) // TODO: Remove when Changes can opt out of sourceInfo
     .map((info) => `${info.value}[${info.name}]`);
 
   const rollData = this.getRollData();
@@ -186,7 +186,7 @@ export function _getMsbNotes(this: ActorPF): ContextNoteObject[] {
   return this.allNotes
     .map((no) => ({
       item: no.item,
-      notes: no.notes.filter((n) => n.subTarget === "msb").map((n) => n.text),
+      notes: no.notes.filter((n) => n.target === "msb").map((n) => n.text),
     }))
     .filter((no) => no.notes.length > 0);
 }
@@ -201,7 +201,7 @@ export function _getConcentrationNotes(this: ActorPF): ContextNoteObject[] {
     ...this.spheres._getMsbNotes(),
     ...this.allNotes.map((no) => ({
       item: no.item,
-      notes: no.notes.filter((n) => ["concentration"].includes(n.subTarget)).map((n) => n.text),
+      notes: no.notes.filter((n) => ["concentration"].includes(n.target)).map((n) => n.text),
     })),
   ].filter((no) => no.notes.length > 0);
 }

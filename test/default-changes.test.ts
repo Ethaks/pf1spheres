@@ -19,33 +19,11 @@ beforeAll(() => {
 });
 
 describe("Test default changes handling", () => {
-  test("Battered change and source info", () => {
-    // Condition
-    expect(actor.system.attributes.conditions.battered).toBe(true);
-    // Change
-    expect(changes).toContainEqual({
-      data: { formula: "-2", subTarget: "cmd", modifier: "untyped", flavor: "Battered" },
-    });
-  });
-
-  // This test uses its own actor instance to test an actor without the Battered condition
-  test("No Battered condition", () => {
-    const newActor = getFakeActor({ battered: false });
-    const newChanges: ItemChange[] = [];
-    onAddDefaultChanges(newActor, newChanges);
-    expect(
-      newChanges.find(
-        (c) =>
-          c.data.formula === "-2" && c.data.subTarget === "cmd" && c.data.modifier === "untyped",
-      ),
-    ).toBeUndefined();
-  });
-
   test("Basic BAB to Sphere BAB base", () => {
     expect(changes).toContainEqual({
       data: {
         formula: "@attributes.bab.total",
-        subTarget: "~spherebabBase",
+        target: "~spherebabBase",
         modifier: "base",
       },
     });
@@ -53,13 +31,13 @@ describe("Test default changes handling", () => {
 
   test("MSB Base to Total", () => {
     expect(changes).toContainEqual({
-      data: { formula: "@spheres.msb.base", subTarget: "msb", modifier: "base" },
+      data: { formula: "@spheres.msb.base", target: "msb", modifier: "base" },
     });
   });
 
   test("MSD Base to Total", () => {
     expect(changes).toContainEqual({
-      data: { formula: "@spheres.msd.base", subTarget: "msd", modifier: "base" },
+      data: { formula: "@spheres.msd.base", target: "msd", modifier: "base" },
     });
   });
 
@@ -67,7 +45,7 @@ describe("Test default changes handling", () => {
     expect(changes).toContainEqual({
       data: {
         formula: "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap)",
-        subTarget: "~spherecl",
+        target: "~spherecl",
         modifier: "untyped",
       },
     });
@@ -78,7 +56,7 @@ describe("Test default changes handling", () => {
       expect(changes).toContainEqual({
         data: {
           formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap)`,
-          subTarget: `spherecl${sphere.capitalize()}`,
+          target: `spherecl${sphere.capitalize()}`,
           modifier: "untyped",
         },
       });
@@ -90,7 +68,7 @@ describe("Test default changes handling", () => {
       data: {
         formula:
           "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.dark.modCap)",
-        subTarget: "sphereclDark",
+        target: "sphereclDark",
         modifier: "untyped",
       },
     });
@@ -100,7 +78,7 @@ describe("Test default changes handling", () => {
     expect(changes).toContainEqual({
       data: {
         formula: "@spheres.msb.total",
-        subTarget: "sphereConcentration",
+        target: "sphereConcentration",
         modifier: "untyped",
         flavor: "Magic Skill Bonus",
       },
@@ -112,7 +90,7 @@ describe("Test default changes handling", () => {
     expect(changes).toContainEqual({
       data: {
         formula: "@abilities.int.mod",
-        subTarget: "sphereConcentration",
+        target: "sphereConcentration",
         modifier: "untyped",
         flavor: "Casting Ability (Intelligence)",
       },
@@ -120,7 +98,7 @@ describe("Test default changes handling", () => {
     expect(changes).toContainEqual({
       data: {
         formula: "@abilities.int.mod",
-        subTarget: "~castingAbility",
+        target: "~castingAbility",
         modifier: "untyped",
         flavor: "Casting Ability (Intelligence)",
       },
@@ -135,14 +113,14 @@ describe("Test default changes handling", () => {
     expect(newChanges).not.toContainEqual({
       data: {
         formula: "@abilities.int.mod",
-        subTarget: "sphereConcentration",
+        target: "sphereConcentration",
         modifier: "untyped",
       },
     });
     expect(newChanges).not.toContainEqual({
       data: {
         formula: "@abilities.int.mod",
-        subTarget: "~castingAbility",
+        target: "~castingAbility",
         modifier: "untyped",
       },
     });

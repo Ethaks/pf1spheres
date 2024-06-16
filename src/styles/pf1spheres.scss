@@ -30,8 +30,8 @@
   }
   // Spheres tab in actor sheets
   .attribute-grid {
-    font-family: "Nodesto", "Signika", "Palatino Linotype", serif;
-    font-size: 20px;
+    font-family: "Modesto Condensed Bold", "Signika", "Palatino Linotype", serif;
+    font-size: var(--font-size-24, 24px);
     grid-template-rows: 1rem auto;
     max-height: 7rem;
 
@@ -88,7 +88,7 @@
     background-color: rgba(255, 255, 255, 0.1);
 
     .block-header {
-      font-family: "Nodesto", "Signika", "Palatino Linotype", serif;
+      font-family: "Modesto Condensed Bold", "Signika", "Palatino Linotype", serif;
       font-size: 2rem;
       text-align: left;
     }
@@ -124,14 +124,14 @@
       }
     }
     .sphere-level-label {
-      font-family: "Nodesto", "Signika", "Palatino Linotype", serif;
+      font-family: "Modesto Condensed Bold", "Signika", "Palatino Linotype", serif;
       grid-area: level-label;
       align-self: self-end;
       text-align: center;
       font-size: 1.2rem;
     }
     .sphere-level-value {
-      font-family: "Nodesto", "Signika", "Palatino Linotype", serif;
+      font-family: "Modesto Condensed Bold", "Signika", "Palatino Linotype", serif;
       grid-area: level;
       text-align: center;
       font-size: 2rem;

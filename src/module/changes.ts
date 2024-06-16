@@ -6,7 +6,7 @@
 
 import type { Ability, ActorDataPath, ActorPF } from "./actor-data";
 import type {
-  BonusModifier,
+  BonusType,
   CombatSphere,
   ItemChange,
   ItemChangeCreateData,
@@ -47,7 +47,7 @@ export const registerChanges = (): void => {
   });
 
   // Allow stacking of multiple sphere caster level modifiers capped at HD
-  CONFIG.PF1.stackingBonusModifiers?.push("sphereCLCap");
+  CONFIG.PF1.stackingBonusTypes?.push("sphereCLCap");
 };
 
 /**
@@ -75,19 +75,19 @@ export const localizeChanges = (): void => {
  * Determines the data targets of a given change
  *
  * @param target - A change target
- * @param modifier - The bonus type of the change value
+ * @param type - The bonus type of the change value
  * @param result - Data determining the data path to adjust
  */
 export const onGetChangeFlat = (
   result: ActorDataPath[],
   target: SphereChangeTarget,
-  modifier: BonusModifier,
+  type: BonusType,
 ): number => {
   // Cache change targets on first call
   if (changeFlatTargets === undefined) changeFlatTargets = getChangeFlatTargets();
 
   return result.push(
-    ...(changeFlatTargets[target]?.[modifier] ?? changeFlatTargets[target]?.default ?? []),
+    ...(changeFlatTargets[target]?.[type] ?? changeFlatTargets[target]?.default ?? []),
   );
 };
 
@@ -171,10 +171,6 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
   // Generate array with all change data and source info
   const defaultChangeData = getDefaultChanges();
 
-  // Add battered condition change if applicable
-  const battered = actor.system.attributes.conditions.battered ?? false;
-  const batteredChangeData = getBatteredChangeData(battered);
-
   // Add Casting Ability Modifier to Concentration and `@spheres.cam` shortcut
   const castingAbility = actor.flags.pf1spheres?.castingAbility;
   const castingAbilityChangeData = getCastingAbilityChange(castingAbility);
@@ -183,7 +179,6 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
 
   const changeData: DefaultChangeData[] = [
     defaultChangeData,
-    batteredChangeData,
     msbToConcentrationChangeData,
     castingAbilityChangeData,
   ].filter(nonNullable);
@@ -210,50 +205,35 @@ const getDefaultChanges = (): DefaultChangeData => ({
     // Push ModCap to Total change
     {
       formula: "min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap)",
-      subTarget: "~spherecl",
+      target: "~spherecl",
       modifier: "untyped",
     },
     // For every magic sphere, determine CL from base + general HD capped + sphere specific HD capped
     ...Object.keys(pf1s.config.magicSpheres).map(
       (sphere): ItemChangeCreateData => ({
         formula: `min(@attributes.hd.total, @spheres.cl.base + @spheres.cl.modCap + @spheres.cl.${sphere}.modCap)`,
-        subTarget: `spherecl${sphere.capitalize()}`,
+        target: `spherecl${sphere.capitalize()}`,
         modifier: "untyped",
       }),
     ),
     // Add a change to add total BAB to sphere BABs
     {
       formula: "@attributes.bab.total",
-      subTarget: "~spherebabBase",
+      target: "~spherebabBase",
       modifier: "base",
     },
     // Add MSB Base to Total
-    { formula: "@spheres.msb.base", subTarget: "msb", modifier: "base" },
+    { formula: "@spheres.msb.base", target: "msb", modifier: "base" },
     // Add MSD Base to Total
-    { formula: "@spheres.msd.base", subTarget: "msd", modifier: "base" },
+    { formula: "@spheres.msd.base", target: "msd", modifier: "base" },
   ],
 });
-
-/** Returns DefaultChangeData dependent on whether the battered condition is true */
-const getBatteredChangeData = (battered: boolean): DefaultChangeData | undefined =>
-  battered
-    ? {
-        changes: [
-          {
-            formula: "-2",
-            subTarget: "cmd",
-            modifier: "untyped",
-            flavor: localize("Battered"),
-          },
-        ],
-      }
-    : undefined;
 
 const getMsbToConcentrationChange = (): DefaultChangeData => ({
   changes: [
     {
       formula: `@spheres.msb.total`,
-      subTarget: "sphereConcentration",
+      target: "sphereConcentration",
       modifier: "untyped",
       flavor: localize("MagicSkillBonus"),
     },
@@ -268,13 +248,13 @@ const getCastingAbilityChange = (
         changes: [
           {
             formula: `@abilities.${ability}.mod`,
-            subTarget: "sphereConcentration",
+            target: "sphereConcentration",
             modifier: "untyped",
             flavor: `${localize("CastingAbility")} (${CONFIG.PF1.abilities[ability]})`,
           },
           {
             formula: `@abilities.${ability}.mod`,
-            subTarget: "~castingAbility",
+            target: "~castingAbility",
             modifier: "untyped",
             flavor: `${localize("CastingAbility")} (${CONFIG.PF1.abilities[ability]})`,
           },
@@ -296,5 +276,5 @@ interface DefaultChangeData {
 }
 
 type ChangeFlatTargetData = { default: ActorDataPath[] } & {
-  [Key in BonusModifier]?: ActorDataPath[];
+  [Key in BonusType]?: ActorDataPath[];
 };

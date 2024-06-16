@@ -16,7 +16,7 @@ import { preloadTemplates } from "./preloadTemplates";
 import { onItemSheetRender } from "./item-sheet";
 import { onActorBasePreparation } from "./actor";
 import { localizeChanges, onAddDefaultChanges, onGetChangeFlat, registerChanges } from "./changes";
-import { getGame } from "./util";
+import { MODULE_ID, getGame } from "./util";
 import type { PF1ModuleData } from "./common-data";
 import { onActorSheetHeaderButtons, onActorSheetRender } from "./actor-sheet";
 import { initializeModuleIntegrations } from "./integrations";
@@ -40,6 +40,7 @@ declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace Hooks {
     interface StaticCallbacks {
+      pf1RegisterConditions: (registry: Registry, model: unknown) => void;
       /**
        * A hook event that fires after the module's base config has been initialised.
        * This does _not_ include derived config values (i.e. sphere-specific CL/BAB change targets).
@@ -103,8 +104,33 @@ Hooks.once("init", () => {
   // Register changes
   registerChanges();
 
+  pf1.config.sheetSections.features.magicTalent = {
+    label: "PF1SPHERES.MagicTalentPlural",
+    interface: { create: true, actions: true, types: true },
+    filters: [{ type: "feat", subTypes: ["magicTalent"] }],
+    create: { type: "feat", system: { subType: "magicTalent" } },
+    sort: 2_600,
+  };
+  pf1.config.sheetSections.features.combatTalent = {
+    label: "PF1SPHERES.CombatTalentPlural",
+    interface: { create: true, actions: true, types: true },
+    filters: [{ type: "feat", subTypes: ["combatTalent"] }],
+    create: { type: "feat", system: { subType: "combatTalent" } },
+    sort: 2_400,
+  };
+
   // Call hooks after derived config has been initialised
   Hooks.callAll("pf1spheresPostInit");
+});
+
+Hooks.on("pf1RegisterConditions", (registry, _model) => {
+  registry.register(MODULE_ID, "battered", {
+    name: "PF1SPHERES.Battered",
+    texture: "modules/pf1spheres/assets/icons/battered.png",
+    mechanics: {
+      changes: [{ formula: -2, target: "cmd", type: "untyped" }],
+    },
+  });
 });
 
 // Setup module

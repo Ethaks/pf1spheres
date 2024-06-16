@@ -78,9 +78,9 @@ export function setup() {
   (global as any).CONFIG = {
     PF1: {
       buffTargets: {},
-      stackingBonusModifiers: [],
+      stackingBonusTypes: [],
       abilities: { int: "Intelligence" },
-      bonusModifiers: {},
+      bonusTypes: {},
     },
   };
 

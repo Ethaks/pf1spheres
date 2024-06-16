@@ -61,7 +61,14 @@ declare global {
         options: D20ActorRollOptions,
       ) => Promise<ChatMessage | ChatMessage["data"]["_source"] | void>;
     };
+    registry: {
+      Registry: typeof Registry;
+    };
   };
+
+  declare class Registry extends Collection<unknown> {
+    register(namespace: string, id: string, data: Record<string, unknown>): void;
+  }
 
   namespace ClientSettings {
     interface Values {
@@ -85,8 +92,8 @@ declare global {
 type ObjectKeys<T> = T extends object
   ? (keyof T)[]
   : T extends number
-  ? []
-  : /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-  T extends Array<any> | string
-  ? string[]
-  : never;
+    ? []
+    : /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+      T extends Array<any> | string
+      ? string[]
+      : never;

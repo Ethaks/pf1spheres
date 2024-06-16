@@ -5,8 +5,9 @@
  */
 
 import type { Ability } from "./actor-data";
-import type { BonusModifier, ItemType } from "./item-data";
+import type { BonusType, ItemType, PF1ItemDataSource } from "./item-data";
 import type { _AssertExtends } from "./ts-util";
+import type { LocalizationKey } from "./util";
 
 /**
  * Config values to be merged into the PF1 system config
@@ -77,17 +78,8 @@ export const PF1CONFIG_EXTRA = {
     msb: { label: "PF1SPHERES.Checks.MSB", category: "spheresMisc" },
     concentration: { label: "PF1.Concentration", category: "spheresMisc" },
   },
-  bonusModifiers: {
+  bonusTypes: {
     sphereCLCap: "PF1SPHERES.SphereCLCapped",
-  },
-  conditionTypes: {
-    battered: "PF1SPHERES.Battered",
-  },
-  conditions: {
-    battered: "PF1SPHERES.Battered",
-  },
-  conditionTextures: {
-    battered: "modules/pf1spheres/assets/icons/battered.png",
   },
 } as const;
 
@@ -105,16 +97,30 @@ export interface PF1CONFIG {
     string,
     { label: string; category: keyof typeof CONFIG.PF1.contextNoteCategories }
   >;
-  bonusModifiers: Record<string, string>;
+  bonusTypes: Record<string, string>;
   conditionTypes: Record<string, string>;
+  /** @deprecated */
   conditions: Record<string, string>;
   conditionTextures: Record<string, string>;
-  stackingBonusModifiers?: BonusModifier[];
+  stackingBonusTypes?: BonusType[];
   armorProficiencies: Record<"lgt" | "med" | "hvy" | "shl" | "twr", string>;
   weaponProficiencies: Record<"sim" | "mar", string>;
   skills: Record<string, string>;
   abilities: Record<Ability, string>;
   defaultIcons: Record<"actor" | "items", Record<ItemType, string>>;
+  sheetSections: Record<
+    string,
+    Record<
+      string,
+      {
+        label: LocalizationKey;
+        filters: Array<{ type?: string; subTypes?: string[] }>;
+        interface: { create?: boolean; actions?: boolean; types?: boolean };
+        create?: DeepPartial<PF1ItemDataSource>;
+        sort?: number;
+      }
+    >
+  >;
 }
 
 /* eslint-disable @typescript-eslint/no-unused-vars */ // Presence alone is sufficient to allow type checking

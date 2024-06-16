@@ -172,7 +172,7 @@ export type ItemType =
 /*
  * Bonus Modifier types from the PF1 system, used for Changes
  */
-export type BonusModifier =
+export type BonusType =
   | "untyped"
   | "untypedPerm"
   | "base"
@@ -193,7 +193,7 @@ export type BonusModifier =
   | "circumstance"
   | "alchemical"
   | "penalty"
-  | keyof typeof PF1CONFIG_EXTRA.bonusModifiers;
+  | keyof typeof PF1CONFIG_EXTRA.bonusTypes;
 
 export type PFBuffTarget = "cmd";
 
@@ -215,8 +215,8 @@ export interface ItemChangeData {
   formula: string;
   /** This is "add" by default */
   operator: "add" | "set" | "script";
-  subTarget: ChangeTarget;
-  modifier: BonusModifier;
+  target: ChangeTarget;
+  modifier: BonusType;
   priority: number;
   value: number;
   flavor?: string;
@@ -259,7 +259,7 @@ interface SourceEntryValue {
 
 interface ContextNoteData {
   text: string;
-  subTarget:
+  target:
     | keyof typeof CONFIG.PF1.contextNoteTargets
     | keyof typeof PF1CONFIG_EXTRA.contextNoteTargets;
 }

@@ -45,7 +45,7 @@ export const createTestActor = async ({ exportToJSON = false } = {}) => {
     name: string;
     level?: number;
     changes?: ItemChangeCreateData[];
-    notes?: { text: string; subTarget: string }[];
+    notes?: { text: string; target: string }[];
   }[] = [
     {
       name: "Incanter",
@@ -53,13 +53,13 @@ export const createTestActor = async ({ exportToJSON = false } = {}) => {
         {
           formula: "1",
           operator: "add",
-          subTarget: "spherecl",
+          target: "spherecl",
           modifier: "sphereCLCap",
           priority: 0,
           value: 1,
         },
       ],
-      notes: [{ text: "Incanter Note", subTarget: "msb" }],
+      notes: [{ text: "Incanter Note", target: "msb" }],
     },
     {
       name: "Wraith",
@@ -68,13 +68,13 @@ export const createTestActor = async ({ exportToJSON = false } = {}) => {
         {
           formula: "2",
           operator: "add",
-          subTarget: "sphereclDark",
+          target: "sphereclDark",
           modifier: "untyped",
           priority: 0,
           value: 2,
         },
       ],
-      notes: [{ text: "Wraith Note", subTarget: "concentration" }],
+      notes: [{ text: "Wraith Note", target: "concentration" }],
     },
     {
       name: "Mageknight",
@@ -83,7 +83,7 @@ export const createTestActor = async ({ exportToJSON = false } = {}) => {
         {
           formula: "12",
           operator: "add",
-          subTarget: "spherebabAlchemy",
+          target: "spherebabAlchemy",
           modifier: "untyped",
           priority: 0,
           value: 12,
@@ -119,7 +119,7 @@ const getClassData = async (
   }: {
     level?: number | undefined;
     changes?: undefined | ItemChangeCreateData[];
-    notes?: { text: string; subTarget: string }[];
+    notes?: { text: string; target: string }[];
   } = {},
 ) => {
   const classData = await fetchPackEntryData("pf1spheres.classes", className);
