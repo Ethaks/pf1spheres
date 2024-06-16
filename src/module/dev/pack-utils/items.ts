@@ -103,9 +103,9 @@ function getFeatData(t: RawFeatData): DeepPartial<ItemDataSource> {
   return {
     name: t.name,
     type: "feat",
-    data: {
+    system: {
       description: { value: t.text },
-      tags: t.tags.map((tag) => [tag]),
+      tags: t.tags,
     },
   };
 }
@@ -132,7 +132,7 @@ function getClassData(c: RawClassData): DeepPartial<ItemDataSource> {
   return {
     name: c.name,
     type: "class",
-    data: {
+    system: {
       bab: c.bab,
       hd: c.hd,
       savingThrows: Object.entries(c.savingThrows).reduce(
