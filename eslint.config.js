@@ -17,6 +17,8 @@ export default teslint.config(
   prettierConfig,
   {
     rules: {
+      // Extending classes might not need anything but changes to static members
+      "@typescript-eslint/no-extraneous-class": "off",
       "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
     },
   },

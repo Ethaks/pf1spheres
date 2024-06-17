@@ -60,7 +60,6 @@ export function setup() {
   (global as any).RollPF = FakeRoll;
   (global as any).ChatMessage = FakeChatMessage;
 
-  // eslint-disable-next-line @typescript-eslint/no-extraneous-class
   (global as any).Hooks = class {
     // eslint-disable-next-line @typescript-eslint/no-empty-function
     static call() {}

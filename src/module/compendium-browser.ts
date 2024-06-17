@@ -7,7 +7,6 @@
 import { getAllSpheres } from "./item-util";
 import { LocalizationKey, MODULE_ID } from "./util";
 
-// eslint-disable-next-line @typescript-eslint/no-extraneous-class
 export declare class CompendiumBrowser {
   static filterClasses: (typeof BaseFilter)[];
 }

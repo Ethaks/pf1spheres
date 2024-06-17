@@ -6,7 +6,6 @@
 
 import { getFakeActor } from "./fake-actor";
 
-// eslint-disable-next-line @typescript-eslint/no-extraneous-class
 export class FakeChatMessage {
   static getSpeakerActor() {
     return getFakeActor();
