@@ -84,13 +84,6 @@ Hooks.once("init", () => {
   // Preload Handlebars templates
   preloadTemplates();
 
-  // Add Battered to Status Effects
-  CONFIG.statusEffects.push({
-    id: "battered",
-    label: "PF1SPHERES.Battered",
-    icon: "modules/pf1spheres/assets/icons/battered.png",
-  });
-
   initializeModuleIntegrations();
 
   // Make own config available via shortcut
