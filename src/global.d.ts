@@ -92,8 +92,8 @@ declare global {
 type ObjectKeys<T> = T extends object
   ? (keyof T)[]
   : T extends number
-    ? []
-    : /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-      T extends Array<any> | string
-      ? string[]
-      : never;
+  ? []
+  : /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+  T extends Array<any> | string
+  ? string[]
+  : never;
