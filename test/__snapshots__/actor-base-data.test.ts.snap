@@ -3,25 +3,29 @@
 exports[`Actor base data preparation with fractional base bonuses > matches the snapshot 1`] = `
 {
   "_stats": {
-    "coreVersion": "10.283",
-    "createdTime": 1662296080108,
-    "lastModifiedBy": "2PRK3HPEmgl3vznl",
-    "modifiedTime": 1662296080108,
+    "coreVersion": "11.315",
+    "createdTime": 1718628822055,
+    "lastModifiedBy": "yOpyXOKJr12wUPHe",
+    "modifiedTime": 1718629055395,
     "systemId": "pf1",
-    "systemVersion": "0.82.1",
+    "systemVersion": "10.0",
   },
   "effects": [],
   "flags": {
     "exportSource": {
-      "coreVersion": "10.283",
+      "coreVersion": "11.315",
       "system": "pf1",
-      "systemVersion": "0.82.1",
+      "systemVersion": "10.0",
       "world": "pf1s",
+    },
+    "pf1": {
+      "migration": "10.0",
     },
     "pf1spheres": {
       "castingAbility": "int",
     },
   },
+  "folder": null,
   "img": "icons/svg/mystery-man.svg",
   "items": [
     {
@@ -35,8 +39,12 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         "systemVersion": null,
       },
       "effects": [],
-      "flags": {},
-      "folder": null,
+      "flags": {
+        "pf1": {
+          "migration": "10.0",
+        },
+      },
+      "folder": "RWSoA7Fj9yqo0y9U",
       "img": "systems/pf1/icons/races/human.jpg",
       "name": "Human",
       "ownership": {
@@ -45,107 +53,45 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
       "sort": 0,
       "system": {
         "armorProf": {
-          "custom": "",
+          "custom": [],
           "value": [],
         },
         "changeFlags": {
           "heavyArmorFullSpeed": false,
           "loseDexToAC": false,
           "mediumArmorFullSpeed": false,
-          "noEncumbrance": false,
+          "noHeavyEncumbrance": false,
+          "noMediumEncumbrance": false,
         },
         "changes": [
           {
             "_id": "ywxkp0hu",
             "formula": "1",
-            "modifier": "untyped",
             "operator": "add",
             "priority": 0,
-            "target": "misc",
-            "value": 0,
+            "target": "bonusFeats",
+            "type": "untyped",
           },
           {
             "_id": "ahb0k14u",
             "formula": "@attributes.hd.total",
-            "modifier": "untyped",
             "operator": "add",
             "priority": 0,
-            "target": "skills",
-            "value": 0,
+            "target": "bonusSkillRanks",
+            "type": "untyped",
           },
         ],
         "contextNotes": [],
         "creatureType": "humanoid",
         "description": {
-          "chat": "",
-          "unidentified": "",
-          "value": "<h2>Starting Age</h2>
-<table style=\\"border-spacing: 0px; background-color: #ffffff; margin: 10px; table-layout: fixed; border-color: #888888; min-width: 200px; color: #333333; font-family: Varela, sans-serif;\\" border=\\"1\\" cellpadding=\\"5\\">
-<thead style=\\"box-sizing: border-box; background-color: #cfe2f3;\\">
-<tr style=\\"box-sizing: border-box;\\">
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Adulthood</th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Intuitive<span style=\\"box-sizing: border-box; position: relative; font-size: 10px; line-height: 0; vertical-align: baseline; top: -0.5em;\\">1</span></th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Self-Taught<span style=\\"box-sizing: border-box; position: relative; font-size: 10px; line-height: 0; vertical-align: baseline; top: -0.5em;\\">2</span></th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Trained<span style=\\"box-sizing: border-box; position: relative; font-size: 10px; line-height: 0; vertical-align: baseline; top: -0.5em;\\">3</span></th>
-</tr>
-</thead>
-<tbody style=\\"box-sizing: border-box;\\">
-<tr style=\\"box-sizing: border-box;\\">
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">15 years</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+1d4 years<br style=\\"box-sizing: border-box;\\">(16 – 19 years)</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+1d6 years<br style=\\"box-sizing: border-box;\\">(16 – 21 years)</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+2d6 years<br style=\\"box-sizing: border-box;\\">(17 – 27 years)</td>
-</tr>
-</tbody>
-</table>
-<p><sup>1</sup>&nbsp;This category includes barbarians, oracles, rogues, and sorcerers.<br><sup>2</sup>&nbsp;This category includes bards, cavaliers, fighters, gunslingers, paladins, rangers, summoners, and witches.<br><sup>3</sup>&nbsp;This category includes alchemists, clerics, druids, inquisitors, magi, monks, and wizards.</p>
-<h2>Height and Weight</h2>
-<table style=\\"border-spacing: 0px; background-color: #ffffff; margin: 10px; table-layout: fixed; border-color: #888888; min-width: 200px; color: #333333; font-family: Varela, sans-serif;\\" border=\\"1\\" cellpadding=\\"5\\">
-<thead style=\\"box-sizing: border-box; background-color: #cfe2f3;\\">
-<tr style=\\"box-sizing: border-box;\\">
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Gender</th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Base Height</th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Height Modifier</th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Base Weight</th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Weight Modifier</th>
-</tr>
-</thead>
-<tbody style=\\"box-sizing: border-box;\\">
-<tr style=\\"box-sizing: border-box;\\">
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">Male</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">4 ft. 10 in.</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+2d10 in.<br style=\\"box-sizing: border-box;\\">(5 ft – 6 ft. 6 in.)</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">120 lbs.</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+(2d10×5 lbs.)<br style=\\"box-sizing: border-box;\\">(130 – 220 lbs.)</td>
-</tr>
-<tr style=\\"box-sizing: border-box; background-color: #f3f3f3;\\">
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">Female</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">4 ft. 5 in.</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+2d10 in.<br style=\\"box-sizing: border-box;\\">(4 ft. 7 in. – 6 ft. 1 in.)</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">85 lbs.</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+(2d10×5 lbs.)<br style=\\"box-sizing: border-box;\\">(95 – 185 lbs.)</td>
-</tr>
-</tbody>
-</table>
-<h2>Standard Racial Traits</h2>
-<ul>
-<li><strong>Ability Score Modifiers</strong>: Human characters gain a +2&nbsp;<a href=\\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Racial-Bonus\\">racial bonus</a>&nbsp;to one ability score of their choice at creation to represent their varied nature.</li>
-<li><strong>Size</strong>: Humans are Medium creatures and thus receive no bonuses or penalties due to their size.</li>
-<li><strong>Base Speed</strong>: Humans have a base speed of 30 feet.</li>
-<li><strong>Languages</strong>: Humans begin play speaking Common. Humans with high&nbsp;<a href=\\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Intelligence-Int-\\">Intelligence</a>&nbsp;scores can choose any languages they want (except secret languages, such as Druidic). See the&nbsp;<a href=\\"https://www.d20pfsrd.com/skills/linguistics\\">Linguistics skill page</a>&nbsp;for more information about these languages.</li>
-</ul>
-<h3>Feat and Skill Racial Traits</h3>
-<ul>
-<li><strong>Bonus Feat</strong>: Humans select one extra feat at 1st level.</li>
-<li><strong>Skilled</strong>: Humans gain an additional skill rank at first level and one additional rank whenever they gain a level.</li>
-</ul>",
+          "value": "<h2>Starting Age</h2><table><thead><tr><th>Adulthood</th><th>Intuitive<sup>1</sup></th><th>Self-Taught<sup>2</sup></th><th>Trained<sup>3</sup></th></tr></thead><tbody><tr><td>15 years</td><td><p>+1d4 years<br />(16 – 19 years)</p></td><td><p>+1d6 years<br />(16 – 21 years)</p></td><td><p>+2d6 years<br />(17 – 27 years)</p></td></tr></tbody></table><p><sup>1</sup> This category includes barbarians, oracles, rogues, and sorcerers.<br /><sup>2</sup> This category includes bards, cavaliers, fighters, gunslingers, paladins, rangers, summoners, and witches.<br /><sup>3</sup> This category includes alchemists, clerics, druids, inquisitors, magi, monks, and wizards.</p><h2>Height and Weight</h2><table><thead><tr><th>Gender</th><th>Base Height</th><th>Height Modifier</th><th>Base Weight</th><th>Weight Modifier</th></tr></thead><tbody><tr><td>Male</td><td>4 ft. 10 in.</td><td><p>+2d10 in.<br />(5 ft – 6 ft. 6 in.)</p></td><td>120 lbs.</td><td><p>+(2d10×5 lbs.)<br />(130 – 220 lbs.)</p></td></tr><tr><td>Female</td><td>4 ft. 5 in.</td><td><p>+2d10 in.<br />(4 ft. 7 in. – 6 ft. 1 in.)</p></td><td>85 lbs.</td><td><p>+(2d10×5 lbs.)<br />(95 – 185 lbs.)</p></td></tr></tbody></table><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Human characters gain a +2 <em>racial bonus</em> to one ability score of their choice at creation to represent their varied nature.</li><li><strong>Type</strong>: Humans are <em>Humanoid</em> creatures with both the <em>human</em> subtypes.</li><li><strong>Size</strong>: Humans are Medium creatures and thus receive no bonuses or penalties due to their size.</li><li><strong>Base Speed</strong>: Humans have a base speed of 30 feet.</li><li><strong>Languages</strong>: Humans begin play speaking Common. Humans with high <em>Intelligence</em> scores can choose any languages they want (except secret languages, such as Druidic).</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Bonus Feat</strong>: Humans select one extra feat at 1st level.</li><li><strong>Skilled</strong>: Humans gain an additional skill rank at first level and one additional rank whenever they gain a level.</li></ul>",
         },
         "flags": {
-          "boolean": [],
-          "dictionary": [],
+          "boolean": {},
+          "dictionary": {},
         },
         "languages": {
-          "custom": "",
+          "custom": [],
           "value": [
             "common",
           ],
@@ -155,14 +101,32 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         },
         "scriptCalls": [],
         "size": "med",
-        "subTypes": [
-          [
-            "Human",
-          ],
+        "sources": [
+          {
+            "id": "PZO1110",
+            "pages": "27",
+          },
         ],
-        "tags": [],
+        "speeds": {
+          "burrow": null,
+          "climb": null,
+          "fly": null,
+          "flyManeuverability": "",
+          "land": 30,
+          "swim": null,
+        },
+        "subTypes": [
+          "Human",
+        ],
+        "tags": [
+          "Core",
+          "Western (Arcadia)",
+          "Eastern (Casmaron)",
+          "Northern (Crown of the World)",
+          "Southern (Garund)",
+        ],
         "weaponProf": {
-          "custom": "",
+          "custom": [],
           "value": [],
         },
       },
@@ -171,15 +135,18 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
     {
       "_id": "7htbt9LqiZbF0RTt",
       "_stats": {
-        "coreVersion": null,
-        "createdTime": null,
+        "coreVersion": "10.291",
+        "createdTime": 1663168899450,
         "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null,
+        "modifiedTime": 1689623925737,
+        "systemId": "pf1",
+        "systemVersion": "9.0",
       },
       "effects": [],
       "flags": {
+        "pf1": {
+          "migration": "10.0",
+        },
         "pf1spheres": {
           "casterProgression": "high",
         },
@@ -192,8 +159,8 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
       },
       "sort": 0,
       "system": {
+        "alignment": "",
         "armorProf": {
-          "custom": "",
           "value": [],
         },
         "bab": "low",
@@ -201,17 +168,17 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           "heavyArmorFullSpeed": false,
           "loseDexToAC": false,
           "mediumArmorFullSpeed": false,
-          "noEncumbrance": false,
+          "noHeavyEncumbrance": false,
+          "noMediumEncumbrance": false,
         },
         "changes": [
           {
-            "_id": "rElRZmLg",
+            "_id": "XCgSo8Qb",
             "formula": "1",
-            "modifier": "sphereCLCap",
             "operator": "add",
             "priority": 0,
             "target": "spherecl",
-            "value": 1,
+            "type": "sphereCLCap",
           },
         ],
         "classSkills": {
@@ -253,7 +220,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           "swm": false,
           "umd": false,
         },
-        "classType": "base",
         "contextNotes": [
           {
             "target": "msb",
@@ -262,7 +228,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         ],
         "customHD": "",
         "description": {
-          "chat": "",
           "unidentified": "",
           "value": "The incanter is among the purest forms of a caster, dedicated above all to expanding their knowledge of the magical arts. Their powers are almost entirely determined by their choice of sphere - whether they’re dabbling in everything or focusing their knowledge on a few areas, though, they’re a force to be reckoned with.
 <p><strong>Role:</strong> An incanter is a master of magical spheres, bending magic to their needs more fully than any other caster.</p>
@@ -286,14 +251,12 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           },
         },
         "flags": {
-          "boolean": [],
-          "dictionary": [],
+          "boolean": {},
+          "dictionary": {},
         },
         "hd": 6,
         "hp": 8,
-        "identifiedName": "Incanter",
         "languages": {
-          "custom": "",
           "value": [],
         },
         "level": 1,
@@ -301,72 +264,41 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           "children": [],
           "classAssociations": [
             {
-              "_index": 0,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.A9FAOo84kJtEZxyx",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Weapon and Armor Proficiency (Incanter)",
+              "uuid": "Compendium.pf1spheres.class-features.A9FAOo84kJtEZxyx",
             },
             {
-              "_index": 1,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.flMB9hKbsb8bRrI1",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Casting (Incanter)",
+              "uuid": "Compendium.pf1spheres.class-features.flMB9hKbsb8bRrI1",
             },
             {
-              "_index": 2,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.0JHCoqow5V8nzcw6",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Spell Pool (Incanter)",
+              "uuid": "Compendium.pf1spheres.class-features.0JHCoqow5V8nzcw6",
             },
             {
-              "_index": 3,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.nURFMMZjd7LyZfA0",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Magic Talents (Incanter)",
+              "uuid": "Compendium.pf1spheres.class-features.nURFMMZjd7LyZfA0",
             },
             {
-              "_index": 4,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.yMTwPUIZM4m3xvOT",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Bonus Feat (Incanter)",
+              "uuid": "Compendium.pf1spheres.class-features.yMTwPUIZM4m3xvOT",
             },
             {
-              "_index": 5,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.YrixbDQqY3kmdsTa",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Incanter Specializations",
+              "uuid": "Compendium.pf1spheres.class-features.YrixbDQqY3kmdsTa",
             },
             {
-              "_index": 6,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.7W1eLxdXzGzq9jLP",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "List of Sphere Specializations (Incanter)",
+              "uuid": "Compendium.pf1spheres.class-features.7W1eLxdXzGzq9jLP",
             },
           ],
-        },
-        "range": {
-          "maxIncrements": 1,
         },
         "savingThrows": {
           "fort": {
@@ -381,11 +313,10 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         },
         "scriptCalls": [],
         "skillsPerLevel": 4,
-        "tag": "",
+        "subType": "base",
         "tags": [],
-        "useCustomTag": false,
+        "wealth": "",
         "weaponProf": {
-          "custom": "",
           "value": [],
         },
       },
@@ -394,15 +325,18 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
     {
       "_id": "nP4sgDZSPB5RiZEs",
       "_stats": {
-        "coreVersion": null,
-        "createdTime": null,
+        "coreVersion": "10.291",
+        "createdTime": 1663168899465,
         "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null,
+        "modifiedTime": 1689623925739,
+        "systemId": "pf1",
+        "systemVersion": "9.0",
       },
       "effects": [],
       "flags": {
+        "pf1": {
+          "migration": "10.0",
+        },
         "pf1spheres": {
           "casterProgression": "mid",
         },
@@ -415,8 +349,8 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
       },
       "sort": 0,
       "system": {
+        "alignment": "",
         "armorProf": {
-          "custom": "",
           "value": [],
         },
         "bab": "med",
@@ -424,17 +358,17 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           "heavyArmorFullSpeed": false,
           "loseDexToAC": false,
           "mediumArmorFullSpeed": false,
-          "noEncumbrance": false,
+          "noHeavyEncumbrance": false,
+          "noMediumEncumbrance": false,
         },
         "changes": [
           {
-            "_id": "LNYMz79v",
+            "_id": "jGoVj190",
             "formula": "2",
-            "modifier": "untyped",
             "operator": "add",
             "priority": 0,
             "target": "sphereclDark",
-            "value": 2,
+            "type": "untyped",
           },
         ],
         "classSkills": {
@@ -476,7 +410,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           "swm": false,
           "umd": true,
         },
-        "classType": "base",
         "contextNotes": [
           {
             "target": "concentration",
@@ -485,7 +418,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         ],
         "customHD": "",
         "description": {
-          "chat": "",
           "unidentified": "",
           "value": "Emulating powerful and perilous creatures such as ghosts and shadow demons, wraiths gain the power to fade into the ether. A diverse group, each wraith is attuned to certain types of creatures or states of mind. This attunement can be exploited to seize control, turning foes into puppets. Some gain their talents from exposure to possessing entities, others obtain their power as part of returning from death themselves, or via other, more esoteric, paths.
 <p><strong>Role:</strong> Eerie casters able to slip out of phase with reality and leap into susceptible minds, seizing control, making them perfect for infiltration and espionage.</p>
@@ -509,14 +441,12 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           },
         },
         "flags": {
-          "boolean": [],
-          "dictionary": [],
+          "boolean": {},
+          "dictionary": {},
         },
         "hd": 8,
         "hp": 8,
-        "identifiedName": "Wraith",
         "languages": {
-          "custom": "",
           "value": [],
         },
         "level": 2,
@@ -524,99 +454,56 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           "children": [],
           "classAssociations": [
             {
-              "_index": 0,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.wu8LKUnWbIOEfOz5",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Weapon and Armor Proficiencies",
+              "uuid": "Compendium.pf1spheres.class-features.wu8LKUnWbIOEfOz5",
             },
             {
-              "_index": 1,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.qjxhDJ6DHrQdMmxO",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Casting (Wraith)",
+              "uuid": "Compendium.pf1spheres.class-features.qjxhDJ6DHrQdMmxO",
             },
             {
-              "_index": 2,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.CCO6fnN9lnTRPeus",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Spell Pool (Wraith)",
+              "uuid": "Compendium.pf1spheres.class-features.CCO6fnN9lnTRPeus",
             },
             {
-              "_index": 3,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.qobC1BfGt3IZxVGJ",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Magic Talents (Wraith)",
+              "uuid": "Compendium.pf1spheres.class-features.qobC1BfGt3IZxVGJ",
             },
             {
-              "_index": 4,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.Rre7ofzGROCWag3d",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Haunt Path",
+              "uuid": "Compendium.pf1spheres.class-features.Rre7ofzGROCWag3d",
             },
             {
-              "_index": 5,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.S5SxrTHPALZSASue",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Wraith Form Mastery",
+              "uuid": "Compendium.pf1spheres.class-features.S5SxrTHPALZSASue",
             },
             {
-              "_index": 6,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.jD36VABy9AbiyHrz",
-              "img": "icons/svg/item-bag.svg",
               "level": 2,
               "name": "Possession",
+              "uuid": "Compendium.pf1spheres.class-features.jD36VABy9AbiyHrz",
             },
             {
-              "_index": 7,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.Fp75YxemiGRqXZBV",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Wraith Haunts",
+              "uuid": "Compendium.pf1spheres.class-features.Fp75YxemiGRqXZBV",
             },
             {
-              "_index": 8,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.nL5TIp4uVHHqOx5n",
-              "img": "icons/svg/item-bag.svg",
               "level": 10,
               "name": "Greater Possession",
+              "uuid": "Compendium.pf1spheres.class-features.nL5TIp4uVHHqOx5n",
             },
             {
-              "_index": 9,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.S5SxrTHPALZSASue",
-              "img": "icons/svg/item-bag.svg",
               "level": 20,
               "name": "Wraith Form Mastery",
+              "uuid": "Compendium.pf1spheres.class-features.S5SxrTHPALZSASue",
             },
           ],
-        },
-        "range": {
-          "maxIncrements": 1,
         },
         "savingThrows": {
           "fort": {
@@ -631,11 +518,10 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         },
         "scriptCalls": [],
         "skillsPerLevel": 4,
-        "tag": "",
+        "subType": "base",
         "tags": [],
-        "useCustomTag": false,
+        "wealth": "",
         "weaponProf": {
-          "custom": "",
           "value": [],
         },
       },
@@ -644,15 +530,18 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
     {
       "_id": "pD1g3fIZ6n3xVIou",
       "_stats": {
-        "coreVersion": null,
-        "createdTime": null,
+        "coreVersion": "10.291",
+        "createdTime": 1663168899468,
         "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null,
+        "modifiedTime": 1689623925739,
+        "systemId": "pf1",
+        "systemVersion": "9.0",
       },
       "effects": [],
       "flags": {
+        "pf1": {
+          "migration": "10.0",
+        },
         "pf1spheres": {
           "casterProgression": "low",
         },
@@ -665,8 +554,8 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
       },
       "sort": 0,
       "system": {
+        "alignment": "",
         "armorProf": {
-          "custom": "",
           "value": [],
         },
         "bab": "high",
@@ -674,17 +563,17 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           "heavyArmorFullSpeed": false,
           "loseDexToAC": false,
           "mediumArmorFullSpeed": false,
-          "noEncumbrance": false,
+          "noHeavyEncumbrance": false,
+          "noMediumEncumbrance": false,
         },
         "changes": [
           {
-            "_id": "hRze1gQj",
+            "_id": "xSW2U9WL",
             "formula": "12",
-            "modifier": "untyped",
             "operator": "add",
             "priority": 0,
             "target": "spherebabAlchemy",
-            "value": 12,
+            "type": "untyped",
           },
         ],
         "classSkills": {
@@ -726,11 +615,9 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           "swm": true,
           "umd": false,
         },
-        "classType": "base",
         "contextNotes": [],
         "customHD": "",
         "description": {
-          "chat": "",
           "unidentified": "",
           "value": "The mageknight is a warrior who mixes magic and blade in the heat of combat. Unlike the armorist, who focuses on calling forth weapons, the mageknight prefers to enhance their weapons with a wide variety of magical tricks. Mageknights aren’t limited in their choice of sphere, so they tend to come up with unique combinations that suit their personal style.
 <p><strong>Role:</strong> The mageknight combines magic and martial power to become a powerful combatant.</p>
@@ -754,14 +641,12 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           },
         },
         "flags": {
-          "boolean": [],
-          "dictionary": [],
+          "boolean": {},
+          "dictionary": {},
         },
         "hd": 10,
         "hp": 8,
-        "identifiedName": "Mageknight",
         "languages": {
-          "custom": "",
           "value": [],
         },
         "level": 3,
@@ -769,117 +654,66 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           "children": [],
           "classAssociations": [
             {
-              "_index": 0,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.Qj9pCRPAsDUfSI8S",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Weapon and Armor Proficiency (Mageknight)",
+              "uuid": "Compendium.pf1spheres.class-features.Qj9pCRPAsDUfSI8S",
             },
             {
-              "_index": 1,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.LkYbWc2Ndz77BYDl",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Casting (Mageknight)",
+              "uuid": "Compendium.pf1spheres.class-features.LkYbWc2Ndz77BYDl",
             },
             {
-              "_index": 2,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.P0jaPmKH84zBS54A",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Spell Pool (Mageknight)",
+              "uuid": "Compendium.pf1spheres.class-features.P0jaPmKH84zBS54A",
             },
             {
-              "_index": 3,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.Zo2mGytkoRZ4zR6x",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Magic Talents (Mageknight)",
+              "uuid": "Compendium.pf1spheres.class-features.Zo2mGytkoRZ4zR6x",
             },
             {
-              "_index": 4,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.k52yj4Mx5Z8Ip4BI",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Resist Magic",
+              "uuid": "Compendium.pf1spheres.class-features.k52yj4Mx5Z8Ip4BI",
             },
             {
-              "_index": 5,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.ffgoUI04RocplIZx",
-              "img": "icons/svg/item-bag.svg",
               "level": 2,
               "name": "Mystic Combat",
+              "uuid": "Compendium.pf1spheres.class-features.ffgoUI04RocplIZx",
             },
             {
-              "_index": 6,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.fXHIKnUkoE3tYdRI",
-              "img": "icons/svg/item-bag.svg",
               "level": 3,
               "name": "Stalwart (Mageknight)",
+              "uuid": "Compendium.pf1spheres.class-features.fXHIKnUkoE3tYdRI",
             },
             {
-              "_index": 7,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.9ACiDLIIRijxRPbN",
-              "img": "icons/svg/item-bag.svg",
               "level": 7,
               "name": "Marked",
+              "uuid": "Compendium.pf1spheres.class-features.9ACiDLIIRijxRPbN",
             },
             {
-              "_index": 8,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.WA1aryYI2coAo27M",
-              "img": "icons/svg/item-bag.svg",
               "level": 11,
               "name": "Mystic Defense",
+              "uuid": "Compendium.pf1spheres.class-features.WA1aryYI2coAo27M",
             },
             {
-              "_index": 9,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.avK47Jl25gTbDMZi",
-              "img": "icons/svg/item-bag.svg",
               "level": 15,
               "name": "Draw Power",
+              "uuid": "Compendium.pf1spheres.class-features.avK47Jl25gTbDMZi",
             },
             {
-              "_index": 10,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.lPbWHom1Bjpw6gBJ",
-              "img": "icons/svg/item-bag.svg",
               "level": 19,
               "name": "Spell Critical",
+              "uuid": "Compendium.pf1spheres.class-features.lPbWHom1Bjpw6gBJ",
             },
             {
-              "_index": 11,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.yql3khNIFabx80xp",
-              "img": "icons/svg/item-bag.svg",
               "level": 20,
               "name": "Spellsword",
+              "uuid": "Compendium.pf1spheres.class-features.yql3khNIFabx80xp",
             },
           ],
-        },
-        "range": {
-          "maxIncrements": 1,
         },
         "savingThrows": {
           "fort": {
@@ -894,11 +728,10 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         },
         "scriptCalls": [],
         "skillsPerLevel": 4,
-        "tag": "",
+        "subType": "base",
         "tags": [],
-        "useCustomTag": false,
+        "wealth": "",
         "weaponProf": {
-          "custom": "",
           "value": [],
         },
       },
@@ -907,8 +740,9 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
   ],
   "name": "Spheres Tester",
   "prototypeToken": {
-    "actorLink": false,
+    "actorLink": true,
     "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp",
     },
@@ -918,7 +752,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
     "detectionModes": [],
     "displayBars": 0,
     "displayName": 0,
-    "disposition": -1,
+    "disposition": 1,
     "flags": {},
     "height": 1,
     "light": {
@@ -932,7 +766,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
       },
       "attenuation": 0.5,
       "bright": 0,
-      "color": null,
       "coloration": 1,
       "contrast": 0,
       "darkness": {
@@ -946,16 +779,16 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
     },
     "lockRotation": false,
     "name": "Spheres Tester",
+    "prependAdjective": false,
     "randomImg": false,
     "rotation": 0,
     "sight": {
       "angle": 360,
       "attenuation": 0.1,
       "brightness": 0,
-      "color": null,
       "contrast": 0,
       "enabled": true,
-      "range": null,
+      "range": 0,
       "saturation": 0,
       "visionMode": "basic",
     },
@@ -966,7 +799,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
       "scaleX": 1,
       "scaleY": 1,
       "src": "icons/svg/mystery-man.svg",
-      "tint": null,
     },
     "width": 1,
   },
@@ -1037,17 +869,11 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         "strAbility": "str",
       },
       "cmdNotes": "",
-      "conditions": {
-        "battered": true,
-      },
       "energyDrain": 0,
       "hp": {
-        "base": 0,
-        "max": 0,
         "nonlethal": 0,
         "offset": 0,
         "temp": 0,
-        "value": 0,
       },
       "hpAbility": "con",
       "init": {
@@ -1055,7 +881,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
         "value": 0,
       },
       "naturalAC": 0,
-      "quadruped": false,
+      "quadruped": null,
       "saveNotes": "",
       "savingThrows": {
         "fort": {
@@ -1108,6 +934,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
+            "inUse": false,
             "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
@@ -1161,7 +988,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
                 "preparedOffsetFormula": "",
               },
             },
-            "spontaneous": false,
           },
           "secondary": {
             "ability": "int",
@@ -1180,6 +1006,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
+            "inUse": false,
             "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
@@ -1233,7 +1060,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
                 "preparedOffsetFormula": "",
               },
             },
-            "spontaneous": false,
           },
           "spelllike": {
             "ability": "cha",
@@ -1252,6 +1078,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
+            "inUse": false,
             "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
@@ -1305,7 +1132,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
                 "preparedOffsetFormula": "",
               },
             },
-            "spontaneous": false,
           },
           "tertiary": {
             "ability": "int",
@@ -1324,6 +1150,7 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
+            "inUse": false,
             "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
@@ -1377,7 +1204,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
                 "preparedOffsetFormula": "",
               },
             },
-            "spontaneous": false,
           },
         },
       },
@@ -1387,18 +1213,12 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
       "srNotes": "",
       "vigor": {
         "base": 0,
-        "max": 0,
-        "min": 0,
         "offset": 0,
         "temp": 0,
-        "value": 0,
       },
       "wounds": {
         "base": 0,
-        "max": 0,
-        "min": 0,
         "offset": 0,
-        "value": 0,
       },
     },
     "currency": {
@@ -1407,7 +1227,6 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
       "pp": 0,
       "sp": 0,
     },
-    "customSkills": {},
     "details": {
       "age": "",
       "alignment": "tn",
@@ -1425,12 +1244,18 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
           "user": 0,
         },
       },
+      "cr": {
+        "base": 1,
+      },
       "deity": "",
       "gender": "",
       "height": "",
       "level": {
+        "max": 0,
+        "min": 0,
         "value": 0,
       },
+      "mythicTier": 0,
       "notes": {
         "value": "",
       },
@@ -1445,11 +1270,9 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
       },
       "weight": "",
       "xp": {
-        "max": 0,
         "value": 0,
       },
     },
-    "resources": {},
     "skills": {
       "acr": {
         "ability": "dex",
@@ -2217,27 +2040,33 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
     },
     "traits": {
       "armorProf": {
-        "custom": "",
+        "custom": [],
         "value": [],
       },
       "ci": {
-        "custom": "",
+        "custom": [],
         "value": [],
       },
       "cres": "",
       "di": {
+        "custom": [],
+        "value": [],
+      },
+      "dr": {
         "custom": "",
         "value": [],
       },
-      "dr": "",
       "dv": {
+        "custom": [],
+        "value": [],
+      },
+      "eres": {
         "custom": "",
         "value": [],
       },
-      "eres": "",
       "fastHealing": "",
       "languages": {
-        "custom": "",
+        "custom": [],
         "value": [],
       },
       "regen": "",
@@ -2253,16 +2082,16 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
             "dim": 2,
           },
         },
-        "sc": false,
+        "sc": 0,
         "si": false,
         "sid": false,
-        "tr": false,
+        "tr": 0,
         "ts": 0,
       },
       "size": "med",
       "stature": "tall",
       "weaponProf": {
-        "custom": "",
+        "custom": [],
         "value": [],
       },
     },
@@ -2274,25 +2103,29 @@ exports[`Actor base data preparation with fractional base bonuses > matches the 
 exports[`Actor base data preparation without fractional base bonuses > matches the snapshot 1`] = `
 {
   "_stats": {
-    "coreVersion": "10.283",
-    "createdTime": 1662296080108,
-    "lastModifiedBy": "2PRK3HPEmgl3vznl",
-    "modifiedTime": 1662296080108,
+    "coreVersion": "11.315",
+    "createdTime": 1718628822055,
+    "lastModifiedBy": "yOpyXOKJr12wUPHe",
+    "modifiedTime": 1718629055395,
     "systemId": "pf1",
-    "systemVersion": "0.82.1",
+    "systemVersion": "10.0",
   },
   "effects": [],
   "flags": {
     "exportSource": {
-      "coreVersion": "10.283",
+      "coreVersion": "11.315",
       "system": "pf1",
-      "systemVersion": "0.82.1",
+      "systemVersion": "10.0",
       "world": "pf1s",
+    },
+    "pf1": {
+      "migration": "10.0",
     },
     "pf1spheres": {
       "castingAbility": "int",
     },
   },
+  "folder": null,
   "img": "icons/svg/mystery-man.svg",
   "items": [
     {
@@ -2306,8 +2139,12 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         "systemVersion": null,
       },
       "effects": [],
-      "flags": {},
-      "folder": null,
+      "flags": {
+        "pf1": {
+          "migration": "10.0",
+        },
+      },
+      "folder": "RWSoA7Fj9yqo0y9U",
       "img": "systems/pf1/icons/races/human.jpg",
       "name": "Human",
       "ownership": {
@@ -2316,107 +2153,45 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
       "sort": 0,
       "system": {
         "armorProf": {
-          "custom": "",
+          "custom": [],
           "value": [],
         },
         "changeFlags": {
           "heavyArmorFullSpeed": false,
           "loseDexToAC": false,
           "mediumArmorFullSpeed": false,
-          "noEncumbrance": false,
+          "noHeavyEncumbrance": false,
+          "noMediumEncumbrance": false,
         },
         "changes": [
           {
             "_id": "ywxkp0hu",
             "formula": "1",
-            "modifier": "untyped",
             "operator": "add",
             "priority": 0,
-            "target": "misc",
-            "value": 0,
+            "target": "bonusFeats",
+            "type": "untyped",
           },
           {
             "_id": "ahb0k14u",
             "formula": "@attributes.hd.total",
-            "modifier": "untyped",
             "operator": "add",
             "priority": 0,
-            "target": "skills",
-            "value": 0,
+            "target": "bonusSkillRanks",
+            "type": "untyped",
           },
         ],
         "contextNotes": [],
         "creatureType": "humanoid",
         "description": {
-          "chat": "",
-          "unidentified": "",
-          "value": "<h2>Starting Age</h2>
-<table style=\\"border-spacing: 0px; background-color: #ffffff; margin: 10px; table-layout: fixed; border-color: #888888; min-width: 200px; color: #333333; font-family: Varela, sans-serif;\\" border=\\"1\\" cellpadding=\\"5\\">
-<thead style=\\"box-sizing: border-box; background-color: #cfe2f3;\\">
-<tr style=\\"box-sizing: border-box;\\">
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Adulthood</th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Intuitive<span style=\\"box-sizing: border-box; position: relative; font-size: 10px; line-height: 0; vertical-align: baseline; top: -0.5em;\\">1</span></th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Self-Taught<span style=\\"box-sizing: border-box; position: relative; font-size: 10px; line-height: 0; vertical-align: baseline; top: -0.5em;\\">2</span></th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Trained<span style=\\"box-sizing: border-box; position: relative; font-size: 10px; line-height: 0; vertical-align: baseline; top: -0.5em;\\">3</span></th>
-</tr>
-</thead>
-<tbody style=\\"box-sizing: border-box;\\">
-<tr style=\\"box-sizing: border-box;\\">
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">15 years</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+1d4 years<br style=\\"box-sizing: border-box;\\">(16 – 19 years)</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+1d6 years<br style=\\"box-sizing: border-box;\\">(16 – 21 years)</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+2d6 years<br style=\\"box-sizing: border-box;\\">(17 – 27 years)</td>
-</tr>
-</tbody>
-</table>
-<p><sup>1</sup>&nbsp;This category includes barbarians, oracles, rogues, and sorcerers.<br><sup>2</sup>&nbsp;This category includes bards, cavaliers, fighters, gunslingers, paladins, rangers, summoners, and witches.<br><sup>3</sup>&nbsp;This category includes alchemists, clerics, druids, inquisitors, magi, monks, and wizards.</p>
-<h2>Height and Weight</h2>
-<table style=\\"border-spacing: 0px; background-color: #ffffff; margin: 10px; table-layout: fixed; border-color: #888888; min-width: 200px; color: #333333; font-family: Varela, sans-serif;\\" border=\\"1\\" cellpadding=\\"5\\">
-<thead style=\\"box-sizing: border-box; background-color: #cfe2f3;\\">
-<tr style=\\"box-sizing: border-box;\\">
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Gender</th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Base Height</th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Height Modifier</th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Base Weight</th>
-<th class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; text-align: left; border: 1px solid #888888;\\">Weight Modifier</th>
-</tr>
-</thead>
-<tbody style=\\"box-sizing: border-box;\\">
-<tr style=\\"box-sizing: border-box;\\">
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">Male</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">4 ft. 10 in.</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+2d10 in.<br style=\\"box-sizing: border-box;\\">(5 ft – 6 ft. 6 in.)</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">120 lbs.</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+(2d10×5 lbs.)<br style=\\"box-sizing: border-box;\\">(130 – 220 lbs.)</td>
-</tr>
-<tr style=\\"box-sizing: border-box; background-color: #f3f3f3;\\">
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">Female</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">4 ft. 5 in.</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+2d10 in.<br style=\\"box-sizing: border-box;\\">(4 ft. 7 in. – 6 ft. 1 in.)</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">85 lbs.</td>
-<td class=\\"text\\" style=\\"box-sizing: border-box; padding: 2px; vertical-align: top; border: 1px solid #888888;\\">+(2d10×5 lbs.)<br style=\\"box-sizing: border-box;\\">(95 – 185 lbs.)</td>
-</tr>
-</tbody>
-</table>
-<h2>Standard Racial Traits</h2>
-<ul>
-<li><strong>Ability Score Modifiers</strong>: Human characters gain a +2&nbsp;<a href=\\"https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Racial-Bonus\\">racial bonus</a>&nbsp;to one ability score of their choice at creation to represent their varied nature.</li>
-<li><strong>Size</strong>: Humans are Medium creatures and thus receive no bonuses or penalties due to their size.</li>
-<li><strong>Base Speed</strong>: Humans have a base speed of 30 feet.</li>
-<li><strong>Languages</strong>: Humans begin play speaking Common. Humans with high&nbsp;<a href=\\"https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Intelligence-Int-\\">Intelligence</a>&nbsp;scores can choose any languages they want (except secret languages, such as Druidic). See the&nbsp;<a href=\\"https://www.d20pfsrd.com/skills/linguistics\\">Linguistics skill page</a>&nbsp;for more information about these languages.</li>
-</ul>
-<h3>Feat and Skill Racial Traits</h3>
-<ul>
-<li><strong>Bonus Feat</strong>: Humans select one extra feat at 1st level.</li>
-<li><strong>Skilled</strong>: Humans gain an additional skill rank at first level and one additional rank whenever they gain a level.</li>
-</ul>",
+          "value": "<h2>Starting Age</h2><table><thead><tr><th>Adulthood</th><th>Intuitive<sup>1</sup></th><th>Self-Taught<sup>2</sup></th><th>Trained<sup>3</sup></th></tr></thead><tbody><tr><td>15 years</td><td><p>+1d4 years<br />(16 – 19 years)</p></td><td><p>+1d6 years<br />(16 – 21 years)</p></td><td><p>+2d6 years<br />(17 – 27 years)</p></td></tr></tbody></table><p><sup>1</sup> This category includes barbarians, oracles, rogues, and sorcerers.<br /><sup>2</sup> This category includes bards, cavaliers, fighters, gunslingers, paladins, rangers, summoners, and witches.<br /><sup>3</sup> This category includes alchemists, clerics, druids, inquisitors, magi, monks, and wizards.</p><h2>Height and Weight</h2><table><thead><tr><th>Gender</th><th>Base Height</th><th>Height Modifier</th><th>Base Weight</th><th>Weight Modifier</th></tr></thead><tbody><tr><td>Male</td><td>4 ft. 10 in.</td><td><p>+2d10 in.<br />(5 ft – 6 ft. 6 in.)</p></td><td>120 lbs.</td><td><p>+(2d10×5 lbs.)<br />(130 – 220 lbs.)</p></td></tr><tr><td>Female</td><td>4 ft. 5 in.</td><td><p>+2d10 in.<br />(4 ft. 7 in. – 6 ft. 1 in.)</p></td><td>85 lbs.</td><td><p>+(2d10×5 lbs.)<br />(95 – 185 lbs.)</p></td></tr></tbody></table><h2>Standard Racial Traits</h2><ul><li><strong>Ability Score Modifiers</strong>: Human characters gain a +2 <em>racial bonus</em> to one ability score of their choice at creation to represent their varied nature.</li><li><strong>Type</strong>: Humans are <em>Humanoid</em> creatures with both the <em>human</em> subtypes.</li><li><strong>Size</strong>: Humans are Medium creatures and thus receive no bonuses or penalties due to their size.</li><li><strong>Base Speed</strong>: Humans have a base speed of 30 feet.</li><li><strong>Languages</strong>: Humans begin play speaking Common. Humans with high <em>Intelligence</em> scores can choose any languages they want (except secret languages, such as Druidic).</li></ul><h3>Feat and Skill Racial Traits</h3><ul><li><strong>Bonus Feat</strong>: Humans select one extra feat at 1st level.</li><li><strong>Skilled</strong>: Humans gain an additional skill rank at first level and one additional rank whenever they gain a level.</li></ul>",
         },
         "flags": {
-          "boolean": [],
-          "dictionary": [],
+          "boolean": {},
+          "dictionary": {},
         },
         "languages": {
-          "custom": "",
+          "custom": [],
           "value": [
             "common",
           ],
@@ -2426,14 +2201,32 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         },
         "scriptCalls": [],
         "size": "med",
-        "subTypes": [
-          [
-            "Human",
-          ],
+        "sources": [
+          {
+            "id": "PZO1110",
+            "pages": "27",
+          },
         ],
-        "tags": [],
+        "speeds": {
+          "burrow": null,
+          "climb": null,
+          "fly": null,
+          "flyManeuverability": "",
+          "land": 30,
+          "swim": null,
+        },
+        "subTypes": [
+          "Human",
+        ],
+        "tags": [
+          "Core",
+          "Western (Arcadia)",
+          "Eastern (Casmaron)",
+          "Northern (Crown of the World)",
+          "Southern (Garund)",
+        ],
         "weaponProf": {
-          "custom": "",
+          "custom": [],
           "value": [],
         },
       },
@@ -2442,15 +2235,18 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
     {
       "_id": "7htbt9LqiZbF0RTt",
       "_stats": {
-        "coreVersion": null,
-        "createdTime": null,
+        "coreVersion": "10.291",
+        "createdTime": 1663168899450,
         "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null,
+        "modifiedTime": 1689623925737,
+        "systemId": "pf1",
+        "systemVersion": "9.0",
       },
       "effects": [],
       "flags": {
+        "pf1": {
+          "migration": "10.0",
+        },
         "pf1spheres": {
           "casterProgression": "high",
         },
@@ -2463,8 +2259,8 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
       },
       "sort": 0,
       "system": {
+        "alignment": "",
         "armorProf": {
-          "custom": "",
           "value": [],
         },
         "bab": "low",
@@ -2472,17 +2268,17 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           "heavyArmorFullSpeed": false,
           "loseDexToAC": false,
           "mediumArmorFullSpeed": false,
-          "noEncumbrance": false,
+          "noHeavyEncumbrance": false,
+          "noMediumEncumbrance": false,
         },
         "changes": [
           {
-            "_id": "rElRZmLg",
+            "_id": "XCgSo8Qb",
             "formula": "1",
-            "modifier": "sphereCLCap",
             "operator": "add",
             "priority": 0,
             "target": "spherecl",
-            "value": 1,
+            "type": "sphereCLCap",
           },
         ],
         "classSkills": {
@@ -2524,7 +2320,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           "swm": false,
           "umd": false,
         },
-        "classType": "base",
         "contextNotes": [
           {
             "target": "msb",
@@ -2533,7 +2328,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         ],
         "customHD": "",
         "description": {
-          "chat": "",
           "unidentified": "",
           "value": "The incanter is among the purest forms of a caster, dedicated above all to expanding their knowledge of the magical arts. Their powers are almost entirely determined by their choice of sphere - whether they’re dabbling in everything or focusing their knowledge on a few areas, though, they’re a force to be reckoned with.
 <p><strong>Role:</strong> An incanter is a master of magical spheres, bending magic to their needs more fully than any other caster.</p>
@@ -2557,14 +2351,12 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           },
         },
         "flags": {
-          "boolean": [],
-          "dictionary": [],
+          "boolean": {},
+          "dictionary": {},
         },
         "hd": 6,
         "hp": 8,
-        "identifiedName": "Incanter",
         "languages": {
-          "custom": "",
           "value": [],
         },
         "level": 1,
@@ -2572,72 +2364,41 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           "children": [],
           "classAssociations": [
             {
-              "_index": 0,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.A9FAOo84kJtEZxyx",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Weapon and Armor Proficiency (Incanter)",
+              "uuid": "Compendium.pf1spheres.class-features.A9FAOo84kJtEZxyx",
             },
             {
-              "_index": 1,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.flMB9hKbsb8bRrI1",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Casting (Incanter)",
+              "uuid": "Compendium.pf1spheres.class-features.flMB9hKbsb8bRrI1",
             },
             {
-              "_index": 2,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.0JHCoqow5V8nzcw6",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Spell Pool (Incanter)",
+              "uuid": "Compendium.pf1spheres.class-features.0JHCoqow5V8nzcw6",
             },
             {
-              "_index": 3,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.nURFMMZjd7LyZfA0",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Magic Talents (Incanter)",
+              "uuid": "Compendium.pf1spheres.class-features.nURFMMZjd7LyZfA0",
             },
             {
-              "_index": 4,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.yMTwPUIZM4m3xvOT",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Bonus Feat (Incanter)",
+              "uuid": "Compendium.pf1spheres.class-features.yMTwPUIZM4m3xvOT",
             },
             {
-              "_index": 5,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.YrixbDQqY3kmdsTa",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Incanter Specializations",
+              "uuid": "Compendium.pf1spheres.class-features.YrixbDQqY3kmdsTa",
             },
             {
-              "_index": 6,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.7W1eLxdXzGzq9jLP",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "List of Sphere Specializations (Incanter)",
+              "uuid": "Compendium.pf1spheres.class-features.7W1eLxdXzGzq9jLP",
             },
           ],
-        },
-        "range": {
-          "maxIncrements": 1,
         },
         "savingThrows": {
           "fort": {
@@ -2652,11 +2413,10 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         },
         "scriptCalls": [],
         "skillsPerLevel": 4,
-        "tag": "",
+        "subType": "base",
         "tags": [],
-        "useCustomTag": false,
+        "wealth": "",
         "weaponProf": {
-          "custom": "",
           "value": [],
         },
       },
@@ -2665,15 +2425,18 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
     {
       "_id": "nP4sgDZSPB5RiZEs",
       "_stats": {
-        "coreVersion": null,
-        "createdTime": null,
+        "coreVersion": "10.291",
+        "createdTime": 1663168899465,
         "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null,
+        "modifiedTime": 1689623925739,
+        "systemId": "pf1",
+        "systemVersion": "9.0",
       },
       "effects": [],
       "flags": {
+        "pf1": {
+          "migration": "10.0",
+        },
         "pf1spheres": {
           "casterProgression": "mid",
         },
@@ -2686,8 +2449,8 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
       },
       "sort": 0,
       "system": {
+        "alignment": "",
         "armorProf": {
-          "custom": "",
           "value": [],
         },
         "bab": "med",
@@ -2695,17 +2458,17 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           "heavyArmorFullSpeed": false,
           "loseDexToAC": false,
           "mediumArmorFullSpeed": false,
-          "noEncumbrance": false,
+          "noHeavyEncumbrance": false,
+          "noMediumEncumbrance": false,
         },
         "changes": [
           {
-            "_id": "LNYMz79v",
+            "_id": "jGoVj190",
             "formula": "2",
-            "modifier": "untyped",
             "operator": "add",
             "priority": 0,
             "target": "sphereclDark",
-            "value": 2,
+            "type": "untyped",
           },
         ],
         "classSkills": {
@@ -2747,7 +2510,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           "swm": false,
           "umd": true,
         },
-        "classType": "base",
         "contextNotes": [
           {
             "target": "concentration",
@@ -2756,7 +2518,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         ],
         "customHD": "",
         "description": {
-          "chat": "",
           "unidentified": "",
           "value": "Emulating powerful and perilous creatures such as ghosts and shadow demons, wraiths gain the power to fade into the ether. A diverse group, each wraith is attuned to certain types of creatures or states of mind. This attunement can be exploited to seize control, turning foes into puppets. Some gain their talents from exposure to possessing entities, others obtain their power as part of returning from death themselves, or via other, more esoteric, paths.
 <p><strong>Role:</strong> Eerie casters able to slip out of phase with reality and leap into susceptible minds, seizing control, making them perfect for infiltration and espionage.</p>
@@ -2780,14 +2541,12 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           },
         },
         "flags": {
-          "boolean": [],
-          "dictionary": [],
+          "boolean": {},
+          "dictionary": {},
         },
         "hd": 8,
         "hp": 8,
-        "identifiedName": "Wraith",
         "languages": {
-          "custom": "",
           "value": [],
         },
         "level": 2,
@@ -2795,99 +2554,56 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           "children": [],
           "classAssociations": [
             {
-              "_index": 0,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.wu8LKUnWbIOEfOz5",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Weapon and Armor Proficiencies",
+              "uuid": "Compendium.pf1spheres.class-features.wu8LKUnWbIOEfOz5",
             },
             {
-              "_index": 1,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.qjxhDJ6DHrQdMmxO",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Casting (Wraith)",
+              "uuid": "Compendium.pf1spheres.class-features.qjxhDJ6DHrQdMmxO",
             },
             {
-              "_index": 2,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.CCO6fnN9lnTRPeus",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Spell Pool (Wraith)",
+              "uuid": "Compendium.pf1spheres.class-features.CCO6fnN9lnTRPeus",
             },
             {
-              "_index": 3,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.qobC1BfGt3IZxVGJ",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Magic Talents (Wraith)",
+              "uuid": "Compendium.pf1spheres.class-features.qobC1BfGt3IZxVGJ",
             },
             {
-              "_index": 4,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.Rre7ofzGROCWag3d",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Haunt Path",
+              "uuid": "Compendium.pf1spheres.class-features.Rre7ofzGROCWag3d",
             },
             {
-              "_index": 5,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.S5SxrTHPALZSASue",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Wraith Form Mastery",
+              "uuid": "Compendium.pf1spheres.class-features.S5SxrTHPALZSASue",
             },
             {
-              "_index": 6,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.jD36VABy9AbiyHrz",
-              "img": "icons/svg/item-bag.svg",
               "level": 2,
               "name": "Possession",
+              "uuid": "Compendium.pf1spheres.class-features.jD36VABy9AbiyHrz",
             },
             {
-              "_index": 7,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.Fp75YxemiGRqXZBV",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Wraith Haunts",
+              "uuid": "Compendium.pf1spheres.class-features.Fp75YxemiGRqXZBV",
             },
             {
-              "_index": 8,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.nL5TIp4uVHHqOx5n",
-              "img": "icons/svg/item-bag.svg",
               "level": 10,
               "name": "Greater Possession",
+              "uuid": "Compendium.pf1spheres.class-features.nL5TIp4uVHHqOx5n",
             },
             {
-              "_index": 9,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.S5SxrTHPALZSASue",
-              "img": "icons/svg/item-bag.svg",
               "level": 20,
               "name": "Wraith Form Mastery",
+              "uuid": "Compendium.pf1spheres.class-features.S5SxrTHPALZSASue",
             },
           ],
-        },
-        "range": {
-          "maxIncrements": 1,
         },
         "savingThrows": {
           "fort": {
@@ -2902,11 +2618,10 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         },
         "scriptCalls": [],
         "skillsPerLevel": 4,
-        "tag": "",
+        "subType": "base",
         "tags": [],
-        "useCustomTag": false,
+        "wealth": "",
         "weaponProf": {
-          "custom": "",
           "value": [],
         },
       },
@@ -2915,15 +2630,18 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
     {
       "_id": "pD1g3fIZ6n3xVIou",
       "_stats": {
-        "coreVersion": null,
-        "createdTime": null,
+        "coreVersion": "10.291",
+        "createdTime": 1663168899468,
         "lastModifiedBy": null,
-        "modifiedTime": null,
-        "systemId": null,
-        "systemVersion": null,
+        "modifiedTime": 1689623925739,
+        "systemId": "pf1",
+        "systemVersion": "9.0",
       },
       "effects": [],
       "flags": {
+        "pf1": {
+          "migration": "10.0",
+        },
         "pf1spheres": {
           "casterProgression": "low",
         },
@@ -2936,8 +2654,8 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
       },
       "sort": 0,
       "system": {
+        "alignment": "",
         "armorProf": {
-          "custom": "",
           "value": [],
         },
         "bab": "high",
@@ -2945,17 +2663,17 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           "heavyArmorFullSpeed": false,
           "loseDexToAC": false,
           "mediumArmorFullSpeed": false,
-          "noEncumbrance": false,
+          "noHeavyEncumbrance": false,
+          "noMediumEncumbrance": false,
         },
         "changes": [
           {
-            "_id": "hRze1gQj",
+            "_id": "xSW2U9WL",
             "formula": "12",
-            "modifier": "untyped",
             "operator": "add",
             "priority": 0,
             "target": "spherebabAlchemy",
-            "value": 12,
+            "type": "untyped",
           },
         ],
         "classSkills": {
@@ -2997,11 +2715,9 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           "swm": true,
           "umd": false,
         },
-        "classType": "base",
         "contextNotes": [],
         "customHD": "",
         "description": {
-          "chat": "",
           "unidentified": "",
           "value": "The mageknight is a warrior who mixes magic and blade in the heat of combat. Unlike the armorist, who focuses on calling forth weapons, the mageknight prefers to enhance their weapons with a wide variety of magical tricks. Mageknights aren’t limited in their choice of sphere, so they tend to come up with unique combinations that suit their personal style.
 <p><strong>Role:</strong> The mageknight combines magic and martial power to become a powerful combatant.</p>
@@ -3025,14 +2741,12 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           },
         },
         "flags": {
-          "boolean": [],
-          "dictionary": [],
+          "boolean": {},
+          "dictionary": {},
         },
         "hd": 10,
         "hp": 8,
-        "identifiedName": "Mageknight",
         "languages": {
-          "custom": "",
           "value": [],
         },
         "level": 3,
@@ -3040,117 +2754,66 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           "children": [],
           "classAssociations": [
             {
-              "_index": 0,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.Qj9pCRPAsDUfSI8S",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Weapon and Armor Proficiency (Mageknight)",
+              "uuid": "Compendium.pf1spheres.class-features.Qj9pCRPAsDUfSI8S",
             },
             {
-              "_index": 1,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.LkYbWc2Ndz77BYDl",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Casting (Mageknight)",
+              "uuid": "Compendium.pf1spheres.class-features.LkYbWc2Ndz77BYDl",
             },
             {
-              "_index": 2,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.P0jaPmKH84zBS54A",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Spell Pool (Mageknight)",
+              "uuid": "Compendium.pf1spheres.class-features.P0jaPmKH84zBS54A",
             },
             {
-              "_index": 3,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.Zo2mGytkoRZ4zR6x",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Magic Talents (Mageknight)",
+              "uuid": "Compendium.pf1spheres.class-features.Zo2mGytkoRZ4zR6x",
             },
             {
-              "_index": 4,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.k52yj4Mx5Z8Ip4BI",
-              "img": "icons/svg/item-bag.svg",
               "level": 1,
               "name": "Resist Magic",
+              "uuid": "Compendium.pf1spheres.class-features.k52yj4Mx5Z8Ip4BI",
             },
             {
-              "_index": 5,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.ffgoUI04RocplIZx",
-              "img": "icons/svg/item-bag.svg",
               "level": 2,
               "name": "Mystic Combat",
+              "uuid": "Compendium.pf1spheres.class-features.ffgoUI04RocplIZx",
             },
             {
-              "_index": 6,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.fXHIKnUkoE3tYdRI",
-              "img": "icons/svg/item-bag.svg",
               "level": 3,
               "name": "Stalwart (Mageknight)",
+              "uuid": "Compendium.pf1spheres.class-features.fXHIKnUkoE3tYdRI",
             },
             {
-              "_index": 7,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.9ACiDLIIRijxRPbN",
-              "img": "icons/svg/item-bag.svg",
               "level": 7,
               "name": "Marked",
+              "uuid": "Compendium.pf1spheres.class-features.9ACiDLIIRijxRPbN",
             },
             {
-              "_index": 8,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.WA1aryYI2coAo27M",
-              "img": "icons/svg/item-bag.svg",
               "level": 11,
               "name": "Mystic Defense",
+              "uuid": "Compendium.pf1spheres.class-features.WA1aryYI2coAo27M",
             },
             {
-              "_index": 9,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.avK47Jl25gTbDMZi",
-              "img": "icons/svg/item-bag.svg",
               "level": 15,
               "name": "Draw Power",
+              "uuid": "Compendium.pf1spheres.class-features.avK47Jl25gTbDMZi",
             },
             {
-              "_index": 10,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.lPbWHom1Bjpw6gBJ",
-              "img": "icons/svg/item-bag.svg",
               "level": 19,
               "name": "Spell Critical",
+              "uuid": "Compendium.pf1spheres.class-features.lPbWHom1Bjpw6gBJ",
             },
             {
-              "_index": 11,
-              "dataType": "compendium",
-              "hiddenLinks": {},
-              "id": "pf1spheres.class-features.yql3khNIFabx80xp",
-              "img": "icons/svg/item-bag.svg",
               "level": 20,
               "name": "Spellsword",
+              "uuid": "Compendium.pf1spheres.class-features.yql3khNIFabx80xp",
             },
           ],
-        },
-        "range": {
-          "maxIncrements": 1,
         },
         "savingThrows": {
           "fort": {
@@ -3165,11 +2828,10 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         },
         "scriptCalls": [],
         "skillsPerLevel": 4,
-        "tag": "",
+        "subType": "base",
         "tags": [],
-        "useCustomTag": false,
+        "wealth": "",
         "weaponProf": {
-          "custom": "",
           "value": [],
         },
       },
@@ -3178,8 +2840,9 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
   ],
   "name": "Spheres Tester",
   "prototypeToken": {
-    "actorLink": false,
+    "actorLink": true,
     "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp",
     },
@@ -3189,7 +2852,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
     "detectionModes": [],
     "displayBars": 0,
     "displayName": 0,
-    "disposition": -1,
+    "disposition": 1,
     "flags": {},
     "height": 1,
     "light": {
@@ -3203,7 +2866,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
       },
       "attenuation": 0.5,
       "bright": 0,
-      "color": null,
       "coloration": 1,
       "contrast": 0,
       "darkness": {
@@ -3217,16 +2879,16 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
     },
     "lockRotation": false,
     "name": "Spheres Tester",
+    "prependAdjective": false,
     "randomImg": false,
     "rotation": 0,
     "sight": {
       "angle": 360,
       "attenuation": 0.1,
       "brightness": 0,
-      "color": null,
       "contrast": 0,
       "enabled": true,
-      "range": null,
+      "range": 0,
       "saturation": 0,
       "visionMode": "basic",
     },
@@ -3237,7 +2899,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
       "scaleX": 1,
       "scaleY": 1,
       "src": "icons/svg/mystery-man.svg",
-      "tint": null,
     },
     "width": 1,
   },
@@ -3308,17 +2969,11 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         "strAbility": "str",
       },
       "cmdNotes": "",
-      "conditions": {
-        "battered": true,
-      },
       "energyDrain": 0,
       "hp": {
-        "base": 0,
-        "max": 0,
         "nonlethal": 0,
         "offset": 0,
         "temp": 0,
-        "value": 0,
       },
       "hpAbility": "con",
       "init": {
@@ -3326,7 +2981,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
         "value": 0,
       },
       "naturalAC": 0,
-      "quadruped": false,
+      "quadruped": null,
       "saveNotes": "",
       "savingThrows": {
         "fort": {
@@ -3379,6 +3034,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
+            "inUse": false,
             "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
@@ -3432,7 +3088,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
                 "preparedOffsetFormula": "",
               },
             },
-            "spontaneous": false,
           },
           "secondary": {
             "ability": "int",
@@ -3451,6 +3106,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
+            "inUse": false,
             "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
@@ -3504,7 +3160,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
                 "preparedOffsetFormula": "",
               },
             },
-            "spontaneous": false,
           },
           "spelllike": {
             "ability": "cha",
@@ -3523,6 +3178,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
+            "inUse": false,
             "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
@@ -3576,7 +3232,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
                 "preparedOffsetFormula": "",
               },
             },
-            "spontaneous": false,
           },
           "tertiary": {
             "ability": "int",
@@ -3595,6 +3250,7 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
             "concentrationNotes": "",
             "domainSlotValue": 1,
             "hasCantrips": true,
+            "inUse": false,
             "name": "",
             "preparedAllOffsetFormula": "",
             "psychic": false,
@@ -3648,7 +3304,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
                 "preparedOffsetFormula": "",
               },
             },
-            "spontaneous": false,
           },
         },
       },
@@ -3658,18 +3313,12 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
       "srNotes": "",
       "vigor": {
         "base": 0,
-        "max": 0,
-        "min": 0,
         "offset": 0,
         "temp": 0,
-        "value": 0,
       },
       "wounds": {
         "base": 0,
-        "max": 0,
-        "min": 0,
         "offset": 0,
-        "value": 0,
       },
     },
     "currency": {
@@ -3678,7 +3327,6 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
       "pp": 0,
       "sp": 0,
     },
-    "customSkills": {},
     "details": {
       "age": "",
       "alignment": "tn",
@@ -3696,12 +3344,18 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
           "user": 0,
         },
       },
+      "cr": {
+        "base": 1,
+      },
       "deity": "",
       "gender": "",
       "height": "",
       "level": {
+        "max": 0,
+        "min": 0,
         "value": 0,
       },
+      "mythicTier": 0,
       "notes": {
         "value": "",
       },
@@ -3716,11 +3370,9 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
       },
       "weight": "",
       "xp": {
-        "max": 0,
         "value": 0,
       },
     },
-    "resources": {},
     "skills": {
       "acr": {
         "ability": "dex",
@@ -4488,27 +4140,33 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
     },
     "traits": {
       "armorProf": {
-        "custom": "",
+        "custom": [],
         "value": [],
       },
       "ci": {
-        "custom": "",
+        "custom": [],
         "value": [],
       },
       "cres": "",
       "di": {
+        "custom": [],
+        "value": [],
+      },
+      "dr": {
         "custom": "",
         "value": [],
       },
-      "dr": "",
       "dv": {
+        "custom": [],
+        "value": [],
+      },
+      "eres": {
         "custom": "",
         "value": [],
       },
-      "eres": "",
       "fastHealing": "",
       "languages": {
-        "custom": "",
+        "custom": [],
         "value": [],
       },
       "regen": "",
@@ -4524,16 +4182,16 @@ exports[`Actor base data preparation without fractional base bonuses > matches t
             "dim": 2,
           },
         },
-        "sc": false,
+        "sc": 0,
         "si": false,
         "sid": false,
-        "tr": false,
+        "tr": 0,
         "ts": 0,
       },
       "size": "med",
       "stature": "tall",
       "weaponProf": {
-        "custom": "",
+        "custom": [],
         "value": [],
       },
     },

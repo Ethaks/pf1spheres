@@ -31,26 +31,19 @@ describe("Actor snapshot data", () => {
   const actor = getFakeActor();
 
   test("Actor has a class for each caster progression", () => {
-    expect(actor.toObject().items).toContainEqual(
-      expect.objectContaining({
-        name: "Mageknight",
-        type: "class",
-        flags: { pf1spheres: { casterProgression: "low" } },
-      }),
-    );
-    expect(actor.toObject().items).toContainEqual(
-      expect.objectContaining({
-        name: "Wraith",
-        type: "class",
-        flags: { pf1spheres: { casterProgression: "mid" } },
-      }),
-    );
-    expect(actor.toObject().items).toContainEqual(
-      expect.objectContaining({
-        name: "Incanter",
-        type: "class",
-        flags: { pf1spheres: { casterProgression: "high" } },
-      }),
+    const items = actor.toObject().items;
+    const classItemsWithLevel = items
+      .filter((item) => item.type === "class" && item.flags?.pf1spheres?.casterProgression)
+      .map((item) => ({
+        name: item.name,
+        casterProgression: item.flags.pf1spheres?.casterProgression,
+      }));
+    expect(classItemsWithLevel).toEqual(
+      expect.arrayContaining([
+        { name: "Mageknight", casterProgression: "low" },
+        { name: "Wraith", casterProgression: "mid" },
+        { name: "Incanter", casterProgression: "high" },
+      ]),
     );
   });
 });
