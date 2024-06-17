@@ -46,13 +46,13 @@ export declare class ActorPF extends Actor {
   getRollData(): RollData;
 
   /** All active Items with Context Notes */
-  get allNotes(): Array<{
+  get allNotes(): {
     item: ItemPF;
-    notes: Array<{ text: string; target: keyof typeof CONFIG.PF1.contextNoteTargets }>;
-  }>;
+    notes: { text: string; target: keyof typeof CONFIG.PF1.contextNoteTargets }[];
+  }[];
 
   formatContextNotes(
-    notes: Array<{ item: Item; notes: string[] }>,
+    notes: { item: Item; notes: string[] }[],
     rollData: RollData,
     options?: { roll: boolean },
   ): string[];
@@ -96,11 +96,11 @@ interface PF1BasicActorData {
   system: Record<string, never>;
 }
 
-export type PF1ActorDataSource = {
+export interface PF1ActorDataSource {
   type: "character" | "npc";
   // TODO: v10 hack, check with updated types
   system: PF1ActorDataSourceData;
-};
+}
 
 export interface PF1ActorDataSourceData {
   abilities: AbilitiesSourceData;
@@ -122,11 +122,11 @@ interface AbilitySourceData {
 
 /* PF1 Prepared Data */
 
-export type PF1ActorDataProperties = {
+export interface PF1ActorDataProperties {
   type: "character" | "npc";
   // TODO: v10 hack, check with updated types
   system: PF1ActorDataPropertiesData;
-};
+}
 
 export interface PF1ActorDataPropertiesData extends PF1ActorDataSourceData {
   /** An actor's attributes data (containing most of all data) after preparation */

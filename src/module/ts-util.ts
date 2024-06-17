@@ -18,7 +18,7 @@ type Primitive = string | number | bigint | boolean | undefined | symbol;
  * Paths are given in dot notations as `data.some.property`
  */
 export type SafePropPath<T, Prefix = ""> = {
-  [K in keyof T]: T[K] extends Primitive | Array<unknown>
+  [K in keyof T]: T[K] extends Primitive | unknown[]
     ? `${string & Prefix}${string & K}`
     : `${string & Prefix}${string & K}` | SafePropPath<T[K], `${string & Prefix}${string & K}.`>;
 }[keyof T];
@@ -28,7 +28,7 @@ export type SafePropPath<T, Prefix = ""> = {
  * Paths are given in dot notations as `data.some.property`
  */
 export type PropPath<T, Prefix = ""> = {
-  [K in keyof T]-?: T[K] extends Primitive | Array<unknown>
+  [K in keyof T]-?: T[K] extends Primitive | unknown[]
     ? `${string & Prefix}${string & K}`
     :
         | `${string & Prefix}${string & K}`

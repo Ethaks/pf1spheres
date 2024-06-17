@@ -84,6 +84,7 @@ function sanitizePackEntry(entry) {
 
   // Remove non-system/non-core flags
   for (const key of Object.keys(entry.flags)) {
+    // eslint-disable-next-line @typescript-eslint/no-dynamic-delete -- wanton deletion is desired here
     if (!["pf1", "core", "pf1spheres"].includes(key)) delete entry.flags[key];
   }
   return entry;

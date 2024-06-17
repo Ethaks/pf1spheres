@@ -8,6 +8,7 @@ import type { ActorDataProperties } from "@league-of-foundry-developers/foundry-
 import type { ChatSpeakerDataProperties } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/chatSpeakerData";
 import type { RollData } from "./item-data";
 
+// eslint-disable-next-line @typescript-eslint/no-extraneous-class
 export declare class DicePF {
   static d20Roll(options: DicePFD20RollOptions): Promise<ChatMessage | Roll>;
 }

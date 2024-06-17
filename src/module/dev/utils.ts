@@ -10,6 +10,7 @@ import type { ItemChangeCreateData } from "../item-data";
 import { enforce, getGame } from "../util";
 
 export interface DevUtils {
+  // eslint-disable-next-line @typescript-eslint/no-invalid-void-type
   createTestActor: () => Promise<undefined | void | ActorPF>;
   fetchPackEntryData: typeof fetchPackEntryData;
 }

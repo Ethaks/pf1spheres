@@ -14,7 +14,7 @@ import testActor from "../test-actor.json";
 export class FakeActor {
   sourceInfo = {};
   sourceDetails = {};
-  items: FakeCollection<ItemPF> = new FakeCollection();
+  items = new FakeCollection<ItemPF>();
   _data: ActorDataSource;
   constructor(data: ActorDataSource) {
     this._data = JSON.parse(JSON.stringify(data));

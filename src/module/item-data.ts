@@ -124,8 +124,8 @@ interface PF1ClassDataSourceData
   savingThrows: Record<SaveType, { value: "high" | "low" }>;
   classSkills: Record<string, boolean>;
   skillsPerLevel: number;
-  armorProf: { value: Array<keyof typeof CONFIG.PF1.armorProficiencies>; custom: string };
-  weaponProf: { value: Array<keyof typeof CONFIG.PF1.weaponProficiencies>; custom: string };
+  armorProf: { value: (keyof typeof CONFIG.PF1.armorProficiencies)[]; custom: string };
+  weaponProf: { value: (keyof typeof CONFIG.PF1.weaponProficiencies)[]; custom: string };
 }
 
 export type CasterProgression = keyof typeof pf1s.config.progression | "";
@@ -229,9 +229,9 @@ interface ItemChangeCreateContext {
 }
 
 // TODO: This type can be refined a bit even without typing the PF1 system
-export type RollData = {
+export interface RollData {
   [key: string]: string | number | RollData;
-};
+}
 
 export type SourceDetails = {
   [Key in ActorDataPath]: SourceEntry[];

@@ -12,7 +12,8 @@ import globals from "globals";
 export default teslint.config(
   { ignores: ["dist/", "docs/", "src/pf1spheres.js"] },
   eslint.configs.recommended,
-  ...teslint.configs.recommended,
+  ...teslint.configs.strict,
+  ...teslint.configs.stylistic,
   prettierConfig,
   {
     rules: {

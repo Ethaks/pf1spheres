@@ -82,6 +82,7 @@ declare global {
  *  - {@link ChatMessageDataSource} if the roll was executed, and `chatMessage` is `false`
  *  - `void` if the roll was not executed
  */
+// eslint-disable-next-line @typescript-eslint/no-invalid-void-type
 export type ActorRollResult = ChatMessage | ChatMessageDataSource | void;
 
 /**
@@ -228,5 +229,5 @@ type SpheresFormulaPaths = {
  * @spheres.msb.total
  * ```
  */
-interface SpheresRollDataPaths extends ExpandRecursively<SpheresFormulaPaths> {}
+type SpheresRollDataPaths = ExpandRecursively<SpheresFormulaPaths>;
 export { SpheresRollDataPaths };

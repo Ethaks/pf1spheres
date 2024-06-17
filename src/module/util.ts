@@ -104,7 +104,7 @@ interface CreateNodeOptions {
    */
   html?: string;
   /* Additional children */
-  children?: string | HTMLElement | Array<string | HTMLElement>;
+  children?: string | HTMLElement | (string | HTMLElement)[];
   baseNode?: HTMLElement | undefined;
 }
 

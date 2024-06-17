@@ -9,9 +9,11 @@ import type { ActorPF } from "../src/module/actor-data";
 import { getFakeActor } from "./fakes/fake-actor";
 
 beforeAll(() => {
+  // eslint-disable-next-line @typescript-eslint/no-extraneous-class
   vi.stubGlobal("MouseEvent", class {});
   vi.stubGlobal(
     "ChatMessage",
+    // eslint-disable-next-line @typescript-eslint/no-extraneous-class
     class {
       static getSpeaker() {
         return {};

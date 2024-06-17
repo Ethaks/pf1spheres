@@ -114,7 +114,7 @@ export interface PF1CONFIG {
       string,
       {
         label: LocalizationKey;
-        filters: Array<{ type?: string; subTypes?: string[] }>;
+        filters: { type?: string; subTypes?: string[] }[];
         interface: { create?: boolean; actions?: boolean; types?: boolean };
         create?: DeepPartial<PF1ItemDataSource>;
         sort?: number;

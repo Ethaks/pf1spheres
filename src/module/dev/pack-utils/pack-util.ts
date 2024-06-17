@@ -230,7 +230,7 @@ export const deduplicateData =
         }
         return acc;
       },
-      {} as Record<string, Array<{ item: T; dedupeData: DeduplicationData }>>,
+      {} as Record<string, { item: T; dedupeData: DeduplicationData }[]>,
     );
 
     // Save dupes for logging

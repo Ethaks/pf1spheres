@@ -59,7 +59,7 @@ declare global {
     dice: {
       d20Roll: (
         options: D20ActorRollOptions,
-      ) => Promise<ChatMessage | ChatMessage["data"]["_source"] | void>;
+      ) => Promise<ChatMessage | ChatMessage["data"]["_source"] | undefined>;
     };
     registry: {
       Registry: typeof Registry;
@@ -92,8 +92,8 @@ declare global {
 type ObjectKeys<T> = T extends object
   ? (keyof T)[]
   : T extends number
-  ? []
-  : /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-  T extends Array<any> | string
-  ? string[]
-  : never;
+    ? []
+    : /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+      T extends any[] | string
+      ? string[]
+      : never;
