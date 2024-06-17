@@ -33,6 +33,7 @@ if (import.meta.hot) {
 
 // API
 import * as PF1S from "./config";
+import { registerSphereFilter } from "./compendium-browser";
 
 export { PF1S as config };
 
@@ -103,6 +104,8 @@ Hooks.once("init", () => {
 
   // Register changes
   registerChanges();
+
+  registerSphereFilter();
 
   pf1.config.sheetSections.features.magicTalent = {
     label: "PF1SPHERES.MagicTalentPlural",

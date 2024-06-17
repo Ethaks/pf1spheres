@@ -11,6 +11,7 @@ import type * as PF1S from "./module/config";
 import type { ItemChange, RollData, SourceEntry, SourceInfo, Sphere } from "./module/item-data";
 import type { FromEntriesWithReadOnly } from "./module/ts-util";
 import type { D20ActorRollOptions } from "./pf1-types/d20roll";
+import type { CompendiumBrowser, BaseFilter, CheckboxFilter } from "./module/compendium-browser";
 
 export {};
 
@@ -49,6 +50,13 @@ declare global {
       };
     };
     applications: {
+      compendiumBrowser: {
+        filters: {
+          BaseFilter: typeof BaseFilter;
+          CheckboxFilter: typeof CheckboxFilter;
+        };
+        FeatBrowser: typeof CompendiumBrowser;
+      };
       actor: {
         ActorSheetPF: typeof ActorSheetPF;
       };
