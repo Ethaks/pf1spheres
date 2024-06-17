@@ -6,7 +6,7 @@
 
 import type { ItemDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/itemData";
 import type { ItemPF, PF1ClassDataSource, SaveType } from "../../item-data";
-import { getAllSpheres, getSphereType } from "../../item-util";
+import { getAllSpheres, getSphereConfig, getSphereType } from "../../item-util";
 import { getGame } from "../../util";
 import { importData } from "./pack-util";
 import type { BasePackConfig, DataImportOptions, DeduplicationData } from "./pack-util-data";
@@ -71,13 +71,12 @@ function getTalentData(entry: RawTalentData): DeepPartial<ItemDataSource> | unde
   const talentType = getSphereType(entry.sphere);
   if (talentType === undefined) return undefined;
 
+  const sphereData = getSphereConfig(entry.sphere);
+
   return {
     name: entry.name,
     type: "feat",
-    img:
-      entry.sphere in pf1s.config.sphereIcons
-        ? pf1s.config.sphereIcons[entry.sphere as keyof typeof pf1s.config.sphereIcons]
-        : undefined,
+    img: sphereData.icon || undefined,
     system: {
       featType: `${talentType}Talent`,
       description: { value: entry.text },

@@ -31,7 +31,7 @@ export const registerChanges = (): void => {
   Object.entries(pf1s.config.magicSpheres).forEach(([sphere, value], index) => {
     const key = `spherecl${(sphere as MagicSphere).capitalize()}`;
     CONFIG.PF1.buffTargets[key] = {
-      label: value,
+      label: value.label,
       category: "sphereCasterLevel",
       sort: baseSort + 100 + index * 5,
     };
@@ -40,7 +40,7 @@ export const registerChanges = (): void => {
   // Register sphere specific BAB change targets
   Object.entries(pf1s.config.combatSpheres).forEach(([sphere, value], index) => {
     CONFIG.PF1.buffTargets[`spherebab${(sphere as CombatSphere).capitalize()}`] = {
-      label: value,
+      label: value.label,
       category: "sphereBAB",
       sort: baseSort + 300 + index * 5,
     };

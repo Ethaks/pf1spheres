@@ -164,13 +164,11 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
   const sphereCLs = Object.keys(pf1s.config.magicSpheres).map(
     (sphere): SphereData => ({
       sphere,
-      label: pf1s.config.magicSpheres[sphere],
+      label: pf1s.config.magicSpheres[sphere].label,
       levelLabel: levelLabels.magic,
       total: spheres.cl[sphere].total ?? 0,
       path: `@spheres.cl.${sphere}.total`,
-      icon:
-        pf1s.config.sphereIcons[sphere as keyof typeof pf1s.config.sphereIcons] ??
-        CONFIG.Item.documentClass.DEFAULT_ICON,
+      icon: pf1s.config.magicSpheres[sphere].icon || CONFIG.Item.documentClass.DEFAULT_ICON,
       talents: ownedTalents[sphere] ?? [],
       talentCounts: spheres.talents[sphere],
       hasTalents: Boolean(ownedTalents[sphere]?.length),
@@ -181,11 +179,11 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
   const sphereBabs = Object.keys(pf1s.config.combatSpheres).map(
     (sphere): SphereData => ({
       sphere,
-      label: pf1s.config.combatSpheres[sphere],
+      label: pf1s.config.combatSpheres[sphere].label,
       levelLabel: levelLabels.combat,
       total: actor.system.spheres?.bab[sphere].total ?? 0,
       path: `@spheres.bab.${sphere}.total`,
-      icon: pf1s.config.sphereIcons[sphere],
+      icon: pf1s.config.combatSpheres[sphere].icon || CONFIG.Item.documentClass.DEFAULT_ICON,
       talents: ownedTalents[sphere] ?? [],
       talentCounts: spheres.talents[sphere],
       hasTalents: Boolean(ownedTalents[sphere]?.length),

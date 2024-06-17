@@ -6,7 +6,7 @@
 
 import type { JournalEntryDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/journalEntryData";
 import type { Sphere } from "../../item-data";
-import { getAllSpheres, getSphereType } from "../../item-util";
+import { getAllSpheres, getSphereConfig, getSphereType } from "../../item-util";
 import { getGame } from "../../util";
 import { isBannedTalent } from "./items";
 import { importData } from "./pack-util";
@@ -43,9 +43,8 @@ const getSphereJournalDataWithContext =
   (entry: RawSphereJournalData): DeepPartial<JournalEntryDataSource> => {
     const { name: sphere, text, toc } = entry;
     const name = getAllSpheres()[sphere];
-    const icon =
-      pf1s.config.sphereIcons[sphere as keyof typeof pf1s.config.sphereIcons] ??
-      foundry.data.ItemData.DEFAULT_ICON;
+    const sphereData = getSphereConfig(sphere);
+    const icon = sphereData.icon || CONFIG.Item.documentClass.DEFAULT_ICON;
 
     const cleanToc = toc.replace(stripTocRegex, "");
 
