@@ -119,16 +119,19 @@ export const pushLevelSources = (
       pushPSourceInfo("system.spheres.msb.base", {
         value: data.baseLevel ?? 0,
         name: data.name,
+        type: "untyped",
       });
       pushPSourceInfo("system.spheres.msd.base", {
         value: data.baseLevel ?? 0,
         name: data.name,
+        type: "untyped",
       });
     }
     if (data.clPart > 0) {
       pushPSourceInfo("system.spheres.cl.base", {
         value: data.clPart,
         name: data.name,
+        type: "untyped",
       });
     }
     return data;

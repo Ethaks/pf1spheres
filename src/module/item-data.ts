@@ -247,6 +247,7 @@ export interface SourceInfoEntry {
 export type SourceEntry = SourceEntryBase & (SourceEntryValue | SourceEntryFormula);
 interface SourceEntryBase {
   name: string;
+  type?: string;
 }
 interface SourceEntryFormula {
   value?: never;

@@ -165,18 +165,22 @@ describe("Source tracking for Sphere CL, MSB/D", () => {
     if (Boolean(level)) {
       expect(actor.sourceInfo["system.spheres.msb.base"]?.positive).toContainEqual({
         value: level,
+        type: "untyped",
         name: `Class with level ${level} and CL ${cl}`,
       });
       expect(actor.sourceInfo["system.spheres.msb.total"]?.positive).toContainEqual({
         value: level,
+        type: "untyped",
         name: `Class with level ${level} and CL ${cl}`,
       });
       expect(actor.sourceInfo["system.spheres.msd.base"]?.positive).toContainEqual({
         value: level,
+        type: "untyped",
         name: `Class with level ${level} and CL ${cl}`,
       });
       expect(actor.sourceInfo["system.spheres.msd.total"]?.positive).toContainEqual({
         value: level,
+        type: "untyped",
         name: `Class with level ${level} and CL ${cl}`,
       });
     } else {
@@ -188,10 +192,12 @@ describe("Source tracking for Sphere CL, MSB/D", () => {
     if (Boolean(cl)) {
       expect(actor.sourceInfo["system.spheres.cl.base"]?.positive).toContainEqual({
         value: cl,
+        type: "untyped",
         name: `Class with level ${level} and CL ${cl}`,
       });
       expect(actor.sourceInfo["system.spheres.cl.total"]?.positive).toContainEqual({
         value: cl,
+        type: "untyped",
         name: `Class with level ${level} and CL ${cl}`,
       });
     } else {
