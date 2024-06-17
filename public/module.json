@@ -1,6 +1,5 @@
 {
   "id": "pf1spheres",
-  "name": "pf1spheres",
   "title": "Spheres for Pathfinder 1e",
   "description": "Adds Spheres of Power/Might content packs and mechanics to Pathfinder 1e",
   "version": "0.7.0",
@@ -13,10 +12,9 @@
     },
     { "name": "Xavion", "discord": "Xavion#9504" }
   ],
-  "minimumCoreVersion": "10",
-  "compatibility": { "minimum": "10", "verified": "10.285" },
+  "compatibility": { "minimum": "11", "verified": "11" },
   "relationships": {
-    "systems": [{ "id": "pf1", "compatibility": { "minimum": "9.0", "verified": "9.0" } }]
+    "systems": [{ "id": "pf1", "compatibility": { "minimum": "10.0", "verified": "10.0" } }]
   },
   "scripts": [],
   "esmodules": ["pf1spheres.js"],
