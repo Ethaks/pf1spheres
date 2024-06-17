@@ -104,20 +104,17 @@
     },
     {
       "_id": "7htbt9LqiZbF0RTt",
-      "name": "Incanter",
-      "type": "class",
-      "img": "icons/svg/item-bag.svg",
       "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
+        "pf1": {},
         "pf1spheres": {
           "casterProgression": "high"
-        },
-        "pf1": {
-          "migration": "10.0"
         }
       },
+      "folder": null,
+      "img": "icons/svg/item-bag.svg",
+      "name": "Incanter",
+      "sort": 0,
       "system": {
         "description": {
           "value": "The incanter is among the purest forms of a caster, dedicated above all to expanding their knowledge of the magical arts. Their powers are almost entirely determined by their choice of sphere - whether they’re dabbling in everything or focusing their knowledge on a few areas, though, they’re a force to be reckoned with.\n<p><strong>Role:</strong> An incanter is a master of magical spheres, bending magic to their needs more fully than any other caster.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d6</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The incanter&#8217;s class skills are Appraise (Int), Craft (Int), Fly (Dex), Knowledge (all) (Int), Linguistics (Int), Profession (Wis), and Spellcraft (Int).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n",
@@ -131,7 +128,7 @@
             "target": "spherecl",
             "priority": 0,
             "type": "sphereCLCap",
-            "_id": "XCgSo8Qb"
+            "_id": "p56AEk1M"
           }
         ],
         "changeFlags": {
@@ -145,50 +142,54 @@
           "children": [],
           "classAssociations": [
             {
-              "name": "Weapon and Armor Proficiency (Incanter)",
               "level": 1,
+              "name": "Weapon and Armor Proficiency (Incanter)",
               "uuid": "Compendium.pf1spheres.class-features.A9FAOo84kJtEZxyx"
             },
             {
-              "name": "Casting (Incanter)",
               "level": 1,
+              "name": "Casting (Incanter)",
               "uuid": "Compendium.pf1spheres.class-features.flMB9hKbsb8bRrI1"
             },
             {
-              "name": "Spell Pool (Incanter)",
               "level": 1,
+              "name": "Spell Pool (Incanter)",
               "uuid": "Compendium.pf1spheres.class-features.0JHCoqow5V8nzcw6"
             },
             {
-              "name": "Magic Talents (Incanter)",
               "level": 1,
+              "name": "Magic Talents (Incanter)",
               "uuid": "Compendium.pf1spheres.class-features.nURFMMZjd7LyZfA0"
             },
             {
-              "name": "Bonus Feat (Incanter)",
               "level": 1,
+              "name": "Bonus Feat (Incanter)",
               "uuid": "Compendium.pf1spheres.class-features.yMTwPUIZM4m3xvOT"
             },
             {
-              "name": "Incanter Specializations",
               "level": 1,
+              "name": "Incanter Specializations",
               "uuid": "Compendium.pf1spheres.class-features.YrixbDQqY3kmdsTa"
             },
             {
-              "name": "List of Sphere Specializations (Incanter)",
               "level": 1,
+              "name": "List of Sphere Specializations (Incanter)",
               "uuid": "Compendium.pf1spheres.class-features.7W1eLxdXzGzq9jLP"
             }
           ]
         },
+        "tag": "",
         "armorProf": {
-          "value": []
+          "value": [],
+          "custom": []
         },
         "weaponProf": {
-          "value": []
+          "value": [],
+          "custom": []
         },
         "languages": {
-          "value": []
+          "value": [],
+          "custom": []
         },
         "flags": {
           "boolean": {},
@@ -233,8 +234,8 @@
           "blf": false,
           "clm": false,
           "crf": true,
-          "dip": false,
           "dev": false,
+          "dip": false,
           "dis": false,
           "esc": false,
           "fly": true,
@@ -273,34 +274,32 @@
           }
         ]
       },
+      "type": "class",
       "ownership": {
         "default": 0
       },
       "_stats": {
-        "systemId": "pf1",
-        "systemVersion": "9.0",
-        "coreVersion": "10.291",
-        "createdTime": 1663168899450,
-        "modifiedTime": 1689623925737,
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
         "lastModifiedBy": null
       }
     },
     {
       "_id": "nP4sgDZSPB5RiZEs",
-      "name": "Wraith",
-      "type": "class",
-      "img": "icons/svg/item-bag.svg",
       "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
+        "pf1": {},
         "pf1spheres": {
           "casterProgression": "mid"
-        },
-        "pf1": {
-          "migration": "10.0"
         }
       },
+      "folder": null,
+      "img": "icons/svg/item-bag.svg",
+      "name": "Wraith",
+      "sort": 0,
       "system": {
         "description": {
           "value": "Emulating powerful and perilous creatures such as ghosts and shadow demons, wraiths gain the power to fade into the ether. A diverse group, each wraith is attuned to certain types of creatures or states of mind. This attunement can be exploited to seize control, turning foes into puppets. Some gain their talents from exposure to possessing entities, others obtain their power as part of returning from death themselves, or via other, more esoteric, paths.\n<p><strong>Role:</strong> Eerie casters able to slip out of phase with reality and leap into susceptible minds, seizing control, making them perfect for infiltration and espionage.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> Bluff (Cha), Craft (Int), Disguise (Cha), Fly (Dex), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (history) (Int), Knowledge (nobility) (Int), Knowledge (religion) (Int), Linguistics (Int), Perception (Wis), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Stealth (Dex), Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier</p>\n",
@@ -314,7 +313,7 @@
             "target": "sphereclDark",
             "priority": 0,
             "type": "untyped",
-            "_id": "jGoVj190"
+            "_id": "Y7siW0OT"
           }
         ],
         "changeFlags": {
@@ -328,65 +327,69 @@
           "children": [],
           "classAssociations": [
             {
-              "name": "Weapon and Armor Proficiencies",
               "level": 1,
+              "name": "Weapon and Armor Proficiencies",
               "uuid": "Compendium.pf1spheres.class-features.wu8LKUnWbIOEfOz5"
             },
             {
-              "name": "Casting (Wraith)",
               "level": 1,
+              "name": "Casting (Wraith)",
               "uuid": "Compendium.pf1spheres.class-features.qjxhDJ6DHrQdMmxO"
             },
             {
-              "name": "Spell Pool (Wraith)",
               "level": 1,
+              "name": "Spell Pool (Wraith)",
               "uuid": "Compendium.pf1spheres.class-features.CCO6fnN9lnTRPeus"
             },
             {
-              "name": "Magic Talents (Wraith)",
               "level": 1,
+              "name": "Magic Talents (Wraith)",
               "uuid": "Compendium.pf1spheres.class-features.qobC1BfGt3IZxVGJ"
             },
             {
-              "name": "Haunt Path",
               "level": 1,
+              "name": "Haunt Path",
               "uuid": "Compendium.pf1spheres.class-features.Rre7ofzGROCWag3d"
             },
             {
-              "name": "Wraith Form Mastery",
               "level": 1,
+              "name": "Wraith Form Mastery",
               "uuid": "Compendium.pf1spheres.class-features.S5SxrTHPALZSASue"
             },
             {
-              "name": "Possession",
-              "level": 2,
-              "uuid": "Compendium.pf1spheres.class-features.jD36VABy9AbiyHrz"
-            },
-            {
-              "name": "Wraith Haunts",
               "level": 1,
+              "name": "Wraith Haunts",
               "uuid": "Compendium.pf1spheres.class-features.Fp75YxemiGRqXZBV"
             },
             {
-              "name": "Greater Possession",
+              "level": 2,
+              "name": "Possession",
+              "uuid": "Compendium.pf1spheres.class-features.jD36VABy9AbiyHrz"
+            },
+            {
               "level": 10,
+              "name": "Greater Possession",
               "uuid": "Compendium.pf1spheres.class-features.nL5TIp4uVHHqOx5n"
             },
             {
-              "name": "Wraith Form Mastery",
               "level": 20,
+              "name": "Wraith Form Mastery",
               "uuid": "Compendium.pf1spheres.class-features.S5SxrTHPALZSASue"
             }
           ]
         },
+        "tag": "",
         "armorProf": {
-          "value": []
+          "value": [],
+          "custom": []
         },
         "weaponProf": {
-          "value": []
+          "value": [],
+          "custom": []
         },
         "languages": {
-          "value": []
+          "value": [],
+          "custom": []
         },
         "flags": {
           "boolean": {},
@@ -431,8 +434,8 @@
           "blf": false,
           "clm": false,
           "crf": true,
-          "dip": false,
           "dev": false,
+          "dip": false,
           "dis": true,
           "esc": false,
           "fly": true,
@@ -471,34 +474,32 @@
           }
         ]
       },
+      "type": "class",
       "ownership": {
         "default": 0
       },
       "_stats": {
-        "systemId": "pf1",
-        "systemVersion": "9.0",
-        "coreVersion": "10.291",
-        "createdTime": 1663168899465,
-        "modifiedTime": 1689623925739,
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
         "lastModifiedBy": null
       }
     },
     {
       "_id": "pD1g3fIZ6n3xVIou",
-      "name": "Mageknight",
-      "type": "class",
-      "img": "icons/svg/item-bag.svg",
       "effects": [],
-      "folder": null,
-      "sort": 0,
       "flags": {
+        "pf1": {},
         "pf1spheres": {
           "casterProgression": "low"
-        },
-        "pf1": {
-          "migration": "10.0"
         }
       },
+      "folder": null,
+      "img": "icons/svg/item-bag.svg",
+      "name": "Mageknight",
+      "sort": 0,
       "system": {
         "description": {
           "value": "The mageknight is a warrior who mixes magic and blade in the heat of combat. Unlike the armorist, who focuses on calling forth weapons, the mageknight prefers to enhance their weapons with a wide variety of magical tricks. Mageknights aren’t limited in their choice of sphere, so they tend to come up with unique combinations that suit their personal style.\n<p><strong>Role:</strong> The mageknight combines magic and martial power to become a powerful combatant.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d10</p>\n<p><strong>Starting Wealth:</strong> 5d6 x 10 gp (average 175 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The mageknight&#8217;s class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Knowledge (arcana) (Int), Knowledge (nature) (Int), Knowledge (nobility) (Int), Knowledge (planes) (Int), Knowledge (religion) (Int), Profession (Wis), Ride (Dex), Spellcraft (Int), Survival (Wis), and Swim (Str).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n",
@@ -512,7 +513,7 @@
             "target": "spherebabAlchemy",
             "priority": 0,
             "type": "untyped",
-            "_id": "xSW2U9WL"
+            "_id": "4N55Xf8J"
           }
         ],
         "changeFlags": {
@@ -526,75 +527,79 @@
           "children": [],
           "classAssociations": [
             {
-              "name": "Weapon and Armor Proficiency (Mageknight)",
               "level": 1,
+              "name": "Weapon and Armor Proficiency (Mageknight)",
               "uuid": "Compendium.pf1spheres.class-features.Qj9pCRPAsDUfSI8S"
             },
             {
-              "name": "Casting (Mageknight)",
               "level": 1,
+              "name": "Casting (Mageknight)",
               "uuid": "Compendium.pf1spheres.class-features.LkYbWc2Ndz77BYDl"
             },
             {
-              "name": "Spell Pool (Mageknight)",
               "level": 1,
+              "name": "Spell Pool (Mageknight)",
               "uuid": "Compendium.pf1spheres.class-features.P0jaPmKH84zBS54A"
             },
             {
-              "name": "Magic Talents (Mageknight)",
               "level": 1,
+              "name": "Magic Talents (Mageknight)",
               "uuid": "Compendium.pf1spheres.class-features.Zo2mGytkoRZ4zR6x"
             },
             {
-              "name": "Resist Magic",
               "level": 1,
+              "name": "Resist Magic",
               "uuid": "Compendium.pf1spheres.class-features.k52yj4Mx5Z8Ip4BI"
             },
             {
-              "name": "Mystic Combat",
               "level": 2,
+              "name": "Mystic Combat",
               "uuid": "Compendium.pf1spheres.class-features.ffgoUI04RocplIZx"
             },
             {
-              "name": "Stalwart (Mageknight)",
               "level": 3,
+              "name": "Stalwart (Mageknight)",
               "uuid": "Compendium.pf1spheres.class-features.fXHIKnUkoE3tYdRI"
             },
             {
-              "name": "Marked",
               "level": 7,
+              "name": "Marked",
               "uuid": "Compendium.pf1spheres.class-features.9ACiDLIIRijxRPbN"
             },
             {
-              "name": "Mystic Defense",
               "level": 11,
+              "name": "Mystic Defense",
               "uuid": "Compendium.pf1spheres.class-features.WA1aryYI2coAo27M"
             },
             {
-              "name": "Draw Power",
               "level": 15,
+              "name": "Draw Power",
               "uuid": "Compendium.pf1spheres.class-features.avK47Jl25gTbDMZi"
             },
             {
-              "name": "Spell Critical",
               "level": 19,
+              "name": "Spell Critical",
               "uuid": "Compendium.pf1spheres.class-features.lPbWHom1Bjpw6gBJ"
             },
             {
-              "name": "Spellsword",
               "level": 20,
+              "name": "Spellsword",
               "uuid": "Compendium.pf1spheres.class-features.yql3khNIFabx80xp"
             }
           ]
         },
+        "tag": "",
         "armorProf": {
-          "value": []
+          "value": [],
+          "custom": []
         },
         "weaponProf": {
-          "value": []
+          "value": [],
+          "custom": []
         },
         "languages": {
-          "value": []
+          "value": [],
+          "custom": []
         },
         "flags": {
           "boolean": {},
@@ -639,8 +644,8 @@
           "blf": false,
           "clm": true,
           "crf": true,
-          "dip": true,
           "dev": false,
+          "dip": true,
           "dis": false,
           "esc": false,
           "fly": false,
@@ -674,15 +679,16 @@
         "customHD": "",
         "contextNotes": []
       },
+      "type": "class",
       "ownership": {
         "default": 0
       },
       "_stats": {
-        "systemId": "pf1",
-        "systemVersion": "9.0",
-        "coreVersion": "10.291",
-        "createdTime": 1663168899468,
-        "modifiedTime": 1689623925739,
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
         "lastModifiedBy": null
       }
     }
@@ -1524,8 +1530,8 @@
     "systemId": "pf1",
     "systemVersion": "10.0",
     "coreVersion": "11.315",
-    "createdTime": 1718628822055,
-    "modifiedTime": 1718629055395,
+    "createdTime": 1718636334171,
+    "modifiedTime": 1718636340764,
     "lastModifiedBy": "yOpyXOKJr12wUPHe"
   }
 }
