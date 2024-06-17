@@ -37,7 +37,7 @@
     "test:ci": "vitest run -c vitest.ci.config.ts --coverage",
     "typecheck": "tsc",
     "postbump": "prettier --write ./public/module.json",
-    "release": "standard-version -a",
+    "release": "commit-and-tag-version -a",
     "postinstall": "husky install",
     "packs:extract": "node ./tools/packs.js extract",
     "packs:compile": "node ./tools/packs.js compile",
