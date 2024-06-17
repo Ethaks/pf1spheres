@@ -114,6 +114,13 @@ Hooks.once("init", () => {
     create: { type: "feat", system: { subType: "combatTalent" } },
     sort: 2_400,
   };
+  pf1.config.sheetSections.features.skillTalent = {
+    label: "PF1SPHERES.SkillTalentPlural",
+    interface: { create: true, actions: true, types: true },
+    filters: [{ type: "feat", subTypes: ["skillTalent"] }],
+    create: { type: "feat", system: { subType: "skillTalent" } },
+    sort: 2_600,
+  };
 
   // Call hooks after derived config has been initialised
   Hooks.callAll("pf1spheresPostInit");
