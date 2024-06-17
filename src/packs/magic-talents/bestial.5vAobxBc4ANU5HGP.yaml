@@ -1,0 +1,134 @@
+_id: 5vAobxBc4ANU5HGP
+_key: '!items!5vAobxBc4ANU5HGP'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: conjuration
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/conjuration.webp
+name: Bestial
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Your companion gains a new set of natural attacks chosen from the list
+      below. A companion must possess the prerequisite limbs and cannot already
+      have a natural attack attached to that limb. A companion may gain this
+      talent multiple times. Each time they gain this talent, they gain a new
+      set of natural attacks.</p>
+
+      <ul>
+
+      <li>One bite attack (primary, 1d6 Medium, 1d4 Small, requires head).</li>
+
+      <li>Two claw attacks (primary, 1d4 Medium, 1d3 Small, requires arms or the
+      front pair of at least 4 legs).</li>
+
+      <li>One gore attack (primary, 1d6 Medium, 1d4 Small, requires head).</li>
+
+      <li>Two hoof attacks (secondary, 1d4 Medium, 1d3 Small, requires 2 legs,
+      but creature must possess at least 4).</li>
+
+      <li>Two pincers (secondary, 1d6 Medium, 1d4 Small, requires arms).</li>
+
+      <li>Two slam attacks (primary, 1d4 Medium, 1d3 Small, requires arms).</li>
+
+      <li>One sting (primary, 1d4 Medium, 1d3 Small, requires tail).</li>
+
+      <li>One tail slap (secondary, 1d6 Medium, 1d4 Small, requires tail).</li>
+
+      <li>Two talons (primary, 1d4 Medium, 1d3 Small, requires 2 legs and
+      creature must be airborne to use).</li>
+
+      <li>One tentacle attack (secondary, 1d4 Medium, 1d3 Small, no
+      requirement).</li>
+
+      <li>Two wing buffets (secondary, 1d4 Medium, 1d3 Small, requires
+      wings).</li>
+
+      </ul>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Form
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

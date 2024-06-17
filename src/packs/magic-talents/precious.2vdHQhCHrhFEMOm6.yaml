@@ -1,0 +1,126 @@
+_id: 2vdHQhCHrhFEMOm6
+_key: '!items!2vdHQhCHrhFEMOm6'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: light
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/light.webp
+name: Precious
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may spend a spell point to create bright light on an object 2 or
+      more sizes smaller than yourself, that compels those who see it to try and
+      acquire it. Those who see the targeted object spend their turn frantically
+      trying to acquire the precious object.</p>
+
+      <p>They will not automatically become violent, and affected creatures will
+      not attempt to acquire the precious object if attempting to do so would be
+      obviously fatal, would inflict serious injury upon them, or be against
+      their alignment or nature. They will not ignore enemies either, but their
+      priority will be to acquire the precious object.</p>
+
+      <p>They will try to acquire the object by direct and immediate means (not
+      by bribery) and they will not stop just because they lose sight of the
+      object. A creature might attack someone to acquire the object, but only if
+      it is someone they might consider attacking anyways, and most likely they
+      will try to grab the object and run rather than fight in a prolonged
+      conflict.</p>
+
+      <p>If the creature manages to acquire the precious object, they hold it in
+      their hands and admire it as a standard action on their turn, doing
+      whatever is required to keep it other than letting it go.</p>
+
+      <p>Each creature gets a Will save to negate the effect when they first see
+      the precious object, and a new save whenever they spend a standard action
+      admiring the object. You are immune to this effect, but your allies are
+      not.</p>
+
+      <p>This is a mind-affecting compulsion effect.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Light
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

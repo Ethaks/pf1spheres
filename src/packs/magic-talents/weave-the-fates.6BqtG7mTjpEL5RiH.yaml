@@ -1,0 +1,124 @@
+_id: 6BqtG7mTjpEL5RiH
+_key: '!items!6BqtG7mTjpEL5RiH'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fate
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fate.webp
+name: Weave The Fates
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Fate sphere (any one (motif), any one
+      (arcana)), caster level 10th.</p>
+
+      <p>Your ability to glimpse and actualize your target&#8217;s fate
+      heightens. (Arcana) talents attached to a motif grant bonuses as though
+      they were granted as a motif. A target cannot benefit from an
+      (arcana)&#8217;s bonuses more than once, and they do not stack (wands
+      attached to two different motifs do not grant separate bonuses to
+      initiative).</p>
+
+      <p>In addition, when you cast a motif and attach an (arcana), you may
+      spend an additional spell point to attach up to three (arcana) to that
+      motif, instead of just one. When a motif with multiple attached (arcana)
+      is discharged, each (arcana) talent&#8217;s discharge effects occur
+      simultaneously.</p>
+
+      <p>If the same (arcana) is attached to one motif multiple times, that
+      (arcana)&#8217;s bonuses do not stack and the discharge&#8217;s duration
+      and effects resolve cumulatively.</p>
+
+      <p><strong>Example:</strong> A sphere caster with a Fate sphere caster
+      level of 10 grants the target a motif with 3 attached wands. The target
+      would gain +3 initiative as normal for the Wands talent when granted as a
+      motif and no additional benefit for the two additional wands. A target who
+      discharges an attached motif with three attached swords would ignore
+      concealment for three minutes and receive three separate critical
+      confirmation bonuses after the motif is discharged.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

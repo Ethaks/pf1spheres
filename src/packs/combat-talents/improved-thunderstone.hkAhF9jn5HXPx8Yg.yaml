@@ -1,0 +1,114 @@
+_id: hkAhF9jn5HXPx8Yg
+_key: '!items!hkAhF9jn5HXPx8Yg'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: alchemy
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/alchemy.webp
+name: Improved Thunderstone
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Craft DC:</strong> 25</p>
+
+      <p>You create an alchemical stone that can be used as a ranged attack with
+      a range increment of 10 ft. When it strikes a hard surface (or is struck
+      hard), it creates a deafening bang that is treated as a sonic attack. Each
+      creature within a 10-ft.-radius spread must make a Fortitude save or be
+      deafened for 1 hour. A deafened creature, in addition to the obvious
+      effects, takes a &#8211;4 penalty on initiative and has a 20% chance to
+      miscast and lose any spell with a verbal component that it tries to
+      cast.</p>
+
+      <p>You can increase the Craft DC for this item in increments of 10; each
+      time you do so you increase the duration of this ability by 1 hour, add
+      1d6 sonic damage to all creatures within the effect&#8217;s radius
+      (creatures who pass their saving throw against this item take half
+      damage), and increase the radius of the effect by 10 ft.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Formulae
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

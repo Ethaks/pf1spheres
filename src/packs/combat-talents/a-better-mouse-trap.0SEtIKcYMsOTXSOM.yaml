@@ -1,0 +1,114 @@
+_id: 0SEtIKcYMsOTXSOM
+_key: '!items!0SEtIKcYMsOTXSOM'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: trap
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/trap.webp
+name: A Better Mouse Trap
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Craft (traps) 5 ranks, Trap sphere.</p>
+
+      <p>When triggered, this trap releases a rat swarm (Pathfinder RPG Bestiary
+      pg. 232) in the square it was triggered. The swarm is hostile and attacks
+      the creature which triggered the trap or any other nearby creature if
+      unable to attack the target. A swarm summoned by this effect remains for 1
+      minute per rank of Craft (traps) you possess before mysteriously
+      disappearing. For every 10 ranks in Craft (traps) you possess, an
+      additional swarm is released in the nearest adjacent square to the
+      creature who triggered the trap.</p>
+
+      <p>If you possess the Bee Keeper Beastmastery talent, you may expend
+      martial focus when placing this trap to choose an animal or vermin swarm
+      with a CR equal to or less than 1/2 your ranks in Craft (traps) to be
+      released when the trap triggers. Choosing a swarm is subject to GM
+      discretion.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Snare
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

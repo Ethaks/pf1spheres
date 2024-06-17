@@ -1,0 +1,113 @@
+_id: 4vhuJ0nGRMnC97gF
+_key: '!items!4vhuJ0nGRMnC97gF'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: telekinesis
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/telekinesis.webp
+name: Astral Affixation
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Telekinesis sphere (Affix (advanced),
+      Effortless Telekinesis (advanced), Idle Concentration), caster level
+      15th.</p>
+
+      <p>When you affix a target permanently in place, you may spend an
+      additional spell point to strengthen the effect by pinning them to astral
+      leylines. A creature that has failed its Reflex save against being affixed
+      must succeed at a third save or be rendered paralyzed for as long as they
+      are affixed.</p>
+
+      <p>In addition, regardless of whether or not this additional save is
+      failed, breaking a target free that has been affixed in this way requires
+      a successful magic skill check or Strength check against your MSD + 10. In
+      addition, a telekinesis effect or the Freedom word with a lower caster
+      level than the affixing will always be insufficient and cannot break a
+      target free.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

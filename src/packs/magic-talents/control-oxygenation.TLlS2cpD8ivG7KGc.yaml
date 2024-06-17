@@ -1,0 +1,121 @@
+_id: TLlS2cpD8ivG7KGc
+_key: '!items!TLlS2cpD8ivG7KGc'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: blood
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/blood.webp
+name: Control Oxygenation
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You gain the following abilities:</p>
+
+      <p>As a (still) effect, the target becomes fatigued for the duration of
+      your blood control. You may spend a spell point to cause the creature to
+      instead become exhausted for this duration. Creatures that do not breathe
+      are immune to this effect.</p>
+
+      <p>As a (quicken) effect, you may boost the circulation of the target of
+      your blood control, allowing the target to ignore one instance of the
+      fatigued or staggered conditions and treat one instance of the exhausted
+      condition as fatigued for a number of rounds equal to the target&#8217;s
+      Constitution modifier. After a creature benefits from this ability, it
+      cannot do so again for one minute per round the ability was active.
+      Creatures that do not breathe do not benefit from this effect</p>
+
+      <p>If you spend a spell point, the target may make an extra attack as part
+      of a full attack or make additional attacks of opportunity (as the
+      Improved Haste Time sphere talent) for the duration of this effect. This
+      does not stack with similar effects such as the Improved Haste Time sphere
+      talent. When used this way, the target is fatigued at the end of this
+      effect. If the target was already fatigued, it is instead exhausted. If it
+      was exhausted, it drops unconscious for 1d6 rounds.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Quicken
+    - Still
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

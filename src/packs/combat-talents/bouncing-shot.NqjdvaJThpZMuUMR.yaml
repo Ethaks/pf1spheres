@@ -1,0 +1,112 @@
+_id: NqjdvaJThpZMuUMR
+_key: '!items!NqjdvaJThpZMuUMR'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: sniper
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/sniper.webp
+name: Bouncing Shot
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You gain the ability to bounce your attack off of the ceiling, floor,
+      or wall to attack a protected target. You may target a 5-ft. square of a
+      solid surface, then treat that spot as your new point of origin when
+      attacking a target. This can allow you to attack around corners, or
+      possibly ignore the cover on a target. For every 4 points of base attack
+      bonus you possess, you may bounce your shot 1 additional time, but you
+      suffer a -2 penalty to the attack roll per surface used to bounce in this
+      fashion. A bounced surface does not take damage, and you use the total
+      distance traveled (including to and between bounced surfaces) when
+      determining range penalties.</p>
+
+      <p><sup>Wiki Note: This ability has been clarified to mean that each
+      bounce, including the first, imposes a cumulative -2 penalty on your
+      attack roll.</sup></p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Snipe
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

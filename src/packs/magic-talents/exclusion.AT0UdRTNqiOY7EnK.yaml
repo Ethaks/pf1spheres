@@ -1,0 +1,112 @@
+_id: AT0UdRTNqiOY7EnK
+_key: '!items!AT0UdRTNqiOY7EnK'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: protection
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/protection.webp
+name: Exclusion
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You can create a ward that prevents entry of a common material or
+      element chosen when you create the ward. You may choose an element based
+      on their physical material (such as stone, metal, water, or acid), form of
+      energy (such as fire or light) or based on their physical properties (such
+      as poisonous materials or living materials). Magical and non-magical
+      materials excluded have great difficulty entering the ward, but are
+      unaffected once inside.</p>
+
+      <p>Creatures made of or carrying the material with them must succeed at a
+      Strength check against a DC equal to your Protection sphere DC to cross
+      the threshold of the ward, or they can simply drop any of the warded
+      material they are carrying. An attack from outside the ward that crosses
+      into the ward and is composed of the offending material receives a penalty
+      to attack equal to your caster level.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Ward
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

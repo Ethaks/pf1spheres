@@ -1,0 +1,121 @@
+_id: IqFeXFA8RXoCd5D5
+_key: '!items!IqFeXFA8RXoCd5D5'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fallenFey
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fallen_fey.webp
+name: Feast And Famine
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may activate the following abilities as fey-blessings:</p>
+
+      <p><strong>Putrid Vomit:</strong> You can spew vomit up to 30 feet as a
+      standard action. Treat this as a ranged touch attack with no range
+      increment. A creature struck by this attack must succeed on a Fortitude
+      save or be for sickened for 1d4 rounds. If you spend a spell point as part
+      of making the attack, the creature is instead nauseated for 1d4 rounds on
+      a failed save and sickened for 1 round on a successful save.</p>
+
+      <p><strong>Spoilage:</strong> This fey-blessing has no duration and is
+      considered an instantaneous effect. You may cause an amount of food
+      sufficient to feed 1 Medium creature per caster level to spoil. This does
+      not remove other changes made to the food, such as adding poison or
+      magical effects unless you spend a spell point and succeed on a magic
+      skill check against the poison or effect&#8217;s DC.</p>
+
+      <p><strong>Unspoil:</strong> This fey-blessing has no duration and is
+      considered an instantaneous effect. You may cause an amount of spoiled
+      food sufficient to feed 1 Medium creature per caster level to return to a
+      palatable state. This does not remove other changes made to the food, such
+      as adding poison or magical effects unless you spend a spell point and
+      succeed on a magic skill check against the poison or effect&#8217;s DC.
+      Restoring the food does not prevent future spoilage.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Fey-Blessing
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

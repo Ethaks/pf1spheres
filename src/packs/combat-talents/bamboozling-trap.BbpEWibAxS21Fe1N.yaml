@@ -1,0 +1,107 @@
+_id: BbpEWibAxS21Fe1N
+_key: '!items!BbpEWibAxS21Fe1N'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: trap
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/trap.webp
+name: Bamboozling Trap
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>A creature that fails its Reflex save to avoid this snare is treated as
+      if it was successfully affected by a feint. This counts as you performing
+      the feint for the purposes of Fencing sphere talents that depend on
+      feinting a target. Non-humanoids with an Intelligence score of 1 or 2 get
+      a +4 bonus to Reflex saves against this trap and mindless creatures are
+      still immune. If you possess the Unlikely Feint Fencing sphere talent,
+      reduce the bonus to saves non-humanoids with an Intelligence score of 1 or
+      2 get to their saves to +2 and mindless creatures are vulnerable to this
+      trap but gain a +4 bonus to their Reflex save.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Snare
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

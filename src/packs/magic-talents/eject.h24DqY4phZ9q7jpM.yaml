@@ -1,0 +1,108 @@
+_id: h24DqY4phZ9q7jpM
+_key: '!items!h24DqY4phZ9q7jpM'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: time
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/time.webp
+name: Eject
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may spend a spell point to attempt to eject a creature from time
+      itself for 1 round per caster level (Will negates). The creature
+      disappears completely and cannot be the target of any damage or effect
+      while it is vanished. When the effect ends, the creature returns in the
+      exact spot it disappeared from (or the closest unoccupied square). From
+      the target&#8217;s perspective no time has passed, and any effect already
+      on the target with a duration (such as magic or poison) continues as if
+      the time spent ejected simply had not happened. An ejected creature can
+      attempt a new saving throw each round as a full-round action to end this
+      effect early.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Time
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

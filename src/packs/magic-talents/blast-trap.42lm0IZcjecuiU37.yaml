@@ -1,0 +1,106 @@
+_id: 42lm0IZcjecuiU37
+_key: '!items!42lm0IZcjecuiU37'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: destruction
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/destruction.webp
+name: Blast Trap
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may place a destructive blast onto an adjacent, unoccupied 5-foot
+      square. Any creature who steps onto that square is affected by your
+      destructive blast, and is allowed a Reflex save for half damage. A blast
+      trap lasts for 10 minutes per caster level before becoming inert. This is
+      a magical trap with a Perception DC and Disable Device DC equal to the
+      blast&#8217;s save DC. You may have one active blast trap at a time, +1
+      per 10 caster levels; placing a trap beyond this limit deactivates an
+      earlier trap of your choice.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Blast Shape
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

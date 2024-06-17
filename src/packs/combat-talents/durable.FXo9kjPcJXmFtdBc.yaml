@@ -1,0 +1,124 @@
+_id: FXo9kjPcJXmFtdBc
+_key: '!items!FXo9kjPcJXmFtdBc'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: guardian
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/guardian.webp
+name: Durable
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>When targeted by a natural, extraordinary or supernatural ability that
+      inflicts ability damage, ability drain, disease, negative levels, poison
+      or any of the following conditions: (blinded, confused, cowering, dazed,
+      dazzled, entangled, exhausted, fascinated, fatigued, frightened,
+      nauseated, panicked, paralyzed, petrified, shaken, sickened, staggered,
+      stunned, unconscious) you may delay the onset of its effects until the end
+      of your next turn. Each effect is treated as if it were an amount of hit
+      point damage equal to the attacking creature&#8217;s Hit Dice for
+      determining the capacity of your delayed damage pool. If you do not have
+      enough space remaining in the delayed damage pool, you may not delay the
+      effect.</p>
+
+      <p>If you possess the (patrol) package and the Defend Other talent, when
+      an ally within the area of your patrol is the target of such an ability,
+      you may spend an attack of opportunity to move to put that ally within
+      reach (with the normal limits for moving as part of your patrol) and
+      redirect the effect to yourself.</p>
+
+      <p>If you possess the (challenge) package, any time a creature under the
+      effects of your challenge uses such an ability that does not include you
+      in its effect, it suffers a -2 penalty to the ability&#8217;s save DC.
+      This penalty increases by 1 for every 4 points of base attack bonus you
+      possess.</p>
+
+      <p><sup><strong>Wiki Note:</strong> Per discussion with the author, this
+      is intended to permit characters to cure effects caused by things this
+      ability can delay before they take effect.</sup></p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

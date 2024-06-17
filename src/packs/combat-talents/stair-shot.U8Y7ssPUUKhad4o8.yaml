@@ -1,0 +1,111 @@
+_id: U8Y7ssPUUKhad4o8
+_key: '!items!U8Y7ssPUUKhad4o8'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: barrage
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/barrage.webp
+name: Stair Shot
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisite:</strong> Barrage sphere.</p>
+
+      <p>As an attack action, you may expend 10 pieces of ammunition from a
+      ranged weapon to create a staircase of arrows/bolts. There must be a wall,
+      cliff, or another suitable mostly-vertical surface for you to use when
+      creating a staircase of arrows, and the staircase cannot extend more than
+      5 ft. per point of base attack bonus you possess, but you may choose its
+      shape (going straight across, or up or down as desired, but no steeper
+      than 45 degrees either direction). You may expend your martial focus to
+      perform this maneuver as an immediate action, such as to build a platform
+      to stop someone from falling.</p>
+
+      <p>This only functions with weapons that fire arrows, bolts, or other
+      appropriate ammunition, and that you may reload as a free action.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

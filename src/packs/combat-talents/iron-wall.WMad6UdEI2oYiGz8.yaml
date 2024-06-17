@@ -1,0 +1,108 @@
+_id: WMad6UdEI2oYiGz8
+_key: '!items!WMad6UdEI2oYiGz8'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: guardian
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/guardian.webp
+name: Iron Wall
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>If you possess the (challenge) package, any time a creature under the
+      effects of your challenge attacks an ally within Close range of you (25 ft
+      + 5 ft. per 2 base attack bonus), that attack suffers a 20% miss
+      chance.</p>
+
+      <p>If you possess the (patrol) package, allies within the area of your
+      patrol, not including yourself, gain a 20% miss chance against melee
+      attacks originating from a creature that you threaten.</p>
+
+      <p>If an attack would be subject to both miss chances, the miss chance
+      increases to 50%.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

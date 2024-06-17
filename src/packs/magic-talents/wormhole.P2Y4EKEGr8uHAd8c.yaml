@@ -1,0 +1,112 @@
+_id: P2Y4EKEGr8uHAd8c
+_key: '!items!P2Y4EKEGr8uHAd8c'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: warp
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/warp.webp
+name: Wormhole
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You touch a single 5-foot square and link it to another 5-foot square
+      within close range of it to which you have line of sight and line of
+      effect, contracting the space between them. You may connect an additional
+      5-foot square per 2 caster levels anywhere within range as well. Anyone
+      may choose to use 5 feet of their movement to travel in a straight line
+      between two linked squares as if they were adjacent (though they are not
+      treated as adjacent for any other purpose). This wormhole lasts as long as
+      you concentrate, but you may spend a spell point to allow it to remain for
+      1 round per caster level without concentration.</p>
+
+      <p>If you possess Ranged Warp more than once, this also increases the
+      maximum distance between the touched squares (allowing you to place
+      squares within medium range of one another if Ranged Warp has been taken
+      twice, or long range if taken three times).</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Space
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

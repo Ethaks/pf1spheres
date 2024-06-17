@@ -1,0 +1,145 @@
+_id: upjUdLDlOUXHFXaS
+_key: '!items!upjUdLDlOUXHFXaS'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: telekinesis
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/telekinesis.webp
+name: Kinetic Field
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may spend a spell point to apply your telekinesis as kinetic energy
+      across an area instead of directly onto targets. This fills an area with a
+      radius of up to 10 feet + 5 feet per five caster levels with kinetic
+      energy, which manifests in one of the following ways, each of which may be
+      made into a Sustained Force.</p>
+
+      <p>An area cannot be affected by more than one field at a time:</p>
+
+      <ul>
+
+      <li>You may make all squares in the area, including the air, become
+      difficult terrain. Moving through this area causes fire damage equal to
+      1/2 your caster level (minimum 1) per 5 feet of movement due to intense
+      friction.</li>
+
+      <li>You may cause any projectiles or thrown objects up to one size smaller
+      than your telekinesis limit that pass through this area to be affected as
+      if by Catch.</li>
+
+      <li>You may cause creatures or objects up to one size smaller than your
+      telekinesis limit that enter this area to move up to half your telekinesis
+      speed in one direction, chosen when the field is created, to a maximum
+      distance of the edge of the field. Unwilling targets may attempt a Will
+      saving throw to resist, and if a creature fails this save and attempts to
+      move against the direction of field they must first spend movement equal
+      to half your telekinesis speed to overcome the effects of the field.
+      Unattended objects move on your turn and are not fast enough to cause
+      harm. Creatures do not move until their turn.</li>
+
+      </ul>
+
+      <p>You may take this talent a second time. If you do, you may form the
+      kinetic field such that it occupies any of the following areas as an
+      alternative to its normal shape. These areas carry the normal effect of
+      the kinetic field that you dictate. [Alienist HB]</p>
+
+      <ul>
+
+      <li>A wall up to 20 feet wide per caster level in a straight line and up
+      to 20 feet high.</li>
+
+      <li>An area centered on you with a 10-foot radius + 5 feet per 5 caster
+      level. This area moves with you.</li>
+
+      <li>An area shaped as you choose made out of contiguous 5-foot cubes, up
+      to a maximum of 5 cubes + 1 cube per 2 caster levels.</li>
+
+      </ul>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,119 @@
+_id: J25bmMFTQZHlz5M5
+_key: '!items!J25bmMFTQZHlz5M5'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fallenFey
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fallen_fey.webp
+name: Fey Invisibility
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Fallen Fey sphere (Fade
+      (fey-blessing)), caster level 5th.</p>
+
+      <p>You must spend an additional spell point to use this fey blessing. You
+      and all your equipment fade from view, becoming invisible. You gain total
+      concealment, as well as a +40 bonus to Stealth checks when stationary,
+      which decreases to +20 when moving.</p>
+
+      <p>In addition, since you are invisible, you may attempt Stealth checks
+      even while being observed and do not require cover to retain or initiate
+      Stealth. Even when detected by another creature, an invisible creature
+      gains a +2 bonus to attack rolls against sighted targets and ignores their
+      Dexterity bonus to AC. Attacks against creatures with total concealment
+      have a 50% chance they will simply miss, even if the attack has targeted
+      the correct square. Making yourself invisible also hides any magical auras
+      on yourself or your worn or held equipment from such effects as detect
+      magic or the base Divination sphere divine ability.</p>
+
+      <p>Making an attack, casting a spell or sphere ability with verbal or
+      somatic components or subject to the Magical Signs drawback, speaking, or
+      other loud or distracting actions ends this effect.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Fey-Blessing
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

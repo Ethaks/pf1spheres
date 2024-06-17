@@ -1,0 +1,161 @@
+_id: 0DLBtUrC3NByJTRU
+_key: '!items!0DLBtUrC3NByJTRU'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: nature
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/nature.webp
+name: Nature’s Weapon
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may perform one of the following special attacks or gain one of the
+      following benefits. In addition to the effects that already possess a
+      duration, if you possess the ability to grant (spirit) talent abilities to
+      another you may spend a spell point as a standard action to grant a target
+      the ability to use one of these attacks for 1 round per caster level. The
+      options available are dependent on your Nature packages, as outlined
+      below:</p>
+
+      <p><strong>Air: Cacophony:</strong> As a standard action you may create a
+      torrent of wind that deals sonic damage equal to 1d4 + 1 per caster level
+      to all creatures and unattended objects within a cone that reaches from
+      you to the edge of your geomancing range. Any creature damaged by the
+      effect must succeed at a Fortitude save or be deafened for 1d4 rounds.</p>
+
+      <p><strong>Earth: Stone Fist:</strong> As a free action you may encase one
+      or both of your fists with stone for 1 round. While so encased, you cannot
+      hold anything in that hand and suffer a -2 armor check penalty. You also
+      are considered armed when making unarmed strikes with that hand, gain a +1
+      shield bonus to AC, and your unarmed strikes with that hand deal 1d6
+      damage Medium (1d4 Small) and ignore hardness less than 8. This damage
+      increases by 1 die size (1d8, 1d10, 2d6, 2d8, etc.) every 4 caster levels
+      you possess, and the shield bonus increases by 1 for every 6 caster levels
+      you possess. This does not stack with monk levels or other effects that
+      increase the damage of unarmed strikes.</p>
+
+      <p><strong>Fire: Fire Wielder:</strong> As a free action you may create a
+      fire in one or both of your hands. You are considered armed with this
+      fire, and can treat it as a light weapon when making attacks. Attacks with
+      this flame are touch attacks, and deal fire damage equal to the largest
+      fire you can create with Create Fire. This fire cannot be augmented like a
+      normal fire, and attacks with this fire are not augmented by your Strength
+      modifier or effects that increase physical damage such as Power Attack, as
+      flame is immaterial. You cannot be disarmed of this fire, but you may
+      throw it as a ranged weapon attack with no range penalty to a maximum of
+      your geomancing range.</p>
+
+      <p><strong>Metal: Blade Whip:</strong> As a standard action you may
+      reshape a mostly metal weapon (such as a sword or battleaxe) you are
+      wielding into a cable and perform a trip, disarm or sunder combat maneuver
+      against a target within your geomancing range. This is considered a ranged
+      attack, and you cannot be targeted in return on a failure. You gain a
+      bonus to the check equal to 1/2 your caster level (minimum 1). After the
+      combat maneuver check has been resolved, your weapon returns to its
+      original form.</p>
+
+      <p><strong>Plant: Bramble Strike:</strong> You may spend a spell point as
+      a standard action to cause brambles to burst from any mostly wooden weapon
+      (such as a club, quarterstaff, or spear) you are wielding, or pieces of
+      mostly-wooden ammunition such as an arrow or bolt coming from a ranged
+      weapon you are using, for 1 round per caster level. Once per round when
+      you strike a creature with one of your qualifying weapons, you may cause
+      them to attempt a Reflex save. On a failure, the target becomes entangled
+      for 1 round. For every 10 caster levels you possess, you may use this
+      ability an additional time per round. Escaping this entanglement follows
+      the same rules as escaping from the Entangle geomancing ability. If a
+      creature fails their saving throw while already entangled from this
+      effect, the condition&#8217;s duration increases by 1 round.</p>
+
+      <p><strong>Water: Icicles:</strong> You may spontaneously create an icicle
+      in your hand as a free action. These icicles count as masterwork daggers
+      and melt if they leave your hand for more than 1 round. These icicles gain
+      a +1 enhancement bonus per 4 caster levels you possess (maximum +5) and
+      deal an amount of extra cold damage equal to 1/2 your caster level.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Spirit
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

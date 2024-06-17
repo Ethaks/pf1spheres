@@ -1,0 +1,258 @@
+_id: KZAyKWt7LY8Z8LRa
+_key: '!items!KZAyKWt7LY8Z8LRa'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: creation
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/creation.webp
+name: Alchemical Creation
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may create items that require processing, such as alchemical items
+      and poisons. You may spend 1 spell point to create an alchemical item or
+      poison worth up to 25 gp per caster level. This functions exactly as the
+      normal alchemical item or poison, except that any DC is 10 + your casting
+      ability modifier + 1/2 your caster level and any hit point damage it deals
+      is increased by your casting ability modifier. These alchemical items or
+      poisons remain for the normal duration of a created object, at which point
+      they disappear as usual (but any effects inflicted on creatures or objects
+      remain). You may also alter mundane alchemical items or poisons up to a
+      maximum value of 25 gp per caster level, enhancing their potency in the
+      same way for the normal duration, at which point the items return to their
+      normal damage and saving throw DC. This does not stack with other effects
+      that increase the item&#8217;s DC.</p>
+
+      <p>At 5th caster level and every 5 caster levels thereafter, the total
+      value you may alter or create increases by an additional 25 gp per caster
+      level, according to Table: Alchemical Creation.</p>
+
+      <p>If you possess Divided Creation, you may create any number of
+      alchemical items or poisons whose total value is no more than half the
+      maximum value you may create and whose total size is less than or equal to
+      your maximum size (with each alchemical item or poison counting as a Small
+      object), but only one object created this way increases its saving throw
+      DC and damage. All others retain their base, non-magical statistics.</p>
+
+      <p>If you possess Plasma Production, then any time you create an
+      alchemical weapon that includes a fuse as the method of activating it
+      (such as with a fuse grenade and its variants, or fireworks), you may
+      create it with the fuse pre-lit. This allows you to treat the weapon as if
+      you had used it as provided in its description. (For example, creating a
+      fuse grenade with this option causes the grenade to explode in 1d4
+      rounds.) You cannot create or alter poisons or formulae from the Alchemy
+      sphere (see Spheres of Might), as those mixtures are simply too
+      unstable.</p>
+
+      <strong>Table: Alchemical Creation</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Caster Level</th>
+
+      <th>Max GP</th>
+
+      <th>Caster Level</th>
+
+      <th>Max GP</th>
+
+      <th>Caster Level</th>
+
+      <th>Max GP</th>
+
+      <th>Caster Level</th>
+
+      <th>Max GP</th>
+
+      <th>Caster Level</th>
+
+      <th>Max GP</th>
+
+      </tr>
+
+      <tr>
+
+      <td>1st</td>
+
+      <td>25</td>
+
+      <td>5th</td>
+
+      <td>250</td>
+
+      <td>9th</td>
+
+      <td>450</td>
+
+      <td>13th</td>
+
+      <td>975</td>
+
+      <td>17th</td>
+
+      <td>1,700</td>
+
+      </tr>
+
+      <tr>
+
+      <td>2nd</td>
+
+      <td>50</td>
+
+      <td>6th</td>
+
+      <td>300</td>
+
+      <td>10th</td>
+
+      <td>750</td>
+
+      <td>14th</td>
+
+      <td>1,150</td>
+
+      <td>18th</td>
+
+      <td>1,800</td>
+
+      </tr>
+
+      <tr>
+
+      <td>3rd</td>
+
+      <td>75</td>
+
+      <td>7th</td>
+
+      <td>350</td>
+
+      <td>11th</td>
+
+      <td>825</td>
+
+      <td>15th</td>
+
+      <td>1,500</td>
+
+      <td>19th</td>
+
+      <td>1,900</td>
+
+      </tr>
+
+      <tr>
+
+      <td>4th</td>
+
+      <td>100</td>
+
+      <td>8th</td>
+
+      <td>400</td>
+
+      <td>12th</td>
+
+      <td>900</td>
+
+      <td>16th</td>
+
+      <td>1,600</td>
+
+      <td>20th</td>
+
+      <td>2,500</td>
+
+      </tr>
+
+      </table>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Material
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

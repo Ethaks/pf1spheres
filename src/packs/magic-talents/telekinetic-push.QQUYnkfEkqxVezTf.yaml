@@ -1,0 +1,122 @@
+_id: QQUYnkfEkqxVezTf
+_key: '!items!QQUYnkfEkqxVezTf'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: telekinesis
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/telekinesis.webp
+name: Telekinetic Push
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may throw your telekinetic power at an object, aiding or impeding
+      its natural movement. As a readied action, you may push a projectile,
+      creature, thrown object, or another caster&#8217;s Bludgeon up to one size
+      larger than your telekinesis limit. If aiding, you may increase a
+      weapon&#8217;s range increment by half your telekinesis speed and increase
+      its effective size by 1 size category +1 per 5 caster levels for the
+      purposes of dealing damage and determining if another caster may Catch the
+      object with their own telekinesis. If aiding a creature, you may choose to
+      instead grant it an enhancement bonus to its movement equal to 1/2 your
+      telekinesis speed. You may also add 1d6 damage + 1d6 per 5 caster levels
+      to the falling damage a target suffers. This ability may be used to cause
+      damage to a target that was successfully tripped.</p>
+
+      <p>Alternatively, you may slow down a creature or object, cutting its
+      movement speed in half. If the target is falling, this decreases their
+      falling speed to 60 feet per round, allowing them to fall great distances
+      without being hurt.</p>
+
+      <p>When you use the Catch function of your telekinesis, you may also
+      choose to deflect an object instead of Catching it, causing it to simply
+      miss instead of being lifted with telekinesis. Telekinetic Push still
+      requires a spell point when used directly on hostile targets, but does not
+      allow a Will save to negate, even when used with Catch, due to the briefer
+      contact and more indirect force. Telekinetic Pushes cannot be sustained
+      with Sustained Force.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

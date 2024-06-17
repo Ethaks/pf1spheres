@@ -1,0 +1,114 @@
+_id: FxzjHA7IfwZpQMl6
+_key: '!items!FxzjHA7IfwZpQMl6'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: mind
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/mind.webp
+name: Terrifying Mind
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever you succeed a saving throw against a mind-affecting effect,
+      you may spend 1 spell point as a free action that can be taken outside of
+      your turn to terrify the source of that effect, provided you can identify
+      and see the effect&#8217;s source.</p>
+
+      <p>This causes the creature to be shakened for 1 round per caster level. A
+      successful Will save negates this effect. At 10th caster level, the
+      creature is instead frightened for 1 round per caster level, and on a
+      successful save the creature is still shaken for one round per caster
+      level. This is a mind-affecting fear effect.</p>
+
+      <p>Additionally, you may spend 1 spell point as a standard action to ready
+      your mind, and grant yourself a +2 morale bonus to all saving throws made
+      against mind-affecting effects for the next 24 hours. This bonus is
+      doubled against fear effects. This bonus increases by +1 at 8th caster
+      level and every 8 levels thereafter.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Cognition
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,108 @@
+_id: IWansjen2xAkaUeS
+_key: '!items!IWansjen2xAkaUeS'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: openHand
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/open_hand.webp
+name: Soul Punch
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Open Hand sphere, base attack bonus
+      +10.</p>
+
+      <p>When you make an attack action with an unarmed strike, you can expend
+      your martial focus as a free action as a part of the attack. If you do,
+      until the end of your turn, whenever you deal damage with an unarmed
+      strike, your opponent must succeed at a Fortitude save or gain 1 permanent
+      negative level (you can only bestow a number of negative levels to a
+      creature with this talent equal to 1/2 your practitioner modifier). At
+      base attack bonus +20, they must succeed at two Fortitude saves instead of
+      one to resist the permanent negative level.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

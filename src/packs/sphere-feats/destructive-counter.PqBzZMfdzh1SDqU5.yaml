@@ -1,0 +1,120 @@
+_id: PqBzZMfdzh1SDqU5
+_key: '!items!PqBzZMfdzh1SDqU5'
+effects: []
+flags:
+  pf1: {}
+folder: null
+img: icons/svg/item-bag.svg
+name: Destructive Counter
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Creation sphere (any (material)
+      talent).</p>
+
+      <p><strong>Benefit:</strong> When targeted by a ranged attack or spell
+      effect that originates from another square (such as a destructive blast
+      but not a vortex from (water) geomancing), or being in a square that such
+      an effect passes through (such as an Energy Sphere destructive blast), you
+      may attempt to destroy the projectile or spell effect as an immediate
+      action by spending 1 spell point (this spell point cost can not be reduced
+      in any way). If the attack is a projectile, it functions as normal unless
+      it loses half or more of its hit points and gains the broken condition,
+      suffering the usual effects, or is destroyed at which point it deals no
+      damage. If the target is a spell effect of a material you can affect with
+      your alter ability (for example, a fire damage destructive blast with
+      Plasma Production, or a dropped stone object with Expanded Materials) you
+      may attempt to damage the spell effect.</p>
+
+      <p>You must succeed at a magic skill check against the caster in question.
+      If you succeed then the targeted effect is damaged. Reduce the damage the
+      spell effect would deal by 1d6 per caster level (increasing to 1d8 per
+      caster level plus your casting ability modifier if you possess Potent
+      Alteration). If this would reduce the spell&#8217;s damage to 0, the
+      effect ends when it reaches your square. If the targeted spell deals no
+      damage, instead lower any save DC it might have by your casting ability
+      modifier. If this would reduce the save DC to 9 or lower, the effect ends
+      when it reaches your square. Any effect that would occur in or beyond your
+      square is negated while any square the effect passed through prior to
+      yours is affected normally.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: feat
+  tag: ''
+  tags:
+    - Combat
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

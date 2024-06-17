@@ -1,0 +1,115 @@
+_id: MKIMTIxOR5J6GLFM
+_key: '!items!MKIMTIxOR5J6GLFM'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: mana
+folder: null
+img: icons/svg/item-bag.svg
+name: Ignition
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As an expunge, you set ablaze the magical powers a creature holds,
+      damaging them and potentially causing them to lose their magic. You must
+      make a ranged touch attack on a creature within range of your expunge. If
+      you strike, the creature suffers 1d8 untyped damage, plus an additional
+      1d8 damage at 4th caster level and every 3 levels thereafter. For every 5
+      damage the creature suffers, they lose a spell point and suffer a -1
+      penalty to their magic skill defense for 1 round plus an additional round
+      at 10th caster level and every ten levels thereafter. This talent only
+      functions on creatures that have a spell pool, whether or not they have
+      any spell points remaining.</p>
+
+      <p><strong>Special:</strong> If you possess the Transfer talent, you can
+      utilize this talent on creatures that cannot normally store spell points.
+      If you do, instead of losing spell points or suffering a penalty to their
+      magic skill defense, they instead suffer a penalty to the next saving
+      throw they make against a magical effect equal to the penalty they would
+      have suffered to their magic skill defense, for the same duration.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Expunge
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,125 @@
+_id: 8EJ55OHvCnw8DUXo
+_key: '!items!8EJ55OHvCnw8DUXo'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: time
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/time.webp
+name: Time Clone
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Time sphere, caster level 10th.</p>
+
+      <p>You draw a version of the target from an alternate timeline to assist
+      you on the battlefield by spending a number of spell points equal to 1/2
+      the target&#8217;s total Hit Dice (minimum 1). Activating this ability
+      informs the caster of how many spell points it will cost for their
+      intended target; if they do not have enough spell points, the action is
+      wasted but no spell points are spent.</p>
+
+      <p>This copy lasts for a number of rounds equal to 1/2 your caster level
+      and appears in a square adjacent to the target and acts immediately on
+      your turn, moving and acting as you direct it (a free action). The copy
+      shares all of the target&#8217;s statistics (including current spell
+      points after the talent is used and other limited-use abilities), movement
+      speeds, and abilities, including equipped items (but not consumable or
+      limited use items such as potions, wands, and scrolls), but its tether to
+      this timeline is tenuous and the copy instantly vanishes if it takes any
+      damage or fails a saving throw against any spell or effect. Any items the
+      time clone may have possessed instantly disappear when the target is
+      destroyed or when the duration of this effect ends. You must succeed on a
+      melee touch attack (or a ranged touch attack if you possess the Ranged
+      Time talent) to use this ability on an unwilling target, and they are
+      allowed a Will saving throw against this effect; on a successful saving
+      throw this ability fails and any spell points spent on it are wasted.</p>
+
+      <p>Time clones created with this talent cannot create additional time
+      clones or similar copies of themselves.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Time
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,119 @@
+_id: endHzGCI9H3Ebgo4
+_key: '!items!endHzGCI9H3Ebgo4'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: protection
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/protection.webp
+name: Permanent Ward
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Protection sphere (Enduring
+      Protection), caster level 10th.</p>
+
+      <p>When creating a ward, you may spend 2 spell points to increase its
+      duration to permanent. A complex glyph can be made permanent as a normal
+      glyph can, except for those complex glyphs that trigger non-magical
+      traps.</p>
+
+      <p>When a permanent glyph is triggered, it uses its ward or sphere
+      ability. For abilities with a duration, the glyph activates the ability
+      and then maintains it as if it were concentrating on it for as long as the
+      trigger is satisfied. For an attack ability, the glyph attacks a randomly
+      selected creature in range of both the ability and the glyph itself once
+      per round until there are no longer any targets to attack.</p>
+
+      <p>The glyph always has an initiative equal to its caster level and does
+      not roll a d20 or add any modifiers to its initiative. To be turned into a
+      permanent glyph, a ward or other sphere ability must be usable as a
+      full-round action or shorter without costing any spell points to use. If
+      the caster has abilities that allows them to reduce spell point cost by
+      increasing casting time, they may apply them, provided the casting time
+      stays at a fullround action or less.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

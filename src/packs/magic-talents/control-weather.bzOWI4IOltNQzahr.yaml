@@ -1,0 +1,345 @@
+_id: bzOWI4IOltNQzahr
+_key: '!items!bzOWI4IOltNQzahr'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: weather
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/weather.webp
+name: Control Weather
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As a standard action, you may control all weather within medium range,
+      adjusting either the wind, temperature, or precipitation levels. If you
+      are in a confined area such as inside a building, your control only
+      extends to the edge of that space.</p>
+
+      <p>This change in weather lasts as long as you concentrate, but you may
+      always spend a spell point as a free action to allow this change to
+      continue for 1 minute per caster level without concentration. When using
+      control weather to change the weather&#8217;s severity, the change happens
+      1 level change per category per round until the desired severity is
+      reached. When the effect ends, the severity of the altered weather
+      categories returns to normal by 1 step per round.</p>
+
+      <p>If you are maintaining the effect through concentration, the effect
+      moves with you, raising and lowering the severity of unaffected or
+      no-longer affected area as described above. If it is being maintained
+      through a spell point, it remains stationary.</p>
+
+      <p>Wind has 7 steps of severity, while temperature and humidity have 13.
+      Temperature is divided between &#8216;Heat&#8217; and &#8216;Cold&#8217;,
+      each with 7 steps of severity. (If the temperature is lowered below step 1
+      of Cold, it becomes step 2 of Heat. If the temperature is lowered below
+      step 1 of Heat, it becomes step 2 of Cold.) Likewise, humidity is divided
+      between &#8216;Precipitation&#8217; and &#8216;Aridity&#8217;, which
+      follows a similar setup. An average day of no wind, no rain, and
+      unremarkable temperature is assumed to be at severity level 1 for all
+      categories.</p>
+
+      <p>At 1st caster level, you may create weather of severity level 1, 2 or
+      3. This improves by one severity level per 7 caster levels to a maximum of
+      severity level 7. You may create weather of up to this severity, or lower
+      the severity of pre-existing weather if it is within this limit. If the
+      natural weather is of a higher severity level than you can affect, you
+      cannot use control weather to alter that aspect of the weather.</p>
+
+      <p>If two casters are controlling weather in the same location and
+      affecting different categories, both effects happen normally.</p>
+
+      <p>If both casters are affecting the same category, the second caster must
+      be able to affect the weather&#8217;s new severity, and must succeed at a
+      magic skill check to wrestle control from the first caster. On the first
+      caster&#8217;s subsequent turn, if he maintains his own control weather
+      effect, he must succeed at his own magic skill check to wrestle control of
+      the weather back from the second caster. If the first caster is
+      maintaining their effect through a spell point instead of concentration
+      and the second caster succeeds at their magic skill check, the first
+      caster&#8217;s weather effect is suppressed for as long as the second
+      caster uses control weather. Once the second caster&#8217;s effect ends,
+      the first caster&#8217;s effect resumes functioning, provided its duration
+      has not already expired.</p>
+
+      <p>The following is a description of all the different effects one can
+      create with the Weather sphere. See the Pathfinder Core rulebook for more
+      details on weather and environmental effects. Depending on the terrain, a
+      GM could rule additional effects happen; rain can cause rivers or enclosed
+      spaces to flood, Cold can create ice sheets on flat terrain, etc.
+      Generally, weather conditions from different categories stack. (Thus, if
+      Wind, Cold, and Precipitation were all increased to Severity level 5, the
+      area would be under the effects of the appropriate Wind, Cold, and Snow
+      effects, all at the same time.)</p>
+
+      <p><strong>Note:</strong> It is impossible to raise weather above severity
+      level 7. However, for every effective level above severity level 7 a
+      caster&#8217;s control weather would otherwise be able to reach, all
+      numbers associated with that weather type, including DCs or penalties, are
+      increased by 1.</p>
+
+      <strong>Table: Weather Conditions</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Severity</th>
+
+      <th>Wind</th>
+
+      <th>Cold</th>
+
+      <th>Heat</th>
+
+      <th>Precipitation</th>
+
+      <th>Aridity</th>
+
+      <th>Ash</th>
+
+      <th>Vog</th>
+
+      <th>Fallout</th>
+
+      </tr>
+
+      <tr>
+
+      <td>1</td>
+
+      <td>Light</td>
+
+      <td>Cool</td>
+
+      <td>Cool</td>
+
+      <td>None</td>
+
+      <td>None</td>
+
+      <td>None</td>
+
+      <td>None</td>
+
+      <td>None</td>
+
+      </tr>
+
+      <tr>
+
+      <td>2</td>
+
+      <td>Moderate</td>
+
+      <td>Chilled</td>
+
+      <td>Warm</td>
+
+      <td>Mist</td>
+
+      <td>Dry</td>
+
+      <td>Light</td>
+
+      <td>Light</td>
+
+      <td>Light</td>
+
+      </tr>
+
+      <tr>
+
+      <td>3</td>
+
+      <td>Strong</td>
+
+      <td>Cold</td>
+
+      <td>Hot</td>
+
+      <td>Light/fog</td>
+
+      <td>Very dry</td>
+
+      <td>Moderate</td>
+
+      <td>Moderate</td>
+
+      <td>Moderate</td>
+
+      </tr>
+
+      <tr>
+
+      <td>4</td>
+
+      <td>Severe</td>
+
+      <td>Severe</td>
+
+      <td>Severe</td>
+
+      <td>Moderate</td>
+
+      <td>Parched</td>
+
+      <td>Heavy</td>
+
+      <td>Heavy</td>
+
+      <td>Heavy</td>
+
+      </tr>
+
+      <tr>
+
+      <td>5</td>
+
+      <td>Windstorm</td>
+
+      <td>Extreme</td>
+
+      <td>Extreme</td>
+
+      <td>Heavy</td>
+
+      <td>Drought</td>
+
+      <td>Very Heavy</td>
+
+      <td>Very Heavy</td>
+
+      <td>Very Heavy</td>
+
+      </tr>
+
+      <tr>
+
+      <td>6</td>
+
+      <td>Hurricane</td>
+
+      <td>Arctic</td>
+
+      <td>Burning</td>
+
+      <td>Flash flood</td>
+
+      <td>Sere</td>
+
+      <td>Suffocating</td>
+
+      <td>Suffocating</td>
+
+      <td>Withering</td>
+
+      </tr>
+
+      <tr>
+
+      <td>7</td>
+
+      <td>Tornado</td>
+
+      <td>Killing</td>
+
+      <td>Boiling</td>
+
+      <td>Great flood</td>
+
+      <td>Desiccating</td>
+
+      <td>Smothering</td>
+
+      <td>Smothering</td>
+
+      <td>Irradiating</td>
+
+      </tr>
+
+      </table>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

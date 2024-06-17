@@ -1,0 +1,115 @@
+_id: dYOX2ka1BR2ywBsV
+_key: '!items!dYOX2ka1BR2ywBsV'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fallenFey
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fallen_fey.webp
+name: Animate Hair
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Your hair grows long and animates. You may activate the following
+      abilities as fey-blessings:</p>
+
+      <p><strong>Entangling Locks:</strong> Any hostile creature must succeed on
+      a Reflex save any time it becomes or starts its turn adjacent to you. A
+      creature that fails its save cannot move away from you without first
+      succeeding on a Strength check or an Escape Artist check against your
+      sphere DC made as a move action.</p>
+
+      <p><strong>Grasping Tresses:</strong> You may use your hair to grab
+      objects. Your hair grants a slam attack (primary, 1d4 Medium, 1d3 Small,
+      bludgeoning damage), but may not assist in wielding weapons, activate
+      magic items, or wield a shield. It may hold items and as a swift action
+      you can use it to draw a sheathed or hidden weapon, ready a shield,
+      retrieve a stored item, load a crossbow, open a door, pick up an
+      unattended item within your natural reach, sheathe or store an item, or
+      take other non-offensive actions involving manipulating objects.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Fey-Blessing
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

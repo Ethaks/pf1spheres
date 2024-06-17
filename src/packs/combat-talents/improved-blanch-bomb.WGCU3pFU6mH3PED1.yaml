@@ -1,0 +1,133 @@
+_id: WGCU3pFU6mH3PED1
+_key: '!items!WGCU3pFU6mH3PED1'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: alchemy
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/alchemy.webp
+name: Improved Blanch Bomb
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You create a single use bag of fine metallic powder you can throw as a
+      ranged touch attack with a range increment of 10 feet that drastically
+      deteriorates the defenses&#8212;both manufactured and natural&#8212;of
+      those affected. Anyone standing on the square of impact or in adjacent
+      squares must attempt a Fortitude save; targets 10 feet away must also
+      succeed a Fortitude save but gain a +5 circumstance bonus. Creatures who
+      are immune to any effect that requires a Fortitude save (such as
+      constructs and undead) are not immune to the effects of this formulae.</p>
+
+      <p>Creatures that fail the save have a specific form of damage reduction
+      reduced by 2 + 1 per 5 ranks in Craft (alchemy) for 1 minute, or until
+      they wash the powder off (which ends the effect). While a creature may
+      have multiple types of damage resistance reduced with different blanch
+      bombs, multiple applications of this formulae (even from multiple sources)
+      to reduce a specific type of damage reduction do not stack, only the most
+      potent applies. You can increase the Craft DC for this item in increments
+      of 10; each time you do so, the area of effect increases by 5 ft., and all
+      saving throw DCs increase by +2.</p>
+
+      <p>The types of damage reduction that may be reduced are determined by the
+      Craft DC used for its creation:</p>
+
+      <ul>
+
+      <li><strong>DC 20:</strong> damage reduction/magic</li>
+
+      <li><strong>DC 25:</strong> damage reduction/cold iron or damage
+      reduction/silver (chosen at the time of creation)</li>
+
+      <li><strong>DC 30:</strong> damage reduction/adamantine</li>
+
+      <li><strong>DC 35:</strong> damage reduction/alignment-based (chosen at
+      the time of creation)</li>
+
+      </ul>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Formulae
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

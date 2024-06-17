@@ -1,0 +1,115 @@
+_id: 5HQaMGd4GoCSZYVw
+_key: '!items!5HQaMGd4GoCSZYVw'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fallenFey
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fallen_fey.webp
+name: Natural Dominion
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Choose one of the following creature types: animal, plant, or vermin.
+      As a standard action you may command one creature of that type within 30
+      feet of you whose CR does not exceed your caster level. If the creature
+      fails a Will save, its disposition toward you increases to helpful for the
+      duration of the fey-blessing. Mindless creatures and creatures of animal
+      intelligence (Intelligence 2 or lower) can be given simple commands as a
+      swift action and will obey your orders even if dangerous or suicidal.
+      Creatures of higher intelligence will fight for you and defend you, but
+      will not obey suicidal orders. You may have multiple instances of this
+      fey-blessing active simultaneously, but you may only command a single
+      creature at a time; attempting to command a new creature, even of a
+      different type, dismisses your influence on any previous creature,
+      returning it to its previous disposition. This is a mind-affecting
+      compulsion that bypasses the type-based immunity to mind-affecting effects
+      granted by the plant and vermin types. A creature that succeeds on its
+      save against this ability becomes immune to that caster&#8217;s use of it
+      for 24 hours.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Fey-Blessing
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,124 @@
+_id: ZtjatBSTuYYKoisx
+_key: '!items!ZtjatBSTuYYKoisx'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: athletics
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/athletics.webp
+name: Afterimage
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Athletics sphere.</p>
+
+      <p>When moving more than 5 ft. during your turn using the movement mode
+      corresponding to a package you possess, the speed of your motion causes
+      you to leave behind an afterimage, which may foil your foe&#8217;s
+      attacks. If you move more than 20 ft., you may expend your martial focus
+      as a free action to leave behind an additional afterimage. These
+      afterimages disappear at the start of your next turn. For every 6 ranks in
+      Acrobatics you possess, you may leave an additional afterimage.</p>
+
+      <p>Whenever you are attacked or are the target of a spell that requires an
+      attack roll, there is a possibility that the attack targets one of your
+      afterimages instead. If the attack is a hit, roll randomly to see whether
+      the selected target is real or an afterimage.</p>
+
+      <p>If it is an afterimage, the afterimage is destroyed. If the attack
+      misses by 5 or less, one of your afterimages is destroyed by the near
+      miss. Area spells affect you normally and do not destroy any of your
+      afterimages. Spells and effects that do not require an attack roll affect
+      you normally and do not destroy any of your afterimages. Spells that
+      require a touch attack are harmlessly discharged if used to destroy an
+      afterimage.</p>
+
+      <p>An attacker must be able to see the afterimages to be fooled. If you
+      are invisible or the attacker is blind, this ability has no effect
+      (although the normal miss chances still apply).</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Motion
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

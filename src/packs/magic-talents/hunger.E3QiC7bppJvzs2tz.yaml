@@ -1,0 +1,109 @@
+_id: E3QiC7bppJvzs2tz
+_key: '!items!E3QiC7bppJvzs2tz'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: death
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/death.webp
+name: Hunger
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may spend a spell point to make a ghost strike that saps a creature
+      of its energy (Will negates). On a failed save, the subject is fatigued
+      and takes nonlethal damage equal to 1d8 per caster level. This is
+      considered starvation damage, and as such the fatigue and nonlethal damage
+      cannot be healed, even by magic, until the target consumes some sort of
+      food (a standard action, assuming the food is on hand and need not be dug
+      out of a backpack first). If no food is available, the target begins to
+      attempt Constitution checks per day as normal for starvation.</p>
+
+      <p>Multiple applications of hunger do not stack; only the highest
+      nonlethal damage applies.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Ghost Strike
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

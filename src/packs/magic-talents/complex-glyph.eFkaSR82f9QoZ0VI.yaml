@@ -1,0 +1,127 @@
+_id: eFkaSR82f9QoZ0VI
+_key: '!items!eFkaSR82f9QoZ0VI'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: protection
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/protection.webp
+name: Complex Glyph
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Protection sphere (Glyph), caster level
+      5th.</p>
+
+      <p>When you create a glyph, you may substitute an ability that you possess
+      from another sphere in place of a ward.</p>
+
+      <p>This ability must either target an area, or must have the ability to
+      attack creatures. When triggered, the glyph activates the ability. For an
+      ability with a duration, it lasts for 1 round per caster level (even if
+      the original duration of the ability was longer), while an instantaneous
+      ability activates once against whomever triggered the glyph, or a random
+      target within range if that is not applicable. You must pay the full spell
+      point cost of the sphere ability the glyph contains. You do not need to
+      pay a spell point to maintain an effect without concentration - the glyph
+      maintains the effect as if it were concentrated on. A glyph cannot discern
+      automatically between allies and enemies; only those who trigger them and
+      those who have not. This extends to the substitute effects which normally
+      would be able to distinguish between allies and enemies.</p>
+
+      <p>If you possess the Cantrips feat, you may use any simple magical effect
+      the Cantrips feat can create (such as a simple alarm, or having an
+      illusionary mouth appear and deliver a short message) with the glyph
+      instead of a sphere ability. Counterspell may also be substituted for a
+      sphere ability. Similarly, you may add a non-magical trap (such as those
+      constructed with the Craft skill) to a glyph in place of a sphere
+      ability.</p>
+
+      <p>A complex glyph uses your caster level with the sphere of the sphere
+      ability to determine the effect of the sphere ability, but uses your
+      Protection caster level to determine its own properties.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

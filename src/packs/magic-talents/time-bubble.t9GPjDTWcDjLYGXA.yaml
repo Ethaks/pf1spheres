@@ -1,0 +1,117 @@
+_id: t9GPjDTWcDjLYGXA
+_key: '!items!t9GPjDTWcDjLYGXA'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: time
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/time.webp
+name: Time Bubble
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may spend a spell point to create a bubble of distorted time around
+      yourself that extends outward in a sphere with a radius of up to 15-foot +
+      5 feet per 5 caster levels. This sphere lasts for 1 round per caster level
+      and moves with you, remaining centered around you at all times. Time
+      passing within this sphere moves at a different rate than time outside,
+      granting all creatures within the sphere partial concealment from attacks
+      originating from outside the sphere. If a creature occupies a space both
+      within the sphere and without (such as a Large or larger creature),
+      creatures within the sphere do not gain partial concealment against its
+      attacks, but the creature takes 1d8 damage per two caster levels as its
+      body is torn apart by conflicting temporal forces. This damage occurs when
+      the creature first enters the spaces within and without the time bubble,
+      and at the start of their turn each round they remain within the affected
+      area. Creatures cannot be damaged by this effect more than once per round.
+      You may spend an additional spell point when you create this sphere to
+      apply the effects of the Haste or Slow abilities (including the effects
+      from Improved Haste or Improved Slow) to all creatures within the
+      sphere&#8217;s affected area; you may choose at the time of casting
+      whether or not to subject yourself to these additional effects.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Time
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

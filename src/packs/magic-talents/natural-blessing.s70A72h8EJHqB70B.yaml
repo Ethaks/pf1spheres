@@ -1,0 +1,112 @@
+_id: s70A72h8EJHqB70B
+_key: '!items!s70A72h8EJHqB70B'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fallenFey
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fallen_fey.webp
+name: Natural Blessing
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may activate the following abilities as fey-blessings:</p>
+
+      <p><strong>Animal Blessing:</strong> All friendly creatures of the animal
+      type within 30 feet of you gain a +1 luck bonus to all saving throws. This
+      bonus increases by +1 for every 5 caster levels you possess.</p>
+
+      <p><strong>Plant Blessing:</strong> All friendly creatures with the plant
+      type within 30 feet of you gain a +1 luck bonus to all saving throws. This
+      bonus increases by +1 for every 5 caster levels you possess.</p>
+
+      <p><strong>Vermin Blessing:</strong> All friendly creatures with the
+      vermin type within 30 feet of you gain a +1 luck bonus to all saving
+      throws. This bonus increases by +1 for every 5 caster levels you
+      possess.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Fey-Blessing
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

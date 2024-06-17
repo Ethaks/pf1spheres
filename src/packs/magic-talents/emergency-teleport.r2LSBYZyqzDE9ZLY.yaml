@@ -1,0 +1,105 @@
+_id: r2LSBYZyqzDE9ZLY
+_key: '!items!r2LSBYZyqzDE9ZLY'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: warp
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/warp.webp
+name: Emergency Teleport
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may spend a spell point to perform a teleport as an immediate
+      action. The range is decreased to 5 feet per 2 caster levels (minimum 5
+      feet) and cannot be coupled with talents that would increase its range. If
+      used to avoid an attack or area effect (or to move the attacker), this
+      grants the defender evasion and a dodge bonus to AC and Reflex saves equal
+      to half your caster level (minimum 1). You cannot touch a target as part
+      of this teleport, but you may affect another creature if you are already
+      touching them.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

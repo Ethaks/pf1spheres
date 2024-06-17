@@ -1,0 +1,120 @@
+_id: 0kpsySD4d1qliKz5
+_key: '!items!0kpsySD4d1qliKz5'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: telekinesis
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/telekinesis.webp
+name: Affix
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Telekinesis sphere (Effortless
+      Telekinesis (advanced), Idle Concentration), caster level 10th</p>
+
+      <p>By spending two spell points, you may permanently affix a single object
+      you are lifting with your telekinesis to a specific point in space. This
+      is an instantaneous effect that binds the object to that specific point,
+      preventing it from moving in any direction even due to gravity.</p>
+
+      <p>An unwilling creature lifted through the use of Hostile Lift gains an
+      immediate opportunity to break your telekinetic hold with a Will save. If
+      the save fails they remain held by your telekinesis, and must attempt a
+      Reflex save to avoid being fixed in place permanently with no further
+      saves. A creature affected by Affix can still take actions and can freely
+      move their limbs, but cannot move away from the point they have been
+      affixed to, even with teleportation effects.</p>
+
+      <p>Since this is an instantaneous effect, it cannot be dispelled. However,
+      a successful application of telekinesis or brute force can break an object
+      free with a magic skill check or Strength check against your MSD + 4. If
+      applying your own telekinesis against an object you have affixed, you
+      automatically succeed on your magic skill check. This effect can also be
+      ended by the Make Whole advanced talent from the Life sphere, the Freedom
+      (word) from the Fate sphere, or the freedom of movement spell.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

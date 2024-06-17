@@ -1,0 +1,209 @@
+_id: ThCAeYvyMwxG36NV
+_key: '!items!ThCAeYvyMwxG36NV'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: mana
+folder: null
+img: icons/svg/item-bag.svg
+name: Spellburn
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may spend a spell point and attempt a magic skill check against
+      your target. If successful, you burn a number of spell points from the
+      target&#8217;s spell pool, removing it from their spell pool as if they
+      had used the spell point themselves (although this does not trigger
+      effects that rely on spell points being spent, such as drawbacks from the
+      target&#8217;s casting tradition, or the triggering of wild magic). The
+      amount of spell points burned starts 1d3 and increases at 5th level and
+      every four caster levels thereafter (up to a maximum of 3d6 at 25th caster
+      level), as listed under Table: Burn Dice.</p>
+
+      <strong>Table: Burn Dice</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Caster Level</th>
+
+      <th>Burn Size</th>
+
+      </tr>
+
+      <tr>
+
+      <td>1st</td>
+
+      <td>1d3</td>
+
+      </tr>
+
+      <tr>
+
+      <td>5th</td>
+
+      <td>1d4</td>
+
+      </tr>
+
+      <tr>
+
+      <td>9th</td>
+
+      <td>1d6</td>
+
+      </tr>
+
+      <tr>
+
+      <td>13th</td>
+
+      <td>2d4</td>
+
+      </tr>
+
+      <tr>
+
+      <td>17th</td>
+
+      <td>2d6</td>
+
+      </tr>
+
+      <tr>
+
+      <td>21st</td>
+
+      <td>3d4</td>
+
+      </tr>
+
+      <tr>
+
+      <td>25th</td>
+
+      <td>3d6</td>
+
+      </tr>
+
+      </table>
+
+      <p><strong>Note:</strong> The expunge ability is created with the
+      intention of being used upon other spellcasters that utilize the Spheres
+      of Power system of magic, but can be made to work with other systems of
+      magic as well. When used against a spellcaster that utilizes the core
+      system of magic in the Pathfinder Roleplaying Game, a GM may allow it to
+      burn spell slots or spells prepared. To calculate which spells are
+      affected, total the number of spell points burned. The caster suffering
+      from the Spellburn talent may then choose an amount of spell slots or
+      prepared spells to lose. They must choose an amount of spells that amount
+      to the points cost, following this list to determine the value of each
+      spell level in spell points:</p>
+
+      <p><strong>Level 1-2:</strong> 1 spell point, <strong>Level 3-5:</strong>
+      2 spell points, <strong>Level 6-8:</strong> 3 spell points, <strong>Level
+      9:</strong> 4 spell points.</p>
+
+      <p>If there is an amount of spell points remaining that the spellcaster
+      cannot sacrifice spells of a level to make up for without going above the
+      amount (for example, only losing 1 spell point but not having any 1st or
+      2nd level spell slots/prepared spells left), they may ignore the remainder
+      without sacrificing additional spell slots. When used on creatures with
+      psionic manifesting (Psionics Unleashed by Dreamscarred Press), the
+      creature loses a number of power points equal to the number of spell
+      points that would have been lost multiplied by 1 + its Hit Dice/4.</p>
+
+      <h2 id="toc2"><span>Manipulation</span></h2>
+
+      <p>You learn to bend the rules of magic to your advantage. As a standard
+      action, you may use any (manipulation) that you possess, up to a range of
+      close. You must remain within this range when maintaining a (manipulation)
+      through concentration. When you gain the Mana sphere, you gain the
+      following (manipulation):</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

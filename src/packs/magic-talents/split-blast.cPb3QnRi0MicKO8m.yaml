@@ -1,0 +1,118 @@
+_id: cPb3QnRi0MicKO8m
+_key: '!items!cPb3QnRi0MicKO8m'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: destruction
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/destruction.webp
+name: Split Blast
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Destruction sphere (Admixture, Blast
+      Salvo (blast shape)).</p>
+
+      <p>When you use Admixture in conjunction with the Blast Salvo blast shape,
+      you may cause some of the surges to use one blast type used in the
+      Admixture while other surges use the other blast type. For example, a
+      character who uses Admixture with Fire Blast and Numbing Blast talents
+      could fire one surge that deals fire damage and causes a target to catch
+      on fire as well as a second surge that deals cold damage and causes the
+      target to take a penalty on Fortitude saves.</p>
+
+      <p>This talent may be used in conjunction with Admixture feats, in which
+      case any surge which applies the effect of a sphere besides the
+      Destruction sphere may either deal bludgeoning damage as a basic
+      destructive blast with no blast type or deal no damage but count as a
+      surge of 1 die (chosen when the surge is fired).</p>
+
+      <p>When using Admixture in conjunction with this talent to fire a blast
+      salvo in which each surge only carries a single blast type, you may spend
+      2 spell points to fire one additional surge plus another per three caster
+      levels rather than per six caster levels.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

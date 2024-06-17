@@ -1,0 +1,123 @@
+_id: 5exBBfZaEIKkJS0N
+_key: '!items!5exBBfZaEIKkJS0N'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: blood
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/blood.webp
+name: Union Of Blood
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Blood sphere, caster level 10th.</p>
+
+      <p>By spending 10 minutes and 3 spell points, you may complete a complex
+      ritual with two willing targets who could be placed under your blood
+      control, entwining their life forces. The targets of this effect combine
+      and share their hit point total, with current and maximum hit points equal
+      to the combined total of both targets. Any effect that changes the hit
+      point total of either target (such as damage, healing, or changes to
+      Constitution) changes this combined total. Temporary hit points are not
+      shared by this effect, and effects which would delay or prevent incoming
+      damage function normally (e.g. the Guardian sphere delayed damage pool
+      would delay damage to the target as normal. When the delayed damage is
+      emptied from the delayed damage pool it would then subtracted from the
+      combined hit point total).</p>
+
+      <p>This is a permanent effect which automatically ends if any of the
+      targets die, the effect is dispelled, or the hit point total is reduced to
+      0 or less. If the hit point total is reduced to 0 or less, the targets are
+      left with current hit points equal to the combined hit point total when
+      the effect ended (e.g. if the hit point total is reduced to -5 by an
+      attack, the effect ends and each creature would be left with -5 hit
+      points). If this effect would otherwise end prematurely, such as a target
+      dying to a death effect or the effect being dispelled, each creature is
+      left with a number of hit points equal to the hit point total divided by
+      the number of targets. If you possess the Mass Blood Magic talent, you may
+      include an additional target per 2 caster levels.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

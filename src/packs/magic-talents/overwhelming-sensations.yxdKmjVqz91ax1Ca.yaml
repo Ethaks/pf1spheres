@@ -1,0 +1,158 @@
+_id: yxdKmjVqz91ax1Ca
+_key: '!items!yxdKmjVqz91ax1Ca'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: illusion
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/illusion.webp
+name: Overwhelming Sensations
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As a trick you may force a target to succeed at a Will save or suffer
+      extreme sensation for one round per two caster levels (minimum 1). Select
+      one of the effects on Table: Overwhelming Sensations based on what sensory
+      talents you possess.</p>
+
+      <strong>Table: Overwhelming Sensations</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Sense</th>
+
+      <th>Effect</th>
+
+      </tr>
+
+      <tr>
+
+      <td>Magic</td>
+
+      <td>Treat your caster level as 5 higher when creating, but not concealing
+      or modifying, auras using the Manipulate Aura trick.</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Odor</td>
+
+      <td>Sickened</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Sight</td>
+
+      <td>Dazzled, this becomes staggered for 1 round if the target is already
+      dazzled.</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Sound</td>
+
+      <td>Shaken, this becomes frightened for 1 round if the target is already
+      shaken.</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Touch</td>
+
+      <td>Fatigued</td>
+
+      </tr>
+
+      </table>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

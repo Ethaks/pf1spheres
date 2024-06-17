@@ -1,0 +1,122 @@
+_id: dDOzEfXI8HhNvXe7
+_key: '!items!dDOzEfXI8HhNvXe7'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: conjuration
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/conjuration.webp
+name: Ooze Companion
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Your companion mimics the properties of oozes. The companion gains the
+      ooze creature type. Your companion can move through an area as small as
+      one-quarter its space without squeezing or one-eighth its space when
+      squeezing. The companion gains moderate fortification.</p>
+
+      <p>You may take this talent twice for a given companion. If taken twice,
+      your companion gains heavy fortification, and your companion can engulf
+      creatures in its path. As a standard action, the companion may move up to
+      its speed and attempt to engulf any creature smaller than itself that is
+      in its path. It cannot make other attacks during a round in which it
+      engulfs. The companion merely has to move over its opponents, affecting as
+      many as it can cover.</p>
+
+      <p>Targeted creatures can make attacks of opportunity against the
+      companion, but if they do so, they are not entitled to a saving throw
+      against the engulf attack. Those who do not attempt attacks of opportunity
+      can attempt a Reflex save (DC 10 + 1/2 Hit Dice + Strength modifier) to
+      avoid being engulfed&#8212;on a success, they are pushed back or aside
+      (companion&#8217;s choice) as the companion moves forward. Engulfed
+      creatures gain the pinned condition, are in danger of suffocating, are
+      trapped within the companion&#8217;s body until they are no longer pinned,
+      and take slam damage from the companion each round (1d4 Medium, 1d3 Small
+      if no slam attack is possessed). An engulfed creature may attempt to
+      escape as if escaping a pin.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Type
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

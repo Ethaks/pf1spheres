@@ -1,0 +1,122 @@
+_id: M7AfDfv9A7ohNPOm
+_key: '!items!M7AfDfv9A7ohNPOm'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: athletics
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/athletics.webp
+name: Wall Stunt
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>If you possess the (leap) package, when jumping or falling, you may
+      make an Acrobatics check to jump as a swift action, provided there is a
+      solid surface other than a ceiling (wall, floor, etc.) adjacent to you at
+      that point. You may treat spaces occupied by creatures of your size or
+      larger as containing such an object but your movement provokes attacks of
+      opportunity as normal. Any fall damage that would be incurred is
+      calculated after removing the height of the swift action jump.</p>
+
+      <p>If you possess the (run) package, as long as there is a wall adjacent
+      to you, you may run along the wall for all or part of your movement,
+      including vertically. A square of vertical movement costs two squares of
+      movement. You may treat spaces occupied by creatures of your size or
+      larger as containing a wall, but your movement provokes attacks of
+      opportunity as normal. Doing so bypasses any obstacle on the ground. You
+      must end your movement on the ground as normal; if there is no ground
+      present, you fall.</p>
+
+      <p>If you also possess the (climb) package, you may attempt to cling to
+      the wall at the end of your movement. If you possess the (leap) package,
+      you may make Acrobatics checks to jump as part of this movement as normal.
+      If you possess the Mobile Striker talent, you can kick off of a wall for
+      the rest of your movement, gaining a +1 circumstance bonus to your damage
+      roll if you make an attack while airborne. For every 5 ranks in Acrobatics
+      you possess, this bonus increases by +1.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Leap Or Run
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

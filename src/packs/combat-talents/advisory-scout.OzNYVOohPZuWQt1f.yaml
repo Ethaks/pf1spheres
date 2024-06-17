@@ -1,0 +1,108 @@
+_id: OzNYVOohPZuWQt1f
+_key: '!items!OzNYVOohPZuWQt1f'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: scout
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/scout.webp
+name: Advisory Scout
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may scout a creature as a standard action, simultaneously scouting
+      the creature and informing your allies of what you found. Allies within 60
+      feet that can hear you or otherwise communicate with you gain the benefits
+      of your scout ability against the scouted creature for 1 round, plus 1
+      additional round per 4 ranks in Perception.</p>
+
+      <p><strong>Author's Note:</strong> Advisory Scout shares the benefits of
+      "passive" Scout sphere talents, such as Find Gap and Identify Rhythms.
+      This talent does not share Scout sphere talents which grant active
+      abilities against scouted targets (such as Target Weakness) or other
+      non-Scout sphere abilities which would augment the scout ability.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

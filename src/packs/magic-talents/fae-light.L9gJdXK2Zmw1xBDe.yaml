@@ -1,0 +1,119 @@
+_id: L9gJdXK2Zmw1xBDe
+_key: '!items!L9gJdXK2Zmw1xBDe'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fallenFey
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fallen_fey.webp
+name: Fae Light
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You shed light like a torch. You may alter the color, extinguish, or
+      resume this effect as a free action. If you possess the Light sphere, you
+      may count as being under the effects of your own glow while this
+      fey-blessing is active.</p>
+
+      <p>As a standard action, you may create a light that sheds light like a
+      torch within medium range. You may move this light 30 feet + 5 feet per 2
+      caster levels per round as a move action, though it must stay within range
+      of you. This light persists for the duration of the fey-link or until you
+      create another one.</p>
+
+      <p>You may choose to have either your light or the moveable light shed an
+      enchanting glow. Creatures within a 30-foot radius of the light must
+      succeed on a Will save or be fascinated. A creature that successfully
+      saves is immune to your use of this ability for 24 hours. If a creature
+      fails its saving throw, it approaches to stand adjacent to the light and
+      follows it if it moves. As normal, fascinated creatures suffer a -4
+      penalty to Perception, but cease to be fascinated if attacked or
+      approached with an obviously hostile intent, such as someone drawing a
+      weapon. This is a mind-affecting effect. You may alter the color or
+      dismiss the light as a free action.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Fey-Blessing
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

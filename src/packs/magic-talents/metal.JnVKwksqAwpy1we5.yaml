@@ -1,0 +1,452 @@
+_id: JnVKwksqAwpy1we5
+_key: '!items!JnVKwksqAwpy1we5'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: nature
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/nature.webp
+name: Metal
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Magnetize:</strong> Instantaneous, requires metal. As a
+      standard action, you may cause a creature or object within your geomancing
+      range consisting mostly of metal whose size is not larger than your
+      maximum Recover Ore size to fly towards a creature or object of your
+      choice within your geomancing range.</p>
+
+      <p>This can only be used on unattended objects, attended objects from
+      willing creatures, or willing creatures consisting mostly of metal. You
+      may choose to throw the item harmlessly (in which case it can either be
+      caught by the target or else lands in an adjacent square), or you may use
+      this as a ranged attack action. This counts as a ranged attack, except you
+      must use your casting ability modifier in place of Dexterity.</p>
+
+      <p>If successful, you deal either the object&#8217;s &#8216;ore
+      damage&#8217;, or if it is a weapon, the weapon&#8217;s damage (arrows and
+      bolts with metal tips count as daggers for this purpose, dealing 1d4
+      damage). Despite the name of this ability, the target object or creature
+      need not be made of metal.</p>
+
+      <p><strong>Recover Ore:</strong> Instantaneous, requires dirt or sand. As
+      a standard action, you may create a piece of metal ore by pulling and
+      combining particles of metal from the ground. You must spend a spell point
+      to use this ability, and must have a large enough piece of earth (sand or
+      dirt) to pull the ore from. This piece of ore can be brass, bronze,
+      copper, or tin, and the size of the ore recovered depends both on your
+      caster level and the square footage of earth you pull from.</p>
+
+      <p>The piece of ore you recover is formed on the ground in an unoccupied
+      space within range and can be of any basic shape (a ball, a rod, a sheet,
+      even a chair) but cannot be anything complex or with moving parts. You may
+      also pull multiple pieces of ore placed in different adjacent squares, so
+      long as their combined size does not exceed your maximum, and each piece
+      of recovered ore must be of the same type (such as copper or tin). For
+      these purposes, 2 Fine-sized pieces of ore equals 1 Diminutive-sized
+      piece, etc.</p>
+
+      <p>While this effect is instantaneous and thus cannot be dispelled, ore
+      breaks back into particles after 1 hour per caster level. If a piece of
+      ore is used as a weapon, it counts as an improvised weapon, dealing either
+      bludgeoning, piercing, or slashing damage, chosen at the time of Recovery.
+      The damage such a weapon deals is listed as &#8216;ore damage&#8217; in
+      the chart below. As always, improvised weapons bestow a -4 penalty to
+      attack rolls.</p>
+
+      <strong>Table: Metal Types</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Metal</th>
+
+      <th>Hit Points</th>
+
+      <th>Hardness</th>
+
+      </tr>
+
+      <tr>
+
+      <td>Brass</td>
+
+      <td>20/in. thickness</td>
+
+      <td>9</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Bronze</td>
+
+      <td>20/in. thickness</td>
+
+      <td>9</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Cold iron</td>
+
+      <td>30/in. thickness</td>
+
+      <td>10</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Copper</td>
+
+      <td>20/in. thickness</td>
+
+      <td>9</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Iron</td>
+
+      <td>30/in. thickness</td>
+
+      <td>10</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Lead</td>
+
+      <td>30/in. thickness</td>
+
+      <td>10</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Mithral</td>
+
+      <td>30/in. thickness</td>
+
+      <td>15</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Silver</td>
+
+      <td>10/in. thickness</td>
+
+      <td>8</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Steel</td>
+
+      <td>30/in. thickness</td>
+
+      <td>10</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Tin</td>
+
+      <td>20/in. thickness</td>
+
+      <td>9</td>
+
+      </tr>
+
+      </table>
+
+      <strong>Table: Recover Ore</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Minimum Caster Level</th>
+
+      <th>Required Earth to Pull From</th>
+
+      <th>Ore Size Recovered</th>
+
+      <th>Ore Damage</th>
+
+      <th>Ore Weight (maximum)</th>
+
+      <th>Sample Item*</th>
+
+      </tr>
+
+      <tr>
+
+      <td>1</td>
+
+      <td>1-ft. cube</td>
+
+      <td>Fine</td>
+
+      <td>1</td>
+
+      <td>.8 lbs.</td>
+
+      <td>Lockpick or nail</td>
+
+      </tr>
+
+      <tr>
+
+      <td>1</td>
+
+      <td>5-ft. cube</td>
+
+      <td>Diminutive</td>
+
+      <td>1d2</td>
+
+      <td>1&#160;lb.</td>
+
+      <td>Bolt, dagger, or shuriken</td>
+
+      </tr>
+
+      <tr>
+
+      <td>1</td>
+
+      <td>10-ft. cube</td>
+
+      <td>Tiny</td>
+
+      <td>1d3</td>
+
+      <td>8 lbs.</td>
+
+      <td>Candelabra, light mace, or shortsword</td>
+
+      </tr>
+
+      <tr>
+
+      <td>2</td>
+
+      <td>25-ft. cube</td>
+
+      <td>Small</td>
+
+      <td>1d4</td>
+
+      <td>60 lbs.</td>
+
+      <td>Heavy mace, heavy shield, or longsword</td>
+
+      </tr>
+
+      <tr>
+
+      <td>4</td>
+
+      <td>50-ft. cube</td>
+
+      <td>Medium</td>
+
+      <td>1d6</td>
+
+      <td>500 lbs.</td>
+
+      <td>Bed, cage, greatsword or table</td>
+
+      </tr>
+
+      <tr>
+
+      <td>8</td>
+
+      <td>75-ft. cube</td>
+
+      <td>Large</td>
+
+      <td>1d8</td>
+
+      <td>4,000 lbs.</td>
+
+      <td>Life-sized statue</td>
+
+      </tr>
+
+      <tr>
+
+      <td>16</td>
+
+      <td>125-ft. cube</td>
+
+      <td>Huge</td>
+
+      <td>2d6</td>
+
+      <td>16 tons</td>
+
+      <td>Wagon</td>
+
+      </tr>
+
+      <tr>
+
+      <td>32</td>
+
+      <td>350-ft. cube</td>
+
+      <td>Gargantuan</td>
+
+      <td>3d6</td>
+
+      <td>125 tons</td>
+
+      <td>Catapult</td>
+
+      </tr>
+
+      <tr>
+
+      <td>64</td>
+
+      <td>500-ft. cube</td>
+
+      <td>Colossal</td>
+
+      <td>4d6</td>
+
+      <td>2,500 tons</td>
+
+      <td>Ship</td>
+
+      </tr>
+
+      </table>
+
+      <p>*Sample items listed are sized for a Medium-sized creature; modify the
+      object size accordingly for objects sized for smaller or larger
+      creatures.</p>
+
+      <p><span style="text-decoration: underline;">The Value of Recovered
+      Ore:</span> Ore recovered through the (metal) package from the Nature
+      sphere is of poor quality and degrades quickly, making it impossible to
+      simply create and sell. However, players who possess a metal-based Craft
+      of Profession skill such as Craft (weapons) or Profession (blacksmith) can
+      heat and purify this ore to make it workable. This allows such a character
+      to attempt Craft or Profession checks to earn a wage even without the
+      presence of a market or workshop to work in. Rather than earning money,
+      the check instead creates an amount of raw materials equal to that day or
+      week&#8217;s wage, which may be sold later or used as raw materials for
+      any metal-based crafting.</p>
+
+      <p><strong>Reforge:</strong> Instantaneous, requires metal. As a standard
+      action, you may spend a spell point to cause an unattended object (or
+      object that you are holding) consisting mostly of metal whose size is not
+      larger than your maximum Recover Ore size to be reshaped into a different
+      object of the same size. For example, you could reshape a longsword into a
+      mace. You may not reshape metal objects into forms with complex moving
+      parts.</p>
+
+      <p>If targeting a magical item, the effect is not instantaneous, but lasts
+      for only 1 minute before the object reverts to its original form. If
+      reshaping a magical item would make it no longer qualify for specific
+      enhancements, those enhancements are suppressed for the effect&#8217;s
+      duration. Reforge does not function on artifacts.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

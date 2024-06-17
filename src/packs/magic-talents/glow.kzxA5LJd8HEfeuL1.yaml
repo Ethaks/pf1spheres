@@ -1,0 +1,119 @@
+_id: kzxA5LJd8HEfeuL1
+_key: '!items!kzxA5LJd8HEfeuL1'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: light
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/light.webp
+name: Glow
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As a standard action, you may cause an object or creature in medium
+      range to glow for 1 minute per caster level, outlining it with light as a
+      candle, which may be of any color you wish. This requires a touch attack
+      or ranged touch attack, and is subject to spell resistance. The object or
+      creature becomes outlined with light, giving it a -20 penalty on Stealth
+      checks and negating all bonuses usually bestowed by invisibility, blink
+      effects, darkness, or similar effects.</p>
+
+      <p>As a free action, you may cause any creature or object you have caused
+      to glow that is within medium range to shed light as a torch, shedding
+      normal light to 20 feet and increasing the light level by one step to a
+      maximum of normal for 20 feet beyond this. Reducing this light is also a
+      free action.</p>
+
+      <p>Whenever a glow effect interacts with a magical darkness effect (such
+      as from the Dark sphere) the caster of the glow effect must succeed at a
+      magic skill check against the MSD of the darkness effect&#8217;s caster.
+      If he succeeds, the Light effect functions normally. If he fails, the Dark
+      effect functions normally (outlines are swallowed, light sources are
+      hampered, etc.). An area filled with normal or bright light from a glow
+      effect is no longer considered an area of darkness for Dark sphere
+      abilities.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

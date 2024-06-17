@@ -1,0 +1,116 @@
+_id: QsDUexRdPAhrY5D6
+_key: '!items!QsDUexRdPAhrY5D6'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: alchemy
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/alchemy.webp
+name: Improved Acid Flask
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Craft DC:</strong> 15</p>
+
+      <p>You create a flask of acid that functions as a splash weapon you can
+      use as a ranged touch attack with a range increment of 10 ft., dealing 1d6
+      acid damage +1d6 per two Craft (alchemy) ranks you possess to the target
+      of a direct hit, half that damage to targets 5 ft. away from the point of
+      contact, and 1 point of acid splash damage per die of damage this weapon
+      deals on a direct hit to targets 10 ft. away from the point of contact (to
+      a maximum of half the damage dealt to the primary target). Targets who
+      take at least 2 points of acid damage from the initial attack take half
+      the total damage again on the following round.</p>
+
+      <p>You can increase the Craft DC for this weapon in increments of 10; each
+      time you do so, the range for each damage increment increases by 5 ft.
+      (for example, if you increase the Craft DC to 25, you would deal full
+      damage to all targets within 5 ft. of the point of contact, half damage to
+      all targets 10 ft. away from the point of contact, and 1 point of damage
+      to all creatures within 15 ft.).</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Formulae
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

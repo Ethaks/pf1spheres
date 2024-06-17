@@ -1,0 +1,110 @@
+_id: Yf0bBJZFKF5FqazK
+_key: '!items!Yf0bBJZFKF5FqazK'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: brute
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/brute.webp
+name: Muscular Surge
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As a move action, you gain a bonus equal to 1/2 your base attack bonus
+      (minimum 1) on Acrobatics checks made to jump, to all Strength checks and
+      Strength-based skill checks, as well as to your Strength for determining
+      your carrying capacity, for a number of rounds equal to your Constitution
+      modifier. This does not apply to combat maneuver checks nor attack and
+      damage rolls. You are fatigued for 1d4 rounds after the duration ends,
+      even if you would normally be immune to fatigue. If you are fatigued when
+      you begin or end this effect, you are instead exhausted. If you are
+      already exhausted, you cannot use this ability.</p>
+
+      <p>If you expend your martial focus, this bonus increases to become equal
+      to your full base attack bonus, but automatically leaves you exhausted for
+      1d4 rounds afterward.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

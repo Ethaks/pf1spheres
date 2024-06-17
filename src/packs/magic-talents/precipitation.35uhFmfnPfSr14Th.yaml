@@ -1,0 +1,256 @@
+_id: 35uhFmfnPfSr14Th
+_key: '!items!35uhFmfnPfSr14Th'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: weather
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/weather.webp
+name: Precipitation
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Precipitation has the most severe interaction with the other weather
+      categories, as the conditions change depending on the temperature and
+      wind.</p>
+
+      <p>When combined with Cold severity 4 or higher, snow effects are added to
+      rain effects. When combined with Wind severity 4 or higher, storm effects
+      are added to the rain effects. When combined with both Cold severity 4 and
+      Wind severity 4, this results in rain, snow, and storm effects. Mist and
+      fog are the exceptions to this, as they only appear when rain is not
+      combined with either snow nor storm.</p>
+
+      <p>Severity of the snow or storm effects depends on the severity of the
+      Precipitation, not the severity of the Wind or Cold.</p>
+
+      <p><strong>Note:</strong> While water freezes at Cold severity 3, magic
+      cannot cause rain to instantly become snow as it falls until severity
+      level 4, since the magical water/cold is only augmenting the natural
+      process, not replacing it.</p>
+
+      <strong>Table: Precipitation Severity</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Level</th>
+
+      <th>Rain Effects</th>
+
+      <th>Combined with Cold 4 and higher (Snow Effects)</th>
+
+      <th>Combined with Winds 4 and higher (Storm Effects)</th>
+
+      </tr>
+
+      <tr>
+
+      <td>1</td>
+
+      <td>None</td>
+
+      <td>None</td>
+
+      <td>None</td>
+
+      </tr>
+
+      <tr>
+
+      <td>2</td>
+
+      <td>Mist</td>
+
+      <td>Light frost</td>
+
+      <td>Mist</td>
+
+      </tr>
+
+      <tr>
+
+      <td>3</td>
+
+      <td>Light/fog</td>
+
+      <td>Snow</td>
+
+      <td>Light storm</td>
+
+      </tr>
+
+      <tr>
+
+      <td>4</td>
+
+      <td>Moderate</td>
+
+      <td>Heavy snow</td>
+
+      <td>Storm</td>
+
+      </tr>
+
+      <tr>
+
+      <td>5</td>
+
+      <td>Heavy</td>
+
+      <td>Blizzard</td>
+
+      <td>Powerful storm</td>
+
+      </tr>
+
+      <tr>
+
+      <td>6</td>
+
+      <td>Flash flood</td>
+
+      <td>Great blizzard</td>
+
+      <td>Monsoon</td>
+
+      </tr>
+
+      <tr>
+
+      <td>7</td>
+
+      <td>Great flood</td>
+
+      <td>Avalanche</td>
+
+      <td>Typhoon</td>
+
+      </tr>
+
+      </table>
+
+      <p><strong>Rain Effects</strong><br>
+
+      <strong>Mist:</strong> Mist grants all creatures concealment from any
+      creatures over 100 feet away (all attacks suffer a 20% miss chance).</p>
+
+      <p><strong>Fog:</strong> The caster may create light rain or fog. If fog
+      is chosen, it obscures all sight beyond 5 feet, including darkvision.
+      Creatures 5 feet away have concealment.</p>
+
+      <p><strong>Other rain effects:</strong> Beginning at severity level 4,
+      rain has the same effect on fires, ranged attacks, and Perception checks
+      as wind of equal severity level. This does not stack with the penalties
+      provided by wind. The rain also cuts visibility ranges by half, resulting
+      in an additional &#8211;4 penalty on Perception checks due to poor
+      visibility. It rains about 1 inch per hour at severity 4, 2 inches per
+      hour at severity level 5, 5 inches per hour at severity level 6, and 10
+      inches per hour at severity level 7.</p>
+
+      <p><strong>Snow Effects</strong><br>
+
+      Snow causes squares to count as difficult terrain. This requires 24 hours
+      of snow at severity level 1, 8 hours at severity level 2, 1 hour at
+      severity level 3, and happens immediately at severity level 4. At severity
+      level 5, snow obscures vision as fog does. It costs 4 squares of movement
+      to enter a square covered with heavy snow (about 2 feet). This requires 24
+      hours at severity level 4, 8 hours at severity level 5, 1 hour at severity
+      level 6, and happens immediately at severity level 7. Heavy snow
+      accompanied by strong or severe winds might also result in snowdrifts 1d4
+      &#215; 5 feet deep, especially in and around objects big enough to deflect
+      the wind&#8212;a cabin or a large tent, for instance.</p>
+
+      <p><strong>Storm Effects</strong><br>
+
+      Beginning at severity level 4, storms will randomly strike a square with
+      lightning, dealing 4d8 electricity damage (Reflex half) to everything in
+      or above that square. This happens once per minute. This damage increases
+      by 2d8 for every severity level above 4, to a maximum of 10d8 at severity
+      level 7.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,113 @@
+_id: e4MgBSDjfUd7v69d
+_key: '!items!e4MgBSDjfUd7v69d'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: dark
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/dark.webp
+name: 'Note: Light And Darkness'
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever a glow effect (from the Light sphere) interacts with a magical
+      darkness effect (such as from the Dark sphere), the caster of the glow
+      effect must succeed at a magic skill check against the MSD of the darkness
+      effect&#8217;s caster. If he succeeds, the Light effect functions
+      normally. If he fails, the Dark effect functions normally (outlines are
+      swallowed, light sources are hampered, etc.). An area filled with normal
+      or bright light from a glow effect is no longer considered an area of
+      darkness for Dark sphere abilities.</p>
+
+      <h2 id="toc2"><span>Meld</span></h2>
+
+      <p>Melds are effects that can be granted to a creature that alter the way
+      they interact with darkness. The caster must touch a target as a standard
+      action to grant them the benefits of a (meld) talent, and unwilling
+      targets may attempt a Will save to negate. A dark caster begins with
+      knowledge of the following meld:</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

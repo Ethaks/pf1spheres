@@ -1,0 +1,114 @@
+_id: c9y0BGsPhozgx2dT
+_key: '!items!c9y0BGsPhozgx2dT'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: guardian
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/guardian.webp
+name: Cruel Worg’s Challenge
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You channel the wicked cruelty of the worg, demanding the attention of
+      the mighty and cowing the meek.</p>
+
+      <p><strong>Prerequisites:</strong> Guardian sphere ((challenge) package),
+      base attack bonus +5.</p>
+
+      <p>You may challenge creatures with no Intelligence score (Intelligence
+      score of (&#8211;)).</p>
+
+      <p>Whenever a creature affected by your challenge ends its turn and that
+      creature did not make an attack roll or otherwise target you or include
+      you in a non-harmless effect, you may move up to your speed as an
+      immediate action, provided that you move into a space closer to the
+      creature. If the creature is within your reach at the end of this
+      movement, that creature must succeed at a Reflex save or be knocked prone.
+      This movement does not provoke an attack of opportunity from the creature
+      but does provoke from other creatures as normal.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

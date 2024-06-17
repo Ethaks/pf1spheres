@@ -1,0 +1,106 @@
+_id: vspqEBNWPocQDvpM
+_key: '!items!vspqEBNWPocQDvpM'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: guardian
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/guardian.webp
+name: Defend Other
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>When an ally within your threatened area is the target of an attack
+      roll, you may spend an immediate action to grant them a competence bonus
+      to their armor class equal to 1/2 your base attack bonus (rounded down,
+      minimum +1) against that attack. If this attack would still hit, you may
+      choose to take the damage in your ally&#8217;s place.</p>
+
+      <p>If you possess the (patrol) package, when using this talent you may
+      move to put the ally within your reach (with the normal limits for moving
+      as part of your patrol) as part of activating this talent.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,115 @@
+_id: SOMTp60GXQzs7SpC
+_key: '!items!SOMTp60GXQzs7SpC'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: alteration
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/alteration.webp
+name: Manipulate Healing
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Alteration sphere (Vitality), caster
+      level 10th.</p>
+
+      <p>You may spend an additional spell point to add the following trait
+      options to your forms:</p>
+
+      <p><strong>Block Healing:</strong> You may remove any fast healing or
+      regeneration the target possesses. Additionally, any attempt to magically
+      heal the target requires a magical skill check against your MSD.</p>
+
+      <p><strong>Regenerate Flesh:</strong> In addition to the normal healing
+      from the Fast Healing option of the Vitality talent, the target&#8217;s
+      severed body members (fingers, toes, hands, feet, arms, legs, tails, or
+      even heads of multi-headed creatures), broken bones, and ruined organs
+      grow back. The physical regeneration is complete in 1 round if the severed
+      members are present and touching the creature. It takes 2d10 rounds
+      otherwise. This is an upgrade to, and does not stack with, the Fast
+      Healing trait.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

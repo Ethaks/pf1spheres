@@ -1,0 +1,111 @@
+_id: r3ZC3CC14TFSYnqL
+_key: '!items!r3ZC3CC14TFSYnqL'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: guardian
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/guardian.webp
+name: Patrol
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As long as you have martial focus, as a full-round action you may
+      increase your threatened area by 5 ft., +5 ft. for every 4 points of base
+      attack bonus you possess. This increased threatened area is applied after
+      the effects of the reach weapon special feature. Until the beginning of
+      your next turn, you may make attacks of opportunity against any creature
+      in this threatened area that provokes attacks of opportunity. You may move
+      to bring the creature that provokes the attack of opportunity within your
+      reach as part of these attacks, provided your total movement before your
+      next turn does not exceed your base speed. Any movement you make provokes
+      attacks of opportunity as normal. <strong>Associated Feat:</strong> Combat
+      Patrol.</p>
+
+      <p>Talents with the (zone) tag grant additional effects to this ability.
+      Each patrol may only benefit from one (zone) talent.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

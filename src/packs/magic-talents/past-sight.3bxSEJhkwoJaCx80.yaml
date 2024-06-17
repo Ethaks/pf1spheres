@@ -1,0 +1,121 @@
+_id: 3bxSEJhkwoJaCx80
+_key: '!items!3bxSEJhkwoJaCx80'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: time
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/time.webp
+name: Past Sight
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Time sphere, caster level 5th.</p>
+
+      <p>You peer not only through space, but through time. You may spend one
+      minute and a spell point to view the past of your present location out to
+      close range, viewing the past hour. You gain full sensory information
+      based on the senses you possess. You may concentrate on this effect,
+      viewing an additional hour further in the past for each minute of
+      concentration. You are considered flat-footed while concentrating on this
+      effect.</p>
+
+      <p>If you possess the Mass Time talent, you may share this sight with a
+      number of willing creatures within your alter time range as defined by
+      that talent. Such creatures are also flat-footed for the duration, though
+      they may choose to exit the vision at any time.</p>
+
+      <p>If you possess the Ranged Time talent, you increase the area you may
+      view by one step per time it is taken (close to medium, medium to long).
+      If Ranged Time is taken three times, your viewing area increases to line
+      of sight.</p>
+
+      <p>At caster level 8th, you may spend an extra spell point to view days
+      instead of hours, each day requiring 10 minutes. At caster level 16th, you
+      may spend 2 additional spell points to view years instead of hours, each
+      year requiring 1 hour.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,123 @@
+_id: S2Mle0nBVTaegHG4
+_key: '!items!S2Mle0nBVTaegHG4'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: blood
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/blood.webp
+name: Redirect Flow
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You gain the following abilities:</p>
+
+      <p>As a (still) effect, whenever the target would move more than half its
+      movement, it must attempt an Acrobatics check against your Blood sphere DC
+      or immediately fall prone. Additionally, the target cannot take 5-foot
+      steps, and suffers a -2 penalty to its CMD against trip, bull rush and
+      reposition attempts.</p>
+
+      <p>As a (quicken) effect, the target gains a +10 feet enhancement bonus to
+      all movement speeds. This bonus increases by an additional 5 feet every 5
+      caster levels you possess. Anytime the target would use this additional
+      movement, it also becomes fatigued for 1 round.</p>
+
+      <p>As a (still) effect, the target takes a -2 penalty on Intelligence and
+      Wisdom ability checks, concentration checks, and Intelligence- and
+      Wisdom-based skill checks for the duration of the blood control. This
+      penalty increases by 1 for every 5 caster levels you possess.</p>
+
+      <p>As a (still) effect, the target takes a -2 penalty to its CMD against
+      disarm attempts. This penalty increases by 1 for every 4 caster levels you
+      possess. You may spend a spell point to also force the target to succeed a
+      Fortitude saving throw at the end of each of its turns or immediately drop
+      one item it is currently holding. If the target fails this saving throw by
+      5 or more, it instead drops all items it is currently holding.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Quicken
+    - Still
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

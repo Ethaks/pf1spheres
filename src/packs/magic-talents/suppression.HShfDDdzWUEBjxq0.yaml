@@ -1,0 +1,156 @@
+_id: HShfDDdzWUEBjxq0
+_key: '!items!HShfDDdzWUEBjxq0'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: illusion
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/illusion.webp
+name: Suppression
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As an illusion, you may create glamers that suppress and eliminate
+      sensation rather than creating their own. Suppressions cannot be negated
+      or disbelieved through a Will save. You may suppress any sense that you
+      can affect when creating illusions, but each such Suppression is
+      considered a separate glamer.</p>
+
+      <p><em>Note:</em> If you suppress every sense required to fool a complex
+      or exotic sense, that sense cannot automatically detect that creature.</p>
+
+      <p><strong>Invisibility:</strong> When suppressing vision, you allow the
+      target to attempt Stealth checks to hide even while being observed. This
+      does not grant the invisible condition, but counts as invisibility for
+      effects that interact with it (such as spells that negate it), and
+      therefore does not stack with the invisibility spell or other, similar
+      effects. The target also gains a +1 circumstance bonus to Stealth checks
+      per caster level (maximum 20). Objects cannot attempt Stealth checks, but
+      become difficult to see, requiring a Perception check to find with a DC
+      equal to 10 + their size bonus + your caster level. If you are undetected
+      by a creature, you gain total concealment against it, as well as a +2
+      bonus to attack rolls against it, and you may ignore its Dexterity bonus
+      to AC.</p>
+
+      <p><strong>Silence:</strong> When suppressing sound, you cause the
+      creature to become muffled. The target loses its armor check penalty to
+      Stealth and reduces the penalty associated with sniping by 1 per caster
+      level (minimum 0). However, the target also suffers a 5% chance of arcane
+      spell failure per caster level (maximum 100%) when using magic that
+      requires verbal components or is language-based.</p>
+
+      <p><strong>Touchless:</strong> When suppressing touch, it becomes
+      difficult to detect the target by feel. If the target touches or makes a
+      melee attack against a creature from Stealth, that creature must succeed
+      at a Perception check to even feel that they have been touched or attacked
+      (DC 10 + 1 per caster level, -1 per point of damage dealt). The target
+      also gains a +1 circumstance bonus per caster level (maximum +20) to
+      Sleight of Hand checks made to pick pockets.</p>
+
+      <p><strong>Odorless:</strong> When suppressing taste and smell, the
+      affected target inflicts other creatures attempting to track it or
+      discover it through smell (such as with the scent special ability) a
+      penalty to their Perception or Survival checks equal to -1 per caster
+      level (maximum 20). This also applies to checks made to detect poison or
+      identify the target via smell or taste. Additionally, if the target
+      attempts to use smell to affect other targets (such as making them
+      sickened or nauseated through the stench ability), targets gain a +1 bonus
+      per caster level (maximum 20) to their saving throws.</p>
+
+      <p>Suppressing magical auras is described in the Manipulate Aura talent,
+      and is assumed to be used on all magical auras (including the aura from
+      the Suppression itself) affecting the glamered creature.</p>
+
+      <p>You may spend an additional spell point to create a figment that
+      suppresses sensations just like the glamer. All targets inside the figment
+      gain the above benefits and penalties, as if they were under the effects
+      of the glamer. You may choose if this applies only to creatures or to all
+      creatures and objects. Unlike other figments, a Suppression figment cannot
+      move once placed, and has no sensory expression other than the noticeable
+      blurring of sensation inside its area.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Glamer
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

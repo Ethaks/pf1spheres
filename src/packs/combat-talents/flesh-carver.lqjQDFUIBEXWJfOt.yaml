@@ -1,0 +1,110 @@
+_id: lqjQDFUIBEXWJfOt
+_key: '!items!lqjQDFUIBEXWJfOt'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: berserker
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/berserker.webp
+name: Flesh Carver
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Your weapons rend through flesh, sinew, and bone alike. The creature
+      damaged by your brutal strike has their damage reduction reduced by an
+      amount equal to 1/2 your base attack bonus (minimum 1). This reduction
+      lasts for as long as the target has the battered condition. This reduction
+      does not stack with itself.</p>
+
+      <p>The benefits of this talent are halved (minimum 1) when applied to
+      damage reduction that cannot be overcome or is overcome only by epic
+      weapons (such as DR 3/&#8211; or DR 20/epic).</p>
+
+      <p><strong>Special:</strong> If you possess mythic ranks, the benefits of
+      this talent are no longer halved against DR/epic.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Exertion
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,112 @@
+_id: PNvNqtteBm8O3cit
+_key: '!items!PNvNqtteBm8O3cit'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: creation
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/creation.webp
+name: Replication
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>By spending an additional spell point when you create an object less
+      than half of your maximum size, you may delay your creation so that rather
+      than create a single object once, it creates a multitude of identical
+      objects over time. The total size of all created objects cannot exceed
+      double your create maximum size. You must set a parameter when this effect
+      is created for when and where within range the items are created; (for
+      example, creating a new arrow in a quiver whenever the previous arrow is
+      removed, or dropping a new anvil each round onto a target location,
+      determined at the time of casting). This continues for the duration of the
+      create effect or until the maximum size (or another non-standard limit)
+      has been reached, whichever comes first. A replication effect cannot
+      create more than 1/4th of its maximum size in a single round, and cannot
+      drop items on or encase a single target multiple times in the same round.
+      Using this talent allows the create effect to persist for 1 minute per
+      caster level without concentration at no additional cost.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,109 @@
+_id: fhuANeAz0KC21y00
+_key: '!items!fhuANeAz0KC21y00'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: lancer
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/lancer.webp
+name: Cruel Vibration
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever you use an attack action to deal damage to a creature with the
+      weapon currently being used to impale them, your damage is treated as
+      though you rolled the maximum possible amount on your weapon&#8217;s
+      damage dice (additional damage dice from critical hits and special
+      abilities such as the flaming enchantment are not affected by this
+      ability). At +10 base attack bonus, whenever you deal damage with a weapon
+      currently impaling a creature, that creature must make a successful
+      Fortitude save or be unable to take a move action for 1 round.</p>
+
+      <p><sup><strong>Wiki Note:</strong> Cruel Vibration does not affect
+      additional damage dice from Vital Strike.</sup></p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Impale
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

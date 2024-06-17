@@ -1,0 +1,109 @@
+_id: YW3XZpNQXnkYHGtI
+_key: '!items!YW3XZpNQXnkYHGtI'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: gladiator
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/gladiator.webp
+name: Dullahan’s Call
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may expend your martial focus as a swift action and designate one
+      creature suffering from a fear effect who can see and hear you, declaring
+      their imminent doom. That creature must succeed at a Will save or become
+      staggered for 1 round plus 1 round for every 4 ranks in Intimidate you
+      possess.</p>
+
+      <p>You gain a circumstance bonus on attack rolls made to confirm critical
+      hits equal to your practitioner modifier against creatures staggered by
+      this effect. You may perform a boast even if you do not have martial focus
+      after confirming a critical hit against a target staggered by this effect.
+      <strong>Associated Feat:</strong> Critical Focus.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Demoralization
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

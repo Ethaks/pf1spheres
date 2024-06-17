@@ -1,0 +1,174 @@
+_id: YICUybjdnmqj0pvH
+_key: '!items!YICUybjdnmqj0pvH'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: wrestling
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/wrestling.webp
+name: Limb Ripper
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Wrestling sphere, base attack bonus
+      +10.</p>
+
+      <p>When you successfully maintain a grapple against a creature you have
+      already pinned, you may expend your martial focus as an immediate action
+      to attempt to remove a limb from them; the creature must make a successful
+      Fortitude save or have one of its limbs removed by you (arms, legs,
+      tentacles, or wings), ending the grapple.</p>
+
+      <p>If you remove a wing, the target loses a wing natural attack if it had
+      any and cannot fly (creatures with 3 or more wings who lose a wing have
+      their flight maneuverability reduced to clumsy and have their flight speed
+      reduced by 1/2 for each wing which they are missing). If you remove a
+      tentacle, the creature loses all attacks and abilities related to that
+      tentacle. If you remove an arm or leg, the target suffers a series of
+      penalties listed below.</p>
+
+      <p>Creatures with more than 2 legs do not suffer the penalties listed
+      below, but instead lose 10 ft. from their movement speed and lose the
+      benefits of being a quadruped if they had them. In addition, the target
+      suffers 1d6 points of bleed damage from the wound, +1d6 for every 4 points
+      of base attack bonus you possess.</p>
+
+      <p>A severed limb counts as an object one size category smaller than the
+      creature it came from if using it as an independent object or improvised
+      weapon.</p>
+
+      <p>A character who has lost an arm incurs the following penalties:</p>
+
+      <ul>
+
+      <li>-10 penalty on Climb, Craft, Disable Device, Sleight of Hand, and Use
+      Magic Device skill checks;</li>
+
+      <li>-8 penalty on grapple checks;</li>
+
+      <li>Must make a caster level check at a -5 penalty to cast spells with
+      somatic components;</li>
+
+      <li>Unable to wield weapons two-handed or make two-weapon attacks, and may
+      not wear a shield on the affected arm.</li>
+
+      <li>Carrying capacity is not reduced. However, the maximum weight a
+      character can lift over head or off the ground is halved.</li>
+
+      </ul>
+
+      <p>A character who has lost a leg incurs the following penalties:</p>
+
+      <ul>
+
+      <li>-10 penalty on Acrobatics, Climb, Ride, Stealth, and certain Perform
+      skill checks (GM&#8217;s discretion).</li>
+
+      <li>Cannot run or charge.</li>
+
+      <li>Cannot bull rush or overrun and takes a -12 penalty to resist these
+      combat maneuvers.</li>
+
+      <li>Speed is reduced to 5 ft., and can no longer make a 5-ft step.</li>
+
+      <li>Carrying capacity is reduced by two thirds and the maximum weight a
+      character can lift over head or off the ground is halved when sitting,
+      impossible when standing.</li>
+
+      </ul>
+
+      <p>These penalties do not stack with other penalties for losing limbs. A
+      character who has lost both arms cannot use any of the listed skills, make
+      attacks, or use objects, without the aid of prosthetics or magic. A
+      character who has lost both legs is always considered flat-footed and
+      prone, and can only move 5 ft as a full round action, without the aid of
+      prosthetics or magic.</p>
+
+      <p><strong>Note:</strong> Undead are not immune to this effect and must
+      make the saving throw.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Slam
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

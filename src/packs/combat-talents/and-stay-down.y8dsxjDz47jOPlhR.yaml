@@ -1,0 +1,110 @@
+_id: y8dsxjDz47jOPlhR
+_key: '!items!y8dsxjDz47jOPlhR'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: duelist
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/duelist.webp
+name: …And Stay Down!
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever a creature lands prone in a square you threaten, you may make
+      an attack of opportunity against them, dealing 1 additional point of bleed
+      damage (this stacks with other bleed damage granted by the base ability of
+      the Duelist sphere); this attack of opportunity considers &#8220;whenever
+      a creature lands prone&#8221; and &#8220;whenever you succeed on a trip
+      combat maneuver&#8221; to be part of the same trigger, and you cannot take
+      more than one attack of opportunity due to this circumstance. If
+      successful, the target of this attack must make a successful Acrobatics
+      check to stand up as their blood slicks the ground beneath them. If the
+      target is suffering from your blooded strike&#8217;s bleed damage, they
+      suffer a penalty to their Acrobatics check equal to the bleed damage.
+      Targets immune to bleed damage do not need to make an Acrobatics
+      check.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

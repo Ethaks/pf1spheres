@@ -1,0 +1,114 @@
+_id: k8B5A7JXLwAxLkVQ
+_key: '!items!k8B5A7JXLwAxLkVQ'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: nature
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/nature.webp
+name: Nature Lord
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Treat your caster level as 5 higher when determining the maximum area
+      radius and height you can affect with your geomancing abilities that
+      affect an area (such as Bury, Dust Storm, Entangle, Fog, Gust Of Wind,
+      Purify Air, Tremor, or Vortex).</p>
+
+      <p>When using a geomancing ability dependent on size (such as Affect Fire,
+      Create Fire, Magnetize, Pummel, or Recover Ore), increase the maximum size
+      object you can create or target by 1 size category.</p>
+
+      <p>When using Freeze, you may affect twice as many equivalent Medium-sized
+      creatures without affecting the thickness of the ice.</p>
+
+      <p><strong>Author's Note:</strong> You can apply this effect to each
+      applicable effect. For example, if using the Create Nature talent to both
+      Create Fire and Affect Fire, both abilities will receive the size
+      increases from the Nature Lord talent</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Geomancing
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

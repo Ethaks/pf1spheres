@@ -1,0 +1,111 @@
+_id: DK726zNqb5WfA4E3
+_key: '!items!DK726zNqb5WfA4E3'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: openHand
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/open_hand.webp
+name: Swinging Swap
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever you make a successful unarmed strike against a creature using
+      the attack action, you can swap positions with that creature (creatures
+      larger than you must end this talent&#8217;s movement occupying at least
+      one space that you did, allowing them to choose their exact position). If
+      you successfully use this talent on the same creature during two
+      consecutive rounds, that creature must make a successful Will saving throw
+      or be confused for 1 round.</p>
+
+      <p>At +10 base attack bonus, the duration of this confusion increases to a
+      number of rounds equal to your practitioner modifier, although the
+      creature can make an additional save at the beginning of each of its turns
+      with a -2 penalty; this penalty increases by -2 each time you successfully
+      use this talent against it while it is suffering the effects of this
+      talent.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

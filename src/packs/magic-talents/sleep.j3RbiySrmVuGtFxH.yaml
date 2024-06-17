@@ -1,0 +1,113 @@
+_id: j3RbiySrmVuGtFxH
+_key: '!items!j3RbiySrmVuGtFxH'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: mind
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/mind.webp
+name: Sleep
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You put the target to sleep.</p>
+
+      <p><strong>Lesser Charm:</strong> You make the target lethargic, making it
+      staggered for 1d4 rounds (Will negates).</p>
+
+      <p><strong>Greater Charm:</strong> You put the target to sleep for 1
+      minute per caster level (Will negates). Targets who take damage
+      automatically wake up, and other creatures may wake a sleeping creature as
+      a standard action (an application of the aid another action).</p>
+
+      <p><strong>Powerful Charm:</strong> The target is placed into a deeper
+      slumber. Whenever the sleeping target takes damage or another creature
+      attempts to wake it as a standard action, the target does not
+      automatically awaken, but instead attempts a new Will save to wake up with
+      a +4 bonus.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Charm
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

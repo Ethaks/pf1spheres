@@ -1,0 +1,166 @@
+_id: qyXaJRxMbnFwDaT1
+_key: '!items!qyXaJRxMbnFwDaT1'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: wrestling
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/wrestling.webp
+name: Stubborn Serpent’s Coils
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You channel the serpent, improving your tenacity and grip.</p>
+
+      <p>You gain the following abilities which can be used while grappling:</p>
+
+      <p><strong>When Your Grappled Target Is Being Moved Away From
+      You:</strong> While you are grappling another creature, any effect which
+      would move your grappled target out of your reach must also succeed
+      against you and your relevant statistic (CMD, saving throw, ability check,
+      etc.) or fail to move the grappled target.</p>
+
+      <p><strong>When You Are Being Moved Away From Your Grappled
+      Target:</strong> If an effect would move you away from your grappled
+      target, you may attempt a grapple combat maneuver against your grappled
+      target&#8217;s CMD as an immediate action. If the target is battered, you
+      may spend an attack of opportunity in place of an immediate action
+      instead. If you are successful, the grappled target is moved into the
+      nearest unoccupied and safe space within your reach and remains grappled.
+      A grappled target being moved this way does not provoke attacks of
+      opportunity.</p>
+
+      <p>If there is no unoccupied, safe space within your reach when attempting
+      to move your grappled target with you, the target is moved into the
+      nearest unoccupied, safe space near your new location, is released from
+      your grapple, and is staggered for a number of rounds equal to 1/2 your
+      practitioner modifier (minimum 1 round).</p>
+
+      <p><strong>Special:</strong> The abilities granted by Stubborn
+      Serpent&#8217;s Coils do not function against Warp sphere effects or other
+      teleportation effects. If you possess the Inescapable Grasp talent, you
+      may use the abilities granted by this talent against teleportation or Warp
+      effects originating from a source other than your grappled target which
+      would move your grappled target out of your grapple.</p>
+
+      <ul>
+
+      <li><strong>When Your Grappled Target Is Being Moved Away From
+      You:</strong> You are granted a saving throw or other appropriate check to
+      negate a teleportation effect which would move your grappled target out of
+      your grapple, as described in this ability.</li>
+
+      <li><strong>When You Are Being Moved Away From Your Grappled
+      Target:</strong> You may include your grappled target in a teleport effect
+      that would move you. If your grappled target is unwilling, the
+      teleportation effect must be able to target an unwilling creature and the
+      creature receives a saving throw against the effect, otherwise the
+      grappled target is not moved with you and your grapple ends.</li>
+
+      </ul>
+
+      <p><strong>Examples:</strong> Grappling is a complex and often confusing
+      combat maneuver. Two examples are included with this talent to help better
+      demonstrate how this talent is used.</p>
+
+      <p><em>If your grappled target is being moved away from you:</em> A
+      creature which uses the bull rush combat maneuver to push your grappled
+      target away from you must also succeed against your CMD while grappling. A
+      Wind severity effect would fail to push your grappled target if the Wind
+      severity effect fails to push you. If a Telekinesis sphere effect would
+      attempt to lift and move your grappled target out of your reach, the
+      Telekinesis sphere caster would treat this as contested control over an
+      item.</p>
+
+      <p><em>If you are being moved away from your grappled target:</em> If a
+      creature uses the bull rush combat maneuver to push you away from your
+      grappled target, you can attempt a grapple combat maneuver as an immediate
+      action (or as an attack of opportunity if the target is battered) against
+      your grappled target. If you are successful, the grappled target also
+      moves into an unoccupied, safe space within your reach and your grapple
+      would not end.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

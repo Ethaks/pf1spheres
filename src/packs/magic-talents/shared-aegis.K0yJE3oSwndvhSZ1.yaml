@@ -1,0 +1,109 @@
+_id: K0yJE3oSwndvhSZ1
+_key: '!items!K0yJE3oSwndvhSZ1'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: protection
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/protection.webp
+name: Shared Aegis
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>In addition to providing an aura of protection, any aegis you create
+      can be extended beyond the body of the creature bearing it. When a
+      creature under the effects of an aegis you created has an allied creature
+      within its natural reach, the ally also gains the benefit of the aegis.
+      This requires active effort from the creature wearing the aegis, and they
+      can not use their aegis to defend another creature if they would be denied
+      their Dexterity bonus against the source of the effect they are protecting
+      their ally from.</p>
+
+      <p>While a creature is under the protection of your shared aegis this way,
+      you may use (succor) talents that target them as if they were bearing the
+      aegis. Only one creature may benefit from a succor this way.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

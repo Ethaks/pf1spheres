@@ -1,0 +1,107 @@
+_id: gdOPE8thFlqdzsUp
+_key: '!items!gdOPE8thFlqdzsUp'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: weather
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/weather.webp
+name: Lightning Rod
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>When a creature bearing your mantle is in an area of Wind and
+      Precipitation of severity level 4 or higher, whenever they strike an enemy
+      with a melee weapon that is primarily made of metal or which has a metal
+      striking surface (like most polearms and maces), the enemy is struck by a
+      small lightning bolt dealing 2d4 electricity damage, +1d4 damage per each
+      category above storm. In addition, any creature bearing your mantle gains
+      a dodge bonus to Reflex saves against lightning strikes equal to your
+      casting ability modifier.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Mantle
+    - Storm
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

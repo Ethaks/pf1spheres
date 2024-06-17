@@ -1,0 +1,106 @@
+_id: 5oj2UpbmK7VlZYuS
+_key: '!items!5oj2UpbmK7VlZYuS'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: athletics
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/athletics.webp
+name: Overhead Flip
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As part of an attack action, you may roll an Acrobatics check to jump
+      against the CMD of any adjacent creature. If your roll exceeds their CMD,
+      you may jump to any other square adjacent to that creature that would
+      enable flanking with your starting position without provoking an attack of
+      opportunity for movement, and you may treat the creature as flanked by you
+      for the attack action. If unsuccessful, you instead provoke an attack of
+      opportunity from the targeted creature and do not complete your
+      movement.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Leap
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

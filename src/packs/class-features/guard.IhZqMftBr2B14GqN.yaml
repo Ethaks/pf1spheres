@@ -1,0 +1,113 @@
+_id: IhZqMftBr2B14GqN
+_key: '!items!IhZqMftBr2B14GqN'
+effects: []
+flags:
+  pf1: {}
+folder: null
+img: icons/svg/item-bag.svg
+name: Guard
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: su
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>At 2nd level, as a standard action (or as a swift action by spending a
+      spell point), the warden can form a mystical bond with a single ally
+      within 30 feet, making them the warden&#8217;s guarded ally. A guarded
+      ally gains a +1 bonus to their AC. This bonus increases by 1 at 6th level
+      and every four levels thereafter. The ally retains these benefits until
+      the warden chooses a new guarded ally, or when he would fall unconscious
+      or be killed.</p>
+
+      <p>A creature can only benefit from one guard at a time. If a second guard
+      would be established on the creature, the caster must attempt a magic
+      skill check against the MSD of the original caster of guard. If the
+      creature succeeds, the original guard is removed, and is no longer
+      considered the guarded ally of the original warden. If the creature fails,
+      their guard attempt has no effect.</p>
+
+      <p>The bonus to AC granted by this ability is considered the
+      warden&#8217;s guard bonus for the purpose of the warden&#8217;s class
+      abilities.</p>
+
+      <p><strong>Note:</strong> The range on this ability is for creating a
+      guard. Once the guard is established, creatures benefiting from it can
+      move beyond the creation range.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: classFeat
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

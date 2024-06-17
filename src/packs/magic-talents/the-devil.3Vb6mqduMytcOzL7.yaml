@@ -1,0 +1,162 @@
+_id: 3Vb6mqduMytcOzL7
+_key: '!items!3Vb6mqduMytcOzL7'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fate
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fate.webp
+name: The Devil
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may grant a motif that allows the target to recognize the greatest
+      threat to their goals. As a free action once per round they may assess an
+      opponent they can see. The target learns the enemy&#8217;s approximate CR
+      (see Table: Enemy CR). For every five caster levels, the target may use
+      this an additional time per round.</p>
+
+      <p>The target may discharge this effect to gain a +2 insight bonus to AC
+      and attack rolls against any enemy they have assessed using this motif
+      &#8217;s benefit for one round per caster level. This bonus increases by
+      +1 for every 4 caster levels.</p>
+
+      <strong>Table: Enemy CR</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Enemy&#8217;s CR</th>
+
+      <th>Result</th>
+
+      </tr>
+
+      <tr>
+
+      <td>4+ lower than the target&#8217;s level</td>
+
+      <td>Trivial</td>
+
+      </tr>
+
+      <tr>
+
+      <td>1&#8211;3 lower than the target&#8217;s level</td>
+
+      <td>Easy</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Equal to the target&#8217;s level</td>
+
+      <td>Fair fight</td>
+
+      </tr>
+
+      <tr>
+
+      <td>1&#8211;3 higher than the target&#8217;s level</td>
+
+      <td>Difficult</td>
+
+      </tr>
+
+      <tr>
+
+      <td>4+ higher than the target&#8217;s level</td>
+
+      <td>Overwhelming</td>
+
+      </tr>
+
+      </table>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Motif
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

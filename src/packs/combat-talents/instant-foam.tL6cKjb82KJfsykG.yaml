@@ -1,0 +1,127 @@
+_id: tL6cKjb82KJfsykG
+_key: '!items!tL6cKjb82KJfsykG'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: alchemy
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/alchemy.webp
+name: Instant Foam
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Craft DC:</strong> 15</p>
+
+      <p>You create a single-use jar filled with a durable chemical foam that
+      expands to fill an area when shattered. This item can be thrown as a
+      ranged touch attack with a range increment of 10 feet into an unoccupied
+      square capable of supporting an object as a standard action.</p>
+
+      <p>The foam fills an area with a radius of 10 feet + 5 feet per 5 ranks in
+      Craft (alchemy) with semi-solid foam. A 5-foot block of foam possesses a
+      break DC equal to your Alchemy sphere DC and has a number of hit points
+      equal to your ranks in Craft (alchemy). A creature may attempt to move
+      through the foam during their turn, requiring a successful break attempt
+      for every 5 feet they pass through. On a failed break attempt they can no
+      longer move through the foam and their movement ends. Creatures in the
+      radius are allowed a Reflex save to be pushed to a square at the edge of
+      the radius to avoid entrapment. Creatures that fail their Reflex save may
+      attack the foam or try other means of escape as described above.</p>
+
+      <p>The foam also serves a cushioning function preventing 15 feet of fall
+      damage for every 5 feet of foam exists between the ground and the point
+      where the falling individual touches the foam.</p>
+
+      <p>This foam is porous to oxygen, and cannot be used to suffocate a
+      creature, and too light to deal damage as a falling object. The foam
+      dissipates on its own after 1 minute.</p>
+
+      <p>You can increase the Craft DC of this item in increments of 10; each
+      time you do so, each 5-foot square of foam gains 5 additional hit points,
+      and lasts for an additional minute.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Formulae
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

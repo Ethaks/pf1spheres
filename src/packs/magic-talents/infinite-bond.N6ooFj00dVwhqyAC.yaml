@@ -1,0 +1,109 @@
+_id: N6ooFj00dVwhqyAC
+_key: '!items!N6ooFj00dVwhqyAC'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: mana
+folder: null
+img: icons/svg/item-bag.svg
+name: Infinite Bond
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Mana sphere (Ranged Mana [range] x2),
+      caster level 10th.</p>
+
+      <p>Your manabonds no longer have a maximum range when used on willing
+      targets, and stays activated so long as the creature is on the same plane
+      as you. If the creature you are bonded to leaves the plane you are on or
+      vice-versa, the effect expires after 1 minute unless they or you return to
+      the same plane within this time limit and you cannot activate or use the
+      effects of your manabond unless they or you return to the same plane
+      before it expires. If you applied Permanent Bond, the manabond does not
+      expire, but still can only be used if you and the recipient are on the
+      same plane.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

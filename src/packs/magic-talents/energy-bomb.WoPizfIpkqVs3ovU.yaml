@@ -1,0 +1,116 @@
+_id: WoPizfIpkqVs3ovU
+_key: '!items!WoPizfIpkqVs3ovU'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: destruction
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/destruction.webp
+name: Energy Bomb
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As a standard action, you may touch a small container of liquid and
+      spend a spell point to instill a destructive blast inside it. As a
+      standard action, this can be primed and thrown as a splash weapon. A
+      direct hit deals the destructive blast&#8217;s damage to the target and
+      damage equal to the minimum blast damage is dealt in a 5-foot splash
+      radius. Any creature taking damage from either the direct hit or the
+      splash must save against any additional effects of the blast type.</p>
+
+      <p>This cannot be used with the Gather Energy talent. An instilled liquid
+      remains potent until you rest to regain spell points. If you have
+      equipment on hand (such as an alchemy lab), the cost of bottles and water
+      is considered negligible. You may target food (in which instead of a
+      splash weapon it affects the target who consumes it) but not an
+      already-magical item, such as a potion. All spell points must be spent and
+      all variables of the sphere effect must be chosen at the time the
+      instilled liquid is created. You cannot instill multiple effects in a
+      single liquid, nor create multiple instilled liquids with a single
+      action.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Blast Shape
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

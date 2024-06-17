@@ -1,0 +1,111 @@
+_id: eO6puoqND1K6dF6g
+_key: '!items!eO6puoqND1K6dF6g'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: berserker
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/berserker.webp
+name: Shrapnel
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>When you attack an unattended object with a brutal strike, if you
+      destroy the object, you may send fragments of it flying in a cone dealing
+      damage to any creature in an area based on its size. Small or smaller
+      objects create a 10 ft. cone and the size of the cone increases by 5 ft.
+      for every size category above Small. This shrapnel does 1d6 points of
+      bludgeoning, piercing, and slashing damage dealt by the same material or
+      materials that the object was primarily composed of. This damage increases
+      by 1d6 at +3 base attack bonus and every 2 points of base attack bonus
+      thereafter. The damage also increases by 1d6 for every 5 points of
+      hardness the object possessed, to a maximum increase of 10d6 additional
+      damage. Creatures that take damage are also battered. A Reflex save halves
+      this damage and prevents the battered condition. A battered creature must
+      roll twice and take the worse result on their Reflex save.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Exertion
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,110 @@
+_id: SMz1EYkIhWKbwshJ
+_key: '!items!SMz1EYkIhWKbwshJ'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: enhancement
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/enhancement.webp
+name: Alter Movement
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may enhance creatures, increasing or decreasing their speed.</p>
+
+      <p>When increasing, you grant the target a +10 feet enhancement bonus to
+      one movement speed, as well as a +2 enhancement bonus to any Acrobatics,
+      Climb, Fly, or Swim checks they might attempt while using that movement
+      speed. These bonuses increase by +10 and +2, respectively, per 5 caster
+      levels.</p>
+
+      <p>When decreasing a target&#8217;s movement, you halve all of the
+      target&#8217;s movement speeds (minimum 5 feet). In addition, the target
+      provokes an attack of opportunity whenever it makes a 5-foot step unless
+      it succeeds at an Acrobatics check against your MSD.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Enhance
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

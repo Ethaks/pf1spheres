@@ -1,0 +1,143 @@
+_id: 7qeUVORQYkzQj3YY
+_key: '!items!7qeUVORQYkzQj3YY'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: life
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/life.webp
+name: Hypervitalize
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Life sphere (Restore Health (cure),
+      Revitalize), caster level 15th.</p>
+
+      <p>When you use the Revitalize talent on a creature, you may spend 2
+      additional spell points to make the creature exceptionally vital on a
+      cellular level for the duration of the revitalization. Every cell of their
+      body is so imbued with positive energy that they are no longer a single
+      living being, but a collection of living cells creating a gestalt. Each
+      individual cell can survive on its own and actively fights to keep the
+      whole body functioning: blood will crawl back into the wounds that
+      released them, broken bones will straighten themselves, and wounds will
+      actively close and seal shut.</p>
+
+      <p>The hypervitalized creature gains the following benefits:</p>
+
+      <ul>
+
+      <li>Immunity to bleed, death effects, damage from positive energy effects,
+      disease (magical and non-magical), paralysis, poison, sleep effects, aging
+      effects, and stunning.</li>
+
+      <li>Not subject to nonlethal damage of any kind. Immunity to damage or
+      drain to its ability scores, as well as to exhaustion and fatigue effects.
+      These do not protect the character from the results of their own abilities
+      (such as nonlethal damage caused by the Draining Casting drawback) or
+      voluntarily gained through helpful effects (such as the Overclocked
+      talent).</li>
+
+      <li>Immunity to any effect that requires a Fortitude save (unless the
+      effect also works on objects or is harmless).</li>
+
+      <li>The fast healing granted by Revitalize is upgraded to regeneration;
+      severed limbs can be reattached to the body (and indeed, will try to
+      reattach themselves if possible). The target is not at risk of death from
+      massive damage, not disabled at 0 hit points, and at negative hit points
+      is unconscious but stable, even if exceeding the Constitution score. It
+      can only be killed if the body is deliberately destroyed, such as being
+      immolated or disintegrated, or by allowing the effect to expire while at
+      negative hit points greater than their Constitution score. Creatures that
+      possess abilities that allow them to stay conscious at 0 or fewer hit
+      points still fall unconscious if they would normally die from the amount
+      of damage they have received.</li>
+
+      <li>Does not need to breathe, drink, eat, or sleep.</li>
+
+      </ul>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

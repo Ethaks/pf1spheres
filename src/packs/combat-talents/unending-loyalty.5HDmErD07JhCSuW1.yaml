@@ -1,0 +1,110 @@
+_id: 5HDmErD07JhCSuW1
+_key: '!items!5HDmErD07JhCSuW1'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: warleader
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/warleader.webp
+name: Unending Loyalty
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Warleader sphere, Recall Spirit,
+      Rousing Claxon, Legion Unending, Diplomacy 15 ranks.</p>
+
+      <p>You may use your recall spirit shout on a target that has been dead
+      within 1 minute rather than 1 round. Rather than healing the target for a
+      specific amount, the target is returned to life with a number of hit
+      points equal to twice your ranks in Diplomacy + your Charisma modifier,
+      and no negative level (if this would grant them more hit points than they
+      would normally have, they gain any excess as temporary hit points). At the
+      end of the shout&#8217;s duration, the creature dies regardless of its hit
+      points, and may not be affected with this talent a second time unless they
+      are returned to life by other means. This is a supernatural effect.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Shout
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

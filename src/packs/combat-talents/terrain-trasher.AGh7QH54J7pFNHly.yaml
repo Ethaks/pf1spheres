@@ -1,0 +1,124 @@
+_id: AGh7QH54J7pFNHly
+_key: '!items!AGh7QH54J7pFNHly'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: brute
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/brute.webp
+name: Terrain Trasher
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisite:</strong> Brute sphere, base attack bonus +5.</p>
+
+      <p>You may make a Strength check to break a solid surface such as a wall,
+      door, or floor within your reach as a move action rather than a standard
+      action. If successful, not only do you break the object, but you also rip
+      out a large chunk of up to your size or smaller, chosen by you. If you so
+      choose, you may use this chunk as a rock for the Rock Toss Equipment
+      talent, or as an improvised weapon. Unsolid surfaces such as loose dirt
+      cannot be broken in this fashion.</p>
+
+      <p>When using this talent against a large surface such as a stone wall or
+      floor, you rip out a 1 ft. thick slab off of the surface in question. If
+      the surface is thicker (for example, ripping apart 3 ft. thick walls or
+      the ground) this leaves a 1 ft. hole deep hole in the surface. Calculate
+      the break DC as if the material were 1 ft. thick. Ripping a Medium-sized
+      chunk leaves a 5 ft. square hole, while the hole is half as large for each
+      size category smaller, and twice as large for each size category
+      larger.</p>
+
+      <p>If you rip a hole in the floor, the pit is deep enough that it can
+      potentially trip creatures. Any creature occupying the square when you
+      first create the hole, or who is shoved into the hole such as through a
+      bull rush, drag, or reposition maneuver, must make a Reflex saving throw
+      to avoid falling prone in an adjacent square. If the hole is smaller than
+      a 5 ft. square, the creature gains a +2 bonus to this saving throw per
+      size category smaller the hole is. A creature that makes its saving throw
+      still treats the space as difficult terrain.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

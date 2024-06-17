@@ -1,0 +1,110 @@
+_id: xhcoKTcl183K0P0y
+_key: '!items!xhcoKTcl183K0P0y'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: war
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/war.webp
+name: Totem Of Insanity
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You must spend a spell point to create a totem of insanity. Enemies
+      within this totem are filled with bloodlust and confusion, and must
+      succeed at a Will save upon entering the area of the totem or upon it
+      being created. If they fail, then on the beginning of their next turn
+      there is a 50% chance they will attack their own nearest ally instead of
+      their enemy. If they do, they are considered an ally for the purposes of
+      your totems for the duration of the attack. At the end of any turn they do
+      this, they receive another saving throw.</p>
+
+      <p>Leaving the totem causes the effect to end for a creature, but
+      re-entering it causes the effect to resume if they have not yet made a
+      successful saving throw. These are mind-affecting, compulsion effects.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Totem
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

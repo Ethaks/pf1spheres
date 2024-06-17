@@ -1,0 +1,190 @@
+_id: bh7vsvNGVppfM6H5
+_key: '!items!bh7vsvNGVppfM6H5'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: divination
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/divination.webp
+name: Detect Spellcaster
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may spend a spell point to divine the spellcasting capabilities of
+      a creature you can see within range, utilizing the chart below. Targeted
+      individuals who only have extraordinary and supernatural abilities show up
+      as having no spellcasting aura, whereas those who have spherecasting,
+      spells, or spell-like abilities show an aura depending on the highest
+      effective spell level of an ability they can use. As always, treat a
+      spherecaster&#8217;s caster level divided by 2 as their effective spell
+      level. You may also attempt a Spellcraft check to discover the
+      caster&#8217;s casting tradition, even if they have not produced any
+      magical effects for you to observe.</p>
+
+      <p>Multiclass core spellcasting classes only reveal as the highest aura
+      between the two. Spherecasters with varying caster levels depending on
+      spheres show auras according to their current highest sphere casting
+      ability. If you are participating in a setting with other forms of magic
+      or spellcasting systems, they are detected as appropriate.</p>
+
+      <strong>Chart: Detect Spellcaster</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Class Example</th>
+
+      <th>Highest Effective Spell Level</th>
+
+      <th>Aura Strength</th>
+
+      </tr>
+
+      <tr>
+
+      <td>Core human fighter</td>
+
+      <td>Only natural, (Ex), or (Su) abilities</td>
+
+      <td>None</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Armorist (CL 1)</td>
+
+      <td>Level 0-1 spells</td>
+
+      <td>Dim</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Hedgewitch (CL 5)</td>
+
+      <td>Level 2-3 spells</td>
+
+      <td>Faint</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Mageknight (CL 10)</td>
+
+      <td>Level 4-5 spells</td>
+
+      <td>Moderate</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Eliciter (CL 14)</td>
+
+      <td>Level 6-7 spells</td>
+
+      <td>Strong</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Fey adept (CL 18)</td>
+
+      <td>Level 8 or higher spells</td>
+
+      <td>Overwhelming</td>
+
+      </tr>
+
+      </table>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Divine
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

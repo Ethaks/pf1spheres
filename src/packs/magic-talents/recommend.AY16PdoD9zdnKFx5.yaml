@@ -1,0 +1,123 @@
+_id: AY16PdoD9zdnKFx5
+_key: '!items!AY16PdoD9zdnKFx5'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: mind
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/mind.webp
+name: Recommend
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You point out obvious things the target did wrong, hoping they&#8217;ll
+      do better next time.</p>
+
+      <p><strong>Lesser Charm:</strong> For 1 round per caster level, whenever
+      the target fails an attack roll, skill check, saving throw, or ability
+      check, at the start of the target&#8217;s next turn, the target gains a +1
+      morale bonus on their first roll with that type of check for 1 round.</p>
+
+      <p><strong>Greater Charm:</strong> This functions as the lesser charm,
+      except the duration increases to 1 minute per caster level and the bonus
+      increases to +1 + 1 per 4 caster levels.</p>
+
+      <p><strong>Powerful Charm:</strong> This functions as the greater charm,
+      except the duration increases to 1 hour per caster level.</p>
+
+      <p><strong>What is &#8220;Failure&#8221;:</strong> For the purposes of
+      this talent, a failure occurs when an action or roll that carried real
+      risk does not succeed; most checks made in combat can fail, but a target
+      of this sphere effect cannot perform simple skill checks in hopes of
+      failing before attempting a more important check. The GM is the final
+      arbiter of which checks are capable of failure.</p>
+
+      <p>Some examples include an attack roll missing a target or provoking an
+      attack of opportunity when using the Acrobatics skill to move through an
+      enemy&#8217;s threatened area, etc.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Charm
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

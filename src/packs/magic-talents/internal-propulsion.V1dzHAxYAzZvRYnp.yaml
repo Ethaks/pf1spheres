@@ -1,0 +1,118 @@
+_id: V1dzHAxYAzZvRYnp
+_key: '!items!V1dzHAxYAzZvRYnp'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: blood
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/blood.webp
+name: Internal Propulsion
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As a (quicken) ability, you can bolster a creature&#8217;s body and
+      allow them to move swiftly. The target selects one of their movement
+      speeds and gains a +10-foot enhancement bonus to it, +5 feet per 5 caster
+      levels you possess. As a free action, the target can change the selected
+      movement speed once during their turn. If you spend an additional spell
+      point when using this ability, you also grant the creature a fly speed of
+      20 feet and average maneuverability for one minute. While this form of
+      flight does not necessarily manifest as wings, it is considered winged
+      flight for all purposes.</p>
+
+      <p>As a (blood art), as a standard action or as a swift action if using
+      this effect on a willing creature, you can cause a creature within range
+      to suffer blood loss and move 10 feet in any one direction. This movement
+      does not provoke attacks of opportunity.</p>
+
+      <p>An unwilling creature may attempt a Fortitude save to negate this
+      effect, suffering no blood loss. The target gains a +4 bonus to their
+      saving throw if they would be moved somewhere intrinsically harmful (onto
+      a bed of spikes, into the air, etc.).</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Blood Art
+    - Quicken
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

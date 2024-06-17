@@ -1,0 +1,205 @@
+_id: esIDndEnQZM9o9zF
+_key: '!items!esIDndEnQZM9o9zF'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: telekinesis
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/telekinesis.webp
+name: Bludgeon
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Once per turn when lifting a creature or object with telekinesis
+      (referred to as a Bludgeon), you can spend its remaining movement to
+      strike a creature or object within its reach.</p>
+
+      <p>This is considered a ranged attack and can benefit from feats or combat
+      talents related to weapon and ranged attacks, but does not provoke attacks
+      of opportunity except as provoked by the casting of the telekinesis
+      itself. Making the attack is a standard action; if the caster is both
+      maintaining a telekinesis effect via concentration and making a Bludgeon
+      attack, they need only spend a single action to do both, provided it is
+      the larger action of the two.</p>
+
+      <p>When you use a Bludgeon to strike a target, you must succeed at a
+      ranged attack roll against the target, using your casting ability modifier
+      in place of Dexterity for the attack roll.</p>
+
+      <p>On a successful hit, the target and the Bludgeon take damage depending
+      on the Bludgeon&#8217;s size. If the Bludgeon is a weapon, the attack
+      deals appropriate damage for that weapon (bolts and arrows are treated as
+      daggers for this purpose). Since weapons are designed to deal damage, they
+      do not suffer damage themselves if used as a Bludgeon. Objects beyond
+      Colossal are still treated as Colossal for calculating damage.</p>
+
+      <strong>Table: Object Damage</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Object Size</th>
+
+      <th>Damage Dealt</th>
+
+      </tr>
+
+      <tr>
+
+      <td>Fine</td>
+
+      <td>1</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Diminutive</td>
+
+      <td>1d2</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Tiny</td>
+
+      <td>1d3</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Small</td>
+
+      <td>1d4</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Medium</td>
+
+      <td>1d6</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Large</td>
+
+      <td>1d8</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Huge</td>
+
+      <td>2d6</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Gargantuan</td>
+
+      <td>3d6</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Colossal</td>
+
+      <td>4d6</td>
+
+      </tr>
+
+      </table>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

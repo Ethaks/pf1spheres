@@ -1,0 +1,108 @@
+_id: uio4nJHDhssvPySg
+_key: '!items!uio4nJHDhssvPySg'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: light
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/light.webp
+name: Irradiance
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Your glow sheds ionizing radiation along with visible light. When you
+      cause a target to glow you may choose to make it sickened, giving it a -2
+      penalty to attack rolls, weapon damage rolls, saving throws, skill checks,
+      and ability checks.</p>
+
+      <p>By spending a spell point to create bright light you can increase the
+      intensity of the radiation. All creatures in the area of this bright light
+      must succeed at a Fortitude save or be nauseated for one round. They must
+      attempt this saving throw each round they are within this area. Creatures
+      that succeed on their saving throw are still sickened for that round.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Light
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,115 @@
+_id: tOPPKI0kkD3ph3Zf
+_key: '!items!tOPPKI0kkD3ph3Zf'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: warleader
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/warleader.webp
+name: Distracting Cacophony
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Your disorienting screech echoes in the back of the minds of your foes.
+      When you use this shout, all hostile creatures within its radius must
+      succeed on a Will save. All creatures who fail their save against this
+      shout increase the DC of all concentration checks and Intelligence-based
+      skill checks by +2, increasing by +1 for every 4 ranks in Diplomacy you
+      possess. This increase to concentration check DCs does not stack with the
+      Disruptive feat or other effects which increase the DCs of concentration
+      checks. In addition, creatures who take damage while affected by this
+      shout suffer 5% spell failure during their next turn, increasing by 5% for
+      every 4 ranks of Diplomacy you possess. If a creature is suffering spell
+      failure chance from another source (such as spell failure from the Somatic
+      Casting general drawback), add this spell failure to the other source to
+      get a single spell failure source. This spell failure applies to all
+      spells, spell-like, supernatural, and spherecasting abilities that the
+      creature possesses. A creature who fails their save against this shout can
+      attempt a new save each round as a free action at the end of their
+      turn.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Shout
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

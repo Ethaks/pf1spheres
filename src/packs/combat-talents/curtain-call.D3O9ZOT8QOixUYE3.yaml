@@ -1,0 +1,113 @@
+_id: D3O9ZOT8QOixUYE3
+_key: '!items!D3O9ZOT8QOixUYE3'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: duelist
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/duelist.webp
+name: Curtain Call
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Duelist sphere (Iai Slash (bleed)),
+      base attack bonus +5.</p>
+
+      <p>You may spend a move action and expend your martial focus to
+      elaborately sheathe one held weapon without provoking attacks of
+      opportunity and glare at nearby enemies. Each enemy within 30 feet of you
+      currently suffering from bleed damage dealt by your blooded strike
+      suddenly spasms and hemorrhages blood, suffering 1d6 bludgeoning, slashing
+      and piercing damage, plus an additional 1d6 for every 3 points of base
+      attack bonuses you possess. If you possess Perforating Wounds, the
+      creature suffers an additional 2d6 damage for every stack of that talent
+      applied to them. After suffering this damage, any bleed damage dealt due
+      to your Duelist sphere abilities immediately end.</p>
+
+      <p>If you possess Defiant Focus, you do not need to expend your martial
+      focus to use this ability.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

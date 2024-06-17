@@ -1,0 +1,114 @@
+_id: HjpdgoOm8Ytp8Zpj
+_key: '!items!HjpdgoOm8Ytp8Zpj'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: scoundrel
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/scoundrel.webp
+name: Steal Spells
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Scoundrel sphere, Sleight of Hand 9
+      ranks.</p>
+
+      <p>When performing a steal combat maneuver, rather than steal an item, you
+      may attempt to transfer an ongoing spell effect from that target to
+      yourself for 1 round per rank in Sleight of Hand you possess. At the end
+      of this duration, the effect ends on yourself and returns to the creature
+      it was stolen from. Time spent stolen still counts against the
+      effect&#8217;s duration, and if the effect&#8217;s duration expires while
+      it is stolen, it ends as normal. At 10 ranks in Sleight of Hand, the
+      duration increases to 1 minute per rank you possess.</p>
+
+      <p>This functions with spell effects with a target of &#8216;self&#8217;,
+      but does not otherwise function with spell effects that would consider you
+      an invalid target (for example, if the effect only targets specific
+      creature types). This is a supernatural effect.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Trick
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

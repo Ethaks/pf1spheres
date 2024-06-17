@@ -1,0 +1,110 @@
+_id: Thre4gxBIUYhxI51
+_key: '!items!Thre4gxBIUYhxI51'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: wrestling
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/wrestling.webp
+name: Inescapable Grasp
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever a creature attempts to magically escape a grapple with a
+      teleportation or Warp effect, you may make a special combat maneuver check
+      against their CMD as an immediate action. If successful, the escape fails
+      and they provoke an attack of opportunity from you. At +10 base attack
+      bonus, if you make a grapple attempt against a creature under the effect
+      of a freedom of movement spell or similar effect, that effect is
+      suppressed for the duration of the grapple.</p>
+
+      <p><strong>Author's Note:</strong> This talent only applies against
+      teleportation effects originating from the grappled target, not from any
+      source. At 10+ base attack bonus, this talent can suppress freedom of
+      movement and other similar effects (like the Fate sphere's Freedom
+      (word)), regardless of their source.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

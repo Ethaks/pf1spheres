@@ -1,0 +1,111 @@
+_id: 0t4Rg2YlnAkNELZH
+_key: '!items!0t4Rg2YlnAkNELZH'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: destruction
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/destruction.webp
+name: Energy Cloud
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Destruction sphere, caster level
+      10th.</p>
+
+      <p>You may spend three spell points to make your destructive blast into a
+      roiling cloud of destruction. The cloud covers a 10-foot + 5 feet per 5
+      caster levels radius, is 10-foot + 5 feet per 5 caster levels tall, and is
+      stationary unless directed by the caster to move as a move action, which
+      it does at a rate of 20-foot + 5 feet per 2 caster levels and persists for
+      1 minute per caster level. The cloud obscures vision as the fog cloud
+      spell. Any creatures who begin their turn inside the cloud suffers your
+      destructive blast damage. Affected creatures are allowed a Fortitude
+      saving throw for half damage. You are immune to damage from your own
+      cloud.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Blast Shape
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

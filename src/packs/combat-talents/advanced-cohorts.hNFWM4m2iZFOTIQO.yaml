@@ -1,0 +1,138 @@
+_id: hNFWM4m2iZFOTIQO
+_key: '!items!hNFWM4m2iZFOTIQO'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: leadership
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/leadership.webp
+name: Advanced Cohorts
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Leadership sphere, (cohort) package,
+      Diplomacy 5 ranks.</p>
+
+      <p>You may recruit intelligent (Int greater than 2) creatures of any type
+      into your service, though creatures of a different type impose a +10
+      increase to their recruit DC. Creatures so recruited use their normal
+      statistics and equipment.</p>
+
+      <p>Unlike normal cohorts, advanced cohorts that are not of normal player
+      races are unlikely to be found in settlements, though may be encountered
+      over the course of the campaign; finding a particular creature may require
+      a seperate adventure to seek out and ally yourself with them. Monstrous
+      creatures often have very different perspectives and goals than common
+      adventurers, so may be even more likely to have the cohort relationship be
+      transitory.</p>
+
+      <p>Creatures recruited with this talent cannot have a CR greater than half
+      your ranks in Diplomacy (round down as usual). Use the minimum required
+      Diplomacy ranks to recruit such a creature in place of its Hit Dice for
+      determining the number of Hit Dice required from your Hit Dice pool.
+      Advanced cohorts start with whatever gear is appropriate per their
+      creature entry or situation. As usual, the cohort must be compensated for
+      any equipment that is lost. Equipment you provide to an advanced cohort is
+      not factored into their CR calculation.</p>
+
+      <p>Creatures that advance by class levels may advance as a cohort, using
+      cohort professions, whenever a cohort would normally be allowed to gain
+      Hit Dice. Otherwise, they may advance by class, using their new CR to
+      determine equivalent Hit Dice. Treat such a creature&#8217;s Hit Dice as
+      equal to its CR x 2 + the number of cohort Hit Dice added to it for the
+      purpose of determining the number of Hit Dice required from your Hit Dice
+      pool.</p>
+
+      <p>Creatures that advance by Hit Dice may do so whenever the cohort would
+      normally be allowed to advance, but cannot exceed the normal limits on
+      effective Hit Dice. Intelligent creatures that you create, such as via the
+      Bestow Life advanced talent of the Enhancement sphere or the Greater
+      Undead advanced talent of the Death sphere, are usually willing to serve
+      as advanced cohorts, removing the +10 DC increase for having a different
+      type.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Cohort
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

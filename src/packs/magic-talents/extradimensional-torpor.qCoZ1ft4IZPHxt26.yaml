@@ -1,0 +1,142 @@
+_id: qCoZ1ft4IZPHxt26
+_key: '!items!qCoZ1ft4IZPHxt26'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: warp
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/warp.webp
+name: Extradimensional Torpor
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Warp sphere (Extradimensional Storage
+      (space)).</p>
+
+      <p>You gain a permanent extradimensional space that can be used to store
+      creatures in a state of a deep trance. This space may store up to 6
+      creatures at once, plus an additional 1 for every 4 caster levels.</p>
+
+      <p>By spending a spell point you can place a creature carrying a light
+      load or less into an extradimensional space which puts them into a
+      sleep-like state (unwilling creatures gain a Will saving throw to prevent
+      this).</p>
+
+      <p>While in extradimensional torpor, the creature is helpless and
+      unconscious (this ignores any immunity to sleep), but does not need to
+      breathe. Time flows normally in the torpor meaning that continuous effects
+      (such as poisons) don&#8217;t stop, and beings in torpor require
+      sustenance as normal.</p>
+
+      <p>As a free action, you may release a creature from torpor into an area
+      within range of a space effect that's large enough to house it and would
+      cause it no harm (any attempt to do otherwise fails automatically).</p>
+
+      <p>Creatures willingly put into torpor can exit torpor at anytime to any
+      location they desire within range (despite being unconscious, or being
+      under any other modifications such as being under the effects of Stasis
+      Storage).</p>
+
+      <p>Unwilling creatures get an additional Will saving throw at the
+      beginning of their turn to exit this torpor; if they succeed they can exit
+      torpor similarly to willing creatures. If they fail their Will save for 3
+      turns in a row, they remain in torpor indefinitely until you release them.
+      Creatures gain a +10 bonus to these Will saving throws if they have more
+      than 50% of their hit points remaining, and receive a -5 penalty to these
+      Will saving throws if they have 10% or less of their hit points
+      remaining.</p>
+
+      <p>Creatures stored in this extradimensional space are treated as if they
+      were non-living objects stored in extradimensional storage for the
+      purposes of effects that modify that space (such as the Stasis Storage
+      dual sphere feat).</p>
+
+      <p>If you select this talent a second time, there is no limit to the
+      maximum amount of creatures you may store at once, and you may store
+      creatures carrying a medium load or less.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Space
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

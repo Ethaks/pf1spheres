@@ -1,0 +1,112 @@
+_id: 2dCHXijHGhjtQdE9
+_key: '!items!2dCHXijHGhjtQdE9'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: dark
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/dark.webp
+name: Imbue Shadow
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may imbue a target&#8217;s shadow with the power of your darkness
+      magic. As shadow ability, you may spend a spell point to cause a
+      target&#8217;s shadow to wrap itself around the target, creating a band of
+      supernatural darkness across their eyes, rendering the target blinded. The
+      blindfold lasts as long as you concentrate to a total of 1 round per
+      caster level, but you may spend an additional spell point as a free action
+      to allow the effect to endure for this duration without concentration.
+      Darkvision has no effect on this blindfold, but creatures with the see in
+      darkness ability are immune.</p>
+
+      <p>Additionally, if a talent is usable as both a (darkness) and (blot),
+      you may now use it as if it also possessed the (shadow) tag. Talents used
+      in this fashion cost an additional spell point to use and have a duration
+      of 1 round per caster level.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Shadow
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

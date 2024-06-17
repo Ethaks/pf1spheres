@@ -1,0 +1,131 @@
+_id: PU5Z5kw8CtS3Z2iW
+_key: '!items!PU5Z5kw8CtS3Z2iW'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fallenFey
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fallen_fey.webp
+name: Aelfwine
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You summon a flask, gourd, stein, or wineskin filled with fairy liquor,
+      which replenishes itself after each drink. The flask is weightless and has
+      hardness 5 and 5 hit points per caster level. If the flask is destroyed,
+      this fey-blessing ends immediately. You may determine the quality of the
+      brew with a Craft (alcohol) or Profession (brewer) check made as part of
+      activating this fey-blessing, but the result has no impact on its
+      efficacy. You may drink from it as a move action; you may allow a creature
+      whom you are within the natural reach of to drink from it as a standard
+      action on their turn with no action required on your part. This counts as
+      consuming an alcoholic beverage. Choose one of the following effects when
+      the flask is created:</p>
+
+      <p><strong>Bolstering Brew:</strong> The imbiber gains temporary hit
+      points equal to your caster level that last for 1 minute.</p>
+
+      <p><strong>Brawling Booze:</strong> The imbiber gains the Barroom sphere
+      or a (drunk) talent of your choice from that sphere for 1 minute.</p>
+
+      <p><strong>Calming Sip:</strong> You may attempt a magic skill check
+      against any ongoing effects with the emotion descriptor currently
+      affecting the imbiber. If successful, that effect is suppressed for 1
+      round per caster level. If you spend a spell point as part of the drink
+      (no action required), the effect is instead dispelled.</p>
+
+      <p><strong>Liquid Courage:</strong> The imbiber gains a +2 (+1 per 7
+      caster levels) circumstance bonus on saves vs. fear effects for 1
+      minute.</p>
+
+      <p>If the flask is not in your possession at the start of your turn, you
+      may summon it into your possession as a move action as long as you have
+      line of sight to it. You may have multiple instances of this fey-blessing
+      active at one time; select a different effect for each. Creatures that are
+      immune to the effects of alcohol cannot benefit from this effect.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Fey-Blessing
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,113 @@
+_id: 9cepmGgdCkn0ndtY
+_key: '!items!9cepmGgdCkn0ndtY'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: light
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/light.webp
+name: Repelling Light
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may spend a spell point to create light that repels unwanted
+      creatures. Choose one creature type. In the case of humanoids and
+      outsiders, you must instead choose one subtype.</p>
+
+      <p>Any creature of this type or subtype within the area of bright light
+      must succeed at a Fortitude save or be unable to move closer to the source
+      of the light. Affected creatures may move sideways or backwards, but
+      cannot move closer, although the source of the light may move closer to
+      them. Creatures who succeed at their saving throw but remain within the
+      area of bright light must attempt a new saving throw every round to avoid
+      being affected.</p>
+
+      <p>If a creature enters this area of bright light (or if the source of
+      bright light moves close to them), they must immediately save or be
+      affected.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Light
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

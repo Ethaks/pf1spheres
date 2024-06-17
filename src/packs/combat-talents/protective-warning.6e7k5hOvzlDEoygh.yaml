@@ -1,0 +1,120 @@
+_id: 6e7k5hOvzlDEoygh
+_key: '!items!6e7k5hOvzlDEoygh'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: warleader
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/warleader.webp
+name: Protective Warning
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You can warn your allies to protect themselves better against an
+      enemy&#8217;s specific attack. When you use this shout, choose one
+      specific ability you know an enemy possesses (such as a dragon&#8217;s
+      breath weapon, a practitioner ogre&#8217;s brutal strike (exertion), or a
+      specific spell or magical sphere effect an enemy uses, but not all
+      spellcasting). All allies in the radius of this shout gain a +2 competence
+      bonus to saving throws against that specific ability, increasing by +1 for
+      every 5 ranks in Diplomacy you possess. You may expend martial focus to
+      use this shout as an immediate action, but the bonuses from this shout end
+      after one round.</p>
+
+      <p>You must know about the ability to warn against it, such as having
+      succeeded a Knowledge check and learned about that ability, witnessing the
+      ability from the enemy, or learning about the ability from another source
+      (such as an ally informing you).</p>
+
+      <p>For spherecasting effects, which can be highly mutable, the bonus from
+      this shout applies to the base ability used rather than an exact
+      combination of talents. For example, this shout can be used in reaction to
+      a destructive blast, and would apply to an unmodified Destruction
+      sphere&#8217;s destructive blast or a destructive blast modified by the
+      Energy Strike or Chain Blast talents.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Shout
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

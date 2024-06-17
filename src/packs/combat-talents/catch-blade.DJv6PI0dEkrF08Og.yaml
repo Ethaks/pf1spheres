@@ -1,0 +1,112 @@
+_id: DJv6PI0dEkrF08Og
+_key: '!items!DJv6PI0dEkrF08Og'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: shield
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/shield.webp
+name: Catch Blade
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever an attack misses a creature benefiting from your active
+      defense, if the attack was made with a piercing or slashing melee weapon,
+      you can allow the weapon to strike your shield. If you do, the attack hits
+      your shield, dealing damage to the shield as normal, and the weapon
+      becomes bound. As long as the creature&#8217;s weapon is bound, they
+      cannot move from the square they currently occupy. A creature whose weapon
+      is bound may release the weapon as a free action or attempt to break the
+      bind as a standard action by making a successful combat maneuver check
+      against your disarm CMD. If the bound weapon is a natural attack or
+      unarmed strike, the creature must succeed at a successful combat maneuver
+      check to break the bind. You cannot attack with, receive any shield bonus
+      from, nor use active defense with the shield used to bind a creature as
+      long as the bind is in effect. If any effect, including this attack,
+      renders the shield broken or destroyed, this effect ends immediately.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Deflect
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

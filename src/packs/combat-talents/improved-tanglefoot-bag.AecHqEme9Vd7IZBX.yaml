@@ -1,0 +1,130 @@
+_id: AecHqEme9Vd7IZBX
+_key: '!items!AecHqEme9Vd7IZBX'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: alchemy
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/alchemy.webp
+name: Improved Tanglefoot Bag
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Craft DC:</strong> 25</p>
+
+      <p>You create a single use bag that can be thrown at a creature as a
+      ranged touch attack with a range increment of 10 ft.; on a successful
+      attack, the bag comes apart and goo bursts out, entangling the target and
+      then becoming tough and resilient upon exposure to air. An entangled
+      creature takes a &#8211;2 penalty on attack rolls and a &#8211;4 penalty
+      to Dexterity and must make a Reflex save or be glued to the floor, unable
+      to move. Even on a successful save, it can move only at half speed. A
+      flying creature is not stuck to the floor, but it must make a Reflex save
+      or be unable to fly (assuming it uses its wings to fly) and fall to the
+      ground. Improved tanglefoot bags do not function underwater.</p>
+
+      <p>A creature that is glued to the floor (or unable to fly) can break free
+      by making a Strength check or by dealing 20 points of damage to the goo
+      with a slashing weapon. A creature trying to scrape goo off itself, or
+      another creature assisting, does not need to make an attack roll; hitting
+      the goo is automatic, after which the creature that hit makes a damage
+      roll to see how much of the goo was scraped off. Once free, the creature
+      can move (including flying) at half speed. If the entangled creature
+      attempts to cast a spell with a somatic component, it must make a
+      concentration check with a DC of 15 + the spell&#8217;s level or be unable
+      to cast the spell. The goo becomes brittle and fragile after 3d4 rounds,
+      cracking apart and losing its effectiveness; any penalties imposed by this
+      effect end at that time as well. An application of universal solvent to a
+      stuck creature dissolves the alchemical goo immediately.</p>
+
+      <p>You can increase the Craft DC for this item in increments of 10; the
+      first time you do so, all creatures within 5 ft. of the original target
+      must make a Reflex save or suffer the effects of having been hit by an
+      improved tanglefoot bag. For every additional 10 by which you increase the
+      DC, the radius of this effect increases by an additional 5 ft.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Formulae
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

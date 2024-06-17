@@ -1,0 +1,110 @@
+_id: B4tsceeFjjpQA4Gs
+_key: '!items!B4tsceeFjjpQA4Gs'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: light
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/light.webp
+name: Light
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Some talents are designated (light), which add additional effects to
+      your glow ability. You may only apply the benefits of one (light) talent
+      to any individual glow effect. While you may only apply one such talent to
+      an individual glow effect, areas of bright light from different glow
+      effects overlap, provided they are augmented by different (light) effects;
+      an area cannot be affected by the same (light) effect from multiple
+      sources simultaneously.</p>
+
+      <p>When augmenting a glow effect with a (light) talent, the effect is
+      applied once per round, at the end of the caster&#8217;s turn. For
+      example, if a glowing object is thrown into a large group of enemies, it
+      would only affect those within the area where it landed, not those targets
+      it passed by to arrive in that area.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

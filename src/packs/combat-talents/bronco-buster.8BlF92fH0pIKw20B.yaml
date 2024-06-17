@@ -1,0 +1,118 @@
+_id: 8BlF92fH0pIKw20B
+_key: '!items!8BlF92fH0pIKw20B'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: beastmastery
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/beastmastery.webp
+name: Bronco Buster
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As a standard action, you may attempt to mount a creature of the animal
+      type within your reach that is of a size suitable to serve you as a mount.
+      Make a Ride skill check against the creature&#8217;s CMD. If successful,
+      you move into the creature&#8217;s space and it acts as your mount. The
+      creature may make a Will save each round to break free of your control. If
+      successful, it may attempt to throw you once per round as a move action,
+      making a combat maneuver check against a DC of 10 + your Ride skill
+      modifier to force you to dismount in an adjacent square of your choice. If
+      it fails the Will save, it must act as a willing mount for that turn. A
+      new Will save must be made each round until you are thrown or choose to
+      dismount.</p>
+
+      <p>Additionally, you may use your ranks in Ride in place of your ranks in
+      Handle Animal when making checks to train or rear a creature suitable to
+      serve as your mount.</p>
+
+      <p>If you possess the (handle animal) package and the Broad Skills talent,
+      you may use this talent on any creature to which your trainer ability
+      applies, though creatures not of the animal type gain a +2 bonus on their
+      Will save.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Ride
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

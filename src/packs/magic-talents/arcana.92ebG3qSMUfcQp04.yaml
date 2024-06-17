@@ -1,0 +1,133 @@
+_id: 92ebG3qSMUfcQp04
+_key: '!items!92ebG3qSMUfcQp04'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fate
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fate.webp
+name: Arcana
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Where most normal motifs grant a brief glimpse of the target&#8217;s
+      fate, and ends with a short lived burst of power, some Fate casters learn
+      to weave additional prophecy into their motifs.</p>
+
+      <p>(Arcana) talents are unique (motif) talents which can either be cast
+      normally as a motif or attached to another motif as part of casting it.
+      When casting any motif, the caster may attach one (arcana) to that motif,
+      which is hereafter referred to as the &#8220;attached motif&#8221;.
+      Attaching an (arcana) to a motif does not cost the caster any additional
+      spell points or increase the casting time of the attached motif.</p>
+
+      <p>While attached to another motif, an (arcana) talent functions in the
+      following ways:</p>
+
+      <ul>
+
+      <li>An (arcana) shares its duration with the attached motif, and ends when
+      the attached motif ends.</li>
+
+      <li>An (arcana) does not grant bonuses while attached to another motif,
+      and only adds its discharge effect to the attached motif&#8217;s discharge
+      (e.g. the pentacle&#8217;s bonus to one saving throw would not apply while
+      being attached and only grants the discharge benefit for rerolls on saving
+      throws).</li>
+
+      <li>An (arcana) cannot be discharged for its additional effect
+      independently, and only grants its discharge effect when the attached
+      motif is discharged.</li>
+
+      <li>A caster may only attach one (arcana) to another (motif) talent,
+      though feats, items, and other features may affect this. An (arcana)
+      talent can not be attached to the same (arcana) when cast as a motif. For
+      example, you cannot attach Swords to Swords as a motif, but can attach
+      Swords to Cups as a motif.</li>
+
+      </ul>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

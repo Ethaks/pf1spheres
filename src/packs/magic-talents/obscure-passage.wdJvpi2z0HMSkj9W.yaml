@@ -1,0 +1,113 @@
+_id: wdJvpi2z0HMSkj9W
+_key: '!items!wdJvpi2z0HMSkj9W'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: dark
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/dark.webp
+name: Obscure Passage
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>By spending a spell point, you modify your blot to serve as a portal
+      through a surface, passing through up to 5 feet of material per caster
+      level. Multiple castings can penetrate deeper into a surface, and
+      creatures can move through both openings. Obscure Passage can not
+      penetrate a surface with a hardness greater than 5 plus its caster level.
+      Attempting to create an obscure passage through a surface that is too
+      thick or too hard causes the spell to fail and all spell points spent to
+      be lost. An obscure passage has a maximum diameter of 1 foot per caster
+      level, and leaves the surface whole and unmarred when it expires. Light
+      does not pass through an obscure passage, nor do low-light vision or
+      darkvision allow a creature to peer through it, though the Clearsight meld
+      and see in darkness do.</p>
+
+      <p>A creature standing above an obscure passage as it opens may attempt a
+      Reflex save to avoid falling in.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Blot
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

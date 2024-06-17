@@ -1,0 +1,117 @@
+_id: 0yXm8LdWFexKiB5u
+_key: '!items!0yXm8LdWFexKiB5u'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: scout
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/scout.webp
+name: Detect Surface Thoughts
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Scout sphere, Perception 5 ranks.</p>
+
+      <p>Once you have scouted a creature, you can attempt to discern their
+      surface thoughts. Each round you may spend a standard action concentrating
+      to gain more information on what a creature is thinking:</p>
+
+      <ul>
+
+      <li><strong>1st Round:</strong> Presence or absence of thoughts (from
+      conscious creatures with Intelligence scores of 1 or higher).</li>
+
+      <li><strong>2nd Round:</strong> The Intelligence score of your scouted
+      target. If its Intelligence is 26 or higher (and at least 10 points higher
+      than your own Intelligence score), you are stunned for 1 round.</li>
+
+      <li><strong>3rd Round:</strong> Surface thoughts of the target. Creatures
+      of animal intelligence (Intelligence 1 or 2) have simple, instinctual
+      thoughts.</li>
+
+      </ul>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

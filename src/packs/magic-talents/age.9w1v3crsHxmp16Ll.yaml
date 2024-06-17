@@ -1,0 +1,199 @@
+_id: 9w1v3crsHxmp16Ll
+_key: '!items!9w1v3crsHxmp16Ll'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: time
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/time.webp
+name: Age
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may spend a spell point to increase or decrease a target&#8217;s
+      age by 1 category (unwilling creatures attempt a Fortitude save to
+      negate). This adds or removes penalties to physical ability scores but
+      does not add or remove bonuses to mental ability scores. You may move the
+      target 1 age category older or younger, plus an additional category for
+      every 5 caster levels possessed.</p>
+
+      <p>This cannot cause the target to die of old age, nor become so young
+      they were never born. This effect lasts as long as you concentrate, but
+      you may always spend a spell point as a free action to allow this effect
+      to continue for 1 minute per caster level without concentration. The
+      effects of different age categories are cumulative (thus, a target moved
+      from young adult to venerable would suffer a -6 penalty to all physical
+      ability scores).</p>
+
+      <strong>Table: Age Categories</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Age Category</th>
+
+      <th>Physical Penalties (Age penalties accumulate)</th>
+
+      </tr>
+
+      <tr>
+
+      <td>Child</td>
+
+      <td>-1 size category, -2 to all physical ability scores</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Youth</td>
+
+      <td>-1 to all physical ability scores</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Young Adult</td>
+
+      <td>none</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Middle Age</td>
+
+      <td>-1 to all physical ability scores</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Old Age</td>
+
+      <td>-2 to all physical ability scores</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Venerable</td>
+
+      <td>-3 to all physical ability scores</td>
+
+      </tr>
+
+      </table>
+
+      <p>You may also target an object instead of a creature.</p>
+
+      <p>Attended objects are permitted a Will save by their holder to negate
+      this ability. Unless noted, the chosen effect persists for as long as you
+      concentrate, or for 1 minute per caster level if you spend an additional
+      spell point. Choose from the following effects:</p>
+
+      <p><strong>Restore:</strong> As an instantaneous effect, you may spend a
+      spell point when targeting an object with the broken condition to restored
+      it to the form it previously had, removing the broken condition. This does
+      not restore any charges to limited use items nor restore expended
+      single-use items. This option can also be used to counter or dispel the
+      other applications of this talent with requiring a magic skill check.</p>
+
+      <p><strong>Spoilage:</strong> As an instantaneous effect, you may cause an
+      amount of food sufficient to feed 1 Medium creature per caster level to
+      spoil or cause an equal amount of spoiled food to return to a palatable
+      state. This does not remove other changes made to the food, such as adding
+      poison or magical effects unless you spend a spell point and succeed on a
+      magic skill check against the poison or effect&#8217;s DC. Restoring the
+      food does not prevent future spoilage.</p>
+
+      <p><strong>Weather:</strong> The object is shifted to its future state,
+      reducing its hardness by your caster level.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Time
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

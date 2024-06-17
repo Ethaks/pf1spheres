@@ -1,0 +1,115 @@
+_id: m5X7CEsME9t6ihpV
+_key: '!items!m5X7CEsME9t6ihpV'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: berserker
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/berserker.webp
+name: Advancing Carnage
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever you make a melee attack using the attack action, you may
+      choose to take a -2 penalty on all attack rolls made that round. If your
+      attack hits, you may make an additional attack as a free action against a
+      creature that is adjacent to the first and also within your reach. If this
+      additional attack hits, you may make another additional attack against a
+      new target adjacent to the struck target. You may continue attacking
+      targets adjacent to your most recent struck target as long as you still
+      have a valid target for this ability, but you cannot attack the same
+      creature twice. The number of additional attacks made with this ability
+      cannot exceed 1/2 your base attack bonus (minimum 1).</p>
+
+      <p>You can take this talent a second time, allowing you to take a single
+      5-ft. step as a free action after making an attack when using this
+      ability. If doing so places a creature within your threatened area, that
+      creature becomes a legal target for your additional attack(s) as long as
+      it meets all the other prerequisites. Your movement with this talent
+      cannot exceed your move speed. <strong>Associated Feats:</strong> Cleave,
+      Great Cleave, Cleave Through when taken twice.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

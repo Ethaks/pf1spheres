@@ -1,0 +1,109 @@
+_id: 67PhglZeAwjWtuvq
+_key: '!items!67PhglZeAwjWtuvq'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: trap
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/trap.webp
+name: Net
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>When used with a dart trap, a creature that is struck by your dart must
+      make a Reflex save or become entangled. You may forgo damage to resolve
+      this attack against touch AC. This condition lasts until the creature
+      succeeds on a Strength or Escape Artist check against the trap&#8217;s DC
+      or destroys the trap via damage.</p>
+
+      <p>When used with a snare trap, the target is entangled and unable to move
+      from the triggering square until it succeeds on a Strength or Escape
+      Artist check against the trap&#8217;s DC or destroys the trap via
+      damage.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Dart
+    - Snare
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,109 @@
+_id: 1KoDClFGgzS5LwOr
+_key: '!items!1KoDClFGgzS5LwOr'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: death
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/death.webp
+name: Undead Whisperer
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Undead you reanimate and control gain one skill rank per caster level.
+      These skill ranks cannot be spent on a Knowledge skill, but otherwise any
+      skill is valid as long as either you or the creature (when it was alive)
+      possess ranks in the chosen skill. Undead cannot possess more ranks in a
+      skill than either you possess in that skill or that it possessed in life,
+      whichever is greater. You may command these undead to use their skills as
+      a basic command.</p>
+
+      <p>If you possess the Master&#8217;s Presence (dominion) talent, your
+      undead may use your skill ranks in place of their own for any valid skill
+      check, so long as they are within your dominion range.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Dominion
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

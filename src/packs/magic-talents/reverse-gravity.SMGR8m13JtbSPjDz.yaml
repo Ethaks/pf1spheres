@@ -1,0 +1,120 @@
+_id: SMGR8m13JtbSPjDz
+_key: '!items!SMGR8m13JtbSPjDz'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: enhancement
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/enhancement.webp
+name: Reverse Gravity
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Enhancement sphere (Lighten (enhance)),
+      caster level 15th.</p>
+
+      <p>You may spend 2 spell points to enhance an area of up to 1&#160;10-foot
+      cube per caster level, arranged contiguously. Unlike most enhancements,
+      you can only maintain this effect through concentration for up to 1 round
+      per caster level. Spending an additional spell point to allow it to become
+      self-sustaining lasts for 1 round per caster level, not 1 minute per
+      caster level, and is unaffected by Deep Enhancement.</p>
+
+      <p>Within this area, gravity reverses. Unattached objects and creatures in
+      the area fall upward and reach the top of the area in 1 round. If a solid
+      object (such as a ceiling) is encountered in this fall, falling objects
+      and creatures strike it in the same manner as they would during a normal
+      downward fall. If an object or creature reaches the top of the area
+      without striking anything, it remains there, oscillating slightly, until
+      the effect ends. At the end of the duration, affected objects and
+      creatures fall downward.</p>
+
+      <p>Provided it has something to hold onto, a creature caught in the area
+      can attempt a Reflex save to secure itself and not fall upward. Creatures
+      who can fly or levitate can keep themselves from falling.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Enhance
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

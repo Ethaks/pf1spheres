@@ -1,0 +1,111 @@
+_id: 5EfT3v99DbEicCH3
+_key: '!items!5EfT3v99DbEicCH3'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: lancer
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/lancer.webp
+name: Pinning Impale
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever you use the charge action, you can impale the target of your
+      charge on a successful attack. If the creature is adjacent to a wall or
+      other such structure, or they are within your melee reach of one, you can
+      pin them to the wall with your weapon. Releasing the weapon does not end
+      the impalement against the creature, forcing the creature to make a combat
+      maneuver check against your CMD to release themselves. You may select this
+      talent up to twice; if you select this talent a second time, you can
+      instead pin a creature to the ground with this talent.</p>
+
+      <p><strong>Author's Note:</strong> If you could make multiple attacks as
+      part of a charge attack, only the first attack may be an impale
+      (regardless of whether it is successful or not). An impale made this way
+      is not treated as an attack action unless you could perform an attack
+      action at the end of a charge normally.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

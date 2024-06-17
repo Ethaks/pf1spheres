@@ -1,0 +1,116 @@
+_id: Kio30f5nXNiGoqkQ
+_key: '!items!Kio30f5nXNiGoqkQ'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fallenFey
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fallen_fey.webp
+name: Snare Setter
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may make a snare that functions as a magic trap. You may conjure
+      and set a snare as a standard action in a square within close range, which
+      blends with its surroundings (DC 20 + caster level Perception check for a
+      character with the trapfinding ability to locate). One end of the snare is
+      tied in a loop that contracts around one or more of the limbs of any
+      creature stepping inside the circle. The cord-like object tightens around
+      the creature, dealing no damage but causing it to be entangled and
+      preventing it from moving from that space.</p>
+
+      <p>The snare is magical and can be dispelled as a sphere effect.</p>
+
+      <p>To escape, a trapped creature must attempt an Escape Artist check or
+      Strength check equal to your sphere DC as a full-round action. The snare
+      has AC and hit points equal to your caster level and hardness equal to
+      half your caster level. A successful escape from the snare breaks the loop
+      and ends the effect, though not the fey-blessing. A snare persists until
+      triggered or until the fey-link ends. Only one snare may be set at a time;
+      setting an additional snare dismisses all previous snares.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Fey-Blessing
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

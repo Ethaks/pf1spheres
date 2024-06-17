@@ -1,0 +1,115 @@
+_id: pbxvQNqwRbRHvGcp
+_key: '!items!pbxvQNqwRbRHvGcp'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: blood
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/blood.webp
+name: Martyr’s Tithings
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever you cause another creature to suffer blood loss, you gain an
+      amount of temporary hit points equal to the blood loss for a number of
+      rounds equal to your casting ability modifier. Whenever you would take
+      blood loss damage, these temporary hit points are lost first.</p>
+
+      <p>In addition, you may infuse another creature with a portion of your
+      vitality. As a standard action, you suffer blood loss and grant another
+      creature within range temporary hit points equal to twice the blood loss
+      plus your casting ability modifier. These temporary hit points last for 1
+      minute per caster level. If you spend an additional spell point when
+      casting this effect, the target is also healed for an amount of damage
+      equal to the number of temporary hit points they receive.</p>
+
+      <p><strong>Special:</strong> If you possess a Life sphere (vitality)
+      talent, granting temporary hit points to another creature with this talent
+      is treated as though it were a Life sphere effect for the purposes of
+      granting the benefits of a (vitality) talent.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Blood Art
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

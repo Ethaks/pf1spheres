@@ -1,0 +1,114 @@
+_id: 9pisGSQKu1vMIVou
+_key: '!items!9pisGSQKu1vMIVou'
+effects: []
+flags:
+  pf1: {}
+folder: null
+img: icons/svg/item-bag.svg
+name: Craft Apparatus
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Caster level 1st.</p>
+
+      <p><strong>Benefits:</strong> This feat allows for the creation of
+      talent-based magic items that require no activation except to hold, wear,
+      or carry them.</p>
+
+      <p>Creating an apparatus costs 2,000 gp x caster level x complexity. An
+      item must have an effect measured in hours to be made into an apparatus.
+      Thus, as an example, if making an apparatus of the War sphere totem
+      talent-based item creation effect, which is measured in rounds, the effect
+      would need to have its duration increased by 3 steps (+6 complexity)
+      before it could be made into an apparatus.</p>
+
+      <p><strong>Continual Life Sphere Effects:</strong> Creating an apparatus
+      that grants what is normally an instantaneous effect, such as Life sphere
+      effects, has a base complexity of 6. If crafting an apparatus that grants
+      a continual cure, the effect becomes instead fast healing 1 (+1 per
+      additional +1 in complexity). If an apparatus grants a continual restore,
+      it instead grants immunity to one effect (+1 per additional +1 in
+      complexity; a creature cannot gain immunity to effects that require a
+      magic skill check to remove or are unaffected by the Life sphere).
+      Temporary hit points cannot be made into a continual effect.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: feat
+  tag: ''
+  tags:
+    - replaces Craft Rod
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

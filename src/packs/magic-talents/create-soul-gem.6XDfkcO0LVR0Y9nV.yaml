@@ -1,0 +1,124 @@
+_id: 6XDfkcO0LVR0Y9nV
+_key: '!items!6XDfkcO0LVR0Y9nV'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: death
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/death.webp
+name: Create Soul Gem
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Death sphere, caster level 5th.</p>
+
+      <p>You draw forth the ebbing life force of a dying creature or one that
+      has died in the past round, transforming it into a soul gem. The target
+      must be within range of your ghost strike in order for you to use this
+      ability on them (or within close range if you do not possess the ability
+      to use ghost strike). If the creature is dying but alive and fails its
+      saving throw, it dies and you capture its soul in the gem.</p>
+
+      <p>If the creature is dead, it can still resist this effect by attempting
+      a Will save as if it were still alive. The value of the soul gem created
+      depends on the nature of the creature it is made from (see below). Soul
+      gems created by this effect crumble to dust after 1 day per caster level,
+      releasing the trapped soul to travel on to the afterlife.</p>
+
+      <p>Only one soul gem can be created from a dying creature. Any attempt to
+      resurrect a body whose soul is trapped in a soul gem requires a magical
+      skill check against your MSD. Failure results in the resurrection having
+      no effect, while success shatters the target&#8217;s soul gem and returns
+      the creature to life as normal. If you possess the Death sphere Soul Trap
+      advanced talent, you may transfer a soul contained in a soul gem into an
+      appropriate gemstone as a standard action by spending 3 spell points.</p>
+
+      <p>If a creature does not possess a soul, they are unaffected by this
+      talent. If a creature&#8217;s soul is already pledged to another entity
+      such as a god or outsider, said entity may seek to reclaim the soul
+      somehow.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,128 @@
+_id: ug5wYgCdD7FdqGqO
+_key: '!items!ug5wYgCdD7FdqGqO'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: conjuration
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/conjuration.webp
+name: Web Spinner
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Your companion gains the ability to use webs to support itself and up
+      to one additional creature of the same size. In addition, it can throw a
+      web up to once per minute as a standard action. This is similar to an
+      attack with a net but has a maximum range of 50 feet, with a range
+      increment of 10 feet, and is effective against targets up to one size
+      category larger than the companion. An entangled creature can escape with
+      a successful Escape Artist check or burst the web with a Strength check.
+      Both are standard actions with a DC equal to 10 + 1/2 the
+      companion&#8217;s Hit Dice + the companion&#8217;s Constitution modifier.
+      Attempts to burst a web by those caught in it take a &#8211;4 penalty.</p>
+
+      <p>The companion can create sheets of sticky webbing in adjacent squares
+      up to three times its size (so a Medium companion can create a sheet that
+      is 15-foot-by-15-foot.). Doing so requires a full-round action and counts
+      as having used its web.</p>
+
+      <p>Approaching creatures must succeed on a DC 20 Perception check to
+      notice a web; otherwise they stumble into it and become trapped as though
+      by a successful web attack. Attempts to escape or burst the webbing gain a
+      +5 bonus if the trapped creature has something to walk on or grab while
+      pulling free. Each 5-foot-square section of web has a number of hit points
+      equal to the Hit Dice of the companion that created it and DR
+      5/&#8212;.</p>
+
+      <p>If the companion possesses a climb speed, it can move across its own
+      web at its climb speed. While touching a web it created, the companion can
+      pinpoint the location of any creature touching its web.</p>
+
+      <p>If your companion is dismissed, any webs it created immediately
+      disappear.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Form
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

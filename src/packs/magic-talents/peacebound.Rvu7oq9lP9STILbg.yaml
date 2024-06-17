@@ -1,0 +1,113 @@
+_id: Rvu7oq9lP9STILbg
+_key: '!items!Rvu7oq9lP9STILbg'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: protection
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/protection.webp
+name: Peacebound
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may create a ward that renders all creatures within incapable of
+      causing violence. Any violent action or targeted offensive magical effect
+      created within the ward fails and the target&#8217;s action is wasted
+      (Will negates). If any target succeeds at this Will save, the ward&#8217;s
+      effect immediately ends for all. When a Peacebound ward is broken in this
+      fashion, all creatures within become immune to that caster&#8217;s
+      Peacebound ward for 24 hours.</p>
+
+      <p>You may also create an aegis that makes the target immune to violent
+      actions or magic. Any such action made against the target requires the
+      attacker to succeed at a Will save or lose that action. If a creature
+      succeeds at this Will save they are immune to the effects of that casting
+      of this aegis. If the bearer of the Peacebound aegis takes an offensive
+      action against any creature, the aegis immediately ends.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Aegis
+    - Ward
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

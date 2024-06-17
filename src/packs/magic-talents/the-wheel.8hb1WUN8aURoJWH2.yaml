@@ -1,0 +1,155 @@
+_id: 8hb1WUN8aURoJWH2
+_key: '!items!8hb1WUN8aURoJWH2'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fate
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fate.webp
+name: The Wheel
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may grant a motif that empowers the target almost at random. Roll
+      1d4 when you grant the motif. The target gains a +1 insight bonus to rolls
+      indicated on the table below. This bonus increases by +1 for every 10
+      caster levels. In addition, for every 10 caster levels, roll an additional
+      1d4, applying the bonus to that category as well. Bonuses from rolling the
+      same result more than once stack.</p>
+
+      <p>The target may discharge this effect to gain an insight bonus to a
+      single attack roll, saving throw, skill check, ability check, initiative
+      roll, or concentration check equal to twice the sum of the d4 rolls. They
+      must choose to do so before rolling.</p>
+
+      <strong>Table: The Wheel</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>d4</th>
+
+      <th>Bonus</th>
+
+      </tr>
+
+      <tr>
+
+      <td>1</td>
+
+      <td>Attack and damage rolls</td>
+
+      </tr>
+
+      <tr>
+
+      <td>2</td>
+
+      <td>Saving throws</td>
+
+      </tr>
+
+      <tr>
+
+      <td>3</td>
+
+      <td>Initiative and skill checks</td>
+
+      </tr>
+
+      <tr>
+
+      <td>4</td>
+
+      <td>Concentration checks, combat maneuver checks, and CMD</td>
+
+      </tr>
+
+      </table>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Motif
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

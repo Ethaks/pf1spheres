@@ -1,0 +1,114 @@
+_id: FoBl454shFV6tx70
+_key: '!items!FoBl454shFV6tx70'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: dark
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/dark.webp
+name: Black Lung
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Your darkness takes on a foul, miasmic quality that causes creatures to
+      choke and retch. Creatures within must succeed at a Fortitude save or
+      become sickened until they leave the area of Black Lung. Creatures who
+      succeed at this save but remain in the darkness must save again at the end
+      of their turn. If any creature enters this area of darkness, they must
+      save or immediately become sickened. Creatures with the Verbal Casting
+      drawback suffer 50% spell failure while they are sickened by Black Lung.
+      Creatures that do not breathe are unaffected by Black Lung.</p>
+
+      <p>By taking this talent a second time, you may imbue your Black Lung with
+      a dose of contact or inhalation poison held in your hand. Using this
+      ability consumes the dose of poison. Any creature that fails its save
+      against the Black Lung talent must succeed at an additional Fortitude save
+      against the poison&#8217;s DC or suffer its effects. Those immune to your
+      Black Lung are also immune to the poison. There is no chance of
+      accidentally poisoning yourself when using this ability.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Darkness
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

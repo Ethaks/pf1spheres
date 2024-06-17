@@ -1,0 +1,117 @@
+_id: vAskOkxtW4raZ7Rd
+_key: '!items!vAskOkxtW4raZ7Rd'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: life
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/life.webp
+name: Resurrection
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Life sphere (Resuscitate), caster level
+      10th.</p>
+
+      <p>You may spend 3 spell points and 1 minute to bring a dead target back
+      to life. A target cannot have been dead for more than 1 day per caster
+      level, the creature&#8217;s body must be reasonably intact (i.e., it
+      cannot be missing a vital component such as its head or heart), and the
+      target&#8217;s soul must be willing to return (an unwilling target cannot
+      be forcibly resurrected). The target is restored to full health and any
+      ability scores drained or damaged to 0 are raised to 1, but otherwise, any
+      conditions the target was under when it died return when it is raised
+      (disease, poison, curses, etc.). A restore can be applied simultaneously
+      with the resurrection to counteract these conditions.</p>
+
+      <p>Missing body parts are not restored, although the wounds are sealed and
+      do not bleed. The target also gains two permanent negative levels when it
+      is raised or suffers 2 points of Constitution drain for every negative
+      level it would be reduced below 1st level. If this would reduce the
+      target&#8217;s Constitution to 0 or less, it cannot be raised. You cannot
+      raise a target that has died of old age.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

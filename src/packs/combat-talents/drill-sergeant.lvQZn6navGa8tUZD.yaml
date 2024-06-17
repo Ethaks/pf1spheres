@@ -1,0 +1,120 @@
+_id: lvQZn6navGa8tUZD
+_key: '!items!lvQZn6navGa8tUZD'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: leadership
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/leadership.webp
+name: Drill Sergeant
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may increase the power of a cohort through intense training. You
+      may grant a cohort creature 1 bonus Hit Die for every hour you spend
+      training it with a Diplomacy check with a DC of 10 + the creature&#8217;s
+      new Hit Dice total.</p>
+
+      <p>These additional Hit Dice count against your Hit Dice cap for the
+      recruit ability as normal and cannot cause the creature&#8217;s Hit Dice
+      to exceed the maximum shown on Table: Cohort. If a cohort is released,
+      these bonus Hit Dice are lost at a rate of 1 per week. Additional feats
+      and skill points from these Hit Dice are assigned by you.</p>
+
+      <p>You may retrain feats and skill ranks possessed by cohort. You may
+      retrain one feat, talent, or a number of skill ranks equal to your ranks
+      in Diplomacy with 4 hours of training. The new feats and skills must be
+      appropriate for the cohort; cohorts may not gain casting abilities. The GM
+      is the final arbiter of what feats and skills are suitable. With 8 hours
+      of training, you may instead retrain a number of feats equal to half your
+      ranks in Diplomacy (minimum 2 feats).</p>
+
+      <p>You may recruit 1 Hit Die cohorts from your followers. You may recruit
+      a number of cohorts not exceeding your practitioner ability modifier
+      (minimum 1) this way each week.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Cohort
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

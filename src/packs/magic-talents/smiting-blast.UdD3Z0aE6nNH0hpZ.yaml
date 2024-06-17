@@ -1,0 +1,118 @@
+_id: UdD3Z0aE6nNH0hpZ
+_key: '!items!UdD3Z0aE6nNH0hpZ'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: destruction
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/destruction.webp
+name: Smiting Blast
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>If you are of good alignment, you may spend a spell point to make your
+      destructive blast deal sacred damage. If you are of evil alignment, you
+      may spend a spell point to have your destructive blast deal profane
+      damage. You cannot use this blast type if you are of neither
+      alignment.</p>
+
+      <p><strong>Note:</strong> Sacred damage comes from attacks that are
+      heavily infused with the power of sheer good and carry this holy power
+      over as a form of harmful energy to evil-aligned beings. Sacred damage
+      deals full damage to incorporeal targets, and deals damage as if the
+      weapon were good-aligned. As it is not a weapon damage type, it
+      automatically bypasses all damage reduction.</p>
+
+      <p>Profane damage comes from attacks that are heavily infused with the
+      power of sheer evil and carry this unholy power over as a form of harmful
+      energy to good-aligned beings. Profane damage deals full damage to
+      incorporeal targets and deals damage as if the weapon were evil-aligned.
+      As it is not a weapon damage type, it automatically bypasses all damage
+      reduction.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Blast Type
+    - Holy
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

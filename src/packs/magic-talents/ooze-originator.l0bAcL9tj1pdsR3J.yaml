@@ -1,0 +1,116 @@
+_id: l0bAcL9tj1pdsR3J
+_key: '!items!l0bAcL9tj1pdsR3J'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: creation
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/creation.webp
+name: Ooze Originator
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Creation sphere (Acidic Creation
+      (material)), caster level 5th.</p>
+
+      <p>You may create and animate an ooze creature. You must spend an
+      additional spell point for every 4 Hit Dice of the desired ooze; you
+      cannot create an ooze with more Hit Dice than your caster level or that is
+      larger than you can create. The magic behind the ooze&#8217;s creation
+      allows it to recognize you as its creator and obey basic commands such as
+      &#8220;attack&#8221;, &#8220;defend&#8221;, or &#8220;move&#8221; and to
+      follow them to the best of its ability, but it otherwise is a normal,
+      mindless member of its kind and will act appropriately.</p>
+
+      <p>This ooze may be any un-templated creature of the ooze type or a unique
+      creation subject to GM discretion. You may not control more Hit Dice of
+      ooze than your caster level; if you create more than this, the
+      earliest-created oozes no longer recognize you as their creator until you
+      are under this limit again. Oozes can be made permanent through the Create
+      Materials advanced talent.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Create
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,121 @@
+_id: u0PaqjiII6GrbzFr
+_key: '!items!u0PaqjiII6GrbzFr'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fallenFey
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fallen_fey.webp
+name: Steal Skin
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Fallen Fey sphere, caster level
+      5th.</p>
+
+      <p>As a full-round action, you may steal the skin of a creature of Small,
+      Medium, or Large size with a roughly humanoid shape. The target creature
+      must be dead, helpless, or willing. If the target creature is alive, you
+      must make a successful coup de grace attack to steal its skin. Should the
+      creature survive this, it is nauseated as a pain effect, takes
+      Constitution bleed of 1d4, bleed damage equal to three times your caster
+      level, and takes a -10 penalty on saves against disease until its skin is
+      regrown by regeneration or a similar effect. Should this bleed damage be
+      halted by any means, it restarts in 1d4 rounds.</p>
+
+      <p>You then may don or remove the stolen skin as a move action. When
+      wearing a stolen skin, you take on the likeness of the skin&#8217;s
+      original owner, including the victim&#8217;s voice, build, and size, but
+      gain none of the creature&#8217;s abilities. The stolen skin grants you a
+      +10 bonus on Disguise checks to appear as that creature, with none of the
+      usual penalties for different gender, race, age, and size. Stolen skins
+      are preserved for the duration of the fey-blessing and remain as supple as
+      living skin. You may only have a single skin stolen at a time; stealing
+      another forces you to discard any previously stolen skins. Discarded skins
+      rot and decay normally. Discarded skins may not be reused.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Fey-Blessing
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

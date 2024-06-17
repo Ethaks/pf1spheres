@@ -1,0 +1,119 @@
+_id: 2X9P1QAEkqXLF5Ps
+_key: '!items!2X9P1QAEkqXLF5Ps'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: equipment
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/equipment.webp
+name: Rock Toss
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As long as you have martial focus, you can catch thrown or falling
+      rocks (or projectiles of similar shape) that are no larger than your
+      current size. Once per round, when you would normally be hit by a rock,
+      you can make a Reflex save to catch it as a free action. The DC is 25 for
+      a rock of your current size, -5 for each size category it is smaller than
+      you. If the projectile has a magical bonus on attack rolls, the DC
+      increases by that amount. You must be aware of the attack in order to make
+      a rock catching attempt.</p>
+
+      <p>Additionally, you are considered proficient with thrown rocks. You can
+      hurl rocks of up to two size categories smaller than you. A
+      &#8220;rock&#8221; is any large, bulky, and relatively regularly shaped
+      object made of any material with a hardness of at least 5.</p>
+
+      <p>You can hurl the rock as a thrown weapon with a range increment of 10
+      ft. +10 per size category it is smaller than you. Tiny rocks deal 1d6
+      bludgeoning damage, Small 1d8, Medium 2d6, and Large 3d6. As long as you
+      have martial focus and a suitable rock is within your reach, you may pick
+      them up as part of your attack. At +7 and +14 base attack bonus, increase
+      the maximum size rock you may throw by one size category, to a maximum
+      equal to your current size.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Discipline
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

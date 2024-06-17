@@ -1,0 +1,125 @@
+_id: uDEND2g5LluzTm3k
+_key: '!items!uDEND2g5LluzTm3k'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: mind
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/mind.webp
+name: Suppress
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You imbue an area, creature or object with a field of disruptive
+      cognitive energy, making it difficult to communicate or convey expression
+      and meaning. Additionally, whenever a creature benefiting from a sphere
+      effect granting them additional languages or insights into language would
+      enter the cloud, you may attempt a magic skill check against the
+      effect&#8217;s magic skill defense. If you succeed, the effect is
+      dispelled; if you fail, the effect is not affected and cannot be dispelled
+      by the same cloud for 24 hours. If you possess the Mass Charm talent, you
+      may choose to have the cloud ignore any amount of creatures you designate,
+      which can be changed as a free action.</p>
+
+      <p><strong>Lesser Cloud:</strong> Creatures within the cloud suffer a -2
+      penalty to all Charisma-based skills checks, in addition to a +2
+      circumstance bonus to saving throws against language-dependant effects.
+      These bonuses and penalties increase by 1 per 3 caster levels.</p>
+
+      <p><strong>Greater Cloud:</strong> As the lesser cloud, except that they
+      lose all languages that they possess that require verbal speech (this
+      excludes telepathy or non-verbal languages) for as long as they remain
+      within the cloud. These creatures can still shout and act out simple
+      concepts, but the capabilities of speech are lost to them.</p>
+
+      <p><strong>Powerful Cloud:</strong> As the greater cloud, except that they
+      lose all ability to communicate in all forms, including non-verbal
+      languages and telepathy, for as long as they remain within the cloud. This
+      also means that these creatures cannot act out simple concepts or emote in
+      any way, except for volume.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Cloud
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

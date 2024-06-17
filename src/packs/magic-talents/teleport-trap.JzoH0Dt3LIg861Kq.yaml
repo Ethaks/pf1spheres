@@ -1,0 +1,124 @@
+_id: JzoH0Dt3LIg861Kq
+_key: '!items!JzoH0Dt3LIg861Kq'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: warp
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/warp.webp
+name: Teleport Trap
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may lay a teleport effect onto an adjacent, unoccupied 5-foot
+      square. If you possess the Ranged Warp talent, you may place this effect
+      anywhere within that range. This is a latent teleport effect, except it
+      only activates when a creature steps onto the target square, and must
+      target the triggering creature.</p>
+
+      <p>You must possess the Unwilling Teleport talent and spend a spell point
+      as usual if you want your teleport trap to affect unwilling targets. You
+      must possess the Teleport Object talent to affect unattended objects, and
+      may decide when making the teleport trap whether unattended objects will
+      trigger the effect or not. If you possess the Mass Teleport talent, you
+      may spend a spell point to allow the teleport trap to remain after its
+      initial use, affecting additional creatures who enter its square until the
+      duration expires or it has attempted to teleport 1 creature + 1 per 2
+      caster levels (minimum 2 total). You must designate the destination where
+      triggering creatures will be teleported when creating a teleport trap.</p>
+
+      <p>When a creature steps into the triggering square, the teleport effect
+      activates, transporting the triggering creature to the designated
+      destination. Unwilling targets are allowed a saving throw as normal.</p>
+
+      <p>A teleport trap lasts for 10 minutes per caster level before becoming
+      inert. This is a magical trap with a Perception DC and Disable Device DC
+      equal to the teleport&#8217;s save DC. You may only have one teleport trap
+      active at a time. You may select this talent multiple times. Each time
+      this talent is gained beyond the 1st, increase the total number of
+      teleport traps you may have active at one time by 1.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

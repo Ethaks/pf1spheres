@@ -1,0 +1,115 @@
+_id: L77C4g9WUjsOG5a6
+_key: '!items!L77C4g9WUjsOG5a6'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: conjuration
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/conjuration.webp
+name: Troop Companion
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Conjuration sphere.</p>
+
+      <p>You may grant your companion the troop subtype, with constituent
+      members of a Small or Medium size. Your companion&#8217;s troop damage is
+      1d6 + 1d6 per 3 Hit Dice with an enhancement bonus, reach, and threatened
+      area per the companion&#8217;s attacks (thus a companion with the Battle
+      Companion (form) talent summoned with a reach weapon threatens as a
+      creature of the individual&#8217;s size with a reach weapon). The troop
+      gains no benefit from additional natural attacks, but if it possesses at
+      least one natural attack may count its troop damage as a natural attack
+      for abilities that modify a natural attack, such as the poison option of
+      the Monstrous Attacks (form) talent. The companion still counts as a
+      single creature for the purpose of being targeted by mind affecting
+      effects.</p>
+
+      <p>This talent cannot be applied to a companion with the Swarm Companion
+      (form) talent or with a size other than Medium or Small.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Form
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

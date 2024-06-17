@@ -1,0 +1,149 @@
+_id: I9USjwwCNe3yHSzB
+_key: '!items!I9USjwwCNe3yHSzB'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: berserker
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/berserker.webp
+name: Genie’s Wrath
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Berserker sphere, Elemental Might, base
+      attack bonus +5.</p>
+
+      <p>You gain the following (exertion) options which may only be used when
+      you use the Elemental Might feat to change your brutal strike&#8217;s
+      additional damage to energy damage. Each (exertion) may only be chosen
+      with the matching chosen energy type:</p>
+
+      <ul>
+
+      <li><strong>Djinn&#8217;s Crackling Blow (electricity):</strong> Your
+      brutal strike violently channels electricity through the target&#8217;s
+      body, jolting their body. A creature damaged by your brutal strike must
+      succeed at a Fortitude save or drop all held items (as though stunned). If
+      the target of your brutal strike was battered before being damaged by your
+      brutal strike, the target also provokes an attack of opportunity from you
+      and your allies.</li>
+
+      <li><strong>Efreeti&#8217;s Arcing Flame (fire):</strong> Your brutal
+      strike is a destructive whirl of brilliant flames and smoldering ash.
+      After successfully damaging a creature with your brutal strike, you may
+      choose any number of creatures within your threatened area other than the
+      initial target to also suffer your brutal strike&#8217;s additional damage
+      (Reflex half). If the target of your brutal strike was battered before
+      being damaged by your brutal strike, the target must succeed at a Reflex
+      save or be blinded for 1 round.</li>
+
+      <li><strong>Marid&#8217;s Whirlpool Strike (cold):</strong> Your brutal
+      strike envelops the target in swirling, frigid water. A creature damaged
+      by your brutal strike treats other creatures as though they had partial
+      concealment (20% miss chance) for as long as the creature is battered. If
+      the target of your brutal strike was battered before being damaged by your
+      brutal strike, you may move the target into any unoccupied square inside
+      your threatened area (Reflex negates). This movement does not provoke an
+      attack of opportunity and is treated as a reposition combat maneuver
+      performed as a free action. This movement may place the target into a
+      dangerous space (including into the air).</li>
+
+      <li><strong>Shaitan&#8217;s Eroding Assault (acid):</strong> Your brutal
+      strike is a resolute blow which shakes the target&#8217;s foundation. A
+      creature damaged by your brutal strike treats any enemy&#8217;s threatened
+      area as difficult terrain for as long as the creature is battered. Damage
+      dealt by a brutal strike augmented with this (exertion) ignores an amount
+      of hardness equal to your base attack bonus. If the target of your brutal
+      strike was battered before being damaged by your brutal strike, your
+      brutal strike also ignores an amount of damage reduction equal to your
+      base attack bonus.</li>
+
+      </ul>
+
+      <p>This talent and the (exertion) options are supernatural abilities.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Exertion
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

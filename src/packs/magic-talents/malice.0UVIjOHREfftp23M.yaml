@@ -1,0 +1,121 @@
+_id: 0UVIjOHREfftp23M
+_key: '!items!0UVIjOHREfftp23M'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fate
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fate.webp
+name: Malice
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may place this word on a creature, who then designates a victim
+      within range that is entitled to a Will save to negate the effect. This is
+      a curse effect only on the victim, while it is harmless to the attacker.
+      Once per round when the attacker deals damage to or succeeds on a combat
+      maneuver check against the victim the attacker gains a +1 bonus on attack
+      rolls, damage rolls, and saving throws for a number of rounds equal to
+      your casting ability modifier. This bonus increases by +1 for every 10
+      caster levels. Multiple bonuses from a single instance of this word stack
+      with each other, up to your casting ability modifier, but not from other
+      instances of the same word.</p>
+
+      <p>Only direct damage gives the attacker this bonus; ongoing damage such
+      as from acid arrow does not. As a swift action the attacker may change
+      victims; this resets the bonus, and if the new victim succeeds on their
+      Will save the effect ends.</p>
+
+      <p>You may choose to instead place this word on a single creature, in
+      which case it gains the bonus once per round when any other creature deals
+      damage to or succeeds on a combat maneuver check against them.</p>
+
+      <p>This effect lasts as long as you concentrate, but you may always spend
+      a spell point to allow the effect to endure for 1 minute per caster level
+      without concentration.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Word
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

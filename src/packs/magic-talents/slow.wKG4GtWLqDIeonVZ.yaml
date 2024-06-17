@@ -1,0 +1,114 @@
+_id: wKG4GtWLqDIeonVZ
+_key: '!items!wKG4GtWLqDIeonVZ'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: time
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/time.webp
+name: Slow
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You slow the target&#8217;s movements and perception of time. The
+      target has its movement speeds halved (minimum 5 feet) and suffers a -1
+      penalty to attack rolls, AC, and Reflex saves (Will negates). This penalty
+      increases by 1 per 10 caster levels you possess. You must concentrate to
+      maintain this effect, but may spend a spell point as a free action to
+      increase its duration to 1 round per caster level without
+      concentration.</p>
+
+      <p>If a Haste and Slow ability are used on the same creature, the second
+      caster must attempt a magic skill check against the effect of the first
+      caster. On a failure the target is unaffected. On a success, the effects
+      counter each other, leaving neither in place.</p>
+
+      <h3 id="toc3"><span>Time Talent Types</span></h3>
+
+      <p>Some Time talents are marked (time). These talents grant you additional
+      alter time abilities.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

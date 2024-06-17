@@ -1,0 +1,111 @@
+_id: bFlwbwMW1uA1Sj2n
+_key: '!items!bFlwbwMW1uA1Sj2n'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: mana
+folder: null
+img: icons/svg/item-bag.svg
+name: Mark Of Lifeburn
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As an expunge, you may force the target to attempt a Fortitude save. If
+      they fail their save, their internal spell point reservoir becomes
+      dangerous to tap into. Every time the target expends one or more spell
+      points, they take 1d8 nonlethal damage for every spell point they use, up
+      to a maximum amount of dice equal to your caster level (though this does
+      not cause the caster to attempt concentration checks). At caster level
+      3rd, the damage dealt per spell point increases to 2d8, and by an
+      additional 1d8 damage every three caster levels thereafter.</p>
+
+      <p>The target may voluntarily release a number of spell points equal to
+      your casting ability modifier as a standard action (which does not damage
+      them) in order to end this effect, otherwise it lasts for 1 minute per
+      caster level.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Expunge
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

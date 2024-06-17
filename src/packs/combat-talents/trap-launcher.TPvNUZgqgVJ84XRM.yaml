@@ -1,0 +1,115 @@
+_id: TPvNUZgqgVJ84XRM
+_key: '!items!TPvNUZgqgVJ84XRM'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: trap
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/trap.webp
+name: Trap Launcher
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You&#8217;re capable of setting traps at a distance. When placing a
+      trap with a creation time of a standard action or less, you may increase
+      the DC to create the trap by 10 in order to place the trap within the
+      first range increment of a ranged weapon you are wielding. This is
+      considered a ranged attack and as such provokes attacks of opportunity and
+      is subject to conditions that affect ranged attacks (such as wind).</p>
+
+      <p>If you possess the Sniper sphere, you may treat this talent as a
+      (snipe) talent that allows you to shoot your traps directly at creatures.
+      As part of a deadly shot, you create a snare trap that requires a standard
+      action or less to create and fire it (this ignores the limitation of
+      placing traps only within the first range increment of the weapon). A
+      creature hit by the attack makes a Reflex save as normal to prevent
+      triggering the snare, as if the snare trap originated from their square.
+      As the trap is never set, creatures do not gain any bonus to AC or saves
+      for seeing you set the trap. If a trap would usually activate multiple
+      times, it only activates once. If the attack misses, the trap is
+      destroyed.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

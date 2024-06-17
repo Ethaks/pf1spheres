@@ -1,0 +1,170 @@
+_id: 1b3YKVRxOGh6yTXC
+_key: '!items!1b3YKVRxOGh6yTXC'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: scoundrel
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/scoundrel.webp
+name: Savage Tricks
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever you successfully perform a dirty trick combat maneuver, you
+      may also inflict the battered or fatigued conditions to a creature when
+      selecting a condition to apply to the affected creature.</p>
+
+      At 5 ranks in Sleight of Hand, you may expend your martial focus as a free
+      action whenever you successfully perform a dirty trick combat maneuver
+      against an opponent. If you do, you may choose to inflict a greater
+      condition than the original condition chosen, lasting for the normal
+      duration.<br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Original Condition</th>
+
+      <th>New Condition</th>
+
+      </tr>
+
+      <tr>
+
+      <td>Battered</td>
+
+      <td>Flat-footed</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Dazzled</td>
+
+      <td>Treat all creatures as if they had concealment (20% miss chance)</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Entangled</td>
+
+      <td>Suffers the penalties of being grappled (but is not actually
+      grappled)</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Fatigued</td>
+
+      <td>As fatigued, but -4 penalty to Strength and Dexterity.</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Shaken</td>
+
+      <td>Frightened</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Sickened</td>
+
+      <td>Staggered</td>
+
+      </tr>
+
+      </table>
+
+      <p><strong>Associated Feat:</strong> Dirty Trick Master.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Trick
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

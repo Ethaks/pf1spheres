@@ -1,0 +1,118 @@
+_id: pyaYmhPUx2EinHtp
+_key: '!items!pyaYmhPUx2EinHtp'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: protection
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/protection.webp
+name: Reactive Barrier
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>When you create a barrier, you may spend a spell point or increase the
+      casting time by one step (usually from a standard to a full-round action)
+      to allow the barrier to react to damage.</p>
+
+      <p>Upon creating a reactive barrier, you may choose one of the following
+      effects to activate whenever the barrier would be reduced to 0 hit points.
+      If you maintain your barrier through concentration, you may change the
+      effect as part of the action used to concentrate:</p>
+
+      <p><strong>Forceful Rebuke:</strong> You may attempt a bull-rush attempt
+      against all enemies within 5 feet of your barrier, using your caster level
+      + your casting ability modifier in place of your CMB. If this attempt
+      would exceed a creature&#8217;s CMD by 5 or more, the creature must
+      succeed a Reflex saving throw or immediately fall prone.</p>
+
+      <p><strong>Explosive Burst:</strong> All enemies within 5 feet of your
+      barrier suffer 1d6 points of force damage, plus an additional 1d6 damage
+      per 5 caster levels you possess (Reflex halves).</p>
+
+      <p><strong>Fortifying Surge:</strong> All allies within 10 feet of your
+      barrier gain DR/- equal to half your caster level for 1 round.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

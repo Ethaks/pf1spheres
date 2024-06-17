@@ -1,0 +1,119 @@
+_id: An6WOlHGb7gpY5Vt
+_key: '!items!An6WOlHGb7gpY5Vt'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: berserker
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/berserker.webp
+name: Berserking
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As a free action at the start of each turn, you may choose to take a -2
+      penalty to AC in exchange for 3 temporary hit points. The penalty and the
+      temporary hit points end at the start of your next turn. For every point
+      of base attack bonus you have, the granted temporary hit points increase
+      by 1.</p>
+
+      <p>See Adrenaline talents, below, for alternative benefits to gaining
+      temporary hit points while berserking.</p>
+
+      <p><sup><strong>Wiki Note:</strong> Temporary hit points from different
+      sources stack. This means you can use Berserking and still benefit from
+      other sources of temporary hit points.</sup></p>
+
+      <h2 id="toc1"><span><span style="color: #993300">Brutal
+      Strike</span></span></h2>
+
+      <p>As a special attack action, you may make a melee attack against a
+      target. Creatures damaged by a brutal strike gain the battered condition
+      until the end of your next turn. You may expend martial focus to have the
+      attack deal additional damage equal to twice your base attack bonus.</p>
+
+      <p>Each brutal strike may be modified by a single (exertion) talent.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

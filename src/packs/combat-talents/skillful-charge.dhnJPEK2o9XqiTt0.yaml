@@ -1,0 +1,110 @@
+_id: dhnJPEK2o9XqiTt0
+_key: '!items!dhnJPEK2o9XqiTt0'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: athletics
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/athletics.webp
+name: Skillful Charge
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may make an attack action at the end of a charge in place of the
+      normally granted attack. You may not combine this attack with the pounce
+      ability. Abilities that multiply damage dealt on a charge, such as the
+      Spirited Charge feat or wielding a lance while making a mounted charge,
+      may not be used with this talent.</p>
+
+      <p>Additionally, you can use the charge rules to make a thrown weapon
+      attack. All the parameters of a charge apply, except that you must only
+      move closer to the creature, and you must end your movement within 30 ft.
+      of that creature. If you do, you can make an attack action using a thrown
+      weapon attack against that creature, gaining the +2 bonus on the attack
+      roll and taking a &#8211;2 penalty to your AC until the start of your next
+      turn. <strong>Associated Feat:</strong> Charging Hurler.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

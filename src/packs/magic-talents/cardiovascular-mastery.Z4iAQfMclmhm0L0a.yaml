@@ -1,0 +1,141 @@
+_id: Z4iAQfMclmhm0L0a
+_key: '!items!Z4iAQfMclmhm0L0a'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: blood
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/blood.webp
+name: Cardiovascular Mastery
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Creatures under your control have the rhythm of their hearts closely
+      monitored and controlled.</p>
+
+      <p>When a willing creature under the effects of your blood control would
+      be knocked unconscious due to hit point damage, you may allow them to
+      enter a delirious state of consciousness as an immediate action by
+      spending one spell point. The target suffers one bleed damage, is not
+      knocked unconscious, and gains the benefits of the Diehard feat for as
+      long as they suffer from this bleed damage. If the creature already
+      possesses the Diehard feat, they instead are no longer staggered while
+      using the benefits of the feat as long as they suffer from the bleed
+      damage. The bleed damage automatically ends when your blood control
+      ends.</p>
+
+      <p>As a (quicken) ability, you can accelerate bursts of vigor and energy
+      within a creature to tire them out easily. If that creature would receive
+      healing, they instead convert that healing into temporary hit points that
+      remain for 1 minute. The amount of hit points granted is still limited by
+      how much healing the creature could have gained, including limitations
+      such as their maximum health, or heals that cannot heal a creature above
+      half their maximum health. If the creature would gain temporary hit points
+      from a source other than this talent, the duration of those temporary hit
+      points are reduced to 1 round.</p>
+
+      <p>As a (still) ability, you can spend a spell point to temporarily halt
+      the blood flow of a creature in such a way they can still survive. At the
+      start of their turn each round, the creature must succeed at a Fortitude
+      save or become paralyzed until the start of their next turn. This
+      paralysis lasts until the creature succeeds at the Fortitude save, even if
+      your blood control expires, although the creature gains a +8 bonus on
+      their Fortitude save if you do not have blood control established with
+      them. As long as the creature is paralyzed, they appear dead and no longer
+      require oxygen to survive. A Heal check (DC 20 + your caster level) allows
+      a creature to identify that the creature is still alive.</p>
+
+      <p><strong>Special:</strong> If you possess the Inject talent, this
+      ability can be used on an undead creature to grant them a +5 bonus on
+      Bluff and Disguise checks made to disguise or pass off as a living
+      creature. You may also use the Inject talent to permanently infuse a
+      corpse with a pulse as a standard action. Creatures who interact with such
+      a corpse must succeed at a Heal check (DC 20 + your caster level) or
+      believe the corpse is alive, but paralyzed, rather than dead.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Quicken
+    - Still
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,112 @@
+_id: kbaXFQ9lkWY0XEVS
+_key: '!items!kbaXFQ9lkWY0XEVS'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: lancer
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/lancer.webp
+name: Soul Link
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Lancer sphere, impale ability, base
+      attack bonus +5.</p>
+
+      <p>Whenever you control a weapon that is impaling a creature, whenever you
+      take damage, that creature must make a successful Fortitude save or suffer
+      1/4 of the damage dealt to you; this damage is typeless and cannot be
+      reduced. If the impaled creature would regain hit points from a
+      non-extraordinary source, they must make a successful Will save or gain
+      only 1/2 of the hit points they normally would, granting you temporary hit
+      points equal to 1/2 of the healing they would receive. These hit points
+      last for 1 minute.</p>
+
+      <p>At +10 base attack bonus, the target instead suffers 1/2 the damage you
+      would on a failed save, taking 1/4 of the damage on a successful save.
+      This is a supernatural ability.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

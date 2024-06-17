@@ -1,0 +1,113 @@
+_id: dy3Qjc0eAPcZvTwm
+_key: '!items!dy3Qjc0eAPcZvTwm'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: athletics
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/athletics.webp
+name: Dolphin Strike
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>If you have the (leap) package, whenever you perform an Acrobatics
+      check to attempt a high jump as part of a move action and the movement
+      from this jump would allow you to threaten a creature at a higher
+      elevation with a melee weapon, you may perform an attack action with that
+      weapon as a standard action against the creature. This attack deals an
+      extra 1d6 points of damage per 10 feet of maximum vertical height allowed
+      by the Acrobatics check, up to a maximum of 1d6 per rank in Acrobatics you
+      possess. A creature damaged this way cannot perform attacks of opportunity
+      against you for leaving threatened squares until the end of your turn.</p>
+
+      <p>If you have the (swim) package, as part of a move action underwater you
+      may perform a high jump to break the surface of the water by using your
+      Swim ranks and modifier instead of your Acrobatics ranks and modifier.
+      Otherwise it is the same as above.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Leap
+    - Swim
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

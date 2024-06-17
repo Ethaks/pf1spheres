@@ -1,0 +1,122 @@
+_id: xdQ7kmzmcvpSv3Rx
+_key: '!items!xdQ7kmzmcvpSv3Rx'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: creation
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/creation.webp
+name: Rigidity
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You can spend one spell point to manipulate how rigid an object is. You
+      cannot alter an object that is larger than you can create and the normal
+      restrictions apply. This talent has no effect on gases or liquids, or
+      creatures without hardness as a defensive ability.</p>
+
+      <p>Increasing an object&#8217;s rigidity improves its hardness by up to 1
+      per two caster levels (minimum +1), but decreases its hit points by 2 per
+      inch per point of hardness increase, as the object&#8217;s structure
+      becomes harder, but is in turn more prone to shattering. Objects cannot be
+      reduced to less than 1 hit point (walls cannot have less than 1 hit
+      point/inch of thickness), and the bonuses to hardness stop when the
+      minimum amount of hit points is reached.</p>
+
+      <p>Decreasing an object&#8217;s rigidity lowers its hardness by up to 1
+      per 2 caster levels (minimum -1), but increases its hit points by 2 per
+      inch per point of hardness lost, as the object&#8217;s structure becomes
+      more flexible, but it is no longer as able to resist damage as the
+      original. Objects cannot be reduced to a hardness lower than 0, and the
+      bonuses to hit points stop when the minimum hardness is reached. This
+      effect lasts for one minute per caster level.</p>
+
+      <p>If you possess Lengthened Creation you may use it to extend the
+      duration as normal. You may affect a created object with rigidity with the
+      same action used to create the object.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Alter
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

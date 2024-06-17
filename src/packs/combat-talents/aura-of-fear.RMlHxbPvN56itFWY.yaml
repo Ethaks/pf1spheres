@@ -1,0 +1,112 @@
+_id: RMlHxbPvN56itFWY
+_key: '!items!RMlHxbPvN56itFWY'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: gladiator
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/gladiator.webp
+name: Aura Of Fear
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Gladiator sphere, Intimidate 7
+      ranks.</p>
+
+      <p>All hostile creatures that come within close range (25 ft. + 5 ft. per
+      2 base attack bonus) must make a Will save or be shaken for as long as
+      they remain within the area of effect, +1d4 rounds. Once a creature has
+      succeeded on this save, it is immune to your use of this ability for 24
+      hrs. If the creature is already shaken, it instead becomes frightened.
+      Frightened creatures become panicked. Creatures with more Hit Dice than
+      you are immune to this effect.</p>
+
+      <p>This is an extraordinary (fear) effect. You may suppress or resume this
+      ability as a free action. This ability ceases to function if you are
+      stunned, paralyzed, unconscious, dead, or otherwise incapacitated.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Demoralization
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

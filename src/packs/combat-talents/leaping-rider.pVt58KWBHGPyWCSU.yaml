@@ -1,0 +1,135 @@
+_id: pVt58KWBHGPyWCSU
+_key: '!items!pVt58KWBHGPyWCSU'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: beastmastery
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/beastmastery.webp
+name: Leaping Rider
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You can fluidly mount and dismount, transitioning from mounted to
+      unmounted combat with ease.</p>
+
+      <p>You gain the following abilities:</p>
+
+      <ul>
+
+      <li><strong>Leaping Charge:</strong> You may use the leaping dismount
+      ability granted by this talent during a mounted charge attack. If you move
+      at least 10 feet towards the target of your charge attack using leaping
+      dismount, the bonus on attack rolls made at the end of a charge and the
+      penalty to your AC after performing a charge attack both increase by +1 +
+      1 per 5 ranks of Ride you possess. You are still considered mounted for
+      this charge attack for the purposes of lance damage, mounted combat feats,
+      and other abilities or effects. You may use leaping dismount to move into
+      any unoccupied space within reach of the target of your charge, even if it
+      would not be the closest square for a charge.</li>
+
+      <li><strong>Leaping Dismount:</strong> Whenever you dismount your mount
+      (normally a move action, or as a free action with a successful fast
+      dismount), instead of dismounting into a square adjacent to your mount,
+      you may spend an immediate action to jump, moving in any direction up to
+      10 feet + 5 feet for every 5 ranks in Ride you possess (without needing to
+      attempt an Acrobatics check to jump). Leaping dismount&#8217;s movement
+      provokes attacks of opportunity as normal.</li>
+
+      <li><strong>Skilled Mount and Dismount:</strong> You can attempt Ride
+      checks to fast mount or fast dismount your mount even if your mount is
+      more than one size category larger than you. You may take 10 on Ride
+      checks to fast mount or fast dismount, even if rushed or threatened.</li>
+
+      </ul>
+
+      <p><strong>Note:</strong> The leaping charge ability granted by this
+      talent allows you to perform a charge attack against a target further than
+      your mount&#8217;s movement provided you move into an empty space within
+      reach of your target with leaping dismount.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Ride
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

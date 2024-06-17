@@ -1,0 +1,113 @@
+_id: vnhjs1fyp5Nf4axX
+_key: '!items!vnhjs1fyp5Nf4axX'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: brute
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/brute.webp
+name: Forceful Jaunt
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Brute sphere, base attack bonus +5.</p>
+
+      <p>Whenever you successfully perform a bull rush, drag, overrun or
+      reposition maneuver against a creature, you may have them become
+      immaterial for a brief, unreliable moment. The creature&#8217;s movement
+      made as part of the successful maneuver is not interrupted by any
+      creatures or objects within its path, and shifts harmlessly through them
+      as if they were ethereal (and is affected by force and abjuration effects
+      as normal). This is a supernatural effect.</p>
+
+      <p>At base attack bonus +10, this may also force creatures within walls
+      and solid objects (including creatures). If the successful maneuver would
+      result in the creature being within a solid body, the creature is shunted
+      to the nearest open space on a suitable surface (chosen at random if there
+      are multiple valid spaces), suffering 1d6 damage for every 5 feet traveled
+      (maximum 1d6 per point of base attack bonus you possess).</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

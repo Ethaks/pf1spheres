@@ -1,0 +1,117 @@
+_id: xGJtaL9mN62rEF20
+_key: '!items!xGJtaL9mN62rEF20'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: mind
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/mind.webp
+name: Enthrall
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You cause a creature to regard you as its friend. If you or your allies
+      are attacking or threatening the creature, they gain a +5 bonus to their
+      saving throw against this charm. A DC 25 Sense Motive check reveals the
+      target of this charm has been enchanted. This is an enchantment (charm)
+      effect instead of an enchantment (compulsion) effect.</p>
+
+      <p><strong>Lesser Charm:</strong> You increase the target&#8217;s
+      disposition toward you by 1 step to a maximum of friendly for 1 minute per
+      caster level (Will negates).</p>
+
+      <p><strong>Greater Charm:</strong> You increase the target&#8217;s
+      disposition toward you to friendly for 1 minute per caster level (Will
+      negates). You may make requests of the target, but asking it to do
+      anything it would not normally do requires an opposed Charisma check, and
+      it never obeys requests that are obviously fatal or against its nature,
+      although the target may be convinced dangerous things are worth doing.</p>
+
+      <p><strong>Powerful Charm:</strong> This functions as the greater charm,
+      except the duration increases to 1 hour per caster level.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Charm
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

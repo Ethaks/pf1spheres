@@ -1,0 +1,164 @@
+_id: VzPLpQuv4AyWN5aq
+_key: '!items!VzPLpQuv4AyWN5aq'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: fate
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/fate.webp
+name: Enmity
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may spend a spell point as a standard action to place a word on a
+      target debilitating them more severely the less similar their outlook on
+      life is to yours. The effect of this word depends on the number of steps
+      away its alignment is from your own. A target with the same alignment as
+      you is unaffected, while all others are affected as follows:</p>
+
+      <strong>Table: Enmity</strong><br>
+
+      <table class="wiki-content-table">
+
+      <tr>
+
+      <th>Steps</th>
+
+      <th>Effect</th>
+
+      </tr>
+
+      <tr>
+
+      <td>1</td>
+
+      <td>Sickened 1 minute</td>
+
+      </tr>
+
+      <tr>
+
+      <td>2</td>
+
+      <td>Staggered 1 round</td>
+
+      </tr>
+
+      <tr>
+
+      <td>3</td>
+
+      <td>Blind 1 round</td>
+
+      </tr>
+
+      <tr>
+
+      <td>4</td>
+
+      <td>Dazed 1 round</td>
+
+      </tr>
+
+      </table>
+
+      <p>These effects are cumulative and consecutive; for example, if a chaotic
+      evil creature were affected by an Enmity word produced by a lawful good
+      creature, it would be dazed for one round, then blind for one round, then
+      staggered for one round, and finally sickened for one minute. As this
+      power is cosmic in origin, it can affect undead, even though undead are
+      usually immune to some of these conditions.</p>
+
+      <p>A successful Will save negates this effect, but targets with an
+      especially strong alignment aura opposing your alignment (such as chaotic
+      or good for a lawful evil caster) take a penalty to their save: strong,
+      -1; overwhelming, -2.</p>
+
+      <p>If a target has multiple alignment auras, the penalty is determined by
+      the strongest one.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Word
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

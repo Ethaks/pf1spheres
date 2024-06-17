@@ -1,0 +1,117 @@
+_id: i5ZxlYEMuOxi4XYs
+_key: '!items!i5ZxlYEMuOxi4XYs'
+effects: []
+flags:
+  pf1: {}
+folder: null
+img: icons/svg/item-bag.svg
+name: Suppressive Counterspell
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Your magic prevents foes from exploiting idiosyncrasies in their
+      magic.</p>
+
+      <p><strong>Prerequisites:</strong> Counterspell, casting class feature,
+      magic skill bonus +7.</p>
+
+      <p><strong>Benefit:</strong> Whenever you perform a counterspell, you may
+      choose to affect the target or targets with a magical suppression rather
+      than a normal counterspell effect. Creatures affected by a magical
+      suppression must spend an additional spell point to create a magical
+      effect or else the effect fails. A magical suppression lasts for 1
+      round.</p>
+
+      <p>As part of suppressing a target, you may suppress a single drawback
+      worth no more than a single drawback that the target possesses. A creature
+      with a suppressed drawback is not considered to have that drawback when
+      casting but cannot benefit from any boons or drawback feats which rely on
+      that drawback so long as the drawback is suppressed.</p>
+
+      <p><strong>Author's Note:</strong> Vancian casters would have to spend an
+      additional spell slot/prepared spell of equal level to create an effect.
+      Suppressing a drawback could suppress a somatic, verbal, emotion, thought,
+      or focus component for a spell but would shut down any abilities
+      explicitly tied to them (such as a bard&#8217;s Harmonic Spell continuing
+      performance).</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: feat
+  tag: ''
+  tags:
+    - Counterspell
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

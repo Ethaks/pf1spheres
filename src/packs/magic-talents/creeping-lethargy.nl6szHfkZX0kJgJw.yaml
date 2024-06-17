@@ -1,0 +1,110 @@
+_id: nl6szHfkZX0kJgJw
+_key: '!items!nl6szHfkZX0kJgJw'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: dark
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/dark.webp
+name: Creeping Lethargy
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Your darkness fogs the mind, causing those within to slip towards
+      slumber. By spending a spell point you may create a darkness or blot
+      effect that forces creatures within it to succeed at a Will save or become
+      staggered. Creatures that fail this save and remain staggered must succeed
+      at another Will save at the beginning of your next turn or fall asleep for
+      1 round per caster level or until the darkness expires, whichever happens
+      first. A successful save negates all effects and the target is immune to
+      that instance of Creeping Lethargy. Leaving the area of darkness
+      automatically rouses the creature and removes the staggered condition, but
+      does not render the creature immune should it re-enter the area of effect.
+      This is a mind-affecting, sleep effect.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Blot
+    - Darkness
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,116 @@
+_id: KQdv250hKZSxK3G8
+_key: '!items!KQdv250hKZSxK3G8'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: blood
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/blood.webp
+name: Bloodbind
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As a standard action, you bind the target with their own blood,
+      constricting the target with chains, vines, or tattoo-like stains. On a
+      failed Fortitude save, the target suffers blood loss and is bound. A
+      creature bound by this effect is entangled. You may concentrate to
+      maintain this effect each round, or may spend a spell point as a free
+      action to allow this effect to persist for 1 round per caster level
+      without concentration. A creature is allowed a new saving throw each round
+      as a move action to end this effect.</p>
+
+      <p>When you cast this blood art, you may spend an additional spell point
+      to entwine your health to the target&#8217;s blood for the duration of
+      this effect. If you do, whenever you take damage, you may choose one
+      creature bound by this blood art who you have entwined your health to.
+      That creature takes damage equal to the amount of damage you suffered (to
+      a maximum of your caster level).</p>
+
+      <p><strong>Author's Note:</strong> You may only deal damage to another
+      creature by suffering damage with this effect once per round.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Blood Art
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

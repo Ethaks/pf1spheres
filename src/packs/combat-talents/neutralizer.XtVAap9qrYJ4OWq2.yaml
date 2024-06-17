@@ -1,0 +1,117 @@
+_id: XtVAap9qrYJ4OWq2
+_key: '!items!XtVAap9qrYJ4OWq2'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: alchemy
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/alchemy.webp
+name: Neutralizer
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Craft DC:</strong> 20</p>
+
+      <p>You create a neutralizing paste that can be applied to yourself or a
+      willing creature within your reach as a standard action.</p>
+
+      <p>Neutralizers aid against one energy type of your choice (acid, cold,
+      electricity, or fire), chosen at the time of creation, plus an additional
+      damage type at 10 ranks in Craft (alchemy), and grants energy resistance 5
+      against the chosen damage type, plus 5 additional points of energy
+      resistance per 5 ranks in Craft (alchemy) you possess. Neutralizers lose
+      their effectiveness after suffering two attacks of the chosen energy type,
+      or after 10 minutes, whichever comes first. A creature can only benefit
+      from one neutralizer at a time, applying another neutralizer replaces the
+      effects of the previous one.</p>
+
+      <p>You can increase the Craft DC for this formulae in increments of 10;
+      each time you do you may suffer one additional attack, and increase the
+      duration of the neutralizer before it becomes ineffective by an additional
+      10 minutes.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Formulae
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

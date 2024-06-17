@@ -1,0 +1,117 @@
+_id: fvvZ0zgtiouJJGvV
+_key: '!items!fvvZ0zgtiouJJGvV'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: barroom
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/barroom.webp
+name: Take To Go
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As part of performing an attack action, you may break a weapon. If your
+      attack is successful, you may move into any square the target threatens
+      (to a maximum of half your movement speed). This movement does not provoke
+      attacks of opportunity from that creature, but otherwise provokes attacks
+      of opportunity as normal. If you were not within the creature&#8217;s
+      threatened area (such as by breaking and throwing an improvised thrown
+      weapon at range or because the creature does not threaten the square you
+      made the attack from), you may instead take a 5-foot step and subtract 5
+      feet from your total movement during your next turn.</p>
+
+      <p>In addition, whenever you move, you can pick up an unattended item as
+      part of that movement. You must have a free hand to pick up an item this
+      way. Picking up an item this way does not provoke attacks of opportunity.
+      Whenever you would use this ability, you may attempt to instead pick up
+      multiple, smaller and closely gathered items that could be held in one
+      hand (such as a stack of plates or a fistful of nails) this way equal to
+      your practitioner modifier (minimum 1). Smaller items are generally two
+      sizes smaller (or smaller) than the practitioner. <strong>Associated
+      Feat:</strong> Grab and Go.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Smash
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

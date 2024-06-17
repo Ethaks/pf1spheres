@@ -1,0 +1,115 @@
+_id: 0OvsNNr2jCVPo8Ee
+_key: '!items!0OvsNNr2jCVPo8Ee'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: protection
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/protection.webp
+name: Spell Ward
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may spend a spell point to create a ward that represses all magic
+      within its area of effect. Attempt one magic skill check against each
+      magical effect, magic item, or summoned creature within the area. Magic
+      items have a MSD of 10 + their caster level. If your check exceeds the MSD
+      of the magical effect, item, or caster who summoned the creature, the
+      effect is suppressed, the magic item ceases to function, or the summoned
+      creature temporarily disappears. Time spent suppressed counts toward a
+      magical effect&#8217;s total duration. Any caster attempting to use a
+      magical ability in or targeted within this area, or any summoned creature
+      attempting to enter this area, must attempt a magic skill check against
+      your MSD. On a success, the magical effect is unimpeded, and the summoned
+      creature is not banished by that Spell Ward. This counts as an antimagic
+      field for effects that interact with them.</p>
+
+      <p>You may also spend 2 spell points instead of 1 to create an aegis that
+      grants the target spell resistance equal to 10 + your caster level.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Aegis
+    - Ward
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

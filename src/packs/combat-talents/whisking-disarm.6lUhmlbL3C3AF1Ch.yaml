@@ -1,0 +1,110 @@
+_id: 6lUhmlbL3C3AF1Ch
+_key: '!items!6lUhmlbL3C3AF1Ch'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: duelist
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/duelist.webp
+name: Whisking Disarm
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever you succeed at a disarm attempt against a creature, you may
+      have the disarmed weapon or object land up to 10 feet away from its
+      previous wielder in a direction of your choice. The distance you may have
+      the weapon or object travel before landing increases by 5 feet for every 5
+      points of base attack bonus you possess.</p>
+
+      <p>In addition, creatures you succeed at a disarm attempt against gain the
+      battered condition until the end of your next turn. <strong>Associated
+      Feat:</strong> Greater Disarm.</p>
+
+      <p><strong>Normal:</strong> Disarmed weapons and gear land at the feet of
+      the disarmed creature.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Disarm
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

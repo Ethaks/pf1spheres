@@ -1,0 +1,116 @@
+_id: 1XC4nbQOvRJhnaaI
+_key: '!items!1XC4nbQOvRJhnaaI'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: athletics
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/athletics.webp
+name: Speed Boost
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Athletics sphere.</p>
+
+      <p>When running, you move ten times your normal speed (if wearing medium,
+      light, or no armor and carrying no more than a medium load) or 8 times
+      your speed (if wearing heavy armor or carrying a heavy load). If you make
+      a jump after a running start you gain a +8 bonus on your Acrobatics
+      check.</p>
+
+      <p>You may expend your focus as a swift action to increase your base speed
+      by 50 ft. for a number of rounds equal to your Constitution modifier. This
+      increase is not limited to only land speed. After these rounds end, you
+      are fatigued for 1d4 rounds. You are fatigued even if you are usually
+      immune to the fatigued condition. You cannot use this ability if you are
+      fatigued or exhausted.</p>
+
+      <p>If you possess the Strong Lungs talent, you can replace its usual bonus
+      to rounds you may run to instead be able to run for a number of hours
+      equal to your Constitution modifier.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Run
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,118 @@
+_id: kgCqx9XMxTp9GtHt
+_key: '!items!kgCqx9XMxTp9GtHt'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: brute
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/brute.webp
+name: Unstoppable
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>When making a charge, you can push your way through obstacles blocking
+      your path, be they creatures, objects, or others.</p>
+
+      <p>You may charge over difficult terrain. This movement still costs twice
+      as much as normal. Additionally, when making a charge, you may attempt to
+      overrun a creature in the path of the charge, or to make a Strength check
+      to break an unattended object such as a door or wall that is in your way,
+      as a free action that does not provoke an attack of opportunity. If the
+      check is successful, you may complete the charge. If the check is
+      unsuccessful, the charge ends in the space directly in front of that
+      creature or object.</p>
+
+      <p>For every 5 base attack bonus you possess you may attempt to break or
+      overrun an additional target, but suffer a cumulative -2 penalty on each
+      additional check made.</p>
+
+      <p>This can allow you to initiate a charge through squares that you do not
+      have line of sight to. You may resolve your charge attack against any
+      valid target within reach of the charge&#8217;s path after passing through
+      the barriers (creature or object) blocking your line of sight.
+      <strong>Associated Feat:</strong> Charge Through.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

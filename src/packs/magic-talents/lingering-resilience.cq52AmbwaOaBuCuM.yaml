@@ -1,0 +1,108 @@
+_id: cq52AmbwaOaBuCuM
+_key: '!items!cq52AmbwaOaBuCuM'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: life
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/life.webp
+name: Lingering Resilience
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever you remove a condition completely from a creature using your
+      restore ability, they are completely immune to that condition for 2
+      rounds. Being immune to a condition does not provide any additional
+      defense against more severe versions of a condition, and they can not be
+      made immune to a condition they did not have. This may not provide
+      immunity to ability damage, ability drain, death, or negative levels.</p>
+
+      <p>Whenever an ally regains hit points from you using your cure ability,
+      they gain DR X/- equal to 1/2 your caster level or the number of hit
+      points regained (whichever is less) for 2 rounds. This is not compatible
+      with any form of fast healing you may grant.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

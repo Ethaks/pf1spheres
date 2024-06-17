@@ -1,0 +1,110 @@
+_id: 9C4R5uQRiZ6LLg5h
+_key: '!items!9C4R5uQRiZ6LLg5h'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: duelist
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/duelist.webp
+name: Clouding Cut
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever you deal bleed damage to a creature, you may expend your
+      martial focus to open a gash near the target&#8217;s sensory organ. The
+      creature immediately suffers from a 10% miss chance on all of their
+      attacks. At the start of their turn, when it takes damage due to their
+      bleeds, it increases the miss chance bestowed by this talent by 10%. When
+      the miss chance would reach 40%, the creature is instead blinded and the
+      miss chance ceases to increase. Stopping the bleed damage ends this
+      effect.</p>
+
+      <p>You may use Clouding Cut against a creature already suffering from its
+      effects without spending martial focus, and doing so causes their miss
+      chance to increase by 10%, unless they are already blinded.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Bleed
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

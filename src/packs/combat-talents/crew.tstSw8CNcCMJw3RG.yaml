@@ -1,0 +1,112 @@
+_id: tstSw8CNcCMJw3RG
+_key: '!items!tstSw8CNcCMJw3RG'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: leadership
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/leadership.webp
+name: Crew
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Your followers are experienced at handling various tasks onboard large
+      craft. Your caravan counts as one small crew with a level equal to your
+      ranks in Diplomacy - 2 (minimum 1, but if you have less than 2 ranks in
+      Diplomacy, reduce the crew&#8217;s hit points by 20 and damage by 2d6 and
+      if you have exactly 2 ranks in Diplomacy, reduce hit points by 10 and
+      damage by 1d6). For every five ranks of Diplomacy you possess, the caravan
+      may count as an additional small crew. A crew formed from your followers
+      gains a +10 morale bonus on loyalty checks and their loyalty is not
+      reduced by not paying them. Each crew gains one bonus perk, plus one
+      additional perk for every five ranks of Diplomacy you possess. These perks
+      may be changed with 1d4 days of training and recruiting.</p>
+
+      <p>(See Players Guide to Skybourne and Ships of Skybourne for crew
+      rules.)</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Followers
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

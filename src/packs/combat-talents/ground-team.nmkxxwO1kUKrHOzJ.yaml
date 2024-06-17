@@ -1,0 +1,143 @@
+_id: nmkxxwO1kUKrHOzJ
+_key: '!items!nmkxxwO1kUKrHOzJ'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: leadership
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/leadership.webp
+name: Ground Team
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Your followers can disperse into a settlement, talking, listening, and
+      influencing. Your followers can perform the following actions:</p>
+
+      <p><strong>Gather Crowd:</strong> Your followers can spend 1d4 hours
+      gathering a crowd. Make a Diplomacy skill check; the number of intelligent
+      creatures in the crowd is equal to 10 times the result of the check. This
+      multiplier increases by 10 at 5 ranks of Diplomacy and again every 5 ranks
+      after (so times 20 at 5 ranks, times 30 and 10 ranks, etc.).</p>
+
+      <p><strong>Gather Information:</strong> Your followers spend 1d4 hours
+      making a Gather Information check, using your modifiers. They may make an
+      additional check simultaneously for every 5 ranks in Diplomacy you
+      possess.</p>
+
+      <p><strong>Influence Crowd:</strong> Your followers encourage a crowd to
+      be swayed by your words. When you make a skill check to influence a crowd,
+      you automatically gain a +2 bonus from your follower&#8217;s use of the
+      aid another action. This bonus increases by +1 for every 8 ranks in
+      Diplomacy that you possess.</p>
+
+      <p><strong>Publicity:</strong> Your followers may spread good words about
+      you, making a settlement more positively disposed toward you and your
+      allies. The disposition of the average member of the settlement toward you
+      increases by one step, to a maximum of friendly. This requires 1 day for a
+      settlement of village size; double the time required for every size larger
+      than village. For every 5 ranks in Diplomacy that you possess, the number
+      of days required is reduced by 1, to a minimum of 1 day.</p>
+
+      <p><strong>Whispers:</strong> If using the Rumors<sup>UI</sup> rules, you
+      may have your followers participate in spreading a rumor, reducing the
+      time required to start a rumor by 1 day, plus 1 day per 4 ranks in
+      Diplomacy (to a minimum of 1 day). You automatically gain a +2 bonus from
+      your follower&#8217;s use of the aid another action for all checks to
+      start, spread, influence, or squash a rumor in a settlement where they are
+      present.</p>
+
+      <p>Additionally, if you possess the (cohort) package, your followers may
+      aid in recruitment, reducing the time required to recruit a cohort to 1d4
+      hours, -1 hour for every 6 ranks of Diplomacy you possess (minimum 1 hour
+      required).</p>
+
+      <p>If using the Downtime rules from Ultimate Campaign, your followers
+      reduce the influence cost of promoting your business or recruiting for an
+      organization in a settlement that they are present in by 1, +1 per 4 ranks
+      in Diplomacy.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Followers
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

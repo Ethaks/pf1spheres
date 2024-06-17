@@ -1,0 +1,166 @@
+_id: ubs0u8J6Y03D2iar
+_key: '!items!ubs0u8J6Y03D2iar'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: nature
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/nature.webp
+name: Repress Element
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As a concentration effect, you may temporarily obliterate an element
+      within a 5-foot radius + 5 feet per 5 caster levels area within range.
+      Creatures of a subtype corresponding to a repressed element are nauseated
+      for the duration of the repression unless they succeed at a Fortitude save
+      (this saving throw is made as soon as they enter the area of
+      repression).</p>
+
+      <p>Any effect with a descriptor corresponding to the repressed element
+      does not manifest within the area unless the caster succeeds at a magical
+      skill check. Additional effects apply depending on the element
+      repressed.</p>
+
+      <ul>
+
+      <li><strong>Air: Vacuum Generation:</strong> The area becomes a vacuum,
+      preventing creatures from breathing or sound (including sonic effects)
+      from moving through the area. Characters cannot cast with verbal
+      components in the vacuum. Starting at caster level 5th, all creatures in
+      the area of the created vacuum take 1d6 bludgeoning damage, plus an
+      additional 1d6 damage for every 5 caster levels thereafter. Creatures who
+      remain within this area must save at the end of your subsequent turns or
+      suffer damage again. If a creature enters this area after its creation, it
+      also suffers this damage. A creature may only be affected by the damage
+      from vacuum once per round, regardless of how many times they enter or
+      exit the area that turn. Creatures that need air to breathe suffer from
+      suffocation in a vacuum as normal. At caster level 10th, all creatures
+      that suffer damage from the vacuum must succeed at a Fortitude save or
+      become fatigued.</li>
+
+      <li><strong>Earth: Disintegrate Earth:</strong> Stone and crystalline
+      entities begin to phase out of existence, weakening their defenses. All
+      stone or crystalline objects in the area have their hardness reduced by
+      half your caster level and creatures made of stone or crystal have any DR
+      and natural armor bonuses they possess reduced by half your caster level
+      (minimum 0). Weapons made of stone or crystal deal damage as if they were
+      one size smaller plus an additional size smaller per 5 caster levels
+      (minimum of 1 damage) and AC bonuses granted by armor and shields made of
+      crystal or stone is reduced by half your caster level (minimum 0). A
+      creature is allowed a Fortitude save to negate the effects of this ability
+      on themself and any equipment they are carrying (although they must save
+      again if they leave and re-enter the area).</li>
+
+      <li><strong>Fire: Heat Drain:</strong> Combustions are negated in the
+      area. For the duration of the effect, all non-magical fires in the area
+      are extinguished (although they can re-ignite when the effect ends). Any
+      fire damage taken by creatures in the area is halved. All light in the
+      area is decreased by one step plus an additional step for every 5 caster
+      levels you possess. At caster level 10th, electricity damage and damage
+      from explosives is reduced in the same manner as fire damage.</li>
+
+      <li><strong>Metal: Disintegrate Metal:</strong> As Disintegrate Earth,
+      save that the effects apply to creatures and equipment made of metal
+      rather than stone or crystal.</li>
+
+      <li><strong>Plant: Disintegrate Flora:</strong> As Disintegrate Earth,
+      save that the effects apply to creatures and equipment made of wood,
+      vines, or other plant-based materials rather than stone or crystal.</li>
+
+      <li><strong>Water: Evaporation:</strong> The area becomes immensely dry,
+      causing all unattended liquid in the area to evaporate (although it may
+      return to liquid state when the effect ends). Living creatures in the area
+      take a -2 penalty on Fortitude saves. This penalty increases by 1 per 5
+      caster levels. At caster level 10th, even attended liquids like potions
+      dry up temporarily in the area, although owners are allowed a Fortitude
+      save to negate this effect for as long as they remain in the area
+      (although they must save again if they leave and re-enter the area).</li>
+
+      </ul>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Geomancing
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

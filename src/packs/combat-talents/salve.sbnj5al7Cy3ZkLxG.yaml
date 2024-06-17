@@ -1,0 +1,115 @@
+_id: sbnj5al7Cy3ZkLxG
+_key: '!items!sbnj5al7Cy3ZkLxG'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: alchemy
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/alchemy.webp
+name: Salve
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Craft DC:</strong> 15</p>
+
+      <p>You create a poultice that can be used as a standard action to heal
+      yourself or a target within your natural reach for 1d8 points of damage
+      per 2 ranks in Craft (alchemy) you possess (minimum 1d8) plus your
+      practitioner modifier. You can only attempt to heal a particular creature
+      with this ability a number of times per day equal to 1/2 the number of
+      ranks you possess in the Craft (alchemy) skill (minimum 1) plus your
+      practitioner modifier.</p>
+
+      <p>You can increase the Craft DC for this item in increments of 10; each
+      time you do so you increase the healing granted by the salve by 5.</p>
+
+      <p><sup><strong>Note:</strong> Salves can stop bleeding. Salves can't heal
+      creatures that only regain hit points by repairs or spells such as
+      <em>make whole</em> (mainly constructs/objects), but generally can heal
+      undead and similar types of targets.</sup></p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Formulae
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,111 @@
+_id: qTABv8DrVsDK50F8
+_key: '!items!qTABv8DrVsDK50F8'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: life
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/life.webp
+name: Break Enchantment
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As a special application of restore, you may spend an additional spell
+      point to remove all magic from the target that has a duration instead of
+      restoring mind, body, or soul. This may be used against curses including
+      cursed equipment, although it does not remove the curse from the equipment
+      and instead suppresses the effect long enough for the item to be
+      removed.</p>
+
+      <p>Instead of a saving throw, you must succeed at a magic skill check
+      against each magical effect in order to remove it. You may choose not to
+      remove certain effects if you so desire (for example, you may target only
+      harmful effects and not beneficial ones). This counts as using the break
+      enchantment or remove curse spell against those spells and effects that
+      specify they can only be removed through those spells. This has no effect
+      on other instantaneous effects.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

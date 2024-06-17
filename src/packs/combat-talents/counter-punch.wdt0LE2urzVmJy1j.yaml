@@ -1,0 +1,134 @@
+_id: wdt0LE2urzVmJy1j
+_key: '!items!wdt0LE2urzVmJy1j'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: boxing
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/boxing.webp
+name: Counter Punch
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may ready an action to make an attack with a light melee weapon
+      against the next enemy who makes a non-maneuver melee attack roll against
+      you before the beginning of your next turn; this attack is treated as an
+      attack action for the purposes of talents as well as the Vital Strike feat
+      and occurs before the attack that triggers it, gaining a +2 competence
+      bonus to damage rolls. For every 4 points of base attack bonus you
+      possess, this bonus increases by +2. Using this ability does not change
+      your place in the initiative order.</p>
+
+      <p>You can apply a single talent with the (counter) tag to a counter
+      punch.</p>
+
+      <p>Whenever you ready a counter punch, you can decide on an additional
+      trigger for your prepared attack from the following list; if the trigger
+      is met, the readied attack qualifies as a counter punch (if an action
+      would also provoke an attack of opportunity, you may choose in which order
+      you wish to resolve your attacks):</p>
+
+      <ul>
+
+      <li>A hostile creature making an attack roll, other than as part of a
+      combat maneuver</li>
+
+      <li>A hostile creature attempting a combat maneuver</li>
+
+      <li>A hostile creature moving from their square</li>
+
+      <li>A hostile creature using a spell or a spell-like ability</li>
+
+      <li>A hostile creature drawing a weapon</li>
+
+      <li>A hostile creature speaking</li>
+
+      </ul>
+
+      <p>For every 5 points of base attack bonus you possess, you may select an
+      additional trigger from this list.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

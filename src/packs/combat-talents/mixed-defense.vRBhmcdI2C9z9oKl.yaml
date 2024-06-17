@@ -1,0 +1,107 @@
+_id: vRBhmcdI2C9z9oKl
+_key: '!items!vRBhmcdI2C9z9oKl'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: dualWielding
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/dual_wielding.webp
+name: Mixed Defense
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever you wield a melee weapon in one hand and a ranged weapon in
+      the other, you may forgo your ranged attack when using the dual attack
+      ability. If you do so, until your next turn, you may spend an attack of
+      opportunity to make a ranged attack against an opponent attempting to
+      attack you in melee. If your ranged attack hits, you gain a +2 dodge bonus
+      to AC against that opponent and a +2 circumstance bonus to attack rolls
+      against that opponent until the end of your next turn. Both the melee
+      weapon attack and the ranged attack suffer the attack penalty from dual
+      attack as normal, and the ranged attack must be made with the same ranged
+      weapon wielded during the dual attack.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

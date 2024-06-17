@@ -1,0 +1,118 @@
+_id: hqGb2Ke49we6CFRM
+_key: '!items!hqGb2Ke49we6CFRM'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: mana
+folder: null
+img: icons/svg/item-bag.svg
+name: Bulwark (Mana)
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may manipulate your magic around a creature, spending a spell point
+      to form a bulwark of magic around the target that absorbs damage. The
+      target of this talent gains a temporary spell point, and they gain DR 4/-,
+      but this damage reduction only persists for as long as they retain
+      temporary spell points from this talent. If the target would suffer damage
+      more than twice the amount of damage the bulwark absorbs from a single
+      attack, the bulwark is damaged and the target loses a temporary spell
+      point granted by this talent. For every 12 points of damage absorbed by
+      the bulwark in one round, the target loses a temporary spell point granted
+      by this talent. If the creature has no more spell points granted by this
+      talent, the shell shatters at the end of the creature&#8217;s next turn,
+      ending the effect. You may spend an additional spell point as part of
+      casting this ability for every 4 caster levels you possess, granting the
+      target an additional temporary spell point for every extra spell point
+      spent and allowing the shell to suffer more damage before shattering.</p>
+
+      <p>At 5th caster level, this damage reduction increases to 8/-, and the
+      amount of damage a bulwark can reduce each round before losing a spell
+      point increases by 12. These bonuses increase by 4 and 12 respectively
+      every 5 caster levels thereafter.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Manipulation
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

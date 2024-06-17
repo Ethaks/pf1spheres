@@ -1,0 +1,110 @@
+_id: NHX1q2ppQfqgoACH
+_key: '!items!NHX1q2ppQfqgoACH'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: wrestling
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/wrestling.webp
+name: Magic Killing Grip
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Wrestling sphere, base attack bonus
+      +10.</p>
+
+      <p>Treat the result of your grapple check as a dispel check against the
+      target of your grapple as though you were making a targeted dispel with
+      dispel magic (compare your grapple check to the effect on the target with
+      the highest caster level (DC = 11 + the spell&#8217;s caster level). If
+      successful, that effect ends. If not, compare the same result to the spell
+      with the next highest caster level. Repeat this process until you have
+      dispelled one spell affecting the target, or you have failed to dispel
+      every spell). If you grapple a summoned creature, this can end the spell
+      that summoned them.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Slam
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

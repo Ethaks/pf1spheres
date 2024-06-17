@@ -1,0 +1,125 @@
+_id: 1ueIAyYt6mO3VT3e
+_key: '!items!1ueIAyYt6mO3VT3e'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: nature
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/nature.webp
+name: Wreath Of Elements
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>As an immediate action, (or a free action usable even when it is not
+      your turn by spending a spell point) you may reach out with one of your
+      elements. This grants you the following abilities, depending on which
+      packages you possess. You may only use Wreath Of Elements once per
+      round.</p>
+
+      <p><strong>Air:</strong> Make a check adding your caster level and casting
+      ability modifier vs. the bull rush CMD of a target within your reach. On a
+      success, the target is pushed 5 feet directly away from you.</p>
+
+      <p><strong>Earth:</strong> You gain temporary hit points equal to your
+      caster level against one attack.</p>
+
+      <p><strong>Fire:</strong> You attack a target within your reach with fire,
+      dealing fire damage equal to your caster level (Reflex half).</p>
+
+      <p><strong>Metal:</strong> You reach out with a magnetic field, gaining a
+      deflection bonus to AC and CMD equal to 2 +1 per 5 caster levels against
+      one attack.</p>
+
+      <p><strong>Plant:</strong> Make a check using your caster level + your
+      casting ability modifier vs. the grapple CMD of a target within your
+      reach. On a success, the target is entangled for 1 round.</p>
+
+      <p><strong>Water:</strong> Make a check using your caster level + your
+      casting ability modifier vs. the trip CMD of a target within your reach.
+      On a success, the target is knocked prone.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Spirit
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,115 @@
+_id: JwSnSK5njVilGEWn
+_key: '!items!JwSnSK5njVilGEWn'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: duelist
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/duelist.webp
+name: Disarm Natural Ferocity
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Duelist sphere.</p>
+
+      <p>You may perform disarm combat maneuvers against creatures who are not
+      holding a weapon or object.</p>
+
+      <p>Whenever you succeed at a disarm combat maneuver check against a
+      creature, instead of disarming a weapon or object held by the target, you
+      may choose to disarm that target&#8217;s ability to use one natural attack
+      of your choice or the target&#8217;s ability to make unarmed strikes. The
+      target gains the battered condition until the end of your next turn. As
+      long as the target has the battered condition, the target is treated as
+      though they do not possess the disarmed natural attack or the ability to
+      make unarmed strikes and cannot make attacks or threaten with the chosen
+      weapon.</p>
+
+      <p>For the purposes of this ability, unarmed strikes are considered a
+      single weapon, and a creature disarmed of their unarmed strike is unable
+      to make unarmed strikes for as long as they are battered.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

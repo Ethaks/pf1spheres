@@ -1,0 +1,115 @@
+_id: vv1Y8D8nuMWTgWtn
+_key: '!items!vv1Y8D8nuMWTgWtn'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: brute
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/brute.webp
+name: Thunderous Clap
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Brute sphere, base attack bonus +5.</p>
+
+      <p>You may expend your martial focus as a full-round action to slam your
+      palms together, creating a thunderous shockwave that blows down anything
+      in its path. Creatures within a close range burst (25 ft. + 5 ft. per 2
+      base attack bonus) or a medium- sized cone (100 ft. +10 ft. per base
+      attack bonus) suffer 1d8 sonic damage per 2 points of base attack bonus
+      you possess (minimum 1d8) and are deafened for 1d4+1 rounds. A successful
+      Fortitude save halves this damage and negates the deafened effect.</p>
+
+      <p>In addition, you may make a bull rush at range as a free action that
+      does not provoke an attack of opportunity against each target within the
+      affected area. You do not move with the targets when bull rushing them in
+      this manner, nor is there any size limitation on how large a creature you
+      can affect with this ability.</p>
+
+      <p>All nonmagical sources of fire within the affected area are instantly
+      extinguished.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

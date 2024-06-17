@@ -1,0 +1,130 @@
+_id: JJisjA8KzpsJ1MLF
+_key: '!items!JJisjA8KzpsJ1MLF'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: protection
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/protection.webp
+name: Barrier
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>You may create a ward that creates a mostly-transparent wall of force
+      at its perimeter. While this barrier does not block line of sight, it does
+      block line of effect; thus, while you could still target a creature
+      through the barrier (such as for an attack that attempts to break the
+      barrier and still deal damage to the creature on the other side), the
+      barrier does stop attacks, movement, breath weapons, and any spells or
+      sphere effects that rely on line of effect until the barrier is destroyed.
+      Ethereal creatures are technically stopped by the barrier, but can usually
+      find a way around it (as the barrier does not cut through objects, and so
+      usually stops at ground level). Creatures inside a space where a barrier
+      is created are shunted to the nearest empty space on the outside.</p>
+
+      <p>A barrier has hit points equal to twice your caster level and a Break
+      DC of 15 + 1/2 your caster level. A barrier can hold weight, up to 2,400
+      lbs. + 250 lbs. per caster level; beyond that, a barrier simply shatters
+      as if broken with a Strength check. If a barrier is broken anywhere, the
+      entire effect ends.</p>
+
+      <p>If an attack is directed at a target through the barrier, the attack
+      first deals its damage to the barrier itself. If this damage is enough to
+      destroy the barrier, the attack continues on to its intended target,
+      although damage dealt to the barrier is subtracted from any damage done to
+      the target or targets. Burst-effect attacks such as splash weapons,
+      fireball spells, or others attempting to travel through the barrier
+      explode at the barrier&#8217;s edge and also must overcome the
+      barrier&#8217;s hit points to damage targets on the other side. If you
+      maintain your barrier through concentration, its hit points are renewed
+      each round on your turn.</p>
+
+      <h3 id="toc4"><span>Protection Talent Types</span></h3>
+
+      <p>Certain protection talents grant you additional aegises or wards, and
+      are marked (aegis) or (ward) respectively.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

@@ -1,0 +1,133 @@
+_id: WL3S4v3ES6OTgz57
+_key: '!items!WL3S4v3ES6OTgz57'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: life
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/life.webp
+name: Affliction
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>When using cure you may invert the effect from positive energy to
+      negative energy. This has no effect on undead and damages the living (Will
+      half). This requires a melee or ranged touch attack against the target,
+      and if used at range is considered a ray. This cannot be combined with
+      Fount Of Life.</p>
+
+      <p>When using restore, you may choose to inflict conditions rather than
+      remove them.</p>
+
+      <p>This also requires a melee or ranged touch attack. The creature must
+      succeed at a Fortitude save or be exhausted for 2d6 rounds. If they
+      succeed at their saving throw, they are instead fatigued for 2d6 rounds.
+      Unlike regular fatigue and exhaustion, this condition ends as soon as the
+      duration expires</p>
+
+      <p>If you possess certain other talents, you can change the effect from
+      exhaustion or fatigue to something else, and possibly change the saving
+      throw, as outlined below:</p>
+
+      <ul>
+
+      <li>If you possess Restore Capacity, you may cause the target&#8217;s
+      limbs to not function correctly, making them entangled and reducing all
+      movement speeds by half for 1d6 rounds (Reflex negates).</li>
+
+      <li>If you possess Restore Health, you may make the target nauseated for
+      1d6 rounds (or sickened for 1d6 rounds on a successful save).</li>
+
+      <li>If you possess Restore Senses, you may make the target confused for
+      1d6 rounds (Will negates).</li>
+
+      <li>If you possess Restore Spirit, you may make the target incapable of
+      receiving any magical healing, fast healing, or regeneration for 2d6
+      rounds (Will negates).</li>
+
+      </ul>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags: []
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

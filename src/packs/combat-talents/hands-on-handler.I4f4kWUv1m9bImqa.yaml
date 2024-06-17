@@ -1,0 +1,125 @@
+_id: I4f4kWUv1m9bImqa
+_key: '!items!I4f4kWUv1m9bImqa'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: beastmastery
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/beastmastery.webp
+name: Hands-On Handler
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p>Whenever you take an action that is similar to a Handle Animal trick,
+      the next time you handle or push your animal allies to perform that trick
+      before the end of your next turn, reduce the time required to handle or
+      push those animal allies by 1 step. This reduction stacks with the Rapid
+      Handle talent.</p>
+
+      <p>Whenever you handle or push an animal ally to perform a trick, that
+      animal ally gains a +1 circumstance bonus on all attack rolls, skill
+      checks, and ability checks made to perform that trick for a number of
+      rounds equal to your practitioner modifier (minimum 1). For every 10 ranks
+      in Handle Animal you possess, the circumstance bonus on rolls granted by
+      this talent increases by +1.</p>
+
+      <p>The action reduction and bonuses granted by Hands-On Handler do not
+      stack with itself; if two handlers would grant an animal ally a bonus
+      using this talent, only the highest bonus applies.</p>
+
+      <p><strong>Example:</strong> You attack an enemy. Until the end of your
+      next turn, if you would handle or push your tamed wolf to use the attack
+      trick or another similar trick (such as bombard, demolish, feint, flank,
+      etc.), the time required to handle or push your tamed wolf is reduced by 1
+      step.</p>
+
+      <p>GMs should determine if an action taken by a character is reasonably
+      similar to tricks available through Handle Animal. Distracting a target
+      with bubbles created by an Illusion effect is not similar enough to the
+      attack trick.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: combatTalent
+  tag: ''
+  tags:
+    - Handle Animal
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+

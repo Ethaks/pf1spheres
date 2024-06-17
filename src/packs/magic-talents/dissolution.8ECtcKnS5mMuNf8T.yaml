@@ -1,0 +1,115 @@
+_id: 8ECtcKnS5mMuNf8T
+_key: '!items!8ECtcKnS5mMuNf8T'
+effects: []
+flags:
+  pf1: {}
+  pf1spheres:
+    sphere: creation
+folder: null
+img: modules/pf1spheres/assets/icons/spheres/creation.webp
+name: Dissolution
+sort: 0
+system:
+  ability:
+    attack: null
+    critMult: 2
+    critRange: 20
+    damage: null
+    damageMult: 1
+  abilityType: na
+  actionType: null
+  actions: []
+  armorProf:
+    custom: []
+    value: []
+  associations:
+    classes: []
+  attackBonus: ''
+  attackName: ''
+  attackNotes: []
+  attackParts: []
+  changeFlags:
+    heavyArmorFullSpeed: false
+    loseDexToAC: false
+    mediumArmorFullSpeed: false
+    noHeavyEncumbrance: false
+    noMediumEncumbrance: false
+  changes: []
+  classSkills: {}
+  contextNotes: []
+  crOffset: ''
+  critConfirmBonus: ''
+  damage:
+    critParts: []
+    nonCritParts: []
+    parts: []
+  description:
+    unidentified: ''
+    value: >
+      <p><strong>Prerequisites:</strong> Creation sphere (Potent
+      Alteration).</p>
+
+      <p>You may spend a spell point when using Destroy on a non-magical,
+      unattended object. The ability does not deal damage and instead simply
+      disintegrates as much as a 10-foot cube of nonliving matter.</p>
+
+      <p>When targeting an attended non-magical object, magical object, or
+      creature (by spending an additional spell point via Potent Alteration),
+      you may spend another spell point to reduce the target to its component
+      parts. The target is entitled to a Fortitude saving throw. Failure results
+      in the target taking 2d6 points of damage per caster level that bypasses
+      all hardness, resistances, and damage reduction. A successful save reduces
+      this damage to the normal damage of the Potent Alteration talent.</p>
+
+      <p>If this damage reduces the creature or object to 0 or fewer hit points,
+      it is entirely disintegrated.</p>
+  disabled: false
+  duration:
+    units: ''
+    value: null
+  effectNotes: []
+  flags:
+    boolean: {}
+    dictionary: {}
+  formula: ''
+  formulaicAttacks:
+    bonus:
+      formula: ''
+    count:
+      formula: ''
+    label: null
+  languages:
+    custom: []
+    value: []
+  links:
+    charges: []
+    children: []
+  nonlethal: false
+  powerAttack:
+    critMultiplier: 1
+    damageBonus: 2
+    multiplier: ''
+  save:
+    dc: 0
+    description: ''
+    type: ''
+  scriptCalls: []
+  showInQuickbar: false
+  soundEffect: ''
+  subType: magicTalent
+  tag: ''
+  tags:
+    - Alter
+  target:
+    value: ''
+  uses:
+    autoDeductChargesCost: '1'
+    maxFormula: ''
+    per: null
+    rechargeFormula: ''
+    value: 0
+  weaponProf:
+    custom: []
+    value: []
+type: feat
+
