@@ -155,7 +155,7 @@ describe("Source tracking for Sphere CL, MSB/D", () => {
 
   const expectSource = (level: number, cl: number) => {
     pushSource(itemSphereData(level, cl));
-    if (Boolean(level)) {
+    if (level) {
       expect(actor.sourceInfo["system.spheres.msb.base"]?.positive).toContainEqual({
         value: level,
         type: "untyped",
@@ -182,7 +182,7 @@ describe("Source tracking for Sphere CL, MSB/D", () => {
       expect(actor.sourceInfo["system.spheres.msd.base"]).toBeUndefined();
       expect(actor.sourceInfo["system.spheres.msd.total"]).toBeUndefined();
     }
-    if (Boolean(cl)) {
+    if (cl) {
       expect(actor.sourceInfo["system.spheres.cl.base"]?.positive).toContainEqual({
         value: cl,
         type: "untyped",

@@ -37,7 +37,7 @@ class Game {
   public i18n = {
     format: (key: string, data: Record<string, any> = {}) => {
       let str = getProperty(this.translations, key) || key;
-      const fmt = /\{[^\}]+\}/g;
+      const fmt = /\{[^}]+\}/g;
       str = str.replace(fmt, (k: any) => {
         return data[k.slice(1, -1)];
       });

@@ -11,11 +11,12 @@ import * as fvtt from "@foundryvtt/foundryvtt-cli";
 import { Listr } from "listr2";
 import pc from "picocolors";
 import yargs from "yargs";
+import yaml from "js-yaml";
 
 const PACK_SRC = "../src/packs";
 const PACK_CACHE = "../public/packs";
 
-const __dirname = new URL(".", import.meta.url).pathname;
+const __dirname = new url.URL(".", import.meta.url).pathname;
 const __filename = url.fileURLToPath(import.meta.url);
 
 /** Helper function that resolves a path from the pack source directory */
@@ -32,7 +33,7 @@ if (process.argv[1] === __filename) {
       command: "extract [packs...]",
       describe: `Extract packs from cache to source`,
       handler: async (argv) => {
-        await extractPacks(argv.packs, { reset: !argv.keepDeleted ?? true });
+        await extractPacks(argv.packs, { reset: !(argv.keepDeleted ?? true) });
       },
     })
     // Option to overwrite the default `reset` option

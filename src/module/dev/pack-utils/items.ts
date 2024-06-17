@@ -53,7 +53,7 @@ export function isBannedTalent(entry: RawTalentData | string): boolean {
 }
 
 function isEmptyTalent(entry: RawTalentData): boolean {
-  return !Boolean(entry.text.length > 0);
+  return !(entry.text.length > 0);
 }
 
 /** Transforms a talent's raw data into a format suitable for Foundry Item creation */

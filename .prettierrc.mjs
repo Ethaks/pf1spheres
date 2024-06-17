@@ -2,10 +2,11 @@
 //
 // SPDX-License-Identifier: EUPL-1.2
 
-module.exports = {
+const config = {
   semi: true,
   //trailingComma: "all",
   singleQuote: false,
   printWidth: 100,
   tabWidth: 2,
 };
+export default config;

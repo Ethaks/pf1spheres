@@ -48,7 +48,7 @@ const getActorAbility =
    * @returns The ability modifier
    */
   (ability: Ability | "" | undefined) =>
-    ability !== undefined && ability !== "" ? actor.system.abilities[ability]?.mod : 0 ?? 0;
+    ability !== undefined && ability !== "" ? actor.system.abilities[ability]?.mod ?? 0 : 0;
 
 /**
  * Returns a collection of helper functions working with an actor
@@ -68,7 +68,8 @@ export const getHighestCl =
   (actor: ActorPF) =>
   /**
    * Returns an object containing this actor's highest magic CL, whether it's the total level or in
-   * a specific sphere, and a possible lable should the CL be displayed. */
+   * a specific sphere, and a possible lable should the CL be displayed.
+   */
   (): { sphere: MagicSphere | "total"; label: string; cl: number } => {
     const clData = actor.system.spheres?.cl;
     enforce(clData, `Could not determine highest CL for ${actor.name}: No CL data found!`);
