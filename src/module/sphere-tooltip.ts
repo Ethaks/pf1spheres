@@ -187,7 +187,7 @@ const getSources = (
     .filter((source) => !source.modifier)
     .map((source) => ({
       ...source,
-      value: source.value ?? 0,
+      value: formatValue(source.value),
       type:
         pf1.config.bonusTypes[(source.type as BonusType) || (source.modifier as BonusType)] ||
         pf1.config.bonusTypes.untyped,
@@ -197,18 +197,44 @@ const getSources = (
     .filter((source) => source.modifier)
     .map((source) => ({
       ...source,
-      value: source.value ?? 0,
+      value: formatValue(source.value),
       type: pf1.config.bonusTypes[(source.type as BonusType) || (source.modifier as BonusType)],
     }));
   const capped = (actor.sourceDetails[modCapPath] ?? [])
     .filter(filterDummySources)
-    .map((source) => ({ ...source, value: source.value ?? 0, type: localize("CappedByHD") }));
+    .map((source) => ({
+      ...source,
+      value: formatValue(source.value),
+      type: localize("CappedByHD"),
+    }));
   return { base, bonus, capped };
 };
 
+/**
+ * Filter out sources taken from another source (e.g. base CL to sphere CL), implied by the name being the bonus type.
+ *
+ * @param source - The source to filter
+ */
 const filterDummySources = (source: SourceEntry): boolean => {
   if (source.name in CONFIG.PF1.bonusTypes) return false;
   return true;
+};
+
+/**
+ * Format a number value to be suitable for tooltip display.
+ * If the value is a floating point number, it is formatted to one decimal place and returned as string;
+ * this results in the tooltip display becoming uneven, but is necessary to display e.g. correct partial caster level parts.
+ *
+ * @param value - The value to format
+ * @param options - Formatting options
+ * @param options.sign - Whether to include a sign for positive values
+ */
+const formatValue = (value = 0, { sign = true } = {}): number | string => {
+  const isFloat = value % 1 !== 0;
+  if (!isFloat) return value;
+  const fixed = parseFloat(`${value}`).toFixed(1);
+  if (sign) return value >= 0 ? `+${fixed}` : fixed;
+  return fixed;
 };
 
 type SphereTooltipId =
