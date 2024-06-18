@@ -10,6 +10,9 @@ SPDX-License-Identifier: EUPL-1.2
 
 <div style="text-align: center" align="center">
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Ethaks/pf1spheres/check.yaml?label=checks">
+  <a href="https://codecov.io/github/Ethaks/pf1spheres" >
+    <img src="https://codecov.io/github/Ethaks/pf1spheres/graph/badge.svg?token=5Y6KSB2WTO"/>
+  </a>
   <a href="https://github.com/Ethaks/pf1spheres/releases/latest">
     <img src="https://img.shields.io/github/downloads/Ethaks/pf1spheres/latest/module.zip" alt="Downloads" />
   </a>
