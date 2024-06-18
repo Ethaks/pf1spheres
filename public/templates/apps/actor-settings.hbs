@@ -11,15 +11,7 @@ SPDX-License-Identifier: EUPL-1.2
                 <select id="castingAbility"
                         name="flags.pf1spheres.castingAbility"
                         data-dtype="String">
-                    {{#select pf1sFlags.castingAbility }}
-                    <option value="">
-                    </option>
-                    {{#each PF1CONFIG.abilities as |label value|}}
-                        <option value="{{ value }}">
-                            {{ label }}
-                        </option>
-                    {{/each }}
-                {{/select }}
+                    {{selectOptions PF1CONFIG.abilities selected=pf1sFlags.castingAbility blank="PF1.None" localize=true}}
             </select>
         </div>
         <p class="notes">
