@@ -4,6 +4,10 @@ SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
 SPDX-License-Identifier: EUPL-1.2
 -->
 
+<h1 style="text-align: center" align="center">
+  Spheres for Pathfinder 1e
+</h1>
+
 <div style="text-align: center" align="center">
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Ethaks/pf1spheres/check.yaml?label=checks">
   <a href="https://github.com/Ethaks/pf1spheres/releases/latest">
