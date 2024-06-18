@@ -1,0 +1,200 @@
+# SPDX-FileCopyrightText: 2024 Ethaks <ethaks@pm.me>
+# SPDX-License-Identifier: EUPL-1.2
+
+name: Release
+
+on:
+  release:
+    types: [published]
+
+env:
+  node_version: 20
+
+jobs:
+  install-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node_version }}
+
+      - name: cache node modules
+        uses: actions/cache@v4
+        id: cache-dependencies
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+
+      - name: install dependencies
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
+        run: npm ci --cache ~/.npm --prefer-offline
+
+  lint:
+    runs-on: ubuntu-latest
+    needs: install-cache
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node_version }}
+
+      - name: restore dependencies
+        uses: actions/cache@v4
+        id: cache-dependencies
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+
+      - name: install dependencies
+        run: npm ci --cache ~/.npm --prefer-offline
+
+      - name: lint
+        run: npm run lint
+
+  typecheck:
+    runs-on: ubuntu-latest
+    needs: install-cache
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node_version }}
+
+      - name: restore dependencies
+        uses: actions/cache@v4
+        id: cache-dependencies
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+
+      - name: install dependencies
+        run: npm ci --cache ~/.npm --prefer-offline
+
+      - name: lint
+        run: npm run typecheck
+
+  test:
+    runs-on: ubuntu-latest
+    needs: install-cache
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node_version }}
+
+      - name: restore dependencies
+        uses: actions/cache@v4
+        id: cache-dependencies
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+
+      - name: install dependencies
+        run: npm ci --cache ~/.npm --prefer-offline
+
+      - name: lint
+        run: npm run test:ci
+
+  licensecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: check licenses
+        uses: fsfe/reuse-action@v3
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      # get part of the tag after the `v`
+      - name: Extract tag version number
+        id: get_version
+        uses: battila7/get-version-action@v2
+
+      - name: Install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node_version }}
+
+      - name: restore dependencies
+        uses: actions/cache@v4
+        id: cache-dependencies
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+
+      - name: install dependencies
+        run: npm ci --cache ~/.npm --prefer-offline
+
+      - name: Build JS
+        run: npm run build
+
+      - name: Create docs
+        run: npm run docs
+
+      - name: Deploy docs
+        uses: JamesIves/github-pages-deploy-action@v4.6.0
+        with:
+          branch: gh-pages
+          folder: docs
+
+      # Substitute the Manifest and Download URLs in the module.json
+      - name: Substitute Manifest and Download Links For Versioned Ones
+        id: sub_manifest_link_version
+        uses: microsoft/variable-substitution@v1
+        with:
+          files: "dist/module.json"
+        env:
+          version: ${{steps.get_version.outputs.version-without-v}}
+          url: https://github.com/${{github.repository}}
+          manifest: https://github.com/${{github.repository}}/releases/latest/download/module.json
+          download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.zip
+
+      # Create a zip file with all files required by the module to add to the release
+      - run: zip -q module.zip -r dist
+
+      # Create a release for this specific version
+      - name: Update Release with Files
+        id: create_version_release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true # Set this to false if you want to prevent updating existing releases
+          name: ${{ github.event.release.name }}
+          draft: ${{ github.event.release.unpublished }}
+          prerelease: ${{ github.event.release.prerelease }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: "./dist/module.json, ./module.zip"
+          tag: ${{ github.event.release.tag_name }}
+          body: ${{ github.event.release.body }}
