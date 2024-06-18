@@ -31,7 +31,7 @@
     "clean:link": "node ./tools/link-package.js --clean",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "format": "prettier --write \"./**/*.(ts|js|mjs|json|css)\"",
+    "format": "prettier --write \"./**/*.(ts|js|mjs|json|yaml|scss|css)\"",
     "test": "vitest run",
     "test:watch": "vitest watch --ui",
     "test:ci": "vitest run -c vitest.ci.config.ts --coverage",
@@ -83,7 +83,7 @@
     "yargs": "^17.7.2"
   },
   "lint-staged": {
-    "*.(ts|js)": "eslint --fix",
-    "*.(json|yaml|css)": "prettier --write"
+    "*.(ts|js|mjs)": "eslint --fix",
+    "*.(json|yaml|css|scss)": "prettier --write"
   }
 }
