@@ -31,7 +31,7 @@ As the module is still heavily in development, the best source for available fea
 
 To install the module navigate to Foundry's _Add-on Modules_ tab in the Setup menu and paste the following link in the **Install Module** dialog:
 
-[https://github.com/ethaks/pf1spheres/releases/latest/downloads/module.json](https://github.com/ethaks/pf1spheres/releases/latest/downloads/module.json)
+[https://github.com/ethaks/pf1spheres/releases/latest/download/module.json](https://github.com/ethaks/pf1spheres/releases/latest/download/module.json)
 
 The module can also be installed manually by downloading a zip archive from the Releases Page and extracting it to Foundry's `Data/modules/pf1spheres` directory.
 
