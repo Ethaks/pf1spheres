@@ -4,16 +4,9 @@ SPDX-License-Identifier: EUPL-1.2
 -->--}}
 <div class="form-group">
     <label>{{ localize "PF1SPHERES.CasterProgression" }}</label>
-    <select name="flags.pf1spheres.casterProgression">
-        {{#select item.flags.pf1spheres.casterProgression }}
-        <option value="">
-            {{ localize "PF1.None" }}
-        </option>
-        {{#each pf1sconfig.progression as |progression key|}}
-            <option value="{{ key }}">
-                {{ progression }}
-            </option>
-        {{/each }}
-    {{/select }}
-</select>
+    <div class="form-fields">
+        <select name="flags.pf1spheres.casterProgression">
+            {{selectOptions pf1sconfig.progression selected=item.flags.pf1spheres.casterProgression blank="PF1.None" localize=true}}
+        </select>
+    </div>
 </div>

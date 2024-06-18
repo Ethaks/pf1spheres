@@ -53,7 +53,9 @@ export const onItemSheetRender = (
   // Handle additions to class sheet
   else if (item.type === "class") {
     const progressionDropdown = renderPf1sTemplate("class-progression", { ...data, ...sphereData });
-    html.find("div.tab.details > h4").first().before(progressionDropdown);
+    html[0]
+      .querySelector(".form-group.spellcasting-type")
+      ?.insertAdjacentHTML("beforebegin", progressionDropdown);
   }
 
   // Remove "Sphere Caster Level Capped at HD" bonus modifier choice from non-Sphere CL changes
