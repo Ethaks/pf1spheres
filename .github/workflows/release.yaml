@@ -131,6 +131,7 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
+    needs: [install-cache, lint, typecheck, test, licensecheck]
     steps:
       - name: checkout code
         uses: actions/checkout@v4
@@ -140,7 +141,7 @@ jobs:
         id: get_version
         uses: battila7/get-version-action@v2
 
-      - name: Install node
+      - name: install node
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.node_version }}
