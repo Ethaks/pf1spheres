@@ -248,6 +248,7 @@ export type SourceEntry = SourceEntryBase & (SourceEntryValue | SourceEntryFormu
 interface SourceEntryBase {
   name: string;
   type?: string;
+  modifier?: string;
 }
 interface SourceEntryFormula {
   value?: never;

@@ -8,27 +8,7 @@ SPDX-License-Identifier: EUPL-1.2
         <span class="block-header sop-header flexrow">{{ localize "PF1SPHERES.SpheresOfPower" }}</span>
         <span class="block-header som-header flexrow">{{ localize "PF1SPHERES.SpheresOfMight" }}</span>
         {{#each attributeGrid as |element |}}
-            <div class="{{ element.attribute }} attribute tooltip">
-                <span class="tooltipcontent">
-                    {{ element.path }}: {{ element.total }}
-                    {{#if element.sources.length }}
-                        <br />
-                        <br />
-                    {{/if }}
-                    {{#each element.sources as |src|}}
-                        {{ src.name }}: {{ src.value }}
-                        <br />
-                    {{/each }}
-                    {{#if element.cappedSources.length }}
-                        <br />
-                        {{ localize "PF1SPHERES.CappedByHD" }}:
-                        <br />
-                    {{/if }}
-                    {{#each element.cappedSources as |src|}}
-                        {{ src.name }}: {{ src.value }}
-                        <br />
-                    {{/each }}
-                </span>
+            <div class="{{ element.attribute }} attribute" data-tooltip-sphere="{{element.attribute}}">
                 <h4 class="attribute-name box-title {{ element.rollable }}">{{ element.label }}</h4>
                 <span class="attribute-value large">{{ element.total }}</span>
             </div>
@@ -49,28 +29,8 @@ SPDX-License-Identifier: EUPL-1.2
                         {{/if }}
                 </span>
                 <span class="sphere-level-label">{{ sphere.levelLabel }}</span>
-                <div class="sphere-level-value tooltip">
+                <div class="sphere-level-value" data-tooltip-sphere="{{sphere.tooltipId}}">
                     {{ sphere.total }}
-                    <span class="tooltipcontent">
-                        {{ sphere.path }}: {{ sphere.total }}
-                        {{#if sphere.sources.length }}
-                            <br />
-                            <br />
-                        {{/if }}
-                        {{#each sphere.sources as |src|}}
-                            {{ src.name }}: {{ src.value }}
-                            <br />
-                        {{/each }}
-                        {{#if sphere.cappedSources.length }}
-                            <br />
-                            {{ localize "PF1SPHERES.CappedByHD" }}:
-                            <br />
-                        {{/if }}
-                        {{#each sphere.cappedSources as |src|}}
-                            {{ src.name }}: {{ src.value }}
-                            <br />
-                        {{/each }}
-                    </span>
                 </div>
                 <div class="block-header expand-sphere flexrow">
                     {{ localize "PF1SPHERES.TalentPlural" }}

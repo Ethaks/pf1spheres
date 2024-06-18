@@ -6,10 +6,11 @@
 
 import type { ActorPF, PF1ActorSpheresData, SpheresTalentsRecord } from "./actor-data";
 import { SpheresActorSettings } from "./apps/SpheresActorSettings";
-import type { CombatSphere, ItemPF, MagicSphere, SourceEntry, Sphere } from "./item-data";
+import type { CombatSphere, ItemPF, MagicSphere, Sphere } from "./item-data";
 import { getSphereType } from "./item-util";
 import { enforce, getGame, localize } from "./util";
 import { renderPf1sTemplate } from "./preloadTemplates";
+import { activateSphereTooltip } from "./sphere-tooltip";
 
 export const onActorSheetHeaderButtons = (
   sheet: ActorSheetPF,
@@ -76,15 +77,6 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
       attribute,
       total: spheres[attribute].total ?? 0,
       label: localize(attribute.toLocaleUpperCase() as Uppercase<typeof attribute>),
-      path: `@spheres.${attribute}.total`,
-      sources: (actor.sourceDetails[`system.spheres.${attribute}.total` as const] ?? []).filter(
-        (info) => !(info.name in CONFIG.PF1.bonusTypes), // TODO: Remove when Changes can opt out of sourceInfo
-      ),
-      cappedSources: (
-        actor.sourceDetails[`system.spheres.${attribute}.modCap` as const] ?? []
-      ).filter(
-        (info) => !(info.name in CONFIG.PF1.bonusTypes), // TODO: Remove when Changes can opt out of sourceInfo
-      ),
       rollable: ["msb"].includes(attribute) ? "rollable" : "",
     }),
   );
@@ -93,9 +85,6 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
     attribute: "concentration",
     total: actor.system.spheres.concentration.total ?? 0,
     label: localize("PF1.Concentration"),
-    path: "@spheres.concentration.total",
-    sources: [...actor.sourceDetails["system.spheres.concentration.total"]],
-    cappedSources: [],
     rollable: "rollable",
   });
 
@@ -118,11 +107,6 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
     attribute: "bab",
     total: actor.system.attributes.bab.total,
     label: localize("PF1.BABAbbr"),
-    path: `@attributes.bab.total`,
-    sources: (actor.sourceDetails["system.attributes.bab.total"] ?? []).filter(
-      (info) => !(info.name in CONFIG.PF1.bonusTypes), // TODO: Remove when Changes can opt out of sourceInfo
-    ),
-    cappedSources: [],
     rollable: "",
   });
   // const martialFocus = actor.items.getName("Martial Focus");
@@ -164,31 +148,29 @@ const getSpheresData = (app: ActorSheetPF, actor: ActorPF): SpheresTemplateData 
   const sphereCLs = Object.keys(pf1s.config.magicSpheres).map(
     (sphere): SphereData => ({
       sphere,
+      tooltipId: `cl:${sphere}`,
       label: pf1s.config.magicSpheres[sphere].label,
       levelLabel: levelLabels.magic,
       total: spheres.cl[sphere].total ?? 0,
-      path: `@spheres.cl.${sphere}.total`,
       icon: pf1s.config.magicSpheres[sphere].icon || CONFIG.Item.documentClass.DEFAULT_ICON,
       talents: ownedTalents[sphere] ?? [],
       talentCounts: spheres.talents[sphere],
       hasTalents: Boolean(ownedTalents[sphere]?.length),
       expandTalents: Boolean(app.spheresTab.expandedSpheres[sphere] ?? false),
-      ...getSphereClSources(actor)(sphere),
     }),
   );
   const sphereBabs = Object.keys(pf1s.config.combatSpheres).map(
     (sphere): SphereData => ({
       sphere,
+      tooltipId: `bab:${sphere}`,
       label: pf1s.config.combatSpheres[sphere].label,
       levelLabel: levelLabels.combat,
       total: actor.system.spheres?.bab[sphere].total ?? 0,
-      path: `@spheres.bab.${sphere}.total`,
       icon: pf1s.config.combatSpheres[sphere].icon || CONFIG.Item.documentClass.DEFAULT_ICON,
       talents: ownedTalents[sphere] ?? [],
       talentCounts: spheres.talents[sphere],
       hasTalents: Boolean(ownedTalents[sphere]?.length),
       expandTalents: Boolean(app.spheresTab.expandedSpheres[sphere] ?? false),
-      ...getSphereBabSources(actor)(sphere),
     }),
   );
 
@@ -222,6 +204,12 @@ const activateListeners = (app: ActorSheetPF, html: JQuery<HTMLElement>, actor: 
   html.find(".talent .talent-icon").on("click", (event) => app._onItemRoll(event));
 
   html.find(".sphere-label").on("click", _openSphereJournal);
+
+  html
+    // @ts-expect-error Incorrect types
+    .on("pointerover", "[data-tooltip-sphere]", activateSphereTooltip(app))
+    // @ts-expect-error Missing tooltip types
+    .on("pointerleave", "[data-tooltip-sphere]", () => game.tooltip.deactivate());
 };
 
 const getTalentTemplateData = (item: ItemPF): TalentTemplateData => ({
@@ -299,37 +287,6 @@ const _toggleSphereTalentsDisplay = (app: ActorSheetPF) => (ev: JQuery.ClickEven
   ev.currentTarget.querySelector("i").classList.toggle("rotate-arrow");
 };
 
-const getSphereClSources =
-  (actor: ActorPF) =>
-  (sphere: MagicSphere): { sources: SourceEntry[]; cappedSources: SourceEntry[] } => {
-    const baseSources = actor.sourceDetails["system.spheres.cl.base"] ?? [];
-    const cappedBaseSources = actor.sourceDetails["system.spheres.cl.modCap"] ?? [];
-    const sphereSources = actor.sourceDetails[`system.spheres.cl.${sphere}.total` as const] ?? [];
-    const cappedSources = actor.sourceDetails[`system.spheres.cl.${sphere}.modCap` as const] ?? [];
-    return {
-      sources: [...baseSources, ...sphereSources].filter(
-        (info) => !(info.name in CONFIG.PF1.bonusTypes), // TODO: Remove when Changes can opt out of sourceInfo
-      ),
-      cappedSources: [...cappedBaseSources, ...cappedSources].filter(
-        (info) => !(info.name in CONFIG.PF1.bonusTypes), // TODO: Remove when Changes can opt out of sourceInfo
-      ),
-    };
-  };
-
-const getSphereBabSources = (actor: ActorPF) => (sphere: CombatSphere) => {
-  const baseSources = actor.sourceDetails["system.attributes.bab.total"] ?? [];
-  const sphereSources = actor.sourceDetails[`system.spheres.bab.${sphere}.total` as const] ?? [];
-  const cappedSources = actor.sourceDetails[`system.spheres.bab.${sphere}.modCap` as const] ?? [];
-  return {
-    sources: [...baseSources, ...sphereSources].filter(
-      (info) => !(info.name in CONFIG.PF1.bonusTypes), // TODO: Remove when Changes can opt out of sourceInfo
-    ),
-    cappedSources: cappedSources.filter(
-      (info) => !(info.name in CONFIG.PF1.bonusTypes), // TODO: Remove when Changes can opt out of sourceInfo
-    ),
-  };
-};
-
 interface ActorSheetPFData {
   actor: ActorPF;
 }
@@ -354,14 +311,13 @@ interface SpheresTemplateData {
 
 interface SphereData {
   sphere: MagicSphere | CombatSphere;
+  tooltipId: string;
   label: string;
   levelLabel: string;
   total: number;
-  path: string;
   icon: string;
   talents: TalentTemplateData[];
   hasTalents: boolean;
-  sources: SourceEntry[];
   expandTalents: boolean;
   talentCounts: SpheresTalentsRecord[Sphere];
 }
@@ -370,15 +326,10 @@ type TalentMap = {
   [Key in Sphere]?: TalentTemplateData[];
 };
 
-//type ItemProperties = ToObjectFalseType<ItemPF["data"]>;
-
 interface AttributeData {
   attribute?: "cl" | "msb" | "concentration" | "msd" | "bab" | "martialFocus" | "spellPool";
   sphere?: Sphere;
   total: number;
   label: string;
-  path: string;
-  sources: SourceEntry[];
-  cappedSources: SourceEntry[];
   rollable: "rollable" | "";
 }
