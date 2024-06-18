@@ -34,6 +34,7 @@ if (import.meta.hot) {
 // API
 import * as PF1S from "./config";
 import { registerSphereFilter } from "./compendium-browser";
+import { onChangeEditorRender } from "./change-editor";
 
 export { PF1S as config };
 
@@ -194,6 +195,8 @@ Hooks.once("setup", () => {
 Hooks.on("renderItemSheetPF", onItemSheetRender);
 
 Hooks.on("renderActorSheetPF", onActorSheetRender);
+
+Hooks.on("renderChangeEditor", onChangeEditorRender);
 
 Hooks.on("getActorSheetPFHeaderButtons", onActorSheetHeaderButtons);
 
