@@ -7,7 +7,6 @@
 import type { ActorPF, PF1ActorSpheresData, SpheresTalentsRecord } from "./actor-data";
 import { SpheresActorSettings } from "./apps/SpheresActorSettings";
 import type { CombatSphere, ItemPF, MagicSphere, Sphere } from "./item-data";
-import { getSphereType } from "./item-util";
 import { enforce, getGame, localize } from "./util";
 import { renderPf1sTemplate } from "./preloadTemplates";
 import { activateSphereTooltip } from "./sphere-tooltip";
@@ -209,7 +208,7 @@ const activateListeners = (app: ActorSheetPF, html: JQuery<HTMLElement>, actor: 
     // @ts-expect-error Incorrect types
     .on("pointerover", "[data-tooltip-sphere]", activateSphereTooltip(app))
     // @ts-expect-error Missing tooltip types
-    .on("pointerleave", "[data-tooltip-sphere]", () => game.tooltip.deactivate());
+    .on("pointerleave", "[data-tooltip-sphere]", () => getGame().tooltip.deactivate());
 };
 
 const getTalentTemplateData = (item: ItemPF): TalentTemplateData => ({
@@ -250,18 +249,47 @@ const _onConcentrationRoll = (actor: ActorPF) => (ev: JQuery.ClickEvent<HTMLElem
 const _openSphereJournal = async (event: JQuery.ClickEvent<HTMLElement>) => {
   event.preventDefault();
 
-  const sphere = $(event.currentTarget).parents(".sphere").data("sphere") as Sphere | undefined;
+  const sphere = event.currentTarget.closest(".sphere")?.dataset.sphere as Sphere | undefined;
   enforce(sphere);
-  const sphereType = getSphereType(sphere);
-  enforce(sphereType);
-
-  const pack = getGame().packs.get(`pf1spheres.${sphereType}-spheres`);
-  enforce(pack);
-  const documents = (await pack.getDocuments()) as StoredDocument<JournalEntry>[];
-  // @ts-expect-error v10 types, flags are top level property now
-  const targetDocument = documents.find((d) => d.flags.pf1spheres?.sphere === sphere);
-  targetDocument?.sheet?.render(true);
+  const sphereConfigs = {
+    ...pf1s.config.magicSpheres,
+    ...pf1s.config.combatSpheres,
+    ...pf1s.config.skillSpheres,
+  };
+  const sphereConfig = sphereConfigs[sphere];
+  if (!("reference" in sphereConfig)) throw new Error(`Sphere ${sphere} has no reference`);
+  return openJournal(sphereConfig.reference, { width: 700, height: 800 });
 };
+
+/**
+ * Opens journal or journal page.
+ *
+ * Pages are opened in collapsed state.
+ *
+ * @param uuid - UUID to journal or journal page
+ * @param [options={}] - Additional rendering options
+ */
+export async function openJournal(uuid: string, options = {}) {
+  const journal = await fromUuid(uuid);
+  enforce(journal);
+
+  // @ts-expect-error Missing types
+  if (journal instanceof JournalEntryPage) {
+    journal.parent.sheet.render(true, {
+      pageId: journal.id,
+      editable: false,
+      collapsed: true,
+      width: 600,
+      height: 700,
+      ...options,
+    });
+  } else {
+    // @ts-expect-error Missing types
+    journal.sheet.render(true, { editable: false, ...options });
+  }
+
+  return journal;
+}
 
 const _toggleSphereTalentsDisplay = (app: ActorSheetPF) => (ev: JQuery.ClickEvent<HTMLElement>) => {
   ev.preventDefault();

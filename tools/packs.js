@@ -79,6 +79,12 @@ function sanitizePackEntry(entry) {
   delete entry.ownership;
   delete entry._stats;
 
+  if ("pages" in entry && Array.isArray(entry.pages)) {
+    for (const page of entry.pages) {
+      sanitizePackEntry(page);
+    }
+  }
+
   // Always delete system migration marker
   delete entry.flags?.pf1?.migration;
 

@@ -22,12 +22,12 @@ SPDX-License-Identifier: EUPL-1.2
                     <img class="sphere-icon" alt="{{ sphere.label }}" src="{{ sphere.icon }}" />
                     <div class="block-header sphere-label flexrow">{{ sphere.label }}</div>
                     <div class="sphere-info">
-                        <b>{{ localize "PF1SPHERES.TalentPlural" }}</b>:
-                            <span data-tooltip="@spheres.talents.{{sphere.sphere}}.total">{{ sphere.talentCounts.total }}</span>
-                        {{#if sphere.talentCounts.excluded}}
-                           <span data-tooltip="@spheres.talents.{{sphere.sphere}}.excluded">({{ sphere.talentCounts.excluded }})</span>
-                        {{/if }}
-                </div>
+                      <span data-tooltip="@spheres.talents.{{sphere.sphere}}.total: {{sphere.talentCounts.total}} <br> @spheres.talents.{{sphere.sphere}}.excluded: {{sphere.talentCounts.excluded}}"
+                        >
+                          <b>{{ localize "PF1SPHERES.TalentPlural" }}</b>: {{ sphere.talentCounts.total }}
+                          {{#if sphere.talentCounts.excluded}} ({{ sphere.talentCounts.excluded }}) {{/if }}
+                      </span>
+                    </div>
                 <span class="sphere-level-label">{{ sphere.levelLabel }}</span>
                 <div class="sphere-level-value" data-tooltip-sphere="{{sphere.tooltipId}}">
                     {{ sphere.total }}
