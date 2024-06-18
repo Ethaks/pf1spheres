@@ -130,6 +130,8 @@ Hooks.on("pf1RegisterConditions", (registry, _model) => {
   registry.register(MODULE_ID, "battered", {
     name: "PF1SPHERES.Battered",
     texture: "modules/pf1spheres/assets/icons/battered.png",
+    journal:
+      "Compendium.pf1spheres.rules.JournalEntry.7w1QY2Ta5P5wv8RT.JournalEntryPage.7gQkrcn5c8cn5nXk",
     mechanics: {
       changes: [{ formula: -2, target: "cmd", type: "untyped" }],
     },
