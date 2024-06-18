@@ -11,7 +11,7 @@ module.exports.readVersion = function (contents) {
 module.exports.writeVersion = function (contents, version) {
   const json = JSON.parse(contents);
   json.version = version;
-  json.download = `https://gitlab.com/Ethaks/foundryvtt-pf1-spheres/-/releases/v${version}/downloads/pf1spheres.zip`;
+  json.download = `https://github.com/Ethaks/pf1spheres/releases/download/v${version}/module.zip`;
   const manifestString = JSON.stringify(json);
   return manifestString;
 };
