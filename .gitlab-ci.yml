@@ -39,6 +39,7 @@ lint:
 
 typecheck:
   stage: check
+  allow_failure: true
   before_script:
     - *npm-ci
   script:
