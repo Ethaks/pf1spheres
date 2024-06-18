@@ -37,12 +37,17 @@ export const onItemSheetRender = (
         ...data,
         ...sphereData,
       });
-      html.find("div.tab.details > h3").next(".form-group.select").after(sphereDropdown);
+      html[0]
+        .querySelector("[name='system.subType']")
+        ?.closest(".form-group.select")
+        ?.insertAdjacentHTML("afterend", sphereDropdown);
       const countExcluded = renderPf1sTemplate("talent-excluded", {
         ...data,
         ...sphereData,
       });
-      html.find("h4.form-header").prev(".form-group.stacked").append(countExcluded);
+      html[0]
+        .querySelector(".form-group.sphere-talent-type")
+        ?.insertAdjacentHTML("afterend", countExcluded);
     }
   }
   // Handle additions to class sheet

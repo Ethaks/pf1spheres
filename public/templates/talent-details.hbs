@@ -2,15 +2,9 @@
 SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
 SPDX-License-Identifier: EUPL-1.2
 -->--}}
-<div class="form-group">
+<div class="form-group sphere-talent-type">
     <label>{{ localize "PF1SPHERES.Sphere" }}</label>
     <select name="flags.pf1spheres.sphere">
-        {{#select item.flags.pf1spheres.sphere }}
-        {{#each spheres as |sphere key|}}
-            <option value="{{ key }}">
-                {{ sphere }}
-            </option>
-        {{/each }}
-    {{/select }}
-</select>
+        {{selectOptions spheres selected=item.flags.pf1spheres.sphere labelAttr="label"}}
+    </select>
 </div>

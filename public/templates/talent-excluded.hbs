@@ -2,7 +2,8 @@
 SPDX-FileCopyrightText: 2023 Ethaks <ethaks@pm.me>
 SPDX-License-Identifier: EUPL-1.2
 -->--}}
-<label class="checkbox">
-  <input type="checkbox" name="flags.pf1spheres.countExcluded" {{checked item.flags.pf1spheres.countExcluded}}>
-  {{localize "PF1SPHERES.CountExclude"}}
-</label>
+
+<div class="form-group sphere-count-excluded">
+    <label>{{localize "PF1SPHERES.CountExclude"}}</label>
+    <input type="checkbox" name="flags.pf1spheres.countExcluded" {{checked item.flags.pf1spheres.countExcluded}}>
+</div>
