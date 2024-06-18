@@ -1,0 +1,130 @@
+# SPDX-FileCopyrightText: 2024 Ethaks <ethaks@pm.me>
+# SPDX-License-Identifier: EUPL-1.2
+
+name: Checks
+
+on:
+  - push
+  - pull_request
+
+env:
+  node_version: 20
+
+jobs:
+  install-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node_version }}
+
+      - name: cache node modules
+        uses: actions/cache@v4
+        id: cache-dependencies
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+
+      - name: install dependencies
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
+        run: npm ci --cache ~/.npm --prefer-offline
+
+  lint:
+    runs-on: ubuntu-latest
+    needs: install-cache
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node_version }}
+
+      - name: restore dependencies
+        uses: actions/cache@v4
+        id: cache-dependencies
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+
+      - name: install dependencies
+        run: npm ci --cache ~/.npm --prefer-offline
+
+      - name: lint
+        run: npm run lint
+
+  typecheck:
+    runs-on: ubuntu-latest
+    needs: install-cache
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node_version }}
+
+      - name: restore dependencies
+        uses: actions/cache@v4
+        id: cache-dependencies
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+
+      - name: install dependencies
+        run: npm ci --cache ~/.npm --prefer-offline
+
+      - name: lint
+        run: npm run typecheck
+
+  test:
+    runs-on: ubuntu-latest
+    needs: install-cache
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node_version }}
+
+      - name: restore dependencies
+        uses: actions/cache@v4
+        id: cache-dependencies
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+
+      - name: install dependencies
+        run: npm ci --cache ~/.npm --prefer-offline
+
+      - name: lint
+        run: npm run test:ci
+
+  licensecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: check licenses
+        uses: fsfe/reuse-action@v3
