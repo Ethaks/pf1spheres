@@ -1,0 +1,82 @@
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>Spheres for Pathfinder 1e for Foundry VTT</title><meta name="description" content="Documentation for Spheres for Pathfinder 1e for Foundry VTT"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script defer src="assets/main.js"></script><script async src="assets/icons.js" id="tsd-icons-script"></script><script async src="assets/search.js" id="tsd-search-script"></script><script async src="assets/navigation.js" id="tsd-nav-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar"><div class="tsd-toolbar-contents container"><div class="table-cell" id="tsd-search" data-base="."><div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="assets/icons.svg#icon-search"></use></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div><div class="field"><div id="tsd-toolbar-links"></div></div><ul class="results"><li class="state loading">Preparing search index...</li><li class="state failure">The search index is not available</li></ul><a href="index.html" class="title">Spheres for Pathfinder 1e for Foundry VTT</a></div><div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget tsd-toolbar-icon menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="assets/icons.svg#icon-menu"></use></svg></a></div></div></header><div class="container container-main"><div class="col-content"><div class="tsd-page-title"><h2>Spheres for Pathfinder 1e for Foundry VTT</h2></div><div class="tsd-panel tsd-typography"><!--
+SPDX-FileCopyrightText: 2022 Ethaks <ethaks@pm.me>
+
+SPDX-License-Identifier: EUPL-1.2
+-->
+
+<h1 style="text-align: center" align="center">
+  Spheres for Pathfinder 1e
+</h1>
+
+<div style="text-align: center" align="center">
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Ethaks/pf1spheres/check.yaml?label=checks">
+  <a href="https://codecov.io/github/Ethaks/pf1spheres" >
+    <img src="https://codecov.io/github/Ethaks/pf1spheres/graph/badge.svg?token=5Y6KSB2WTO"/>
+  </a>
+  <a href="https://github.com/Ethaks/pf1spheres/releases/latest">
+    <img src="https://img.shields.io/github/downloads/Ethaks/pf1spheres/latest/module.zip" alt="Downloads" />
+  </a>
+  <a href="https://forge-vtt.com/bazaar#package=pf1spheres">
+    <img src="https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fpf1spheres&colorB=4aa94a" alt="Forge Install %" />
+  </a>
+  <br />
+  <a href="https://www.foundryvtt-hub.com/package/pf1spheres/">
+    <img src="https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fpf1spheres%2Fshield%2Fendorsements" alt="Foundry Hub Endorsements" />
+  </a>
+  <img src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://github.com/Ethaks/pf1spheres/releases/latest/download/module.json" alt="Supported Foundry Versions" />
+</div>
+
+<p>This module for the <a href="https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1">Pathfinder 1e game system</a> for <a href="http://foundryvtt.com/">Foundry Virtual Tabletop</a> provides additional functionality and support for the rule sets <a href="https://www.dropdeadstudios.com/spheres-of-power">Spheres of Power</a> and <a href="https://www.dropdeadstudios.com/spheres-of-might">Spheres of Might</a> from <a href="https://www.dropdeadstudios.com/">Drop Dead Studios</a>.</p>
+<p>As the module is still heavily in development, the best source for available features and notable changes is its <a href="CHANGELOG.md">changelog</a>.</p>
+<a id="md:installation" class="tsd-anchor"></a><h2><a href="#md:installation">Installation</a></h2><p>To install the module navigate to Foundry&#39;s <em>Add-on Modules</em> tab in the Setup menu and paste the following link in the <strong>Install Module</strong> dialog:</p>
+<p><a href="https://github.com/ethaks/pf1spheres/releases/latest/download/module.json">https://github.com/ethaks/pf1spheres/releases/latest/download/module.json</a></p>
+<p>The module can also be installed manually by downloading a zip archive from the Releases Page and extracting it to Foundry&#39;s <code>Data/modules/pf1spheres</code> directory.</p>
+<a id="md:development" class="tsd-anchor"></a><h2><a href="#md:development">Development</a></h2><a id="md:prerequisites" class="tsd-anchor"></a><h3><a href="#md:prerequisites">Prerequisites</a></h3><p>In order to build this module, recent versions of <code>node</code> and <code>npm</code> are required.
+Most likely using <code>yarn</code> also works but only <code>npm</code> is officially supported.
+If you use <code>nvm</code> to manage your <code>node</code> versions, you can simply run</p>
+<pre><code class="language-bash"><span class="hl-0">nvm</span><span class="hl-1"> </span><span class="hl-2">install</span>
+</code><button>Copy</button></pre>
+<p>in the project&#39;s root directory.</p>
+<p>You also need to install the project&#39;s dependencies. To do so, run</p>
+<pre><code class="language-bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">ci</span>
+</code><button>Copy</button></pre>
+<a id="md:building" class="tsd-anchor"></a><h3><a href="#md:building">Building</a></h3><p>You can build the project by running</p>
+<pre><code class="language-bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">run</span><span class="hl-1"> </span><span class="hl-2">build</span>
+</code><button>Copy</button></pre>
+<p>Alternatively, you can run</p>
+<pre><code class="language-bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">run</span><span class="hl-1"> </span><span class="hl-2">build:watch</span>
+</code><button>Copy</button></pre>
+<p>to watch for changes and automatically build as necessary.</p>
+<a id="md:linking-the-built-project-to-foundry-vtt" class="tsd-anchor"></a><h3><a href="#md:linking-the-built-project-to-foundry-vtt">Linking the built project to Foundry VTT</a></h3><p>In order to provide a fluent development experience, it is recommended to link
+the built module to your local Foundry VTT installation&#39;s data folder. In
+order to do so, first add a file called <code>foundryconfig.json</code> to the project root
+with the following content:</p>
+<pre><code class="language-json"><span class="hl-1">{</span><br/><span class="hl-1">  </span><span class="hl-3">&quot;dataPath&quot;</span><span class="hl-1">: </span><span class="hl-2">&quot;/absolute/path/to/your/FoundryVTT/Data&quot;</span><br/><span class="hl-1">}</span>
+</code><button>Copy</button></pre>
+<p>(if you are using Windows, make sure to use <code>\</code> as a path separator instead of <code>/</code>)</p>
+<p>Then run</p>
+<pre><code class="language-bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">run</span><span class="hl-1"> </span><span class="hl-2">link-package</span>
+</code><button>Copy</button></pre>
+<p>On Windows, creating symlinks requires administrator privileges so unfortunately
+you need to run the above command in an administrator terminal for it to work.</p>
+<a id="md:running-the-tests" class="tsd-anchor"></a><h3><a href="#md:running-the-tests">Running the tests</a></h3><p>You can run the tests with the following command:</p>
+<pre><code class="language-bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">test</span>
+</code><button>Copy</button></pre>
+<p>A manual type checking process can be started by running</p>
+<pre><code class="language-bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">run</span><span class="hl-1"> </span><span class="hl-2">typecheck</span>
+</code><button>Copy</button></pre>
+<p>This project uses <a href="https://vitejs.dev/">Vite</a>.
+After having built the module as least once as per <a href="#md:Building">building</a>, you can start a development server by running</p>
+<pre><code class="language-bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">run</span><span class="hl-1"> </span><span class="hl-2">serve</span>
+</code><button>Copy</button></pre>
+<p>This development server runs on port <code>30001</code>, and is able to hot reload CSS and Handlebars template changes, as well as offering some reload functionality for TS code changes.</p>
+<a id="md:legal" class="tsd-anchor"></a><h2><a href="#md:legal">Legal</a></h2><p>The software component of this system is licensed primarily under the EUPL v. 1.2.
+REUSE is used to specify licenses for individual files in the form of headers or <code>.license</code> files, or in <code>.reuse/dep5</code>.
+The rules and game content is distributed under the terms of the Open Gaming License v1.0a.
+The terms of the <a href="https://foundryvtt.com/article/license/">Foundry Virtual Tabletop End User License Agreement</a> apply.</p>
+<p>This system uses trademarks and/or copyrights owned by Paizo Inc., which are used under <a href="https://paizo.com/community/communityuse">Paizo&#39;s Community Use Policy</a>.
+We are expressly prohibited from charging you to use or access this content.
+This module is not published, endorsed, or specifically approved by Paizo Inc.
+For more information about Paizo&#39;s Community Use Policy, please visit <a href="https://paizo.com/communityuse">paizo.com/communityuse</a>.
+For more information about Paizo Inc. and Paizo products, please visit <a href="https://paizo.com">paizo.com</a>.</p>
+</div></div><div class="col-sidebar"><div class="page-menu"><div class="tsd-navigation settings"><details class="tsd-index-accordion"><summary class="tsd-accordion-summary"><h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="assets/icons.svg#icon-chevronDown"></use></svg>Settings</h3></summary><div class="tsd-accordion-details"><div class="tsd-filter-visibility"><h4 class="uppercase">Member Visibility</h4><form><ul id="tsd-filter-options"><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Protected</span></label></li><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-private" name="private"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Private</span></label></li><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li></ul></form></div><div class="tsd-theme-toggle"><h4 class="uppercase">Theme</h4><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div><details open class="tsd-index-accordion tsd-page-navigation"><summary class="tsd-accordion-summary"><h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="assets/icons.svg#icon-chevronDown"></use></svg>On This Page</h3></summary><div class="tsd-accordion-details"><a href="#md:installation"><span>Installation</span></a><a href="#md:development"><span>Development</span></a><ul><li><a href="#md:prerequisites"><span>Prerequisites</span></a></li><li><a href="#md:building"><span>Building</span></a></li><li><a href="#md:linking-the-built-project-to-foundry-vtt"><span>Linking the built project to <wbr/>Foundry VTT</span></a></li><li><a href="#md:running-the-tests"><span>Running the tests</span></a></li></ul><a href="#md:legal"><span>Legal</span></a></div></details></div><div class="site-menu"><nav class="tsd-navigation"><a href="index.html" class="current"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="assets/icons.svg#icon-1"></use></svg><span>Spheres for Pathfinder 1e for Foundry VTT</span></a><ul class="tsd-small-nested-navigation" id="tsd-nav-container" data-base="."><li>Loading...</li></ul></nav></div></div></div><footer><p class="tsd-generator">Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></footer><div class="overlay"></div></body></html>
