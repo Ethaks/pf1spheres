@@ -1,6 +1,33 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [0.8.0](https://github.com/Ethaks/pf1spheres/compare/v0.7.0...v0.8.0) (2024-06-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* replace sphere journal entries with individual pages
+* move sphere configuration fields into single object
+
+* move sphere configuration fields into single object ([a8f5bbc](https://github.com/Ethaks/pf1spheres/commit/a8f5bbc49c2eb24980f71bd370b8517c6150f5be))
+* replace sphere journal entries with individual pages ([4fa9036](https://github.com/Ethaks/pf1spheres/commit/4fa903632f86fbbc50a9bfd8d2bc8dbae8d46ca4))
+
+
+### Features
+
+* add journal entry for battered condition ([f862eb3](https://github.com/Ethaks/pf1spheres/commit/f862eb3b899e987db7dedaec30c8e4cf2b9e7fb7))
+* add sphere filter to feat browser ([02c9f77](https://github.com/Ethaks/pf1spheres/commit/02c9f7739fcb616409994abdf0c7b3acb67b2e03)), closes [#29](https://github.com/Ethaks/pf1spheres/issues/29)
+* show path tooltip for talent counts ([2c6e83e](https://github.com/Ethaks/pf1spheres/commit/2c6e83e5a75424cb8abb1d319315f8ad39a6f620)), closes [#31](https://github.com/Ethaks/pf1spheres/issues/31)
+* use new system tooltip layout ([beed333](https://github.com/Ethaks/pf1spheres/commit/beed33356dfb59db532c2018b60aecb43c2a3043)), closes [#30](https://github.com/Ethaks/pf1spheres/issues/30)
+
+
+### Bug Fixes
+
+* add skill talent section to actor sheet ([14bcd8d](https://github.com/Ethaks/pf1spheres/commit/14bcd8dd967f014de49050625438a6be07152978))
+* allow selection of caster progression for classes ([73dec4d](https://github.com/Ethaks/pf1spheres/commit/73dec4d6c11365c5c86f4e5dd5af835f803fb7a5))
+* **pack:** add wraith form instead of mastery at wraith level 1 ([9fb0ec2](https://github.com/Ethaks/pf1spheres/commit/9fb0ec27376202487fbf1fb91e66ddb6e5001b0f)), closes [#33](https://github.com/Ethaks/pf1spheres/issues/33)
+* restore sphere and count excluded inputs ([64a3b6a](https://github.com/Ethaks/pf1spheres/commit/64a3b6adeefc05e99f1ae7f61ef6801baf00291d))
 
 ## [0.7.0](https://gitlab.com/ethaks-fvtt/foundryvtt-pf1-spheres/compare/v0.6.1...v0.7.0) (2023-11-23)
 
