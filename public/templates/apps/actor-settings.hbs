@@ -4,19 +4,19 @@ SPDX-License-Identifier: EUPL-1.2
 -->--}}
 <form autocomplete="off">
     <div>
-        {{!-- MSB --}}
-        <div class="form-group">
-            <label for="msbAbility">{{ localize "PF1SPHERES.CastingAbility" }}</label>
-            <div class="form-fields">
-                <select id="castingAbility"
-                        name="flags.pf1spheres.castingAbility"
-                        data-dtype="String">
-                    {{selectOptions PF1CONFIG.abilities selected=pf1sFlags.castingAbility blank="PF1.None" localize=true}}
-            </select>
-        </div>
-        <p class="notes">
-            {{ localize "PF1SPHERES.Settings.CastingAbilityNote" }}
-        </p>
+        {{! Abilities}}
+        {{#each abilitySettings}}
+            <div class="form-group">
+                <label for="{{@root.appId}}.{{name}}">{{localize label}}</label>
+                <div class="form-fields">
+                    <select id="{{@root.appId}}.{{name}}"
+                            name="{{name}}"
+                            data-dtype="String">
+                        {{selectOptions options selected=value blank="PF1.None" localize=true}}
+                    </select>
+                </div>
+                <p class="hint">{{localize "PF1SPHERES.Settings.AbilitySettingNote" rollPath=rollPath}}</p>
+            </div>
+        {{/each}}
     </div>
-</div>
 </form>

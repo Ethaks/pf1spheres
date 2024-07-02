@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: EUPL-1.2
 
 import type { ActorDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
-import type { SpheresActorFlags } from "../actor-data";
+import type { Ability, SpheresActorFlags } from "../actor-data";
 import { getGame, localize } from "../util";
 
 /**
@@ -30,7 +30,10 @@ export class SpheresActorSettings extends FormApplication<
     });
   }
 
-  /** @inheritdoc */
+  override get id() {
+    return `${this.constructor.name}-${this.object.uuid.replace(/\./g, "-")}`;
+  }
+
   override get isEditable() {
     let editable = this.options["editable"] && this.object.isOwner;
     if (this.object.pack) {
@@ -44,22 +47,50 @@ export class SpheresActorSettings extends FormApplication<
   override getData() {
     const pf1sFlags = this.object.toObject().flags.pf1spheres ?? {};
 
-    return { pf1sFlags, PF1CONFIG: CONFIG.PF1, PF1S: pf1s.config };
+    const abilitySettings: AbilityFlagRenderData[] = [
+      {
+        name: "flags.pf1spheres.castingAbility",
+        label: "PF1SPHERES.CastingAbility",
+        options: pf1.config.abilities,
+        value: pf1sFlags.castingAbility ?? "",
+        rollPath: `@spheres.cam`,
+      },
+      {
+        name: "flags.pf1spheres.practitionerAbility",
+        label: "PF1SPHERES.PractitionerAbility",
+        options: pf1.config.abilities,
+        value: pf1sFlags.practitionerAbility ?? "",
+        rollPath: `@spheres.pam`,
+      },
+      {
+        name: "flags.pf1spheres.operativeAbility",
+        label: "PF1SPHERES.OperativeAbility",
+        options: pf1.config.abilities,
+        value: pf1sFlags.operativeAbility ?? "",
+        rollPath: `@spheres.oam`,
+      },
+    ];
+
+    return { appId: this.id, abilitySettings, pf1sFlags, PF1CONFIG: CONFIG.PF1, PF1S: pf1s.config };
   }
 
   override _updateObject(_event: Event, formData: DeepPartial<ActorDataSource>) {
     return this.object.update(formData);
   }
-
-  /** @inheritdoc */
-  override activateListeners(html: JQuery<HTMLElement>) {
-    if (!this.isEditable) return;
-    html.on("change", "input,select,textarea", this._onChangeInput.bind(this));
-  }
 }
 
 interface SettingsRenderData {
+  appId: string;
+  abilitySettings: AbilityFlagRenderData[];
   pf1sFlags: SpheresActorFlags;
   PF1CONFIG: typeof CONFIG.PF1;
   PF1S: typeof pf1s.config;
+}
+
+interface AbilityFlagRenderData {
+  label: string;
+  name: `flags.pf1spheres.${keyof SpheresActorFlags}`;
+  value: Ability | "";
+  rollPath: string;
+  options: Record<Ability, string>;
 }

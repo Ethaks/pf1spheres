@@ -29,6 +29,8 @@ declare global {
 export interface SpheresActorFlags {
   /** The ability used by this actor for magic skill checks */
   castingAbility?: Ability | "";
+  practitionerAbility?: Ability | "";
+  operativeAbility?: Ability | "";
 }
 
 export declare class ActorPF extends Actor {
@@ -65,8 +67,10 @@ export declare class ActorPF extends Actor {
 export interface PF1ActorSpheresData {
   /** Caster Level data for Spheres of Power */
   cl: ValueData<number> & MagicSpheresRecord;
-  /** Convenience shortcut for the actor's configured Casting Ability Modifier */
+  /** Convenience shortcut for the actor's configured Casting/Practitioner/Operative Ability Modifiers */
   cam: number;
+  pam: number;
+  oam: number;
   /** Magic Skill Bonus data for Spheres of Power */
   msb: ValueData<number>;
   /** Concentration data for Spheres of Power */

@@ -50,6 +50,16 @@ export const PF1CONFIG_EXTRA = {
       category: "sphereValues",
       sort: 35001,
     },
+    "~practitionerAbility": {
+      label: "PF1SPHERES.PractitionerAbility",
+      category: "sphereValues",
+      sort: 35002,
+    },
+    "~operativeAbility": {
+      label: "PF1SPHERES.CastingAbility",
+      category: "sphereValues",
+      sort: 35003,
+    },
     msb: {
       label: "PF1SPHERES.MSB",
       category: "sphereValues",

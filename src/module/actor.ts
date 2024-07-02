@@ -165,6 +165,8 @@ const getBlankSphereData = (): PF1ActorSpheresData => {
       ...valueDataTemplate(),
     },
     cam: 0,
+    pam: 0,
+    oam: 0,
     msb: valueDataTemplate(),
     msd: valueDataTemplate(),
     concentration: totalTemplate(),

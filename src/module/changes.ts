@@ -110,9 +110,15 @@ export const getChangeFlatTargets = (): Record<SphereChangeTarget, ChangeFlatTar
   "~spherecl": {
     default: ["system.spheres.cl.total"],
   },
-  // Hidden target, used to make CAM available via short
+  // Hidden target, used to make CAM/PAM/OAM available via short
   "~castingAbility": {
     default: ["system.spheres.cam"],
+  },
+  "~practitionerAbility": {
+    default: ["system.spheres.pam"],
+  },
+  "~operativeAbility": {
+    default: ["system.spheres.oam"],
   },
   // MSB
   msb: {
@@ -172,15 +178,19 @@ export const onAddDefaultChanges = (actor: ActorPF, changes: ItemChange[]): Defa
   const defaultChangeData = getDefaultChanges();
 
   // Add Casting Ability Modifier to Concentration and `@spheres.cam` shortcut
-  const castingAbility = actor.flags.pf1spheres?.castingAbility;
-  const castingAbilityChangeData = getCastingAbilityChange(castingAbility);
+  const abilityChanges = (
+    ["castingAbility", "practitionerAbility", "operativeAbility"] as const
+  ).map((abilityType) => {
+    const ability = actor.flags.pf1spheres?.[abilityType];
+    return getAbilityChange(ability, abilityType, abilityType === "castingAbility");
+  });
 
   const msbToConcentrationChangeData = getMsbToConcentrationChange();
 
   const changeData: DefaultChangeData[] = [
     defaultChangeData,
     msbToConcentrationChangeData,
-    castingAbilityChangeData,
+    ...abilityChanges,
   ].filter(nonNullable);
 
   // Actually add Changes to the system's process
@@ -240,27 +250,31 @@ const getMsbToConcentrationChange = (): DefaultChangeData => ({
   ],
 });
 
-const getCastingAbilityChange = (
+const getAbilityChange = (
   ability: Ability | "" | undefined,
-): DefaultChangeData | undefined =>
-  ability !== undefined && ability !== ""
-    ? {
-        changes: [
-          {
-            formula: `@abilities.${ability}.mod`,
-            target: "sphereConcentration",
-            modifier: "untyped",
-            flavor: `${localize("CastingAbility")} (${CONFIG.PF1.abilities[ability]})`,
-          },
-          {
-            formula: `@abilities.${ability}.mod`,
-            target: "~castingAbility",
-            modifier: "untyped",
-            flavor: `${localize("CastingAbility")} (${CONFIG.PF1.abilities[ability]})`,
-          },
-        ],
-      }
-    : undefined;
+  target: "castingAbility" | "practitionerAbility" | "operativeAbility",
+  includeConcentration = false,
+): DefaultChangeData | undefined => {
+  if (ability === undefined || ability === "") return undefined;
+  const changes: ItemChangeCreateData[] = [
+    {
+      formula: `@abilities.${ability}.mod`,
+      target: `~${target}` as const,
+      modifier: "untyped",
+      flavor: `${localize(target.capitalize())} (${CONFIG.PF1.abilities[ability]})`,
+    },
+  ];
+  if (includeConcentration) {
+    changes.push({
+      formula: `@abilities.${ability}.mod`,
+      target: "sphereConcentration",
+      modifier: "untyped",
+      flavor: `${localize(target.capitalize())} (${CONFIG.PF1.abilities[ability]})`,
+    });
+  }
+
+  return { changes };
+};
 
 /** Returns a collection of helper functions and classes for actor and ItemChange handling */
 const getChangeHelpers = (actor: ActorPF) => ({
