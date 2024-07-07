@@ -8,7 +8,10 @@
 /*                 CSS                  */
 /* ------------------------------------ */
 
-.spheres {
+.tab.spheres {
+  overflow-y: auto;
+  scrollbar-width: thin;
+
   .block-header {
     text-align: center;
     align-items: center;
