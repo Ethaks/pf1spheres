@@ -3,7 +3,16 @@
 // SPDX-License-Identifier: EUPL-1.2
 
 import { SphereConfiguration } from "./config";
-import type { CombatSphere, MagicSphere, SkillSphere, Sphere } from "./item-data";
+import type {
+  CombatSphere,
+  ItemPF,
+  MagicSphere,
+  PF1FeatDataSource,
+  PF1ItemDataProperties,
+  PF1ItemDataSource,
+  SkillSphere,
+  Sphere,
+} from "./item-data";
 
 /**
  * Returns and asserts whether a string containing a Sphere is a Magic Sphere
@@ -62,4 +71,18 @@ export const getSphereConfig = (sphere: Sphere): Required<SphereConfiguration> =
   else if (isCombatSphere(sphere)) return { ...baseConfig, ...pf1s.config.combatSpheres[sphere] };
   else if (isSkillSphere(sphere)) return { ...baseConfig, ...pf1s.config.skillSpheres[sphere] };
   else throw new Error(`No configuration found for "${sphere}"`);
+};
+
+/**
+ * A predicate to check whether an item (or the source data of one) is a Talent.
+ *
+ * @param item - The item to check
+ * @returns Whether the item is a Talent
+ */
+export const isTalent = <T extends ItemPF | PF1ItemDataSource | PF1ItemDataProperties>(
+  item: T,
+): item is T & { system: PF1FeatDataSource } => {
+  if (item.type !== "feat") return false;
+  if (!["combatTalent", "magicTalent", "skillTalent"].includes(item.system.subType)) return false;
+  return true;
 };

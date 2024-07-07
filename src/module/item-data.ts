@@ -90,7 +90,7 @@ export interface PF1FeatDataSource {
   system: PF1FeatDataSourceData;
 }
 
-interface PF1FeatDataSourceData
+export interface PF1FeatDataSourceData
   extends PF1ItemDataSourceDescription,
     PF1ItemDataSourceTags,
     PF1ItemDataSourceChanges,
@@ -104,6 +104,7 @@ interface PF1FeatDataSourceData
     | "misc"
     | "template"
     | keyof typeof PF1CONFIG_EXTRA.featTypes;
+  disabled: boolean;
 }
 
 export interface PF1ClassDataSource {

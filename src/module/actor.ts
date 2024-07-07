@@ -6,11 +6,18 @@
 
 import type { TotalData, TotalModData, ValueData } from "./common-data";
 import type { ActorPF, PF1ActorSpheresData } from "./actor-data";
-import type { CombatSphere, MagicSphere, PF1ClassDataSource, SkillSphere } from "./item-data";
+import type {
+  CombatSphere,
+  MagicSphere,
+  PF1ClassDataSource,
+  PF1FeatDataSourceData,
+  SkillSphere,
+} from "./item-data";
 import { getActorMethods } from "./actor-methods";
 import { getActorHelpers } from "./actor-util";
 import { getGame, localize } from "./util";
 import type { ItemPF } from "./item-data";
+import { isTalent } from "./item-util";
 
 /**
  * Hooks into the preparation of base data for Actors, setting base values
@@ -65,12 +72,13 @@ export const onActorBasePreparation = (actor: ActorPF): void => {
 
   // Talent counts
   for (const talent of actor.items.filter(
-    (item) => item.type === "feat" && ["magicTalent", "combatTalent"].includes(item.system.subType),
+    (item): item is ItemPF & { system: PF1FeatDataSourceData } => isTalent(item),
   )) {
     if (talent.flags.pf1spheres?.sphere) {
       const sphere = talent.flags.pf1spheres.sphere;
       const sphereTalentsData = sphereData.talents[sphere];
       if (!sphereTalentsData) continue; // Skip talents with invalid spheres
+      if (talent.system.disabled) continue; // Ignore fully disabled talents
       if (talent.flags.pf1spheres?.countExcluded === true) sphereTalentsData.excluded++;
       else sphereTalentsData.value++;
       sphereTalentsData.total++;
