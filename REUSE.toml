@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2024 Ethaks <ethaks@pm.me>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+version = 1
+SPDX-PackageName = "pf1spheres"
+SPDX-PackageSupplier = "Ethaks <ethaks@pm.me>"
+SPDX-PackageDownloadLocation = "https://gitlab.com/Ethaks/foundryvtt-pf1-spheres"
+
+[[annotations]]
+path = "public/assets/icons/spheres/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Drop Dead Studios"
+SPDX-License-Identifier = "LicenseRef-SphereIcons"
+
+[[annotations]]
+path = "src/packs/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Drop Dead Studios"
+SPDX-License-Identifier = "LicenseRef-OGL-1.0a"
