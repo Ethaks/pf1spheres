@@ -223,7 +223,7 @@ export function _getConcentrationNotes(this: ActorPF): ContextNoteObject[] {
   ].filter((no) => no.notes.length > 0);
 }
 
-interface ContextNoteObject {
+export interface ContextNoteObject {
   item: ItemPF;
   notes: string[];
   enriched?: string[];

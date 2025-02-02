@@ -17,7 +17,7 @@ export class SpheresActorSettings extends FormApplication<
 > {
   /** @inheritdoc */
   static get defaultOptions() {
-    return mergeObject(super.defaultOptions, {
+    return foundry.utils.mergeObject(super.defaultOptions, {
       id: "spheres-settings-editor",
       classes: ["pf1spheres"],
       title: localize("Settings.Title"),

@@ -91,7 +91,7 @@ Hooks.once("init", () => {
   CONFIG.PF1SPHERES = pf1s.config;
 
   // Merge additions to the system's config
-  mergeObject(CONFIG.PF1, PF1CONFIG_EXTRA);
+  foundry.utils.mergeObject(CONFIG.PF1, PF1CONFIG_EXTRA);
 
   // Call hooks once base config has been initialised
   Hooks.callAll("pf1spheresConfig", pf1s.config);
