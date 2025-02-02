@@ -68,7 +68,7 @@ const getTooltipContext = (tooltipId: SphereTooltipId, actor: ActorPF): TooltipC
         value: actor.system.spheres?.concentration.total ?? 0,
       });
       context.sources.push({
-        sources: actor.sourceDetails["system.spheres.concentration.total"].map((source) => ({
+        sources: actor.getSourceDetails("system.spheres.concentration.total").map((source) => ({
           ...source,
           value: source.value ?? 0,
           type: pf1.config.bonusTypes[(source.type as BonusType) || (source.modifier as BonusType)],
@@ -100,7 +100,7 @@ const getTooltipContext = (tooltipId: SphereTooltipId, actor: ActorPF): TooltipC
       break;
     }
     case "bab": {
-      const baseSources = actor.sourceDetails["system.attributes.bab.total"].map((source) => ({
+      const baseSources = actor.getSourceDetails("system.attributes.bab.total").map((source) => ({
         ...source,
         value: source.value ?? 0,
         type:
@@ -182,7 +182,8 @@ const getSources = (
 ): Record<"base" | "bonus" | "capped", TooltipSource[]> => {
   const totalPath = `${path}.total` as ActorDataPath;
   const modCapPath = `${path}.modCap` as ActorDataPath;
-  const base = actor.sourceDetails[totalPath]
+  const base = actor
+    .getSourceDetails(totalPath)
     .filter(filterDummySources)
     .filter((source) => !source.modifier)
     .map((source) => ({
@@ -192,7 +193,8 @@ const getSources = (
         pf1.config.bonusTypes[(source.type as BonusType) || (source.modifier as BonusType)] ||
         pf1.config.bonusTypes.untyped,
     }));
-  const bonus = actor.sourceDetails[totalPath]
+  const bonus = actor
+    .getSourceDetails(totalPath)
     .filter(filterDummySources)
     .filter((source) => source.modifier)
     .map((source) => ({
@@ -200,7 +202,7 @@ const getSources = (
       value: formatValue(source.value),
       type: pf1.config.bonusTypes[(source.type as BonusType) || (source.modifier as BonusType)],
     }));
-  const capped = (actor.sourceDetails[modCapPath] ?? [])
+  const capped = (actor.getSourceDetails(modCapPath) ?? [])
     .filter(filterDummySources)
     .map((source) => ({
       ...source,

@@ -114,14 +114,22 @@ export async function rollMsb(
     return ui.notifications?.warn(msg);
   }
 
-  const parts = this.sourceDetails["system.spheres.msb.total"]
+  const parts = this.getSourceDetails("system.spheres.msb.total")
     .filter((info) => !(info.name in CONFIG.PF1.bonusTypes)) // TODO: Remove when Changes can opt out of sourceInfo
     .map((info) => `${info.value}[${info.name}]`);
 
   const rollData = this.getRollData();
   const noteObjects = this.spheres._getMsbNotes();
-  const notes = this.formatContextNotes(noteObjects, rollData);
-  const props = notes.length > 0 ? [{ header: localize("PF1.Notes"), value: notes }] : [];
+  await this.enrichContextNotes(noteObjects, rollData);
+  const props =
+    noteObjects.length > 0
+      ? [
+          {
+            header: localize("PF1.Notes"),
+            value: noteObjects.map((n) => ({ source: n.item.name, text: n.enriched })).flat(),
+          },
+        ]
+      : [];
 
   const rollOptions = {
     ...options,
@@ -154,14 +162,22 @@ export async function rollConcentration(
     return ui.notifications?.warn(msg);
   }
 
-  const parts = this.sourceDetails["system.spheres.concentration.total"]
+  const parts = this.getSourceDetails("system.spheres.concentration.total")
     .filter((info) => !(info.name in CONFIG.PF1.bonusTypes)) // TODO: Remove when Changes can opt out of sourceInfo
     .map((info) => `${info.value}[${info.name}]`);
 
   const rollData = this.getRollData();
   const noteObjects = this.spheres._getConcentrationNotes();
-  const notes = this.formatContextNotes(noteObjects, rollData);
-  const props = notes.length > 0 ? [{ header: localize("PF1.Notes"), value: notes }] : [];
+  await this.enrichContextNotes(noteObjects, rollData);
+  const props =
+    noteObjects.length > 0
+      ? [
+          {
+            header: localize("PF1.Notes"),
+            value: noteObjects.map((n) => ({ source: n.item.name, text: n.enriched })).flat(),
+          },
+        ]
+      : [];
 
   const rollOptions = {
     ...options,
@@ -210,6 +226,7 @@ export function _getConcentrationNotes(this: ActorPF): ContextNoteObject[] {
 interface ContextNoteObject {
   item: ItemPF;
   notes: string[];
+  enriched?: string[];
 }
 
 type SpheresFormulaPaths = {

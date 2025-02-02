@@ -5,14 +5,15 @@
  */
 
 import type { ActorDataSource } from "@league-of-foundry-developers/foundry-vtt-types/src/foundry/common/data/data.mjs/actorData";
-import type { Ability, ActorPF } from "../../src/module/actor-data";
-import type { ItemPF } from "../../src/module/item-data";
+import type { Ability, ActorDataPath, ActorPF } from "../../src/module/actor-data";
+import type { ItemPF, SourceInfo } from "../../src/module/item-data";
 import { FakeCollection } from "./fake-collection";
 import { FakeItem } from "./fake-item";
 import testActor from "../test-actor.json";
+import { ContextNoteObject } from "../../src/module/actor-methods";
 
 export class FakeActor {
-  sourceInfo = {};
+  sourceInfo: SourceInfo = {};
   sourceDetails = {};
   items = new FakeCollection<ItemPF>();
   _data: ActorDataSource;
@@ -48,8 +49,16 @@ export class FakeActor {
     return JSON.parse(JSON.stringify(this.system));
   }
 
-  formatContextNotes() {
-    return [];
+  getSourceDetails(path: ActorDataPath) {
+    // Return all positive and negative sources
+    const info = this.sourceInfo[path] ?? { positive: [], negative: [] };
+    return [...info.positive, ...info.negative];
+  }
+
+  async enrichContextNotes(noteObjects: ContextNoteObject[], _rollData: unknown): Promise<void> {
+    for (const note of noteObjects) {
+      note.enriched = note.notes;
+    }
   }
 
   get allNotes() {

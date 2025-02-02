@@ -38,8 +38,15 @@ export declare class ActorPF extends Actor {
   spheres: ReturnType<typeof getActorMethods>;
   /**
    * Final source details used for tooltips etc.
+   *
+   * @deprecated
    */
   sourceDetails: SourceDetails;
+
+  /**
+   * Get the source details for this actor.
+   */
+  getSourceDetails<T extends ActorDataPath>(path: T): SourceDetails[T];
   /**
    * Working object for sourceDetails
    */
@@ -53,11 +60,14 @@ export declare class ActorPF extends Actor {
     notes: { text: string; target: keyof typeof CONFIG.PF1.contextNoteTargets }[];
   }[];
 
-  formatContextNotes(
+  /**
+   * Enriches the given context notes by mutating them.
+   */
+  enrichContextNotes(
     notes: { item: Item; notes: string[] }[],
     rollData: RollData,
     options?: { roll: boolean },
-  ): string[];
+  ): Promise<void>;
 
   // TODO: v10 hack, check with updated types
   system: PF1ActorDataPropertiesData;
