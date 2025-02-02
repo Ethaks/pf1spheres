@@ -40,7 +40,7 @@ if (import.meta.hot) {
   import.meta.hot.on("hotHandle:update", ({ file, content }: HandlebarsReloadData) => {
     const compiled = Handlebars.compile(content);
     Handlebars.registerPartial(file, compiled);
-    _templateCache[file] = compiled;
+    Handlebars.partials[file] = compiled;
     console.log(`${MODULE_ID} | Compiled template ${file}`);
 
     // Rerender opened applications to make use of updated templates

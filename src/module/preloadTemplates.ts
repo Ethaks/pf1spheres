@@ -37,7 +37,7 @@ export const preloadTemplates = async (): Promise<Handlebars.TemplateDelegate[]>
  */
 export function renderPf1sTemplate(template: (typeof templates)[number], data?: object) {
   const templatePath = getTemplatePath(template);
-  const hbsTemplate = _templateCache[templatePath];
+  const hbsTemplate = Handlebars.partials[templatePath];
   enforce(template, `${MODULE_ID}: No template found for ${template} (${templatePath})`);
 
   return hbsTemplate(data || {}, {
