@@ -12,17 +12,19 @@ sort: 0
 system:
   alignment: ""
   armorProf:
-    custom:
-      - Buckler
-    value:
-      - lgt
+    - lgt
+    - Buckler
   bab: high
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: false
@@ -62,8 +64,10 @@ system:
     sur: false
     swm: true
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       “My will cannot break, but your body can.”
@@ -123,79 +127,77 @@ system:
     dictionary: {}
   hd: 12
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Defender’s Soul
-        uuid: Compendium.pf1spheres.class-features.Ehp5iSyL3u1D04mu
+        uuid: Compendium.pf1spheres.class-features.Item.Ehp5iSyL3u1D04mu
       - level: 1
         name: Guardian Challenge
-        uuid: Compendium.pf1spheres.class-features.zGdPcQpEWsrZssfD
+        uuid: Compendium.pf1spheres.class-features.Item.zGdPcQpEWsrZssfD
       - level: 1
         name: Sentinel’s Reserve
-        uuid: Compendium.pf1spheres.class-features.ntL1x4vEXiAP5SJ8
+        uuid: Compendium.pf1spheres.class-features.Item.ntL1x4vEXiAP5SJ8
       - level: 1
         name: Wise Reflexes
-        uuid: Compendium.pf1spheres.class-features.bopOSuwAaaTATrlH
+        uuid: Compendium.pf1spheres.class-features.Item.bopOSuwAaaTATrlH
       - level: 2
         name: Guard Wall
-        uuid: Compendium.pf1spheres.class-features.rKmnKcCWMfypVg95
+        uuid: Compendium.pf1spheres.class-features.Item.rKmnKcCWMfypVg95
       - level: 2
         name: Dedicated Defense
-        uuid: Compendium.pf1spheres.class-features.2e4IlzZATiLm0r9X
+        uuid: Compendium.pf1spheres.class-features.Item.2e4IlzZATiLm0r9X
       - level: 3
         name: Second Wind
-        uuid: Compendium.pf1spheres.class-features.hGqe4uWvmXwR7NNR
+        uuid: Compendium.pf1spheres.class-features.Item.hGqe4uWvmXwR7NNR
       - level: 4
         name: Sentinel’s Imposition
-        uuid: Compendium.pf1spheres.class-features.KVHE9KXW3rx9L0UA
+        uuid: Compendium.pf1spheres.class-features.Item.KVHE9KXW3rx9L0UA
       - level: 5
         name: Opportunistic Offense
-        uuid: Compendium.pf1spheres.class-features.dVa0PEB9UwoZZGTP
+        uuid: Compendium.pf1spheres.class-features.Item.dVa0PEB9UwoZZGTP
       - level: 6
         name: Counter Critical
-        uuid: Compendium.pf1spheres.class-features.sg11YhCs9zd1sWaf
+        uuid: Compendium.pf1spheres.class-features.Item.sg11YhCs9zd1sWaf
       - level: 7
         name: Defender’s Determination
-        uuid: Compendium.pf1spheres.class-features.sl9o1a0SGGi8Fzp1
+        uuid: Compendium.pf1spheres.class-features.Item.sl9o1a0SGGi8Fzp1
       - level: 8
         name: Deathless Challenge
-        uuid: Compendium.pf1spheres.class-features.VWSHn5tXMiG2CFcr
+        uuid: Compendium.pf1spheres.class-features.Item.VWSHn5tXMiG2CFcr
       - level: 9
         name: Stalwart (Sentinel)
-        uuid: Compendium.pf1spheres.class-features.BpKSpslx621m1cMS
+        uuid: Compendium.pf1spheres.class-features.Item.BpKSpslx621m1cMS
       - level: 11
         name: Empowering Challenge
-        uuid: Compendium.pf1spheres.class-features.iNQCMO3q1dd70gvS
+        uuid: Compendium.pf1spheres.class-features.Item.iNQCMO3q1dd70gvS
       - level: 12
         name: Sentinel’s Wrath
-        uuid: Compendium.pf1spheres.class-features.wePasw5vLnlfC7LR
+        uuid: Compendium.pf1spheres.class-features.Item.wePasw5vLnlfC7LR
       - level: 13
         name: Sentinel’s Poise
-        uuid: Compendium.pf1spheres.class-features.wOjvzhoEA4bJrmJZ
+        uuid: Compendium.pf1spheres.class-features.Item.wOjvzhoEA4bJrmJZ
       - level: 14
         name: Eternal Challenge
-        uuid: Compendium.pf1spheres.class-features.SzwwNTDln9H7NgSc
+        uuid: Compendium.pf1spheres.class-features.Item.SzwwNTDln9H7NgSc
       - level: 15
         name: Instant Challenge
-        uuid: Compendium.pf1spheres.class-features.DrTJBZV3LaHTgTWA
+        uuid: Compendium.pf1spheres.class-features.Item.DrTJBZV3LaHTgTWA
       - level: 16
         name: Diamond Aegis
-        uuid: Compendium.pf1spheres.class-features.z7EKpqiDlpMTuCm8
+        uuid: Compendium.pf1spheres.class-features.Item.z7EKpqiDlpMTuCm8
       - level: 17
         name: Sentinel’s Surge
-        uuid: Compendium.pf1spheres.class-features.PzmGkv8GbdXOeN06
+        uuid: Compendium.pf1spheres.class-features.Item.PzmGkv8GbdXOeN06
       - level: 19
         name: Invincible Soul
-        uuid: Compendium.pf1spheres.class-features.nyZLzRFFMxRsgl0x
+        uuid: Compendium.pf1spheres.class-features.Item.nyZLzRFFMxRsgl0x
       - level: 20
         name: Final Challenge
-        uuid: Compendium.pf1spheres.class-features.mqthwX0UtQ802s7Z
+        uuid: Compendium.pf1spheres.class-features.Item.mqthwX0UtQ802s7Z
   savingThrows:
     fort:
       value: high
@@ -210,7 +212,5 @@ system:
   tags: []
   wealth: ""
   weaponProf:
-    custom: []
-    value:
-      - simple
+    - simple
 type: class

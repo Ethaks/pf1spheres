@@ -12,17 +12,19 @@ sort: 0
 system:
   alignment: ""
   armorProf:
-    custom:
-      - Buckler
-    value:
-      - lgt
+    - lgt
+    - Buckler
   bab: med
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: false
@@ -62,8 +64,10 @@ system:
     sur: false
     swm: true
     umd: true
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       “If it only works as intended, it’s not working well enough.”
@@ -126,52 +130,50 @@ system:
     dictionary: {}
   hd: 8
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Gadgets
-        uuid: Compendium.pf1spheres.class-features.6bfaxlhZYpfSlAzu
+        uuid: Compendium.pf1spheres.class-features.Item.6bfaxlhZYpfSlAzu
       - level: 1
         name: Trap Specialist
-        uuid: Compendium.pf1spheres.class-features.2ey7P0ipKk8rSO0j
+        uuid: Compendium.pf1spheres.class-features.Item.2ey7P0ipKk8rSO0j
       - level: 1
         name: Trapfinding
-        uuid: Compendium.pf1spheres.class-features.7SsVqRA3clDyn0Cg
+        uuid: Compendium.pf1spheres.class-features.Item.7SsVqRA3clDyn0Cg
       - level: 1
         name: Inventions
-        uuid: Compendium.pf1spheres.class-features.Jma2G2nHFBy2QBsJ
+        uuid: Compendium.pf1spheres.class-features.Item.Jma2G2nHFBy2QBsJ
       - level: 2
         name: Technical Insight
-        uuid: Compendium.pf1spheres.class-features.6R84ZKrjtqCt1yX3
+        uuid: Compendium.pf1spheres.class-features.Item.6R84ZKrjtqCt1yX3
       - level: 2
         name: Technically Minded
-        uuid: Compendium.pf1spheres.class-features.6dmwbywtRxpI3cQs
+        uuid: Compendium.pf1spheres.class-features.Item.6dmwbywtRxpI3cQs
       - level: 3
         name: Danger Sense (Technician)
-        uuid: Compendium.pf1spheres.class-features.fxX5O1ND4cNOVx6g
+        uuid: Compendium.pf1spheres.class-features.Item.fxX5O1ND4cNOVx6g
       - level: 3
         name: Trap Insight
-        uuid: Compendium.pf1spheres.class-features.eUvP1weqLJM6ndJf
+        uuid: Compendium.pf1spheres.class-features.Item.eUvP1weqLJM6ndJf
       - level: 7
         name: Trapmaster
-        uuid: Compendium.pf1spheres.class-features.65Y8sdI72GRUAAmE
+        uuid: Compendium.pf1spheres.class-features.Item.65Y8sdI72GRUAAmE
       - level: 11
         name: Greater Trapmaster
-        uuid: Compendium.pf1spheres.class-features.tbPXRD7it1T6Up4U
+        uuid: Compendium.pf1spheres.class-features.Item.tbPXRD7it1T6Up4U
       - level: 15
         name: Supreme Trapmaster
-        uuid: Compendium.pf1spheres.class-features.tdmQXDrsjcExsDCQ
+        uuid: Compendium.pf1spheres.class-features.Item.tdmQXDrsjcExsDCQ
       - level: 19
         name: Perfect Trapmaster
-        uuid: Compendium.pf1spheres.class-features.udqNc5d4zkQc94oo
+        uuid: Compendium.pf1spheres.class-features.Item.udqNc5d4zkQc94oo
       - level: 20
         name: True Genius
-        uuid: Compendium.pf1spheres.class-features.ZrQSrlOBa1CeVb5x
+        uuid: Compendium.pf1spheres.class-features.Item.ZrQSrlOBa1CeVb5x
   savingThrows:
     fort:
       value: low
@@ -186,7 +188,5 @@ system:
   tags: []
   wealth: ""
   weaponProf:
-    custom: []
-    value:
-      - simple
+    - simple
 type: class

@@ -11,16 +11,18 @@ name: Soul Weaver
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: low
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: false
@@ -60,8 +62,10 @@ system:
     sur: false
     swm: false
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       Soul weavers focus on controlling the powers of life and death. While they
@@ -101,40 +105,38 @@ system:
     dictionary: {}
   hd: 6
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Proficiency (Soul Weaver)
-        uuid: Compendium.pf1spheres.class-features.SSmimc0fFfdBN5i1
+        uuid: Compendium.pf1spheres.class-features.Item.SSmimc0fFfdBN5i1
       - level: 1
         name: Casting (Soul Weaver)
-        uuid: Compendium.pf1spheres.class-features.koX5jJk7rlGVVs8u
+        uuid: Compendium.pf1spheres.class-features.Item.koX5jJk7rlGVVs8u
       - level: 1
         name: Spell Pool (Soul Weaver)
-        uuid: Compendium.pf1spheres.class-features.jCHMsQkbB9scZrM1
+        uuid: Compendium.pf1spheres.class-features.Item.jCHMsQkbB9scZrM1
       - level: 1
         name: Magic Talents (Soul Weaver)
-        uuid: Compendium.pf1spheres.class-features.goeaG2i6ohzRxxLt
+        uuid: Compendium.pf1spheres.class-features.Item.goeaG2i6ohzRxxLt
       - level: 1
         name: Channel Energy (Soul Weaver)
-        uuid: Compendium.pf1spheres.class-features.tyPmigohMnQa7l17
+        uuid: Compendium.pf1spheres.class-features.Item.tyPmigohMnQa7l17
       - level: 1
         name: Master of Life and Death
-        uuid: Compendium.pf1spheres.class-features.pkl8kfXnOQSSIjuc
+        uuid: Compendium.pf1spheres.class-features.Item.pkl8kfXnOQSSIjuc
       - level: 1
         name: Bound Nexus
-        uuid: Compendium.pf1spheres.class-features.5oPDuSCHx9SkPFoO
+        uuid: Compendium.pf1spheres.class-features.Item.5oPDuSCHx9SkPFoO
       - level: 2
         name: Blessing/Blight
-        uuid: Compendium.pf1spheres.class-features.Kau1TycjWVeEEws2
+        uuid: Compendium.pf1spheres.class-features.Item.Kau1TycjWVeEEws2
       - level: 20
         name: Gravewalker
-        uuid: Compendium.pf1spheres.class-features.NU3Fwgc19RALWBHw
+        uuid: Compendium.pf1spheres.class-features.Item.NU3Fwgc19RALWBHw
   savingThrows:
     fort:
       value: low
@@ -148,7 +150,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

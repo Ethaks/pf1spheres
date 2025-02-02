@@ -12,19 +12,21 @@ sort: 0
 system:
   alignment: ""
   armorProf:
-    custom:
-      - Buckler
-    value:
-      - lgt
-      - med
-      - hvy
+    - lgt
+    - med
+    - hvy
+    - Buckler
   bab: high
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: true
@@ -64,8 +66,10 @@ system:
     sur: true
     swm: true
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       “Who needs a weapon when I am one?”
@@ -128,55 +132,53 @@ system:
     dictionary: {}
   hd: 10
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: AC Bonus (Striker)
-        uuid: Compendium.pf1spheres.class-features.A63Y7UxTwHhYPD9a
+        uuid: Compendium.pf1spheres.class-features.Item.A63Y7UxTwHhYPD9a
       - level: 1
         name: Bare Knuckles
-        uuid: Compendium.pf1spheres.class-features.oOpaRruZKvQ249DY
+        uuid: Compendium.pf1spheres.class-features.Item.oOpaRruZKvQ249DY
       - level: 1
         name: Tension Techniques
-        uuid: Compendium.pf1spheres.class-features.9mWnHZRo8DYIiiFK
+        uuid: Compendium.pf1spheres.class-features.Item.9mWnHZRo8DYIiiFK
       - level: 1
         name: Tension Techniques
-        uuid: Compendium.pf1spheres.class-features.9mWnHZRo8DYIiiFK
+        uuid: Compendium.pf1spheres.class-features.Item.9mWnHZRo8DYIiiFK
       - level: 2
         name: Striker Art
-        uuid: Compendium.pf1spheres.class-features.5OlzHWyZ5nhqWfZU
+        uuid: Compendium.pf1spheres.class-features.Item.5OlzHWyZ5nhqWfZU
       - level: 2
         name: Tension Boost
-        uuid: Compendium.pf1spheres.class-features.i4txgjDGdnseGtsP
+        uuid: Compendium.pf1spheres.class-features.Item.i4txgjDGdnseGtsP
       - level: 3
         name: Drill Knuckle
-        uuid: Compendium.pf1spheres.class-features.JnRjFze8tO1YmfYN
+        uuid: Compendium.pf1spheres.class-features.Item.JnRjFze8tO1YmfYN
       - level: 3
         name: Uncanny Dodge (Striker)
-        uuid: Compendium.pf1spheres.class-features.L8dBBkXW6EaIQPAI
+        uuid: Compendium.pf1spheres.class-features.Item.L8dBBkXW6EaIQPAI
       - level: 4
         name: Desperate Tension
-        uuid: Compendium.pf1spheres.class-features.VVqKpRAw7BdFyAsR
+        uuid: Compendium.pf1spheres.class-features.Item.VVqKpRAw7BdFyAsR
       - level: 5
         name: Tension Training
-        uuid: Compendium.pf1spheres.class-features.USJgN3ONoNV7SPCT
+        uuid: Compendium.pf1spheres.class-features.Item.USJgN3ONoNV7SPCT
       - level: 7
         name: Pummeling Punisher
-        uuid: Compendium.pf1spheres.class-features.CNNw5lP4oyXk17gu
+        uuid: Compendium.pf1spheres.class-features.Item.CNNw5lP4oyXk17gu
       - level: 10
         name: Rising Tension
-        uuid: Compendium.pf1spheres.class-features.MF71HUilRISHJyWI
+        uuid: Compendium.pf1spheres.class-features.Item.MF71HUilRISHJyWI
       - level: 12
         name: Improved Uncanny Dodge (Striker)
-        uuid: Compendium.pf1spheres.class-features.7JdM1w5HMUfctiwO
+        uuid: Compendium.pf1spheres.class-features.Item.7JdM1w5HMUfctiwO
       - level: 20
         name: Ultimate Tension
-        uuid: Compendium.pf1spheres.class-features.Nuqe3VfWFMtwOZHK
+        uuid: Compendium.pf1spheres.class-features.Item.Nuqe3VfWFMtwOZHK
   savingThrows:
     fort:
       value: high
@@ -191,7 +193,5 @@ system:
   tags: []
   wealth: ""
   weaponProf:
-    custom: []
-    value:
-      - simple
+    - simple
 type: class

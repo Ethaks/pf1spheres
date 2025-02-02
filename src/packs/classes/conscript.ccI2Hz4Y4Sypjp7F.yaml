@@ -12,17 +12,19 @@ sort: 0
 system:
   alignment: ""
   armorProf:
-    custom:
-      - Buckler
-    value:
-      - lgt
+    - lgt
+    - Buckler
   bab: high
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: false
@@ -62,8 +64,10 @@ system:
     sur: true
     swm: true
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       “You know what they say, a spear in the hand is… Well, it’s a spear.
@@ -128,25 +132,23 @@ system:
     dictionary: {}
   hd: 10
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Bonus Feat (Conscript)
-        uuid: Compendium.pf1spheres.class-features.P8fBZGvHXfA4zbDe
+        uuid: Compendium.pf1spheres.class-features.Item.P8fBZGvHXfA4zbDe
       - level: 1
         name: Bonus Talent
-        uuid: Compendium.pf1spheres.class-features.zrVvHiqgjfBiKGC3
+        uuid: Compendium.pf1spheres.class-features.Item.zrVvHiqgjfBiKGC3
       - level: 1
         name: Combat Specializations
-        uuid: Compendium.pf1spheres.class-features.FGWg7dEr0SkbLgDK
+        uuid: Compendium.pf1spheres.class-features.Item.FGWg7dEr0SkbLgDK
       - level: 1
         name: List of Sphere Specializations (Conscript)
-        uuid: Compendium.pf1spheres.class-features.jUqIq0LR01Wi8vEQ
+        uuid: Compendium.pf1spheres.class-features.Item.jUqIq0LR01Wi8vEQ
   savingThrows:
     fort:
       value: high
@@ -161,7 +163,5 @@ system:
   tags: []
   wealth: ""
   weaponProf:
-    custom: []
-    value:
-      - simple
+    - simple
 type: class

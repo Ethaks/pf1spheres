@@ -12,17 +12,19 @@ sort: 0
 system:
   alignment: ""
   armorProf:
-    custom:
-      - Buckler
-    value:
-      - lgt
+    - lgt
+    - Buckler
   bab: high
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: false
@@ -62,8 +64,10 @@ system:
     sur: true
     swm: true
     umd: true
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       “The only joy greater than winning a prize with your own two hands is
@@ -122,40 +126,38 @@ system:
     dictionary: {}
   hd: 10
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Equipment Specialist
-        uuid: Compendium.pf1spheres.class-features.4kOD4nLafybAAvGZ
+        uuid: Compendium.pf1spheres.class-features.Item.4kOD4nLafybAAvGZ
       - level: 1
         name: Maintenance
-        uuid: Compendium.pf1spheres.class-features.BIzf5Aezm3UsOtad
+        uuid: Compendium.pf1spheres.class-features.Item.BIzf5Aezm3UsOtad
       - level: 1
         name: Thunderous Blows
-        uuid: Compendium.pf1spheres.class-features.kinPbTnxq9YCoYmV
+        uuid: Compendium.pf1spheres.class-features.Item.kinPbTnxq9YCoYmV
       - level: 2
         name: Skilled Craftsman
-        uuid: Compendium.pf1spheres.class-features.ByVSRN126r3H8POi
+        uuid: Compendium.pf1spheres.class-features.Item.ByVSRN126r3H8POi
       - level: 2
         name: Smithing Insight
-        uuid: Compendium.pf1spheres.class-features.AATP7sUpN26hMiNm
+        uuid: Compendium.pf1spheres.class-features.Item.AATP7sUpN26hMiNm
       - level: 3
         name: Artisan Savant
-        uuid: Compendium.pf1spheres.class-features.2LakUd7GERIoDLvx
+        uuid: Compendium.pf1spheres.class-features.Item.2LakUd7GERIoDLvx
       - level: 3
         name: Reforge
-        uuid: Compendium.pf1spheres.class-features.4i0sMvGiflILKdWu
+        uuid: Compendium.pf1spheres.class-features.Item.4i0sMvGiflILKdWu
       - level: 9
         name: Rapid Maintenance
-        uuid: Compendium.pf1spheres.class-features.fhtYHOS6oSwCxBOe
+        uuid: Compendium.pf1spheres.class-features.Item.fhtYHOS6oSwCxBOe
       - level: 20
         name: Smith’s Masterpiece
-        uuid: Compendium.pf1spheres.class-features.7JrTGQsQB4HiTMeh
+        uuid: Compendium.pf1spheres.class-features.Item.7JrTGQsQB4HiTMeh
   savingThrows:
     fort:
       value: high
@@ -170,7 +172,5 @@ system:
   tags: []
   wealth: ""
   weaponProf:
-    custom: []
-    value:
-      - simple
+    - simple
 type: class

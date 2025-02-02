@@ -11,16 +11,18 @@ name: Wraith
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: med
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: false
@@ -60,8 +62,10 @@ system:
     sur: false
     swm: false
     umd: true
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       Emulating powerful and perilous creatures such as ghosts and shadow
@@ -104,43 +108,41 @@ system:
     dictionary: {}
   hd: 8
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Proficiencies
-        uuid: Compendium.pf1spheres.class-features.wu8LKUnWbIOEfOz5
+        uuid: Compendium.pf1spheres.class-features.Item.wu8LKUnWbIOEfOz5
       - level: 1
         name: Casting (Wraith)
-        uuid: Compendium.pf1spheres.class-features.qjxhDJ6DHrQdMmxO
+        uuid: Compendium.pf1spheres.class-features.Item.qjxhDJ6DHrQdMmxO
       - level: 1
         name: Spell Pool (Wraith)
-        uuid: Compendium.pf1spheres.class-features.CCO6fnN9lnTRPeus
+        uuid: Compendium.pf1spheres.class-features.Item.CCO6fnN9lnTRPeus
       - level: 1
         name: Magic Talents (Wraith)
-        uuid: Compendium.pf1spheres.class-features.qobC1BfGt3IZxVGJ
+        uuid: Compendium.pf1spheres.class-features.Item.qobC1BfGt3IZxVGJ
       - level: 1
         name: Haunt Path
-        uuid: Compendium.pf1spheres.class-features.Rre7ofzGROCWag3d
+        uuid: Compendium.pf1spheres.class-features.Item.Rre7ofzGROCWag3d
       - level: 1
         name: Wraith Form
-        uuid: Compendium.pf1spheres.class-features.fVnVPeGGqtBpqW2j
+        uuid: Compendium.pf1spheres.class-features.Item.fVnVPeGGqtBpqW2j
       - level: 1
         name: Wraith Haunts
-        uuid: Compendium.pf1spheres.class-features.Fp75YxemiGRqXZBV
+        uuid: Compendium.pf1spheres.class-features.Item.Fp75YxemiGRqXZBV
       - level: 2
         name: Possession
-        uuid: Compendium.pf1spheres.class-features.jD36VABy9AbiyHrz
+        uuid: Compendium.pf1spheres.class-features.Item.jD36VABy9AbiyHrz
       - level: 10
         name: Greater Possession
-        uuid: Compendium.pf1spheres.class-features.nL5TIp4uVHHqOx5n
+        uuid: Compendium.pf1spheres.class-features.Item.nL5TIp4uVHHqOx5n
       - level: 20
         name: Wraith Form Mastery
-        uuid: Compendium.pf1spheres.class-features.S5SxrTHPALZSASue
+        uuid: Compendium.pf1spheres.class-features.Item.S5SxrTHPALZSASue
   savingThrows:
     fort:
       value: low
@@ -154,7 +156,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

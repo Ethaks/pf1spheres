@@ -11,16 +11,18 @@ name: Mageknight
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: high
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: true
@@ -60,8 +62,10 @@ system:
     sur: true
     swm: true
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       The mageknight is a warrior who mixes magic and blade in the heat of
@@ -102,49 +106,47 @@ system:
     dictionary: {}
   hd: 10
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Proficiency (Mageknight)
-        uuid: Compendium.pf1spheres.class-features.Qj9pCRPAsDUfSI8S
+        uuid: Compendium.pf1spheres.class-features.Item.Qj9pCRPAsDUfSI8S
       - level: 1
         name: Casting (Mageknight)
-        uuid: Compendium.pf1spheres.class-features.LkYbWc2Ndz77BYDl
+        uuid: Compendium.pf1spheres.class-features.Item.LkYbWc2Ndz77BYDl
       - level: 1
         name: Spell Pool (Mageknight)
-        uuid: Compendium.pf1spheres.class-features.P0jaPmKH84zBS54A
+        uuid: Compendium.pf1spheres.class-features.Item.P0jaPmKH84zBS54A
       - level: 1
         name: Magic Talents (Mageknight)
-        uuid: Compendium.pf1spheres.class-features.Zo2mGytkoRZ4zR6x
+        uuid: Compendium.pf1spheres.class-features.Item.Zo2mGytkoRZ4zR6x
       - level: 1
         name: Resist Magic
-        uuid: Compendium.pf1spheres.class-features.k52yj4Mx5Z8Ip4BI
+        uuid: Compendium.pf1spheres.class-features.Item.k52yj4Mx5Z8Ip4BI
       - level: 2
         name: Mystic Combat
-        uuid: Compendium.pf1spheres.class-features.ffgoUI04RocplIZx
+        uuid: Compendium.pf1spheres.class-features.Item.ffgoUI04RocplIZx
       - level: 3
         name: Stalwart (Mageknight)
-        uuid: Compendium.pf1spheres.class-features.fXHIKnUkoE3tYdRI
+        uuid: Compendium.pf1spheres.class-features.Item.fXHIKnUkoE3tYdRI
       - level: 7
         name: Marked
-        uuid: Compendium.pf1spheres.class-features.9ACiDLIIRijxRPbN
+        uuid: Compendium.pf1spheres.class-features.Item.9ACiDLIIRijxRPbN
       - level: 11
         name: Mystic Defense
-        uuid: Compendium.pf1spheres.class-features.WA1aryYI2coAo27M
+        uuid: Compendium.pf1spheres.class-features.Item.WA1aryYI2coAo27M
       - level: 15
         name: Draw Power
-        uuid: Compendium.pf1spheres.class-features.avK47Jl25gTbDMZi
+        uuid: Compendium.pf1spheres.class-features.Item.avK47Jl25gTbDMZi
       - level: 19
         name: Spell Critical
-        uuid: Compendium.pf1spheres.class-features.lPbWHom1Bjpw6gBJ
+        uuid: Compendium.pf1spheres.class-features.Item.lPbWHom1Bjpw6gBJ
       - level: 20
         name: Spellsword
-        uuid: Compendium.pf1spheres.class-features.yql3khNIFabx80xp
+        uuid: Compendium.pf1spheres.class-features.Item.yql3khNIFabx80xp
   savingThrows:
     fort:
       value: high
@@ -158,7 +160,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

@@ -11,16 +11,18 @@ name: Incanter
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: low
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: false
@@ -60,8 +62,10 @@ system:
     sur: false
     swm: false
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       The incanter is among the purest forms of a caster, dedicated above all to
@@ -99,34 +103,32 @@ system:
     dictionary: {}
   hd: 6
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Proficiency (Incanter)
-        uuid: Compendium.pf1spheres.class-features.A9FAOo84kJtEZxyx
+        uuid: Compendium.pf1spheres.class-features.Item.A9FAOo84kJtEZxyx
       - level: 1
         name: Casting (Incanter)
-        uuid: Compendium.pf1spheres.class-features.flMB9hKbsb8bRrI1
+        uuid: Compendium.pf1spheres.class-features.Item.flMB9hKbsb8bRrI1
       - level: 1
         name: Spell Pool (Incanter)
-        uuid: Compendium.pf1spheres.class-features.0JHCoqow5V8nzcw6
+        uuid: Compendium.pf1spheres.class-features.Item.0JHCoqow5V8nzcw6
       - level: 1
         name: Magic Talents (Incanter)
-        uuid: Compendium.pf1spheres.class-features.nURFMMZjd7LyZfA0
+        uuid: Compendium.pf1spheres.class-features.Item.nURFMMZjd7LyZfA0
       - level: 1
         name: Bonus Feat (Incanter)
-        uuid: Compendium.pf1spheres.class-features.yMTwPUIZM4m3xvOT
+        uuid: Compendium.pf1spheres.class-features.Item.yMTwPUIZM4m3xvOT
       - level: 1
         name: Incanter Specializations
-        uuid: Compendium.pf1spheres.class-features.YrixbDQqY3kmdsTa
+        uuid: Compendium.pf1spheres.class-features.Item.YrixbDQqY3kmdsTa
       - level: 1
         name: List of Sphere Specializations (Incanter)
-        uuid: Compendium.pf1spheres.class-features.7W1eLxdXzGzq9jLP
+        uuid: Compendium.pf1spheres.class-features.Item.7W1eLxdXzGzq9jLP
   savingThrows:
     fort:
       value: low
@@ -140,7 +142,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

@@ -12,17 +12,19 @@ sort: 0
 system:
   alignment: ""
   armorProf:
-    custom:
-      - Buckler
-    value:
-      - lgt
+    - lgt
+    - Buckler
   bab: med
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: false
@@ -62,8 +64,10 @@ system:
     sur: true
     swm: true
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       “All men must follow, except for those who lead.”
@@ -125,37 +129,35 @@ system:
     dictionary: {}
   hd: 8
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Commander
-        uuid: Compendium.pf1spheres.class-features.SLbMAPfi0blTTO42
+        uuid: Compendium.pf1spheres.class-features.Item.SLbMAPfi0blTTO42
       - level: 1
         name: Lingering Commands
-        uuid: Compendium.pf1spheres.class-features.7Od7kdDNK1aQuQn7
+        uuid: Compendium.pf1spheres.class-features.Item.7Od7kdDNK1aQuQn7
       - level: 2
         name: Enhanced Tactics
-        uuid: Compendium.pf1spheres.class-features.yMCIjkDNBdoOSZ3j
+        uuid: Compendium.pf1spheres.class-features.Item.yMCIjkDNBdoOSZ3j
       - level: 3
         name: Battlefield Specialist
-        uuid: Compendium.pf1spheres.class-features.Ej17kfQYYzzm0PJ8
+        uuid: Compendium.pf1spheres.class-features.Item.Ej17kfQYYzzm0PJ8
       - level: 5
         name: Group Focus
-        uuid: Compendium.pf1spheres.class-features.h6zF3AyUAVak9uAo
+        uuid: Compendium.pf1spheres.class-features.Item.h6zF3AyUAVak9uAo
       - level: 7
         name: Logistic Specialty
-        uuid: Compendium.pf1spheres.class-features.N4fDlTl0BmBfSlhy
+        uuid: Compendium.pf1spheres.class-features.Item.N4fDlTl0BmBfSlhy
       - level: 10
         name: Advanced Tactician
-        uuid: Compendium.pf1spheres.class-features.KcXlVHOIy2FmOtXk
+        uuid: Compendium.pf1spheres.class-features.Item.KcXlVHOIy2FmOtXk
       - level: 20
         name: Expert Tactician
-        uuid: Compendium.pf1spheres.class-features.kFaf6oY4ULiS7lcT
+        uuid: Compendium.pf1spheres.class-features.Item.kFaf6oY4ULiS7lcT
   savingThrows:
     fort:
       value: high
@@ -170,7 +172,5 @@ system:
   tags: []
   wealth: ""
   weaponProf:
-    custom: []
-    value:
-      - simple
+    - simple
 type: class

@@ -17,11 +17,9 @@ system:
     damage: null
     damageMult: 1
   abilityType: na
-  actionType: null
+  acquired: false
   actions: []
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   associations:
     classes: []
   attackBonus: ""
@@ -30,10 +28,14 @@ system:
   attackParts: []
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills: {}
   contextNotes: []
@@ -44,6 +46,7 @@ system:
     nonCritParts: []
     parts: []
   description:
+    instructions: ""
     unidentified: ""
     value: >
       <p>Your hair grows long and animates. You may activate the following
@@ -78,9 +81,8 @@ system:
     count:
       formula: ""
     label: null
-  languages:
-    custom: []
-    value: []
+  inherited: false
+  languages: []
   links:
     charges: []
     children: []
@@ -89,26 +91,29 @@ system:
     critMultiplier: 1
     damageBonus: 2
     multiplier: ""
+  racePoints: null
   save:
     dc: 0
     description: ""
     type: ""
   scriptCalls: []
   showInQuickbar: false
+  simple: false
   soundEffect: ""
   subType: magicTalent
+  summons: false
   tag: ""
   tags:
     - Fey-Blessing
   target:
     value: ""
+  traitCategory: ""
+  traitType: ""
   uses:
     autoDeductChargesCost: "1"
     maxFormula: ""
     per: null
     rechargeFormula: ""
     value: 0
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: feat

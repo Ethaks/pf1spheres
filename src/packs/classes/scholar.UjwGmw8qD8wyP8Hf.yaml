@@ -12,17 +12,19 @@ sort: 0
 system:
   alignment: ""
   armorProf:
-    custom:
-      - Buckler
-    value:
-      - lgt
+    - lgt
+    - Buckler
   bab: low
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: false
@@ -62,8 +64,10 @@ system:
     sur: true
     swm: false
     umd: true
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       “Knowledge is power.”
@@ -125,40 +129,38 @@ system:
     dictionary: {}
   hd: 6
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Careful Packer
-        uuid: Compendium.pf1spheres.class-features.8q3TZgIi6NBHPBaN
+        uuid: Compendium.pf1spheres.class-features.Item.8q3TZgIi6NBHPBaN
       - level: 1
         name: Medical Training
-        uuid: Compendium.pf1spheres.class-features.E4MMYwqUwT2GRPcT
+        uuid: Compendium.pf1spheres.class-features.Item.E4MMYwqUwT2GRPcT
       - level: 1
         name: Problem Solver
-        uuid: Compendium.pf1spheres.class-features.CgHY1UONeyOSDapj
+        uuid: Compendium.pf1spheres.class-features.Item.CgHY1UONeyOSDapj
       - level: 2
         name: Flashbangs
-        uuid: Compendium.pf1spheres.class-features.nowUHvB1g6tW2MyT
+        uuid: Compendium.pf1spheres.class-features.Item.nowUHvB1g6tW2MyT
       - level: 2
         name: Scholar’s Knack
-        uuid: Compendium.pf1spheres.class-features.pCUvcABj8gvNijLn
+        uuid: Compendium.pf1spheres.class-features.Item.pCUvcABj8gvNijLn
       - level: 3
         name: Material Imposition
-        uuid: Compendium.pf1spheres.class-features.CNXP5d9UIEGnTtAF
+        uuid: Compendium.pf1spheres.class-features.Item.CNXP5d9UIEGnTtAF
       - level: 5
         name: Advanced Medical Training
-        uuid: Compendium.pf1spheres.class-features.EZyjJVM2hMYxgNO7
+        uuid: Compendium.pf1spheres.class-features.Item.EZyjJVM2hMYxgNO7
       - level: 9
         name: Expert Medical Training
-        uuid: Compendium.pf1spheres.class-features.Sk0XM5ikIxxvHVPP
+        uuid: Compendium.pf1spheres.class-features.Item.Sk0XM5ikIxxvHVPP
       - level: 20
         name: Mastered Imposition
-        uuid: Compendium.pf1spheres.class-features.ajTY8FVXX98Po1DR
+        uuid: Compendium.pf1spheres.class-features.Item.ajTY8FVXX98Po1DR
   savingThrows:
     fort:
       value: low
@@ -173,7 +175,5 @@ system:
   tags: []
   wealth: ""
   weaponProf:
-    custom: []
-    value:
-      - simple
+    - simple
 type: class

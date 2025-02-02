@@ -11,16 +11,18 @@ name: Warden
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: med
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: false
@@ -60,8 +62,10 @@ system:
     sur: false
     swm: true
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       “Who needs a good defense when they have me?”
@@ -109,112 +113,110 @@ system:
     dictionary: {}
   hd: 10
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Proficiency (Warden)
-        uuid: Compendium.pf1spheres.class-features.idNxS6zGphVqeCB4
+        uuid: Compendium.pf1spheres.class-features.Item.idNxS6zGphVqeCB4
       - level: 1
         name: Casting (Warden)
-        uuid: Compendium.pf1spheres.class-features.ZGLzjqwRX9sLU0Qa
+        uuid: Compendium.pf1spheres.class-features.Item.ZGLzjqwRX9sLU0Qa
       - level: 1
         name: Blended Training (Warden)
-        uuid: Compendium.pf1spheres.class-features.HL5WlVwnEOOPMGNo
+        uuid: Compendium.pf1spheres.class-features.Item.HL5WlVwnEOOPMGNo
       - level: 1
         name: Spell Pool (Warden)
-        uuid: Compendium.pf1spheres.class-features.lrNzKqQCmvjREpWs
+        uuid: Compendium.pf1spheres.class-features.Item.lrNzKqQCmvjREpWs
       - level: 1
         name: Vigil
-        uuid: Compendium.pf1spheres.class-features.rsrj8LFO1DM0FCAf
+        uuid: Compendium.pf1spheres.class-features.Item.rsrj8LFO1DM0FCAf
       - level: 1
         name: Mystical Guardian
-        uuid: Compendium.pf1spheres.class-features.JD2KxssapMcCyzhz
+        uuid: Compendium.pf1spheres.class-features.Item.JD2KxssapMcCyzhz
       - level: 1
         name: Steadfast
-        uuid: Compendium.pf1spheres.class-features.ggp3h7fP0m6616nG
+        uuid: Compendium.pf1spheres.class-features.Item.ggp3h7fP0m6616nG
       - level: 1
         name: Guard
-        uuid: Compendium.pf1spheres.class-features.IhZqMftBr2B14GqN
+        uuid: Compendium.pf1spheres.class-features.Item.IhZqMftBr2B14GqN
       - level: 1
         name: Self Sufficiency
-        uuid: Compendium.pf1spheres.class-features.IbYUbwhNI2I410Df
+        uuid: Compendium.pf1spheres.class-features.Item.IbYUbwhNI2I410Df
       - level: 1
         name: Acceptance
-        uuid: Compendium.pf1spheres.class-features.J6P4QbrRC3GnUU4R
+        uuid: Compendium.pf1spheres.class-features.Item.J6P4QbrRC3GnUU4R
       - level: 1
         name: Altruism
-        uuid: Compendium.pf1spheres.class-features.t4wlC5Gs3rzlXBC2
+        uuid: Compendium.pf1spheres.class-features.Item.t4wlC5Gs3rzlXBC2
       - level: 1
         name: Confidence
-        uuid: Compendium.pf1spheres.class-features.fRJCVVHDxYQAx8Zt
+        uuid: Compendium.pf1spheres.class-features.Item.fRJCVVHDxYQAx8Zt
       - level: 1
         name: Courage
-        uuid: Compendium.pf1spheres.class-features.SRhKopDPvLs4gwDL
+        uuid: Compendium.pf1spheres.class-features.Item.SRhKopDPvLs4gwDL
       - level: 1
         name: Intuition (Warden)
-        uuid: Compendium.pf1spheres.class-features.eiff8hiRQ1UEmXa5
+        uuid: Compendium.pf1spheres.class-features.Item.eiff8hiRQ1UEmXa5
       - level: 1
         name: Luck (Warden)
-        uuid: Compendium.pf1spheres.class-features.AS298TdQk8FQUI5o
+        uuid: Compendium.pf1spheres.class-features.Item.AS298TdQk8FQUI5o
       - level: 1
         name: Obscurity
-        uuid: Compendium.pf1spheres.class-features.KUcJ37yiJUthXNcS
+        uuid: Compendium.pf1spheres.class-features.Item.KUcJ37yiJUthXNcS
       - level: 1
         name: Purity
-        uuid: Compendium.pf1spheres.class-features.jYTN6bzvw2OKdO5R
+        uuid: Compendium.pf1spheres.class-features.Item.jYTN6bzvw2OKdO5R
       - level: 1
         name: Selflessness
-        uuid: Compendium.pf1spheres.class-features.3QJzZHaFlpTGufGw
+        uuid: Compendium.pf1spheres.class-features.Item.3QJzZHaFlpTGufGw
       - level: 1
         name: Sentimentality
-        uuid: Compendium.pf1spheres.class-features.cuWfSO8HyztzeElW
+        uuid: Compendium.pf1spheres.class-features.Item.cuWfSO8HyztzeElW
       - level: 1
         name: Spirit
-        uuid: Compendium.pf1spheres.class-features.wxMMtKWphNYR2mMZ
+        uuid: Compendium.pf1spheres.class-features.Item.wxMMtKWphNYR2mMZ
       - level: 1
         name: Urgency
-        uuid: Compendium.pf1spheres.class-features.T9L1KIIXBGoTl5mq
+        uuid: Compendium.pf1spheres.class-features.Item.T9L1KIIXBGoTl5mq
       - level: 1
         name: Willpower
-        uuid: Compendium.pf1spheres.class-features.ccZsu8A4ZdgTv9pL
+        uuid: Compendium.pf1spheres.class-features.Item.ccZsu8A4ZdgTv9pL
       - level: 2
         name: Reinforcement
-        uuid: Compendium.pf1spheres.class-features.n2ZtQYCI1Hcb6nm4
+        uuid: Compendium.pf1spheres.class-features.Item.n2ZtQYCI1Hcb6nm4
       - level: 3
         name: Indomitable
-        uuid: Compendium.pf1spheres.class-features.hpYexWjE6WMZnBHW
+        uuid: Compendium.pf1spheres.class-features.Item.hpYexWjE6WMZnBHW
       - level: 3
         name: Routine Patrol
-        uuid: Compendium.pf1spheres.class-features.yaaR40v4JxqRu1KM
+        uuid: Compendium.pf1spheres.class-features.Item.yaaR40v4JxqRu1KM
       - level: 4
         name: Focusing Guard
-        uuid: Compendium.pf1spheres.class-features.fsnwFbgGL6oUfVOa
+        uuid: Compendium.pf1spheres.class-features.Item.fsnwFbgGL6oUfVOa
       - level: 5
         name: Expanded Guard
-        uuid: Compendium.pf1spheres.class-features.kTYHoLkpaRySaYwU
+        uuid: Compendium.pf1spheres.class-features.Item.kTYHoLkpaRySaYwU
       - level: 5
         name: Projected Empathy
-        uuid: Compendium.pf1spheres.class-features.Puran859YBj246cM
+        uuid: Compendium.pf1spheres.class-features.Item.Puran859YBj246cM
       - level: 7
         name: Lingering Guard
-        uuid: Compendium.pf1spheres.class-features.sg66Q9kmpwZzP6HX
+        uuid: Compendium.pf1spheres.class-features.Item.sg66Q9kmpwZzP6HX
       - level: 9
         name: Improved Indomitable
-        uuid: Compendium.pf1spheres.class-features.QnXAfg98bsovcgmj
+        uuid: Compendium.pf1spheres.class-features.Item.QnXAfg98bsovcgmj
       - level: 9
         name: Improved Patrol
-        uuid: Compendium.pf1spheres.class-features.WuvjxEXNB4ujLOWY
+        uuid: Compendium.pf1spheres.class-features.Item.WuvjxEXNB4ujLOWY
       - level: 17
         name: Tireless Protector
-        uuid: Compendium.pf1spheres.class-features.CDHeATRWPVWG7pht
+        uuid: Compendium.pf1spheres.class-features.Item.CDHeATRWPVWG7pht
       - level: 20
         name: Warden of the Many
-        uuid: Compendium.pf1spheres.class-features.oht8LCC3wWd4Qo1B
+        uuid: Compendium.pf1spheres.class-features.Item.oht8LCC3wWd4Qo1B
   savingThrows:
     fort:
       value: high
@@ -228,7 +230,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

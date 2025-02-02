@@ -11,16 +11,18 @@ name: Armorist
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: high
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: true
@@ -60,8 +62,10 @@ system:
     sur: false
     swm: true
     umd: true
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       Armorists are among the most direct masters of the spheres, and indeed,
@@ -100,46 +104,44 @@ system:
     dictionary: {}
   hd: 10
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Proficiency (Armorist)
-        uuid: Compendium.pf1spheres.class-features.NHBBtFJwrc36QXJs
+        uuid: Compendium.pf1spheres.class-features.Item.NHBBtFJwrc36QXJs
       - level: 1
         name: Casting (Armorist)
-        uuid: Compendium.pf1spheres.class-features.S2Eujrvp2TZWJVVh
+        uuid: Compendium.pf1spheres.class-features.Item.S2Eujrvp2TZWJVVh
       - level: 1
         name: Spell Pool (Armorist)
-        uuid: Compendium.pf1spheres.class-features.FhfbOsFZ2C7Wzrix
+        uuid: Compendium.pf1spheres.class-features.Item.FhfbOsFZ2C7Wzrix
       - level: 1
         name: Magic Talents (Armorist)
-        uuid: Compendium.pf1spheres.class-features.Feqec9GCjleIvWSX
+        uuid: Compendium.pf1spheres.class-features.Item.Feqec9GCjleIvWSX
       - level: 1
         name: Summon Equipment
-        uuid: Compendium.pf1spheres.class-features.6geRudrr6dRKZjrY
+        uuid: Compendium.pf1spheres.class-features.Item.6geRudrr6dRKZjrY
       - level: 1
         name: Bound Equipment
-        uuid: Compendium.pf1spheres.class-features.a4TUSEOKc5b9M4K9
+        uuid: Compendium.pf1spheres.class-features.Item.a4TUSEOKc5b9M4K9
       - level: 2
         name: Arsenal Trick
-        uuid: Compendium.pf1spheres.class-features.AK80JTbl35Ys3Lk9
+        uuid: Compendium.pf1spheres.class-features.Item.AK80JTbl35Ys3Lk9
       - level: 3
         name: Armor Training (Armorist)
-        uuid: Compendium.pf1spheres.class-features.TWCBjPqR0geijA9K
+        uuid: Compendium.pf1spheres.class-features.Item.TWCBjPqR0geijA9K
       - level: 10
         name: Boost Equipment
-        uuid: Compendium.pf1spheres.class-features.AAd45qJ55cFUEFtr
+        uuid: Compendium.pf1spheres.class-features.Item.AAd45qJ55cFUEFtr
       - level: 15
         name: Quick Summons
-        uuid: Compendium.pf1spheres.class-features.iZCJAvUQYFuMwERW
+        uuid: Compendium.pf1spheres.class-features.Item.iZCJAvUQYFuMwERW
       - level: 20
         name: Infinite Arsenal
-        uuid: Compendium.pf1spheres.class-features.E83Qw33qj65iq2qR
+        uuid: Compendium.pf1spheres.class-features.Item.E83Qw33qj65iq2qR
   savingThrows:
     fort:
       value: high
@@ -153,7 +155,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

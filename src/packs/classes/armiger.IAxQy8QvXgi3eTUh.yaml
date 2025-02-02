@@ -12,17 +12,19 @@ sort: 0
 system:
   alignment: ""
   armorProf:
-    custom:
-      - Buckler
-    value:
-      - lgt
+    - lgt
+    - Buckler
   bab: high
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: true
@@ -62,8 +64,10 @@ system:
     sur: true
     swm: true
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       “Right tool, right job.”
@@ -120,40 +124,38 @@ system:
     dictionary: {}
   hd: 10
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Customized Weapons
-        uuid: Compendium.pf1spheres.class-features.8dNBGM1f42K8N4BZ
+        uuid: Compendium.pf1spheres.class-features.Item.8dNBGM1f42K8N4BZ
       - level: 1
         name: Quick Change (Armiger)
-        uuid: Compendium.pf1spheres.class-features.nkcqLdLqqItqkYpi
+        uuid: Compendium.pf1spheres.class-features.Item.nkcqLdLqqItqkYpi
       - level: 2
         name: Prowess
-        uuid: Compendium.pf1spheres.class-features.i4Q0l5kRqi7dBtiN
+        uuid: Compendium.pf1spheres.class-features.Item.i4Q0l5kRqi7dBtiN
       - level: 3
         name: Focusing Switch
-        uuid: Compendium.pf1spheres.class-features.eAc0tDnFizX3hS3x
+        uuid: Compendium.pf1spheres.class-features.Item.eAc0tDnFizX3hS3x
       - level: 5
         name: Rapid Assault
-        uuid: Compendium.pf1spheres.class-features.vOzcNmnCHav7vFjz
+        uuid: Compendium.pf1spheres.class-features.Item.vOzcNmnCHav7vFjz
       - level: 5
         name: Enhanced Customization
-        uuid: Compendium.pf1spheres.class-features.LrNMHH5Fg3ffwNcM
+        uuid: Compendium.pf1spheres.class-features.Item.LrNMHH5Fg3ffwNcM
       - level: 7
         name: Lightning Change
-        uuid: Compendium.pf1spheres.class-features.gCM1hZCushWQpH9s
+        uuid: Compendium.pf1spheres.class-features.Item.gCM1hZCushWQpH9s
       - level: 15
         name: Lightning Assault
-        uuid: Compendium.pf1spheres.class-features.6lo8hxts38XFyb4f
+        uuid: Compendium.pf1spheres.class-features.Item.6lo8hxts38XFyb4f
       - level: 20
         name: Unlimited Assault
-        uuid: Compendium.pf1spheres.class-features.iLH8qZVF2GCwXg6u
+        uuid: Compendium.pf1spheres.class-features.Item.iLH8qZVF2GCwXg6u
   savingThrows:
     fort:
       value: high
@@ -168,7 +170,5 @@ system:
   tags: []
   wealth: ""
   weaponProf:
-    custom: []
-    value:
-      - simple
+    - simple
 type: class

@@ -11,16 +11,18 @@ name: Thaumaturge
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: med
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: false
@@ -60,8 +62,10 @@ system:
     sur: false
     swm: false
     umd: true
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       The Thaumaturge is willing to go places most other casters wouldn’t dare
@@ -102,40 +106,38 @@ system:
     dictionary: {}
   hd: 8
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Training (Thaumaturge)
-        uuid: Compendium.pf1spheres.class-features.mKmn5qdbuFExGxv4
+        uuid: Compendium.pf1spheres.class-features.Item.mKmn5qdbuFExGxv4
       - level: 1
         name: Casting (Thaumaturge)
-        uuid: Compendium.pf1spheres.class-features.viJLXGySxbOrgi8h
+        uuid: Compendium.pf1spheres.class-features.Item.viJLXGySxbOrgi8h
       - level: 1
         name: Spell Pool (Thaumaturge)
-        uuid: Compendium.pf1spheres.class-features.7iezLrhXMBERBYnw
+        uuid: Compendium.pf1spheres.class-features.Item.7iezLrhXMBERBYnw
       - level: 1
         name: Magic Talents (Thaumaturge)
-        uuid: Compendium.pf1spheres.class-features.c2jSQpbM0MxojVIC
+        uuid: Compendium.pf1spheres.class-features.Item.c2jSQpbM0MxojVIC
       - level: 1
         name: Forbidden Lore
-        uuid: Compendium.pf1spheres.class-features.C5cRhwIqOVccBatA
+        uuid: Compendium.pf1spheres.class-features.Item.C5cRhwIqOVccBatA
       - level: 1
         name: Invocations
-        uuid: Compendium.pf1spheres.class-features.YmJjd0YrF19uAaTs
+        uuid: Compendium.pf1spheres.class-features.Item.YmJjd0YrF19uAaTs
       - level: 1
         name: Bonus Feats
-        uuid: Compendium.pf1spheres.class-features.J7K4esM0WFz6Vctd
+        uuid: Compendium.pf1spheres.class-features.Item.J7K4esM0WFz6Vctd
       - level: 2
         name: Occult Knowledge
-        uuid: Compendium.pf1spheres.class-features.LpICRNZMOE5em00A
+        uuid: Compendium.pf1spheres.class-features.Item.LpICRNZMOE5em00A
       - level: 20
         name: Master Invoker
-        uuid: Compendium.pf1spheres.class-features.gbXloxNV1Ytlf1Lt
+        uuid: Compendium.pf1spheres.class-features.Item.gbXloxNV1Ytlf1Lt
   savingThrows:
     fort:
       value: low
@@ -149,7 +151,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

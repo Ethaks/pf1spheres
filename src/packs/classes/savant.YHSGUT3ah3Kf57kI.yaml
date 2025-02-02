@@ -11,16 +11,18 @@ name: Savant
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: high
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: true
@@ -60,8 +62,10 @@ system:
     sur: false
     swm: true
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       <strong>Wiki Note:</strong> The Savant is technically an archetype of the
@@ -106,34 +110,32 @@ system:
     dictionary: {}
   hd: 10
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Training (Savant)
-        uuid: Compendium.pf1spheres.class-features.O0dO2Kl3At8mHVZf
+        uuid: Compendium.pf1spheres.class-features.Item.O0dO2Kl3At8mHVZf
       - level: 1
         name: Flexible Combat Training
-        uuid: Compendium.pf1spheres.class-features.xWLXx46RjpMymAyl
+        uuid: Compendium.pf1spheres.class-features.Item.xWLXx46RjpMymAyl
       - level: 1
         name: Strain
-        uuid: Compendium.pf1spheres.class-features.m2lCuQ1PeMhyRxaC
+        uuid: Compendium.pf1spheres.class-features.Item.m2lCuQ1PeMhyRxaC
       - level: 1
         name: Insights
-        uuid: Compendium.pf1spheres.class-features.jR840pGKGd0iyDB8
+        uuid: Compendium.pf1spheres.class-features.Item.jR840pGKGd0iyDB8
       - level: 1
         name: Combat Trained
-        uuid: Compendium.pf1spheres.class-features.rCoxav45ZAPSnOgK
+        uuid: Compendium.pf1spheres.class-features.Item.rCoxav45ZAPSnOgK
       - level: 2
         name: Kinesthetic Intuition
-        uuid: Compendium.pf1spheres.class-features.ROBTObibYMOojbpF
+        uuid: Compendium.pf1spheres.class-features.Item.ROBTObibYMOojbpF
       - level: 20
         name: Masterful Insights
-        uuid: Compendium.pf1spheres.class-features.GPD8JoHUMvlTQnqX
+        uuid: Compendium.pf1spheres.class-features.Item.GPD8JoHUMvlTQnqX
   savingThrows:
     fort:
       value: high
@@ -147,7 +149,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

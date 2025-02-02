@@ -11,16 +11,18 @@ name: Symbiat
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: med
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: true
@@ -60,8 +62,10 @@ system:
     sur: false
     swm: false
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       Symbiats are fused creatures, where psionic aberrations are pulled in
@@ -101,61 +105,59 @@ system:
     dictionary: {}
   hd: 8
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Proficiency (Symbiat)
-        uuid: Compendium.pf1spheres.class-features.x3i0WoDhC6aStFPq
+        uuid: Compendium.pf1spheres.class-features.Item.x3i0WoDhC6aStFPq
       - level: 1
         name: Casting (Symbiat)
-        uuid: Compendium.pf1spheres.class-features.eBbhqSzn6rTg17Gr
+        uuid: Compendium.pf1spheres.class-features.Item.eBbhqSzn6rTg17Gr
       - level: 1
         name: Spell Pool (Symbiat)
-        uuid: Compendium.pf1spheres.class-features.C2ylh3LIm0ouD5DS
+        uuid: Compendium.pf1spheres.class-features.Item.C2ylh3LIm0ouD5DS
       - level: 1
         name: Magic Talents (Symbiat)
-        uuid: Compendium.pf1spheres.class-features.RhHx5k0pMHWsqjgY
+        uuid: Compendium.pf1spheres.class-features.Item.RhHx5k0pMHWsqjgY
       - level: 1
         name: Mental Powers
-        uuid: Compendium.pf1spheres.class-features.JOdZXREQWhyZR1z5
+        uuid: Compendium.pf1spheres.class-features.Item.JOdZXREQWhyZR1z5
       - level: 1
         name: Battlefield Sense
-        uuid: Compendium.pf1spheres.class-features.DkBO46JI8wqqCmc3
+        uuid: Compendium.pf1spheres.class-features.Item.DkBO46JI8wqqCmc3
       - level: 1
         name: Psionics
-        uuid: Compendium.pf1spheres.class-features.bL6Xr4Ec1SMSuiKP
+        uuid: Compendium.pf1spheres.class-features.Item.bL6Xr4Ec1SMSuiKP
       - level: 2
         name: ESP
-        uuid: Compendium.pf1spheres.class-features.sHIWznUkYjeIchiJ
+        uuid: Compendium.pf1spheres.class-features.Item.sHIWznUkYjeIchiJ
       - level: 2
         name: Evasion (Symbiat)
-        uuid: Compendium.pf1spheres.class-features.a5GKtFUAi1jbNw3U
+        uuid: Compendium.pf1spheres.class-features.Item.a5GKtFUAi1jbNw3U
       - level: 3
         name: Pushed Movement
-        uuid: Compendium.pf1spheres.class-features.J6MHaUIzoDZTucg2
+        uuid: Compendium.pf1spheres.class-features.Item.J6MHaUIzoDZTucg2
       - level: 3
         name: Danger Sense (Symbiat)
-        uuid: Compendium.pf1spheres.class-features.l9AUYNOypwdnosuL
+        uuid: Compendium.pf1spheres.class-features.Item.l9AUYNOypwdnosuL
       - level: 4
         name: Uncanny Dodge (Symbiat)
-        uuid: Compendium.pf1spheres.class-features.0nGXiJobdAIPYjEs
+        uuid: Compendium.pf1spheres.class-features.Item.0nGXiJobdAIPYjEs
       - level: 5
         name: Two Minds
-        uuid: Compendium.pf1spheres.class-features.2lCdH0T0myJbImqY
+        uuid: Compendium.pf1spheres.class-features.Item.2lCdH0T0myJbImqY
       - level: 8
         name: Improved Uncanny Dodge (Symbiat)
-        uuid: Compendium.pf1spheres.class-features.GQ3ivE8ly9yAoHdF
+        uuid: Compendium.pf1spheres.class-features.Item.GQ3ivE8ly9yAoHdF
       - level: 9
         name: Improved Evasion (Symbiat)
-        uuid: Compendium.pf1spheres.class-features.gJLkaL0BNTnJC6xy
+        uuid: Compendium.pf1spheres.class-features.Item.gJLkaL0BNTnJC6xy
       - level: 20
         name: Greater Psionics
-        uuid: Compendium.pf1spheres.class-features.fWr4OUFh3RfjrwEs
+        uuid: Compendium.pf1spheres.class-features.Item.fWr4OUFh3RfjrwEs
   savingThrows:
     fort:
       value: low
@@ -169,7 +171,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

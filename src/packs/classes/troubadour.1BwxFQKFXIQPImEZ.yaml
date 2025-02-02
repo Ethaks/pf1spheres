@@ -11,16 +11,18 @@ name: Troubadour
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: med
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: true
@@ -60,8 +62,10 @@ system:
     sur: false
     swm: true
     umd: true
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       “The best way to understand someone is to walk a mile wearing their face.”
@@ -120,55 +124,53 @@ system:
     dictionary: {}
   hd: 0
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Proficiencies (Troubadour)
-        uuid: Compendium.pf1spheres.class-features.CfTApUfV1FkOMDke
+        uuid: Compendium.pf1spheres.class-features.Item.CfTApUfV1FkOMDke
       - level: 1
         name: Casting (Troubadour)
-        uuid: Compendium.pf1spheres.class-features.vNjqZAZpZQYxB19r
+        uuid: Compendium.pf1spheres.class-features.Item.vNjqZAZpZQYxB19r
       - level: 1
         name: Spell Pool (Troubadour)
-        uuid: Compendium.pf1spheres.class-features.7pn9XptC5xhWyHrK
+        uuid: Compendium.pf1spheres.class-features.Item.7pn9XptC5xhWyHrK
       - level: 1
         name: Performer’s Synergy
-        uuid: Compendium.pf1spheres.class-features.PN0mZGWFqiHws4sJ
+        uuid: Compendium.pf1spheres.class-features.Item.PN0mZGWFqiHws4sJ
       - level: 1
         name: Personas
-        uuid: Compendium.pf1spheres.class-features.9BzakMK5gA2imxcK
+        uuid: Compendium.pf1spheres.class-features.Item.9BzakMK5gA2imxcK
       - level: 1
         name: Method Acting
-        uuid: Compendium.pf1spheres.class-features.F7zPpExeezCqKmJJ
+        uuid: Compendium.pf1spheres.class-features.Item.F7zPpExeezCqKmJJ
       - level: 1
         name: Master of Disguise
-        uuid: Compendium.pf1spheres.class-features.GYLGEElYVQu86vcR
+        uuid: Compendium.pf1spheres.class-features.Item.GYLGEElYVQu86vcR
       - level: 1
         name: Magic Talents (Troubadour)
-        uuid: Compendium.pf1spheres.class-features.BKGTxnZY8qHGXLkR
+        uuid: Compendium.pf1spheres.class-features.Item.BKGTxnZY8qHGXLkR
       - level: 2
         name: Actor Training
-        uuid: Compendium.pf1spheres.class-features.QI6NeyFBPGsXJAHl
+        uuid: Compendium.pf1spheres.class-features.Item.QI6NeyFBPGsXJAHl
       - level: 2
         name: Quick Change (Troubadour)
-        uuid: Compendium.pf1spheres.class-features.3oY6dZjMhtZLMtEq
+        uuid: Compendium.pf1spheres.class-features.Item.3oY6dZjMhtZLMtEq
       - level: 3
         name: Flexible Truth
-        uuid: Compendium.pf1spheres.class-features.0HZK5hf1sbERwioG
+        uuid: Compendium.pf1spheres.class-features.Item.0HZK5hf1sbERwioG
       - level: 7
         name: Greater Actor
-        uuid: Compendium.pf1spheres.class-features.0a51CDRYhXWG0X5r
+        uuid: Compendium.pf1spheres.class-features.Item.0a51CDRYhXWG0X5r
       - level: 15
         name: Master Actor
-        uuid: Compendium.pf1spheres.class-features.uD9PXk91gLAWtrZq
+        uuid: Compendium.pf1spheres.class-features.Item.uD9PXk91gLAWtrZq
       - level: 20
         name: Master of Roles
-        uuid: Compendium.pf1spheres.class-features.kNpUtBxU8TyErr6m
+        uuid: Compendium.pf1spheres.class-features.Item.kNpUtBxU8TyErr6m
   savingThrows:
     fort:
       value: low
@@ -182,7 +184,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

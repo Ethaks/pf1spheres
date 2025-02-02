@@ -11,16 +11,18 @@ name: Elementalist
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: med
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: true
@@ -60,8 +62,10 @@ system:
     sur: true
     swm: true
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       Elementalists specialize in the command and control of elemental magic,
@@ -101,52 +105,50 @@ system:
     dictionary: {}
   hd: 8
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Proficiency (Elementalist)
-        uuid: Compendium.pf1spheres.class-features.zZJUqqFi3f0PAciw
+        uuid: Compendium.pf1spheres.class-features.Item.zZJUqqFi3f0PAciw
       - level: 1
         name: Casting (Elementalist)
-        uuid: Compendium.pf1spheres.class-features.tFBWYHszlFt4TIAy
+        uuid: Compendium.pf1spheres.class-features.Item.tFBWYHszlFt4TIAy
       - level: 1
         name: Spell Pool (Elementalist)
-        uuid: Compendium.pf1spheres.class-features.6VTAL88ucqnoauZP
+        uuid: Compendium.pf1spheres.class-features.Item.6VTAL88ucqnoauZP
       - level: 1
         name: Magic Talents (Elementalist)
-        uuid: Compendium.pf1spheres.class-features.0VGlPGnhAvKHLPKn
+        uuid: Compendium.pf1spheres.class-features.Item.0VGlPGnhAvKHLPKn
       - level: 1
         name: Weave Energy
-        uuid: Compendium.pf1spheres.class-features.TYLqVJ4KWVwr5hAM
+        uuid: Compendium.pf1spheres.class-features.Item.TYLqVJ4KWVwr5hAM
       - level: 2
         name: Evasion (Elementalist)
-        uuid: Compendium.pf1spheres.class-features.BOJhJIoAsQV4UgFE
+        uuid: Compendium.pf1spheres.class-features.Item.BOJhJIoAsQV4UgFE
       - level: 2
         name: Combat Feat (Elementalist)
-        uuid: Compendium.pf1spheres.class-features.PBb9uwDacpHjrBxv
+        uuid: Compendium.pf1spheres.class-features.Item.PBb9uwDacpHjrBxv
       - level: 3
         name: Favored Element
-        uuid: Compendium.pf1spheres.class-features.7intbfLghSFBMGhA
+        uuid: Compendium.pf1spheres.class-features.Item.7intbfLghSFBMGhA
       - level: 4
         name: Dodge Bonus
-        uuid: Compendium.pf1spheres.class-features.eK7r15fDYQmdzdLt
+        uuid: Compendium.pf1spheres.class-features.Item.eK7r15fDYQmdzdLt
       - level: 5
         name: Elemental Defense (Elementalist)
-        uuid: Compendium.pf1spheres.class-features.IcqfhA8KncAFAtqP
+        uuid: Compendium.pf1spheres.class-features.Item.IcqfhA8KncAFAtqP
       - level: 7
         name: Elemental Movement
-        uuid: Compendium.pf1spheres.class-features.U3Md7Py0aCPG5OMH
+        uuid: Compendium.pf1spheres.class-features.Item.U3Md7Py0aCPG5OMH
       - level: 11
         name: Improved Evasion (Elementalist)
-        uuid: Compendium.pf1spheres.class-features.RCZkvQw6J6n0oZb8
+        uuid: Compendium.pf1spheres.class-features.Item.RCZkvQw6J6n0oZb8
       - level: 20
         name: Energy Body
-        uuid: Compendium.pf1spheres.class-features.Ce8vjrtr2dBvRO1R
+        uuid: Compendium.pf1spheres.class-features.Item.Ce8vjrtr2dBvRO1R
   savingThrows:
     fort:
       value: high
@@ -160,7 +162,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

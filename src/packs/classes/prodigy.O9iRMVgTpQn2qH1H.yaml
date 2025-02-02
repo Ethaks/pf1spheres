@@ -11,16 +11,18 @@ name: Prodigy
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: med
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: true
@@ -60,8 +62,10 @@ system:
     sur: false
     swm: false
     umd: true
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       “I can do that.”
@@ -104,79 +108,77 @@ system:
     dictionary: {}
   hd: 8
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Proficiencies (Prodigy)
-        uuid: Compendium.pf1spheres.class-features.in7ZowePvey2zpMk
+        uuid: Compendium.pf1spheres.class-features.Item.in7ZowePvey2zpMk
       - level: 1
         name: Casting (Prodigy)
-        uuid: Compendium.pf1spheres.class-features.FZkmw7hEECEh4KOx
+        uuid: Compendium.pf1spheres.class-features.Item.FZkmw7hEECEh4KOx
       - level: 1
         name: Spell Pool (Prodigy)
-        uuid: Compendium.pf1spheres.class-features.qsFtbOc0wpg2YvDp
+        uuid: Compendium.pf1spheres.class-features.Item.qsFtbOc0wpg2YvDp
       - level: 1
         name: Blended Training (Prodigy)
-        uuid: Compendium.pf1spheres.class-features.9eZIQLjyGgGW6tF0
+        uuid: Compendium.pf1spheres.class-features.Item.9eZIQLjyGgGW6tF0
       - level: 1
         name: Sequence
-        uuid: Compendium.pf1spheres.class-features.iGvTsm4MQ5GDPD3p
+        uuid: Compendium.pf1spheres.class-features.Item.iGvTsm4MQ5GDPD3p
       - level: 1
         name: Integrated Techniques
-        uuid: Compendium.pf1spheres.class-features.eAsBbuEwHaRRn7QO
+        uuid: Compendium.pf1spheres.class-features.Item.eAsBbuEwHaRRn7QO
       - level: 1
         name: Inspired Sequence
-        uuid: Compendium.pf1spheres.class-features.z1F5olJGDpfgavDC
+        uuid: Compendium.pf1spheres.class-features.Item.z1F5olJGDpfgavDC
       - level: 2
         name: Adaptation (Prodigy)
-        uuid: Compendium.pf1spheres.class-features.OIlaLry8OBdiYZox
+        uuid: Compendium.pf1spheres.class-features.Item.OIlaLry8OBdiYZox
       - level: 2
         name: Imbue Sequence
-        uuid: Compendium.pf1spheres.class-features.30w5iBgJ2qGKHtgy
+        uuid: Compendium.pf1spheres.class-features.Item.30w5iBgJ2qGKHtgy
       - level: 3
         name: Steady Skill
-        uuid: Compendium.pf1spheres.class-features.Ou4Xal4fN2DeH0Oi
+        uuid: Compendium.pf1spheres.class-features.Item.Ou4Xal4fN2DeH0Oi
       - level: 4
         name: Unbroken Sequence
-        uuid: Compendium.pf1spheres.class-features.fuHRYS4nY44yHmoU
+        uuid: Compendium.pf1spheres.class-features.Item.fuHRYS4nY44yHmoU
       - level: 5
         name: Improved Adaptation
-        uuid: Compendium.pf1spheres.class-features.NLFLOOoGXBjZSDHB
+        uuid: Compendium.pf1spheres.class-features.Item.NLFLOOoGXBjZSDHB
       - level: 7
         name: Reflect Spell
-        uuid: Compendium.pf1spheres.class-features.ep20uAh0u3rGjNBR
+        uuid: Compendium.pf1spheres.class-features.Item.ep20uAh0u3rGjNBR
       - level: 8
         name: Greater Adaptation
-        uuid: Compendium.pf1spheres.class-features.fOwj5Q5XEcVXrSpI
+        uuid: Compendium.pf1spheres.class-features.Item.fOwj5Q5XEcVXrSpI
       - level: 10
         name: Share Adaptation
-        uuid: Compendium.pf1spheres.class-features.8n6oLXHIUJn1ZnJA
+        uuid: Compendium.pf1spheres.class-features.Item.8n6oLXHIUJn1ZnJA
       - level: 11
         name: Variable Skill
-        uuid: Compendium.pf1spheres.class-features.ofAWxpBzYayX8A8n
+        uuid: Compendium.pf1spheres.class-features.Item.ofAWxpBzYayX8A8n
       - level: 13
         name: Master Adaptation
-        uuid: Compendium.pf1spheres.class-features.ozmrdUGSZLKakwNV
+        uuid: Compendium.pf1spheres.class-features.Item.ozmrdUGSZLKakwNV
       - level: 14
         name: Flawless Sequence
-        uuid: Compendium.pf1spheres.class-features.yFiGJrkpr9mkSJfw
+        uuid: Compendium.pf1spheres.class-features.Item.yFiGJrkpr9mkSJfw
       - level: 16
         name: Greater Reflect Spell
-        uuid: Compendium.pf1spheres.class-features.FIH4XMWKdrq2eeKx
+        uuid: Compendium.pf1spheres.class-features.Item.FIH4XMWKdrq2eeKx
       - level: 17
         name: Grandmaster Adaptation
-        uuid: Compendium.pf1spheres.class-features.TwpHpdJhkzIyVo9i
+        uuid: Compendium.pf1spheres.class-features.Item.TwpHpdJhkzIyVo9i
       - level: 19
         name: Skill Juggler
-        uuid: Compendium.pf1spheres.class-features.PVhNYKN6x13VCP76
+        uuid: Compendium.pf1spheres.class-features.Item.PVhNYKN6x13VCP76
       - level: 20
         name: Perfected Prodigy
-        uuid: Compendium.pf1spheres.class-features.e9X1LzMrBsfWBdNB
+        uuid: Compendium.pf1spheres.class-features.Item.e9X1LzMrBsfWBdNB
   savingThrows:
     fort:
       value: low
@@ -190,7 +192,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

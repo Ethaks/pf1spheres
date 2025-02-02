@@ -11,16 +11,18 @@ name: Shifter
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: med
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: true
@@ -60,8 +62,10 @@ system:
     sur: true
     swm: true
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       <strong>Note:</strong> This class should not be confused with the Shifter
@@ -109,73 +113,71 @@ system:
     dictionary: {}
   hd: 8
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Proficiency (Shifter)
-        uuid: Compendium.pf1spheres.class-features.4UDy4dVD1fl02o9f
+        uuid: Compendium.pf1spheres.class-features.Item.4UDy4dVD1fl02o9f
       - level: 1
         name: Casting (Shifter)
-        uuid: Compendium.pf1spheres.class-features.5Gr6IEPm8rr3iWEM
+        uuid: Compendium.pf1spheres.class-features.Item.5Gr6IEPm8rr3iWEM
       - level: 1
         name: Spell Pool (Shifter)
-        uuid: Compendium.pf1spheres.class-features.ztU9qxAhNU1ra3pi
+        uuid: Compendium.pf1spheres.class-features.Item.ztU9qxAhNU1ra3pi
       - level: 1
         name: Magic Talents (Shifter)
-        uuid: Compendium.pf1spheres.class-features.7F5ZzN7bnQ4iSF7I
+        uuid: Compendium.pf1spheres.class-features.Item.7F5ZzN7bnQ4iSF7I
       - level: 1
         name: Shapeshifter
-        uuid: Compendium.pf1spheres.class-features.d8gorrZGpvvt0m7K
+        uuid: Compendium.pf1spheres.class-features.Item.d8gorrZGpvvt0m7K
       - level: 1
         name: Wild Empathy
-        uuid: Compendium.pf1spheres.class-features.zI6rvWbTyeVx4Ef5
+        uuid: Compendium.pf1spheres.class-features.Item.zI6rvWbTyeVx4Ef5
       - level: 1
         name: Quick Transformation
-        uuid: Compendium.pf1spheres.class-features.Oq8ANUjnPL9CwSBE
+        uuid: Compendium.pf1spheres.class-features.Item.Oq8ANUjnPL9CwSBE
       - level: 2
         name: Bestial Trait
-        uuid: Compendium.pf1spheres.class-features.KhMzzSlTnuqIIfQ0
+        uuid: Compendium.pf1spheres.class-features.Item.KhMzzSlTnuqIIfQ0
       - level: 3
         name: Endurance
-        uuid: Compendium.pf1spheres.class-features.mCcO1ziyFryKaZEU
+        uuid: Compendium.pf1spheres.class-features.Item.mCcO1ziyFryKaZEU
       - level: 4
         name: Lingering Transformation
-        uuid: Compendium.pf1spheres.class-features.WJ2SSo6uCyC6wu7c
+        uuid: Compendium.pf1spheres.class-features.Item.WJ2SSo6uCyC6wu7c
       - level: 4
         name: Enhanced Attacks
-        uuid: Compendium.pf1spheres.class-features.hTBE8aOcLq0jVjY9
+        uuid: Compendium.pf1spheres.class-features.Item.hTBE8aOcLq0jVjY9
       - level: 5
         name: Steal Language
-        uuid: Compendium.pf1spheres.class-features.8ktspwJ7vavECBiq
+        uuid: Compendium.pf1spheres.class-features.Item.8ktspwJ7vavECBiq
       - level: 7
         name: Enhanced Physicality (Shifter)
-        uuid: Compendium.pf1spheres.class-features.DG9Q8bdb4EfiBAPu
+        uuid: Compendium.pf1spheres.class-features.Item.DG9Q8bdb4EfiBAPu
       - level: 8
         name: Immunity to Poison
-        uuid: Compendium.pf1spheres.class-features.H9eAUA9wp4KZqnqX
+        uuid: Compendium.pf1spheres.class-features.Item.H9eAUA9wp4KZqnqX
       - level: 9
         name: Extended Transformation
-        uuid: Compendium.pf1spheres.class-features.K0WEZKEiTA9Q2VYm
+        uuid: Compendium.pf1spheres.class-features.Item.K0WEZKEiTA9Q2VYm
       - level: 11
         name: Boundless Communication
-        uuid: Compendium.pf1spheres.class-features.7JenRuBQeUyBSqpY
+        uuid: Compendium.pf1spheres.class-features.Item.7JenRuBQeUyBSqpY
       - level: 12
         name: Immunity to Disease
-        uuid: Compendium.pf1spheres.class-features.0gE1XPsRjp8wqGSk
+        uuid: Compendium.pf1spheres.class-features.Item.0gE1XPsRjp8wqGSk
       - level: 15
         name: Endless Communication
-        uuid: Compendium.pf1spheres.class-features.YzvkbGyMohO7aZPi
+        uuid: Compendium.pf1spheres.class-features.Item.YzvkbGyMohO7aZPi
       - level: 17
         name: Greater Transformation
-        uuid: Compendium.pf1spheres.class-features.fU9dAEIsXtj4TAcf
+        uuid: Compendium.pf1spheres.class-features.Item.fU9dAEIsXtj4TAcf
       - level: 20
         name: Second Skin
-        uuid: Compendium.pf1spheres.class-features.bxjSpwU6vqMdu3Hx
+        uuid: Compendium.pf1spheres.class-features.Item.bxjSpwU6vqMdu3Hx
   savingThrows:
     fort:
       value: high
@@ -189,7 +191,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

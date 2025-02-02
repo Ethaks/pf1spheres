@@ -15,11 +15,9 @@ system:
     damage: null
     damageMult: 1
   abilityType: na
-  actionType: null
+  acquired: false
   actions: []
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   associations:
     classes: []
   attackBonus: ""
@@ -28,10 +26,14 @@ system:
   attackParts: []
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills: {}
   contextNotes: []
@@ -42,6 +44,7 @@ system:
     nonCritParts: []
     parts: []
   description:
+    instructions: ""
     unidentified: ""
     value: >
       <p>The scholar learns how to combine a small sample of a chosen element
@@ -99,32 +102,34 @@ system:
     count:
       formula: ""
     label: null
-  languages:
-    custom: []
-    value: []
+  inherited: false
+  languages: []
   links:
     charges: []
     children: []
   nonlethal: false
+  racePoints: null
   save:
     dc: 0
     description: ""
     type: ""
   scriptCalls: []
   showInQuickbar: false
+  simple: false
   soundEffect: ""
   subType: classFeat
+  summons: false
   tag: ""
   tags: []
   target:
     value: ""
+  traitCategory: ""
+  traitType: ""
   uses:
     autoDeductChargesCost: "1"
     maxFormula: ""
     per: null
     rechargeFormula: ""
     value: 0
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: feat

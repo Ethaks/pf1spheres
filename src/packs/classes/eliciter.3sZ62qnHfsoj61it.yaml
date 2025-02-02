@@ -11,16 +11,18 @@ name: Eliciter
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: med
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: true
@@ -60,8 +62,10 @@ system:
     sur: false
     swm: false
     umd: true
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       Eliciters are masters of emotion, using their control of others’ minds to
@@ -99,49 +103,47 @@ system:
     dictionary: {}
   hd: 8
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Proficiency (Eliciter)
-        uuid: Compendium.pf1spheres.class-features.E1LT6NGlJxed2ZlF
+        uuid: Compendium.pf1spheres.class-features.Item.E1LT6NGlJxed2ZlF
       - level: 1
         name: Casting (Eliciter)
-        uuid: Compendium.pf1spheres.class-features.UVpjCVGksXAYx5Ya
+        uuid: Compendium.pf1spheres.class-features.Item.UVpjCVGksXAYx5Ya
       - level: 1
         name: Spell Pool (Eliciter)
-        uuid: Compendium.pf1spheres.class-features.XuO8s4vYTjeA9o7c
+        uuid: Compendium.pf1spheres.class-features.Item.XuO8s4vYTjeA9o7c
       - level: 1
         name: Magic Talents (Eliciter)
-        uuid: Compendium.pf1spheres.class-features.DNIZECin0qsNWCJU
+        uuid: Compendium.pf1spheres.class-features.Item.DNIZECin0qsNWCJU
       - level: 1
         name: Enchanter
-        uuid: Compendium.pf1spheres.class-features.7ijdJ7jyEczlVGkA
+        uuid: Compendium.pf1spheres.class-features.Item.7ijdJ7jyEczlVGkA
       - level: 1
         name: Persuasive
-        uuid: Compendium.pf1spheres.class-features.OCN8LO2KYScQxpdC
+        uuid: Compendium.pf1spheres.class-features.Item.OCN8LO2KYScQxpdC
       - level: 1
         name: Hypnotism
-        uuid: Compendium.pf1spheres.class-features.ULO2a6VMiK1OLhh3
+        uuid: Compendium.pf1spheres.class-features.Item.ULO2a6VMiK1OLhh3
       - level: 1
         name: Emotions
-        uuid: Compendium.pf1spheres.class-features.YIQiUWYfVX2JVQMs
+        uuid: Compendium.pf1spheres.class-features.Item.YIQiUWYfVX2JVQMs
       - level: 3
         name: Defensive Empathy
-        uuid: Compendium.pf1spheres.class-features.bYErbcT57BRdwApn
+        uuid: Compendium.pf1spheres.class-features.Item.bYErbcT57BRdwApn
       - level: 9
         name: Convincing
-        uuid: Compendium.pf1spheres.class-features.gxrYlTliHO53CmDa
+        uuid: Compendium.pf1spheres.class-features.Item.gxrYlTliHO53CmDa
       - level: 15
         name: Link
-        uuid: Compendium.pf1spheres.class-features.bzQGbVM27K0Q3UQg
+        uuid: Compendium.pf1spheres.class-features.Item.bzQGbVM27K0Q3UQg
       - level: 20
         name: Domination
-        uuid: Compendium.pf1spheres.class-features.zFbVRVN7YLR1TN7g
+        uuid: Compendium.pf1spheres.class-features.Item.zFbVRVN7YLR1TN7g
   savingThrows:
     fort:
       value: low
@@ -155,7 +157,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class

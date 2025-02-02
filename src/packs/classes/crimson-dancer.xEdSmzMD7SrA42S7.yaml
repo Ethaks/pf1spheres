@@ -11,16 +11,18 @@ name: Crimson Dancer
 sort: 0
 system:
   alignment: ""
-  armorProf:
-    custom: []
-    value: []
+  armorProf: []
   bab: high
   changeFlags:
     heavyArmorFullSpeed: false
+    immuneToMorale: false
     loseDexToAC: false
+    lowLightVision: false
     mediumArmorFullSpeed: false
     noHeavyEncumbrance: false
     noMediumEncumbrance: false
+    seeInDarkness: false
+    seeInvisibility: false
   changes: []
   classSkills:
     acr: false
@@ -60,8 +62,10 @@ system:
     sur: true
     swm: true
     umd: false
+  contextNotes: []
   customHD: ""
   description:
+    instructions: ""
     unidentified: ""
     value: >
       <p>&#8220;All that exists can end; and all that withers can have its life
@@ -115,76 +119,74 @@ system:
     dictionary: {}
   hd: 10
   hp: 8
-  languages:
-    custom: []
-    value: []
+  languages: []
   level: 1
   links:
     children: []
     classAssociations:
       - level: 1
         name: Weapon and Armor Proficiency (Crimson Dancer)
-        uuid: Compendium.pf1spheres.class-features.pp3m5p68XwPt4s4Z
+        uuid: Compendium.pf1spheres.class-features.Item.pp3m5p68XwPt4s4Z
       - level: 1
         name: Casting (Crimson Dancer)
-        uuid: Compendium.pf1spheres.class-features.fVJ3KZy5kWuXS6uA
+        uuid: Compendium.pf1spheres.class-features.Item.fVJ3KZy5kWuXS6uA
       - level: 1
         name: Spell Pool (Crimson Dancer)
-        uuid: Compendium.pf1spheres.class-features.xiUw6AJZTDXK5hAJ
+        uuid: Compendium.pf1spheres.class-features.Item.xiUw6AJZTDXK5hAJ
       - level: 1
         name: Blended Training (Crimson Dancer)
-        uuid: Compendium.pf1spheres.class-features.zL64Ty38dyuGYYG9
+        uuid: Compendium.pf1spheres.class-features.Item.zL64Ty38dyuGYYG9
       - level: 1
         name: Bloodletting
-        uuid: Compendium.pf1spheres.class-features.M4IVntTr8kxBZOLG
+        uuid: Compendium.pf1spheres.class-features.Item.M4IVntTr8kxBZOLG
       - level: 1
         name: Hemomancy
-        uuid: Compendium.pf1spheres.class-features.TTJWTf3nb6lyxlzd
+        uuid: Compendium.pf1spheres.class-features.Item.TTJWTf3nb6lyxlzd
       - level: 1
         name: Vitae
-        uuid: Compendium.pf1spheres.class-features.P3BYMH4knqiLxqPo
+        uuid: Compendium.pf1spheres.class-features.Item.P3BYMH4knqiLxqPo
       - level: 1
         name: Autocautery
-        uuid: Compendium.pf1spheres.class-features.PHUdhXwz9h1NxNk4
+        uuid: Compendium.pf1spheres.class-features.Item.PHUdhXwz9h1NxNk4
       - level: 1
         name: Hemolytic Arts
-        uuid: Compendium.pf1spheres.class-features.DGRkuU1BjoszxiRs
+        uuid: Compendium.pf1spheres.class-features.Item.DGRkuU1BjoszxiRs
       - level: 1
         name: The Crimson Reaper
-        uuid: Compendium.pf1spheres.class-features.0gIvr1HPwlKgTWBy
+        uuid: Compendium.pf1spheres.class-features.Item.0gIvr1HPwlKgTWBy
       - level: 1
         name: The Scarlet Dancer
-        uuid: Compendium.pf1spheres.class-features.a3rpVRJTY4YwTh5R
+        uuid: Compendium.pf1spheres.class-features.Item.a3rpVRJTY4YwTh5R
       - level: 2
         name: Burst
-        uuid: Compendium.pf1spheres.class-features.mLSBTXNZhlyRkGhv
+        uuid: Compendium.pf1spheres.class-features.Item.mLSBTXNZhlyRkGhv
       - level: 3
         name: Bloodthirst
-        uuid: Compendium.pf1spheres.class-features.neZtmzQJei0UQ5jL
+        uuid: Compendium.pf1spheres.class-features.Item.neZtmzQJei0UQ5jL
       - level: 3
         name: Crimson Path
-        uuid: Compendium.pf1spheres.class-features.FfKUf5K5gVeth9tl
+        uuid: Compendium.pf1spheres.class-features.Item.FfKUf5K5gVeth9tl
       - level: 4
         name: Voracity
-        uuid: Compendium.pf1spheres.class-features.I9ATuz7hOnrvQ1CA
+        uuid: Compendium.pf1spheres.class-features.Item.I9ATuz7hOnrvQ1CA
       - level: 5
         name: Blood Identification
-        uuid: Compendium.pf1spheres.class-features.qyMBUzF9Z4e0GRMg
+        uuid: Compendium.pf1spheres.class-features.Item.qyMBUzF9Z4e0GRMg
       - level: 5
         name: Empowered Hemomancy
-        uuid: Compendium.pf1spheres.class-features.M4pqzRDiz6zmxzSd
+        uuid: Compendium.pf1spheres.class-features.Item.M4pqzRDiz6zmxzSd
       - level: 7
         name: Decimation
-        uuid: Compendium.pf1spheres.class-features.gRHLOItoBzqTzziC
+        uuid: Compendium.pf1spheres.class-features.Item.gRHLOItoBzqTzziC
       - level: 8
         name: Improved Blood Control
-        uuid: Compendium.pf1spheres.class-features.EalZ3AwlyTfrP9dF
+        uuid: Compendium.pf1spheres.class-features.Item.EalZ3AwlyTfrP9dF
       - level: 11
         name: Eternal Body
-        uuid: Compendium.pf1spheres.class-features.YjLsipQyH1w4sY8q
+        uuid: Compendium.pf1spheres.class-features.Item.YjLsipQyH1w4sY8q
       - level: 14
         name: Eat Pain
-        uuid: Compendium.pf1spheres.class-features.U62xqfVYJfh9TUzl
+        uuid: Compendium.pf1spheres.class-features.Item.U62xqfVYJfh9TUzl
   savingThrows:
     fort:
       value: high
@@ -198,7 +200,5 @@ system:
   tag: ""
   tags: []
   wealth: ""
-  weaponProf:
-    custom: []
-    value: []
+  weaponProf: []
 type: class
