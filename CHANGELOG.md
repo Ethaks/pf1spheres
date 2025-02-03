@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.9.0](https://github.com/Ethaks/pf1spheres/compare/v0.8.0...v0.9.0) (2025-02-03)
+
+
+### Features
+
+* add PAM/OAM configuration and rollData shortcuts ([2bb772e](https://github.com/Ethaks/pf1spheres/commit/2bb772efa2801309de79ff43421b155ff8eefa6d))
+* exclude disabled talents completely from talent counts ([0c5e3c4](https://github.com/Ethaks/pf1spheres/commit/0c5e3c43104932db133ae08a2a8772c0c920c862))
+
+
+### Bug Fixes
+
+* adjust source details and info handling ([49b4b81](https://github.com/Ethaks/pf1spheres/commit/49b4b8197bc09673802dac2fa05628f3a4e7ce4d))
+* make spheres tab scrollable ([2727e0f](https://github.com/Ethaks/pf1spheres/commit/2727e0f2db43c4ba977e73a6c08748d0ce071e45))
+
 ## [0.8.0](https://github.com/Ethaks/pf1spheres/compare/v0.7.0...v0.8.0) (2024-06-19)
 
 
